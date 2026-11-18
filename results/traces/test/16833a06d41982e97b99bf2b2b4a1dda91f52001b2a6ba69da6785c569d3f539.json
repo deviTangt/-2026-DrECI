@@ -1,0 +1,61 @@
+{
+  "input_hash": "16833a06d41982e97b99bf2b2b4a1dda91f52001b2a6ba69da6785c569d3f539",
+  "sample_id": "ESC-CSV-06762",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "sparked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "97f6a0884aa6ef312278e87c7d9e746878a46eca6ed7aa39a0a5dec0bb3ebc7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "97f6a0884aa6ef312278e87c7d9e746878a46eca6ed7aa39a0a5dec0bb3ebc7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4c361d57d7d68100ae0dc4434805394c48303d13c7acb881e20461fc3888ee98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "74d931461f35a19c406d368162b05f634a72fd62c8d7861086b35901236b7e69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fd780a6a011f049dc3d0420b91bc2a4e3933e7f506ecbc53d3f74d8be211e5f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangland\",\"territorial\",\"sparked\",\"shooting\"],\"target_related\":[\"shooting\",\"sparked\",\"struck\",\"moment\"],\"mediators\":[\"shooting\",\"sparked\"]}"
+    },
+    "indirect": {
+      "call_id": "c6e5ac64217f77da39f3c0e61be43c0c4ee4f2cd4bb00e3a2b07f8f7df976869",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"'beef' sparked the shooting; shooting is the event 'which' refers to, so beef implicitly caused it via 'sparked' (chain beef->shooting).\"}"
+    }
+  },
+  "call_ids": [
+    "97f6a0884aa6ef312278e87c7d9e746878a46eca6ed7aa39a0a5dec0bb3ebc7f",
+    "97f6a0884aa6ef312278e87c7d9e746878a46eca6ed7aa39a0a5dec0bb3ebc7f",
+    "4c361d57d7d68100ae0dc4434805394c48303d13c7acb881e20461fc3888ee98",
+    "74d931461f35a19c406d368162b05f634a72fd62c8d7861086b35901236b7e69",
+    "fd780a6a011f049dc3d0420b91bc2a4e3933e7f506ecbc53d3f74d8be211e5f6",
+    "c6e5ac64217f77da39f3c0e61be43c0c4ee4f2cd4bb00e3a2b07f8f7df976869"
+  ],
+  "elapsed_s": 4.730852842330933
+}

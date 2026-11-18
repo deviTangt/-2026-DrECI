@@ -1,0 +1,63 @@
+{
+  "input_hash": "de7da746f148fe9de0849eeb2ce341e6b2c0be02dc5adab0bea31025201aef74",
+  "sample_id": "ESC-CSV-09788",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "fire",
+    "bomb",
+    "bank",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "db9e94e00531c34791a2484961ea3d299bee2b581b51576863b18dddd3711ced",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "db9e94e00531c34791a2484961ea3d299bee2b581b51576863b18dddd3711ced",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d5ff351f846769bf1f3643c995520052a87a80beb8da42fdcc6e92332d291c8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ebee45faaf5bd87b62416ebcf2a3113e0ac2a0ee45437bc09aa77a9ca5bc033d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "3a64d09e359f7eb835a15424eb23263bb70a635e001ec8f22231bd985dd177a4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"bank\",\"bomb\",\"fire\"],\"target_related\":[\"fire\",\"bomb\",\"bank\",\"Greek\"],\"mediators\":[\"fire\",\"bomb\",\"bank\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "81ef1dc814e9e6443920b9eca258ea3b2f7bba8433a37a89597a67ab877db936",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Bomb hits bank during Greek riots; the resulting fire caused three deaths, forming chain riots->bomb/fire->dead.\"}"
+    }
+  },
+  "call_ids": [
+    "db9e94e00531c34791a2484961ea3d299bee2b581b51576863b18dddd3711ced",
+    "db9e94e00531c34791a2484961ea3d299bee2b581b51576863b18dddd3711ced",
+    "d5ff351f846769bf1f3643c995520052a87a80beb8da42fdcc6e92332d291c8a",
+    "ebee45faaf5bd87b62416ebcf2a3113e0ac2a0ee45437bc09aa77a9ca5bc033d",
+    "3a64d09e359f7eb835a15424eb23263bb70a635e001ec8f22231bd985dd177a4",
+    "81ef1dc814e9e6443920b9eca258ea3b2f7bba8433a37a89597a67ab877db936"
+  ],
+  "elapsed_s": 4.810225248336792
+}

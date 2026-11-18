@@ -1,0 +1,62 @@
+{
+  "input_hash": "944ea626ee3f195c8046eb92620a36344381d200bfe75689820fc3acd15fe80b",
+  "sample_id": "ESC-CSV-09648",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protest",
+    "strike",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5cf080949d5585038e8b81f00a6f2cc608bb0474632e24222cd8513a68045e90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5cf080949d5585038e8b81f00a6f2cc608bb0474632e24222cd8513a68045e90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d005da77306a77c584bd8c5e07d5ddbbdf14714eae5929eb6b29c33fc0dd7878",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5d1cd11903fc032e0a7c6dd04ed2ffc39d47eab947205dbe8cc545e9cc646b67",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ce92402d7c8ab8978147140d959df64e0860a2f6003a56e203c245645b6317a5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"taxes\",\"spending\",\"protest\",\"strike\",\"Greece\",\"loan\",\"defaulting\"],\"target_related\":[\"die\",\"bank\",\"Greek\",\"protest\",\"strike\",\"Greece\"],\"mediators\":[\"protest\",\"strike\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "3c98f8390a0c81d500c2af00d34e78877653afb7384b74f46579fda9041fa7a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Spending cuts demanded by IMF provoked protests; the nationwide strike/protest over cuts escalated into riots, so cuts caused riots via protest/strike.\"}"
+    }
+  },
+  "call_ids": [
+    "5cf080949d5585038e8b81f00a6f2cc608bb0474632e24222cd8513a68045e90",
+    "5cf080949d5585038e8b81f00a6f2cc608bb0474632e24222cd8513a68045e90",
+    "d005da77306a77c584bd8c5e07d5ddbbdf14714eae5929eb6b29c33fc0dd7878",
+    "5d1cd11903fc032e0a7c6dd04ed2ffc39d47eab947205dbe8cc545e9cc646b67",
+    "ce92402d7c8ab8978147140d959df64e0860a2f6003a56e203c245645b6317a5",
+    "3c98f8390a0c81d500c2af00d34e78877653afb7384b74f46579fda9041fa7a1"
+  ],
+  "elapsed_s": 5.418320894241333
+}

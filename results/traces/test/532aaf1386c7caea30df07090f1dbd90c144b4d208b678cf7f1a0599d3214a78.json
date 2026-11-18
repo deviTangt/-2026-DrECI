@@ -1,0 +1,76 @@
+{
+  "input_hash": "532aaf1386c7caea30df07090f1dbd90c144b4d208b678cf7f1a0599d3214a78",
+  "sample_id": "ESC-CSV-04521",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "jewellery store",
+    "Paris",
+    "Monday",
+    "shop window",
+    "making off",
+    "€2 million",
+    "booty",
+    "police source",
+    "Ram - raiders",
+    "ploughed",
+    "vehicle",
+    "upmarket jewellery boutique",
+    "Place Vendôme",
+    "loot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f89331dee3192a4d13b43347b6bd568cd919bb583e90a506a87f8a59bd277cea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f89331dee3192a4d13b43347b6bd568cd919bb583e90a506a87f8a59bd277cea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6196dedae03b05f4208641c7d428db9fb71aa53b17307d4cbc2fd54a5dab4b33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dd3f8c4c787e956613ed074ab60a6179e6f5334f41d9049cbc151fa759253116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c9cc1acd520337711710ebbefc43a5144202c0d18d07a4571344f0abd9512fba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"Paris\",\"Monday\",\"shop window\",\"making off\",\"€2 million\",\"booty\",\"police source\",\"Ram - raiders\",\"ploughed\",\"vehicle\",\"upmarket jewellery boutique\",\"Place Vendôme\",\"dramatic dawn robbery\",\"loot\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"Paris\",\"Monday\",\"shop window\",\"making off\",\"€2 million\",\"booty\",\"police source\",\"Ram - raiders\",\"ploughed\",\"vehicle\",\"upmarket jewellery boutique\",\"Place Vendôme\",\"dramatic dawn\",\"loot\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"Paris\",\"Monday\",\"shop window\",\"making off\",\"€2 million\",\"booty\",\"police source\",\"Ram - raiders\",\"ploughed\",\"vehicle\",\"upmarket jewellery boutique\",\"Place Vendôme\",\"loot\"]}"
+    },
+    "indirect": {
+      "call_id": "6ae41624885b075c681924b529676ba277b77e1446547d5ba08526988d81bc7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Smashing the shop window (X) enables the ram-raiders to make off with loot, i.e., commit the robbery (Y); common-sense causal order, and 'smashing' corefers with 'rammed/ploughed'.\"}"
+    }
+  },
+  "call_ids": [
+    "f89331dee3192a4d13b43347b6bd568cd919bb583e90a506a87f8a59bd277cea",
+    "f89331dee3192a4d13b43347b6bd568cd919bb583e90a506a87f8a59bd277cea",
+    "6196dedae03b05f4208641c7d428db9fb71aa53b17307d4cbc2fd54a5dab4b33",
+    "dd3f8c4c787e956613ed074ab60a6179e6f5334f41d9049cbc151fa759253116",
+    "c9cc1acd520337711710ebbefc43a5144202c0d18d07a4571344f0abd9512fba",
+    "6ae41624885b075c681924b529676ba277b77e1446547d5ba08526988d81bc7d"
+  ],
+  "elapsed_s": 6.038019895553589
+}

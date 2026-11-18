@@ -1,0 +1,66 @@
+{
+  "input_hash": "2513278535a1f2f217aa62a4354ca0e7d0a0575d19c024c74d6e17c97120c7b1",
+  "sample_id": "ESC-CSV-09859",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "buildings",
+    "tax",
+    "officials",
+    "regional",
+    "authorities",
+    "fire",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7e9d03843fcdd3efafa869603190238eca58f293f94f488498217a32afb8ec04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7e9d03843fcdd3efafa869603190238eca58f293f94f488498217a32afb8ec04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ca42c6047a737245683a63489858c2c443d6add28b4ef654091753d8c66f7bd1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7f0ef16d8f4c76324227d1c77ec6d1a40f6da5892e4ce516be360bd6b143ff09",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "52b2f31fb716eca68be1231b2df0d3d6500fe16f681f1a710588935eafc0f415",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"bank\",\"bomb\",\"buildings\",\"tax\",\"officials\",\"regional\",\"authorities\",\"fire\",\"dead\"],\"target_related\":[\"buildings\",\"tax\",\"officials\",\"regional\",\"authorities\",\"fire\",\"dead\"],\"mediators\":[\"buildings\",\"tax\",\"officials\",\"regional\",\"authorities\",\"fire\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "833ecb1ad5a2fbb946d32674e60c5c01366b8d8abf15cdedb5e9bd21d30aae84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occurred, and during them a bomb hit a bank, causing buildings to catch fire; common sense links riot violence to the fires.\"}"
+    }
+  },
+  "call_ids": [
+    "7e9d03843fcdd3efafa869603190238eca58f293f94f488498217a32afb8ec04",
+    "7e9d03843fcdd3efafa869603190238eca58f293f94f488498217a32afb8ec04",
+    "ca42c6047a737245683a63489858c2c443d6add28b4ef654091753d8c66f7bd1",
+    "7f0ef16d8f4c76324227d1c77ec6d1a40f6da5892e4ce516be360bd6b143ff09",
+    "52b2f31fb716eca68be1231b2df0d3d6500fe16f681f1a710588935eafc0f415",
+    "833ecb1ad5a2fbb946d32674e60c5c01366b8d8abf15cdedb5e9bd21d30aae84"
+  ],
+  "elapsed_s": 5.036130428314209
+}

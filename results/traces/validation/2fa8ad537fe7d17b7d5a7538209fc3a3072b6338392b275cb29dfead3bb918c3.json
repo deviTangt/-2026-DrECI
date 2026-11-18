@@ -1,0 +1,61 @@
+{
+  "input_hash": "2fa8ad537fe7d17b7d5a7538209fc3a3072b6338392b275cb29dfead3bb918c3",
+  "sample_id": "ESC-CSV-02277",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3b4d618df5ba292ccc0c002c8786399bea9ef2dc4e88a2dbcfd9e1742a955229",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3b4d618df5ba292ccc0c002c8786399bea9ef2dc4e88a2dbcfd9e1742a955229",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a49f581feac2c426aaeb3c48e5665afcdd2a398e88c49051908eb1ebafa6a641",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2fb7d91a0de113eb2a49ec68eb87f8b3853f3bc60ee31715d9ca19d75650b0fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae701ff691b21101f1d3341f47891ff69233f19bd52f96d29c11f95948dab1b2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"accountant\",\"shotgun\",\"office\",\"bosses\",\"fire\"],\"target_related\":[\"bosses\",\"fire\",\"receptionist\",\"killing\"],\"mediators\":[\"bosses\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "545b9cb040097d1cff9c27d34fb1f4a6edac97e54f7e1f593ea26df857681ed9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting bosses naturally causes wounding; the text says he opened fire on his bosses, wounding both, so shoot precedes and causes wounding.\"}"
+    }
+  },
+  "call_ids": [
+    "3b4d618df5ba292ccc0c002c8786399bea9ef2dc4e88a2dbcfd9e1742a955229",
+    "3b4d618df5ba292ccc0c002c8786399bea9ef2dc4e88a2dbcfd9e1742a955229",
+    "a49f581feac2c426aaeb3c48e5665afcdd2a398e88c49051908eb1ebafa6a641",
+    "2fb7d91a0de113eb2a49ec68eb87f8b3853f3bc60ee31715d9ca19d75650b0fd",
+    "ae701ff691b21101f1d3341f47891ff69233f19bd52f96d29c11f95948dab1b2",
+    "545b9cb040097d1cff9c27d34fb1f4a6edac97e54f7e1f593ea26df857681ed9"
+  ],
+  "elapsed_s": 6.807751893997192
+}

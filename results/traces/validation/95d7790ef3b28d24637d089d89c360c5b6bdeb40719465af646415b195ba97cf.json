@@ -1,0 +1,63 @@
+{
+  "input_hash": "95d7790ef3b28d24637d089d89c360c5b6bdeb40719465af646415b195ba97cf",
+  "sample_id": "ESC-CSV-02897",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "Fatal Shooting",
+    "Brooklyn",
+    "Teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b6330baac7515f833cdae527fbb5a0a6a4f1ee66782203a8fa79928c1a2deb65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b6330baac7515f833cdae527fbb5a0a6a4f1ee66782203a8fa79928c1a2deb65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2549bfaadb14e80fd2ea9f80d7bc4f826a67256d5e8c1f55cabde82db2b237cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9bdd7988e192a605aec9af3ace6a132db50da304c5e0c6166c65e7fedcedbab6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f448a4b22a805920ac088ee8174e4ca07737a2110a6823172aedea9672b2b5b2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officers\",\"killed\",\"Kimani Gray\",\"Brooklyn\",\"gun\",\"cops\",\"NYPD\",\"Fatal Shooting\",\"Teen\"],\"target_related\":[\"Dozens\",\"NYPD\",\"Fatal Shooting\",\"Brooklyn\",\"Teen\"],\"mediators\":[\"NYPD\",\"Fatal Shooting\",\"Brooklyn\",\"Teen\"]}"
+    },
+    "indirect": {
+      "call_id": "4e737801c154a5693e0db27effe948b9b787f26ce912291e90af6ede3f127cc6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Dozens 'Riot' Over NYPD's Fatal Shooting; the fatal shooting provokes/triggers the riot, and shooting precedes riot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "b6330baac7515f833cdae527fbb5a0a6a4f1ee66782203a8fa79928c1a2deb65",
+    "b6330baac7515f833cdae527fbb5a0a6a4f1ee66782203a8fa79928c1a2deb65",
+    "2549bfaadb14e80fd2ea9f80d7bc4f826a67256d5e8c1f55cabde82db2b237cc",
+    "9bdd7988e192a605aec9af3ace6a132db50da304c5e0c6166c65e7fedcedbab6",
+    "f448a4b22a805920ac088ee8174e4ca07737a2110a6823172aedea9672b2b5b2",
+    "4e737801c154a5693e0db27effe948b9b787f26ce912291e90af6ede3f127cc6"
+  ],
+  "elapsed_s": 4.0275115966796875
+}

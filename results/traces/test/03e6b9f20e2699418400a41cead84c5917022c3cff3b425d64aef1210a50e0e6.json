@@ -1,0 +1,64 @@
+{
+  "input_hash": "03e6b9f20e2699418400a41cead84c5917022c3cff3b425d64aef1210a50e0e6",
+  "sample_id": "ESC-CSV-06555",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "second-degree murder",
+    "first-degree assault",
+    "death",
+    "Zurana Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a173dbf39217c04de0d206f7ebf14f8f7d44ac2a445b69d28bf8714c55a18bcb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a173dbf39217c04de0d206f7ebf14f8f7d44ac2a445b69d28bf8714c55a18bcb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d71251d18aea48f7bae0755ca808e72016de918ab10677bee2826e0bbcdc9928",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4772d810bfc72dd6d91847c22bb8aa3088b7948b0d3f49d4d93c08ed3a004467",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9591b3a1ed481dd7c0f32274b47432eedfcf3d6fd8bbd609a31cdef5938eb48c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Brownsville\",\"mother\",\"12\",\"death\",\"Zurana Horton\",\"second-degree murder\",\"first-degree assault\"],\"target_related\":[\"Andrew Lopez\",\"jury\",\"verdict\",\"second-degree murder\",\"first-degree assault\",\"death\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"second-degree murder\",\"first-degree assault\",\"death\",\"Zurana Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "5964668de8ff0bc73f7df5bf64485990f6911e1c44e57e92fe4d29b6e82747fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: murdering Zurana Horton led to Andrew Lopez being found guilty of second-degree murder; the killing precedes and causes the guilty verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "a173dbf39217c04de0d206f7ebf14f8f7d44ac2a445b69d28bf8714c55a18bcb",
+    "a173dbf39217c04de0d206f7ebf14f8f7d44ac2a445b69d28bf8714c55a18bcb",
+    "d71251d18aea48f7bae0755ca808e72016de918ab10677bee2826e0bbcdc9928",
+    "4772d810bfc72dd6d91847c22bb8aa3088b7948b0d3f49d4d93c08ed3a004467",
+    "9591b3a1ed481dd7c0f32274b47432eedfcf3d6fd8bbd609a31cdef5938eb48c",
+    "5964668de8ff0bc73f7df5bf64485990f6911e1c44e57e92fe4d29b6e82747fb"
+  ],
+  "elapsed_s": 4.548238754272461
+}

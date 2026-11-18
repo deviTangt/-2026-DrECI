@@ -1,0 +1,64 @@
+{
+  "input_hash": "97c13dd2a20a52195e2b44987c65e17bb6f2c5d017e1cf230c36169f9e0a27ed",
+  "sample_id": "ESC-CSV-02098",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "Troy",
+    "accounting firm",
+    "managing partners",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1fd5dab700882aa7c6de3e351814fd7f6a278e206c923a3f748dde6ed03f0ba6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1fd5dab700882aa7c6de3e351814fd7f6a278e206c923a3f748dde6ed03f0ba6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "61dbafeb75ea15e48db05918eee25f16a6a29b264eb2cff2f3bb631331644189",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "09af0ce27da6d021d2e1fe1b7e6522f578b2a1a07d6eb7421c0f2676fcfd5975",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5d5414b22eb89346e9f2d70f64afea710cec549c0ab977086832c3cdc26a25dc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"Troy\",\"receptionist\",\"managing partners\",\"wounded\",\"April 2007\",\"Anthony LaCalamita III\"],\"target_related\":[\"receptionist\",\"Madeline Kafoury\",\"shooting\",\"Troy accounting firm\",\"wounded\",\"managing partners\"],\"mediators\":[\"receptionist\",\"Troy\",\"accounting firm\",\"managing partners\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "8415e159994ab605f8b592ed433cd9611ead63b94c1cda2ca00476786bb9ac3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: shootings that left a receptionist dead—gunfire causes death, so shootings caused the death.\"}"
+    }
+  },
+  "call_ids": [
+    "1fd5dab700882aa7c6de3e351814fd7f6a278e206c923a3f748dde6ed03f0ba6",
+    "1fd5dab700882aa7c6de3e351814fd7f6a278e206c923a3f748dde6ed03f0ba6",
+    "61dbafeb75ea15e48db05918eee25f16a6a29b264eb2cff2f3bb631331644189",
+    "09af0ce27da6d021d2e1fe1b7e6522f578b2a1a07d6eb7421c0f2676fcfd5975",
+    "5d5414b22eb89346e9f2d70f64afea710cec549c0ab977086832c3cdc26a25dc",
+    "8415e159994ab605f8b592ed433cd9611ead63b94c1cda2ca00476786bb9ac3e"
+  ],
+  "elapsed_s": 5.811472177505493
+}

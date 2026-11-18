@@ -1,0 +1,63 @@
+{
+  "input_hash": "9569c03a97060aab0a01877acab691dc84cb2bea5dd6c49b0fb642cb7feb486b",
+  "sample_id": "ESC-CSV-09708",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police",
+    "said",
+    "12",
+    "people"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fb4613f4f91f72397e40beda7f3c83216cb5cca3d30ce7947c5da8f70296670d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fb4613f4f91f72397e40beda7f3c83216cb5cca3d30ce7947c5da8f70296670d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df57ba22491e8f8f50f4a8672d81784ea171e022a79f9ae767c46c309efdd131",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d02f148ee97c5094db20f9fe71e8d5b3df73db17533ffa460d6ddb0529cde71d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a7965ecc2d50f8f6a01dacf240348b6b94a8ccd74c1e8b2cd9386965b6242b87",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"said\",\"12\",\"people\",\"injured\"],\"target_related\":[\"Police\",\"said\",\"12\",\"people\",\"riots\"],\"mediators\":[\"Police\",\"said\",\"12\",\"people\"]}"
+    },
+    "indirect": {
+      "call_id": "8bfe170698ecd2a262bb8107a985838530c4511ae6fc9c45a5116b04644df9ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occur and people are injured as a result; common sense holds that riots cause injuries, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "fb4613f4f91f72397e40beda7f3c83216cb5cca3d30ce7947c5da8f70296670d",
+    "fb4613f4f91f72397e40beda7f3c83216cb5cca3d30ce7947c5da8f70296670d",
+    "df57ba22491e8f8f50f4a8672d81784ea171e022a79f9ae767c46c309efdd131",
+    "d02f148ee97c5094db20f9fe71e8d5b3df73db17533ffa460d6ddb0529cde71d",
+    "a7965ecc2d50f8f6a01dacf240348b6b94a8ccd74c1e8b2cd9386965b6242b87",
+    "8bfe170698ecd2a262bb8107a985838530c4511ae6fc9c45a5116b04644df9ee"
+  ],
+  "elapsed_s": 4.635997295379639
+}

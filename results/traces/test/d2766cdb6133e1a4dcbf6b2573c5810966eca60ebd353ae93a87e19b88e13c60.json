@@ -1,0 +1,62 @@
+{
+  "input_hash": "d2766cdb6133e1a4dcbf6b2573c5810966eca60ebd353ae93a87e19b88e13c60",
+  "sample_id": "ESC-CSV-06435",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Lopez",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3096ff07c12673905f8e89108a4158d713dcd017c9e726e3d941050b9763c91c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3096ff07c12673905f8e89108a4158d713dcd017c9e726e3d941050b9763c91c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9d49c212d66b24c67bb33c8c577b4df8e42e8702c1d5bc4988e62e50035d8829",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d377705fc1f4335b522904baaf031f4c5bf6fa00c5500b7714e359311e5298de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0462903a2255721660c5404534db2bb03b1004954fa5b0a44edd9bc66b9c51fa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Brooklyn\",\"Mom\",\"Lopez\",\"murder\"],\"target_related\":[\"Teen\",\"half-brothers\",\"17\",\"22\",\"Lopez\",\"murder\"],\"mediators\":[\"Teen\",\"Lopez\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "9294dd9d5bd2a1d5da4f6fa8f29a02b2987c804e6e488e0cacaa3973553757de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting occurs before and leads to the arrest of the teen charged with murder, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "3096ff07c12673905f8e89108a4158d713dcd017c9e726e3d941050b9763c91c",
+    "3096ff07c12673905f8e89108a4158d713dcd017c9e726e3d941050b9763c91c",
+    "9d49c212d66b24c67bb33c8c577b4df8e42e8702c1d5bc4988e62e50035d8829",
+    "d377705fc1f4335b522904baaf031f4c5bf6fa00c5500b7714e359311e5298de",
+    "0462903a2255721660c5404534db2bb03b1004954fa5b0a44edd9bc66b9c51fa",
+    "9294dd9d5bd2a1d5da4f6fa8f29a02b2987c804e6e488e0cacaa3973553757de"
+  ],
+  "elapsed_s": 5.404247522354126
+}

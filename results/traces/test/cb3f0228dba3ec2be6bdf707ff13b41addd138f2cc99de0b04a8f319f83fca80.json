@@ -1,0 +1,62 @@
+{
+  "input_hash": "cb3f0228dba3ec2be6bdf707ff13b41addd138f2cc99de0b04a8f319f83fca80",
+  "sample_id": "ESC-CSV-04086",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fell",
+    "gully"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "43a3b6ceb1a93cbd5969db301bb08186ac5d32c11d2dbf61fc5e3eefd5c51ca7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "43a3b6ceb1a93cbd5969db301bb08186ac5d32c11d2dbf61fc5e3eefd5c51ca7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b19711bc764f269f1fb6ec5111a8a2de8df4315b86464f6462714c95b3fcd590",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "db06fc1b66c85ffc715364c8281929a3e266674bc85afcf2475c2b8b7e7179e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "07024169b27f7a1b57111b7c766f75be2c6ce9d75fde35d69e84145592d2ada8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fell\",\"gully\",\"steep\",\"icy\"],\"target_related\":[\"man\",\"Friday\",\"Mt Cook National Park\",\"fell\",\"gully\"],\"mediators\":[\"man\",\"fell\",\"gully\"]}"
+    },
+    "indirect": {
+      "call_id": "9f9e26b25562c8ec0b41287127c09ae09ee4f9adab142d54e9474bcd2763533f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Slipping caused the fall down the gully, and the fall led to his death; common-sense chain: slipped -> fell -> dies.\"}"
+    }
+  },
+  "call_ids": [
+    "43a3b6ceb1a93cbd5969db301bb08186ac5d32c11d2dbf61fc5e3eefd5c51ca7",
+    "43a3b6ceb1a93cbd5969db301bb08186ac5d32c11d2dbf61fc5e3eefd5c51ca7",
+    "b19711bc764f269f1fb6ec5111a8a2de8df4315b86464f6462714c95b3fcd590",
+    "db06fc1b66c85ffc715364c8281929a3e266674bc85afcf2475c2b8b7e7179e8",
+    "07024169b27f7a1b57111b7c766f75be2c6ce9d75fde35d69e84145592d2ada8",
+    "9f9e26b25562c8ec0b41287127c09ae09ee4f9adab142d54e9474bcd2763533f"
+  ],
+  "elapsed_s": 4.678998947143555
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "e0208a3cfb1b805f4a1bfd3c4916895da505ea7ecd6ad4cfd946d41bd655f951",
+  "sample_id": "ESC-CSV-02538",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "angry",
+    "teens",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e22c674bb74054e67e0b89de18f61c0a2d7357d78fafa613faf54835e49289be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e22c674bb74054e67e0b89de18f61c0a2d7357d78fafa613faf54835e49289be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "940c6df5bfeb911f26aa7d7e46ddd1b4eb68a1a38c871941e7e0b34da500b984",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "87028eaf5d40dd29b9aeec32b65f0da52d76ca7a7bee79906db63e1cdfca4418",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "262e41a5e1af9a0b1a6394569201d48e48455a4116ae709b5ccffb8d22250ce3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"battle\",\"cops\",\"Brooklyn\",\"streets\",\"rioting\",\"shot\",\"back\",\"angry\",\"teens\",\"arrested\"],\"target_related\":[\"cops\",\"angry\",\"teens\",\"erupted\",\"East Flatbush\",\"arrested\"],\"mediators\":[\"cops\",\"angry\",\"teens\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "d911cd2eb6b3a56761e433445e98b04d4bd3594ec3161969dd49e2ab84ac8028",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Enraged protesters/angry teens being enraged plausibly leads them to fight cops; rage precedes and causes the fights.\"}"
+    }
+  },
+  "call_ids": [
+    "e22c674bb74054e67e0b89de18f61c0a2d7357d78fafa613faf54835e49289be",
+    "e22c674bb74054e67e0b89de18f61c0a2d7357d78fafa613faf54835e49289be",
+    "940c6df5bfeb911f26aa7d7e46ddd1b4eb68a1a38c871941e7e0b34da500b984",
+    "87028eaf5d40dd29b9aeec32b65f0da52d76ca7a7bee79906db63e1cdfca4418",
+    "262e41a5e1af9a0b1a6394569201d48e48455a4116ae709b5ccffb8d22250ce3",
+    "d911cd2eb6b3a56761e433445e98b04d4bd3594ec3161969dd49e2ab84ac8028"
+  ],
+  "elapsed_s": 10.986891269683838
+}

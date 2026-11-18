@@ -1,0 +1,64 @@
+{
+  "input_hash": "4923ae40d25bb38f0a7893604d4af02977a958ad318d46c892caa865aab63cd1",
+  "sample_id": "ESC-CSV-02272",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "LaCalamita",
+    "shotgun",
+    "shell",
+    "chamber",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4df07a1dddf569cde019a36a9bc8a727d4bb60ed607c836f0cf2a620d92a630c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4df07a1dddf569cde019a36a9bc8a727d4bb60ed607c836f0cf2a620d92a630c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "24989fcd8f7978105e288424534b88353c96b52bcc8c3cd449ff26a59f5dd367",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d4aeac0b26e549117adf74dd51bef096c098bc9a7a990c7684eec4570f170537",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "4b84ec8a58c0d79c32577f98a708e400eed08b17538e477b62e5751e5a9f7557",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"LaCalamita\",\"shell\",\"chamber\",\"police\"],\"target_related\":[\"LaCalamita\",\"shotgun\",\"shell\",\"chamber\",\"police\",\"hip\",\"area\",\"Steinberg\"],\"mediators\":[\"LaCalamita\",\"shotgun\",\"shell\",\"chamber\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "bb4468c21700556dc2b97148909fdb6d7404cc136bf5d0d6268650f0bfec105f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Firing the shotgun at Steinberg caused the shell to hit him in the hip; firing precedes and causes hitting by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4df07a1dddf569cde019a36a9bc8a727d4bb60ed607c836f0cf2a620d92a630c",
+    "4df07a1dddf569cde019a36a9bc8a727d4bb60ed607c836f0cf2a620d92a630c",
+    "24989fcd8f7978105e288424534b88353c96b52bcc8c3cd449ff26a59f5dd367",
+    "d4aeac0b26e549117adf74dd51bef096c098bc9a7a990c7684eec4570f170537",
+    "4b84ec8a58c0d79c32577f98a708e400eed08b17538e477b62e5751e5a9f7557",
+    "bb4468c21700556dc2b97148909fdb6d7404cc136bf5d0d6268650f0bfec105f"
+  ],
+  "elapsed_s": 8.329369068145752
+}

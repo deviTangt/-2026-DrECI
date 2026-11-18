@@ -1,0 +1,61 @@
+{
+  "input_hash": "8ac3727ac58b7868d4cd8b25dabaac3353307e9ff1c48336d1311ce4f0c61861",
+  "sample_id": "ESC-CSV-09771",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "striking"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "beaf48c4b664ec24b2db7116886022a6ca2a0312e9ee0a0f34110af26d220ff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "beaf48c4b664ec24b2db7116886022a6ca2a0312e9ee0a0f34110af26d220ff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6711d6020b2b4102192ec62d78d50cb07e86027ee5aa83cc7d82818368ced39b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8f08ec0031286766b9c31fa9cf51d7dc468056b5f0305e43d403f00799d1e075",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6fd083bbc1fe8ca46b871742b25fddb4ebc1f9220fd047fb36a2eed66e2c9a15",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"striking\",\"spending\",\"cuts\",\"brutal\"],\"target_related\":[\"police\",\"fought\",\"protesters\",\"striking\"],\"mediators\":[\"protesters\",\"striking\"]}"
+    },
+    "indirect": {
+      "call_id": "573e42d3ef54b3d3011082e8af914ecf81502ca6176be9f4b3cff4572be143da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters furious at cuts fought battles with police; fury (X) drives protesters (Z) who fight battles (Y), forming chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "beaf48c4b664ec24b2db7116886022a6ca2a0312e9ee0a0f34110af26d220ff5",
+    "beaf48c4b664ec24b2db7116886022a6ca2a0312e9ee0a0f34110af26d220ff5",
+    "6711d6020b2b4102192ec62d78d50cb07e86027ee5aa83cc7d82818368ced39b",
+    "8f08ec0031286766b9c31fa9cf51d7dc468056b5f0305e43d403f00799d1e075",
+    "6fd083bbc1fe8ca46b871742b25fddb4ebc1f9220fd047fb36a2eed66e2c9a15",
+    "573e42d3ef54b3d3011082e8af914ecf81502ca6176be9f4b3cff4572be143da"
+  ],
+  "elapsed_s": 4.541698932647705
+}

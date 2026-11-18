@@ -1,0 +1,64 @@
+{
+  "input_hash": "300fb8d4ba7338aa83ffc8ca92fcf55761cde9b6b971291b8e48b0e7b72704b8",
+  "sample_id": "ESC-CSV-04196",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "climber",
+    "Briton",
+    "New Zealand",
+    "mountain"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ae66a02f6c1411b7059fc2c9e0be92e193e6888e92024580b9451ca1f32b08b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ae66a02f6c1411b7059fc2c9e0be92e193e6888e92024580b9451ca1f32b08b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b137066aec450a2daebeba240914a45c773f72582ce5e76ba9a76b8d4a47a95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dd0cc10ac91804c4b90c3fb5ae348708d92ac95dd268e4bef3931d09a2c69cd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2edb4328d83170b13c3fa249ac87c54d184bdb1fa151b3e1216357e6bf3f3a98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"climber\",\"2,000ft\",\"mountain\",\"New Zealand\"],\"target_related\":[\"Briton\",\"New Zealand\",\"Aoraki Mount Cook National Park\"],\"mediators\":[\"British\",\"climber\",\"Briton\",\"New Zealand\",\"mountain\"]}"
+    },
+    "indirect": {
+      "call_id": "6d5c09d63a78b727c41b58b41c18392467ed97ea3a2dc3597c27f81729cfda94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling 2,000ft to his death: the fall occurs before and directly causes the climber's death, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "4ae66a02f6c1411b7059fc2c9e0be92e193e6888e92024580b9451ca1f32b08b",
+    "4ae66a02f6c1411b7059fc2c9e0be92e193e6888e92024580b9451ca1f32b08b",
+    "4b137066aec450a2daebeba240914a45c773f72582ce5e76ba9a76b8d4a47a95",
+    "dd0cc10ac91804c4b90c3fb5ae348708d92ac95dd268e4bef3931d09a2c69cd9",
+    "2edb4328d83170b13c3fa249ac87c54d184bdb1fa151b3e1216357e6bf3f3a98",
+    "6d5c09d63a78b727c41b58b41c18392467ed97ea3a2dc3597c27f81729cfda94"
+  ],
+  "elapsed_s": 3.8889474868774414
+}

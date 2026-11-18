@@ -1,0 +1,60 @@
+{
+  "input_hash": "ea473ba8329424c64668316f5a18c0cdb4b4cf44b09ed8983b629658214bace2",
+  "sample_id": "ESC-CSV-09717",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c1ef83f5c7e3453df41f911ca029c616ca1242e9fa9ef7eb35818ba90675b083",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c1ef83f5c7e3453df41f911ca029c616ca1242e9fa9ef7eb35818ba90675b083",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fe9f812ca323cd07f419fd66d086926d90a0732246e59dcde6e9474c3701ecfc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c8409479111cd3654ca6dc2bc9d7c0825c59e8f25025a9edebcf18960dc951fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "04a6f90d573036ddfb03c57d23983bbf1bcf277bc8bd1d4b6ca3e74bea010b6c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"riot police cordon\",\"Parliament\"],\"target_related\":[\"Police\",\"12 people\",\"riots\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "c1899834dd5d327aad43f24f0b524544bd3b4cfecc5598a0d8b31ba3e82273c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Demonstrators attempting to break through the police cordon led to clashes in which 12 people were injured; breaking through precedes and causes injuries.\"}"
+    }
+  },
+  "call_ids": [
+    "c1ef83f5c7e3453df41f911ca029c616ca1242e9fa9ef7eb35818ba90675b083",
+    "c1ef83f5c7e3453df41f911ca029c616ca1242e9fa9ef7eb35818ba90675b083",
+    "fe9f812ca323cd07f419fd66d086926d90a0732246e59dcde6e9474c3701ecfc",
+    "c8409479111cd3654ca6dc2bc9d7c0825c59e8f25025a9edebcf18960dc951fd",
+    "04a6f90d573036ddfb03c57d23983bbf1bcf277bc8bd1d4b6ca3e74bea010b6c",
+    "c1899834dd5d327aad43f24f0b524544bd3b4cfecc5598a0d8b31ba3e82273c4"
+  ],
+  "elapsed_s": 5.132977485656738
+}

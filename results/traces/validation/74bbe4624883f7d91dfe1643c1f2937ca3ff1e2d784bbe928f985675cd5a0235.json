@@ -1,0 +1,64 @@
+{
+  "input_hash": "74bbe4624883f7d91dfe1643c1f2937ca3ff1e2d784bbe928f985675cd5a0235",
+  "sample_id": "ESC-CSV-02572",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "enraged",
+    "clashes",
+    "cops",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0208f72490dc1f78720e502fe7939d5033283f35ba6806a1d6698575c83a9ee2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0208f72490dc1f78720e502fe7939d5033283f35ba6806a1d6698575c83a9ee2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9fe51eded870f8ee939586d1e51e3ae5a9dfa3a3b901479ed6bd12f550d9a06f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6aa18e9351fb93babf4bc32d7348dcdb1e4daa1a44c87de232c5cffabc6c4cbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "30e3e5ed8668cb9770c97394b8e12cb959f5e0530f8071546db626b04d96b3d1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"enraged\",\"fatal\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\",\"bricks\",\"bottles\",\"garbage\",\"clashes\",\"cops\"],\"target_related\":[\"Protesters\",\"enraged\",\"clashes\",\"cops\",\"Police\",\"crowd\",\"broke\",\"vigil\"],\"mediators\":[\"Protesters\",\"enraged\",\"clashes\",\"cops\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "3b7736a9124f119f7b2a9a4e5ff1dedd55cb9c2acb7a266b30e38387ded9e6ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'enraged over the fatal shooting' shows shooting caused protesters' fury; common sense: fatal shooting provokes furious reaction.\"}"
+    }
+  },
+  "call_ids": [
+    "0208f72490dc1f78720e502fe7939d5033283f35ba6806a1d6698575c83a9ee2",
+    "0208f72490dc1f78720e502fe7939d5033283f35ba6806a1d6698575c83a9ee2",
+    "9fe51eded870f8ee939586d1e51e3ae5a9dfa3a3b901479ed6bd12f550d9a06f",
+    "6aa18e9351fb93babf4bc32d7348dcdb1e4daa1a44c87de232c5cffabc6c4cbe",
+    "30e3e5ed8668cb9770c97394b8e12cb959f5e0530f8071546db626b04d96b3d1",
+    "3b7736a9124f119f7b2a9a4e5ff1dedd55cb9c2acb7a266b30e38387ded9e6ae"
+  ],
+  "elapsed_s": 8.484271764755249
+}

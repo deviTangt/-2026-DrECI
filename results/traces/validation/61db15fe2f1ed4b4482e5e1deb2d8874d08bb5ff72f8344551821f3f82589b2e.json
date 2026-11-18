@@ -1,0 +1,61 @@
+{
+  "input_hash": "61db15fe2f1ed4b4482e5e1deb2d8874d08bb5ff72f8344551821f3f82589b2e",
+  "sample_id": "ESC-CSV-02609",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fb2f7d133d4a5920953c07c7b9166414f01db9d35637d0386ba72143bf02e28b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fb2f7d133d4a5920953c07c7b9166414f01db9d35637d0386ba72143bf02e28b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d39a64a17260805ab2a39f4b77ec6905ad185ca1c19fcd634c9e2a9e74fec649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3df6193f45cd8dbd88835392130315806aed27f910266e595a6ce6f77588f8c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "685e31610fd710d0a8375ef8c7269504262e6bb0a256a9f01cb4ad371e7c6a3a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"Police\"],\"target_related\":[\"Police\",\"control\",\"crowd\"],\"mediators\":[\"crowd\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "e28efbc4bc01c4c35085dbf9f3a85237122a5ed7cdcec982377ac52169943354",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Hostile crowd caused police to struggle controlling it: hostile crowd -> police -> struggled, a causal chain through Z=Police.\"}"
+    }
+  },
+  "call_ids": [
+    "fb2f7d133d4a5920953c07c7b9166414f01db9d35637d0386ba72143bf02e28b",
+    "fb2f7d133d4a5920953c07c7b9166414f01db9d35637d0386ba72143bf02e28b",
+    "d39a64a17260805ab2a39f4b77ec6905ad185ca1c19fcd634c9e2a9e74fec649",
+    "3df6193f45cd8dbd88835392130315806aed27f910266e595a6ce6f77588f8c7",
+    "685e31610fd710d0a8375ef8c7269504262e6bb0a256a9f01cb4ad371e7c6a3a",
+    "e28efbc4bc01c4c35085dbf9f3a85237122a5ed7cdcec982377ac52169943354"
+  ],
+  "elapsed_s": 4.883547306060791
+}

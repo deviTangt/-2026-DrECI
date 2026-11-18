@@ -1,0 +1,61 @@
+{
+  "input_hash": "0dc271f00eb22c8d12110e4dca3b09b0aba412eacbfe6f5f7bd433d160c6139a",
+  "sample_id": "ESC-CSV-04420",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6d86effa1cecf390c8ec66d9e9fd2240e64431c86cc74530b1f92e92ab79fc15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6d86effa1cecf390c8ec66d9e9fd2240e64431c86cc74530b1f92e92ab79fc15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "43495417c2e9304cab719a2bfe4cd150d2c34e1581feec9ce5653bf9b5244292",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3b448a5d90d6803df179086fef76296c0d519c9bc8f8dd7eb3faeaff128c8eed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8552dd1bb1ee76d1b2a01fb9c6cd2d53ab5b633d5398559ae95cb32ced5262a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery\",\"store\",\"fleeing\",\"vehicle\",\"heist\",\"France\"],\"target_related\":[\"jewellery\",\"store\",\"Paris\",\"Casty\",\"Shop\",\"Stolen\"],\"mediators\":[\"jewellery\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "6f6e24ac7bd3faf6119d433c971a5c95c7beb1a925af7d118111ce6f0c109ea6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing a car into the store is the means by which the raid/heist is carried out; the smash precedes and causes the raid.\"}"
+    }
+  },
+  "call_ids": [
+    "6d86effa1cecf390c8ec66d9e9fd2240e64431c86cc74530b1f92e92ab79fc15",
+    "6d86effa1cecf390c8ec66d9e9fd2240e64431c86cc74530b1f92e92ab79fc15",
+    "43495417c2e9304cab719a2bfe4cd150d2c34e1581feec9ce5653bf9b5244292",
+    "3b448a5d90d6803df179086fef76296c0d519c9bc8f8dd7eb3faeaff128c8eed",
+    "8552dd1bb1ee76d1b2a01fb9c6cd2d53ab5b633d5398559ae95cb32ced5262a3",
+    "6f6e24ac7bd3faf6119d433c971a5c95c7beb1a925af7d118111ce6f0c109ea6"
+  ],
+  "elapsed_s": 5.040531873703003
+}

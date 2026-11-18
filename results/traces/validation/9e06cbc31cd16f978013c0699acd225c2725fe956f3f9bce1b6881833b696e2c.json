@@ -1,0 +1,60 @@
+{
+  "input_hash": "9e06cbc31cd16f978013c0699acd225c2725fe956f3f9bce1b6881833b696e2c",
+  "sample_id": "ESC-CSV-02492",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2d3ee83a5c2eaa3f1bf9089e39b06d2a21383ff4aff477ce8fa1387f2d135b8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2d3ee83a5c2eaa3f1bf9089e39b06d2a21383ff4aff477ce8fa1387f2d135b8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6a51fb0f8656ba84a29fe8398204c9d99d7706c5a85d75940ca5cd1d6fb9a2e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "45b057c00ac1a9a022c4d6dacd619ef256564907da6fc9a6b9850c3d658ff776",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e20df7a1ff8f226d91515ce48c231297ac52ff141b51eae0704033adbbfdce24",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"civil rights\"],\"target_related\":[\"cops\"],\"mediators\":[\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "219e6e3ec6ac2d73be7f5da9984c425e2601cc6c05c9d2653487630bfbddff9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Cops (Z) are linked to civil rights violations (X) and come under scrutiny (Y); violations prompt scrutiny of the cops, forming X->Z->Y chain.\"}"
+    }
+  },
+  "call_ids": [
+    "2d3ee83a5c2eaa3f1bf9089e39b06d2a21383ff4aff477ce8fa1387f2d135b8f",
+    "2d3ee83a5c2eaa3f1bf9089e39b06d2a21383ff4aff477ce8fa1387f2d135b8f",
+    "6a51fb0f8656ba84a29fe8398204c9d99d7706c5a85d75940ca5cd1d6fb9a2e3",
+    "45b057c00ac1a9a022c4d6dacd619ef256564907da6fc9a6b9850c3d658ff776",
+    "e20df7a1ff8f226d91515ce48c231297ac52ff141b51eae0704033adbbfdce24",
+    "219e6e3ec6ac2d73be7f5da9984c425e2601cc6c05c9d2653487630bfbddff9a"
+  ],
+  "elapsed_s": 12.984894752502441
+}

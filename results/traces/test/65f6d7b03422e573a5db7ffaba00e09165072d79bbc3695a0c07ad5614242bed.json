@@ -1,0 +1,64 @@
+{
+  "input_hash": "65f6d7b03422e573a5db7ffaba00e09165072d79bbc3695a0c07ad5614242bed",
+  "sample_id": "ESC-CSV-09286",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man",
+    "tens of thousands",
+    "marched",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1b75fcc5bd6ef2b59418c9ae4ae37f4322f590d46c82b23654c13d562b01498f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1b75fcc5bd6ef2b59418c9ae4ae37f4322f590d46c82b23654c13d562b01498f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b6f5999cecbe1ed1ab8a4479a6a47a3621a95205600bbbb5b2de5f9273bbea6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f92b8acbc7c0a86f61b9afce711b4fd67b6684896b84b792aaa948ac6084e132",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cad1a57d20b1a4c7ab1c8efb609222d93d534911de040d471bebf8095bf6d5ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"tens of thousands\",\"marched\",\"Athens\"],\"target_related\":[\"women\",\"man\",\"demonstrations\",\"tens of thousands\",\"marched\",\"Athens\"],\"mediators\":[\"women\",\"man\",\"tens of thousands\",\"marched\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "1fb60a3c5a78cfaf16e4ac893c131485187c138c97828f2ad3fe4e07e5443a27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Passive 'were killed during demonstrations' uses 'during' linking the killing to the demonstrations, indicating the demonstrations caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "1b75fcc5bd6ef2b59418c9ae4ae37f4322f590d46c82b23654c13d562b01498f",
+    "1b75fcc5bd6ef2b59418c9ae4ae37f4322f590d46c82b23654c13d562b01498f",
+    "4b6f5999cecbe1ed1ab8a4479a6a47a3621a95205600bbbb5b2de5f9273bbea6",
+    "f92b8acbc7c0a86f61b9afce711b4fd67b6684896b84b792aaa948ac6084e132",
+    "cad1a57d20b1a4c7ab1c8efb609222d93d534911de040d471bebf8095bf6d5ac",
+    "1fb60a3c5a78cfaf16e4ac893c131485187c138c97828f2ad3fe4e07e5443a27"
+  ],
+  "elapsed_s": 3.795337677001953
+}

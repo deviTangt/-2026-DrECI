@@ -1,0 +1,60 @@
+{
+  "input_hash": "99a3f66e399af69e0db07bc3ee1451b18f7083b12ecc20d213297c75ed14f36c",
+  "sample_id": "ESC-CSV-06529",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e49fcec89f6e93e55ae2113d5641e788d7e51c45afbe539f966040293229c2a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e49fcec89f6e93e55ae2113d5641e788d7e51c45afbe539f966040293229c2a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4bf2142dd5bec460e381d3ddd95e3860d54d67e68e277c57a9945f2aea83c3c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a2e4b50f770ab2e0835ca534940b1b6ff0714da7fdbdf4a024354a23b3d0bab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0835a8e21f1f35dac3d9c67e7028148bc2cf8eafb14654e2575169e7af29cd6d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"died\",\"students\"],\"target_related\":[\"Horton\",\"Andrew Lopez\",\"Jonathan Carrasquillo\",\"charged\"],\"mediators\":[\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "9d39080facd25bf7bcd7971beb395fb5423911dfa3e0e23e3dc200c6c764c613",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Horton died trying to shield students; Lopez and Carrasquillo were charged with her murder. Shielding did not cause the murder; no causal link between X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "e49fcec89f6e93e55ae2113d5641e788d7e51c45afbe539f966040293229c2a8",
+    "e49fcec89f6e93e55ae2113d5641e788d7e51c45afbe539f966040293229c2a8",
+    "4bf2142dd5bec460e381d3ddd95e3860d54d67e68e277c57a9945f2aea83c3c6",
+    "9a2e4b50f770ab2e0835ca534940b1b6ff0714da7fdbdf4a024354a23b3d0bab",
+    "0835a8e21f1f35dac3d9c67e7028148bc2cf8eafb14654e2575169e7af29cd6d",
+    "9d39080facd25bf7bcd7971beb395fb5423911dfa3e0e23e3dc200c6c764c613"
+  ],
+  "elapsed_s": 4.6940529346466064
+}

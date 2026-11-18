@@ -1,0 +1,64 @@
+{
+  "input_hash": "1f8383ce866444d6d015a000d9b075cf9a79849f4342f7eb915b53a9d893bf44",
+  "sample_id": "ESC-CSV-02101",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Troy",
+    "accounting firm",
+    "April 2007",
+    "receptionist",
+    "managing partners"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d48b5e448621e7110825126120271b7663c3703c797f86a529f3b1e051f915fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d48b5e448621e7110825126120271b7663c3703c797f86a529f3b1e051f915fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e2d446496fd0a679a1ca8a882f247d3145aefd7373e742d5a91162c3b1982d1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e5e04c2b59ae90b54629c0a5019121e69f571a5afa756c36a02cfd3913bc46e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "48c5e13f7b6c6442137226318cf7ee11a872e6026a9247e02f302b48d9ae6551",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"office\",\"accounting firm\",\"April 2007\",\"receptionist\",\"managing partners\",\"suspect\",\"jury\"],\"target_related\":[\"receptionist\",\"managing partners\",\"Troy\",\"accounting firm\",\"April 2007\",\"shooting\"],\"mediators\":[\"Troy\",\"accounting firm\",\"April 2007\",\"receptionist\",\"managing partners\"]}"
+    },
+    "indirect": {
+      "call_id": "9d18181138e5da4efbdaea9f370b6ab7251798f6c8b5d72054f2309b46e38ba8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The shooting 'left a receptionist dead and two managing partners wounded' — 'left' explicitly links the shooting to the wounding.\"}"
+    }
+  },
+  "call_ids": [
+    "d48b5e448621e7110825126120271b7663c3703c797f86a529f3b1e051f915fa",
+    "d48b5e448621e7110825126120271b7663c3703c797f86a529f3b1e051f915fa",
+    "e2d446496fd0a679a1ca8a882f247d3145aefd7373e742d5a91162c3b1982d1e",
+    "e5e04c2b59ae90b54629c0a5019121e69f571a5afa756c36a02cfd3913bc46e0",
+    "48c5e13f7b6c6442137226318cf7ee11a872e6026a9247e02f302b48d9ae6551",
+    "9d18181138e5da4efbdaea9f370b6ab7251798f6c8b5d72054f2309b46e38ba8"
+  ],
+  "elapsed_s": 5.007983922958374
+}

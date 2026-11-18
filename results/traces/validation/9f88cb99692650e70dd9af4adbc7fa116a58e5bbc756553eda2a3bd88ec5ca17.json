@@ -1,0 +1,73 @@
+{
+  "input_hash": "9f88cb99692650e70dd9af4adbc7fa116a58e5bbc756553eda2a3bd88ec5ca17",
+  "sample_id": "ESC-CSV-01712",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sheriff",
+    "detectives",
+    "prosecutors",
+    "Crimes",
+    "Police",
+    "Officers",
+    "Section",
+    "CAPOS",
+    "time",
+    "case",
+    "Deputy",
+    "Ortiz",
+    "killed",
+    "Cooley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b96e1dbed412b9e81ea708a330a9f891207f34c77e9ac2b7b44fec025223a51c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b96e1dbed412b9e81ea708a330a9f891207f34c77e9ac2b7b44fec025223a51c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9bc92b25ede03f980597f47665f2bd3d9dd07963e5191dd1a50755317ba7a8e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cb3220f4198123079fac9206a5791105c88cedc19a51954c37498ffd03ca519a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2fa31d7a77b338ccdd74ab5dcd72fdb9ac8ebc495f851527fc4c56482535ee06",
+      "status": "ok",
+      "text": "{\"source_related\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"case\",\"Deputy\",\"Ortiz\",\"killed\",\"Cooley\"],\"target_related\":[\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"murder\",\"case\",\"Deputy\",\"Ortiz\",\"killed\",\"Cooley\"],\"mediators\":[\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"case\",\"Deputy\",\"Ortiz\",\"killed\",\"Cooley\"]}"
+    },
+    "indirect": {
+      "call_id": "e68999c7167bd3598fb8864613a76e1c38c00ba9725fb9100fe0d9661b0ff831",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'additional time to fully investigate this murder' — 'to' links the murder as the object being investigated, showing purpose/causal relation.\"}"
+    }
+  },
+  "call_ids": [
+    "b96e1dbed412b9e81ea708a330a9f891207f34c77e9ac2b7b44fec025223a51c",
+    "b96e1dbed412b9e81ea708a330a9f891207f34c77e9ac2b7b44fec025223a51c",
+    "9bc92b25ede03f980597f47665f2bd3d9dd07963e5191dd1a50755317ba7a8e6",
+    "cb3220f4198123079fac9206a5791105c88cedc19a51954c37498ffd03ca519a",
+    "2fa31d7a77b338ccdd74ab5dcd72fdb9ac8ebc495f851527fc4c56482535ee06",
+    "e68999c7167bd3598fb8864613a76e1c38c00ba9725fb9100fe0d9661b0ff831"
+  ],
+  "elapsed_s": 5.728832244873047
+}

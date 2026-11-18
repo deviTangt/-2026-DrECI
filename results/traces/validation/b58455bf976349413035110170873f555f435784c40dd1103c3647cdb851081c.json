@@ -1,0 +1,62 @@
+{
+  "input_hash": "b58455bf976349413035110170873f555f435784c40dd1103c3647cdb851081c",
+  "sample_id": "ESC-CSV-02579",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Police",
+    "crowd",
+    "struggled"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8341205cd3e04fc54e65fb77893f8a5b6a8c44df0bdf367ebe5f1d7bad8f0d1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8341205cd3e04fc54e65fb77893f8a5b6a8c44df0bdf367ebe5f1d7bad8f0d1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "22e75d76b9c13fc5bb6c8d1c3c0acdae2c3909586830c6895df0bbc4c56aa4ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b0120b85032522778e1de6c96511614d5e0a4a4e1dfdb4d1975e269bd9d27d11",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ffe1f60a77a0c3ae766c57dce86925f5f9a92bd35f0608b42d6427cf7e10a161",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"Police\",\"struggled\"],\"target_related\":[\"Police\",\"crowd\",\"struggled\"],\"mediators\":[\"Police\",\"crowd\",\"struggled\"]}"
+    },
+    "indirect": {
+      "call_id": "77db610ecd7c81988e7a253fc32f90530ce4bfc88e2f0474e167818b44fcfccf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A furious crowd would be harder to control; fury plausibly causes difficulty in controlling the crowd, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "8341205cd3e04fc54e65fb77893f8a5b6a8c44df0bdf367ebe5f1d7bad8f0d1f",
+    "8341205cd3e04fc54e65fb77893f8a5b6a8c44df0bdf367ebe5f1d7bad8f0d1f",
+    "22e75d76b9c13fc5bb6c8d1c3c0acdae2c3909586830c6895df0bbc4c56aa4ce",
+    "b0120b85032522778e1de6c96511614d5e0a4a4e1dfdb4d1975e269bd9d27d11",
+    "ffe1f60a77a0c3ae766c57dce86925f5f9a92bd35f0608b42d6427cf7e10a161",
+    "77db610ecd7c81988e7a253fc32f90530ce4bfc88e2f0474e167818b44fcfccf"
+  ],
+  "elapsed_s": 9.2833571434021
+}

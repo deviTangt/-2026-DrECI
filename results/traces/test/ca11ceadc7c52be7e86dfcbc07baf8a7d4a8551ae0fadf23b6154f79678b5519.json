@@ -1,0 +1,64 @@
+{
+  "input_hash": "ca11ceadc7c52be7e86dfcbc07baf8a7d4a8551ae0fadf23b6154f79678b5519",
+  "sample_id": "ESC-CSV-04389",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "Thieves",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "02dfe07888f295586024202e6e63c453e2d1a0f38e4dc2b92c5aaa381091ba76",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "02dfe07888f295586024202e6e63c453e2d1a0f38e4dc2b92c5aaa381091ba76",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1f1eea4577ed39d034e1e68f47556657840f82902af47590c3ffcf7d504d1683",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2af8bf16886d6286a6bc9060693fdb2f4b8d543b1638893f99feab621cf5a1b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "16e31fd0180f6a3860ef285fb70c4c462f0925829df82996c58fb352b1911d56",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"Thieves\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"Thieves\",\"store\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"Thieves\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "3b7272aaf3680b01f83ead597e7d6e0d6605b9b16f62fb436d57594b6c262fc7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A smash-and-grab (breaking in and grabbing goods) naturally precedes and enables the raid, so smash causes raid by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "02dfe07888f295586024202e6e63c453e2d1a0f38e4dc2b92c5aaa381091ba76",
+    "02dfe07888f295586024202e6e63c453e2d1a0f38e4dc2b92c5aaa381091ba76",
+    "1f1eea4577ed39d034e1e68f47556657840f82902af47590c3ffcf7d504d1683",
+    "2af8bf16886d6286a6bc9060693fdb2f4b8d543b1638893f99feab621cf5a1b4",
+    "16e31fd0180f6a3860ef285fb70c4c462f0925829df82996c58fb352b1911d56",
+    "3b7272aaf3680b01f83ead597e7d6e0d6605b9b16f62fb436d57594b6c262fc7"
+  ],
+  "elapsed_s": 4.148270130157471
+}

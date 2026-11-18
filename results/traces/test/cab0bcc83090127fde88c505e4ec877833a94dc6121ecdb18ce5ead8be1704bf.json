@@ -1,0 +1,64 @@
+{
+  "input_hash": "cab0bcc83090127fde88c505e4ec877833a94dc6121ecdb18ce5ead8be1704bf",
+  "sample_id": "ESC-CSV-04501",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "thieves",
+    "Crooks",
+    "Casty store",
+    "Paris",
+    "jewelry store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f0bbb356c813e036811eeff5cfbd159a43bcd33972f7eff8747f4885b1dcd48c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f0bbb356c813e036811eeff5cfbd159a43bcd33972f7eff8747f4885b1dcd48c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0b55d6d9e0b2adbb5844b0ef28f3e697d89865aa99280ed2cc5554ec84397663",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "907a8b24e992c596d9574068d10b23d4c7c0c8d0d948b1b035b9f6fea073d150",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a155b35f6467bda25618c092682512d95ea7307e314382c7532915b87da246c0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"SUV\",\"Casty store\",\"Place Vendome\",\"French capital\",\"jewelers\",\"high-end stores\"],\"target_related\":[\"Crooks\",\"$2.6 million\",\"Paris\",\"jewelry store\"],\"mediators\":[\"thieves\",\"Crooks\",\"Casty store\",\"Paris\",\"jewelry store\"]}"
+    },
+    "indirect": {
+      "call_id": "f56430beead8cf698b2d3293818cbbc14e71bc0615a7bc38e693c744accccd53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the SUV into the store front enabled the thieves to carry out the $2.6 million jewelry heist; the act precedes and causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "f0bbb356c813e036811eeff5cfbd159a43bcd33972f7eff8747f4885b1dcd48c",
+    "f0bbb356c813e036811eeff5cfbd159a43bcd33972f7eff8747f4885b1dcd48c",
+    "0b55d6d9e0b2adbb5844b0ef28f3e697d89865aa99280ed2cc5554ec84397663",
+    "907a8b24e992c596d9574068d10b23d4c7c0c8d0d948b1b035b9f6fea073d150",
+    "a155b35f6467bda25618c092682512d95ea7307e314382c7532915b87da246c0",
+    "f56430beead8cf698b2d3293818cbbc14e71bc0615a7bc38e693c744accccd53"
+  ],
+  "elapsed_s": 4.494228839874268
+}

@@ -1,0 +1,68 @@
+{
+  "input_hash": "e78aa61e1830ea9453df028b27b032c6ae0e9686b90c19b5f102561c9ef95fc8",
+  "sample_id": "ESC-CSV-09887",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "Greek",
+    "capital",
+    "crowd",
+    "bank",
+    "Marfin",
+    "boss",
+    "site",
+    "workers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b535fdcf478a96f1dac78c12dcbea8652a19b53faa01d541ac2f27a6f10d85e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b535fdcf478a96f1dac78c12dcbea8652a19b53faa01d541ac2f27a6f10d85e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "59fe83c09c1778dfef1e283f8d3444f51a460bf66ec990922fc36894885fb528",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b35ce89ef4cfd43f73b8af2dfefdf5f24b7a29e3ff0e2ca5a0395712805b0d6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "587d26daa1277080e5179967b77a5f5bf96c149fdbfcd17ab520e0aadbb17413",
+      "status": "ok",
+      "text": "{\"source_related\":[\"general\",\"strike\",\"battle\",\"workers\",\"Athens\",\"Greek\",\"capital\",\"crowd\",\"bank\",\"Marfin\",\"boss\",\"site\"],\"target_related\":[\"Athens\",\"Greek\",\"capital\",\"crowd\",\"bank\",\"Marfin\",\"boss\",\"site\",\"workers\",\"death\"],\"mediators\":[\"Athens\",\"Greek\",\"capital\",\"crowd\",\"bank\",\"Marfin\",\"boss\",\"site\",\"workers\"]}"
+    },
+    "indirect": {
+      "call_id": "d38f407910ba640bce289437ddb48f368f54a2b14130636b33c2ce055b478f2b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A general strike march turning into a battle implies the march led to the clashes, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "b535fdcf478a96f1dac78c12dcbea8652a19b53faa01d541ac2f27a6f10d85e3",
+    "b535fdcf478a96f1dac78c12dcbea8652a19b53faa01d541ac2f27a6f10d85e3",
+    "59fe83c09c1778dfef1e283f8d3444f51a460bf66ec990922fc36894885fb528",
+    "b35ce89ef4cfd43f73b8af2dfefdf5f24b7a29e3ff0e2ca5a0395712805b0d6a",
+    "587d26daa1277080e5179967b77a5f5bf96c149fdbfcd17ab520e0aadbb17413",
+    "d38f407910ba640bce289437ddb48f368f54a2b14130636b33c2ce055b478f2b"
+  ],
+  "elapsed_s": 5.692167520523071
+}

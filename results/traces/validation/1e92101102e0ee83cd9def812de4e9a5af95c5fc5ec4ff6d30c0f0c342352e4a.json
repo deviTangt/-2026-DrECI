@@ -1,0 +1,64 @@
+{
+  "input_hash": "1e92101102e0ee83cd9def812de4e9a5af95c5fc5ec4ff6d30c0f0c342352e4a",
+  "sample_id": "ESC-CSV-02123",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jury",
+    "suspect",
+    "Troy",
+    "office",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3e5f5c8a9d9017b1fca0b0b9d36487c96acee5b2868a5f8c8527d2b4a7f7e4d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3e5f5c8a9d9017b1fca0b0b9d36487c96acee5b2868a5f8c8527d2b4a7f7e4d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c5125ea39d7b560dad7a007f395e4498245e2633f1468f34db76654f190edb00",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a3c3776ae81e6060a9fab15fe50e04e3ad8a29ab6d3514d46ac866aa6e2e5216",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6cadc37fc1ea2747efe03794a8b384cde7eafefacc75d982a9ee72537f970e02",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"man\",\"shooting\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"partners\",\"suspect\",\"office\"],\"target_related\":[\"jury\",\"suspect\",\"Troy\",\"office\",\"shooting\"],\"mediators\":[\"jury\",\"suspect\",\"Troy\",\"office\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "57a2f4dbbcfabf843e6860f98cbeb6074b7a68e23ecd9cafbfc470dd40ba4765",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"'Jury finds suspect in Troy office shooting guilty' restates the conviction event, linking convicted to guilty.\"}"
+    }
+  },
+  "call_ids": [
+    "3e5f5c8a9d9017b1fca0b0b9d36487c96acee5b2868a5f8c8527d2b4a7f7e4d8",
+    "3e5f5c8a9d9017b1fca0b0b9d36487c96acee5b2868a5f8c8527d2b4a7f7e4d8",
+    "c5125ea39d7b560dad7a007f395e4498245e2633f1468f34db76654f190edb00",
+    "a3c3776ae81e6060a9fab15fe50e04e3ad8a29ab6d3514d46ac866aa6e2e5216",
+    "6cadc37fc1ea2747efe03794a8b384cde7eafefacc75d982a9ee72537f970e02",
+    "57a2f4dbbcfabf843e6860f98cbeb6074b7a68e23ecd9cafbfc470dd40ba4765"
+  ],
+  "elapsed_s": 5.015235662460327
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "a31baa319c468b1fd347f2d2a3cc6b2ef7827ddc1845137536260d9213d9c2ff",
+  "sample_id": "ESC-CSV-09628",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "protesters",
+    "angry",
+    "Riots",
+    "streets"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "58bcb175b8db9b5267eea7870a5e6c572d4fdfa55f19f86ebfdf830de0daa55e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "58bcb175b8db9b5267eea7870a5e6c572d4fdfa55f19f86ebfdf830de0daa55e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "97c49175b8056ccea27ab4e9269c2bd34ea250158c3f123b21aa7f6a53cfb1a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0fa4dfb618403cc44a6e362a3b9dfe78c209102f7dcf00eede14df1707b7abb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c7860203644292774132176179499c6eff3d49f8fa07cf591bd5a69ffc2db881",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protest\",\"taxes\",\"government\",\"spending\",\"austerity\",\"measures\",\"strike\",\"people\",\"streets\",\"nationwide\",\"Riots\",\"angry\",\"protesters\"],\"target_related\":[\"parliament\",\"protesters\",\"angry\",\"police\",\"Riots\",\"Athens\",\"streets\",\"buildings\",\"Molotov\",\"cocktails\"],\"mediators\":[\"protesters\",\"angry\",\"Riots\",\"streets\"]}"
+    },
+    "indirect": {
+      "call_id": "c2dad7f2462c6e2b339c96b6a7137ac605277a047b4a9cfa65a8c035071b3a14",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links 'cuts' to 'storm'; 'storm' is a verb for protesters storming parliament, not caused by spending cuts.\"}"
+    }
+  },
+  "call_ids": [
+    "58bcb175b8db9b5267eea7870a5e6c572d4fdfa55f19f86ebfdf830de0daa55e",
+    "58bcb175b8db9b5267eea7870a5e6c572d4fdfa55f19f86ebfdf830de0daa55e",
+    "97c49175b8056ccea27ab4e9269c2bd34ea250158c3f123b21aa7f6a53cfb1a8",
+    "0fa4dfb618403cc44a6e362a3b9dfe78c209102f7dcf00eede14df1707b7abb8",
+    "c7860203644292774132176179499c6eff3d49f8fa07cf591bd5a69ffc2db881",
+    "c2dad7f2462c6e2b339c96b6a7137ac605277a047b4a9cfa65a8c035071b3a14"
+  ],
+  "elapsed_s": 5.0358006954193115
+}

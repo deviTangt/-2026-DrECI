@@ -1,0 +1,62 @@
+{
+  "input_hash": "ac049c581f952309eda1b59fa8bfccfeeb574c02c2c0191f61d274c984f0d10a",
+  "sample_id": "ESC-CSV-02269",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "bosses",
+    "shotgun"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "447eb8c04f6e25242e0ca3dd978ade1922849074862131c4bf7d0bf4c37ab622",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "447eb8c04f6e25242e0ca3dd978ade1922849074862131c4bf7d0bf4c37ab622",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "167f6e93512e1f859f4fae35df8d6067c62f5cf237d23181a77336cf508fbd44",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bc1f3f44c34196068bcbc8124331f309a1baa9d9dd3b3fbd218f4d677beab6c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a4d70d4fa55905d7f7f9baaa62f0d0b98335ba53c4e8fbe52a369d4e20de4627",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"job\",\"fired\",\"shotgun\",\"bosses\"],\"target_related\":[\"accountant\",\"bosses\",\"receptionist\",\"shotgun\",\"office\"],\"mediators\":[\"accountant\",\"bosses\",\"shotgun\"]}"
+    },
+    "indirect": {
+      "call_id": "cba6ccfca6f75a333b8d0f2494e3fca455e665d454e12908e95b213a8c50333e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job preceded and plausibly motivated the accountant's return to the office and shooting, fitting common-sense cause and effect.\"}"
+    }
+  },
+  "call_ids": [
+    "447eb8c04f6e25242e0ca3dd978ade1922849074862131c4bf7d0bf4c37ab622",
+    "447eb8c04f6e25242e0ca3dd978ade1922849074862131c4bf7d0bf4c37ab622",
+    "167f6e93512e1f859f4fae35df8d6067c62f5cf237d23181a77336cf508fbd44",
+    "bc1f3f44c34196068bcbc8124331f309a1baa9d9dd3b3fbd218f4d677beab6c5",
+    "a4d70d4fa55905d7f7f9baaa62f0d0b98335ba53c4e8fbe52a369d4e20de4627",
+    "cba6ccfca6f75a333b8d0f2494e3fca455e665d454e12908e95b213a8c50333e"
+  ],
+  "elapsed_s": 9.30460524559021
+}

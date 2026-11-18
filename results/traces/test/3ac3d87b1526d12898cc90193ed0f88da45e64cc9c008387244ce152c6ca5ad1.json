@@ -1,0 +1,61 @@
+{
+  "input_hash": "3ac3d87b1526d12898cc90193ed0f88da45e64cc9c008387244ce152c6ca5ad1",
+  "sample_id": "ESC-CSV-04537",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "raiders",
+    "robbery"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dd5dd3810fd51a6f8b832f3f1663cec48156fd8e0e552e30a9d138b788ee8ff2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dd5dd3810fd51a6f8b832f3f1663cec48156fd8e0e552e30a9d138b788ee8ff2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6969553645a356f78b596f9a50feebfea1d1dd9b337f89b38e026a478f251308",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "204ecbf4741dcc85e68b2c1ed1588a2f3359629b3dcba6e1daa374d37e4537e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "04f7436f4c2a931123b7bcf4a9e3ce4b8954579a6c1c3e60406c4fd6737c5854",
+      "status": "ok",
+      "text": "{\"source_related\":[\"raiders\",\"vehicle\",\"boutique\",\"Paris\",\"robbery\"],\"target_related\":[\"raiders\",\"loot\",\"robbery\"],\"mediators\":[\"raiders\",\"robbery\"]}"
+    },
+    "indirect": {
+      "call_id": "917c73d1c0355861541a71df7bb553468e69d4067294ca5dec2977318166b9c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ploughing the vehicle into the boutique enabled the raiders to make off with the loot; the crash precedes and causes the escape.\"}"
+    }
+  },
+  "call_ids": [
+    "dd5dd3810fd51a6f8b832f3f1663cec48156fd8e0e552e30a9d138b788ee8ff2",
+    "dd5dd3810fd51a6f8b832f3f1663cec48156fd8e0e552e30a9d138b788ee8ff2",
+    "6969553645a356f78b596f9a50feebfea1d1dd9b337f89b38e026a478f251308",
+    "204ecbf4741dcc85e68b2c1ed1588a2f3359629b3dcba6e1daa374d37e4537e5",
+    "04f7436f4c2a931123b7bcf4a9e3ce4b8954579a6c1c3e60406c4fd6737c5854",
+    "917c73d1c0355861541a71df7bb553468e69d4067294ca5dec2977318166b9c6"
+  ],
+  "elapsed_s": 4.181612253189087
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "3bbd73bc63bd7440d297699ae17f2b9ed23f85395cae8ad4ecc0574d87f87fd1",
+  "sample_id": "ESC-CSV-02413",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "shooting",
+    "people",
+    "accounting",
+    "firm",
+    "Detroit"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "72731af869f4887307d270a9cb0dce95a35b9e2f051acb6c26210e5ff9558763",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "72731af869f4887307d270a9cb0dce95a35b9e2f051acb6c26210e5ff9558763",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e2f0c6799bdd1972034ec7a2b7b8fa93d3132be1629fbb565b0a38578b903f8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "94786a1246250c7808eab73be8aba22e29431218b2114bea8ac641f7e058f057",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2561ee921df72d5ec3cd56f58b7918a5e0f5c3d0a1df713c39428f58c4bdcf93",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shooting\",\"people\",\"accounting\",\"firm\",\"Detroit\",\"week\"],\"target_related\":[\"man\",\"shooting\",\"people\",\"accounting\",\"firm\",\"Detroit\",\"attack\"],\"mediators\":[\"man\",\"shooting\",\"people\",\"accounting\",\"firm\",\"Detroit\"]}"
+    },
+    "indirect": {
+      "call_id": "97cc55c0c6d93da0aa8d34771990702a46235f162d4f043fe1f4f466743a5fc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired from the firm provides motive; common sense suggests the firing preceded and caused the shooting/killing.\"}"
+    }
+  },
+  "call_ids": [
+    "72731af869f4887307d270a9cb0dce95a35b9e2f051acb6c26210e5ff9558763",
+    "72731af869f4887307d270a9cb0dce95a35b9e2f051acb6c26210e5ff9558763",
+    "e2f0c6799bdd1972034ec7a2b7b8fa93d3132be1629fbb565b0a38578b903f8b",
+    "94786a1246250c7808eab73be8aba22e29431218b2114bea8ac641f7e058f057",
+    "2561ee921df72d5ec3cd56f58b7918a5e0f5c3d0a1df713c39428f58c4bdcf93",
+    "97cc55c0c6d93da0aa8d34771990702a46235f162d4f043fe1f4f466743a5fc8"
+  ],
+  "elapsed_s": 17.404138803482056
+}

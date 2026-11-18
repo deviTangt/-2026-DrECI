@@ -1,0 +1,62 @@
+{
+  "input_hash": "8dad1e89994660b07ae0ce856a312e6641c6af94adc4be39e24f301d66f0bec0",
+  "sample_id": "ESC-CSV-07180",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "He",
+    "County jail",
+    "booked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cab9f652c1cba0cbf34f53d68b7cbb77b65170ab3cf46585047dc07b22d18d14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cab9f652c1cba0cbf34f53d68b7cbb77b65170ab3cf46585047dc07b22d18d14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1dc724d5aff848066a66104e8ffc02a912aa5b2e9dbea67e23580c0575de2efe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c174ec982e70d5de1e1d51811569e252f7d4f7ca5336a01dd9723e2095b879de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "38720f2c9468d6c51ca6ce227f532b29f72e8e64917bd1f54671f4fc34e73e76",
+      "status": "ok",
+      "text": "{\"source_related\":[\"DUI\",\"team\",\"He\",\"County jail\",\"booked\"],\"target_related\":[\"He\",\"County jail\",\"booked\",\"released\"],\"mediators\":[\"He\",\"County jail\",\"booked\"]}"
+    },
+    "indirect": {
+      "call_id": "766b001f6aee0bc642c5c21947207600b4e2c0a0f960ab35a5f792fb25030690",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested and taken to jail is followed by booking and release on bail; arrest precedes and leads to being on bail by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "cab9f652c1cba0cbf34f53d68b7cbb77b65170ab3cf46585047dc07b22d18d14",
+    "cab9f652c1cba0cbf34f53d68b7cbb77b65170ab3cf46585047dc07b22d18d14",
+    "1dc724d5aff848066a66104e8ffc02a912aa5b2e9dbea67e23580c0575de2efe",
+    "c174ec982e70d5de1e1d51811569e252f7d4f7ca5336a01dd9723e2095b879de",
+    "38720f2c9468d6c51ca6ce227f532b29f72e8e64917bd1f54671f4fc34e73e76",
+    "766b001f6aee0bc642c5c21947207600b4e2c0a0f960ab35a5f792fb25030690"
+  ],
+  "elapsed_s": 4.758836984634399
+}

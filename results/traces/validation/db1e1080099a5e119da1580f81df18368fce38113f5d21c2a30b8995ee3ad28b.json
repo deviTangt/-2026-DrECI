@@ -1,0 +1,60 @@
+{
+  "input_hash": "db1e1080099a5e119da1580f81df18368fce38113f5d21c2a30b8995ee3ad28b",
+  "sample_id": "ESC-CSV-01630",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "75562fea751b212eba7f1e47c220c4f9a4974c56252d32db6d21aacfe265a11c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "75562fea751b212eba7f1e47c220c4f9a4974c56252d32db6d21aacfe265a11c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cdccd00f52973cb53c56607661ec9292e66ffda24c692bab8a8c8c8aba1ea81e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a149b6eaaaabf7b094d7c39ba098e597499c75d1b93576ab35e7abaaf0a3e82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7d81d819f5300ef7509d5ffb846155bef61e6af1713649f5a39faeabf98ba4d0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"someone\",\"him\",\"head\"],\"target_related\":[\"deputy\",\"door\",\"home\"],\"mediators\":[\"deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "144c2b067cd96165d74fcd68f59dab30f8c3f93f952aef5065c729a2657240a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The deputy knocked, then someone shot him; knocking preceded but did not cause the shooting. No explicit or implicit causal word links shot and knocked.\"}"
+    }
+  },
+  "call_ids": [
+    "75562fea751b212eba7f1e47c220c4f9a4974c56252d32db6d21aacfe265a11c",
+    "75562fea751b212eba7f1e47c220c4f9a4974c56252d32db6d21aacfe265a11c",
+    "cdccd00f52973cb53c56607661ec9292e66ffda24c692bab8a8c8c8aba1ea81e",
+    "3a149b6eaaaabf7b094d7c39ba098e597499c75d1b93576ab35e7abaaf0a3e82",
+    "7d81d819f5300ef7509d5ffb846155bef61e6af1713649f5a39faeabf98ba4d0",
+    "144c2b067cd96165d74fcd68f59dab30f8c3f93f952aef5065c729a2657240a8"
+  ],
+  "elapsed_s": 5.04697585105896
+}

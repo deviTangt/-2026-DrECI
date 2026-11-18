@@ -1,0 +1,62 @@
+{
+  "input_hash": "933d419bb1823eba65ec65c59ee7e72126ac8836ce1210f916e2b1e3acbf6581",
+  "sample_id": "ESC-CSV-02351",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "suspect",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "040647bb48b932cb12b9127fba65c18ce0733a2ae6945dabf8c5fef4fbd752d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "040647bb48b932cb12b9127fba65c18ce0733a2ae6945dabf8c5fef4fbd752d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "daf0ad8186d976e32f0561a6c243e50b69cfe06021bd6b763ba75026eac9f3dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a5a8eee75dcf472df67ae5f7690626e70318d62d3cf7bd4804cc0478a410acc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d1d4bf9f4aabbafcda9375995d66d653e3f20a488f9e61a47f4abbc97fc048cb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"dead\",\"hurt\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\",\"man\",\"three\",\"people\",\"accounting\",\"firm\"],\"target_related\":[\"man\",\"suspect\",\"police\",\"authorities\",\"hours\",\"high-speed\",\"chase\"],\"mediators\":[\"man\",\"suspect\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "4374411a442db78552a8e99721c38793b94f9c478814a47d2e93873bd8fb5c6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred first; the suspect was arrested a few hours later after a chase, so the shooting led to the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "040647bb48b932cb12b9127fba65c18ce0733a2ae6945dabf8c5fef4fbd752d4",
+    "040647bb48b932cb12b9127fba65c18ce0733a2ae6945dabf8c5fef4fbd752d4",
+    "daf0ad8186d976e32f0561a6c243e50b69cfe06021bd6b763ba75026eac9f3dd",
+    "a5a8eee75dcf472df67ae5f7690626e70318d62d3cf7bd4804cc0478a410acc5",
+    "d1d4bf9f4aabbafcda9375995d66d653e3f20a488f9e61a47f4abbc97fc048cb",
+    "4374411a442db78552a8e99721c38793b94f9c478814a47d2e93873bd8fb5c6f"
+  ],
+  "elapsed_s": 12.2068510055542
+}

@@ -1,0 +1,72 @@
+{
+  "input_hash": "99be6edcb46492abe6328c8af31ede2c3492f2780cea7956cc96c9d4e8d10b6f",
+  "sample_id": "ESC-CSV-04062",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "climbing",
+    "accidents",
+    "Mt Cook",
+    "weekend",
+    "36 - year - old",
+    "Melbourne",
+    "fell",
+    "200 metres",
+    "steep ice gully",
+    "approaching",
+    "Tasman Saddle Hut",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "021f3e451af2ad85040f5880bef962b8c517782a1a26620633755a9f5b40822f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "021f3e451af2ad85040f5880bef962b8c517782a1a26620633755a9f5b40822f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ce7473375f52773f0beb0ab543a5a71cd0ee60db796a3f50c8246f2484a0acf5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5da01a290af1aa31a61b5f25d935048857592f4f503ee04faa2b1876ee865dc0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9354b00058371425492e52fa93cf540d781417b0251b474931c695a969857c98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"climbing\",\"accidents\",\"Mt Cook\",\"weekend\",\"36 - year - old\",\"Melbourne\",\"slipped\",\"fell\",\"200 metres\",\"steep ice gully\",\"approaching\",\"Tasman Saddle Hut\",\"police\"],\"target_related\":[\"36 - year - old\",\"Melbourne\",\"fell\",\"200 metres\",\"steep ice gully\",\"approaching\",\"Tasman Saddle Hut\",\"police\",\"died\",\"men\",\"climbing\",\"accidents\",\"Mt Cook\",\"weekend\"],\"mediators\":[\"men\",\"climbing\",\"accidents\",\"Mt Cook\",\"weekend\",\"36 - year - old\",\"Melbourne\",\"fell\",\"200 metres\",\"steep ice gully\",\"approaching\",\"Tasman Saddle Hut\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "54ea7651b011426c095adb5077c2501cb8f0965182bf06d49b85f5e181a63679",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping and falling down the ice gully caused the climber's death; the slip precedes and leads to death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "021f3e451af2ad85040f5880bef962b8c517782a1a26620633755a9f5b40822f",
+    "021f3e451af2ad85040f5880bef962b8c517782a1a26620633755a9f5b40822f",
+    "ce7473375f52773f0beb0ab543a5a71cd0ee60db796a3f50c8246f2484a0acf5",
+    "5da01a290af1aa31a61b5f25d935048857592f4f503ee04faa2b1876ee865dc0",
+    "9354b00058371425492e52fa93cf540d781417b0251b474931c695a969857c98",
+    "54ea7651b011426c095adb5077c2501cb8f0965182bf06d49b85f5e181a63679"
+  ],
+  "elapsed_s": 4.685741662979126
+}

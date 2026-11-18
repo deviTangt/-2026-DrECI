@@ -1,0 +1,61 @@
+{
+  "input_hash": "76c07bca1bedadf05827e7ea793246df5c78f843226286fb1a1833aef3764447",
+  "sample_id": "ESC-CSV-01923",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "D.A."
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bcdf2907c07b7d1b0d6dc58661cf2dd0642e9a763cf9615d080f434944d0f59f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bcdf2907c07b7d1b0d6dc58661cf2dd0642e9a763cf9615d080f434944d0f59f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b65a7da1027e51c51d1e51ac3539bdfc64dcf9855d8ca80f46a098c6e70b60c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ed29bf72fe3d721f4f8d52ea64231a08483ddaf736a4302153e5be4626b51412",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "231ca720d1194910fe57971a09045e6af67d87b48cb2b05849ba145f83900f92",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"Orozco\",\"handgun\",\"arrest\",\"street gang\",\"lying in wait\",\"attempted murder\",\"D.A.\"],\"target_related\":[\"D.A.\",\"penalty\",\"Orozco\",\"murder\",\"charges\"],\"mediators\":[\"Orozco\",\"D.A.\"]}"
+    },
+    "indirect": {
+      "call_id": "75a98ad5aef7e95cb0665ee5c24f9c936a7340ff73dbf62f67dc482acb9e6309",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Murder is a capital offense; the D.A. will seek the death penalty because of the murder, so murder causes Death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "bcdf2907c07b7d1b0d6dc58661cf2dd0642e9a763cf9615d080f434944d0f59f",
+    "bcdf2907c07b7d1b0d6dc58661cf2dd0642e9a763cf9615d080f434944d0f59f",
+    "b65a7da1027e51c51d1e51ac3539bdfc64dcf9855d8ca80f46a098c6e70b60c7",
+    "ed29bf72fe3d721f4f8d52ea64231a08483ddaf736a4302153e5be4626b51412",
+    "231ca720d1194910fe57971a09045e6af67d87b48cb2b05849ba145f83900f92",
+    "75a98ad5aef7e95cb0665ee5c24f9c936a7340ff73dbf62f67dc482acb9e6309"
+  ],
+  "elapsed_s": 5.331757545471191
+}

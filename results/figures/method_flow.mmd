@@ -1,0 +1,10 @@
+flowchart TD
+    A[文本与事件对] --> B[三种因果问法分别探索]
+    B --> C{Yes票数达到q?}
+    C -->|否| N[输出No]
+    C -->|是| D[提取两事件的关联实体与交集]
+    D --> E{是否有中介?}
+    E -->|无| F[Direct Reasoner]
+    E -->|有| G[Indirect Reasoner]
+    F --> H[规则判断与最终Yes/No]
+    G --> H

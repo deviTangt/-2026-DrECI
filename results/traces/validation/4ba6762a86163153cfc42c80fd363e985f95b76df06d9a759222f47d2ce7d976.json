@@ -1,0 +1,60 @@
+{
+  "input_hash": "4ba6762a86163153cfc42c80fd363e985f95b76df06d9a759222f47d2ce7d976",
+  "sample_id": "ESC-CSV-02436",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "disorderly"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86bd94f1b63af6bca7900d9673ec6f16079c61f5bf44f11e7b6c8f3bf5d26063",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86bd94f1b63af6bca7900d9673ec6f16079c61f5bf44f11e7b6c8f3bf5d26063",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7985f03f25373d0bc82e08a4f32eafbc9a6f4fcfbed9b0044c491764b332a144",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e153dbd1953e9934b2a23dd3e2879f354336e108c88a977829fd59664d10c81e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "076d043031c0f33f053bcc3e2d63d9b705ed2254d0dba3bc26e5b64db1735b3d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"disorderly\"],\"target_related\":[\"46\",\"police\"],\"mediators\":[\"disorderly\"]}"
+    },
+    "indirect": {
+      "call_id": "a3ab6938da137d4c2d57f81c7619f8d1c7463e46607e1cd633220df763839087",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"46 arrests were mostly for disorderly conduct; conduct (Z) links to arrests (Y), forming chain X(conduct)->Z(disorderly)->Y(arrests).\"}"
+    }
+  },
+  "call_ids": [
+    "86bd94f1b63af6bca7900d9673ec6f16079c61f5bf44f11e7b6c8f3bf5d26063",
+    "86bd94f1b63af6bca7900d9673ec6f16079c61f5bf44f11e7b6c8f3bf5d26063",
+    "7985f03f25373d0bc82e08a4f32eafbc9a6f4fcfbed9b0044c491764b332a144",
+    "e153dbd1953e9934b2a23dd3e2879f354336e108c88a977829fd59664d10c81e",
+    "076d043031c0f33f053bcc3e2d63d9b705ed2254d0dba3bc26e5b64db1735b3d",
+    "a3ab6938da137d4c2d57f81c7619f8d1c7463e46607e1cd633220df763839087"
+  ],
+  "elapsed_s": 22.108988285064697
+}

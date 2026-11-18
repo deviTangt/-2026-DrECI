@@ -1,0 +1,60 @@
+{
+  "input_hash": "7ff382f071df7cc5ab37441f9eb5093ecd2fc3cd5f5a68a24bd306eb96a58439",
+  "sample_id": "ESC-CSV-02253",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Accountant"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a1b2bcbfda207013ef768bc35bba5bf0a15e49ebd7fedcece5ee33c5992f4778",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a1b2bcbfda207013ef768bc35bba5bf0a15e49ebd7fedcece5ee33c5992f4778",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9cf86ebe4358904db0bfcecc6e4f4cc2819d0c1087c4a0992dc47241e9f71579",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "00adb57a968f4b7bd2337194aa90a282112d458b60557c1aecc7769fccdf492f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "76b31f381cca6487192997ad0108d3ede09a807806a77c8d3038ff9560f56850",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Accountant\"],\"target_related\":[\"Spree\"],\"mediators\":[\"Accountant\"]}"
+    },
+    "indirect": {
+      "call_id": "b6d456dd794de035327bc015537077ea4b4180007357c158e598746003719cc6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired commonly motivates retaliation; the headline juxtaposes 'Fired Accountant' with 'Shooting Spree,' implying the firing caused the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "a1b2bcbfda207013ef768bc35bba5bf0a15e49ebd7fedcece5ee33c5992f4778",
+    "a1b2bcbfda207013ef768bc35bba5bf0a15e49ebd7fedcece5ee33c5992f4778",
+    "9cf86ebe4358904db0bfcecc6e4f4cc2819d0c1087c4a0992dc47241e9f71579",
+    "00adb57a968f4b7bd2337194aa90a282112d458b60557c1aecc7769fccdf492f",
+    "76b31f381cca6487192997ad0108d3ede09a807806a77c8d3038ff9560f56850",
+    "b6d456dd794de035327bc015537077ea4b4180007357c158e598746003719cc6"
+  ],
+  "elapsed_s": 8.10282015800476
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "49116715d59fdf62e3915a80a6e0de83ca836190d89a8b935a758a536513d592",
+  "sample_id": "ESC-CSV-04393",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a4c7948df2eb6ce9bc6e897832d092e56aea93fe786de3915098f1a735c1d011",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a4c7948df2eb6ce9bc6e897832d092e56aea93fe786de3915098f1a735c1d011",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "933a910be690b7b3c7d7f09c657e010fd0adf0db539ddb260e7c5cdb4cb36835",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c6a09f272834fcdfcf1273921c70ba8bc048a761d4321d35aff29b8982010cc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fbe8f827eafee28b612e06b145627590a53ef8b5e6c1f0989d12304ec4db60e1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "396aad3b78df6073de4ddec19f24c0898c8546c302fd482149b3c71e21914457",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A smash-and-grab (breaking in) enables the robbers to make off with jewelry; the smash precedes and causes the escape with loot.\"}"
+    }
+  },
+  "call_ids": [
+    "a4c7948df2eb6ce9bc6e897832d092e56aea93fe786de3915098f1a735c1d011",
+    "a4c7948df2eb6ce9bc6e897832d092e56aea93fe786de3915098f1a735c1d011",
+    "933a910be690b7b3c7d7f09c657e010fd0adf0db539ddb260e7c5cdb4cb36835",
+    "c6a09f272834fcdfcf1273921c70ba8bc048a761d4321d35aff29b8982010cc9",
+    "fbe8f827eafee28b612e06b145627590a53ef8b5e6c1f0989d12304ec4db60e1",
+    "396aad3b78df6073de4ddec19f24c0898c8546c302fd482149b3c71e21914457"
+  ],
+  "elapsed_s": 4.743414402008057
+}

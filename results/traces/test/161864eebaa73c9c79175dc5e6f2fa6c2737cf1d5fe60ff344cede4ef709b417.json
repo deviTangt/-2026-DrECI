@@ -1,0 +1,60 @@
+{
+  "input_hash": "161864eebaa73c9c79175dc5e6f2fa6c2737cf1d5fe60ff344cede4ef709b417",
+  "sample_id": "ESC-CSV-06446",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pregnant mom"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ff0b93c7d9b19517d2930ee321c34b87fd6a7cbee7a7ee2f56754c0a842a567",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ff0b93c7d9b19517d2930ee321c34b87fd6a7cbee7a7ee2f56754c0a842a567",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7feb986f8456990ecc18e87e4c5120269ea62b40f4040675b003e401c09f1298",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "06c970a7b21ac23b7737eacf97789a8dd33f6f6d33d467bc73585f80bc8d9b65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "299574f99abc6343371a0735f67870ef7e1c05970555c8cd3f7c5fbe2c642f7d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"18 - year - old gang member\",\"confessed\",\"pregnant mom\",\"ladies\"],\"target_related\":[\"pregnant mom\",\"Friday\",\"shielded\",\"children\",\"bullets\"],\"mediators\":[\"pregnant mom\"]}"
+    },
+    "indirect": {
+      "call_id": "dab2cd8fbc76b88067331c9c8b48a853b602317ce7840e6cc1a6e80b03d92011",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'confessed to killing a pregnant mom, who died' — killing directly caused the death; common sense confirms killing leads to dying.\"}"
+    }
+  },
+  "call_ids": [
+    "6ff0b93c7d9b19517d2930ee321c34b87fd6a7cbee7a7ee2f56754c0a842a567",
+    "6ff0b93c7d9b19517d2930ee321c34b87fd6a7cbee7a7ee2f56754c0a842a567",
+    "7feb986f8456990ecc18e87e4c5120269ea62b40f4040675b003e401c09f1298",
+    "06c970a7b21ac23b7737eacf97789a8dd33f6f6d33d467bc73585f80bc8d9b65",
+    "299574f99abc6343371a0735f67870ef7e1c05970555c8cd3f7c5fbe2c642f7d",
+    "dab2cd8fbc76b88067331c9c8b48a853b602317ce7840e6cc1a6e80b03d92011"
+  ],
+  "elapsed_s": 4.97237491607666
+}

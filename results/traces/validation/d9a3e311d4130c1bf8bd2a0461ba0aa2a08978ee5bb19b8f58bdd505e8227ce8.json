@@ -1,0 +1,64 @@
+{
+  "input_hash": "d9a3e311d4130c1bf8bd2a0461ba0aa2a08978ee5bb19b8f58bdd505e8227ce8",
+  "sample_id": "ESC-CSV-02623",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "riot",
+    "projectiles",
+    "hurled",
+    "cops",
+    "bashed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e76580ef5746533441f05a9000257ac11bbefbe0fc5de6031f7dfd68761c8788",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e76580ef5746533441f05a9000257ac11bbefbe0fc5de6031f7dfd68761c8788",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "55465482baeb0b769cf6da1faa29690d343507d2f99bc1a7389dda35acf25660",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eacb8d291c59e64382a0ac49c68a626bdca1fb532af8f3d8e63b9533e6c9ed98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3a82f8b4fb0d7e991ce519f3b71e0c3219802566b1536d5103bbeef66b1313c0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"riot\",\"protest march\",\"candlelight vigil\",\"Anger\",\"death\",\"shot\",\"killed\",\"projectiles\",\"hurled\",\"cops\",\"bashed\"],\"target_related\":[\"car windows\",\"bottle\",\"bashed\",\"projectiles\",\"hurled\",\"riot\",\"cops\"],\"mediators\":[\"riot\",\"projectiles\",\"hurled\",\"cops\",\"bashed\"]}"
+    },
+    "indirect": {
+      "call_id": "673e2cee207ca11793442abc438adeb19ea7667e69e5091fe777dbf6212d271a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Anger over the death 'fueled a riot' in which 'car windows were smashed' — riot is the implicit cause and chain linking violence to smashed windows.\"}"
+    }
+  },
+  "call_ids": [
+    "e76580ef5746533441f05a9000257ac11bbefbe0fc5de6031f7dfd68761c8788",
+    "e76580ef5746533441f05a9000257ac11bbefbe0fc5de6031f7dfd68761c8788",
+    "55465482baeb0b769cf6da1faa29690d343507d2f99bc1a7389dda35acf25660",
+    "eacb8d291c59e64382a0ac49c68a626bdca1fb532af8f3d8e63b9533e6c9ed98",
+    "3a82f8b4fb0d7e991ce519f3b71e0c3219802566b1536d5103bbeef66b1313c0",
+    "673e2cee207ca11793442abc438adeb19ea7667e69e5091fe777dbf6212d271a"
+  ],
+  "elapsed_s": 5.167169094085693
+}

@@ -1,0 +1,69 @@
+{
+  "input_hash": "c02ad9f184e06eeed3962c68c8af5d16af4eb9b51dfcd64b9d18d1cef4de3ae9",
+  "sample_id": "ESC-CSV-01614",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "anti-gang",
+    "unit",
+    "knocked",
+    "door",
+    "home",
+    "someone",
+    "head",
+    "authorities",
+    "Sheriff"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f548f49debd05f69c4e99ba842612fd33cf9ca18db46b479e89c4e20023035fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f548f49debd05f69c4e99ba842612fd33cf9ca18db46b479e89c4e20023035fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fa29bb99b54ab29ce64723738c89bef2f15f14256ca9a4c9dc67b7194d3ef900",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "225735eae68dc48ca13c4b8a7cbf91a8d6e2756c8198f710b9289a81c78cdd56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "42ce855234c21304351a33dbf28d5c9fe35d2334819845ddb7ac61e81ea5ddf5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"anti-gang\",\"unit\",\"knocked\",\"door\",\"home\",\"someone\",\"head\",\"authorities\",\"Sheriff\"],\"target_related\":[\"35-year-old\",\"sheriff\",\"deputy\",\"anti-gang\",\"unit\",\"Friday\",\"knocked\",\"door\",\"home\",\"someone\",\"shot\",\"head\",\"authorities\",\"Sheriff\"],\"mediators\":[\"deputy\",\"anti-gang\",\"unit\",\"knocked\",\"door\",\"home\",\"someone\",\"head\",\"authorities\",\"Sheriff\"]}"
+    },
+    "indirect": {
+      "call_id": "54ad29f3f2c4f66706c0b9a52e8a97272c5a893b61b2324693cb427b76374207",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'was killed Friday when he knocked on the door of a home and someone shot him in the head' — 'when' links the shooting to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "f548f49debd05f69c4e99ba842612fd33cf9ca18db46b479e89c4e20023035fb",
+    "f548f49debd05f69c4e99ba842612fd33cf9ca18db46b479e89c4e20023035fb",
+    "fa29bb99b54ab29ce64723738c89bef2f15f14256ca9a4c9dc67b7194d3ef900",
+    "225735eae68dc48ca13c4b8a7cbf91a8d6e2756c8198f710b9289a81c78cdd56",
+    "42ce855234c21304351a33dbf28d5c9fe35d2334819845ddb7ac61e81ea5ddf5",
+    "54ad29f3f2c4f66706c0b9a52e8a97272c5a893b61b2324693cb427b76374207"
+  ],
+  "elapsed_s": 5.016373157501221
+}

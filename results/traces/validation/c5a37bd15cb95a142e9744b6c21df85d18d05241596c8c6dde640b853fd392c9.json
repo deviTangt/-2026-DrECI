@@ -1,0 +1,67 @@
+{
+  "input_hash": "c5a37bd15cb95a142e9744b6c21df85d18d05241596c8c6dde640b853fd392c9",
+  "sample_id": "ESC-CSV-07007",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Chargers",
+    "player",
+    "Jamal Williams",
+    "defensive tackle",
+    "San Diego Chargers",
+    "drunk driving",
+    "Sunday",
+    "February 1, 2009"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ccc5083add3a3c3f39c7310aeb8ee8983c58b6ec60f41c04258a7461af3a4fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ccc5083add3a3c3f39c7310aeb8ee8983c58b6ec60f41c04258a7461af3a4fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "150312c03661e98fbb01068f09078c87e24c6356356b4904589c0ed01e65c4a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "19bef528c92b2cbe808b16a23f751d6498e8fcf7b29650cac4da4696b532ed0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "93e999230f7807223485fb858523b6c1fc90eff6e829e49fce0baf6f3ba02f1c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chargers\",\"player\",\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"drunk driving\",\"Sunday\",\"February 1, 2009\"],\"target_related\":[\"Chargers\",\"player\",\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"drunk driving\",\"Sunday\",\"February 1, 2009\"],\"mediators\":[\"Chargers\",\"player\",\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"drunk driving\",\"Sunday\",\"February 1, 2009\"]}"
+    },
+    "indirect": {
+      "call_id": "6016150d313b583740248bb107406f2b89f1b1ae9eb7405311b6a4fa4c3687cf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested for DUI' uses 'for' as explicit causation linking DUI to arrest; common sense also holds that DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "4ccc5083add3a3c3f39c7310aeb8ee8983c58b6ec60f41c04258a7461af3a4fe",
+    "4ccc5083add3a3c3f39c7310aeb8ee8983c58b6ec60f41c04258a7461af3a4fe",
+    "150312c03661e98fbb01068f09078c87e24c6356356b4904589c0ed01e65c4a3",
+    "19bef528c92b2cbe808b16a23f751d6498e8fcf7b29650cac4da4696b532ed0b",
+    "93e999230f7807223485fb858523b6c1fc90eff6e829e49fce0baf6f3ba02f1c",
+    "6016150d313b583740248bb107406f2b89f1b1ae9eb7405311b6a4fa4c3687cf"
+  ],
+  "elapsed_s": 4.779181003570557
+}

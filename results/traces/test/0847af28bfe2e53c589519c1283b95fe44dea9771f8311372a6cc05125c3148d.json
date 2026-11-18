@@ -1,0 +1,61 @@
+{
+  "input_hash": "0847af28bfe2e53c589519c1283b95fe44dea9771f8311372a6cc05125c3148d",
+  "sample_id": "ESC-CSV-06833",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton",
+    "gunfire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8d50cc306c7f1cc4584bd4170c4e04fde9704ae13b15903be03706652379349e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8d50cc306c7f1cc4584bd4170c4e04fde9704ae13b15903be03706652379349e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2ade891b43c12da44bab48c79bd5d7f741a333f4f7cb37577e19b7f512bf64a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4c9e96fbd712fc8b80f79d19f07e3b78c62540424c4bc6296d5cc12b6b58f05c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "cbc291bbdc10f1b1234f323c85c9ddfd3756bd4107a543e868127f51d466e440",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"students\",\"gunfire\"],\"target_related\":[\"Horton\",\"face\",\"chest\",\"gunfire\"],\"mediators\":[\"Horton\",\"gunfire\"]}"
+    },
+    "indirect": {
+      "call_id": "00c1fd8141f8784d48f0af600b084bc9bf8ab4f4a1eb7b392f53a90bfdce1ad3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Attempting to protect students led to Horton being shot; protecting precedes and causally explains the fatal shot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8d50cc306c7f1cc4584bd4170c4e04fde9704ae13b15903be03706652379349e",
+    "8d50cc306c7f1cc4584bd4170c4e04fde9704ae13b15903be03706652379349e",
+    "2ade891b43c12da44bab48c79bd5d7f741a333f4f7cb37577e19b7f512bf64a2",
+    "4c9e96fbd712fc8b80f79d19f07e3b78c62540424c4bc6296d5cc12b6b58f05c",
+    "cbc291bbdc10f1b1234f323c85c9ddfd3756bd4107a543e868127f51d466e440",
+    "00c1fd8141f8784d48f0af600b084bc9bf8ab4f4a1eb7b392f53a90bfdce1ad3"
+  ],
+  "elapsed_s": 4.5267462730407715
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "7ec7d42d5907015dba05964f5ef11c1bed9bbf1d544f739cd591f3b599b1f87a",
+  "sample_id": "ESC-CSV-07012",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "player"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cddc7d83ed2827d9f987ab12f88a0b260139bb9b095781ef51c193a54c0b8f25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cddc7d83ed2827d9f987ab12f88a0b260139bb9b095781ef51c193a54c0b8f25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0b35a41b12a01ff233d6fdefc7ce612d0eede9a9ea6fac2afb4860a5eea9fa24",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "71421a0123017633276218ecfa525556a5f38149afcf3de890cab7c34a19bc83",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0ef7f19a89c526602ae89f8da99b07c6648199d0534d295c79df5a8b0a305794",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Charges\",\"player\",\"arrested\"],\"target_related\":[\"DUI\",\"Chargers\",\"player\"],\"mediators\":[\"player\"]}"
+    },
+    "indirect": {
+      "call_id": "b4d81788c421905a7aefac2b23cde69f5da861ba7cd3574867ea621337e8b2cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested for DUI' uses 'for' as explicit causation word linking DUI to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "cddc7d83ed2827d9f987ab12f88a0b260139bb9b095781ef51c193a54c0b8f25",
+    "cddc7d83ed2827d9f987ab12f88a0b260139bb9b095781ef51c193a54c0b8f25",
+    "0b35a41b12a01ff233d6fdefc7ce612d0eede9a9ea6fac2afb4860a5eea9fa24",
+    "71421a0123017633276218ecfa525556a5f38149afcf3de890cab7c34a19bc83",
+    "0ef7f19a89c526602ae89f8da99b07c6648199d0534d295c79df5a8b0a305794",
+    "b4d81788c421905a7aefac2b23cde69f5da861ba7cd3574867ea621337e8b2cc"
+  ],
+  "elapsed_s": 4.512459754943848
+}

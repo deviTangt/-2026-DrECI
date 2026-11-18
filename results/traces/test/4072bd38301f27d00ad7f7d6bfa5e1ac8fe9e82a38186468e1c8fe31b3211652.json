@@ -1,0 +1,60 @@
+{
+  "input_hash": "4072bd38301f27d00ad7f7d6bfa5e1ac8fe9e82a38186468e1c8fe31b3211652",
+  "sample_id": "ESC-CSV-09773",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "10669c14c59ad85b1bb6efec0d9f1efc1468e8af488bd0c2879b1e67efc93e56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "10669c14c59ad85b1bb6efec0d9f1efc1468e8af488bd0c2879b1e67efc93e56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "72bf84d28a8bdfbf730c643cba6b242dd471f5aac1e5e3a63f74ebc9b780b7ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "700dd9d38b7c28382804cd585040d533e6290d757399dbcf985ca0e4ad0afc5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "995f32d6bb55bdc42d5954ed8b703b6aa137fb72c6092f1ac48776d1b15b9a1a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"striking\",\"spending cuts\",\"bankruptcy\"],\"target_related\":[\"Hooded youths\",\"petrol bombs\",\"stores\",\"businesses\",\"bank\",\"government buildings\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "2a74bb35e5fd5ce16097b4a0827d5cd57e045a56b29762717637802dfa3aea90",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Protesters are furious at spending cuts; hooded youths separately set buildings ablaze. No causal link between the fury and the arson is stated or implied.\"}"
+    }
+  },
+  "call_ids": [
+    "10669c14c59ad85b1bb6efec0d9f1efc1468e8af488bd0c2879b1e67efc93e56",
+    "10669c14c59ad85b1bb6efec0d9f1efc1468e8af488bd0c2879b1e67efc93e56",
+    "72bf84d28a8bdfbf730c643cba6b242dd471f5aac1e5e3a63f74ebc9b780b7ea",
+    "700dd9d38b7c28382804cd585040d533e6290d757399dbcf985ca0e4ad0afc5e",
+    "995f32d6bb55bdc42d5954ed8b703b6aa137fb72c6092f1ac48776d1b15b9a1a",
+    "2a74bb35e5fd5ce16097b4a0827d5cd57e045a56b29762717637802dfa3aea90"
+  ],
+  "elapsed_s": 4.820840835571289
+}

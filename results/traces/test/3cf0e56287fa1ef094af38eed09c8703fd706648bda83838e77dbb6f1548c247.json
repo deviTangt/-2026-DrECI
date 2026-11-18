@@ -1,0 +1,61 @@
+{
+  "input_hash": "3cf0e56287fa1ef094af38eed09c8703fd706648bda83838e77dbb6f1548c247",
+  "sample_id": "ESC-CSV-09541",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2da8fccdf1ea87c63745609b605cfd1d94406b4f540b96f088e9b9e7c711a259",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2da8fccdf1ea87c63745609b605cfd1d94406b4f540b96f088e9b9e7c711a259",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0604c20d29cb14de03915aabdde66c942b29ce843218516b678fbe1f25d581c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e923dd2b6e8976f22f446a205be088659dc29e1465ac12c5e4e318e609ee77de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3c25c130ad4d495a756b26bfd05e682c600d560c4d43a516171f11f4a4217eb9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"inferno\"],\"target_related\":[\"petrol bomb\",\"hurled\",\"Athens\",\"branch\",\"Marfin Investment Bank\",\"women\",\"man\"],\"mediators\":[\"women\",\"man\"]}"
+    },
+    "indirect": {
+      "call_id": "2de0fa4f2b88bd1391066a5beeccb2f6501fd7765b3be42b43da921e26fad3c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The women and man were caught in the inferno caused by the petrol bomb; being caught is a consequence, not a cause, of being killed.\"}"
+    }
+  },
+  "call_ids": [
+    "2da8fccdf1ea87c63745609b605cfd1d94406b4f540b96f088e9b9e7c711a259",
+    "2da8fccdf1ea87c63745609b605cfd1d94406b4f540b96f088e9b9e7c711a259",
+    "0604c20d29cb14de03915aabdde66c942b29ce843218516b678fbe1f25d581c7",
+    "e923dd2b6e8976f22f446a205be088659dc29e1465ac12c5e4e318e609ee77de",
+    "3c25c130ad4d495a756b26bfd05e682c600d560c4d43a516171f11f4a4217eb9",
+    "2de0fa4f2b88bd1391066a5beeccb2f6501fd7765b3be42b43da921e26fad3c8"
+  ],
+  "elapsed_s": 4.307621955871582
+}

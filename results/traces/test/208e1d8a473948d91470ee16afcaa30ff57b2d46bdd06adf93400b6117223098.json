@@ -1,0 +1,63 @@
+{
+  "input_hash": "208e1d8a473948d91470ee16afcaa30ff57b2d46bdd06adf93400b6117223098",
+  "sample_id": "ESC-CSV-09423",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "firebomb",
+    "attack",
+    "bank",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2f1cf90b76e71fcc97f8f47614f217a73a55f7f2152df390a20626b471825fb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2f1cf90b76e71fcc97f8f47614f217a73a55f7f2152df390a20626b471825fb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "434ed49cde4cd86ee375884985ad612a35d09420c4969b90792d888f08c08dd1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4a4b4f2d2133500fee41a55de6071f5d08632c6237e29405c2cd642e39401ca3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4bab626b277b7d077e4e6c4a175ef72fd8ca9391706aabf8c2c183fc00d6fee9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greek\",\"bank\",\"firebomb\",\"attack\",\"Greece\"],\"target_related\":[\"people\",\"three\",\"firebomb\",\"attack\",\"bank\",\"Greece\"],\"mediators\":[\"firebomb\",\"attack\",\"bank\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "c2530f0bc1205d58e2cd1da8941a8132b25eabc95dd7df8a89ad9f54c3cb0200",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'A firebomb attack ... killed at least three people' — 'killed' directly links the bomb attack to the deaths, and a bomb causing death follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "2f1cf90b76e71fcc97f8f47614f217a73a55f7f2152df390a20626b471825fb3",
+    "2f1cf90b76e71fcc97f8f47614f217a73a55f7f2152df390a20626b471825fb3",
+    "434ed49cde4cd86ee375884985ad612a35d09420c4969b90792d888f08c08dd1",
+    "4a4b4f2d2133500fee41a55de6071f5d08632c6237e29405c2cd642e39401ca3",
+    "4bab626b277b7d077e4e6c4a175ef72fd8ca9391706aabf8c2c183fc00d6fee9",
+    "c2530f0bc1205d58e2cd1da8941a8132b25eabc95dd7df8a89ad9f54c3cb0200"
+  ],
+  "elapsed_s": 4.1956703662872314
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "f8ae721496162b0a3ebce54160d72bf5f33f8358fb487ea417fbd40e8d00eb96",
+  "sample_id": "ESC-CSV-02202",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "office",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "670f0ebe4f492a2a10b6bf78dc3ba0238d8cf5baa150d91c0cebbef70ae1e682",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "670f0ebe4f492a2a10b6bf78dc3ba0238d8cf5baa150d91c0cebbef70ae1e682",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1a706057a17b3d7e146fe14b20b4ec9d32de49a137c719ce28c3f658c331af8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "056531945db7a36778b374d5dc7114f7920d57de1af162a03423463bcdb3c7d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d7b719aaf4275d07e94f9acf46a5d0791bcca29fe8cb8c90622e2373a6dc23ff",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"walked\",\"office\",\"manager\",\"killing\",\"shotgun\"],\"target_related\":[\"Steinberg\",\"hip\",\"police\",\"attack\",\"Riva\",\"ventilator\"],\"mediators\":[\"man\",\"office\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "20a1cda1233655b3f9e9cb05a275f4d258e6b2445521b8e0970bf21ff5fe0807",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The man made his way to the office with intent to kill; being shot is a separate later event, not caused by making his way.\"}"
+    }
+  },
+  "call_ids": [
+    "670f0ebe4f492a2a10b6bf78dc3ba0238d8cf5baa150d91c0cebbef70ae1e682",
+    "670f0ebe4f492a2a10b6bf78dc3ba0238d8cf5baa150d91c0cebbef70ae1e682",
+    "1a706057a17b3d7e146fe14b20b4ec9d32de49a137c719ce28c3f658c331af8c",
+    "056531945db7a36778b374d5dc7114f7920d57de1af162a03423463bcdb3c7d3",
+    "d7b719aaf4275d07e94f9acf46a5d0791bcca29fe8cb8c90622e2373a6dc23ff",
+    "20a1cda1233655b3f9e9cb05a275f4d258e6b2445521b8e0970bf21ff5fe0807"
+  ],
+  "elapsed_s": 16.4027681350708
+}

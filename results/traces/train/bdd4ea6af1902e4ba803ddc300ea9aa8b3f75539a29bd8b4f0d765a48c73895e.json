@@ -1,0 +1,61 @@
+{
+  "input_hash": "bdd4ea6af1902e4ba803ddc300ea9aa8b3f75539a29bd8b4f0d765a48c73895e",
+  "sample_id": "ESC-CSV-00000",
+  "scope": "intra",
+  "split": "train",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lohan",
+    "Morningside"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2bb7d73fd46e9523dc0e44d7599b10f3e4b6a1b5c2278beb87fee5bfb25f35e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2bb7d73fd46e9523dc0e44d7599b10f3e4b6a1b5c2278beb87fee5bfb25f35e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ab97b675afc4cdb32fa05c3eeb010751a41a1a84da1af57f09cebf3de50291f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cff52055fbf50d6651e933e17da151f7cb3a83ff1165b6da39836ad3583d3a14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f5fa289bfa2c8821f78eec5015243e2277f7aa1cbbdeb786bda0e1d02986bc46",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Superior Court Judge James R . Dabney\",\"hearing\",\"Lohan\",\"Morningside\"],\"target_related\":[\"Lohan\",\"Morningside\"],\"mediators\":[\"Lohan\",\"Morningside\"]}"
+    },
+    "indirect": {
+      "call_id": "2de762967575a312b8b2471c4f1373b4a9c80ce7bccd534bc8cbccddfa214cb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Judge's agreement and Lohan remaining are both objects of the same verb 'agreed'; no causal relation between them.\"}"
+    }
+  },
+  "call_ids": [
+    "2bb7d73fd46e9523dc0e44d7599b10f3e4b6a1b5c2278beb87fee5bfb25f35e2",
+    "2bb7d73fd46e9523dc0e44d7599b10f3e4b6a1b5c2278beb87fee5bfb25f35e2",
+    "ab97b675afc4cdb32fa05c3eeb010751a41a1a84da1af57f09cebf3de50291f8",
+    "cff52055fbf50d6651e933e17da151f7cb3a83ff1165b6da39836ad3583d3a14",
+    "f5fa289bfa2c8821f78eec5015243e2277f7aa1cbbdeb786bda0e1d02986bc46",
+    "2de762967575a312b8b2471c4f1373b4a9c80ce7bccd534bc8cbccddfa214cb0"
+  ],
+  "elapsed_s": 6.342432737350464
+}

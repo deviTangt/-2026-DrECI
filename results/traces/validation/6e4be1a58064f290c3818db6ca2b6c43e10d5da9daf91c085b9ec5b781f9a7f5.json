@@ -1,0 +1,65 @@
+{
+  "input_hash": "6e4be1a58064f290c3818db6ca2b6c43e10d5da9daf91c085b9ec5b781f9a7f5",
+  "sample_id": "ESC-CSV-02432",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "brick",
+    "arrests",
+    "disorderly conduct",
+    "protest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15c1438a6aa3e031c6ffe8ab34bf2c1efb9626f67be29676d1ce6ccbf7887f3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15c1438a6aa3e031c6ffe8ab34bf2c1efb9626f67be29676d1ce6ccbf7887f3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "416aee8b41b7983124807ec70b0e8fe6c46ccec084f15ac51492d13695194eba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f981817cb96c715beb7d4c9670fde6a0244347f1c1533c4c0993e4bc7da7cee9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "927effa8de74d845b3e79810794869c3483a2a484536c6732a41ac7790da037a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\",\"anger\",\"protest\",\"officer\",\"brick\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"Monday\",\"evening\",\"mob\",\"businesses\",\"protest\",\"Wednesday\",\"police\",\"officer\",\"brick\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"police\",\"officer\",\"brick\",\"arrests\",\"disorderly conduct\",\"protest\"]}"
+    },
+    "indirect": {
+      "call_id": "8f8dea9eda96c5dbf42721a603392c8ff568a222c0dfc95915e125137b065ad1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred first, then the anger and a Monday evening vigil followed; common sense holds the shooting prompted the vigil.\"}"
+    }
+  },
+  "call_ids": [
+    "15c1438a6aa3e031c6ffe8ab34bf2c1efb9626f67be29676d1ce6ccbf7887f3d",
+    "15c1438a6aa3e031c6ffe8ab34bf2c1efb9626f67be29676d1ce6ccbf7887f3d",
+    "416aee8b41b7983124807ec70b0e8fe6c46ccec084f15ac51492d13695194eba",
+    "f981817cb96c715beb7d4c9670fde6a0244347f1c1533c4c0993e4bc7da7cee9",
+    "927effa8de74d845b3e79810794869c3483a2a484536c6732a41ac7790da037a",
+    "8f8dea9eda96c5dbf42721a603392c8ff568a222c0dfc95915e125137b065ad1"
+  ],
+  "elapsed_s": 21.131410360336304
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "24e9e92cb4e8576218c0498fc748dd1370546b740546ed56e86a0d1b612c5090",
+  "sample_id": "ESC-CSV-04064",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "36-year-old",
+    "Melbourne",
+    "climber",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8132d49ea5e0c5c4709846c2b4e42a5352cd2579a1651d96a2be3d2d593d715c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8132d49ea5e0c5c4709846c2b4e42a5352cd2579a1651d96a2be3d2d593d715c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8c24ab00bf6e2fefcb44a63966a395a40b5af9abd156ab3b056c2141b7ae7af9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2e814dfd92dfafe9ef82845cd5f49dbe38682c5f2f6ddc7fb367765fcecbdea6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1fcf11174f1b113d31fd55e66c74d386ff284649aeb4fe9e7ed0d520e748b072",
+      "status": "ok",
+      "text": "{\"source_related\":[\"36-year-old\",\"Melbourne\",\"fell\",\"200 metres\",\"steep ice gully\",\"approaching\",\"Tasman Saddle Hut\",\"police\",\"climber\"],\"target_related\":[\"36-year-old\",\"Melbourne\",\"climber\",\"Mt Cook\",\"police\"],\"mediators\":[\"36-year-old\",\"Melbourne\",\"climber\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "bbcee3c0b8d8bc5fbcff1de2d46cab35bd11691069843f20a6a03724c037e5a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping and falling 200 metres down an ice gully would cause fatal injuries, so the slip precedes and causes the climber's death.\"}"
+    }
+  },
+  "call_ids": [
+    "8132d49ea5e0c5c4709846c2b4e42a5352cd2579a1651d96a2be3d2d593d715c",
+    "8132d49ea5e0c5c4709846c2b4e42a5352cd2579a1651d96a2be3d2d593d715c",
+    "8c24ab00bf6e2fefcb44a63966a395a40b5af9abd156ab3b056c2141b7ae7af9",
+    "2e814dfd92dfafe9ef82845cd5f49dbe38682c5f2f6ddc7fb367765fcecbdea6",
+    "1fcf11174f1b113d31fd55e66c74d386ff284649aeb4fe9e7ed0d520e748b072",
+    "bbcee3c0b8d8bc5fbcff1de2d46cab35bd11691069843f20a6a03724c037e5a0"
+  ],
+  "elapsed_s": 4.020956516265869
+}

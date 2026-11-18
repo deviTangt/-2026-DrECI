@@ -1,0 +1,62 @@
+{
+  "input_hash": "f92a27f8a0285fbda82af37177171e91ee6bcecb46b21218531b0c0bd717dd7d",
+  "sample_id": "ESC-CSV-02844",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teen",
+    "killed",
+    "NYPD"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9a864b176e64ada0aec9301376a8182d747b88d05f4c741d67445d2770c764e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9a864b176e64ada0aec9301376a8182d747b88d05f4c741d67445d2770c764e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e594f5ef54187cf8817b65013a1f1e8c82702b4c9430d96fd2b01962570648ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "63c258bd6f8b04d9146ef871bc06ca27a40037d1e4d7f1ec3b63f39ab5e3ab2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4179b52a4ee3b28343ffff2f33a9036dd7c552cdb57411a34ad545194da6151",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"killed\",\"teen\"],\"target_related\":[\"teen\",\"killed\",\"NYPD\",\"vigil\"],\"mediators\":[\"teen\",\"killed\",\"NYPD\"]}"
+    },
+    "indirect": {
+      "call_id": "b329c723e45789cb1f60863a7382e45b08ffed7c18f37d20c9bf8ff17e05a22f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed' — 'killed' directly expresses that the shooting caused the teen's death; shooting precedes slaying by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "9a864b176e64ada0aec9301376a8182d747b88d05f4c741d67445d2770c764e1",
+    "9a864b176e64ada0aec9301376a8182d747b88d05f4c741d67445d2770c764e1",
+    "e594f5ef54187cf8817b65013a1f1e8c82702b4c9430d96fd2b01962570648ac",
+    "63c258bd6f8b04d9146ef871bc06ca27a40037d1e4d7f1ec3b63f39ab5e3ab2d",
+    "c4179b52a4ee3b28343ffff2f33a9036dd7c552cdb57411a34ad545194da6151",
+    "b329c723e45789cb1f60863a7382e45b08ffed7c18f37d20c9bf8ff17e05a22f"
+  ],
+  "elapsed_s": 3.8233463764190674
+}

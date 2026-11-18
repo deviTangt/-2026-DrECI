@@ -1,0 +1,60 @@
+{
+  "input_hash": "c9c008ebf179d59bfc322bc6be5a0b6885dbc96515408793c064bcd230839bbb",
+  "sample_id": "ESC-CSV-01746",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Deputy Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "85bb4ce0c2c55667fc60f839ad24bcc0cc54130ed65f3e7f178b712224da4f84",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "85bb4ce0c2c55667fc60f839ad24bcc0cc54130ed65f3e7f178b712224da4f84",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2a4631cc178656a8d66884e952a662b8fe2b8132a43d781d5d6dca8ed10dfa42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6084b0d7463ddf4e53c038e4553418c082064d71b8a98b5fdd99c12bf9e7a24a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "b8f480877bcafb4f93b060611320080a64e318d76a3bf5be8414065eea4e483a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"shot\",\"apartment\",\"East 223rd Street\"],\"target_related\":[\"Deputy Ortiz\",\"investigating\",\"shooting\",\"defendant\",\"suspect\"],\"mediators\":[\"Deputy Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "f85d6f4a3912366d47058fa6091942a7ec151b7a0aec78ec0663b4b1c30d4b99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"'shot to death' is a coreference of X (death) and is caused by being 'killed' (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "85bb4ce0c2c55667fc60f839ad24bcc0cc54130ed65f3e7f178b712224da4f84",
+    "85bb4ce0c2c55667fc60f839ad24bcc0cc54130ed65f3e7f178b712224da4f84",
+    "2a4631cc178656a8d66884e952a662b8fe2b8132a43d781d5d6dca8ed10dfa42",
+    "6084b0d7463ddf4e53c038e4553418c082064d71b8a98b5fdd99c12bf9e7a24a",
+    "b8f480877bcafb4f93b060611320080a64e318d76a3bf5be8414065eea4e483a",
+    "f85d6f4a3912366d47058fa6091942a7ec151b7a0aec78ec0663b4b1c30d4b99"
+  ],
+  "elapsed_s": 5.344719171524048
+}

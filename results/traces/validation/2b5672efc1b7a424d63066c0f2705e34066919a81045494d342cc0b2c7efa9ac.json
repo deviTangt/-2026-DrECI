@@ -1,0 +1,61 @@
+{
+  "input_hash": "2b5672efc1b7a424d63066c0f2705e34066919a81045494d342cc0b2c7efa9ac",
+  "sample_id": "ESC-CSV-02533",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "killed",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eb399f215ab28cce8573cbbc75473f5f12fe3910427f9b29ece6b23f38c1f0f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eb399f215ab28cce8573cbbc75473f5f12fe3910427f9b29ece6b23f38c1f0f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "60e66f5e628775f77e8d0b2753c14ea708e49612164187230da67be97c8e99ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d44412668d9941e1f261d73b1e2b03551bdb5460d9462df6dcd1c95f7a6e083d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "7e061d8dd726538ff9ebe0801fc2b73a162fa9b0d8e94a56b10745d93988ff11",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"killed\",\"police\",\"gun\",\"Sgt\",\"Mourad\",\"Officer\",\"Jovaniel\",\"Cordova\",\"fire\"],\"target_related\":[\"Riots\",\"Death\",\"Brooklyn\",\"Teen\",\"Killed\",\"Police\"],\"mediators\":[\"killed\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "b8bfbef531dda9227ea94ac3e7970a5bc3e04c5aea2d5a644859ee7dc3fcbc04",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Gray was killed after pointing a gun; riots erupted following his death. Pointing did not cause the riots; the killing did.\"}"
+    }
+  },
+  "call_ids": [
+    "eb399f215ab28cce8573cbbc75473f5f12fe3910427f9b29ece6b23f38c1f0f7",
+    "eb399f215ab28cce8573cbbc75473f5f12fe3910427f9b29ece6b23f38c1f0f7",
+    "60e66f5e628775f77e8d0b2753c14ea708e49612164187230da67be97c8e99ff",
+    "d44412668d9941e1f261d73b1e2b03551bdb5460d9462df6dcd1c95f7a6e083d",
+    "7e061d8dd726538ff9ebe0801fc2b73a162fa9b0d8e94a56b10745d93988ff11",
+    "b8bfbef531dda9227ea94ac3e7970a5bc3e04c5aea2d5a644859ee7dc3fcbc04"
+  ],
+  "elapsed_s": 13.876554012298584
+}

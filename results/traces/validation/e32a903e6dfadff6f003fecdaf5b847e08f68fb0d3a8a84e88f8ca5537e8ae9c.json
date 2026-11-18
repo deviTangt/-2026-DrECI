@@ -1,0 +1,64 @@
+{
+  "input_hash": "e32a903e6dfadff6f003fecdaf5b847e08f68fb0d3a8a84e88f8ca5537e8ae9c",
+  "sample_id": "ESC-CSV-02643",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "police",
+    "shot",
+    "cops",
+    "vigil"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6423504d4c1c8a2fee44c597e719d7aca055aa73f756fe708678877ca065649b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6423504d4c1c8a2fee44c597e719d7aca055aa73f756fe708678877ca065649b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a7ba15f2222667cc47050d74755a04b09fdbb395aafde974d704984b7acf96b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2d679f53e31fc4f49a45c687c8c331b25b82aedfaacabc65abec9fee69b30670",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "93edbd48a2f0095dfcf7f3f3c2e21450f5270d0727199db13b00db5e197d3e60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenager\",\"police\",\"shot\",\"killed\",\"candlelight vigil\",\"16-year-old\"],\"target_related\":[\"riot\",\"Brooklyn\",\"projectiles\",\"cops\",\"car windows\",\"pharmacy customer\",\"bottle\",\"vigil\"],\"mediators\":[\"Brooklyn\",\"police\",\"shot\",\"cops\",\"vigil\"]}"
+    },
+    "indirect": {
+      "call_id": "4b45300f5a8282c5036199c0c0e51615ea08b5df4ef209efc123532272a91695",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death ... fueled a riot; 'fueled' implicitly links the death to anger.\"}"
+    }
+  },
+  "call_ids": [
+    "6423504d4c1c8a2fee44c597e719d7aca055aa73f756fe708678877ca065649b",
+    "6423504d4c1c8a2fee44c597e719d7aca055aa73f756fe708678877ca065649b",
+    "4a7ba15f2222667cc47050d74755a04b09fdbb395aafde974d704984b7acf96b",
+    "2d679f53e31fc4f49a45c687c8c331b25b82aedfaacabc65abec9fee69b30670",
+    "93edbd48a2f0095dfcf7f3f3c2e21450f5270d0727199db13b00db5e197d3e60",
+    "4b45300f5a8282c5036199c0c0e51615ea08b5df4ef209efc123532272a91695"
+  ],
+  "elapsed_s": 4.130370140075684
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "3cd15d5a0186c7d19aa92586a039d9263eefa4f13c977062268a7c6d2292d5af",
+  "sample_id": "ESC-CSV-01640",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "parolee"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "578eed22f268bac84258bc7cf7593e801b7895492f40fa62b692272e3c460a59",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "578eed22f268bac84258bc7cf7593e801b7895492f40fa62b692272e3c460a59",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1317e2c8ec19f71fc0653838308683da0431f8d7283cebc48d2124d84a49a21d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4b0058fd3e190f766c9a590ded79f0dd3ed0c312925db101d3c3c7d50ab1650f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3b3fe03d4edc2955182ef87b57511f6867231b3a3c33e12db8cb4db4b7341624",
+      "status": "ok",
+      "text": "{\"source_related\":[\"parolee\",\"bathtub\",\"house\",\"Jerry Ortiz\",\"shot\"],\"target_related\":[\"parolee\",\"Deputy\",\"Killer\"],\"mediators\":[\"parolee\"]}"
+    },
+    "indirect": {
+      "call_id": "9af6f6c4c83cb28833ea1457044537265c228e01cc17dfbb69775a1253fa3d7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Found' (parolee discovered) and 'Held' (headline: killer held) are separate events; no explicit or implicit causal word, causal order, coreference, or Z-chain links them.\"}"
+    }
+  },
+  "call_ids": [
+    "578eed22f268bac84258bc7cf7593e801b7895492f40fa62b692272e3c460a59",
+    "578eed22f268bac84258bc7cf7593e801b7895492f40fa62b692272e3c460a59",
+    "1317e2c8ec19f71fc0653838308683da0431f8d7283cebc48d2124d84a49a21d",
+    "4b0058fd3e190f766c9a590ded79f0dd3ed0c312925db101d3c3c7d50ab1650f",
+    "3b3fe03d4edc2955182ef87b57511f6867231b3a3c33e12db8cb4db4b7341624",
+    "9af6f6c4c83cb28833ea1457044537265c228e01cc17dfbb69775a1253fa3d7d"
+  ],
+  "elapsed_s": 4.830106019973755
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "f7ab38aff9344160e3b693bb8dcffd607e4d9eeb762f5f326949bfea56f827ac",
+  "sample_id": "ESC-CSV-06841",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "shooting",
+    "students",
+    "Brownsville school"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3ea17186df620e1090479f7955cfbb83421ee46154b85a902e1bb71cf6adc216",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3ea17186df620e1090479f7955cfbb83421ee46154b85a902e1bb71cf6adc216",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0b25c3050eb5681a5226fdb60dbe66d17b98b055858cb3978f2990ed11441fa4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "830ad7e69a8f16876a84b2949118f527e4b2d46f5c6ad205ca0b87ee4b6477fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b1746d109e6920aaae7b10e836d5180478f32129d885f43dae646eb2ba2f22f3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"shooting\",\"students\",\"Horton\",\"Andrew Lopez\",\"teens\",\"Brownsville school\"],\"target_related\":[\"Horton\",\"Zurana Horton\",\"shooting\",\"Brownsville school\",\"students\"],\"mediators\":[\"Horton\",\"shooting\",\"students\",\"Brownsville school\"]}"
+    },
+    "indirect": {
+      "call_id": "29be7eff11cc5e18f13e84ba81e14e94556a7c2b158be992f13cc3e9648657b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Gunfire (shooting) occurred before and caused Horton's death; the shooting claimed her life, forming a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "3ea17186df620e1090479f7955cfbb83421ee46154b85a902e1bb71cf6adc216",
+    "3ea17186df620e1090479f7955cfbb83421ee46154b85a902e1bb71cf6adc216",
+    "0b25c3050eb5681a5226fdb60dbe66d17b98b055858cb3978f2990ed11441fa4",
+    "830ad7e69a8f16876a84b2949118f527e4b2d46f5c6ad205ca0b87ee4b6477fd",
+    "b1746d109e6920aaae7b10e836d5180478f32129d885f43dae646eb2ba2f22f3",
+    "29be7eff11cc5e18f13e84ba81e14e94556a7c2b158be992f13cc3e9648657b8"
+  ],
+  "elapsed_s": 5.503511905670166
+}

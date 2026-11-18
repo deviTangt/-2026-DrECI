@@ -1,0 +1,62 @@
+{
+  "input_hash": "e6b4051739560139957b4b9ec8dad10681c46c5ee9a8e845cc7b4ced60fd0412",
+  "sample_id": "ESC-CSV-09307",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrations",
+    "marched",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4cfed0787ec4757d8a7294a9a420d801bc84193f20d88e5dc9f0ca2b997babad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4cfed0787ec4757d8a7294a9a420d801bc84193f20d88e5dc9f0ca2b997babad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d83dac1889b7619c22a33390087d496db512f8a3546c93f08bdfd32d0bfedff8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e138312369ee85652c7918cefce85facc8bb3bd36c8781efbdea101614f7c7e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bc8aa0c6aac9883166a2ffceaff2c1c92c9e601ddf20cb72316191b2acad2c85",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrations\",\"marched\",\"Athens\",\"deaths\"],\"target_related\":[\"women\",\"man\",\"demonstrations\",\"marched\",\"Athens\"],\"mediators\":[\"demonstrations\",\"marched\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "68ff2079232700f34ba67f5b99059c3942e2538b125b29856b46994f0e2afcf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Demonstrations/riots in Athens led to deaths; common sense: riot violence causes people to be killed, with demonstrations as the chain linking riot to killings.\"}"
+    }
+  },
+  "call_ids": [
+    "4cfed0787ec4757d8a7294a9a420d801bc84193f20d88e5dc9f0ca2b997babad",
+    "4cfed0787ec4757d8a7294a9a420d801bc84193f20d88e5dc9f0ca2b997babad",
+    "d83dac1889b7619c22a33390087d496db512f8a3546c93f08bdfd32d0bfedff8",
+    "e138312369ee85652c7918cefce85facc8bb3bd36c8781efbdea101614f7c7e8",
+    "bc8aa0c6aac9883166a2ffceaff2c1c92c9e601ddf20cb72316191b2acad2c85",
+    "68ff2079232700f34ba67f5b99059c3942e2538b125b29856b46994f0e2afcf7"
+  ],
+  "elapsed_s": 4.204974412918091
+}

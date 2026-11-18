@@ -1,0 +1,64 @@
+{
+  "input_hash": "15b4a85648b83f900bbc25cdbb2e4c0b1ad98f40a6cbd9aa1802c03e1d46eb2c",
+  "sample_id": "ESC-CSV-02012",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Accounting",
+    "Firm",
+    "Woman",
+    "2",
+    "Hurt"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ddd605ed3774404aef35e0643125e27520aa4e6dc5cd2cffcfe74191723e9828",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ddd605ed3774404aef35e0643125e27520aa4e6dc5cd2cffcfe74191723e9828",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a5f938a5542aa50361867d69f4567951e60490caf2231eda3a357184ca8d913f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "28c7a5ebe1f9f1659133eed2a25247d205e1811fc387100a57b156f868effc6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "94e59dbef5765f7134478146f3d66bfad18dd90929d6344d25e2c6c4a5d215e4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Accounting\",\"Firm\",\"Woman\",\"2\",\"Hurt\"],\"target_related\":[\"Shooting\",\"Accounting\",\"Firm\",\"Woman\",\"2\",\"Hurt\"],\"mediators\":[\"Accounting\",\"Firm\",\"Woman\",\"2\",\"Hurt\"]}"
+    },
+    "indirect": {
+      "call_id": "e1ecb4557883e12e10e0959e9dcffba682dcafb269ce00e2b439f5837480e7e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Shooting ... Leaves Woman Dead' — 'leaves' explicitly expresses causation; common sense: shooting causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "ddd605ed3774404aef35e0643125e27520aa4e6dc5cd2cffcfe74191723e9828",
+    "ddd605ed3774404aef35e0643125e27520aa4e6dc5cd2cffcfe74191723e9828",
+    "a5f938a5542aa50361867d69f4567951e60490caf2231eda3a357184ca8d913f",
+    "28c7a5ebe1f9f1659133eed2a25247d205e1811fc387100a57b156f868effc6f",
+    "94e59dbef5765f7134478146f3d66bfad18dd90929d6344d25e2c6c4a5d215e4",
+    "e1ecb4557883e12e10e0959e9dcffba682dcafb269ce00e2b439f5837480e7e0"
+  ],
+  "elapsed_s": 6.336704969406128
+}

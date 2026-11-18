@@ -1,0 +1,67 @@
+{
+  "input_hash": "afa0f9ba67aa35ed6ad0d3d95cc0b5a029fb61a1e5ea20b4595e3dcca3110286",
+  "sample_id": "ESC-CSV-02371",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Troy",
+    "Michigan",
+    "Office",
+    "1",
+    "Dead",
+    "2",
+    "Injured",
+    "Suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "077185d1fd650c01b1b6cb99be738ef4952468600df8ffe54d759eb6482d8a03",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "077185d1fd650c01b1b6cb99be738ef4952468600df8ffe54d759eb6482d8a03",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "de912216e4241d28cf4bb022ddc6ad624366ea6e1980cc6bb3e6d327ea241216",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "de90138ec9a5b84aa8c87fb2917bcbc91c5de19f9937d4d087ee00185bc28da5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "31a15d5674bdf74a9d21f97518f699bbbc99458efc70e1d7197b433f2d6bc17a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"Michigan\",\"Office\",\"1\",\"Dead\",\"2\",\"Injured\",\"Suspect\"],\"target_related\":[\"Troy\",\"Michigan\",\"Office\",\"1\",\"Dead\",\"2\",\"Injured\",\"Suspect\"],\"mediators\":[\"Troy\",\"Michigan\",\"Office\",\"1\",\"Dead\",\"2\",\"Injured\",\"Suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "c3614e990a75c4ba7c6b584fd1ff5082b7d613df94ed83a4abc3b3e0077dc862",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting occurs, and the suspect is subsequently caught; common sense holds that the shooting leads to the suspect being caught.\"}"
+    }
+  },
+  "call_ids": [
+    "077185d1fd650c01b1b6cb99be738ef4952468600df8ffe54d759eb6482d8a03",
+    "077185d1fd650c01b1b6cb99be738ef4952468600df8ffe54d759eb6482d8a03",
+    "de912216e4241d28cf4bb022ddc6ad624366ea6e1980cc6bb3e6d327ea241216",
+    "de90138ec9a5b84aa8c87fb2917bcbc91c5de19f9937d4d087ee00185bc28da5",
+    "31a15d5674bdf74a9d21f97518f699bbbc99458efc70e1d7197b433f2d6bc17a",
+    "c3614e990a75c4ba7c6b584fd1ff5082b7d613df94ed83a4abc3b3e0077dc862"
+  ],
+  "elapsed_s": 10.36422061920166
+}

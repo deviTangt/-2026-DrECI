@@ -1,0 +1,65 @@
+{
+  "input_hash": "e5407e6da9a459df590144085cc218ff17c40885024f325ac74e5ef9ee8a189f",
+  "sample_id": "ESC-CSV-02177",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "Madeline Kafoury",
+    "managers",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "97e1ef13965b128de21cba8e9d9708ac5ed1edb05684673ada3d1eec8ff8965f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "97e1ef13965b128de21cba8e9d9708ac5ed1edb05684673ada3d1eec8ff8965f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7041d75ca505cc274829713ebe950d6fa65f3f69b6e9839320ba981ece998a07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ac2e749f8515e3e538ed76fd9fe9fba4f5a44125ef7d8a06a864d5e2e8b2dc6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "99c2f508dbf3f5f8ffc746080ed9817268907b13e6d5e7bb81e9fdba68d1de63",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"receptionist\",\"Madeline Kafoury\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"target_related\":[\"receptionist\",\"Madeline Kafoury\",\"dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"mediators\":[\"receptionist\",\"Madeline Kafoury\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "b187d64b5e415f9eb110157dcefdf889bd8556037ecf2ec357eb5f9e432d29d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Violence occurred before the shooting; common sense holds that violence can cause someone to be shot dead.\"}"
+    }
+  },
+  "call_ids": [
+    "97e1ef13965b128de21cba8e9d9708ac5ed1edb05684673ada3d1eec8ff8965f",
+    "97e1ef13965b128de21cba8e9d9708ac5ed1edb05684673ada3d1eec8ff8965f",
+    "7041d75ca505cc274829713ebe950d6fa65f3f69b6e9839320ba981ece998a07",
+    "ac2e749f8515e3e538ed76fd9fe9fba4f5a44125ef7d8a06a864d5e2e8b2dc6a",
+    "99c2f508dbf3f5f8ffc746080ed9817268907b13e6d5e7bb81e9fdba68d1de63",
+    "b187d64b5e415f9eb110157dcefdf889bd8556037ecf2ec357eb5f9e432d29d0"
+  ],
+  "elapsed_s": 5.613000869750977
+}

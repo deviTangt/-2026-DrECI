@@ -1,0 +1,63 @@
+{
+  "input_hash": "2fc6f681e367fa01278e08dff04fa78c7182911a2bf66110cba3ca5aecc15551",
+  "sample_id": "ESC-CSV-01582",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "handgun",
+    "officer",
+    "fired"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6438f33340b0dded2b8657205cc789b6e8aa7dea01ea4cca590e0a8d6b35a864",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6438f33340b0dded2b8657205cc789b6e8aa7dea01ea4cca590e0a8d6b35a864",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f547edfd353cd39f4085f4eb7d3b8c88325340241542c016353b1d1c8157c903",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "748ffd0187c8507088ab42603d02be8d0c75d1ff1cb2dc24dbec70de9549feb4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "31968f6f954e66988fdb0430b27c81a6d3eb1f82c891f898ed4da8a92e21b283",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"residence\",\"handgun\",\"officer\",\"fired\"],\"target_related\":[\"deputy\",\"fatally\",\"gunman\",\"handgun\",\"officer\",\"fired\"],\"mediators\":[\"gunman\",\"handgun\",\"officer\",\"fired\"]}"
+    },
+    "indirect": {
+      "call_id": "3b64652cc9f1e19bf46c056bb9a22142e56c208826e24ef3d6fdefbd686f773c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The gunman burst out of the residence, then put a handgun to the officer's face and fired, shooting him; bursting out enabled the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "6438f33340b0dded2b8657205cc789b6e8aa7dea01ea4cca590e0a8d6b35a864",
+    "6438f33340b0dded2b8657205cc789b6e8aa7dea01ea4cca590e0a8d6b35a864",
+    "f547edfd353cd39f4085f4eb7d3b8c88325340241542c016353b1d1c8157c903",
+    "748ffd0187c8507088ab42603d02be8d0c75d1ff1cb2dc24dbec70de9549feb4",
+    "31968f6f954e66988fdb0430b27c81a6d3eb1f82c891f898ed4da8a92e21b283",
+    "3b64652cc9f1e19bf46c056bb9a22142e56c208826e24ef3d6fdefbd686f773c"
+  ],
+  "elapsed_s": 5.203263282775879
+}

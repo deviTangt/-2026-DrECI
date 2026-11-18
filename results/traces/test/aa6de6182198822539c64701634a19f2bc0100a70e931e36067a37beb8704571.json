@@ -1,0 +1,60 @@
+{
+  "input_hash": "aa6de6182198822539c64701634a19f2bc0100a70e931e36067a37beb8704571",
+  "sample_id": "ESC-CSV-04612",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "249233d0b9936689cc9c226ef7f0ecc3ef0fca05677af6c31699aedfe5b817b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "249233d0b9936689cc9c226ef7f0ecc3ef0fca05677af6c31699aedfe5b817b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "26e7f5ce1cdaac42d8a04d6ce3041b3e5eab78b0f9441a8c4b59672d19f49b4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a452ee5937e38f8a9689a9b6c4ce9c76d597803e60f28fe48295513fd64f1814",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5d43ccedb726c49e00c5523adbe152e958ca909859747c0c5695e31fcfffe2aa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"morning\"],\"target_related\":[\"jewellery\",\"luxury watches\",\"store\",\"France\"],\"mediators\":[\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "99c32f8908fcf517c8c6ee6d67d6abdaaece7fe465558f11dacce4cd6e40369f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Drove a 4x4 into the store, enabling the men to grab jewellery and watches; driving into the store caused the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "249233d0b9936689cc9c226ef7f0ecc3ef0fca05677af6c31699aedfe5b817b7",
+    "249233d0b9936689cc9c226ef7f0ecc3ef0fca05677af6c31699aedfe5b817b7",
+    "26e7f5ce1cdaac42d8a04d6ce3041b3e5eab78b0f9441a8c4b59672d19f49b4f",
+    "a452ee5937e38f8a9689a9b6c4ce9c76d597803e60f28fe48295513fd64f1814",
+    "5d43ccedb726c49e00c5523adbe152e958ca909859747c0c5695e31fcfffe2aa",
+    "99c32f8908fcf517c8c6ee6d67d6abdaaece7fe465558f11dacce4cd6e40369f"
+  ],
+  "elapsed_s": 4.933555364608765
+}

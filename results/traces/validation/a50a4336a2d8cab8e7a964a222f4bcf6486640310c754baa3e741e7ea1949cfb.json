@@ -1,0 +1,61 @@
+{
+  "input_hash": "a50a4336a2d8cab8e7a964a222f4bcf6486640310c754baa3e741e7ea1949cfb",
+  "sample_id": "ESC-CSV-01633",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "someone"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "faba808466959eaa4f61d7630b50071e1fbd6a068eafbd21e99ffdf48763570d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "faba808466959eaa4f61d7630b50071e1fbd6a068eafbd21e99ffdf48763570d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f34e6d5175eea9cfa6984afee3d5c2959abf53371ca9c00d8d5e08324476b494",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "912d0d73b0fc44be75e4f37fc6bbe458b8b78d45bd7514629454ef7da86a092a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "683a661e6c8cedcaf4af60347d9211431835094295d1873d5739469841757857",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"door\",\"home\",\"someone\"],\"target_related\":[\"deputy\",\"someone\",\"head\",\"killed\"],\"mediators\":[\"deputy\",\"someone\"]}"
+    },
+    "indirect": {
+      "call_id": "ec0aed1fc3c9a0f19f3c618e7f455896b288c66153af52575e68f5d10093d881",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Knocking on the door prompted the person inside to shoot; the knock occurred before the shooting, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "faba808466959eaa4f61d7630b50071e1fbd6a068eafbd21e99ffdf48763570d",
+    "faba808466959eaa4f61d7630b50071e1fbd6a068eafbd21e99ffdf48763570d",
+    "f34e6d5175eea9cfa6984afee3d5c2959abf53371ca9c00d8d5e08324476b494",
+    "912d0d73b0fc44be75e4f37fc6bbe458b8b78d45bd7514629454ef7da86a092a",
+    "683a661e6c8cedcaf4af60347d9211431835094295d1873d5739469841757857",
+    "ec0aed1fc3c9a0f19f3c618e7f455896b288c66153af52575e68f5d10093d881"
+  ],
+  "elapsed_s": 4.360620498657227
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "26bf740b60887f0b54516cdeec11fd93d63fe9db9750f3c5d0057cf4dccb014e",
+  "sample_id": "ESC-CSV-09230",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greek",
+    "anti-austerity",
+    "erupts",
+    "3",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4101958647920564263d720db0e60dac3b2cecc6ae54185b2d3a049486e8dbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4101958647920564263d720db0e60dac3b2cecc6ae54185b2d3a049486e8dbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e785fee9d88f024f99d6922cd82d26935159726e1c5c2a126a76b0f052d99b35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b5498b6dd525f6027a907407c3ee55a116bfbf11d1ef1fa130b9d4e331a2dd19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "820f01b8a7d911cf926a76b5131af0d7841bb7234155a35e168b43be100e8105",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"anti-austerity\",\"erupts\",\"3\",\"dead\"],\"target_related\":[\"Greek\",\"anti-austerity\",\"march\",\"erupts\",\"3\",\"dead\"],\"mediators\":[\"Greek\",\"anti-austerity\",\"erupts\",\"3\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "47d14f13e6c3c8d2fede60c3a86dc3dd01aa2fd23401d43b5a2cf8860ae74616",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"'erupts in violence' implicitly links the march to violence; erupts acts as an implicit causation word connecting X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "c4101958647920564263d720db0e60dac3b2cecc6ae54185b2d3a049486e8dbd",
+    "c4101958647920564263d720db0e60dac3b2cecc6ae54185b2d3a049486e8dbd",
+    "e785fee9d88f024f99d6922cd82d26935159726e1c5c2a126a76b0f052d99b35",
+    "b5498b6dd525f6027a907407c3ee55a116bfbf11d1ef1fa130b9d4e331a2dd19",
+    "820f01b8a7d911cf926a76b5131af0d7841bb7234155a35e168b43be100e8105",
+    "47d14f13e6c3c8d2fede60c3a86dc3dd01aa2fd23401d43b5a2cf8860ae74616"
+  ],
+  "elapsed_s": 5.0722479820251465
+}

@@ -1,0 +1,70 @@
+{
+  "input_hash": "5b6996e87906ca721520002064aba542318dd8d20aab67b1d80a6cd26875783a",
+  "sample_id": "ESC-CSV-02545",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "police",
+    "Brooklyn",
+    "streets",
+    "Wednesday",
+    "clashes",
+    "cops",
+    "angry",
+    "teens",
+    "East Flatbush",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ca1d312a73a5a85941e9fb6cc2382acc46a8bee1e37c29c660aa098c9d34f13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ca1d312a73a5a85941e9fb6cc2382acc46a8bee1e37c29c660aa098c9d34f13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0a34fbbe855aec87e87691173115068299e5d49cd98740e24b4ec05c09cc2b6e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "95359dfdd7d0fc8fdff03994f893c048e84d86a269711e88c6dd4beecec50074",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d59f87805ab080d4a253e2a0a8c1cecc4dd75cbbfd0f7e595dcedab450f35695",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"fatal\",\"shooting\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\",\"bricks\",\"bottles\",\"garbage\",\"furious\",\"clashes\",\"cops\",\"angry\",\"teens\",\"East Flatbush\",\"arrested\"],\"target_related\":[\"cops\",\"angry\",\"teens\",\"erupted\",\"East Flatbush\",\"arrested\",\"Wednesday\",\"Protesters\",\"police\",\"Brooklyn\",\"streets\",\"clashes\"],\"mediators\":[\"Protesters\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\",\"clashes\",\"cops\",\"angry\",\"teens\",\"East Flatbush\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "ff0320d822018cc34424395a555615ebde3bb488a554e430e3c4749ddf6fca73",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters enraged over the fatal shooting poured into streets; as fights between cops and angry teens erupted. Anger precedes and plausibly causes the fights.\"}"
+    }
+  },
+  "call_ids": [
+    "0ca1d312a73a5a85941e9fb6cc2382acc46a8bee1e37c29c660aa098c9d34f13",
+    "0ca1d312a73a5a85941e9fb6cc2382acc46a8bee1e37c29c660aa098c9d34f13",
+    "0a34fbbe855aec87e87691173115068299e5d49cd98740e24b4ec05c09cc2b6e",
+    "95359dfdd7d0fc8fdff03994f893c048e84d86a269711e88c6dd4beecec50074",
+    "d59f87805ab080d4a253e2a0a8c1cecc4dd75cbbfd0f7e595dcedab450f35695",
+    "ff0320d822018cc34424395a555615ebde3bb488a554e430e3c4749ddf6fca73"
+  ],
+  "elapsed_s": 8.993715763092041
+}

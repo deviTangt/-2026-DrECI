@@ -1,0 +1,62 @@
+{
+  "input_hash": "11d039ec9ddac89d797ad59a4fc587e16735d1803464ed18bf522ea6d7434ae0",
+  "sample_id": "ESC-CSV-09336",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire - bomb attack",
+    "bank",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0c8bd1e408e90d69ea95f518fce7bb5e2d198fd07ab202181e24446455820abe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0c8bd1e408e90d69ea95f518fce7bb5e2d198fd07ab202181e24446455820abe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9fa5770f42d8d222fb7e02c799c0f5ef9847ac9f1ad3035a86bc413eff3fa290",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e867ea864e8c3ca7e2754c7373fa805e44a5af65d663640ef1def55085837c84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cc79c67da36eb15f73a07607b8e5f301a586f73a06ef94720ca4e08b3b177d27",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin bank\",\"rioters\",\"window\",\"Molotov cocktails\",\"fire - bomb attack\",\"bank\",\"Greece\"],\"target_related\":[\"fire - bomb attack\",\"bank\",\"Greece\",\"people\",\"Wednesday\",\"police\",\"striking protestors\",\"budget cuts\",\"national bankruptcy\"],\"mediators\":[\"fire - bomb attack\",\"bank\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "96d6c6b26d3e95668ac60911db5447d0110da0b78ff448b792b3275fa3e1b9f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says the bank 'caught fire after rioters...threw Molotov cocktails' and 'A fire-bomb attack on a bank...killed at least three people,' linking fire to deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "0c8bd1e408e90d69ea95f518fce7bb5e2d198fd07ab202181e24446455820abe",
+    "0c8bd1e408e90d69ea95f518fce7bb5e2d198fd07ab202181e24446455820abe",
+    "9fa5770f42d8d222fb7e02c799c0f5ef9847ac9f1ad3035a86bc413eff3fa290",
+    "e867ea864e8c3ca7e2754c7373fa805e44a5af65d663640ef1def55085837c84",
+    "cc79c67da36eb15f73a07607b8e5f301a586f73a06ef94720ca4e08b3b177d27",
+    "96d6c6b26d3e95668ac60911db5447d0110da0b78ff448b792b3275fa3e1b9f9"
+  ],
+  "elapsed_s": 5.372411251068115
+}

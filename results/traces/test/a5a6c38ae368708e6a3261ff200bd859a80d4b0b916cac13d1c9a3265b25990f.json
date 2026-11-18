@@ -1,0 +1,62 @@
+{
+  "input_hash": "a5a6c38ae368708e6a3261ff200bd859a80d4b0b916cac13d1c9a3265b25990f",
+  "sample_id": "ESC-CSV-04660",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Robbers",
+    "Paris",
+    "shop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f6b87d13e56e1cc1d5a32105c6052f941d713ed155b1220757322464f8b0e922",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f6b87d13e56e1cc1d5a32105c6052f941d713ed155b1220757322464f8b0e922",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "057ee398ebf5e41336a6a0a38c8e6e8b59e9544f7b872b45ee886cb9a946f2ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "82715e20bccff60a92d9917b1fffa0462b926491aa80d0c3299c2b9f40aff4ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9e60b37a82db865c000d12d5fdee679ebff3bcd97f16612fd38cf4ab93116317",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"4x4\",\"Paris\",\"shop\"],\"target_related\":[\"France\",\"jewels\",\"Robbers\",\"Paris\",\"shop\"],\"mediators\":[\"Robbers\",\"Paris\",\"shop\"]}"
+    },
+    "indirect": {
+      "call_id": "756c39dbe1ed825e23e62c0aeed7f1592b6388051a902769f658e019f6ca898c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming a 4x4 into a shop enables robbers to steal jewels; the ram occurs before and causes the thefts by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f6b87d13e56e1cc1d5a32105c6052f941d713ed155b1220757322464f8b0e922",
+    "f6b87d13e56e1cc1d5a32105c6052f941d713ed155b1220757322464f8b0e922",
+    "057ee398ebf5e41336a6a0a38c8e6e8b59e9544f7b872b45ee886cb9a946f2ec",
+    "82715e20bccff60a92d9917b1fffa0462b926491aa80d0c3299c2b9f40aff4ea",
+    "9e60b37a82db865c000d12d5fdee679ebff3bcd97f16612fd38cf4ab93116317",
+    "756c39dbe1ed825e23e62c0aeed7f1592b6388051a902769f658e019f6ca898c"
+  ],
+  "elapsed_s": 5.730884313583374
+}

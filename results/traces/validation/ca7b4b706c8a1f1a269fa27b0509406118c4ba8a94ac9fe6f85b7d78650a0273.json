@@ -1,0 +1,63 @@
+{
+  "input_hash": "ca7b4b706c8a1f1a269fa27b0509406118c4ba8a94ac9fe6f85b7d78650a0273",
+  "sample_id": "ESC-CSV-02661",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "killed",
+    "death",
+    "Kimani ( Kiki ) Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "edc4578603c616620ec32c1a3cf67293f855b68814a7cc4ff80b6c7715901e75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "edc4578603c616620ec32c1a3cf67293f855b68814a7cc4ff80b6c7715901e75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf0ef2ac2abd160a48f35f8fb9c3f36cdd2284e4f3141338df87c4ef67f039e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6fd1adb5a37e600967af94d9a37d3f0394796fdebb3a184b009868bcfac318f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dd2e034f5aa9330eb2cc05c77cbdce60d6a837d42a8df58146b3ca9e784204ea",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"bullets\",\"killed\",\"death\",\"teenager\",\"Kimani ( Kiki ) Gray\"],\"target_related\":[\"riot\",\"projectiles\",\"hurled\",\"cops\",\"smashed\",\"bashed\",\"protest march\",\"candlelight vigil\"],\"mediators\":[\"police\",\"killed\",\"death\",\"Kimani ( Kiki ) Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "cf81c725dd453eee3bea05769b3828bbd3b07e474bb0a8166f0c9e4ad4ddac2b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death of a Brooklyn teenager shot and killed by police fueled a riot... The scenes of violence... followed a protest march.\"}"
+    }
+  },
+  "call_ids": [
+    "edc4578603c616620ec32c1a3cf67293f855b68814a7cc4ff80b6c7715901e75",
+    "edc4578603c616620ec32c1a3cf67293f855b68814a7cc4ff80b6c7715901e75",
+    "cf0ef2ac2abd160a48f35f8fb9c3f36cdd2284e4f3141338df87c4ef67f039e6",
+    "6fd1adb5a37e600967af94d9a37d3f0394796fdebb3a184b009868bcfac318f9",
+    "dd2e034f5aa9330eb2cc05c77cbdce60d6a837d42a8df58146b3ca9e784204ea",
+    "cf81c725dd453eee3bea05769b3828bbd3b07e474bb0a8166f0c9e4ad4ddac2b"
+  ],
+  "elapsed_s": 4.463536262512207
+}

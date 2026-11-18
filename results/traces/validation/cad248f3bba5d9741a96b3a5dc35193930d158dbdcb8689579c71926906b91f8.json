@@ -1,0 +1,64 @@
+{
+  "input_hash": "cad248f3bba5d9741a96b3a5dc35193930d158dbdcb8689579c71926906b91f8",
+  "sample_id": "ESC-CSV-02278",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shotgun",
+    "office",
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a7de083627d3fd572d2562d1877550266ef0e166e373f55a59adf83efe9e551",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a7de083627d3fd572d2562d1877550266ef0e166e373f55a59adf83efe9e551",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a4a0571db36495c3c66ffe954614b92af382296458ae88c80bcb6da505665e78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a8ef3508d54e7927a53be86e9ea165b2a5007a8bdeba21ab21b30209b16f718f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7635e8825c09ccd355f6733dd7fdf459ade2f480ca8a45163e0697fc015502b9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\"],\"target_related\":[\"accountant\",\"bosses\",\"receptionist\",\"office\",\"shotgun\"],\"mediators\":[\"accountant\",\"shotgun\",\"office\",\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "7c870f8e5d3047774c8abe774e8f7f7a4672a425edb8cd2f8c55b433159d8aa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Buying a shotgun before returning to the office and opening fire follows common-sense causal order: the purchase enabled the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "0a7de083627d3fd572d2562d1877550266ef0e166e373f55a59adf83efe9e551",
+    "0a7de083627d3fd572d2562d1877550266ef0e166e373f55a59adf83efe9e551",
+    "a4a0571db36495c3c66ffe954614b92af382296458ae88c80bcb6da505665e78",
+    "a8ef3508d54e7927a53be86e9ea165b2a5007a8bdeba21ab21b30209b16f718f",
+    "7635e8825c09ccd355f6733dd7fdf459ade2f480ca8a45163e0697fc015502b9",
+    "7c870f8e5d3047774c8abe774e8f7f7a4672a425edb8cd2f8c55b433159d8aa2"
+  ],
+  "elapsed_s": 7.203623056411743
+}

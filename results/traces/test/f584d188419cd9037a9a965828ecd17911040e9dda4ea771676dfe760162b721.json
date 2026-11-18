@@ -1,0 +1,67 @@
+{
+  "input_hash": "f584d188419cd9037a9a965828ecd17911040e9dda4ea771676dfe760162b721",
+  "sample_id": "ESC-CSV-06622",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "accused",
+    "letting",
+    "off",
+    "13",
+    "shots",
+    "Horton",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dce13880450329fe73ef01eaa47ed0f8937a9eafca3a1d7c64ef720dbd96a49e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dce13880450329fe73ef01eaa47ed0f8937a9eafca3a1d7c64ef720dbd96a49e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d6ab62547a9123678f75ea32299da8ae2bbb1410cfd8eb7f4bf5c5d340098211",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3eb6881916f8378da46161e3bb32d20370031f45dfd6d3f74b1100327866ff57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a876857885826c910700c9d47501241351cd7a6de0da40844d74cf8a37c7fb98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Footage\",\"Brooklyn\",\"Mother\",\"Released\",\"Trial\",\"Lopez\",\"accused\",\"letting\",\"off\",\"13\",\"shots\",\"Horton\",\"death\"],\"target_related\":[\"Both\",\"charged\",\"Lopez\",\"accused\",\"letting\",\"off\",\"13\",\"shots\",\"Horton\",\"death\"],\"mediators\":[\"Lopez\",\"accused\",\"letting\",\"off\",\"13\",\"shots\",\"Horton\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "4532e2ea118ebd7ace7b4447c714ab98935a5c0fae8e6d67f2b8a6dd4e87dbaa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A fatal shooting causing a death is, by common sense, the act that results in murder; the shooting precedes and causes the murder.\"}"
+    }
+  },
+  "call_ids": [
+    "dce13880450329fe73ef01eaa47ed0f8937a9eafca3a1d7c64ef720dbd96a49e",
+    "dce13880450329fe73ef01eaa47ed0f8937a9eafca3a1d7c64ef720dbd96a49e",
+    "d6ab62547a9123678f75ea32299da8ae2bbb1410cfd8eb7f4bf5c5d340098211",
+    "3eb6881916f8378da46161e3bb32d20370031f45dfd6d3f74b1100327866ff57",
+    "a876857885826c910700c9d47501241351cd7a6de0da40844d74cf8a37c7fb98",
+    "4532e2ea118ebd7ace7b4447c714ab98935a5c0fae8e6d67f2b8a6dd4e87dbaa"
+  ],
+  "elapsed_s": 6.066401720046997
+}

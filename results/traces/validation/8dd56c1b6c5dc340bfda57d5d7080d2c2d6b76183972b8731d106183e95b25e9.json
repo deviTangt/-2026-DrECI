@@ -1,0 +1,62 @@
+{
+  "input_hash": "8dd56c1b6c5dc340bfda57d5d7080d2c2d6b76183972b8731d106183e95b25e9",
+  "sample_id": "ESC-CSV-02425",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "people",
+    "killing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bdbfe8d9cdad168f2c764fd3884b27ecc9f8a1bdf2c8d85eb2cefa8227e2d343",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bdbfe8d9cdad168f2c764fd3884b27ecc9f8a1bdf2c8d85eb2cefa8227e2d343",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d9b29ceab80a9e606ca67ec7509b4f49b339fa03053c52effd650a241dee7fcc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f5fc73d33281697655178345d364e1223a5ca44b19332e6347f803474bc2b883",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "51ea39003dd96eaaf099341344a1b2b34850a02e8baa83dae34981b9184ce3dc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shooting\",\"people\",\"killing\",\"accounting firm\",\"Detroit\",\"last week\"],\"target_related\":[\"shooting\",\"people\",\"killing\",\"arrested\",\"high-speed chase\",\"this morning\",\"authorities\"],\"mediators\":[\"shooting\",\"people\",\"killing\"]}"
+    },
+    "indirect": {
+      "call_id": "921f4be7cb0035fdd8eb562a89f62a3f8685a5b2c99c8e307a66ac763021332f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired last week plausibly motivated the shooting/attack; common sense supports fired -> attack as cause and effect.\"}"
+    }
+  },
+  "call_ids": [
+    "bdbfe8d9cdad168f2c764fd3884b27ecc9f8a1bdf2c8d85eb2cefa8227e2d343",
+    "bdbfe8d9cdad168f2c764fd3884b27ecc9f8a1bdf2c8d85eb2cefa8227e2d343",
+    "d9b29ceab80a9e606ca67ec7509b4f49b339fa03053c52effd650a241dee7fcc",
+    "f5fc73d33281697655178345d364e1223a5ca44b19332e6347f803474bc2b883",
+    "51ea39003dd96eaaf099341344a1b2b34850a02e8baa83dae34981b9184ce3dc",
+    "921f4be7cb0035fdd8eb562a89f62a3f8685a5b2c99c8e307a66ac763021332f"
+  ],
+  "elapsed_s": 17.986928701400757
+}

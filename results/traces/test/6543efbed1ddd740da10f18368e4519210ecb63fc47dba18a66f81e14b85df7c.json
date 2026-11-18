@@ -1,0 +1,61 @@
+{
+  "input_hash": "6543efbed1ddd740da10f18368e4519210ecb63fc47dba18a66f81e14b85df7c",
+  "sample_id": "ESC-CSV-09250",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protests",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c05088590cdb23fe2c95efb609dc47f03d81df4e21f0d6277f07c9b0d0683541",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c05088590cdb23fe2c95efb609dc47f03d81df4e21f0d6277f07c9b0d0683541",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "807ba296f832cdf80674228e58a7cd28be08c4ae10de3941ca7f8c2505a42e1b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6d6bb6c8418235e1b389cfc7c1e0f32697cc43f88944f9adb9677bf2292dc062",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "46553565521ba3922654afda4be035f7bd5b9fd358f051d3b646098457e6b2ec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"protests\",\"Athens\",\"harsh\",\"new\"],\"target_related\":[\"protests\",\"Athens\",\"torched\",\"building\",\"bank\",\"workers\",\"killed\",\"murder\",\"deaths\"],\"mediators\":[\"protests\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "cc3347010faff7548a4f661fbacd3dc7911fb7cb8a07ba8f4fd3cf6b47006e5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protests against austerity measures led to the torching of a building, killing bank workers; measures->protests->riot deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "c05088590cdb23fe2c95efb609dc47f03d81df4e21f0d6277f07c9b0d0683541",
+    "c05088590cdb23fe2c95efb609dc47f03d81df4e21f0d6277f07c9b0d0683541",
+    "807ba296f832cdf80674228e58a7cd28be08c4ae10de3941ca7f8c2505a42e1b",
+    "6d6bb6c8418235e1b389cfc7c1e0f32697cc43f88944f9adb9677bf2292dc062",
+    "46553565521ba3922654afda4be035f7bd5b9fd358f051d3b646098457e6b2ec",
+    "cc3347010faff7548a4f661fbacd3dc7911fb7cb8a07ba8f4fd3cf6b47006e5b"
+  ],
+  "elapsed_s": 4.229925632476807
+}

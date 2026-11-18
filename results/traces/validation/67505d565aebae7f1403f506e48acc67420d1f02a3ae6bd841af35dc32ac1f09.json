@@ -1,0 +1,61 @@
+{
+  "input_hash": "67505d565aebae7f1403f506e48acc67420d1f02a3ae6bd841af35dc32ac1f09",
+  "sample_id": "ESC-CSV-02773",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "hospital"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dc3f8c9c8eced0849d7c409b730ca2c8b1465676f1bf5e20b86e00390a8f0a45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dc3f8c9c8eced0849d7c409b730ca2c8b1465676f1bf5e20b86e00390a8f0a45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c65c998d05303b05df9103d3aef9398911084c9df86353752bbb71bb4025a279",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0c8bd7e5e315dd1dbbb3567ba0ec6e36bfa2d40384b4b9548ab6c57f719ffc23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "61413680815361ae079f044c472b7f33d60ba9d7fd38794dceb48d8641579aa8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"Police\",\"hospital\",\"shooting\"],\"target_related\":[\"Gray\",\"hospital\",\"arrival\"],\"mediators\":[\"Gray\",\"hospital\"]}"
+    },
+    "indirect": {
+      "call_id": "9f0d34644b74cd54a708e6c8a0db35030c343cbcad4020b0e73431e35a0b2fd6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'After the shooting Gray was ... declared dead' — 'after' marks causal order; shooting led to hospital and death (chain).\"}"
+    }
+  },
+  "call_ids": [
+    "dc3f8c9c8eced0849d7c409b730ca2c8b1465676f1bf5e20b86e00390a8f0a45",
+    "dc3f8c9c8eced0849d7c409b730ca2c8b1465676f1bf5e20b86e00390a8f0a45",
+    "c65c998d05303b05df9103d3aef9398911084c9df86353752bbb71bb4025a279",
+    "0c8bd7e5e315dd1dbbb3567ba0ec6e36bfa2d40384b4b9548ab6c57f719ffc23",
+    "61413680815361ae079f044c472b7f33d60ba9d7fd38794dceb48d8641579aa8",
+    "9f0d34644b74cd54a708e6c8a0db35030c343cbcad4020b0e73431e35a0b2fd6"
+  ],
+  "elapsed_s": 4.2123541831970215
+}

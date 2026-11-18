@@ -1,0 +1,65 @@
+{
+  "input_hash": "eef607ffd0e48a31dd8b17326ff9404d37ba35a848c6e6005123818c524654cf",
+  "sample_id": "ESC-CSV-02505",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Kimani Gray",
+    "Gray",
+    "police",
+    "gun",
+    "Sgt . Mourad Mourad",
+    "Officer Jovaniel Cordova"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b67ed7702e24963078fbe4cd8ded5678fe54b6c54da77931983e3a56fbd16f19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b67ed7702e24963078fbe4cd8ded5678fe54b6c54da77931983e3a56fbd16f19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "62719d3a828ea12322e30e6c81f54620c204e1ff2428dbee76bcf90b42c49547",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7ab31cf01a75160ff62f55f4dcfd5323f528e057f59c8027acc9253f728d427b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "10f53edb07589dac2b0a49dc692ff7fd3aefd42b32ef6a645db32aa5e6158490",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\",\"fatal\"],\"target_related\":[\"Gray\",\"police\",\"March 9\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\"],\"mediators\":[\"Kimani Gray\",\"Gray\",\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\"]}"
+    },
+    "indirect": {
+      "call_id": "2a584f02352998d75cd3c23f213f3485c58831eb64577827e8795f8aed9ded30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Gray was killed on March 9 by police' — 'by' explicitly links the shooting to the killing; common sense also holds that shooting causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "b67ed7702e24963078fbe4cd8ded5678fe54b6c54da77931983e3a56fbd16f19",
+    "b67ed7702e24963078fbe4cd8ded5678fe54b6c54da77931983e3a56fbd16f19",
+    "62719d3a828ea12322e30e6c81f54620c204e1ff2428dbee76bcf90b42c49547",
+    "7ab31cf01a75160ff62f55f4dcfd5323f528e057f59c8027acc9253f728d427b",
+    "10f53edb07589dac2b0a49dc692ff7fd3aefd42b32ef6a645db32aa5e6158490",
+    "2a584f02352998d75cd3c23f213f3485c58831eb64577827e8795f8aed9ded30"
+  ],
+  "elapsed_s": 7.301012754440308
+}

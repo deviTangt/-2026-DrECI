@@ -1,0 +1,68 @@
+{
+  "input_hash": "04f38429be0f4b53fe978546f2f3b289949d882170f0fd91b4f72fc2cf7d6902",
+  "sample_id": "ESC-CSV-06706",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gangbangers",
+    "mom",
+    "12",
+    "trial",
+    "Wednesday",
+    "spraying",
+    "bullets",
+    "Brooklyn",
+    "rooftop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a58503b48ee5c9090fbd12048a1af84d05c3b6f32b006d3a79530f2623692b36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a58503b48ee5c9090fbd12048a1af84d05c3b6f32b006d3a79530f2623692b36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ec3e1ce87ddcefe5eceaa300e6923aaa92124e1fa112c96f5ea72d723b3aef34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2fb1d5d56cc040d6514fc68c5813ad5bf1f79279ebdea1a3fb3bdf86a6db9d24",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae84b460b9051b4d3c0f3f531eb53fe4d08a0965ff5f3e1a41cf2a8fabdd13eb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gangbangers\",\"killed\",\"mom\",\"12\",\"trial\",\"Wednesday\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"],\"target_related\":[\"Gangbangers\",\"mom\",\"12\",\"trial\",\"Wednesday\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"],\"mediators\":[\"Gangbangers\",\"mom\",\"12\",\"trial\",\"Wednesday\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"]}"
+    },
+    "indirect": {
+      "call_id": "7d768a74d2511814306dbe74985f45fd59bb562d9a4eccee7976bc27d69b4a12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spraying bullets in a crossfire struck and killed the mother; crossfire occurring before the killing follows common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "a58503b48ee5c9090fbd12048a1af84d05c3b6f32b006d3a79530f2623692b36",
+    "a58503b48ee5c9090fbd12048a1af84d05c3b6f32b006d3a79530f2623692b36",
+    "ec3e1ce87ddcefe5eceaa300e6923aaa92124e1fa112c96f5ea72d723b3aef34",
+    "2fb1d5d56cc040d6514fc68c5813ad5bf1f79279ebdea1a3fb3bdf86a6db9d24",
+    "ae84b460b9051b4d3c0f3f531eb53fe4d08a0965ff5f3e1a41cf2a8fabdd13eb",
+    "7d768a74d2511814306dbe74985f45fd59bb562d9a4eccee7976bc27d69b4a12"
+  ],
+  "elapsed_s": 3.692774534225464
+}

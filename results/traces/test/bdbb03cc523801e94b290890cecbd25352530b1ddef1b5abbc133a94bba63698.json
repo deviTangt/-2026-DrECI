@@ -1,0 +1,63 @@
+{
+  "input_hash": "bdbb03cc523801e94b290890cecbd25352530b1ddef1b5abbc133a94bba63698",
+  "sample_id": "ESC-CSV-09408",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Marfin bank",
+    "bank",
+    "Greece",
+    "firebomb attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5ea54cfae140a850ad97a4ed607c9be6b8d4bf712464d60215c5d94f2043e5fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5ea54cfae140a850ad97a4ed607c9be6b8d4bf712464d60215c5d94f2043e5fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5b4a24f1b808a36cc6b4b950c19919a2f20de932e59638e2eeb7dc62d0eca9eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b56bdfd36b557beeb320afbbe97286525be8bba1808489fcf263194aab4c9b89",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d507143728db0b405942e0e4593b9161e6eb0cc413c51f788b977cf16286143c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin bank\",\"branch\",\"window\",\"petrol bombs\",\"hooded youths\",\"bank\",\"Greece\",\"firebomb attack\"],\"target_related\":[\"two women\",\"one man\",\"three people\",\"Marfin bank\",\"bank\",\"Greece\",\"firebomb attack\"],\"mediators\":[\"Marfin bank\",\"bank\",\"Greece\",\"firebomb attack\"]}"
+    },
+    "indirect": {
+      "call_id": "dc3ffc8508cc188c237f1f90c46a4f591d227ccffd9c7dd8c890083859be8505",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'bank which caught fire after hooded youths broke a window and hurled petrol bombs inside' and 'firebomb attack on a bank...killed at least three people' — 'after' and 'killed' show causation.\"}"
+    }
+  },
+  "call_ids": [
+    "5ea54cfae140a850ad97a4ed607c9be6b8d4bf712464d60215c5d94f2043e5fa",
+    "5ea54cfae140a850ad97a4ed607c9be6b8d4bf712464d60215c5d94f2043e5fa",
+    "5b4a24f1b808a36cc6b4b950c19919a2f20de932e59638e2eeb7dc62d0eca9eb",
+    "b56bdfd36b557beeb320afbbe97286525be8bba1808489fcf263194aab4c9b89",
+    "d507143728db0b405942e0e4593b9161e6eb0cc413c51f788b977cf16286143c",
+    "dc3ffc8508cc188c237f1f90c46a4f591d227ccffd9c7dd8c890083859be8505"
+  ],
+  "elapsed_s": 5.704632043838501
+}

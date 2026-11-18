@@ -1,0 +1,61 @@
+{
+  "input_hash": "615a8d66087206a0097ee21304b900ff1bac5dca532e6355261c104c3efaaa36",
+  "sample_id": "ESC-CSV-02543",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "73bdb1a9e8c9650b66fe771f0739e1a9e196bfbf4399ef2da991a803d2dd59d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "73bdb1a9e8c9650b66fe771f0739e1a9e196bfbf4399ef2da991a803d2dd59d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f59c2be19cbc7f4d18f903fe1cf47df7aa0c744fe35b9aeb35bff72c3c4c3196",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a9b6599778b4e5503a5b2b3033e486a455c166ca5e253eed0f6faf41b8a7541b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "88715333d362dd5fd3d4110cbd39525f6f681783b24c4e1b53807e47205c425f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"police\"],\"target_related\":[\"police\",\"crowd\"],\"mediators\":[\"crowd\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "44672244d57d0a888e6ed10b6332daa426b0e2ab1e980c7d95b8766268dc27e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Police struggled to control a hostile crowd; the hostile crowd is what police tried to control, forming a chain from hostility through crowd to control.\"}"
+    }
+  },
+  "call_ids": [
+    "73bdb1a9e8c9650b66fe771f0739e1a9e196bfbf4399ef2da991a803d2dd59d0",
+    "73bdb1a9e8c9650b66fe771f0739e1a9e196bfbf4399ef2da991a803d2dd59d0",
+    "f59c2be19cbc7f4d18f903fe1cf47df7aa0c744fe35b9aeb35bff72c3c4c3196",
+    "a9b6599778b4e5503a5b2b3033e486a455c166ca5e253eed0f6faf41b8a7541b",
+    "88715333d362dd5fd3d4110cbd39525f6f681783b24c4e1b53807e47205c425f",
+    "44672244d57d0a888e6ed10b6332daa426b0e2ab1e980c7d95b8766268dc27e6"
+  ],
+  "elapsed_s": 9.23770523071289
+}

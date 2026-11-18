@@ -1,0 +1,61 @@
+{
+  "input_hash": "dbcbb81b69ae40e421700f65aa105bc4478a10764ef48e97583518d1a0ad320d",
+  "sample_id": "ESC-CSV-01559",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "fired"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f49828a4639e11a30216bb28edbe4921d98db05e0ab10a179f946e35aee8e02d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f49828a4639e11a30216bb28edbe4921d98db05e0ab10a179f946e35aee8e02d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e9362dd826264a983adab9b758185ad8e66f141dc420ea82ff66bc6c8b7df296",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "152d8929e751ad237db24765289bc9c38fde7bd9ab671a31cd622d88c33f74b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "52767ec7c064c26161210f36d7def731ff993b0eacdbec485427e5b180b16244",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"residence\",\"handgun\",\"officer\",\"fired\"],\"target_related\":[\"deputy\",\"fatally\",\"shot\",\"gunman\",\"fired\",\"Hawaiian Gardens\",\"223rd Street\"],\"mediators\":[\"gunman\",\"fired\"]}"
+    },
+    "indirect": {
+      "call_id": "ae28a39f436924467b5cce340b6c30a115f0f2c3d15c7d8453de5d15a4d405df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"The gunman burst out of the residence, then put a handgun to the officer's face and fired, causing the fatal shooting; burst out precedes and enables the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "f49828a4639e11a30216bb28edbe4921d98db05e0ab10a179f946e35aee8e02d",
+    "f49828a4639e11a30216bb28edbe4921d98db05e0ab10a179f946e35aee8e02d",
+    "e9362dd826264a983adab9b758185ad8e66f141dc420ea82ff66bc6c8b7df296",
+    "152d8929e751ad237db24765289bc9c38fde7bd9ab671a31cd622d88c33f74b5",
+    "52767ec7c064c26161210f36d7def731ff993b0eacdbec485427e5b180b16244",
+    "ae28a39f436924467b5cce340b6c30a115f0f2c3d15c7d8453de5d15a4d405df"
+  ],
+  "elapsed_s": 5.382880210876465
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "9c0ae15e06f457c4e52f787ea92c075804e2f6d1fe3153d340ea6a60a0933b94",
+  "sample_id": "ESC-CSV-06938",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "file",
+    "misdemeanor",
+    "drunken",
+    "driving",
+    "City Attorney's Office",
+    "considering"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5de6aa76e015e0e6255222052fdf1d7676ec69d6f900f60e1709bde540b323bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5de6aa76e015e0e6255222052fdf1d7676ec69d6f900f60e1709bde540b323bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "21e2b71494c41e808248d180cbbf625b16f4187ba737ab1ba2a287aaacf0ea48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9c8ba5e7f26629f75d748cf6992cc0ad57deee1a6eed1a80eeb6e15fe741ceaa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16350b0e9bd044570339040d4a86bbe7784cf8d50b30af3e7463fad83edf0779",
+      "status": "ok",
+      "text": "{\"source_related\":[\"drunken\",\"driving\",\"misdemeanor\",\"City Attorney's Office\",\"considering\",\"file\"],\"target_related\":[\"file\",\"misdemeanor\",\"drunken\",\"driving\",\"City Attorney's Office\",\"considering\"],\"mediators\":[\"file\",\"misdemeanor\",\"drunken\",\"driving\",\"City Attorney's Office\",\"considering\"]}"
+    },
+    "indirect": {
+      "call_id": "c017c2970375627e357c64fdac1610a5ff52c3379631ff30d6b7744e749cb46c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"DUI (drunken driving) is the offense that leads to misdemeanor charges being filed; the DUI precedes and causes the charges.\"}"
+    }
+  },
+  "call_ids": [
+    "5de6aa76e015e0e6255222052fdf1d7676ec69d6f900f60e1709bde540b323bc",
+    "5de6aa76e015e0e6255222052fdf1d7676ec69d6f900f60e1709bde540b323bc",
+    "21e2b71494c41e808248d180cbbf625b16f4187ba737ab1ba2a287aaacf0ea48",
+    "9c8ba5e7f26629f75d748cf6992cc0ad57deee1a6eed1a80eeb6e15fe741ceaa",
+    "16350b0e9bd044570339040d4a86bbe7784cf8d50b30af3e7463fad83edf0779",
+    "c017c2970375627e357c64fdac1610a5ff52c3379631ff30d6b7744e749cb46c"
+  ],
+  "elapsed_s": 5.125592231750488
+}

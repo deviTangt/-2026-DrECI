@@ -1,0 +1,61 @@
+{
+  "input_hash": "57a0468e2b89058a62fac8e656fcac45882f8e927662845054e6b104dd0ec5e2",
+  "sample_id": "ESC-CSV-07000",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "player",
+    "Chargers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6a3f07fb36aab7b03b720457cc2730c472004ccebd684c319c23767773ee5cb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6a3f07fb36aab7b03b720457cc2730c472004ccebd684c319c23767773ee5cb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d0b77f51640c3b7e3da28c31d6bc82d79aa67ffb7722647280c906c81d267f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2c7d71da39e204da42b1451f5976cef3338e75ffda28d578838eb20f4a0e3aac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "deb5a5fa82648200bf1009075f045824c1fe422dc3fa96a0d4ab1fdafa215a13",
+      "status": "ok",
+      "text": "{\"source_related\":[\"arrested\",\"player\",\"Chargers\"],\"target_related\":[\"DUI\",\"player\",\"Chargers\"],\"mediators\":[\"player\",\"Chargers\"]}"
+    },
+    "indirect": {
+      "call_id": "b239a0545fe39f6303a769691389ce5c9712588d5904a896876282258abe585a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested for DUI' uses 'for' as explicit causation linking DUI to arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "6a3f07fb36aab7b03b720457cc2730c472004ccebd684c319c23767773ee5cb0",
+    "6a3f07fb36aab7b03b720457cc2730c472004ccebd684c319c23767773ee5cb0",
+    "7d0b77f51640c3b7e3da28c31d6bc82d79aa67ffb7722647280c906c81d267f2",
+    "2c7d71da39e204da42b1451f5976cef3338e75ffda28d578838eb20f4a0e3aac",
+    "deb5a5fa82648200bf1009075f045824c1fe422dc3fa96a0d4ab1fdafa215a13",
+    "b239a0545fe39f6303a769691389ce5c9712588d5904a896876282258abe585a"
+  ],
+  "elapsed_s": 5.106786489486694
+}

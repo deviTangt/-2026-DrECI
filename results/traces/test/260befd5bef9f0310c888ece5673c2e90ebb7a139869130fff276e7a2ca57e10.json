@@ -1,0 +1,63 @@
+{
+  "input_hash": "260befd5bef9f0310c888ece5673c2e90ebb7a139869130fff276e7a2ca57e10",
+  "sample_id": "ESC-CSV-09455",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "blaze",
+    "MARFIN EGNATIA BANK",
+    "Stadiou Street",
+    "downtown Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ec75384da848179cfb0c40fdedab32ceee3eb272a056c15e9274ab54345c8e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ec75384da848179cfb0c40fdedab32ceee3eb272a056c15e9274ab54345c8e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "af24c0e63620d28cfd9cc335ac5d1e2e113152bc0e147b73f62c0ea9a2530baa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0ae7e02f0693d84c4e3f87439c7092652560e1c55eb972acb969c386950d6fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c5fb52c7f8f1e719087a67cc61314832e5e44814f489d4bd736630c6774c99e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd floors\",\"flee\",\"two floors below\",\"blaze\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"],\"target_related\":[\"THREE PEOPLE\",\"blaze\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"],\"mediators\":[\"blaze\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "06ae342f2889e74d27d7d2ee148ef53f844274f467de60668476927b4df722a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Common sense: fire broke out, people trapped fleeing it, three died. 'blaze' corefers with 'fire' and is linked to the deaths.\",\"analysis\":\"Rule 1: no explicit causation word linking fire to DIED. Rule 2: no implicit causation verb. Rule 3: fire occurring before deaths and causing them follows common sense. Rule 4: 'blaze' is a coreference of 'fire' and is directly tied to the three deaths. Rules 5-8: no coreference of DIED, and no Z forming chain/collider/fork.\"}"
+    }
+  },
+  "call_ids": [
+    "4ec75384da848179cfb0c40fdedab32ceee3eb272a056c15e9274ab54345c8e8",
+    "4ec75384da848179cfb0c40fdedab32ceee3eb272a056c15e9274ab54345c8e8",
+    "af24c0e63620d28cfd9cc335ac5d1e2e113152bc0e147b73f62c0ea9a2530baa",
+    "0ae7e02f0693d84c4e3f87439c7092652560e1c55eb972acb969c386950d6fd2",
+    "7c5fb52c7f8f1e719087a67cc61314832e5e44814f489d4bd736630c6774c99e",
+    "06ae342f2889e74d27d7d2ee148ef53f844274f467de60668476927b4df722a2"
+  ],
+  "elapsed_s": 4.864243268966675
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "d5b69f2c2b0047acf82b366681d804e28d8891fdde6ea62ff7373ceb711248ce",
+  "sample_id": "ESC-CSV-01556",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "gunman",
+    "handgun",
+    "officer",
+    "fired"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b8fefcbad0e76b4f16ce61d669149bd4e85d0b92103a77de12ca33a4ce285658",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b8fefcbad0e76b4f16ce61d669149bd4e85d0b92103a77de12ca33a4ce285658",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3a0a8800fcddc7fad899015443c27bf429d3f886234730fb2930f3e7d07d7783",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "95aed13811ca4f8eaf109e489bf537c03606e30b603667e16ec4bb471586ffbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "be3cb9c2f4ff2e2b5ea719fec2b19893ec1a3a899aa5b6023bcdcb3cb56fcccf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"gunman\",\"handgun\",\"officer\",\"fired\"],\"target_related\":[\"deputy\",\"gunman\",\"handgun\",\"officer\",\"fired\"],\"mediators\":[\"deputy\",\"gunman\",\"handgun\",\"officer\",\"fired\"]}"
+    },
+    "indirect": {
+      "call_id": "4b3f7a59d2b020d568ea3501359cc99c5db6658ca123bc3330852ea24980d95b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The deputy was fatally shot when the gunman fired; the shot (X) occurring before and causing the shooting (Y) follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "b8fefcbad0e76b4f16ce61d669149bd4e85d0b92103a77de12ca33a4ce285658",
+    "b8fefcbad0e76b4f16ce61d669149bd4e85d0b92103a77de12ca33a4ce285658",
+    "3a0a8800fcddc7fad899015443c27bf429d3f886234730fb2930f3e7d07d7783",
+    "95aed13811ca4f8eaf109e489bf537c03606e30b603667e16ec4bb471586ffbf",
+    "be3cb9c2f4ff2e2b5ea719fec2b19893ec1a3a899aa5b6023bcdcb3cb56fcccf",
+    "4b3f7a59d2b020d568ea3501359cc99c5db6658ca123bc3330852ea24980d95b"
+  ],
+  "elapsed_s": 6.410698175430298
+}

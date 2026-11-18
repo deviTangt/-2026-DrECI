@@ -1,0 +1,64 @@
+{
+  "input_hash": "4c91fa1ba54b87046a4fa4902c3b03ecc00530c765e1016eef82111cdf36110f",
+  "sample_id": "ESC-CSV-02343",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "victim",
+    "attack",
+    "man",
+    "arrested",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78bc7275873802b31cdb2f7dab359a532a9d12f454e0ad57eac8ca77d0a4293c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78bc7275873802b31cdb2f7dab359a532a9d12f454e0ad57eac8ca77d0a4293c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "da3cac9ccc2842125d0b4897e56748a8490a994016f5510d51b4c3d045d64a9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1e9972ccc9ae08d578c38f0d1b184a986e18e36a396501623f34e1a659457ac4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "045c9afe987917d7dfa568d0f1610225cdcddae0830f07dfd649e4394abc7b0f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"three\",\"people\",\"accounting\",\"firm\",\"worked\",\"arrested\",\"high-speed\",\"chase\",\"authorities\",\"victim\",\"attack\"],\"target_related\":[\"victim\",\"Monday\",\"morning\",\"attack\",\"man\",\"arrested\",\"authorities\"],\"mediators\":[\"victim\",\"attack\",\"man\",\"arrested\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "cee85bfb4dc8c06056bbccddb6275a1ec0b01d4c06c0b8339c493d98c086e7d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the victim died; common sense holds that being shot can cause death.\"}"
+    }
+  },
+  "call_ids": [
+    "78bc7275873802b31cdb2f7dab359a532a9d12f454e0ad57eac8ca77d0a4293c",
+    "78bc7275873802b31cdb2f7dab359a532a9d12f454e0ad57eac8ca77d0a4293c",
+    "da3cac9ccc2842125d0b4897e56748a8490a994016f5510d51b4c3d045d64a9e",
+    "1e9972ccc9ae08d578c38f0d1b184a986e18e36a396501623f34e1a659457ac4",
+    "045c9afe987917d7dfa568d0f1610225cdcddae0830f07dfd649e4394abc7b0f",
+    "cee85bfb4dc8c06056bbccddb6275a1ec0b01d4c06c0b8339c493d98c086e7d2"
+  ],
+  "elapsed_s": 6.828292369842529
+}

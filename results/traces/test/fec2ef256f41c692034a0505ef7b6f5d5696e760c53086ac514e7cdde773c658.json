@@ -1,0 +1,60 @@
+{
+  "input_hash": "fec2ef256f41c692034a0505ef7b6f5d5696e760c53086ac514e7cdde773c658",
+  "sample_id": "ESC-CSV-09452",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "floors"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f05664e465c83194de83df767263dffde162634e163c7990e0e1c1019bef32db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f05664e465c83194de83df767263dffde162634e163c7990e0e1c1019bef32db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cbaaa93d3470aced4dfcae3124ccda560844fb78434761bec2e3b185d31ecd3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "93ccf61c8c8c57e5d2032c7d3ea1cd1a5d5503f8245f59b599f0565f8a6c15c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6a171198a47d46874cb8f991620747e0c0119de4fada54739d309016c7c57a55",
+      "status": "ok",
+      "text": "{\"source_related\":[\"trapped\",\"stairwell\",\"3rd\",\"floors\",\"flee\",\"two\",\"floors\",\"below\"],\"target_related\":[\"3\",\"bank\",\"employees\",\"death\"],\"mediators\":[\"floors\"]}"
+    },
+    "indirect": {
+      "call_id": "e1a9d698210e8c4ecb7646011d7bf524e7285bc23066a900b6a2608911faf803",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: the fire broke out and trapped them; the bank employees were burnt to death, so the fire caused them to be burnt.\"}"
+    }
+  },
+  "call_ids": [
+    "f05664e465c83194de83df767263dffde162634e163c7990e0e1c1019bef32db",
+    "f05664e465c83194de83df767263dffde162634e163c7990e0e1c1019bef32db",
+    "cbaaa93d3470aced4dfcae3124ccda560844fb78434761bec2e3b185d31ecd3a",
+    "93ccf61c8c8c57e5d2032c7d3ea1cd1a5d5503f8245f59b599f0565f8a6c15c8",
+    "6a171198a47d46874cb8f991620747e0c0119de4fada54739d309016c7c57a55",
+    "e1a9d698210e8c4ecb7646011d7bf524e7285bc23066a900b6a2608911faf803"
+  ],
+  "elapsed_s": 5.15705680847168
+}

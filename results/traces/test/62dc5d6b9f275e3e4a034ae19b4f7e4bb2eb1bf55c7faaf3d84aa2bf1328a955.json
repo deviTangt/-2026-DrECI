@@ -1,0 +1,61 @@
+{
+  "input_hash": "62dc5d6b9f275e3e4a034ae19b4f7e4bb2eb1bf55c7faaf3d84aa2bf1328a955",
+  "sample_id": "ESC-CSV-09637",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "bank",
+    "demonstrators"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f9ac038d033ca113cf478d10e5c8c0df625a88c588f8474ce57ae8cf806e2634",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f9ac038d033ca113cf478d10e5c8c0df625a88c588f8474ce57ae8cf806e2634",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "75c0255099ecc52efe7e4abe034f3914ebd8cd00a2dd607e44ea8da0d7bfb8f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a9ae8e6ccfa33adc1fb10a99df3aa9d152e8ca55722b4c340b30b17466d4b722",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "cb91eff66cf9bf641e96a7fdd0e2ebe6a889f8607af809a4ce314814003b6d9b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cars\",\"fire truck\",\"protesters\",\"demonstrators\",\"bank\"],\"target_related\":[\"bank workers\",\"man\",\"women\",\"bank\",\"demonstrators\"],\"mediators\":[\"bank\",\"demonstrators\"]}"
+    },
+    "indirect": {
+      "call_id": "16000444236db27b946bf4fd305872dd9c3e1214efa141a3a5da644cb46b7d77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Torching the bank caused the three bank workers to die; the bank (Z) links torched cars/bank to the deaths, forming a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "f9ac038d033ca113cf478d10e5c8c0df625a88c588f8474ce57ae8cf806e2634",
+    "f9ac038d033ca113cf478d10e5c8c0df625a88c588f8474ce57ae8cf806e2634",
+    "75c0255099ecc52efe7e4abe034f3914ebd8cd00a2dd607e44ea8da0d7bfb8f7",
+    "a9ae8e6ccfa33adc1fb10a99df3aa9d152e8ca55722b4c340b30b17466d4b722",
+    "cb91eff66cf9bf641e96a7fdd0e2ebe6a889f8607af809a4ce314814003b6d9b",
+    "16000444236db27b946bf4fd305872dd9c3e1214efa141a3a5da644cb46b7d77"
+  ],
+  "elapsed_s": 4.119903087615967
+}

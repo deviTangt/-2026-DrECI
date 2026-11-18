@@ -1,0 +1,63 @@
+{
+  "input_hash": "cd1d1ab314cd07d28b997b556e58df590fe2e36ae507b48e4bedd11380c072bd",
+  "sample_id": "ESC-CSV-02674",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mourners",
+    "cops",
+    "tossing",
+    "bottles"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e24350aef0a0f3975be7f9d3d765f5f0bd1fc9576f8aa2e08a679f064b91f827",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e24350aef0a0f3975be7f9d3d765f5f0bd1fc9576f8aa2e08a679f064b91f827",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b8785721b371476e1ff1d4bd350d9bb72a34a6718763e91e2db4c144af7b6d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "73b876d67e04593d788b187a3efbc06888fd0da9e5bcaf5364ca1b47305e1ed3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "282363d07d0d3fc9a39034c2995bbfb56f97f8b2c6dc192fb31e2e947a0877eb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mourners\",\"cops\",\"tossing\",\"bottles\"],\"target_related\":[\"mourners\",\"cops\",\"tossing\",\"bottles\"],\"mediators\":[\"mourners\",\"cops\",\"tossing\",\"bottles\"]}"
+    },
+    "indirect": {
+      "call_id": "1793e5bbb85b9a068d213f12bdfc10105b2c5e6885ae34eb81ba08476662859b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says mourners clashed with cops, 'tossing bottles and creating a melee'; 'creating' explicitly links clashed to melee.\"}"
+    }
+  },
+  "call_ids": [
+    "e24350aef0a0f3975be7f9d3d765f5f0bd1fc9576f8aa2e08a679f064b91f827",
+    "e24350aef0a0f3975be7f9d3d765f5f0bd1fc9576f8aa2e08a679f064b91f827",
+    "4b8785721b371476e1ff1d4bd350d9bb72a34a6718763e91e2db4c144af7b6d3",
+    "73b876d67e04593d788b187a3efbc06888fd0da9e5bcaf5364ca1b47305e1ed3",
+    "282363d07d0d3fc9a39034c2995bbfb56f97f8b2c6dc192fb31e2e947a0877eb",
+    "1793e5bbb85b9a068d213f12bdfc10105b2c5e6885ae34eb81ba08476662859b"
+  ],
+  "elapsed_s": 4.071226119995117
+}

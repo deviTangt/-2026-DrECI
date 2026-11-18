@@ -1,0 +1,89 @@
+{
+  "input_hash": "82b439bcc0d7fc76708ce0c9483f2147533aed92d73741f892c9397f97e7a02a",
+  "sample_id": "ESC-CSV-02439",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Monday",
+    "evening",
+    "vigil",
+    "unruly",
+    "young",
+    "mob",
+    "local",
+    "businesses",
+    "second",
+    "protest",
+    "next",
+    "night",
+    "another",
+    "Wednesday",
+    "night",
+    "police",
+    "someone",
+    "hit",
+    "officer",
+    "face",
+    "brick",
+    "thrown",
+    "window",
+    "police",
+    "van",
+    "46",
+    "arrests",
+    "mostly",
+    "disorderly",
+    "conduct"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3ef0059a59ddf92a27adf532621cd54035bbac2b5a6342db83915875aaf8a4a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3ef0059a59ddf92a27adf532621cd54035bbac2b5a6342db83915875aaf8a4a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0f07de5230192d329f48a22c7e2abd2836c936b26b3585c687c11d93d1c53d9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1360ed1a0765cac2b8ced8dbf0d170d54012b5d425c1a93db3bf23ef784b17c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "87521a8756f6a7804fcc5512b97811261f2b5ae9c08aa7bfaefeae3217e8acb4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"evening\",\"vigil\",\"unruly\",\"young\",\"mob\",\"local\",\"businesses\",\"second\",\"protest\",\"next\",\"night\",\"another\",\"Wednesday\",\"night\",\"police\",\"someone\",\"hit\",\"officer\",\"face\",\"brick\",\"thrown\",\"window\",\"police\",\"van\",\"46\",\"arrests\",\"mostly\",\"disorderly\",\"conduct\"],\"target_related\":[\"unruly\",\"young\",\"mob\",\"local\",\"businesses\",\"Monday\",\"evening\",\"vigil\",\"second\",\"protest\",\"next\",\"night\",\"another\",\"Wednesday\",\"night\",\"police\",\"someone\",\"hit\",\"officer\",\"face\",\"brick\",\"thrown\",\"window\",\"police\",\"van\",\"46\",\"arrests\",\"mostly\",\"disorderly\",\"conduct\"],\"mediators\":[\"Monday\",\"evening\",\"vigil\",\"unruly\",\"young\",\"mob\",\"local\",\"businesses\",\"second\",\"protest\",\"next\",\"night\",\"another\",\"Wednesday\",\"night\",\"police\",\"someone\",\"hit\",\"officer\",\"face\",\"brick\",\"thrown\",\"window\",\"police\",\"van\",\"46\",\"arrests\",\"mostly\",\"disorderly\",\"conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "5f0791476e26f806681d75bbd4dbb96ba9424a469b45f32784e734a8053a8d43",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text lists anger and thrashing as separate events in a sequence; no explicit or implicit causal word links them, and no causal order or coreference establishes anger causing thrashing.\"}"
+    }
+  },
+  "call_ids": [
+    "3ef0059a59ddf92a27adf532621cd54035bbac2b5a6342db83915875aaf8a4a7",
+    "3ef0059a59ddf92a27adf532621cd54035bbac2b5a6342db83915875aaf8a4a7",
+    "0f07de5230192d329f48a22c7e2abd2836c936b26b3585c687c11d93d1c53d9a",
+    "1360ed1a0765cac2b8ced8dbf0d170d54012b5d425c1a93db3bf23ef784b17c6",
+    "87521a8756f6a7804fcc5512b97811261f2b5ae9c08aa7bfaefeae3217e8acb4",
+    "5f0791476e26f806681d75bbd4dbb96ba9424a469b45f32784e734a8053a8d43"
+  ],
+  "elapsed_s": 19.83842444419861
+}

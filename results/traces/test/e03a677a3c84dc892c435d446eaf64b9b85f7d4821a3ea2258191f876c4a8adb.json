@@ -1,0 +1,61 @@
+{
+  "input_hash": "e03a677a3c84dc892c435d446eaf64b9b85f7d4821a3ea2258191f876c4a8adb",
+  "sample_id": "ESC-CSV-09879",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "spending",
+    "cuts"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "82fca45981c9e45ee1f3ab20f64c3390e2033d6dd67ff214ef5e779cef0ca9f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "82fca45981c9e45ee1f3ab20f64c3390e2033d6dd67ff214ef5e779cef0ca9f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "04403ff87bd691234e0b24531c887b841f0d32cf46385d2e50a643408bfa8bb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "949549edc97adbb5d7aea1966631f76161b07b53ec21fc77d9be0b657c06218b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6029a1faf320bc4b749883587914044f6bf86274fb15d991243faf957bf0e0be",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"cuts\",\"avoid\",\"national\",\"bankruptcy\"],\"target_related\":[\"protesters\",\"striking\",\"battles\",\"police\"],\"mediators\":[\"spending\",\"cuts\"]}"
+    },
+    "indirect": {
+      "call_id": "ed6a5dabd8a131653c5dcb9018160b88075f2c97f0b389531c678df0f4def803",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No causal link between 'designed' and 'furious'; 'designed' modifies 'spending cuts,' and protesters are furious at those cuts, not caused by 'designed.'\"}"
+    }
+  },
+  "call_ids": [
+    "82fca45981c9e45ee1f3ab20f64c3390e2033d6dd67ff214ef5e779cef0ca9f4",
+    "82fca45981c9e45ee1f3ab20f64c3390e2033d6dd67ff214ef5e779cef0ca9f4",
+    "04403ff87bd691234e0b24531c887b841f0d32cf46385d2e50a643408bfa8bb1",
+    "949549edc97adbb5d7aea1966631f76161b07b53ec21fc77d9be0b657c06218b",
+    "6029a1faf320bc4b749883587914044f6bf86274fb15d991243faf957bf0e0be",
+    "ed6a5dabd8a131653c5dcb9018160b88075f2c97f0b389531c678df0f4def803"
+  ],
+  "elapsed_s": 4.878190755844116
+}

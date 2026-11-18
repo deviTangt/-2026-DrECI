@@ -1,0 +1,62 @@
+{
+  "input_hash": "f456d1678ac39625f5ecac18d8b2b590bbbbc63b846198bcf7aa370a510b67c6",
+  "sample_id": "ESC-CSV-01510",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "sentence",
+    "death row"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d0f24a25275e13740ddad614d699618c38f2aa1dbf0209a2fb19d5651997ac1c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d0f24a25275e13740ddad614d699618c38f2aa1dbf0209a2fb19d5651997ac1c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "173c460106d65fd24722cdfdb5fe76182614063fc69932e5eca4a776bd7a6c75",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "78a2b0d9d9002fa45ef6595ce56142a8cc760f345c909cabead36e047135d27a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "7ab5650cd24ba7f702a84f00175b0be8ed67718b6c2d8a1a85df320705a22f0c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"sentence\",\"death row\",\"San Quentin State Prison\",\"county jail\",\"transferred\",\"Judge\"],\"target_related\":[\"Orozco\",\"sentence\",\"California Supreme Court\",\"death row\",\"appeal\",\"automatically\"],\"mediators\":[\"Orozco\",\"sentence\",\"death row\"]}"
+    },
+    "indirect": {
+      "call_id": "3a1e639b6f9cc3e272191b9f4764b2ed584705cd0ab475f6a208475b9f88935b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A death sentence is automatically appealed to the California Supreme Court, so the death sentence causes the appeal by common-sense legal order.\"}"
+    }
+  },
+  "call_ids": [
+    "d0f24a25275e13740ddad614d699618c38f2aa1dbf0209a2fb19d5651997ac1c",
+    "d0f24a25275e13740ddad614d699618c38f2aa1dbf0209a2fb19d5651997ac1c",
+    "173c460106d65fd24722cdfdb5fe76182614063fc69932e5eca4a776bd7a6c75",
+    "78a2b0d9d9002fa45ef6595ce56142a8cc760f345c909cabead36e047135d27a",
+    "7ab5650cd24ba7f702a84f00175b0be8ed67718b6c2d8a1a85df320705a22f0c",
+    "3a1e639b6f9cc3e272191b9f4764b2ed584705cd0ab475f6a208475b9f88935b"
+  ],
+  "elapsed_s": 5.153334140777588
+}

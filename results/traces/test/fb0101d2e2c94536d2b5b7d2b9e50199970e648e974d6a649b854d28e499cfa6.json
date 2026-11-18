@@ -1,0 +1,66 @@
+{
+  "input_hash": "fb0101d2e2c94536d2b5b7d2b9e50199970e648e974d6a649b854d28e499cfa6",
+  "sample_id": "ESC-CSV-06463",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Arrested",
+    "murder",
+    "half-brothers",
+    "17",
+    "22",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a0818cbca9d8daf2accae08a5ee2ad64435ec7c64034b05c21b2cb7a135ef83",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a0818cbca9d8daf2accae08a5ee2ad64435ec7c64034b05c21b2cb7a135ef83",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6db50c3b47b5790d46c3b5c2b49ba76c673f3d45e3ef36a2284691d38643ab58",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0931635ae077e7d47903cbc0c09ee0b6d63f92728e66c3d2780977b8734b6143",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ec30f14c36c7f9e914517d17aa547f75a968b616bfed7c8dc4f07ad51abc84f0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Arrested\",\"Hero\",\"Brooklyn\",\"Mom\",\"Lopez\",\"murder\",\"half-brothers\",\"17\",\"22\",\"arrested\"],\"target_related\":[\"Teen\",\"Arrested\",\"murder\",\"half-brothers\",\"17\",\"22\",\"arrested\"],\"mediators\":[\"Teen\",\"Arrested\",\"murder\",\"half-brothers\",\"17\",\"22\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "11549cfdf053f97f137dd2576f594b4f6a5323d5760a873080293a7aaeec5b08",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting precedes and leads to the teen being charged with murder, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "3a0818cbca9d8daf2accae08a5ee2ad64435ec7c64034b05c21b2cb7a135ef83",
+    "3a0818cbca9d8daf2accae08a5ee2ad64435ec7c64034b05c21b2cb7a135ef83",
+    "6db50c3b47b5790d46c3b5c2b49ba76c673f3d45e3ef36a2284691d38643ab58",
+    "0931635ae077e7d47903cbc0c09ee0b6d63f92728e66c3d2780977b8734b6143",
+    "ec30f14c36c7f9e914517d17aa547f75a968b616bfed7c8dc4f07ad51abc84f0",
+    "11549cfdf053f97f137dd2576f594b4f6a5323d5760a873080293a7aaeec5b08"
+  ],
+  "elapsed_s": 4.669448614120483
+}

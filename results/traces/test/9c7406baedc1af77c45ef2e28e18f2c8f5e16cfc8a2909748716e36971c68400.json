@@ -1,0 +1,62 @@
+{
+  "input_hash": "9c7406baedc1af77c45ef2e28e18f2c8f5e16cfc8a2909748716e36971c68400",
+  "sample_id": "ESC-CSV-04462",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "watches",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d5bba006b1efa7682dcd985cd76b5418ad5cb006e3324363e5d6a793ba17f148",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d5bba006b1efa7682dcd985cd76b5418ad5cb006e3324363e5d6a793ba17f148",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0e6daa9fa96d09b6d4abf62c2e0fa788f4617d9544bf1af986a048e8361af522",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "80327614867fcc56fb543993a7ff614635e4e8851815cf903b6a9712c6c5f248",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "12d3db1b6675a359ab189068dbd6fa6449b84de047fa342fc3c0928852aa1afc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewellery\",\"watches\"],\"target_related\":[\"jewellery\",\"watches\",\"store\",\"Paris\"],\"mediators\":[\"jewellery\",\"watches\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "592c84a01319a0f48863cd7112caccf1241f4cbec478772ce79e163af2f9d661",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove a car into the store, enabling the jewellery and watch theft; driving preceded and caused the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "d5bba006b1efa7682dcd985cd76b5418ad5cb006e3324363e5d6a793ba17f148",
+    "d5bba006b1efa7682dcd985cd76b5418ad5cb006e3324363e5d6a793ba17f148",
+    "0e6daa9fa96d09b6d4abf62c2e0fa788f4617d9544bf1af986a048e8361af522",
+    "80327614867fcc56fb543993a7ff614635e4e8851815cf903b6a9712c6c5f248",
+    "12d3db1b6675a359ab189068dbd6fa6449b84de047fa342fc3c0928852aa1afc",
+    "592c84a01319a0f48863cd7112caccf1241f4cbec478772ce79e163af2f9d661"
+  ],
+  "elapsed_s": 4.606157541275024
+}

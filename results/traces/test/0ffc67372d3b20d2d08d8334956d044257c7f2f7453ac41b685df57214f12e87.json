@@ -1,0 +1,62 @@
+{
+  "input_hash": "0ffc67372d3b20d2d08d8334956d044257c7f2f7453ac41b685df57214f12e87",
+  "sample_id": "ESC-CSV-06920",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Andrew Lopez",
+    "slaying",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "04f897beb04789386e6de27e72e7bb361b1fe5955e02561a173945a7c7987356",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "04f897beb04789386e6de27e72e7bb361b1fe5955e02561a173945a7c7987356",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "be76e7128c13186eca5b53c674d8f789996405c9c43c82f5d95319853e42d65e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e0d5ab66791954078efcf2289e09376309b7fd481763b6c13589d382fed921ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "49d8437c33ebf8f7eaf93c06ce900760a338bf9626f553dd2108d6323185d225",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"rival gang members\",\"slaying\",\"wounding\",\"murder\"],\"target_related\":[\"Andrew Lopez\",\"murder\",\"slaying\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"slaying\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "db555dc0cf19b6ec55297db0781da4ed192db33e65e21b4737a7546b97fcfc50",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states Lopez was found guilty of slaying/murder; no causal link shows being 'targeted' caused the 'guilty' verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "04f897beb04789386e6de27e72e7bb361b1fe5955e02561a173945a7c7987356",
+    "04f897beb04789386e6de27e72e7bb361b1fe5955e02561a173945a7c7987356",
+    "be76e7128c13186eca5b53c674d8f789996405c9c43c82f5d95319853e42d65e",
+    "e0d5ab66791954078efcf2289e09376309b7fd481763b6c13589d382fed921ca",
+    "49d8437c33ebf8f7eaf93c06ce900760a338bf9626f553dd2108d6323185d225",
+    "db555dc0cf19b6ec55297db0781da4ed192db33e65e21b4737a7546b97fcfc50"
+  ],
+  "elapsed_s": 4.941243886947632
+}

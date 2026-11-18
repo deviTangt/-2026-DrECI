@@ -1,0 +1,64 @@
+{
+  "input_hash": "cadac809a8526bf1503c7c7dcdbdc1ad38313acf30d857a04a88ca492e8ae4a9",
+  "sample_id": "ESC-CSV-04357",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Four men",
+    "car",
+    "upmarket jewellery store",
+    "central Paris",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "87ec6dfebf6e3561662999a30336ecc36780cf017734f9ae479312905a9457a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "87ec6dfebf6e3561662999a30336ecc36780cf017734f9ae479312905a9457a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "71af0d17a034c11270c26ea58074188794bb43ede5b9885e916c7abb19a78023",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8e63712f4fa5126b577f1e3ba1605ff9760726be61f00fb71f5a4f256bcb8509",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "b7721267d355a72520a4a965c8b8ee5253a99a066512c17bd619d1e66b980b1f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\"],\"target_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"two-million-euro booty\",\"police source\"],\"mediators\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "2d28404852fcca99697ff2174b309570593fbb385bea067d5598a2c1c40faf33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window occurs before and enables making off with the booty; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "87ec6dfebf6e3561662999a30336ecc36780cf017734f9ae479312905a9457a5",
+    "87ec6dfebf6e3561662999a30336ecc36780cf017734f9ae479312905a9457a5",
+    "71af0d17a034c11270c26ea58074188794bb43ede5b9885e916c7abb19a78023",
+    "8e63712f4fa5126b577f1e3ba1605ff9760726be61f00fb71f5a4f256bcb8509",
+    "b7721267d355a72520a4a965c8b8ee5253a99a066512c17bd619d1e66b980b1f",
+    "2d28404852fcca99697ff2174b309570593fbb385bea067d5598a2c1c40faf33"
+  ],
+  "elapsed_s": 4.386333703994751
+}

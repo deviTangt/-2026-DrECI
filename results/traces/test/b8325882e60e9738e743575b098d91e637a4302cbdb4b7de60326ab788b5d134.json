@@ -1,0 +1,62 @@
+{
+  "input_hash": "b8325882e60e9738e743575b098d91e637a4302cbdb4b7de60326ab788b5d134",
+  "sample_id": "ESC-CSV-06409",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "chest",
+    "blood"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6f37878312cce03049cb98939ad468e98a8467c6e40cd3210e44c6eb266d8d59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6f37878312cce03049cb98939ad468e98a8467c6e40cd3210e44c6eb266d8d59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "17d63e560c071febc67e79137744b598ed0f4e68f7c9cce7869bfb1579af00f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b0ec33db3c195a1160798e22ebcf97b0bcc6edc70ad316f8762fa310bcfcabd8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a2d4d80af6228129659ddca6214973334eec8655a811a01eac4aeaf47d1ad265",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"mother\",\"12\",\"killed\",\"gang\",\"daughter\",\"school\",\"Horton\",\"child\",\"chest\",\"blood\"],\"target_related\":[\"Horton\",\"chest\",\"collapses\",\"ground\",\"blood\"],\"mediators\":[\"Horton\",\"chest\",\"blood\"]}"
+    },
+    "indirect": {
+      "call_id": "cad8246abd1f4b5fa99e5ba8177304d08222cbfa449f12a1d8712d95e48e9fb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shootout is not stated or implied to cause Horton to grip her chest; she grips her chest after pushing a child, with no causal link to the shootout.\"}"
+    }
+  },
+  "call_ids": [
+    "6f37878312cce03049cb98939ad468e98a8467c6e40cd3210e44c6eb266d8d59",
+    "6f37878312cce03049cb98939ad468e98a8467c6e40cd3210e44c6eb266d8d59",
+    "17d63e560c071febc67e79137744b598ed0f4e68f7c9cce7869bfb1579af00f7",
+    "b0ec33db3c195a1160798e22ebcf97b0bcc6edc70ad316f8762fa310bcfcabd8",
+    "a2d4d80af6228129659ddca6214973334eec8655a811a01eac4aeaf47d1ad265",
+    "cad8246abd1f4b5fa99e5ba8177304d08222cbfa449f12a1d8712d95e48e9fb0"
+  ],
+  "elapsed_s": 4.413288116455078
+}

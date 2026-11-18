@@ -1,0 +1,64 @@
+{
+  "input_hash": "aee21adad07aa5519c58bfbafccd9a82c4e0cb6f8c30777b20fd42ee5b5f04df",
+  "sample_id": "ESC-CSV-09357",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "window",
+    "Molotov",
+    "cocktails",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "384b298dec33fbdc3ff38a442e4058f6758ba9c5e66ab4d9d282c47abce320ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "384b298dec33fbdc3ff38a442e4058f6758ba9c5e66ab4d9d282c47abce320ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b202e05efa9eb81d551e320ee5245207d5b3c2f55df7a8bebaa90691938c5ded",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "148119ce683929ef4e6531d8b5844d59cca78b772226e648e57f37125f615b1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e284f303a275d7bb2974bb5dd88062465865ef304c3603d22d7eafb8e39e08df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"window\",\"Molotov\",\"cocktails\",\"bank\"],\"target_related\":[\"bank\",\"Marfin\",\"branch\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"mediators\":[\"rioters\",\"window\",\"Molotov\",\"cocktails\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "85d508174db1f1d3cd6e66b09040c7a951678b74780d520c25f85ecbfc6ee170",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'caught fire after rioters broke a window and threw Molotov cocktails inside' — 'after' marks explicit causation; throwing cocktails caused the bank to catch fire.\"}"
+    }
+  },
+  "call_ids": [
+    "384b298dec33fbdc3ff38a442e4058f6758ba9c5e66ab4d9d282c47abce320ce",
+    "384b298dec33fbdc3ff38a442e4058f6758ba9c5e66ab4d9d282c47abce320ce",
+    "b202e05efa9eb81d551e320ee5245207d5b3c2f55df7a8bebaa90691938c5ded",
+    "148119ce683929ef4e6531d8b5844d59cca78b772226e648e57f37125f615b1a",
+    "e284f303a275d7bb2974bb5dd88062465865ef304c3603d22d7eafb8e39e08df",
+    "85d508174db1f1d3cd6e66b09040c7a951678b74780d520c25f85ecbfc6ee170"
+  ],
+  "elapsed_s": 5.776162624359131
+}

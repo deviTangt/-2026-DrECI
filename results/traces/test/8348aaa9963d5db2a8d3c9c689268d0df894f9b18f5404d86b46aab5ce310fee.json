@@ -1,0 +1,60 @@
+{
+  "input_hash": "8348aaa9963d5db2a8d3c9c689268d0df894f9b18f5404d86b46aab5ce310fee",
+  "sample_id": "ESC-CSV-04041",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Buckley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "99c176b92ea6e851cdfc59bef4e5633203391d11d31dd8c4fb88c96c380314a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "99c176b92ea6e851cdfc59bef4e5633203391d11d31dd8c4fb88c96c380314a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b262736c24188ce7c800911a64a476069dec3d5b7da57744640f331cdd3a2338",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "67ac7be0ba30804a91b25937ce2e95ea51ca6ec2c88f7ea77e731dcf7e9a1667",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "206683509e020ccf6e6c2c0608aa509fa33cf52cec7f9b817b1e238069612eb7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British man\",\"falling\",\"climbing\",\"New Zealand\",\"Buckley\"],\"target_related\":[\"Buckley\",\"Duncan Raite\",\"died\",\"slipped\",\"fell\",\"ridge\",\"national park\"],\"mediators\":[\"Buckley\"]}"
+    },
+    "indirect": {
+      "call_id": "1ab4ada7c522087023de2fe76035776d38ca2b79e3ca670eadd89c05f2ebf996",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'killed after falling' uses 'after' to link the fatal fall to death; 'death came a day after...died' shows causal sequence.\"}"
+    }
+  },
+  "call_ids": [
+    "99c176b92ea6e851cdfc59bef4e5633203391d11d31dd8c4fb88c96c380314a8",
+    "99c176b92ea6e851cdfc59bef4e5633203391d11d31dd8c4fb88c96c380314a8",
+    "b262736c24188ce7c800911a64a476069dec3d5b7da57744640f331cdd3a2338",
+    "67ac7be0ba30804a91b25937ce2e95ea51ca6ec2c88f7ea77e731dcf7e9a1667",
+    "206683509e020ccf6e6c2c0608aa509fa33cf52cec7f9b817b1e238069612eb7",
+    "1ab4ada7c522087023de2fe76035776d38ca2b79e3ca670eadd89c05f2ebf996"
+  ],
+  "elapsed_s": 3.976757764816284
+}

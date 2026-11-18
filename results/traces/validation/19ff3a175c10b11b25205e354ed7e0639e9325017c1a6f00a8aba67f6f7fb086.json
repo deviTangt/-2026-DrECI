@@ -1,0 +1,68 @@
+{
+  "input_hash": "19ff3a175c10b11b25205e354ed7e0639e9325017c1a6f00a8aba67f6f7fb086",
+  "sample_id": "ESC-CSV-01899",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "back",
+    "yard work",
+    "home",
+    "Joliet Avenue",
+    "Hawaiian Gardens",
+    "shooting",
+    "jury",
+    "street crime"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "362acade9d1b1a185007b980a0e9e546a970c977dd1146c75556632fac2c84ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "362acade9d1b1a185007b980a0e9e546a970c977dd1146c75556632fac2c84ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4bf62f91e6908d34ab89cef0ea84b66e2eeec38c4b36dd7e86195425e607527a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6872a6f2a7024b4cb602cc9cd47426eb855f80629392004947c2070c669d3048",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2bde826276be537167854951c8f8526125b12102d48c12d061770435f127282f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"back\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"street crime\",\"jury\"],\"target_related\":[\"Orozco\",\"convicted\",\"June 20 , 2005\",\"man\",\"shot\",\"back\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street crime\"],\"mediators\":[\"man\",\"back\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street crime\"]}"
+    },
+    "indirect": {
+      "call_id": "73ef05bbf36365425293380826b8cc4099cbcaba771efb0ca61a8125962136d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot in the back is the act constituting the attempted murder; the shooting precedes and causes the attempted murder charge.\"}"
+    }
+  },
+  "call_ids": [
+    "362acade9d1b1a185007b980a0e9e546a970c977dd1146c75556632fac2c84ef",
+    "362acade9d1b1a185007b980a0e9e546a970c977dd1146c75556632fac2c84ef",
+    "4bf62f91e6908d34ab89cef0ea84b66e2eeec38c4b36dd7e86195425e607527a",
+    "6872a6f2a7024b4cb602cc9cd47426eb855f80629392004947c2070c669d3048",
+    "2bde826276be537167854951c8f8526125b12102d48c12d061770435f127282f",
+    "73ef05bbf36365425293380826b8cc4099cbcaba771efb0ca61a8125962136d8"
+  ],
+  "elapsed_s": 6.610074281692505
+}

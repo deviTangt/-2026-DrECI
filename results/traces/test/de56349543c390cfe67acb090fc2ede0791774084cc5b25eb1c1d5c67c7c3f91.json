@@ -1,0 +1,66 @@
+{
+  "input_hash": "de56349543c390cfe67acb090fc2ede0791774084cc5b25eb1c1d5c67c7c3f91",
+  "sample_id": "ESC-CSV-09304",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank workers",
+    "building",
+    "torched",
+    "protests",
+    "Athens",
+    "austerity measures",
+    "Greek prime minister"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fb15dd5a972cbc860ad360df2c5c40836e7cbc7bb0f456286d5d7d17ac3ea0aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fb15dd5a972cbc860ad360df2c5c40836e7cbc7bb0f456286d5d7d17ac3ea0aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e79e149067051ab03f04ee3813c1556b1c1684669f8e14ef06c2ab2e87bf9e54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "36e76bc7e9d1a0d09e0627bd3a7634b4a62d9dc1e0fbd25ab7c10e6377a2e997",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0d10b4b77e0e8dfa72cb4bd06dc676c4849b0355c0139505ba75d431fd4d4d20",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank workers\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"],\"target_related\":[\"bank workers\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"],\"mediators\":[\"bank workers\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"]}"
+    },
+    "indirect": {
+      "call_id": "88aba811c84d9e46eaf303a8eecea9d72e50b7172e74c704bf4bf3133e581a8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Building was 'torched during protests' (riot); 'killed when the building...was torched' shows riot caused deaths via 'by' and causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "fb15dd5a972cbc860ad360df2c5c40836e7cbc7bb0f456286d5d7d17ac3ea0aa",
+    "fb15dd5a972cbc860ad360df2c5c40836e7cbc7bb0f456286d5d7d17ac3ea0aa",
+    "e79e149067051ab03f04ee3813c1556b1c1684669f8e14ef06c2ab2e87bf9e54",
+    "36e76bc7e9d1a0d09e0627bd3a7634b4a62d9dc1e0fbd25ab7c10e6377a2e997",
+    "0d10b4b77e0e8dfa72cb4bd06dc676c4849b0355c0139505ba75d431fd4d4d20",
+    "88aba811c84d9e46eaf303a8eecea9d72e50b7172e74c704bf4bf3133e581a8b"
+  ],
+  "elapsed_s": 4.789341926574707
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "871cad834d5424e083d775a7290c4e9805c99e9238afc08983d7a8527d74e80d",
+  "sample_id": "ESC-CSV-06911",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "murder",
+    "wounding",
+    "Unique Armstead",
+    "Cheanne McKnight"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0dd79fa5becdeb02073debff4061b0a8c20731c8a4c66c681c736a68f553da09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0dd79fa5becdeb02073debff4061b0a8c20731c8a4c66c681c736a68f553da09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3c83455d116f4e52eaffbdf2b1a166817d92bd753606ff0c31bf08ae515c0d74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a43c325d6e279a3699d24223e67c9176e323e2c6ea19353dc7784119636e291",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cf590a6eac80367b57563d827abbc0de449af7ac357a82e380a8b1b2b6a472c8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"Unique Armstead\",\"Cheanne McKnight\",\"murder\",\"wounding\",\"targeted\",\"rival gang members\"],\"target_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"murder\",\"slaying\",\"wounding\",\"Unique Armstead\",\"Cheanne McKnight\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"murder\",\"wounding\",\"Unique Armstead\",\"Cheanne McKnight\"]}"
+    },
+    "indirect": {
+      "call_id": "e03a1e7d27e5d41ecc5dfec2febe903ba2601cdcc8d0655e60e1be3799552199",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of slaying means the slaying is the crime for which he was convicted; the act precedes and grounds the guilty verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "0dd79fa5becdeb02073debff4061b0a8c20731c8a4c66c681c736a68f553da09",
+    "0dd79fa5becdeb02073debff4061b0a8c20731c8a4c66c681c736a68f553da09",
+    "3c83455d116f4e52eaffbdf2b1a166817d92bd753606ff0c31bf08ae515c0d74",
+    "9a43c325d6e279a3699d24223e67c9176e323e2c6ea19353dc7784119636e291",
+    "cf590a6eac80367b57563d827abbc0de449af7ac357a82e380a8b1b2b6a472c8",
+    "e03a1e7d27e5d41ecc5dfec2febe903ba2601cdcc8d0655e60e1be3799552199"
+  ],
+  "elapsed_s": 5.089322566986084
+}

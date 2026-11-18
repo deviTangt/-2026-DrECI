@@ -1,0 +1,65 @@
+{
+  "input_hash": "91271d466167dcae3239db38b8445e73338e8f49ce58d67bb7c46427da9b5074",
+  "sample_id": "ESC-CSV-07289",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "Chargers",
+    "player",
+    "pulled over",
+    "early-morning hours",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fe28c43a8f985eb1cfaaff0cb90fd5264b4281e56800bfb0ab31f7210b3b91bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fe28c43a8f985eb1cfaaff0cb90fd5264b4281e56800bfb0ab31f7210b3b91bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "255e33ab8b1d94a2f83274edcdd1f1cd9dd5b56d60393b45183b07690ce1f8aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fbe656a9583b09f7a2bc9c3b6a9353e1cf0083427a69abf5619ec121fe1d53b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2f46c2e17193256242305f9d02dcbab86c2024f9d0120a6163cc1ba20e948320",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning hours\",\"suspicion\"],\"target_related\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning hours\",\"suspicion\"],\"mediators\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning hours\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "a88b1be777ef92ebade79487b17be1b6ba2fb689acba8aae92bf47d83d686f9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested on suspicion of DUI' — 'on suspicion of' links the arrest to DUI as its basis, an explicit causal phrase.\"}"
+    }
+  },
+  "call_ids": [
+    "fe28c43a8f985eb1cfaaff0cb90fd5264b4281e56800bfb0ab31f7210b3b91bc",
+    "fe28c43a8f985eb1cfaaff0cb90fd5264b4281e56800bfb0ab31f7210b3b91bc",
+    "255e33ab8b1d94a2f83274edcdd1f1cd9dd5b56d60393b45183b07690ce1f8aa",
+    "fbe656a9583b09f7a2bc9c3b6a9353e1cf0083427a69abf5619ec121fe1d53b8",
+    "2f46c2e17193256242305f9d02dcbab86c2024f9d0120a6163cc1ba20e948320",
+    "a88b1be777ef92ebade79487b17be1b6ba2fb689acba8aae92bf47d83d686f9f"
+  ],
+  "elapsed_s": 5.037904262542725
+}

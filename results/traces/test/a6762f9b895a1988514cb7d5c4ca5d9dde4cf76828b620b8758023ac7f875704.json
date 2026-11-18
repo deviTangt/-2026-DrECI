@@ -1,0 +1,63 @@
+{
+  "input_hash": "a6762f9b895a1988514cb7d5c4ca5d9dde4cf76828b620b8758023ac7f875704",
+  "sample_id": "ESC-CSV-04588",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Paris",
+    "Store",
+    "jewelry",
+    "million"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eb530c0a75df86710a7875fb1420cab699ee0a36b20075db1f88ae240146c29d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eb530c0a75df86710a7875fb1420cab699ee0a36b20075db1f88ae240146c29d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8bd2bfe3417b8b40cfcaceddcb66788780c4d7aecf283b23cbd99d7521c168e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5567baa226030e2cac08c3aacfa9b18817675f44895663df1b229f2618f83753",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "52ffca66208731824886e1f5ac2c34a9b9891c6742bddfee95f638f1f7cebe2b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"rammed\",\"car\",\"jewelry\",\"store\",\"Paris\",\"Monday\",\"window\",\"stealing\",\"million\",\"Euros\",\"AFP\"],\"target_related\":[\"Paris\",\"Store\",\"jewelry\",\"Heist\",\"million\"],\"mediators\":[\"Paris\",\"Store\",\"jewelry\",\"million\"]}"
+    },
+    "indirect": {
+      "call_id": "f255fe85677a14106e1a8590db9fdb1d98b26a62bcb94dff2ed1f8f6d06946c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'smashing the shop window' is a concurrent detail of the heist; 'Hit' in the headline means the store was targeted, not caused by smashing.\"}"
+    }
+  },
+  "call_ids": [
+    "eb530c0a75df86710a7875fb1420cab699ee0a36b20075db1f88ae240146c29d",
+    "eb530c0a75df86710a7875fb1420cab699ee0a36b20075db1f88ae240146c29d",
+    "8bd2bfe3417b8b40cfcaceddcb66788780c4d7aecf283b23cbd99d7521c168e6",
+    "5567baa226030e2cac08c3aacfa9b18817675f44895663df1b229f2618f83753",
+    "52ffca66208731824886e1f5ac2c34a9b9891c6742bddfee95f638f1f7cebe2b",
+    "f255fe85677a14106e1a8590db9fdb1d98b26a62bcb94dff2ed1f8f6d06946c0"
+  ],
+  "elapsed_s": 4.5541558265686035
+}

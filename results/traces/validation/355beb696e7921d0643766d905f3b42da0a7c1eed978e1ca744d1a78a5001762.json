@@ -1,0 +1,61 @@
+{
+  "input_hash": "355beb696e7921d0643766d905f3b42da0a7c1eed978e1ca744d1a78a5001762",
+  "sample_id": "ESC-CSV-02794",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Brooklyn"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "77c4fef7f15c644bb934aa121d47dde18457a077ada49c31609415d850f2e300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "77c4fef7f15c644bb934aa121d47dde18457a077ada49c31609415d850f2e300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ea86c15a64622fa2171559718fe300c595aa0a782bd2dccb7393dbd380bc870b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f33ef3c61f6be9dfb330d03b1a35e7b72c3b0d7ec350869b4b927b29641ae670",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0502b751a61bb93a018d23deb8880b68fb47fb794e87cdab0b17aead018d02ef",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Police\",\"Brooklyn\"],\"target_related\":[\"Teen\",\"Brooklyn\",\"Riot\"],\"mediators\":[\"Teen\",\"Brooklyn\"]}"
+    },
+    "indirect": {
+      "call_id": "f40b9a87a098bf944bf4d3ae9c27da83e99b63834a6fea77fafd4c0e1d6b8ae3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A teen being shot by police precedes and prompts the community vigil held in response, so the shooting causes the vigil.\"}"
+    }
+  },
+  "call_ids": [
+    "77c4fef7f15c644bb934aa121d47dde18457a077ada49c31609415d850f2e300",
+    "77c4fef7f15c644bb934aa121d47dde18457a077ada49c31609415d850f2e300",
+    "ea86c15a64622fa2171559718fe300c595aa0a782bd2dccb7393dbd380bc870b",
+    "f33ef3c61f6be9dfb330d03b1a35e7b72c3b0d7ec350869b4b927b29641ae670",
+    "0502b751a61bb93a018d23deb8880b68fb47fb794e87cdab0b17aead018d02ef",
+    "f40b9a87a098bf944bf4d3ae9c27da83e99b63834a6fea77fafd4c0e1d6b8ae3"
+  ],
+  "elapsed_s": 4.030141115188599
+}

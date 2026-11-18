@@ -1,0 +1,62 @@
+{
+  "input_hash": "03c6c345393a33b0efb3d20b7d6965ea9a89fcf639f66765e4566309966786a0",
+  "sample_id": "ESC-CSV-02444",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "officer",
+    "brick",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bc9f31b6c895108d190404f33b7bccb1cb43b4889e35be5c257c3bf9eee7d838",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bc9f31b6c895108d190404f33b7bccb1cb43b4889e35be5c257c3bf9eee7d838",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c88d412206fff66fcdbfd6ff98f9d63753a0c7d1df5b6ce6540cea422bff397",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fa7ae1499b3a98f0ccda36bcf364512fe9d6eecf741f0206ff16eddabfd93e44",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b77c35f2552dedbb2b3967739e6583c051f63a8d288b54de199a976b4086babd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"protest\",\"police\",\"officer\",\"brick\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"someone\",\"officer\",\"face\",\"brick\",\"police\"],\"mediators\":[\"officer\",\"brick\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "eab7e518d8c416ec502f8f6497a0e47c6600be149bbc155312cfdf1e82771f44",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Anger from the killing led to protests where someone hit an officer; anger precedes and plausibly causes the hitting.\"}"
+    }
+  },
+  "call_ids": [
+    "bc9f31b6c895108d190404f33b7bccb1cb43b4889e35be5c257c3bf9eee7d838",
+    "bc9f31b6c895108d190404f33b7bccb1cb43b4889e35be5c257c3bf9eee7d838",
+    "2c88d412206fff66fcdbfd6ff98f9d63753a0c7d1df5b6ce6540cea422bff397",
+    "fa7ae1499b3a98f0ccda36bcf364512fe9d6eecf741f0206ff16eddabfd93e44",
+    "b77c35f2552dedbb2b3967739e6583c051f63a8d288b54de199a976b4086babd",
+    "eab7e518d8c416ec502f8f6497a0e47c6600be149bbc155312cfdf1e82771f44"
+  ],
+  "elapsed_s": 17.91012454032898
+}

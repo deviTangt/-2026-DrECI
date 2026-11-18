@@ -1,0 +1,63 @@
+{
+  "input_hash": "241330a94ae32ca8be5df3f41f4969c1064d3f48a3c1dcb4ca836fd86ebbd888",
+  "sample_id": "ESC-CSV-09472",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "3",
+    "bank employees",
+    "Molotov cocktail",
+    "Bank SKY"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "25c001d63e63ea458a03dfd70ae66d0496d32b8dfcf1ef48cfefdad6b9b49062",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8c352b9aefd676a3ad7d1fadaa0af3ee5f3dcdfcac4592aa2ae31d598be13af9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ef0868edbc9506c64b8ff29ff82c0b1a953881fc0899a94589fc25c341a9714f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"3\",\"bank employees\",\"burnt\",\"Molotov cocktail\",\"Bank SKY\"],\"target_related\":[\"3\",\"bank employees\",\"death\",\"Molotov cocktail\",\"Bank SKY\"],\"mediators\":[\"3\",\"bank employees\",\"Molotov cocktail\",\"Bank SKY\"]}"
+    },
+    "indirect": {
+      "call_id": "7d9a8166a2541b62ccabc2a2d9b1f2cd509dd3399c3d0d3f150dc3d127d80a6c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says the 3 bank employees were 'burnt to death,' and headline says '3 DEAD due to Molotov cocktail'; 'due to' explicitly links death to burning.\"}"
+    }
+  },
+  "call_ids": [
+    "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+    "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+    "25c001d63e63ea458a03dfd70ae66d0496d32b8dfcf1ef48cfefdad6b9b49062",
+    "8c352b9aefd676a3ad7d1fadaa0af3ee5f3dcdfcac4592aa2ae31d598be13af9",
+    "ef0868edbc9506c64b8ff29ff82c0b1a953881fc0899a94589fc25c341a9714f",
+    "7d9a8166a2541b62ccabc2a2d9b1f2cd509dd3399c3d0d3f150dc3d127d80a6c"
+  ],
+  "elapsed_s": 4.985845327377319
+}

@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-11-03T11:06:33.227496+00:00",
+  "selected_q": 2,
+  "selection": "Compare q=2 and q=3 on validation F1 only; tie goes to lower q.",
+  "validation_metrics": {
+    "E0": {
+      "n": 1905,
+      "tp": 821,
+      "fp": 88,
+      "fn": 333,
+      "tn": 663,
+      "failures": 0,
+      "precision": 0.9031903190319032,
+      "recall": 0.7114384748700173,
+      "f1": 0.7959282598158023,
+      "accuracy": 0.779002624671916,
+      "coverage": 1.0,
+      "failure_policy": "abstention counts as error; positive abstention FN, negative abstention FP"
+    },
+    "E1": {
+      "n": 1905,
+      "tp": 818,
+      "fp": 90,
+      "fn": 336,
+      "tn": 661,
+      "failures": 0,
+      "precision": 0.9008810572687225,
+      "recall": 0.708838821490468,
+      "f1": 0.793404461687682,
+      "accuracy": 0.7763779527559055,
+      "coverage": 1.0,
+      "failure_policy": "abstention counts as error; positive abstention FN, negative abstention FP"
+    },
+    "q2": {
+      "n": 1905,
+      "tp": 769,
+      "fp": 79,
+      "fn": 385,
+      "tn": 672,
+      "failures": 0,
+      "precision": 0.9068396226415094,
+      "recall": 0.6663778162911612,
+      "f1": 0.7682317682317681,
+      "accuracy": 0.7564304461942257,
+      "coverage": 1.0,
+      "failure_policy": "abstention counts as error; positive abstention FN, negative abstention FP"
+    },
+    "q3": {
+      "n": 1905,
+      "tp": 719,
+      "fp": 67,
+      "fn": 435,
+      "tn": 684,
+      "failures": 0,
+      "precision": 0.9147582697201018,
+      "recall": 0.6230502599653379,
+      "f1": 0.7412371134020619,
+      "accuracy": 0.736482939632546,
+      "coverage": 1.0,
+      "failure_policy": "abstention counts as error; positive abstention FN, negative abstention FP"
+    }
+  },
+  "runtime_without_secrets": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "model_discovery_name": "DeepSeek-V4.1-Flash",
+    "temperature": 0,
+    "max_tokens": {
+      "E0": 64,
+      "explorer": 64,
+      "mediator": 512,
+      "direct": 256,
+      "indirect": 256
+    },
+    "max_attempts": 2,
+    "spend_limit_cny": 19.5,
+    "authorized_budget_cny": 20,
+    "thinking": "disabled",
+    "setup": "zero-shot, official integrated eight-rule reasoner; structured output normalization",
+    "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "pricing_checked": "2026-11-03"
+  },
+  "data_audit_hash": "ec87355a6898d793088bb1c80a570df440184fa1d55a61ac276dd0391fc1d3ca",
+  "experiment_code_sha256": "e9f7c5d99a67da2dbba597870388465481c6c9a7334b3e6cdf4daf1f2d66162c",
+  "prompt_sha256": {
+    "official_agent1.py": "a802e03a8e59b3e583b8a18cba75689e381bbf066e18c4c1a01184ed95418823",
+    "official_agent2.py": "02a3aa77d6aaa82544ce88bf863ad26eff085852a0cdedd3e5ccb7fec5154642",
+    "official_agent3.py": "4b23e67e2c3afabf64a874f3cb62fc442e9e27a45b4589ae71f5df8927e9dc03"
+  },
+  "test_policy": "No test inference has been run before this freeze. Do not adjust model, prompts, q or labels using test results."
+}

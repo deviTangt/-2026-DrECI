@@ -1,0 +1,60 @@
+{
+  "input_hash": "f7937bf597dd17e4adc5b6ecad3110ad4ed90e7a53e46de582448407918282a9",
+  "sample_id": "ESC-CSV-01964",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "door"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "670209998574ce03f04199bd0f128669d3c78ca591b96cd88fffd342b5ca43f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "670209998574ce03f04199bd0f128669d3c78ca591b96cd88fffd342b5ca43f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "06ff9a66f8723c65379222ef71b585d4533f4ca578e0338a114c47457d7cec43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1a13864f01c784adafec8486d2391f8e3b3a07ef64b09cb7763d57694e9186c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "363fa9cc4930bdda9c99229bd54e760f81ae1b846679e1893517e96e83a9f1b8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"shot\",\"killed\",\"knocking\",\"door\"],\"target_related\":[\"woman\",\"door\",\"apartment\",\"suspect\",\"shooting\",\"appeared\",\"shot\",\"head\"],\"mediators\":[\"door\"]}"
+    },
+    "indirect": {
+      "call_id": "f3fd48fe1eb436ef37ac6f0992f684727bdf427e92694493ede2556d9a5af649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Knocking on a door during an investigation led him to speak to the woman, so the investigation preceded and caused the speaking.\"}"
+    }
+  },
+  "call_ids": [
+    "670209998574ce03f04199bd0f128669d3c78ca591b96cd88fffd342b5ca43f8",
+    "670209998574ce03f04199bd0f128669d3c78ca591b96cd88fffd342b5ca43f8",
+    "06ff9a66f8723c65379222ef71b585d4533f4ca578e0338a114c47457d7cec43",
+    "1a13864f01c784adafec8486d2391f8e3b3a07ef64b09cb7763d57694e9186c1",
+    "363fa9cc4930bdda9c99229bd54e760f81ae1b846679e1893517e96e83a9f1b8",
+    "f3fd48fe1eb436ef37ac6f0992f684727bdf427e92694493ede2556d9a5af649"
+  ],
+  "elapsed_s": 5.093226671218872
+}

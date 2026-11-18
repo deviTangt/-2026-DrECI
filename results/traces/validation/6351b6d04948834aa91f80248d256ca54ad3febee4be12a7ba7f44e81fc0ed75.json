@@ -1,0 +1,61 @@
+{
+  "input_hash": "6351b6d04948834aa91f80248d256ca54ad3febee4be12a7ba7f44e81fc0ed75",
+  "sample_id": "ESC-CSV-07074",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "booked",
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5e3009029c9bce73e4176bf414f71483b452f9226bdd1035d7578c70bb0a0f5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5e3009029c9bce73e4176bf414f71483b452f9226bdd1035d7578c70bb0a0f5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7c3d5e26c1a8d2257e468bd4a9336fa859dad7e2e615491c03576b320c6f0854",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aa1c1ec0ec9c650a79b94a440f6f0f1505eeaf2e9a7c33831ff05d0119e11ebe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d6f9f767f5201456d71cce84871566b33b349f6f957ed1f14c5e604156eb9162",
+      "status": "ok",
+      "text": "{\"source_related\":[\"arrested\",\"booked\",\"Williams\",\"Vincent Jackson\",\"Charger\"],\"target_related\":[\"booked\",\"released\",\"Williams\",\"he\"],\"mediators\":[\"booked\",\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "1a9fc02ecfb3897ad1d782cca1264f09c5488559be757b75cc77b2fa778882bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Williams was booked and later released on bail; DUI is mentioned but no causal word or structure links DUI to being on bail.\"}"
+    }
+  },
+  "call_ids": [
+    "5e3009029c9bce73e4176bf414f71483b452f9226bdd1035d7578c70bb0a0f5b",
+    "5e3009029c9bce73e4176bf414f71483b452f9226bdd1035d7578c70bb0a0f5b",
+    "7c3d5e26c1a8d2257e468bd4a9336fa859dad7e2e615491c03576b320c6f0854",
+    "aa1c1ec0ec9c650a79b94a440f6f0f1505eeaf2e9a7c33831ff05d0119e11ebe",
+    "d6f9f767f5201456d71cce84871566b33b349f6f957ed1f14c5e604156eb9162",
+    "1a9fc02ecfb3897ad1d782cca1264f09c5488559be757b75cc77b2fa778882bc"
+  ],
+  "elapsed_s": 4.199315786361694
+}

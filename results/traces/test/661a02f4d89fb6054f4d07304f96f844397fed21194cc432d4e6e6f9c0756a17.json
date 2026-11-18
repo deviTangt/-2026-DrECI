@@ -1,0 +1,71 @@
+{
+  "input_hash": "661a02f4d89fb6054f4d07304f96f844397fed21194cc432d4e6e6f9c0756a17",
+  "sample_id": "ESC-CSV-09836",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "protesters",
+    "police",
+    "battles",
+    "Athens",
+    "bank",
+    "fire",
+    "bomb",
+    "attack",
+    "dead",
+    "spending cuts",
+    "national bankruptcy",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fbbab0d23a5a9e36b00ca15af2563254d05b8ef7da6d37d3785dcb714b5e343c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fbbab0d23a5a9e36b00ca15af2563254d05b8ef7da6d37d3785dcb714b5e343c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "175ccc647f6d5636ac3f5b4ce43fc6cca679edf7fe452d1b3d51973e045881e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4f5f6d04b6155c6605952ff8e7851bd0728921f9beae25df1b9908607e09c2de",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "a4236fd8db44758939e213c0148d28d0e4680d53a6bfcf263f4ddfbed2291dc9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"police\",\"battles\",\"Athens\",\"bank\",\"fire\",\"bomb\",\"attack\",\"dead\",\"spending cuts\",\"national bankruptcy\",\"Greek\"],\"target_related\":[\"protesters\",\"police\",\"battles\",\"Athens\",\"bank\",\"fire\",\"bomb\",\"attack\",\"dead\",\"spending cuts\",\"national bankruptcy\",\"Greek\"],\"mediators\":[\"protesters\",\"police\",\"battles\",\"Athens\",\"bank\",\"fire\",\"bomb\",\"attack\",\"dead\",\"spending cuts\",\"national bankruptcy\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "bedc7681e38587b45e7b9c9cc04ff5131ede51792ac702e31f1324a2f697530c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Striking protesters fought police; the text does not state that the strike caused the riots. No explicit or implicit causal link between striking and riots.\"}"
+    }
+  },
+  "call_ids": [
+    "fbbab0d23a5a9e36b00ca15af2563254d05b8ef7da6d37d3785dcb714b5e343c",
+    "fbbab0d23a5a9e36b00ca15af2563254d05b8ef7da6d37d3785dcb714b5e343c",
+    "175ccc647f6d5636ac3f5b4ce43fc6cca679edf7fe452d1b3d51973e045881e3",
+    "4f5f6d04b6155c6605952ff8e7851bd0728921f9beae25df1b9908607e09c2de",
+    "a4236fd8db44758939e213c0148d28d0e4680d53a6bfcf263f4ddfbed2291dc9",
+    "bedc7681e38587b45e7b9c9cc04ff5131ede51792ac702e31f1324a2f697530c"
+  ],
+  "elapsed_s": 4.904269695281982
+}

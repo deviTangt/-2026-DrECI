@@ -1,0 +1,60 @@
+{
+  "input_hash": "324cfb405456b776ec3bc65955cc3f241bcb65c224d59606066dad34cb91ce52",
+  "sample_id": "ESC-CSV-01715",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f2c632a30fa255f1e0cf10bd1ad26cbe52367a51ba3693a29377694f566ad060",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f2c632a30fa255f1e0cf10bd1ad26cbe52367a51ba3693a29377694f566ad060",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "35e3365ee0b5c39993ed7ac2d99420fb8b974ea24ca32f2e51392457c22920b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e5d5151a0cf411642f6db7c0fae6daba8865d2e035fb76ccc8a39df3035bc42a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8ef252684b292a2092de5a49aee47fb94a28bff9c3581463be39bd15556de735",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"12000 block\",\"East 223rd Street\",\"death\"],\"target_related\":[\"Sheriff\",\"Deputy\",\"Charged\"],\"mediators\":[\"Deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "461c398fc0b4ebc3e77b74a12abd6f46264b2bc6b004db632183ee7798096553",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot to death' directly causes death; being shot before being charged with murdering shows causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "f2c632a30fa255f1e0cf10bd1ad26cbe52367a51ba3693a29377694f566ad060",
+    "f2c632a30fa255f1e0cf10bd1ad26cbe52367a51ba3693a29377694f566ad060",
+    "35e3365ee0b5c39993ed7ac2d99420fb8b974ea24ca32f2e51392457c22920b2",
+    "e5d5151a0cf411642f6db7c0fae6daba8865d2e035fb76ccc8a39df3035bc42a",
+    "8ef252684b292a2092de5a49aee47fb94a28bff9c3581463be39bd15556de735",
+    "461c398fc0b4ebc3e77b74a12abd6f46264b2bc6b004db632183ee7798096553"
+  ],
+  "elapsed_s": 5.1180548667907715
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "69b0ed3774be910256e455594b35bdd57dad0f00ac0233f0c3f7e540b16f50e5",
+  "sample_id": "ESC-CSV-09469",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d28aa9f2b2cef25c29ace25fb56ae9c26a15f99970c79970b8a3b1019a5218d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d28aa9f2b2cef25c29ace25fb56ae9c26a15f99970c79970b8a3b1019a5218d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2e6e20446eaf55d0ad32aa627ba55d453d351f62b50b99077f3623a740c268fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f359463be4de21697d840e9526b8fd430302d6096dea04d3a62004521ad45555",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8cfed2b0afaeb82bc98772c04c840a87b9eb98aaaf96907f0714671b4b0a714f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd floors\",\"flee\",\"fire\",\"two floors below\"],\"target_related\":[\"fire\",\"blaze\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"],\"mediators\":[\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "307eff68720f3e4b82f12301157514d9f9d87fe71efd7eeb49d93e7f15800392",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Fire (Z) caused them to be trapped (X); fire broke out (Y) and trapped them, forming chain fire->trapped.\"}"
+    }
+  },
+  "call_ids": [
+    "d28aa9f2b2cef25c29ace25fb56ae9c26a15f99970c79970b8a3b1019a5218d7",
+    "d28aa9f2b2cef25c29ace25fb56ae9c26a15f99970c79970b8a3b1019a5218d7",
+    "2e6e20446eaf55d0ad32aa627ba55d453d351f62b50b99077f3623a740c268fa",
+    "f359463be4de21697d840e9526b8fd430302d6096dea04d3a62004521ad45555",
+    "8cfed2b0afaeb82bc98772c04c840a87b9eb98aaaf96907f0714671b4b0a714f",
+    "307eff68720f3e4b82f12301157514d9f9d87fe71efd7eeb49d93e7f15800392"
+  ],
+  "elapsed_s": 4.1475138664245605
+}

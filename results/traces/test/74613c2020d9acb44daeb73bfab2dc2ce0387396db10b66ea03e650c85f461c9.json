@@ -1,0 +1,62 @@
+{
+  "input_hash": "74613c2020d9acb44daeb73bfab2dc2ce0387396db10b66ea03e650c85f461c9",
+  "sample_id": "ESC-CSV-04544",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "vehicle",
+    "jewellery boutique",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8eaa1487b4dd7a29b971e8a9d60613aa742c2c0703503c38bc55b3c2885a989a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8eaa1487b4dd7a29b971e8a9d60613aa742c2c0703503c38bc55b3c2885a989a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d6355ddf25c61da08e3fa145b4000d79e356b850fa7f4d67f55b8a9e8fa48eb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "01bbcb8d3cf95f8b6fdf701644d6dc8f2e08069a0824123e32cc5538b19a3a2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "848dd5485b7edb3a01a4cbb20aaf07110fd68173e9e34ea3cfc3deda8cc987ee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"large four-by-four car\",\"store\",\"vehicle\",\"jewellery boutique\",\"Paris\"],\"target_related\":[\"raiders\",\"vehicle\",\"jewellery boutique\",\"Paris\",\"loot\"],\"mediators\":[\"vehicle\",\"jewellery boutique\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "9e6027baf69bd6f60fc53814ea1d1d2a5387ca21ee480f5d9d629be88867b823",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove a vehicle into the store, then grabbed jewellery and made off with the loot; driving into the store enabled the making off.\"}"
+    }
+  },
+  "call_ids": [
+    "8eaa1487b4dd7a29b971e8a9d60613aa742c2c0703503c38bc55b3c2885a989a",
+    "8eaa1487b4dd7a29b971e8a9d60613aa742c2c0703503c38bc55b3c2885a989a",
+    "d6355ddf25c61da08e3fa145b4000d79e356b850fa7f4d67f55b8a9e8fa48eb8",
+    "01bbcb8d3cf95f8b6fdf701644d6dc8f2e08069a0824123e32cc5538b19a3a2a",
+    "848dd5485b7edb3a01a4cbb20aaf07110fd68173e9e34ea3cfc3deda8cc987ee",
+    "9e6027baf69bd6f60fc53814ea1d1d2a5387ca21ee480f5d9d629be88867b823"
+  ],
+  "elapsed_s": 3.9420347213745117
+}

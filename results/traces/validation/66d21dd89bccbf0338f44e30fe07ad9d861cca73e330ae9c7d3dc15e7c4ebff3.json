@@ -1,0 +1,61 @@
+{
+  "input_hash": "66d21dd89bccbf0338f44e30fe07ad9d861cca73e330ae9c7d3dc15e7c4ebff3",
+  "sample_id": "ESC-CSV-02068",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "woman",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "893f95b085747bf6e5c993fe7ae1dcdd224f2e4abc52108fecac0f5df2752ed4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "893f95b085747bf6e5c993fe7ae1dcdd224f2e4abc52108fecac0f5df2752ed4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "500ea91027245dfcb1a3c4c50853a1f10e3446f76d4f9b44067ebec1b6940f2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "818e7dad0d4e5b76f642298cda909b5e0ddb7b3afaaf14b4b0a268e6cd7fd5d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2f78a9ba1b4c3de12b56f787adb9cfac43a26633a3c9e86b7cfbcda555847917",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"woman\",\"men\",\"Monday\",\"building\",\"Detroit\",\"police\"],\"target_related\":[\"woman\",\"person\",\"63-year-old\",\"Warren\",\"police\"],\"mediators\":[\"woman\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "3dfa440e1aa4a1754a9a1ff733a5bc9a9b8c2f2ca16c4d9bd8f3fc67de6dc42e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone is commonly understood to cause death; the text states he shot and killed a woman, so shot precedes and causes killed.\"}"
+    }
+  },
+  "call_ids": [
+    "893f95b085747bf6e5c993fe7ae1dcdd224f2e4abc52108fecac0f5df2752ed4",
+    "893f95b085747bf6e5c993fe7ae1dcdd224f2e4abc52108fecac0f5df2752ed4",
+    "500ea91027245dfcb1a3c4c50853a1f10e3446f76d4f9b44067ebec1b6940f2d",
+    "818e7dad0d4e5b76f642298cda909b5e0ddb7b3afaaf14b4b0a268e6cd7fd5d4",
+    "2f78a9ba1b4c3de12b56f787adb9cfac43a26633a3c9e86b7cfbcda555847917",
+    "3dfa440e1aa4a1754a9a1ff733a5bc9a9b8c2f2ca16c4d9bd8f3fc67de6dc42e"
+  ],
+  "elapsed_s": 5.176508903503418
+}

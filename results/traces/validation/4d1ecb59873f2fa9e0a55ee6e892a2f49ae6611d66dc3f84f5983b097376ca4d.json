@@ -1,0 +1,61 @@
+{
+  "input_hash": "4d1ecb59873f2fa9e0a55ee6e892a2f49ae6611d66dc3f84f5983b097376ca4d",
+  "sample_id": "ESC-CSV-01792",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Orozco",
+    "police officer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "76ac93a292b897a908458cf43e3e80ec9ed037fe5ce6e36ba2400844b4f36858",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "76ac93a292b897a908458cf43e3e80ec9ed037fe5ce6e36ba2400844b4f36858",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "54bee7cbb55c7d33d827a25762e280b95716ca0457771b2214f8f005cd97fbf9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9bd9417e5d48f002c6ea819e1e8eeaf2a376a7a15bfb957db7d36d6fc20db379",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7b686c2eee78852b6dee6a2d9698756275bb3ffc73e3cc84459dcebc574f8b3a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"gang member\",\"Los Angeles County Sheriff's deputy\",\"June 2005\",\"police officer\"],\"target_related\":[\"Orozco\",\"jury\",\"first-degree murder\",\"murder of a police officer\",\"possession of a firearm by a felon\"],\"mediators\":[\"Orozco\",\"police officer\"]}"
+    },
+    "indirect": {
+      "call_id": "07243e185acc980378d703b4f97e31d50f97c7cc380ac27a7feebac839c25622",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: murdering a deputy leads to being found guilty of first-degree murder; the jury convicted Orozco of murdering the deputy.\"}"
+    }
+  },
+  "call_ids": [
+    "76ac93a292b897a908458cf43e3e80ec9ed037fe5ce6e36ba2400844b4f36858",
+    "76ac93a292b897a908458cf43e3e80ec9ed037fe5ce6e36ba2400844b4f36858",
+    "54bee7cbb55c7d33d827a25762e280b95716ca0457771b2214f8f005cd97fbf9",
+    "9bd9417e5d48f002c6ea819e1e8eeaf2a376a7a15bfb957db7d36d6fc20db379",
+    "7b686c2eee78852b6dee6a2d9698756275bb3ffc73e3cc84459dcebc574f8b3a",
+    "07243e185acc980378d703b4f97e31d50f97c7cc380ac27a7feebac839c25622"
+  ],
+  "elapsed_s": 5.800347805023193
+}

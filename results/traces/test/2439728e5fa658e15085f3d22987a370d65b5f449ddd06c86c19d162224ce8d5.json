@@ -1,0 +1,60 @@
+{
+  "input_hash": "2439728e5fa658e15085f3d22987a370d65b5f449ddd06c86c19d162224ce8d5",
+  "sample_id": "ESC-CSV-06842",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d475f2d35b3912010a25200dc9d4e02f5f4c0141d15a05f3872a36872a80bdc6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d475f2d35b3912010a25200dc9d4e02f5f4c0141d15a05f3872a36872a80bdc6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7486898d7a1a7e75845a4b2a3a400a80c10b6f12c21297a12f6e3429dfdd8c15",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7a6522a231ed385bffead21f5008ca54bb2b6abb3ed3670c3d520415da1d4e7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "727750426a6b131dbaad4c9576975217f8a84cf94fa155aefcf15199e13b7b95",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protect\",\"children\",\"students\",\"Horton\",\"mother\"],\"target_related\":[\"Horton\",\"died\",\"face\",\"chest\",\"gunfire\",\"murder\"],\"mediators\":[\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "648d6a82cce6716c683f60778afa220d8c0d044fef4b8f455426be952e50fdae",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Shielding and being shot are both caused by the gunfire; shielding did not cause the shot, so no causal relationship between X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "d475f2d35b3912010a25200dc9d4e02f5f4c0141d15a05f3872a36872a80bdc6",
+    "d475f2d35b3912010a25200dc9d4e02f5f4c0141d15a05f3872a36872a80bdc6",
+    "7486898d7a1a7e75845a4b2a3a400a80c10b6f12c21297a12f6e3429dfdd8c15",
+    "7a6522a231ed385bffead21f5008ca54bb2b6abb3ed3670c3d520415da1d4e7b",
+    "727750426a6b131dbaad4c9576975217f8a84cf94fa155aefcf15199e13b7b95",
+    "648d6a82cce6716c683f60778afa220d8c0d044fef4b8f455426be952e50fdae"
+  ],
+  "elapsed_s": 5.299402236938477
+}

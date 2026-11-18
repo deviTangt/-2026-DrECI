@@ -1,0 +1,65 @@
+{
+  "input_hash": "c4b9007fbce5c39d17e56538f41264239b24d3356c66be903dbf9257cccc6ba5",
+  "sample_id": "ESC-CSV-02154",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Steinberg",
+    "Riva",
+    "shot",
+    "hip",
+    "police",
+    "ventilator"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15d49aa225810322755ab855d5fcef48db1cb7c425307a3136efc7115d3885d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15d49aa225810322755ab855d5fcef48db1cb7c425307a3136efc7115d3885d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a7d167036b049eaf6de17a5c0d62ace741ceb5bae6cafc4c23e2c025f45f7791",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b5a7bf3042c7c004a544ebf3d743f6477a04dd88f650ead730ad8be096213716",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a364066f1dad7d4ee51c252757b2519b3d1b36d212fdcc884cce99634bede82f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Steinberg\",\"Riva\",\"hip\",\"shot\",\"police\",\"ventilator\",\"managers\",\"Paul Riva\",\"Alan Steinberg\"],\"target_related\":[\"Steinberg\",\"police\",\"shot\",\"hip\",\"Riva\",\"ventilator\"],\"mediators\":[\"Steinberg\",\"Riva\",\"shot\",\"hip\",\"police\",\"ventilator\"]}"
+    },
+    "indirect": {
+      "call_id": "230dcb50dbd80aef17c9428e1b1ebf86fc8d5658f8f10de7704f97de1b552b89",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says Steinberg was wounded and spoke to police about the attack; being wounded does not cause the attack, and no causal rule links them.\"}"
+    }
+  },
+  "call_ids": [
+    "15d49aa225810322755ab855d5fcef48db1cb7c425307a3136efc7115d3885d8",
+    "15d49aa225810322755ab855d5fcef48db1cb7c425307a3136efc7115d3885d8",
+    "a7d167036b049eaf6de17a5c0d62ace741ceb5bae6cafc4c23e2c025f45f7791",
+    "b5a7bf3042c7c004a544ebf3d743f6477a04dd88f650ead730ad8be096213716",
+    "a364066f1dad7d4ee51c252757b2519b3d1b36d212fdcc884cce99634bede82f",
+    "230dcb50dbd80aef17c9428e1b1ebf86fc8d5658f8f10de7704f97de1b552b89"
+  ],
+  "elapsed_s": 5.320496082305908
+}

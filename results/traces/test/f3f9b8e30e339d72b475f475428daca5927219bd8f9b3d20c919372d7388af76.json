@@ -1,0 +1,65 @@
+{
+  "input_hash": "f3f9b8e30e339d72b475f475428daca5927219bd8f9b3d20c919372d7388af76",
+  "sample_id": "ESC-CSV-06557",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "murder",
+    "assault",
+    "verdict",
+    "jury",
+    "accused",
+    "murdering"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1277a3b47d22604a269940a3237aba17254f61449d011870bcb5c1ac1f8f644c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1277a3b47d22604a269940a3237aba17254f61449d011870bcb5c1ac1f8f644c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ae4602336bd628d2051bef4ebc36fb1e13586d8b8976bd1cfffd40ecfed7e85f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "52db99f69febd64d3a1a3428bd690ace336bb4cb96347fbaee5e921769bcf2f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "54bce84d3bf007d9190e05c8cc3187091db7d0127e50258020c9af73bd840d9f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"assault\",\"death\",\"murdering\",\"verdict\",\"jury\",\"accused\",\"guilty\"],\"target_related\":[\"murder\",\"assault\",\"verdict\",\"jury\",\"accused\",\"murdering\",\"death\",\"Andrew Lopez\"],\"mediators\":[\"murder\",\"assault\",\"verdict\",\"jury\",\"accused\",\"murdering\"]}"
+    },
+    "indirect": {
+      "call_id": "7cde8c35e4b1f4338b5f10e0aa273b8e5a35de8abff45b03bb4499cab068e94a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of murder in the death implies the death preceded and caused the guilty verdict, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "1277a3b47d22604a269940a3237aba17254f61449d011870bcb5c1ac1f8f644c",
+    "1277a3b47d22604a269940a3237aba17254f61449d011870bcb5c1ac1f8f644c",
+    "ae4602336bd628d2051bef4ebc36fb1e13586d8b8976bd1cfffd40ecfed7e85f",
+    "52db99f69febd64d3a1a3428bd690ace336bb4cb96347fbaee5e921769bcf2f2",
+    "54bce84d3bf007d9190e05c8cc3187091db7d0127e50258020c9af73bd840d9f",
+    "7cde8c35e4b1f4338b5f10e0aa273b8e5a35de8abff45b03bb4499cab068e94a"
+  ],
+  "elapsed_s": 5.852048873901367
+}

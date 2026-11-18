@@ -1,0 +1,61 @@
+{
+  "input_hash": "be2173cce34ff14d0f9dad3e38f6ceb42ba955d620bfa90770f9e8622e1da356",
+  "sample_id": "ESC-CSV-02221",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Royal Oak Beaumont Hospital",
+    "Scherlinck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "34d08d2d656593b8f6934ef1c67b3365856b37446164f458f8f8790bb6e33cc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "34d08d2d656593b8f6934ef1c67b3365856b37446164f458f8f8790bb6e33cc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fba9cf42e2404ead3bba229e2ec2b6d39f638effa83469f21d239753ff7a29d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5ee3498209916aa1e5822ae4776e6657dc240af47aa7b9fd59760246b6573dbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8ba3b95531e9a58eb3dd077621385f539634287412437aea42951362ba460d72",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"public\",\"places\",\"Atlanta\",\"Georgia\",\"Seattle\",\"Washington\",\"gunshot\",\"wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"target_related\":[\"female\",\"receptionist\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"mediators\":[\"Royal Oak Beaumont Hospital\",\"Scherlinck\"]}"
+    },
+    "indirect": {
+      "call_id": "09b4da87bab28994ddbe876bb3ca1ebbd8611a7aaee55cc929be7113da8cc7ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting is a gunshot event; common sense holds that being shot can cause death, so the shooting caused the receptionist to die.\"}"
+    }
+  },
+  "call_ids": [
+    "34d08d2d656593b8f6934ef1c67b3365856b37446164f458f8f8790bb6e33cc8",
+    "34d08d2d656593b8f6934ef1c67b3365856b37446164f458f8f8790bb6e33cc8",
+    "fba9cf42e2404ead3bba229e2ec2b6d39f638effa83469f21d239753ff7a29d8",
+    "5ee3498209916aa1e5822ae4776e6657dc240af47aa7b9fd59760246b6573dbc",
+    "8ba3b95531e9a58eb3dd077621385f539634287412437aea42951362ba460d72",
+    "09b4da87bab28994ddbe876bb3ca1ebbd8611a7aaee55cc929be7113da8cc7ba"
+  ],
+  "elapsed_s": 7.147374153137207
+}

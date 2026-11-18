@@ -1,0 +1,61 @@
+{
+  "input_hash": "3b2dc164e7613f41ed15285398ac9d187d2acb6554cd6a8832dd594818fbd9b4",
+  "sample_id": "ESC-CSV-07223",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Williams",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9a0cbf8a4bbec04268335e9aee229e2f5f88d164c13353063793092561121bc2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9a0cbf8a4bbec04268335e9aee229e2f5f88d164c13353063793092561121bc2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c825403e5fa3b66030e98950cd0025c52b420c36b06f20a944a45d741bafbe8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "682e51267121661b6e25d7ff5b9e72e7fd9a43c681bfbf16e093861ac64334cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2455571340a087f435346c9f60536f261c0b6203ec5fe3ea2b726bff511e76c5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"Bentley\",\"speeding\",\"officers\",\"arrested\"],\"target_related\":[\"Williams\",\"arrested\",\"intoxicated\",\"blood\",\"suspicion\"],\"mediators\":[\"Williams\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "cb4e5d9529a3ea5d9801dbca1ca8b8246c15cee39d6e43885fb37623f97fc2c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Williams was pulled over for speeding, then arrested on suspicion of drunk driving; the pull-over did not cause the drunk driving.\"}"
+    }
+  },
+  "call_ids": [
+    "9a0cbf8a4bbec04268335e9aee229e2f5f88d164c13353063793092561121bc2",
+    "9a0cbf8a4bbec04268335e9aee229e2f5f88d164c13353063793092561121bc2",
+    "c825403e5fa3b66030e98950cd0025c52b420c36b06f20a944a45d741bafbe8b",
+    "682e51267121661b6e25d7ff5b9e72e7fd9a43c681bfbf16e093861ac64334cb",
+    "2455571340a087f435346c9f60536f261c0b6203ec5fe3ea2b726bff511e76c5",
+    "cb4e5d9529a3ea5d9801dbca1ca8b8246c15cee39d6e43885fb37623f97fc2c0"
+  ],
+  "elapsed_s": 4.119065523147583
+}

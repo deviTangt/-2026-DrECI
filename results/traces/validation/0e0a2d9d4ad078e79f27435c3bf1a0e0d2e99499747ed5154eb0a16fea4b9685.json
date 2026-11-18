@@ -1,0 +1,70 @@
+{
+  "input_hash": "0e0a2d9d4ad078e79f27435c3bf1a0e0d2e99499747ed5154eb0a16fea4b9685",
+  "sample_id": "ESC-CSV-02775",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "police",
+    "Twitter",
+    "Brooklynites",
+    "searched",
+    "apartment",
+    "buildings",
+    "neighborhood",
+    "warrants",
+    "children",
+    "bottles",
+    "rooftops"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ecbf2828980fbbabc00d893c1212b711db1c6053039f5a9bef4b73c82e98fb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ecbf2828980fbbabc00d893c1212b711db1c6053039f5a9bef4b73c82e98fb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4cbb4a9b2b9fd0a06803bc6fb62914bb33db9a54f2216155b59cf2f6c9f33d0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9e91fdfdcc28101172d17393bff32fb0f2476fc27c94855c4800a0f226696148",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "adcda770eb81a51418c0ddc92897097387725f19b7d561eaf24603009856c0fd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Twitter\",\"Brooklynites\",\"searched\",\"apartment\",\"buildings\",\"neighborhood\",\"warrants\",\"children\",\"bottles\",\"rooftops\"],\"target_related\":[\"police\",\"Twitter\",\"Brooklynites\",\"searched\",\"apartment\",\"buildings\",\"neighborhood\",\"warrants\",\"children\",\"bottles\",\"rooftops\"],\"mediators\":[\"police\",\"Twitter\",\"Brooklynites\",\"searched\",\"apartment\",\"buildings\",\"neighborhood\",\"warrants\",\"children\",\"bottles\",\"rooftops\"]}"
+    },
+    "indirect": {
+      "call_id": "c98cfa195106d3fa4808af04a8e444ce6c06dce76782e2137f9a4551bccaca87",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Police followed the march; 'followed' is an action toward the march, not caused by it. No explicit or implicit causal wording links march to followed.\"}"
+    }
+  },
+  "call_ids": [
+    "0ecbf2828980fbbabc00d893c1212b711db1c6053039f5a9bef4b73c82e98fb1",
+    "0ecbf2828980fbbabc00d893c1212b711db1c6053039f5a9bef4b73c82e98fb1",
+    "4cbb4a9b2b9fd0a06803bc6fb62914bb33db9a54f2216155b59cf2f6c9f33d0e",
+    "9e91fdfdcc28101172d17393bff32fb0f2476fc27c94855c4800a0f226696148",
+    "adcda770eb81a51418c0ddc92897097387725f19b7d561eaf24603009856c0fd",
+    "c98cfa195106d3fa4808af04a8e444ce6c06dce76782e2137f9a4551bccaca87"
+  ],
+  "elapsed_s": 4.25158166885376
+}

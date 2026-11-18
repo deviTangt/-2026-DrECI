@@ -1,0 +1,62 @@
+{
+  "input_hash": "ea9fe6eeb18b6eb859b5ef8cc555f976e4659636f08816591b7e5253d9aee4a6",
+  "sample_id": "ESC-CSV-07093",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Charger",
+    "Jamal Williams",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da57b96b49bca501a427c4638f39941f4bd51201c63ccf97bdd7f84caad7a461",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da57b96b49bca501a427c4638f39941f4bd51201c63ccf97bdd7f84caad7a461",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8072de3c64cd6f024d154e3d93ff576db79026e4f7b085cdac94de80b7bddcbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5a3f64d695b6f387d0d2edbffe435c18093dd6123bac70ffebf1d1630596f821",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8631dd6e2d8e6b647a317ffbf88b66543da645ef8bdcb2df2ad972fbd1d7e4d3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Charger\",\"Jamal Williams\",\"suspicion\"],\"target_related\":[\"suspicion\",\"Charger\",\"Jamal Williams\"],\"mediators\":[\"Charger\",\"Jamal Williams\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "6580e44d4a094b144323e66735861f92f6b15ab5058a30e9d789c7aa9515df39",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Arrested on suspicion of DUI' indicates the reason for arrest, but no explicit or implicit causation word links X and Y; Z entities do not form a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "da57b96b49bca501a427c4638f39941f4bd51201c63ccf97bdd7f84caad7a461",
+    "da57b96b49bca501a427c4638f39941f4bd51201c63ccf97bdd7f84caad7a461",
+    "8072de3c64cd6f024d154e3d93ff576db79026e4f7b085cdac94de80b7bddcbc",
+    "5a3f64d695b6f387d0d2edbffe435c18093dd6123bac70ffebf1d1630596f821",
+    "8631dd6e2d8e6b647a317ffbf88b66543da645ef8bdcb2df2ad972fbd1d7e4d3",
+    "6580e44d4a094b144323e66735861f92f6b15ab5058a30e9d789c7aa9515df39"
+  ],
+  "elapsed_s": 4.570395469665527
+}

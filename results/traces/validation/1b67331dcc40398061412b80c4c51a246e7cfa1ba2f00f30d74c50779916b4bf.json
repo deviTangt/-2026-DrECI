@@ -1,0 +1,64 @@
+{
+  "input_hash": "1b67331dcc40398061412b80c4c51a246e7cfa1ba2f00f30d74c50779916b4bf",
+  "sample_id": "ESC-CSV-02480",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "Brooklyn",
+    "Teen",
+    "Killed",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "197b02bc0b28a356489c453729faa2a3295176e207fdb21a7c8c1e5a622122d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "197b02bc0b28a356489c453729faa2a3295176e207fdb21a7c8c1e5a622122d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7408121b353d310f1c34d9b11ed7313bc3f9547237c3daead29bbe65989daa8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f2768f2551e751b31bda70d1ca791fd2214b4317692fb4e619dae989b7fc371f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "548168bfe0da15092c3e2b1eec688dcbc98f994668006258062b19bb9fe689d3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"Teen\",\"Brooklyn\",\"Killed\",\"Police\",\"Mourad\",\"Cordova\",\"federal\",\"lawsuits\",\"plaintiffs\",\"civil\",\"rights\",\"violations\"],\"target_related\":[\"Erupt\",\"Brooklyn\",\"Teen\",\"Killed\",\"Police\",\"Gray\",\"death\"],\"mediators\":[\"Gray\",\"Brooklyn\",\"Teen\",\"Killed\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "69f2ba948f66809fe4db24fc26a100facbee642cf21efd1bd0866ce3cf4f3b9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2],\"evidence\":\"Headline 'Riots Erupt Following Death' uses 'Following' to link death and riots; 'Erupt Following' implies causation.\"}"
+    }
+  },
+  "call_ids": [
+    "197b02bc0b28a356489c453729faa2a3295176e207fdb21a7c8c1e5a622122d3",
+    "197b02bc0b28a356489c453729faa2a3295176e207fdb21a7c8c1e5a622122d3",
+    "7408121b353d310f1c34d9b11ed7313bc3f9547237c3daead29bbe65989daa8c",
+    "f2768f2551e751b31bda70d1ca791fd2214b4317692fb4e619dae989b7fc371f",
+    "548168bfe0da15092c3e2b1eec688dcbc98f994668006258062b19bb9fe689d3",
+    "69f2ba948f66809fe4db24fc26a100facbee642cf21efd1bd0866ce3cf4f3b9e"
+  ],
+  "elapsed_s": 11.240767002105713
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "b244b6ccb9b1d98def25430e851768a2e28b3cfcaecd1110b3adb93f7bd3eaab",
+  "sample_id": "ESC-CSV-07271",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "Chargers",
+    "player",
+    "pulled over",
+    "early-morning"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "41c01ecf855dee9a9cfc6fa92010db53b30e2648924b032d781a35f99c54bcc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "41c01ecf855dee9a9cfc6fa92010db53b30e2648924b032d781a35f99c54bcc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a6cfd7adb25d62c6c4d688b14c9750c256a16c5cd67057a162157b6db8e708e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5f760e5d25cc15ab52770544561ebb203afc9183b0877d73ffd3166e0a17beb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "de11a6c73dfcc50e2283c7085930d734e04d9539374764e9f9189bc196bf6b8d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\",\"arrest\"],\"target_related\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\",\"DUI\",\"suspicion\"],\"mediators\":[\"Williams\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\"]}"
+    },
+    "indirect": {
+      "call_id": "a80d786d6c605761edcf6a75bd5fd2a445270bacb99b5ec3b02ab206b6f8a391",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested on suspicion of DUI follows from the DUI; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "41c01ecf855dee9a9cfc6fa92010db53b30e2648924b032d781a35f99c54bcc5",
+    "41c01ecf855dee9a9cfc6fa92010db53b30e2648924b032d781a35f99c54bcc5",
+    "a6cfd7adb25d62c6c4d688b14c9750c256a16c5cd67057a162157b6db8e708e5",
+    "5f760e5d25cc15ab52770544561ebb203afc9183b0877d73ffd3166e0a17beb6",
+    "de11a6c73dfcc50e2283c7085930d734e04d9539374764e9f9189bc196bf6b8d",
+    "a80d786d6c605761edcf6a75bd5fd2a445270bacb99b5ec3b02ab206b6f8a391"
+  ],
+  "elapsed_s": 4.593937158584595
+}

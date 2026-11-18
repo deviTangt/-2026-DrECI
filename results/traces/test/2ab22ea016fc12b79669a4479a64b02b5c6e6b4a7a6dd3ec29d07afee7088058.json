@@ -1,0 +1,62 @@
+{
+  "input_hash": "2ab22ea016fc12b79669a4479a64b02b5c6e6b4a7a6dd3ec29d07afee7088058",
+  "sample_id": "ESC-CSV-06483",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mother",
+    "child",
+    "girl"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "025b0b92e2eb286927fc276647c72f3483b718b85ccedc53f0bb9edbd978e69b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "025b0b92e2eb286927fc276647c72f3483b718b85ccedc53f0bb9edbd978e69b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9aca1911bebd85f9a663083a92156b578739f30998331176862da8a52ffa6d65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d4d8c9a93a59f24c9c103a8823cd5bd3a1b99842bff0427bc7b573c562663690",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ef2e1c7e3ecd1744df214c7ed25d188690c9e4b2f15f0212ae2d3e7fe6f28ab9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"mother\",\"child\",\"daughter\",\"school\",\"girl\"],\"target_related\":[\"mother\",\"child\",\"arm\",\"girl\",\"dead\"],\"mediators\":[\"mother\",\"child\",\"girl\"]}"
+    },
+    "indirect": {
+      "call_id": "3dcb096a2e2adf82c268c2456e27ed0beb7e13a4d7d263b4ff2c60f8830a098b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The gang attack occurred, and during it the mother was shot dead while shielding her child; the attack causally precedes and produces the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "025b0b92e2eb286927fc276647c72f3483b718b85ccedc53f0bb9edbd978e69b",
+    "025b0b92e2eb286927fc276647c72f3483b718b85ccedc53f0bb9edbd978e69b",
+    "9aca1911bebd85f9a663083a92156b578739f30998331176862da8a52ffa6d65",
+    "d4d8c9a93a59f24c9c103a8823cd5bd3a1b99842bff0427bc7b573c562663690",
+    "ef2e1c7e3ecd1744df214c7ed25d188690c9e4b2f15f0212ae2d3e7fe6f28ab9",
+    "3dcb096a2e2adf82c268c2456e27ed0beb7e13a4d7d263b4ff2c60f8830a098b"
+  ],
+  "elapsed_s": 5.268044948577881
+}

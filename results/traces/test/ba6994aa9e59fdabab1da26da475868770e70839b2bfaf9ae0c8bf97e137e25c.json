@@ -1,0 +1,66 @@
+{
+  "input_hash": "ba6994aa9e59fdabab1da26da475868770e70839b2bfaf9ae0c8bf97e137e25c",
+  "sample_id": "ESC-CSV-09847",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "fire",
+    "bomb",
+    "attack",
+    "bank",
+    "Athens",
+    "Greek",
+    "riots"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7c57be5c1bb79b86310774620f2d31fda69a47f855980223327f4499ba983a36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7c57be5c1bb79b86310774620f2d31fda69a47f855980223327f4499ba983a36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8c6fdf74ca24e6af34bded399780f0d385a2cc4035e1e9d4723743ad0e3ef048",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6098a563d7dc804c2cf86b59d43b3d626388e9700c6138b674410eaf6ecd6e55",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "dd5a40c40ea579fcf9ab1236b94b96ddc4683cef022cfe00215a3da7b0e554cc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"protesters\",\"striking\",\"fought\",\"Athens\",\"bank\",\"fire\",\"bomb\",\"attack\",\"Greek\",\"riots\"],\"target_related\":[\"people\",\"three\",\"fire\",\"bomb\",\"attack\",\"bank\",\"Athens\",\"Greek\",\"riots\"],\"mediators\":[\"fire\",\"bomb\",\"attack\",\"bank\",\"Athens\",\"Greek\",\"riots\"]}"
+    },
+    "indirect": {
+      "call_id": "7ad1bf3fae4b6369abcf17b8f4ee97c80f2316b785c27128d3e6e70a11099352",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Battles with protesters are separate from the fire-bomb attack that left three dead; no causal link between battles and deaths is stated.\"}"
+    }
+  },
+  "call_ids": [
+    "7c57be5c1bb79b86310774620f2d31fda69a47f855980223327f4499ba983a36",
+    "7c57be5c1bb79b86310774620f2d31fda69a47f855980223327f4499ba983a36",
+    "8c6fdf74ca24e6af34bded399780f0d385a2cc4035e1e9d4723743ad0e3ef048",
+    "6098a563d7dc804c2cf86b59d43b3d626388e9700c6138b674410eaf6ecd6e55",
+    "dd5a40c40ea579fcf9ab1236b94b96ddc4683cef022cfe00215a3da7b0e554cc",
+    "7ad1bf3fae4b6369abcf17b8f4ee97c80f2316b785c27128d3e6e70a11099352"
+  ],
+  "elapsed_s": 4.690265893936157
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "5b2e601f3124f88945ce543ca44491410eab8150b7cd0dcacd4745b54d62118a",
+  "sample_id": "ESC-CSV-02011",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "woman",
+    "Shooting",
+    "Accounting",
+    "Firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "edf9f6c841b8ab8c549f2e151f03a4e792cc64cdc86e5efd8702d90184197612",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "edf9f6c841b8ab8c549f2e151f03a4e792cc64cdc86e5efd8702d90184197612",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "73c5898fe2a4cc3e628e8c8def632057d102c225087e055a980e07631cb153dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "128c2ed85c98a26f6ac495138ffca338ce574265e740e1c4fd58b634c137d6d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2c3c7fcda7e36dc8a21112977391f09b2321fef9d0d9be701ecede3f31ddd10a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"woman\",\"men\",\"police\",\"Shooting\",\"Accounting\",\"Firm\"],\"target_related\":[\"woman\",\"Shooting\",\"Accounting\",\"Firm\",\"Hurt\"],\"mediators\":[\"woman\",\"Shooting\",\"Accounting\",\"Firm\"]}"
+    },
+    "indirect": {
+      "call_id": "b2c011c3bf2d9cd3d330eb670117f78763378058ff39df1b4a0bb155ef42f6b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot (X) before death is common-sense causation; the shooting left the woman dead, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "edf9f6c841b8ab8c549f2e151f03a4e792cc64cdc86e5efd8702d90184197612",
+    "edf9f6c841b8ab8c549f2e151f03a4e792cc64cdc86e5efd8702d90184197612",
+    "73c5898fe2a4cc3e628e8c8def632057d102c225087e055a980e07631cb153dd",
+    "128c2ed85c98a26f6ac495138ffca338ce574265e740e1c4fd58b634c137d6d8",
+    "2c3c7fcda7e36dc8a21112977391f09b2321fef9d0d9be701ecede3f31ddd10a",
+    "b2c011c3bf2d9cd3d330eb670117f78763378058ff39df1b4a0bb155ef42f6b7"
+  ],
+  "elapsed_s": 5.499448776245117
+}

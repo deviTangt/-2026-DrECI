@@ -1,0 +1,60 @@
+{
+  "input_hash": "a639e8f485600f44e129361eca5fa90b51b39fa6b672a2afde802811f6a792f7",
+  "sample_id": "ESC-CSV-04669",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "55df56a248e59ae1bc10cc0048ed648bfc70c1597671e3377382856efba56717",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "55df56a248e59ae1bc10cc0048ed648bfc70c1597671e3377382856efba56717",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4af29b55e173f5ec472a1bd001f07102d404ceea18de51f7f7959ae2b7b36d7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "09c64ce9ce239100f4adc5b0c402bf60b838c511e1685425a813950c4a243706",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "00cc07a47cb4795bf302ae68aa3ba648baf47c82d98aecf8f98ce0351d1f5770",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"4x4\",\"vehicle\",\"windows\",\"jewellery\",\"store\",\"Place Vendome\"],\"target_related\":[\"French\",\"police\",\"jewellery\",\"robbery\",\"Paris\",\"thefts\",\"France\"],\"mediators\":[\"jewellery\"]}"
+    },
+    "indirect": {
+      "call_id": "e85db9eaeb208d23ae3a3d8cd2b658e9ff2849963a776bd1a5d16c809ce24851",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Ramming the vehicle is the robbery method; police investigating is a subsequent response, not caused by the ramming. No explicit, implicit, or chain causal link between X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "55df56a248e59ae1bc10cc0048ed648bfc70c1597671e3377382856efba56717",
+    "55df56a248e59ae1bc10cc0048ed648bfc70c1597671e3377382856efba56717",
+    "4af29b55e173f5ec472a1bd001f07102d404ceea18de51f7f7959ae2b7b36d7f",
+    "09c64ce9ce239100f4adc5b0c402bf60b838c511e1685425a813950c4a243706",
+    "00cc07a47cb4795bf302ae68aa3ba648baf47c82d98aecf8f98ce0351d1f5770",
+    "e85db9eaeb208d23ae3a3d8cd2b658e9ff2849963a776bd1a5d16c809ce24851"
+  ],
+  "elapsed_s": 4.985126972198486
+}

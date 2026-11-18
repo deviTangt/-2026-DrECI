@@ -1,0 +1,66 @@
+{
+  "input_hash": "4d77c4e45bc49e3288068b9b9d1e56d0d1c2ab5d8b41ba322079f929e8accecf",
+  "sample_id": "ESC-CSV-07196",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Bentley",
+    "State Route 94",
+    "February 1",
+    "speeding",
+    "pulled over",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86207502cd217d0a82e3300ba541668431e304226d5c7e5ccb8ad3e7992c14af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86207502cd217d0a82e3300ba541668431e304226d5c7e5ccb8ad3e7992c14af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2bb0a102aeb2a999ef43f0bdf178061a62fb4ea456dd145d28b7fb7c76836f00",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2b66e03b25656efa3a9b0a762dd63dfa5da88f7cb86eb643d611da21f7097bcb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8813f35bd562c1beeeb1e6e2ceea4aae665e0c2dbfbc9d54a7657f14ae405c60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"misdemeanor\",\"charges\",\"Jamal Williams\",\"Bentley\",\"State Route 94\",\"February 1\",\"speeding\",\"pulled over\",\"arrested\",\"suspicion\"],\"target_related\":[\"Jamal Williams\",\"Bentley\",\"State Route 94\",\"February 1\",\"speeding\",\"pulled over\",\"drunk driving\",\"suspicion\",\"charges\"],\"mediators\":[\"Jamal Williams\",\"Bentley\",\"State Route 94\",\"February 1\",\"speeding\",\"pulled over\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "3b50366a968b36af34e08853766d3f9ece054a2e10b8136939c845177ad71c1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drunk driving is the reason for the arrest; being arrested on suspicion of drunk driving follows from the drunk driving, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "86207502cd217d0a82e3300ba541668431e304226d5c7e5ccb8ad3e7992c14af",
+    "86207502cd217d0a82e3300ba541668431e304226d5c7e5ccb8ad3e7992c14af",
+    "2bb0a102aeb2a999ef43f0bdf178061a62fb4ea456dd145d28b7fb7c76836f00",
+    "2b66e03b25656efa3a9b0a762dd63dfa5da88f7cb86eb643d611da21f7097bcb",
+    "8813f35bd562c1beeeb1e6e2ceea4aae665e0c2dbfbc9d54a7657f14ae405c60",
+    "3b50366a968b36af34e08853766d3f9ece054a2e10b8136939c845177ad71c1d"
+  ],
+  "elapsed_s": 4.915270566940308
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "b425b7688cf4c66def48c310934f44024b4906a2763f4ac116f17a61b0a18be7",
+  "sample_id": "ESC-CSV-06840",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5c466a40dccd8b4a02365c79960b1cbbccdc9202732330c3980ad532bf4a21f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5c466a40dccd8b4a02365c79960b1cbbccdc9202732330c3980ad532bf4a21f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "093539a526d27d44fcabbcf5fcc757b8bba6beeefd2944ff57fac985a669afc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d417901bafd57aa7d9398b2026171d4c37e4adbdb59a21d4c14c05a38d52cb70",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "93e08f621c1d9c52c7e44a7d83fd01d0c24aa45c316952755648260df4d2dd2d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"shooting\",\"students\",\"Horton\",\"gunfire\"],\"target_related\":[\"suspect\",\"Andrew Lopez\",\"teens\",\"Tuesday\",\"shooting\",\"arrested\"],\"mediators\":[\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "380964bd1cea2041b9ac07c5cac5da2daa1b5cfbf64ef6371bedc1c5b409f0ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Gunfire relates to the shooting; the shooting led to the arrest of suspects, forming chain gunfire->shooting->arrested.\"}"
+    }
+  },
+  "call_ids": [
+    "5c466a40dccd8b4a02365c79960b1cbbccdc9202732330c3980ad532bf4a21f0",
+    "5c466a40dccd8b4a02365c79960b1cbbccdc9202732330c3980ad532bf4a21f0",
+    "093539a526d27d44fcabbcf5fcc757b8bba6beeefd2944ff57fac985a669afc5",
+    "d417901bafd57aa7d9398b2026171d4c37e4adbdb59a21d4c14c05a38d52cb70",
+    "93e08f621c1d9c52c7e44a7d83fd01d0c24aa45c316952755648260df4d2dd2d",
+    "380964bd1cea2041b9ac07c5cac5da2daa1b5cfbf64ef6371bedc1c5b409f0ef"
+  ],
+  "elapsed_s": 4.137422800064087
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "4ec37632d1c6ef96cd7a157d77b986be25b2dd74b0ed4f501e5435058756efd5",
+  "sample_id": "ESC-CSV-04145",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Duncan Rait",
+    "slipping",
+    "died"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "17c7a4e52b338dc4442f5dc2ea5144cb2459a3deeee8cf81f94f321e8ba0f977",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "17c7a4e52b338dc4442f5dc2ea5144cb2459a3deeee8cf81f94f321e8ba0f977",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e9d6d5ae0741226164a1d6c510a4361e572a9c33bb7204c709f26e454af7f0e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5f98d9d97d75fec7424a41f3954a7cf7f4770288e1d4455296624bb78fc2c29f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a62cc3dca2e9edc175bf779bd4fcafe266d8e51073d430a24167c367460da1b2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Duncan Rait\",\"died\",\"slipping\",\"falling\",\"climbers\"],\"target_related\":[\"Duncan Rait\",\"slipping\",\"died\",\"ridge\",\"Tasman Glacier\"],\"mediators\":[\"Duncan Rait\",\"slipping\",\"died\"]}"
+    },
+    "indirect": {
+      "call_id": "18e9c98ebf2a2a805c2857b2a447a182da868cf80d5a6e44e6c3a1af5a9674b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died after slipping and falling' — 'after' explicitly links falling to death; falling precedes and causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "17c7a4e52b338dc4442f5dc2ea5144cb2459a3deeee8cf81f94f321e8ba0f977",
+    "17c7a4e52b338dc4442f5dc2ea5144cb2459a3deeee8cf81f94f321e8ba0f977",
+    "e9d6d5ae0741226164a1d6c510a4361e572a9c33bb7204c709f26e454af7f0e9",
+    "5f98d9d97d75fec7424a41f3954a7cf7f4770288e1d4455296624bb78fc2c29f",
+    "a62cc3dca2e9edc175bf779bd4fcafe266d8e51073d430a24167c367460da1b2",
+    "18e9c98ebf2a2a805c2857b2a447a182da868cf80d5a6e44e6c3a1af5a9674b8"
+  ],
+  "elapsed_s": 4.346802234649658
+}

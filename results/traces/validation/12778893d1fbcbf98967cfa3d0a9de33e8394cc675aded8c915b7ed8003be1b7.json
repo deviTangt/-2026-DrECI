@@ -1,0 +1,60 @@
+{
+  "input_hash": "12778893d1fbcbf98967cfa3d0a9de33e8394cc675aded8c915b7ed8003be1b7",
+  "sample_id": "ESC-CSV-02925",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b6b36fc0ba3528275ce413b92a0c4888eec506b5daab3b4cea9f8ef408a99561",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b6b36fc0ba3528275ce413b92a0c4888eec506b5daab3b4cea9f8ef408a99561",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cfe29ad748900cfa400573b8e9c3eead42f6ad6ac669db04dc7510e1e1128fd7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "417e70b4d8bba8807980b2f16a63e5fdaa092342723450e04bd227d2d03972c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8706368b84ad3c8e0c0609f0f35a073c21d68d15d6087625262be6db575b7d5d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"gun\",\"witness\",\"teen\"],\"target_related\":[\"riot\",\"Brooklyn\",\"teen\"],\"mediators\":[\"teen\"]}"
+    },
+    "indirect": {
+      "call_id": "0601244f0bc900342b2eff62bc653e0cd5fe17133a6fdc742a17dcd7e867d0e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot by cops directly causes death by common sense; the teen's death resulted from the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "b6b36fc0ba3528275ce413b92a0c4888eec506b5daab3b4cea9f8ef408a99561",
+    "b6b36fc0ba3528275ce413b92a0c4888eec506b5daab3b4cea9f8ef408a99561",
+    "cfe29ad748900cfa400573b8e9c3eead42f6ad6ac669db04dc7510e1e1128fd7",
+    "417e70b4d8bba8807980b2f16a63e5fdaa092342723450e04bd227d2d03972c5",
+    "8706368b84ad3c8e0c0609f0f35a073c21d68d15d6087625262be6db575b7d5d",
+    "0601244f0bc900342b2eff62bc653e0cd5fe17133a6fdc742a17dcd7e867d0e8"
+  ],
+  "elapsed_s": 3.9664344787597656
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "cc859ecdffd8317e4ece38f4f5ba77a6e96eab1149f208895a7f51749e44c8a2",
+  "sample_id": "ESC-CSV-07168",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "County jail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "31f9a153c0376d8d07ef72b66c29d978982f77508938edd832767700f2ae9355",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "31f9a153c0376d8d07ef72b66c29d978982f77508938edd832767700f2ae9355",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7313afae8fe6f056a5b04bfb273de3c3734b2142da526aa3f6cec1490a2578b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aab2c3c93409d121118f919397eb44bb2a2e55fa72ca15cc20e0b8eb9155624b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "175e070665698c26a90ea6407e6cc3aef5141fd2bb2d1015b4fc7acf892d4719",
+      "status": "ok",
+      "text": "{\"source_related\":[\"He\",\"County jail\"],\"target_related\":[\"County jail\",\"released\",\"bail\"],\"mediators\":[\"County jail\"]}"
+    },
+    "indirect": {
+      "call_id": "be07739a007aa264febdd6693d27c27894517533c5902f5ab7e4bef410997054",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase \\\"taken to the County jail where he was booked\\\" uses \\\"where\\\" to link being taken to being booked, indicating the taking led to the booking.\"}"
+    }
+  },
+  "call_ids": [
+    "31f9a153c0376d8d07ef72b66c29d978982f77508938edd832767700f2ae9355",
+    "31f9a153c0376d8d07ef72b66c29d978982f77508938edd832767700f2ae9355",
+    "7313afae8fe6f056a5b04bfb273de3c3734b2142da526aa3f6cec1490a2578b8",
+    "aab2c3c93409d121118f919397eb44bb2a2e55fa72ca15cc20e0b8eb9155624b",
+    "175e070665698c26a90ea6407e6cc3aef5141fd2bb2d1015b4fc7acf892d4719",
+    "be07739a007aa264febdd6693d27c27894517533c5902f5ab7e4bef410997054"
+  ],
+  "elapsed_s": 4.778583288192749
+}

@@ -1,0 +1,76 @@
+{
+  "input_hash": "29ec8f3f99460e3a0622142aef16a65a4232cf4920d7ab0b8677b0c4aee3a028",
+  "sample_id": "ESC-CSV-02174",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "police sergeant",
+    "Wednesday",
+    "shotgun",
+    "killing",
+    "manager",
+    "office",
+    "receptionist",
+    "accountant",
+    "job",
+    "fired",
+    "Gordon Advisors",
+    "Thursday",
+    "Troy",
+    "Anthony LaCalamita III",
+    "co-workers",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2fee9e4a9de408e0fc8102f9a21efc5c7c0748ea334e05de06b7a7739431402b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2fee9e4a9de408e0fc8102f9a21efc5c7c0748ea334e05de06b7a7739431402b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "023fd41cd8a7e24a028e70b34cd9f1afa79f85407afff7cfd5e4474a36ef31ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6acc125b818343dfff48025e8664c311a28794ba445b4de3f45a4cd883d55e72",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "1a3a9cc56447dea5169d8c0cc2f81b25138d309510ec45d907dc8ff6b38485ec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"co-workers\",\"Anthony LaCalamita III\",\"Troy\",\"fired\",\"Gordon Advisors\",\"Thursday\",\"man\",\"accountant\",\"office\",\"receptionist\",\"manager\",\"killing\",\"shotgun\",\"police sergeant\",\"Wednesday\"],\"target_related\":[\"man\",\"police sergeant\",\"Wednesday\",\"shotgun\",\"killing\",\"manager\",\"office\",\"receptionist\",\"accountant\",\"job\",\"fired\",\"Gordon Advisors\",\"Thursday\",\"Troy\",\"Anthony LaCalamita III\",\"co-workers\",\"shooting\"],\"mediators\":[\"man\",\"police sergeant\",\"Wednesday\",\"shotgun\",\"killing\",\"manager\",\"office\",\"receptionist\",\"accountant\",\"job\",\"fired\",\"Gordon Advisors\",\"Thursday\",\"Troy\",\"Anthony LaCalamita III\",\"co-workers\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "ee2b478e41a9ecd09b42ce9b32f60b20bde35f5e9f56b1572d7f8dee40e1ca93",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text mentions the accused and his arraignment but gives no causal link; being accused does not cause an arraignment.\"}"
+    }
+  },
+  "call_ids": [
+    "2fee9e4a9de408e0fc8102f9a21efc5c7c0748ea334e05de06b7a7739431402b",
+    "2fee9e4a9de408e0fc8102f9a21efc5c7c0748ea334e05de06b7a7739431402b",
+    "023fd41cd8a7e24a028e70b34cd9f1afa79f85407afff7cfd5e4474a36ef31ee",
+    "6acc125b818343dfff48025e8664c311a28794ba445b4de3f45a4cd883d55e72",
+    "1a3a9cc56447dea5169d8c0cc2f81b25138d309510ec45d907dc8ff6b38485ec",
+    "ee2b478e41a9ecd09b42ce9b32f60b20bde35f5e9f56b1572d7f8dee40e1ca93"
+  ],
+  "elapsed_s": 6.283582448959351
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "264bb611e9e973be3940a2f14da905f9e251fcc7599f0dd244d4448fa8ad3a53",
+  "sample_id": "ESC-CSV-01838",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Orozco",
+    "shooting",
+    "June 20",
+    "Hawaiian Gardens"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "31c6b061e444b90dd588991418db89782a522f3e2057c07d93f0ed44aab951fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "31c6b061e444b90dd588991418db89782a522f3e2057c07d93f0ed44aab951fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "05d2fbc9ff6970452680dfaaa9da9abcc61563db96766fbd0359cd3879aa7f77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a80e9540da5925e061e42791629426eb4c341bcada672097367197741c640b49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "081e266e82b1b86e37617604b8615253844de6e1760cc3e6079c7902bb306c2b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"Orozco\",\"shooting\",\"June 20\",\"Hawaiian Gardens\",\"suspect\",\"LASD's Gang Enforcement Unit\",\"apartment\",\"East 223rd Street\"],\"target_related\":[\"Orozco\",\"man\",\"June 20, 2005\",\"Hawaiian Gardens\",\"Joliet Avenue\",\"shooting\",\"street crime\",\"jury\",\"yard work\",\"home\"],\"mediators\":[\"Orozco\",\"shooting\",\"June 20\",\"Hawaiian Gardens\"]}"
+    },
+    "indirect": {
+      "call_id": "e2f3a8c8733b938c71c7ab135142ea5535d97d48330cc478e402b13afd96c2c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Ortiz was killed while investigating a shooting; investigating does not cause the murder, and no causal rule links X to Y.\"}"
+    }
+  },
+  "call_ids": [
+    "31c6b061e444b90dd588991418db89782a522f3e2057c07d93f0ed44aab951fb",
+    "31c6b061e444b90dd588991418db89782a522f3e2057c07d93f0ed44aab951fb",
+    "05d2fbc9ff6970452680dfaaa9da9abcc61563db96766fbd0359cd3879aa7f77",
+    "a80e9540da5925e061e42791629426eb4c341bcada672097367197741c640b49",
+    "081e266e82b1b86e37617604b8615253844de6e1760cc3e6079c7902bb306c2b",
+    "e2f3a8c8733b938c71c7ab135142ea5535d97d48330cc478e402b13afd96c2c1"
+  ],
+  "elapsed_s": 5.785167455673218
+}

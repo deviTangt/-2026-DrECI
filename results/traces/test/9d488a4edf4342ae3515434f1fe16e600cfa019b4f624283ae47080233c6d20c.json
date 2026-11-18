@@ -1,0 +1,66 @@
+{
+  "input_hash": "9d488a4edf4342ae3515434f1fe16e600cfa019b4f624283ae47080233c6d20c",
+  "sample_id": "ESC-CSV-06639",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "Lopez",
+    "brother",
+    "threatened",
+    "kill",
+    "testimony",
+    "stand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ea88370f91d2a7313fc58c6b82ed6aefbb06fc3cd7448f711f874f5ca7c023d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ea88370f91d2a7313fc58c6b82ed6aefbb06fc3cd7448f711f874f5ca7c023d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "64cd768be9cecd434c73f0fbfd061331bb7ea7450b0835af3067babdb6eb1cdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e98e661e2adb6eb87de7c2afbb65cb37c10f8628fd4c70894890de34ad4e6a3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5dc9f4c4d1ef7dfd1bfdaed2637e66c66d2f1bd5f31164f1ca307b103c4fecf7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"testimony\",\"man\",\"Lopez\",\"brother\",\"threatened\",\"kill\",\"stand\"],\"target_related\":[\"man\",\"Lopez\",\"brother\",\"threatened\",\"kill\",\"testimony\",\"stand\"],\"mediators\":[\"man\",\"Lopez\",\"brother\",\"threatened\",\"kill\",\"testimony\",\"stand\"]}"
+    },
+    "indirect": {
+      "call_id": "a405508efa90c7840d8e5638e04c0deb141eb7ace14f14f9722570b049820c57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The trial (X) involves testimony from a man who is scared (Y); the threatened man's fear is tied to testifying at the trial, forming a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "4ea88370f91d2a7313fc58c6b82ed6aefbb06fc3cd7448f711f874f5ca7c023d",
+    "4ea88370f91d2a7313fc58c6b82ed6aefbb06fc3cd7448f711f874f5ca7c023d",
+    "64cd768be9cecd434c73f0fbfd061331bb7ea7450b0835af3067babdb6eb1cdf",
+    "e98e661e2adb6eb87de7c2afbb65cb37c10f8628fd4c70894890de34ad4e6a3e",
+    "5dc9f4c4d1ef7dfd1bfdaed2637e66c66d2f1bd5f31164f1ca307b103c4fecf7",
+    "a405508efa90c7840d8e5638e04c0deb141eb7ace14f14f9722570b049820c57"
+  ],
+  "elapsed_s": 4.673566579818726
+}

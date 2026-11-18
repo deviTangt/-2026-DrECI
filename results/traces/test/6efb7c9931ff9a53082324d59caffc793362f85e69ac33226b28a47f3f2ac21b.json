@@ -1,0 +1,66 @@
+{
+  "input_hash": "6efb7c9931ff9a53082324d59caffc793362f85e69ac33226b28a47f3f2ac21b",
+  "sample_id": "ESC-CSV-06767",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "gunplay",
+    "killing",
+    "Zurana Horton",
+    "Brownsville",
+    "rooftop",
+    "2011"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "40e8e98b2d2af3cc3709e1a0725050ed3c9c08ef268087af9ff15c470380ffc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "40e8e98b2d2af3cc3709e1a0725050ed3c9c08ef268087af9ff15c470380ffc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c312d245352a7eed7f63285c3dd5c9218a2098b06a8fcd63b4fdc63588bf0bac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "12c3a282ca36bb2b827eece096b5b91a0a6373bcb30d976a9da1beed57a84d53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2cb4ec93395bd9105540491b6ef78488bf2750d414faeeea0385aab8c4db86f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"gunplay\",\"killing\",\"Zurana Horton\",\"Brownsville\",\"rooftop\",\"2011\"],\"target_related\":[\"men\",\"gunplay\",\"killing\",\"Zurana Horton\",\"Brownsville\",\"rooftop\",\"2011\",\"evidence\"],\"mediators\":[\"men\",\"gunplay\",\"killing\",\"Zurana Horton\",\"Brownsville\",\"rooftop\",\"2011\"]}"
+    },
+    "indirect": {
+      "call_id": "f04848ecfa0f4f7a43ccf80c400b8077cf19e10dc75e37516e54d92ebb043535",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says evidence was played at the trial of men charged; being charged does not cause the trial, and no explicit or implicit causal wording links them.\"}"
+    }
+  },
+  "call_ids": [
+    "40e8e98b2d2af3cc3709e1a0725050ed3c9c08ef268087af9ff15c470380ffc9",
+    "40e8e98b2d2af3cc3709e1a0725050ed3c9c08ef268087af9ff15c470380ffc9",
+    "c312d245352a7eed7f63285c3dd5c9218a2098b06a8fcd63b4fdc63588bf0bac",
+    "12c3a282ca36bb2b827eece096b5b91a0a6373bcb30d976a9da1beed57a84d53",
+    "2cb4ec93395bd9105540491b6ef78488bf2750d414faeeea0385aab8c4db86f6",
+    "f04848ecfa0f4f7a43ccf80c400b8077cf19e10dc75e37516e54d92ebb043535"
+  ],
+  "elapsed_s": 4.9663472175598145
+}

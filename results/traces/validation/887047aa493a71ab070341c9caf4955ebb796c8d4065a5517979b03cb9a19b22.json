@@ -1,0 +1,61 @@
+{
+  "input_hash": "887047aa493a71ab070341c9caf4955ebb796c8d4065a5517979b03cb9a19b22",
+  "sample_id": "ESC-CSV-07131",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "He",
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "285f97552d82084236af880e3b261f1bef17fcda5a57e288106643351e7ad4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "285f97552d82084236af880e3b261f1bef17fcda5a57e288106643351e7ad4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "eaccfe2c8a86fee5ef378c8def82c562537d2c142d46fb66a9a942b927413ca8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0baffa90d56e62b70562addb248f67fffb27e9298413be142dc939071585d098",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3d1de6fda84cb414e4cf3f0d0e279c5e11d1d18bd924ac9f98666be464805474",
+      "status": "ok",
+      "text": "{\"source_related\":[\"He\",\"arrest\",\"California Highway Patrol\"],\"target_related\":[\"He\",\"California Highway Patrol\"],\"mediators\":[\"He\",\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "f5e421ae94fb55c868b501ab3bfa85a6ea3934900c1f00950b39dcf81761abb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A previous DUI arrest leads to being placed on probation; the arrest precedes and commonly causes the probation, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "285f97552d82084236af880e3b261f1bef17fcda5a57e288106643351e7ad4b3",
+    "285f97552d82084236af880e3b261f1bef17fcda5a57e288106643351e7ad4b3",
+    "eaccfe2c8a86fee5ef378c8def82c562537d2c142d46fb66a9a942b927413ca8",
+    "0baffa90d56e62b70562addb248f67fffb27e9298413be142dc939071585d098",
+    "3d1de6fda84cb414e4cf3f0d0e279c5e11d1d18bd924ac9f98666be464805474",
+    "f5e421ae94fb55c868b501ab3bfa85a6ea3934900c1f00950b39dcf81761abb3"
+  ],
+  "elapsed_s": 4.752755403518677
+}

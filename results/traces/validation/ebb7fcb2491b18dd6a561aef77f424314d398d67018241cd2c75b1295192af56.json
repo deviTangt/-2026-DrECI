@@ -1,0 +1,65 @@
+{
+  "input_hash": "ebb7fcb2491b18dd6a561aef77f424314d398d67018241cd2c75b1295192af56",
+  "sample_id": "ESC-CSV-03001",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "young people",
+    "NYPD officers",
+    "teenagers",
+    "streets",
+    "vigil"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3cfb8013aa4f7943710f29db4a14e0aebf8181023e7028161ed0013dcf2059d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3cfb8013aa4f7943710f29db4a14e0aebf8181023e7028161ed0013dcf2059d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9215bc63cb68a0dbaf3490912b1deb759d698ad2ffced1ae66b45ad3632d9453",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "40db07656ec2ef61f4bad10bcd5835f2d6b3be412a439b4dd8baea3eea5ffc77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "be129800f61f9944d90ff1922120e44781aded55fe67cee3732d40fd4c94b6b0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protest\",\"Brooklyn\",\"young people\",\"NYPD officers\",\"teenagers\",\"streets\",\"vigil\"],\"target_related\":[\"Brooklyn\",\"young people\",\"NYPD officers\",\"teenagers\",\"streets\",\"vigil\",\"Chaos\"],\"mediators\":[\"Brooklyn\",\"young people\",\"NYPD officers\",\"teenagers\",\"streets\",\"vigil\"]}"
+    },
+    "indirect": {
+      "call_id": "7256835dd4f6866f69a05f44d8402103a2aafd4a54db4c72f3007e62f828bbaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'turned into a riot' uses 'into' as explicit causation; the protest turning into a riot precedes and causes the riot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "3cfb8013aa4f7943710f29db4a14e0aebf8181023e7028161ed0013dcf2059d0",
+    "3cfb8013aa4f7943710f29db4a14e0aebf8181023e7028161ed0013dcf2059d0",
+    "9215bc63cb68a0dbaf3490912b1deb759d698ad2ffced1ae66b45ad3632d9453",
+    "40db07656ec2ef61f4bad10bcd5835f2d6b3be412a439b4dd8baea3eea5ffc77",
+    "be129800f61f9944d90ff1922120e44781aded55fe67cee3732d40fd4c94b6b0",
+    "7256835dd4f6866f69a05f44d8402103a2aafd4a54db4c72f3007e62f828bbaf"
+  ],
+  "elapsed_s": 4.617511034011841
+}

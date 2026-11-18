@@ -1,0 +1,60 @@
+{
+  "input_hash": "9befe755b64b7ad73e37a46ce317622f6de9cb345b5812c671e8efae2f33ac9e",
+  "sample_id": "ESC-CSV-09497",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "branch"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4cfd33ae4d3b13d56476083973fd89f479466c27a6ddb86556fb8141173a4c14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4cfd33ae4d3b13d56476083973fd89f479466c27a6ddb86556fb8141173a4c14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "caa88a46b0fba25a8166fb611b6140b7ad983ca0e45dd47b79cff2113771d188",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "757ae00cf78771013311f96af601225603f37a2212e522d1a718d0454e362971",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ba30bb4ea5d85836b5f4a713a73c078318867350c428fa34542fe1fb782bf8c1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protester\",\"petrol bomb\",\"branch\"],\"target_related\":[\"branch\",\"bank workers\",\"killed\"],\"mediators\":[\"branch\"]}"
+    },
+    "indirect": {
+      "call_id": "fbfa5e1eeb6bfa7444d11400e69543ad156eed1f2124168c00ffd75e75ee9123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'went up in flames after a protester threw a petrol bomb' — 'after' plus common sense: throwing the bomb caused the branch to ignite; branch is the chain link.\"}"
+    }
+  },
+  "call_ids": [
+    "4cfd33ae4d3b13d56476083973fd89f479466c27a6ddb86556fb8141173a4c14",
+    "4cfd33ae4d3b13d56476083973fd89f479466c27a6ddb86556fb8141173a4c14",
+    "caa88a46b0fba25a8166fb611b6140b7ad983ca0e45dd47b79cff2113771d188",
+    "757ae00cf78771013311f96af601225603f37a2212e522d1a718d0454e362971",
+    "ba30bb4ea5d85836b5f4a713a73c078318867350c428fa34542fe1fb782bf8c1",
+    "fbfa5e1eeb6bfa7444d11400e69543ad156eed1f2124168c00ffd75e75ee9123"
+  ],
+  "elapsed_s": 5.450033664703369
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "c33bc293d90a03003ee0e49da9ecc1549e6e5d5e5dc66f5327826088186778ff",
+  "sample_id": "ESC-CSV-09341",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "budget",
+    "brutal",
+    "bankruptcy",
+    "Greece",
+    "protestors",
+    "striking"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "75cf47bc2da0496ca48ec1a75412799a4c079e359275ae2c8ecb4a2bc76586f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "75cf47bc2da0496ca48ec1a75412799a4c079e359275ae2c8ecb4a2bc76586f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "13ca1091351a8aad4ffc0abdc4be640de25fc239893af90e515007829a1b1e49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ef7cbf6fc07b5149a21042844a09a7c79cb7fa04dd250285ae6e3e41ca85f049",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1fc64fd8d509599600789e31fc9901fb24c1e75f22b78e9a667f9c6ef76f26e3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"budget\",\"brutal\",\"bankruptcy\",\"Greece\",\"protestors\",\"striking\"],\"target_related\":[\"bankruptcy\",\"budget\",\"brutal\",\"Greece\",\"protestors\",\"striking\"],\"mediators\":[\"budget\",\"brutal\",\"bankruptcy\",\"Greece\",\"protestors\",\"striking\"]}"
+    },
+    "indirect": {
+      "call_id": "1a2cc6dc2d365afdfe4b45aaf615443bb88e66889582a277d7d2fa4cf3525572",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'budget cuts designed to avert national bankruptcy' — 'to' expresses purpose/causation linking cuts to averting bankruptcy.\"}"
+    }
+  },
+  "call_ids": [
+    "75cf47bc2da0496ca48ec1a75412799a4c079e359275ae2c8ecb4a2bc76586f3",
+    "75cf47bc2da0496ca48ec1a75412799a4c079e359275ae2c8ecb4a2bc76586f3",
+    "13ca1091351a8aad4ffc0abdc4be640de25fc239893af90e515007829a1b1e49",
+    "ef7cbf6fc07b5149a21042844a09a7c79cb7fa04dd250285ae6e3e41ca85f049",
+    "1fc64fd8d509599600789e31fc9901fb24c1e75f22b78e9a667f9c6ef76f26e3",
+    "1a2cc6dc2d365afdfe4b45aaf615443bb88e66889582a277d7d2fa4cf3525572"
+  ],
+  "elapsed_s": 4.509910821914673
+}

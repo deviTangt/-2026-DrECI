@@ -1,0 +1,63 @@
+{
+  "input_hash": "5f70b55530a105416fdfa0e1c09bf9e4d475b4e929a5b87c78a396a1017fbbeb",
+  "sample_id": "ESC-CSV-04380",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "thieves",
+    "robbers",
+    "store",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "08bd4acc9b126abbaa97842ad9ba6a93815b59429547360f15c47a25ac54d925",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "08bd4acc9b126abbaa97842ad9ba6a93815b59429547360f15c47a25ac54d925",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a010916961ed711b519822cb62a8658a2e58ed607536b30bd6c5da10246b62c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c4d7458e56ce78babaaecfca9cd22b82a8fcbeb8c7287853a50a2b90502af504",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e1344be0f1e59678b4e74aa1e1807da029846ca005e3ec12ace4f83a6a939327",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"SUV\",\"Casty store\",\"Place Vendome\",\"Paris\",\"store\"],\"target_related\":[\"four robbers\",\"jewelry\",\"watches\",\"Paris store\",\"smash-and-grab\"],\"mediators\":[\"thieves\",\"robbers\",\"store\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "c8fae6560fe7082fe24debf6a2252e10b6d38740f813ceeabe121b62e1fbb203",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the SUV into the store enabled the thieves to break in and then make off with jewelry and watches.\"}"
+    }
+  },
+  "call_ids": [
+    "08bd4acc9b126abbaa97842ad9ba6a93815b59429547360f15c47a25ac54d925",
+    "08bd4acc9b126abbaa97842ad9ba6a93815b59429547360f15c47a25ac54d925",
+    "a010916961ed711b519822cb62a8658a2e58ed607536b30bd6c5da10246b62c9",
+    "c4d7458e56ce78babaaecfca9cd22b82a8fcbeb8c7287853a50a2b90502af504",
+    "e1344be0f1e59678b4e74aa1e1807da029846ca005e3ec12ace4f83a6a939327",
+    "c8fae6560fe7082fe24debf6a2252e10b6d38740f813ceeabe121b62e1fbb203"
+  ],
+  "elapsed_s": 4.882303953170776
+}

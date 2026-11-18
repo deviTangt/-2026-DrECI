@@ -1,0 +1,69 @@
+{
+  "input_hash": "547faf8bbe2b492dc84da4e2a7d0c023f092185de5573d8ed782077f09b079fe",
+  "sample_id": "ESC-CSV-02047",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "charged",
+    "office",
+    "shotgun",
+    "attack",
+    "wounding",
+    "bosses",
+    "receptionist",
+    "killing",
+    "arraigned"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a9a2a89b530e46f2b2bd2186a67db6e5d4401767d22ddb56582b0f65f14501c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a9a2a89b530e46f2b2bd2186a67db6e5d4401767d22ddb56582b0f65f14501c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f08837b50f2bb5197d9f800f378033e8595e6b01fff1b1015e042f6082418cde",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "abac5ca8486c2916d7bb6395a4bfc2bd19da216b2f8f89e7e41d0f8def34a422",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7ed696bc4ded2af19ddb2f07e547e752093d4f0fb388641c04035bdc3dbeee76",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"charged\",\"office\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"receptionist\",\"killing\",\"arraigned\"],\"target_related\":[\"accountant\",\"charged\",\"office\",\"shootings\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"receptionist\",\"killing\",\"arraigned\"],\"mediators\":[\"accountant\",\"charged\",\"office\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"receptionist\",\"killing\",\"arraigned\"]}"
+    },
+    "indirect": {
+      "call_id": "b2a376124e7cbd644c5cc9602eeba4d1b5694cc88dc079bc82d5bce1a81b8916",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Shootings (shotgun attack) occurred before and caused the killing/murder of the receptionist; 'killing' corefers with murder.\"}"
+    }
+  },
+  "call_ids": [
+    "0a9a2a89b530e46f2b2bd2186a67db6e5d4401767d22ddb56582b0f65f14501c",
+    "0a9a2a89b530e46f2b2bd2186a67db6e5d4401767d22ddb56582b0f65f14501c",
+    "f08837b50f2bb5197d9f800f378033e8595e6b01fff1b1015e042f6082418cde",
+    "abac5ca8486c2916d7bb6395a4bfc2bd19da216b2f8f89e7e41d0f8def34a422",
+    "7ed696bc4ded2af19ddb2f07e547e752093d4f0fb388641c04035bdc3dbeee76",
+    "b2a376124e7cbd644c5cc9602eeba4d1b5694cc88dc079bc82d5bce1a81b8916"
+  ],
+  "elapsed_s": 4.808910846710205
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "91a050885d33f8c7323ae182caa5e2a683fcaa75c72dafe9b26df859bea5e872",
+  "sample_id": "ESC-CSV-06913",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "confessed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ca05762c31b7c81abd4f5dec9eb3eb99c0e37b1dfefb2d2e4a36189389ad3b89",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ca05762c31b7c81abd4f5dec9eb3eb99c0e37b1dfefb2d2e4a36189389ad3b89",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e0369e07b7db970b3cba6e3065b468bab75a4973966b1c79d9d4fa25b924d000",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8b8f5882c90a18481bebce3110a08c766ce1ae0bdf01417c71a8dd1c81476c0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "71af30fd4ef072952f3d502e72e1cd784990ff016ca9b0f2d8f2c487f87e057f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"confessed\",\"Lopez\"],\"target_related\":[\"panel\",\"Lopez\",\"confessed\"],\"mediators\":[\"Lopez\",\"confessed\"]}"
+    },
+    "indirect": {
+      "call_id": "47ee5dad8e48285f72d75adeac69decc9a46ff3b13be223c208ec1bbb54d63e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before Lopez confessed and was convicted; common sense holds that the shooting led to the confession and subsequent conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "ca05762c31b7c81abd4f5dec9eb3eb99c0e37b1dfefb2d2e4a36189389ad3b89",
+    "ca05762c31b7c81abd4f5dec9eb3eb99c0e37b1dfefb2d2e4a36189389ad3b89",
+    "e0369e07b7db970b3cba6e3065b468bab75a4973966b1c79d9d4fa25b924d000",
+    "8b8f5882c90a18481bebce3110a08c766ce1ae0bdf01417c71a8dd1c81476c0a",
+    "71af30fd4ef072952f3d502e72e1cd784990ff016ca9b0f2d8f2c487f87e057f",
+    "47ee5dad8e48285f72d75adeac69decc9a46ff3b13be223c208ec1bbb54d63e6"
+  ],
+  "elapsed_s": 5.280054807662964
+}

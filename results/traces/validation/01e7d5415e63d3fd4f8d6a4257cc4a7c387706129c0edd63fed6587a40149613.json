@@ -1,0 +1,62 @@
+{
+  "input_hash": "01e7d5415e63d3fd4f8d6a4257cc4a7c387706129c0edd63fed6587a40149613",
+  "sample_id": "ESC-CSV-02260",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "managers",
+    "Anthony LaCalamita III"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cca81e00f27141a5b1bc20d6383a411ade8f85b840d6fc7d2c8a804d0bfd6cd5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cca81e00f27141a5b1bc20d6383a411ade8f85b840d6fc7d2c8a804d0bfd6cd5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cd59b8dd2e37d1e6459ec27320df4cc3cac8db482e1e639ef10c478910523cf0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ac0f396ec6b9b6502eaeecc7d577d6fb750411e605730f58d7ca9781f283fb18",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5d305759968568f7c959dbccc5541ff912d83039f51c59d19f21afe677a57a05",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"job\",\"fired\",\"bosses\",\"managers\",\"Anthony LaCalamita III\"],\"target_related\":[\"bosses\",\"managers\",\"receptionist\",\"Anthony LaCalamita III\",\"shotgun\"],\"mediators\":[\"bosses\",\"managers\",\"Anthony LaCalamita III\"]}"
+    },
+    "indirect": {
+      "call_id": "da7dfa5e28fa031777801aba113c7bab6bbc44f5cc570ba4fe49fd9e3e93da94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job prompted the accountant to buy a shotgun and return to shoot his bosses, so the job loss caused the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "cca81e00f27141a5b1bc20d6383a411ade8f85b840d6fc7d2c8a804d0bfd6cd5",
+    "cca81e00f27141a5b1bc20d6383a411ade8f85b840d6fc7d2c8a804d0bfd6cd5",
+    "cd59b8dd2e37d1e6459ec27320df4cc3cac8db482e1e639ef10c478910523cf0",
+    "ac0f396ec6b9b6502eaeecc7d577d6fb750411e605730f58d7ca9781f283fb18",
+    "5d305759968568f7c959dbccc5541ff912d83039f51c59d19f21afe677a57a05",
+    "da7dfa5e28fa031777801aba113c7bab6bbc44f5cc570ba4fe49fd9e3e93da94"
+  ],
+  "elapsed_s": 8.38723111152649
+}

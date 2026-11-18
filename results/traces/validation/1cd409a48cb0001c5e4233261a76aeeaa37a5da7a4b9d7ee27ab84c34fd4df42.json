@@ -1,0 +1,75 @@
+{
+  "input_hash": "1cd409a48cb0001c5e4233261a76aeeaa37a5da7a4b9d7ee27ab84c34fd4df42",
+  "sample_id": "ESC-CSV-02209",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "LaCalamita",
+    "charged",
+    "first-degree",
+    "death",
+    "Kafoury",
+    "Warren",
+    "fired",
+    "job",
+    "accountant",
+    "office",
+    "receptionist",
+    "manager",
+    "killing",
+    "shotgun",
+    "police",
+    "sergeant"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4bdce89c48ad99d784157d87da9b05a02d70390b06530e6e79a75f45253a9e07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4bdce89c48ad99d784157d87da9b05a02d70390b06530e6e79a75f45253a9e07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "67fcb2c4ddaf78379cd2dd66c516ba303c4332e11f122502573a4c8648cb8736",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "199977e15ff5b8642f715826bd29d3082b0b03ae18316a2530dd67c039333b01",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "c3474a339009ed86c223b91ab470d7e7ea6c4429ebb9a3c0a8825197bd1d8cad",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"charged\",\"first-degree\",\"death\",\"Kafoury\",\"Warren\",\"fired\",\"job\",\"accountant\",\"office\",\"receptionist\",\"manager\",\"killing\",\"shotgun\",\"police\",\"sergeant\"],\"target_related\":[\"LaCalamita\",\"charged\",\"first-degree\",\"murder\",\"death\",\"Kafoury\",\"Warren\",\"man\",\"fired\",\"job\",\"accountant\",\"office\",\"receptionist\",\"manager\",\"killing\",\"shotgun\",\"police\",\"sergeant\",\"Wednesday\"],\"mediators\":[\"LaCalamita\",\"charged\",\"first-degree\",\"death\",\"Kafoury\",\"Warren\",\"fired\",\"job\",\"accountant\",\"office\",\"receptionist\",\"manager\",\"killing\",\"shotgun\",\"police\",\"sergeant\"]}"
+    },
+    "indirect": {
+      "call_id": "a9d4c4c5a0768468db205061d9331d66c3f4432c17ab1b81bde9cc8fedf9d889",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Murder is the charge; arraignment is the court proceeding where the charge is read. The murder charge does not cause the arraignment.\"}"
+    }
+  },
+  "call_ids": [
+    "4bdce89c48ad99d784157d87da9b05a02d70390b06530e6e79a75f45253a9e07",
+    "4bdce89c48ad99d784157d87da9b05a02d70390b06530e6e79a75f45253a9e07",
+    "67fcb2c4ddaf78379cd2dd66c516ba303c4332e11f122502573a4c8648cb8736",
+    "199977e15ff5b8642f715826bd29d3082b0b03ae18316a2530dd67c039333b01",
+    "c3474a339009ed86c223b91ab470d7e7ea6c4429ebb9a3c0a8825197bd1d8cad",
+    "a9d4c4c5a0768468db205061d9331d66c3f4432c17ab1b81bde9cc8fedf9d889"
+  ],
+  "elapsed_s": 15.56894302368164
+}

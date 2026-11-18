@@ -1,0 +1,61 @@
+{
+  "input_hash": "c06dfb462372e908386341dccff82e680444822d012f0615539b962a3514234b",
+  "sample_id": "ESC-CSV-09625",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f1312542cd2faec092314e9157fa5f9db3153767bcc29ed02a9a9dd4a149d24d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f1312542cd2faec092314e9157fa5f9db3153767bcc29ed02a9a9dd4a149d24d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "65ad1288caf2fcb37277802e313f4a53d5196576c087b9f64051de89286ee80a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4accf4324fb86be7faad5e103c21c3b5118f9dff85f0924a49f9c349007f692f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "afaf3d704062b0e98addebbd0c60a58540cf9de01e2a25550da7f3d1091f1f6b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"dead\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"target_related\":[\"protesters\",\"buildings\"],\"mediators\":[\"protesters\",\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "c8bb0cf2347c4f3109003bb96c8588899395b9fd9410f47552262ee794222a77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters (Z) caused the riots and torched buildings; riots->protesters->torched buildings forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "f1312542cd2faec092314e9157fa5f9db3153767bcc29ed02a9a9dd4a149d24d",
+    "f1312542cd2faec092314e9157fa5f9db3153767bcc29ed02a9a9dd4a149d24d",
+    "65ad1288caf2fcb37277802e313f4a53d5196576c087b9f64051de89286ee80a",
+    "4accf4324fb86be7faad5e103c21c3b5118f9dff85f0924a49f9c349007f692f",
+    "afaf3d704062b0e98addebbd0c60a58540cf9de01e2a25550da7f3d1091f1f6b",
+    "c8bb0cf2347c4f3109003bb96c8588899395b9fd9410f47552262ee794222a77"
+  ],
+  "elapsed_s": 4.510038614273071
+}

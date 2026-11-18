@@ -1,0 +1,62 @@
+{
+  "input_hash": "fc21f49b611e009fdea56a5a1e9760f0d9b2a747962d412ea54a5d24435540a6",
+  "sample_id": "ESC-CSV-01682",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Sheriff",
+    "Deputy",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7979d421c53b55b1ed3fad8b95d4bb144a2cfe0f162c55d4c740898db6746f0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7979d421c53b55b1ed3fad8b95d4bb144a2cfe0f162c55d4c740898db6746f0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "937aaff2309eb228f4d7996f6091dd58c6f2ce11ae9ec0b87bab3b6eb717c5e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f3f716e8054dd5aeafe84791e003037eb4000b685214f0e206740ea13c075f27",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "2741044186b2b73d18c630c8f62a3e20b74511b6773603b4f741dd90b1365ba1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Sheriff\",\"Deputy\",\"defendant\",\"killed\",\"Cooley\"],\"target_related\":[\"detectives\",\"prosecutors\",\"CAPOS\",\"murder\",\"case\",\"Deputy Ortiz\",\"killed\"],\"mediators\":[\"Sheriff\",\"Deputy\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "03ee49939a4e96264d5d7ec6c728aed78c60d107d19d72a1cf43e2be63c94a18",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says custody status gave additional time to investigate the murder; murdering does not cause investigating.\"}"
+    }
+  },
+  "call_ids": [
+    "7979d421c53b55b1ed3fad8b95d4bb144a2cfe0f162c55d4c740898db6746f0c",
+    "7979d421c53b55b1ed3fad8b95d4bb144a2cfe0f162c55d4c740898db6746f0c",
+    "937aaff2309eb228f4d7996f6091dd58c6f2ce11ae9ec0b87bab3b6eb717c5e9",
+    "f3f716e8054dd5aeafe84791e003037eb4000b685214f0e206740ea13c075f27",
+    "2741044186b2b73d18c630c8f62a3e20b74511b6773603b4f741dd90b1365ba1",
+    "03ee49939a4e96264d5d7ec6c728aed78c60d107d19d72a1cf43e2be63c94a18"
+  ],
+  "elapsed_s": 5.338839292526245
+}

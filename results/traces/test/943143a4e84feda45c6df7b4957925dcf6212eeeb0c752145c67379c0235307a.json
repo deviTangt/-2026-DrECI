@@ -1,0 +1,62 @@
+{
+  "input_hash": "943143a4e84feda45c6df7b4957925dcf6212eeeb0c752145c67379c0235307a",
+  "sample_id": "ESC-CSV-09368",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "police",
+    "battles",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b3723805710f28835d02a2f9deaeb9612a778080598ae89dfcab762d1a97e443",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b3723805710f28835d02a2f9deaeb9612a778080598ae89dfcab762d1a97e443",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "79c2f00601cc8f7453091cb3840497dcd3eca5e40a1a0958f585a8425052563a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b056ab9938b74ed587d0a3a98e0e99af3e7ea573cfb4590c5ce2d005c642d635",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "f6beb19afbeebdda5b92d742e0a68efe8aba16c11c7c0c2b6904f4a391b074e2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protestors\",\"police\",\"battles\",\"budget cuts\",\"Greece\"],\"target_related\":[\"police\",\"battles\",\"Greece\",\"bank\",\"fire-bomb\"],\"mediators\":[\"police\",\"battles\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "4d2491ae500a2977ff58b5291254ce14c538b5549fdb98764e65968e84db4e39",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says police fought battles with striking protesters furious at budget cuts; no causal link between striking and riots is stated or implied.\"}"
+    }
+  },
+  "call_ids": [
+    "b3723805710f28835d02a2f9deaeb9612a778080598ae89dfcab762d1a97e443",
+    "b3723805710f28835d02a2f9deaeb9612a778080598ae89dfcab762d1a97e443",
+    "79c2f00601cc8f7453091cb3840497dcd3eca5e40a1a0958f585a8425052563a",
+    "b056ab9938b74ed587d0a3a98e0e99af3e7ea573cfb4590c5ce2d005c642d635",
+    "f6beb19afbeebdda5b92d742e0a68efe8aba16c11c7c0c2b6904f4a391b074e2",
+    "4d2491ae500a2977ff58b5291254ce14c538b5549fdb98764e65968e84db4e39"
+  ],
+  "elapsed_s": 5.437334775924683
+}

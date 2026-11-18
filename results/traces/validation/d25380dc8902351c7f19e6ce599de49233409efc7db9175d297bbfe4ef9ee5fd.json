@@ -1,0 +1,64 @@
+{
+  "input_hash": "d25380dc8902351c7f19e6ce599de49233409efc7db9175d297bbfe4ef9ee5fd",
+  "sample_id": "ESC-CSV-07283",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Vincent Jackson",
+    "Clairemont",
+    "Jan . 6",
+    "Chargers",
+    "wide receiver"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8fe33a6175febed70ba1e631bd9c8ac09086bbdf43ce25ba2a7a57ba61790b56",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8fe33a6175febed70ba1e631bd9c8ac09086bbdf43ce25ba2a7a57ba61790b56",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4dcb94ba441e969184405b842a207ebdda6214033b767a727358d7f84e1a73f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ebd75a05a495e5592082fa20402a6251186363e3526d94081486af7c9cd67838",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d135306d4785a183fbedf9df75cf38a6babb9efd343a9ef6936ca09bd891c450",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"Clairemont\",\"Jan . 6\",\"Chargers\",\"wide receiver\"],\"target_related\":[\"Vincent Jackson\",\"Clairemont\",\"Jan . 6\",\"Chargers\",\"wide receiver\"],\"mediators\":[\"Vincent Jackson\",\"Clairemont\",\"Jan . 6\",\"Chargers\",\"wide receiver\"]}"
+    },
+    "indirect": {
+      "call_id": "716eb82487d636cbb71899365f0d6b62103da9c30ea666c84182b0ec58aa688f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'arrested ... on suspicion of driving under the influence' indicates arrest followed from suspicion of DUI, not that arrest caused DUI; no causal rule applies.\"}"
+    }
+  },
+  "call_ids": [
+    "8fe33a6175febed70ba1e631bd9c8ac09086bbdf43ce25ba2a7a57ba61790b56",
+    "8fe33a6175febed70ba1e631bd9c8ac09086bbdf43ce25ba2a7a57ba61790b56",
+    "4dcb94ba441e969184405b842a207ebdda6214033b767a727358d7f84e1a73f4",
+    "ebd75a05a495e5592082fa20402a6251186363e3526d94081486af7c9cd67838",
+    "d135306d4785a183fbedf9df75cf38a6babb9efd343a9ef6936ca09bd891c450",
+    "716eb82487d636cbb71899365f0d6b62103da9c30ea666c84182b0ec58aa688f"
+  ],
+  "elapsed_s": 5.218712568283081
+}

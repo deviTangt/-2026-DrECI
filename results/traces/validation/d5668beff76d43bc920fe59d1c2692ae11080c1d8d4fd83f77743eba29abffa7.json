@@ -1,0 +1,66 @@
+{
+  "input_hash": "d5668beff76d43bc920fe59d1c2692ae11080c1d8d4fd83f77743eba29abffa7",
+  "sample_id": "ESC-CSV-02264",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shotgun",
+    "job",
+    "office",
+    "bosses",
+    "receptionist",
+    "Associated Press"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "313b80966f0206ced8df3f26a0ce0b7a76b65fcf191d86a4294e191d67065824",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "313b80966f0206ced8df3f26a0ce0b7a76b65fcf191d86a4294e191d67065824",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8b5842026170ec6f91946e3325f17cb2f5521ea183bef15aa5aba611dbf78830",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b0ee05f5b890a3542d33db17aee511d05cc4e0d863ec77d742cd7bf0670568ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fbd0a41597eeb099670989b6646bdecd97e1d5773663674322bf50de0175b424",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Receptionist\",\"Madeline Kafoury\",\"gunman\",\"her\",\"midsection\",\"Whiteside\",\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"Associated Press\"],\"target_related\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"Associated Press\",\"fire\",\"killing\"],\"mediators\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"Associated Press\"]}"
+    },
+    "indirect": {
+      "call_id": "0b185bbea3c41571a8088df7a056d49e1853846ace15567e030b96791318cd0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone in the midsection or opening fire on bosses naturally causes wounding; the shot precedes and produces the wounding.\"}"
+    }
+  },
+  "call_ids": [
+    "313b80966f0206ced8df3f26a0ce0b7a76b65fcf191d86a4294e191d67065824",
+    "313b80966f0206ced8df3f26a0ce0b7a76b65fcf191d86a4294e191d67065824",
+    "8b5842026170ec6f91946e3325f17cb2f5521ea183bef15aa5aba611dbf78830",
+    "b0ee05f5b890a3542d33db17aee511d05cc4e0d863ec77d742cd7bf0670568ea",
+    "fbd0a41597eeb099670989b6646bdecd97e1d5773663674322bf50de0175b424",
+    "0b185bbea3c41571a8088df7a056d49e1853846ace15567e030b96791318cd0d"
+  ],
+  "elapsed_s": 7.341519117355347
+}

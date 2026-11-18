@@ -1,0 +1,63 @@
+{
+  "input_hash": "de444bcba836af7efaaa4c0aec56ac838f12d7f07bc100d21f0b3fab2afbd0b1",
+  "sample_id": "ESC-CSV-02191",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "Madeline Kafoury",
+    "shot",
+    "violence"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c81eb371d09d7c168b9726d2fb837d91a878d1eb25c0ed449138cd8b19a1f7d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c81eb371d09d7c168b9726d2fb837d91a878d1eb25c0ed449138cd8b19a1f7d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "90f07bb999d9da2fa674bb3461227f8b8cbb68260503ed836172f989853e04f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7d875ee1869777234615fbeadd213a8193492d979d631c3c948c7dd7bfa494ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "765c6cc7846b454b38f0e2785605b84d1dfa7b8073e8ceac2685fc7f686330b3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shotgun\",\"office\",\"manager\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"violence\"],\"target_related\":[\"receptionist\",\"Madeline Kafoury\",\"shot\",\"violence\",\"wounded\",\"managers\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"receptionist\",\"Madeline Kafoury\",\"shot\",\"violence\"]}"
+    },
+    "indirect": {
+      "call_id": "844ee49a68ee09a843a6ac68bad21885b5bf4348f4a831c40b6a84e943205399",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing (shooting) causes the victim to be dead; the shooting precedes and produces death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c81eb371d09d7c168b9726d2fb837d91a878d1eb25c0ed449138cd8b19a1f7d2",
+    "c81eb371d09d7c168b9726d2fb837d91a878d1eb25c0ed449138cd8b19a1f7d2",
+    "90f07bb999d9da2fa674bb3461227f8b8cbb68260503ed836172f989853e04f6",
+    "7d875ee1869777234615fbeadd213a8193492d979d631c3c948c7dd7bfa494ee",
+    "765c6cc7846b454b38f0e2785605b84d1dfa7b8073e8ceac2685fc7f686330b3",
+    "844ee49a68ee09a843a6ac68bad21885b5bf4348f4a831c40b6a84e943205399"
+  ],
+  "elapsed_s": 8.398003816604614
+}

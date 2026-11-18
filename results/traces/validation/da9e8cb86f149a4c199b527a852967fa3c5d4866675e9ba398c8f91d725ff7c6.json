@@ -1,0 +1,62 @@
+{
+  "input_hash": "da9e8cb86f149a4c199b527a852967fa3c5d4866675e9ba398c8f91d725ff7c6",
+  "sample_id": "ESC-CSV-07098",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Jamal Williams",
+    "member",
+    "San Diego Chargers"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b696dbc5e8c1a55d0bf921a29e642ee304e8f2780e73d25155c24511fcecd3b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b696dbc5e8c1a55d0bf921a29e642ee304e8f2780e73d25155c24511fcecd3b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6ae0f3c936a9fbf837fe814fba73cfb769f89dfb0e597d3c6889cf3c1bf074ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "03ee01f62e092ef25657a7008fa269314a3c3446e84f976a23bc58d30fc44bde",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a28f9646661869337b86b7fb5a8f7963b58ade870b28f6cf202d7c900c0a3fb3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"member\",\"San Diego Chargers\",\"California Highway Patrol\",\"defensive tackle\"],\"target_related\":[\"Jamal Williams\",\"member\",\"San Diego Chargers\",\"drunken driving\",\"downtown\",\"freeway\"],\"mediators\":[\"Jamal Williams\",\"member\",\"San Diego Chargers\"]}"
+    },
+    "indirect": {
+      "call_id": "7568f72617ca46411f7faec53a53020c64bf3396fff09acccb3f1d299c299e3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Arrested is on suspicion of drunken driving; the arrest follows the suspected offense, not a causal relation between the two events.\"}"
+    }
+  },
+  "call_ids": [
+    "b696dbc5e8c1a55d0bf921a29e642ee304e8f2780e73d25155c24511fcecd3b2",
+    "b696dbc5e8c1a55d0bf921a29e642ee304e8f2780e73d25155c24511fcecd3b2",
+    "6ae0f3c936a9fbf837fe814fba73cfb769f89dfb0e597d3c6889cf3c1bf074ee",
+    "03ee01f62e092ef25657a7008fa269314a3c3446e84f976a23bc58d30fc44bde",
+    "a28f9646661869337b86b7fb5a8f7963b58ade870b28f6cf202d7c900c0a3fb3",
+    "7568f72617ca46411f7faec53a53020c64bf3396fff09acccb3f1d299c299e3a"
+  ],
+  "elapsed_s": 4.303004741668701
+}

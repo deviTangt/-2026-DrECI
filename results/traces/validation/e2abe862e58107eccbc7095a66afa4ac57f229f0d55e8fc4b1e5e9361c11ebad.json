@@ -1,0 +1,64 @@
+{
+  "input_hash": "e2abe862e58107eccbc7095a66afa4ac57f229f0d55e8fc4b1e5e9361c11ebad",
+  "sample_id": "ESC-CSV-02554",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "battle",
+    "cops",
+    "Brooklyn",
+    "streets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e5d48235976417b8c7250946bcb88377e0a059f153127205e888b45831be1e65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e5d48235976417b8c7250946bcb88377e0a059f153127205e888b45831be1e65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b10279f7008d6803145d028c3c48e32fc672925d27cae77e746c478f84e126e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "70bb30473d7283218bc0b95819efe5ae7adf3e8d7303f2b275efce6664bbfd82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a869dc1736f65f13d339e833011b974c7f83bfad8664a426c410942aeede1798",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"battle\",\"cops\",\"Brooklyn\",\"streets\"],\"target_related\":[\"protesters\",\"battle\",\"cops\",\"Brooklyn\",\"streets\"],\"mediators\":[\"protesters\",\"battle\",\"cops\",\"Brooklyn\",\"streets\"]}"
+    },
+    "indirect": {
+      "call_id": "fcd8118a93539c38a2440f0e7e4dfd6cbbb9b53489a849a91890db63cdfb2a76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being enraged can plausibly cause rioting; enraged protesters rioting follows common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "e5d48235976417b8c7250946bcb88377e0a059f153127205e888b45831be1e65",
+    "e5d48235976417b8c7250946bcb88377e0a059f153127205e888b45831be1e65",
+    "b10279f7008d6803145d028c3c48e32fc672925d27cae77e746c478f84e126e6",
+    "70bb30473d7283218bc0b95819efe5ae7adf3e8d7303f2b275efce6664bbfd82",
+    "a869dc1736f65f13d339e833011b974c7f83bfad8664a426c410942aeede1798",
+    "fcd8118a93539c38a2440f0e7e4dfd6cbbb9b53489a849a91890db63cdfb2a76"
+  ],
+  "elapsed_s": 7.122971773147583
+}

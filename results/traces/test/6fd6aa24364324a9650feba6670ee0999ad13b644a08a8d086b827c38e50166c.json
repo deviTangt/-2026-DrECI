@@ -1,0 +1,63 @@
+{
+  "input_hash": "6fd6aa24364324a9650feba6670ee0999ad13b644a08a8d086b827c38e50166c",
+  "sample_id": "ESC-CSV-06562",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "murder",
+    "assault",
+    "Zurana Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d6dd1ea91a08e6d283d8194e50ead76c3804d7fa7176be72c5fa7d52e6114480",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d6dd1ea91a08e6d283d8194e50ead76c3804d7fa7176be72c5fa7d52e6114480",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b11d47acc5df15ece412e920997ef2eeeb04808c2c15d9878bcf04c6be2b5d0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a01cf0eb4f852cc25e9764683d8d8641c5cb9091eb0c83919077e0a06c99bf0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "69c64b92db3267bb982958af447d5184a0a63c4bc41dd3e2c15902afa0093e0f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"murder\",\"assault\",\"Zurana Horton\"],\"target_related\":[\"Andrew Lopez\",\"murder\",\"assault\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"murder\",\"assault\",\"Zurana Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "743f8c4c6971aa1112a7339c156d4e5c4980278e7b6dc9d2c3a300f70153ad76",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states Lopez was found guilty in Horton's death; guilt is a legal verdict about the death, not caused by it, and no causal word links death to guilty.\"}"
+    }
+  },
+  "call_ids": [
+    "d6dd1ea91a08e6d283d8194e50ead76c3804d7fa7176be72c5fa7d52e6114480",
+    "d6dd1ea91a08e6d283d8194e50ead76c3804d7fa7176be72c5fa7d52e6114480",
+    "b11d47acc5df15ece412e920997ef2eeeb04808c2c15d9878bcf04c6be2b5d0c",
+    "a01cf0eb4f852cc25e9764683d8d8641c5cb9091eb0c83919077e0a06c99bf0c",
+    "69c64b92db3267bb982958af447d5184a0a63c4bc41dd3e2c15902afa0093e0f",
+    "743f8c4c6971aa1112a7339c156d4e5c4980278e7b6dc9d2c3a300f70153ad76"
+  ],
+  "elapsed_s": 4.903655290603638
+}

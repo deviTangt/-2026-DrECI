@@ -1,0 +1,62 @@
+{
+  "input_hash": "d351e609c81df03e8d068d8cdff49dc4f0f93ca7215f8b782e4c60ba1810a176",
+  "sample_id": "ESC-CSV-06698",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mother",
+    "bullet",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "60986b5ba1910e80bbf89313d068d93c7f22282f3ebcbc0c470377750431ea4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "60986b5ba1910e80bbf89313d068d93c7f22282f3ebcbc0c470377750431ea4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a110502b43881b1366379853be1e7d57b9c8531953a2ec74427632ea4912f82d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3cfc4aa9cb68b47874e320e8c253c0ab9f411cc29ea3ed5e35b55d33b716d826",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a3e406a74e31d234066acf2b5f12e2aa1ed6906d85978d07f90ec16a4b618a25",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mother\",\"chest\",\"bullet\",\"fence\",\"Brownsville\",\"neighborhood\",\"Oct.\",\"2011\",\"authorities\"],\"target_related\":[\"gangbangers\",\"trial\",\"Wednesday\",\"mother\",\"12\",\"bullets\",\"Brooklyn\",\"rooftop\"],\"mediators\":[\"mother\",\"bullet\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "75ca39b37286ad12096a8401e508385ee0aaf91996e8cfecb32de5a14c5ad9a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Being struck by a ricocheted bullet is the fatal injury that caused the mother's death; bullet strikes her, then kills her (X->Z->Y).\"}"
+    }
+  },
+  "call_ids": [
+    "60986b5ba1910e80bbf89313d068d93c7f22282f3ebcbc0c470377750431ea4c",
+    "60986b5ba1910e80bbf89313d068d93c7f22282f3ebcbc0c470377750431ea4c",
+    "a110502b43881b1366379853be1e7d57b9c8531953a2ec74427632ea4912f82d",
+    "3cfc4aa9cb68b47874e320e8c253c0ab9f411cc29ea3ed5e35b55d33b716d826",
+    "a3e406a74e31d234066acf2b5f12e2aa1ed6906d85978d07f90ec16a4b618a25",
+    "75ca39b37286ad12096a8401e508385ee0aaf91996e8cfecb32de5a14c5ad9a7"
+  ],
+  "elapsed_s": 5.074124813079834
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "863e18337a4a165589c1027fd5aa156547d425f7119e1f8a500658d08416c226",
+  "sample_id": "ESC-CSV-02376",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "man",
+    "Suspect",
+    "Troy",
+    "Michigan"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ec23f16600d785a6fb6542b5edf2e41a12c1452e83a20a10951b4c4b3097dee8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ec23f16600d785a6fb6542b5edf2e41a12c1452e83a20a10951b4c4b3097dee8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "268f3abd62be4382d9ba569e451e40e4089165208638849147e8a52257a1fa36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2af2587bdc048275d92f9456ae17b99c79507b08e1a462e8e065a6eac1b1ef36",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "226d149a3c2e138635f8f6024298a28e75a984014c9e95e734657153a171b3a6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"three people\",\"accounting firm\",\"fired\",\"Monday morning attack\",\"Troy\",\"Michigan\",\"Office Shooting\",\"1 Dead\",\"2 Injured\",\"Suspect\"],\"target_related\":[\"man\",\"arrested\",\"high-speed chase\",\"authorities\",\"Suspect\",\"Troy\",\"Michigan\"],\"mediators\":[\"man\",\"Suspect\",\"Troy\",\"Michigan\"]}"
+    },
+    "indirect": {
+      "call_id": "d0978aa405a254e2321e29b8f75f82287188d33630b1cf2a8f2e24446c4b6821",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the suspect was arrested after a chase; the attack prompted the pursuit and arrest, so shooting causes Caught by causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "ec23f16600d785a6fb6542b5edf2e41a12c1452e83a20a10951b4c4b3097dee8",
+    "ec23f16600d785a6fb6542b5edf2e41a12c1452e83a20a10951b4c4b3097dee8",
+    "268f3abd62be4382d9ba569e451e40e4089165208638849147e8a52257a1fa36",
+    "2af2587bdc048275d92f9456ae17b99c79507b08e1a462e8e065a6eac1b1ef36",
+    "226d149a3c2e138635f8f6024298a28e75a984014c9e95e734657153a171b3a6",
+    "d0978aa405a254e2321e29b8f75f82287188d33630b1cf2a8f2e24446c4b6821"
+  ],
+  "elapsed_s": 11.599518299102783
+}

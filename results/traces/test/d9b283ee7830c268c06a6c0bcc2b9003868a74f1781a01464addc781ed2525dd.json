@@ -1,0 +1,58 @@
+{
+  "input_hash": "d9b283ee7830c268c06a6c0bcc2b9003868a74f1781a01464addc781ed2525dd",
+  "sample_id": "ESC-CSV-09495",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [],
+  "route": "direct",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2ebb96e7099efaec4c08e61fe86f3f08e932bcab711a1ef2afa6580c19ec5d9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2ebb96e7099efaec4c08e61fe86f3f08e932bcab711a1ef2afa6580c19ec5d9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e829f4b5b3cf8cdfd3a78591bbfa277f992952204795fd6c3a5a9cd06afede0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "275cf257967f2cfee5ce0bfd41dda483135195f5784a2f2008e9c604117e6f6e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a26670856d510f4e03860581efd591c289ee476c16e766b897ceacc94b0ff60b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank workers\",\"branch\",\"petrol bomb\",\"protester\",\"killed\"],\"target_related\":[\"Firefighters\",\"five people\",\"balcony\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "ce839a4f0cb953dcf4c9a65922550dbfb3ff36df94feca847098cb27df70bb10",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The branch going up in flames killed workers; firefighters rescued others separately. No causal link between the fire and the rescue.\"}"
+    }
+  },
+  "call_ids": [
+    "2ebb96e7099efaec4c08e61fe86f3f08e932bcab711a1ef2afa6580c19ec5d9a",
+    "2ebb96e7099efaec4c08e61fe86f3f08e932bcab711a1ef2afa6580c19ec5d9a",
+    "e829f4b5b3cf8cdfd3a78591bbfa277f992952204795fd6c3a5a9cd06afede0e",
+    "275cf257967f2cfee5ce0bfd41dda483135195f5784a2f2008e9c604117e6f6e",
+    "a26670856d510f4e03860581efd591c289ee476c16e766b897ceacc94b0ff60b",
+    "ce839a4f0cb953dcf4c9a65922550dbfb3ff36df94feca847098cb27df70bb10"
+  ],
+  "elapsed_s": 4.651620149612427
+}

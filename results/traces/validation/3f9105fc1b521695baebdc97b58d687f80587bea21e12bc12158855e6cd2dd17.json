@@ -1,0 +1,62 @@
+{
+  "input_hash": "3f9105fc1b521695baebdc97b58d687f80587bea21e12bc12158855e6cd2dd17",
+  "sample_id": "ESC-CSV-01595",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "handgun",
+    "fired"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9ae7227cf01553b85a77627106fe71fdab8793b4a094262cecdaa90fb7455aa6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9ae7227cf01553b85a77627106fe71fdab8793b4a094262cecdaa90fb7455aa6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "93e5b2a439db03cc3b7945f5f8285c11a4072caba023c1ba3773ddf7055af51a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a79539f56c213b936a53f08566b5c4c4e00ea8f4a4d113d5fac4dbf1451e195",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7034b0ea73954de58127575fc6d40774f4fbece68143911de9dbdb66511c5e1d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"residence\",\"handgun\",\"officer\",\"fired\"],\"target_related\":[\"gunman\",\"deputy\",\"fired\",\"handgun\"],\"mediators\":[\"gunman\",\"handgun\",\"fired\"]}"
+    },
+    "indirect": {
+      "call_id": "989b33884f8e50a1a33fc49d973fc2c675058a99a5615ff50632dda2f45dba4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Bursting out of the residence enabled the gunman to reach and shoot the deputy, so X causes Y; gunman links X to Y in a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "9ae7227cf01553b85a77627106fe71fdab8793b4a094262cecdaa90fb7455aa6",
+    "9ae7227cf01553b85a77627106fe71fdab8793b4a094262cecdaa90fb7455aa6",
+    "93e5b2a439db03cc3b7945f5f8285c11a4072caba023c1ba3773ddf7055af51a",
+    "3a79539f56c213b936a53f08566b5c4c4e00ea8f4a4d113d5fac4dbf1451e195",
+    "7034b0ea73954de58127575fc6d40774f4fbece68143911de9dbdb66511c5e1d",
+    "989b33884f8e50a1a33fc49d973fc2c675058a99a5615ff50632dda2f45dba4b"
+  ],
+  "elapsed_s": 7.084123611450195
+}

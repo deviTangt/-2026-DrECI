@@ -1,0 +1,67 @@
+{
+  "input_hash": "151d6a5fd05070ad3eb1fe1a7cb4f322c6704fadd535f73f79f1d55714a2a3dc",
+  "sample_id": "ESC-CSV-04358",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "car",
+    "upmarket jewellery store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "two-million-euro booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5a81fb53c5d5eb14a014279722b228e71fcadd71194b744611e52c3eecfde5c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5a81fb53c5d5eb14a014279722b228e71fcadd71194b744611e52c3eecfde5c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d1e1e51c0e41560a1a6180fa62a407d0ae0446e637fe3a2a513962256ed538f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9e0f0eb75993ebfe21f0a9eb955d7b4b44602bdefaf9e591ccd54216a7f6fac4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "be29d131ba12734ec89d0df87da14ef3a9740b8bc9658e1d4182a43e6071f4d6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro booty\",\"police source\"],\"target_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro booty\",\"police source\"],\"mediators\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "ed618986c3366918c4784ad23d4964e833d8bb484c325bbec0f74b003de3d355",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store directly caused the shop window to be smashed; the impact precedes and produces the smashing.\"}"
+    }
+  },
+  "call_ids": [
+    "5a81fb53c5d5eb14a014279722b228e71fcadd71194b744611e52c3eecfde5c8",
+    "5a81fb53c5d5eb14a014279722b228e71fcadd71194b744611e52c3eecfde5c8",
+    "d1e1e51c0e41560a1a6180fa62a407d0ae0446e637fe3a2a513962256ed538f1",
+    "9e0f0eb75993ebfe21f0a9eb955d7b4b44602bdefaf9e591ccd54216a7f6fac4",
+    "be29d131ba12734ec89d0df87da14ef3a9740b8bc9658e1d4182a43e6071f4d6",
+    "ed618986c3366918c4784ad23d4964e833d8bb484c325bbec0f74b003de3d355"
+  ],
+  "elapsed_s": 4.303419351577759
+}

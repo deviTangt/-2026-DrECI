@@ -1,0 +1,64 @@
+{
+  "input_hash": "72934fcc9eb2ddee6b08c41ea36e7b445a2b310d567043fe4165cd87dccc92a7",
+  "sample_id": "ESC-CSV-04559",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "car",
+    "upmarket jewellery store",
+    "central Paris",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4779705189ad7dca6b42f0e8a9fd04598f8ce19286053b98799dcb9ba6981bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4779705189ad7dca6b42f0e8a9fd04598f8ce19286053b98799dcb9ba6981bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5bdc2ad830c3f69b5c73bc66d3f861f702a539402092b8d0e1a56eef5375a677",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "89981c2adf642184c058584320a0095944c442836a4ec93d50ebe51282119724",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0c3c88e80b1d4b818d05f50e94c66aa80f16a6c8a072028274cfbfaa2ef6d6c6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ram - raiders\",\"Paris jewellery store\",\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"],\"target_related\":[\"shop window\",\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"],\"mediators\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "853981fdb8f48142d49144ab5e2029448fa8f61d437c477f743de99de8399575",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store (hit) directly causes the shop window to break (smashing), following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "c4779705189ad7dca6b42f0e8a9fd04598f8ce19286053b98799dcb9ba6981bb",
+    "c4779705189ad7dca6b42f0e8a9fd04598f8ce19286053b98799dcb9ba6981bb",
+    "5bdc2ad830c3f69b5c73bc66d3f861f702a539402092b8d0e1a56eef5375a677",
+    "89981c2adf642184c058584320a0095944c442836a4ec93d50ebe51282119724",
+    "0c3c88e80b1d4b818d05f50e94c66aa80f16a6c8a072028274cfbfaa2ef6d6c6",
+    "853981fdb8f48142d49144ab5e2029448fa8f61d437c477f743de99de8399575"
+  ],
+  "elapsed_s": 4.78335428237915
+}

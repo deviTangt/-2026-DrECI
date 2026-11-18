@@ -1,0 +1,62 @@
+{
+  "input_hash": "81cddc87a2fdf06541421b1f2b401aea17069ecf100d622c74c92c5ab5ccce36",
+  "sample_id": "ESC-CSV-02148",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Kafoury",
+    "Madeline Kafoury",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "62a981d80de0a4c3b8314ae7dbcb54d57305253cde21e64ded3e48228c13e51c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "62a981d80de0a4c3b8314ae7dbcb54d57305253cde21e64ded3e48228c13e51c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "55272d59e4b3a41842efc3e145f2a5f03ef1b6ff9ca4174a58938b68f8b3fae4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fe444fbf6439011cb40e230cadd50cf6185110a252ceca6caa1cc5dfbf43592c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "00f7027599a8777407c598c4e1a41c368477a930db78f43e1b8c004eee3e5fd2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kafoury\",\"Madeline Kafoury\",\"murder\",\"shot dead\"],\"target_related\":[\"Kafoury\",\"Madeline Kafoury\",\"dead\",\"murder\"],\"mediators\":[\"Kafoury\",\"Madeline Kafoury\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "194f35dfcc23ed18f0a8f36117ac67893f0fb3f024297ce7f63c9fecdc279fc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'was shot dead' uses 'shot' as the means causing death; the passive construction links shot to death.\"}"
+    }
+  },
+  "call_ids": [
+    "62a981d80de0a4c3b8314ae7dbcb54d57305253cde21e64ded3e48228c13e51c",
+    "62a981d80de0a4c3b8314ae7dbcb54d57305253cde21e64ded3e48228c13e51c",
+    "55272d59e4b3a41842efc3e145f2a5f03ef1b6ff9ca4174a58938b68f8b3fae4",
+    "fe444fbf6439011cb40e230cadd50cf6185110a252ceca6caa1cc5dfbf43592c",
+    "00f7027599a8777407c598c4e1a41c368477a930db78f43e1b8c004eee3e5fd2",
+    "194f35dfcc23ed18f0a8f36117ac67893f0fb3f024297ce7f63c9fecdc279fc4"
+  ],
+  "elapsed_s": 6.387816429138184
+}

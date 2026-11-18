@@ -1,0 +1,61 @@
+{
+  "input_hash": "778fbc22ee7c395c379636e5bb1816423eca3b81c8a2a29ac61c4b6cbb0d5ccc",
+  "sample_id": "ESC-CSV-02076",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "employee",
+    "Suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a9e7efd55f64d7e7a7a11db5945f2ac5b43729e7221d57d60b5c6e06ac8ec78",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a9e7efd55f64d7e7a7a11db5945f2ac5b43729e7221d57d60b5c6e06ac8ec78",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c318d6876db7fa8e4e4fcfca4f0177d8bb47035c6f99af1aa7d51799c18c2fba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ea07f4df003772f80b07b8b4e99f882a117b42e51dda2bc840d36a51c78fb18c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3dafabbc4b90d26d4fc8c8afe8e150564b77bdde40fc19dacb79c8cd8babd9a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"woman\",\"men\",\"officers\",\"police\",\"Suspect\"],\"target_related\":[\"employee\",\"Suspect\",\"company\"],\"mediators\":[\"employee\",\"Suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "5af5c00bb531a2d26935021760e39eae5b16db367eb6696cb35445bc03072116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired last week prompted the shooting; common sense: the firing preceded and caused the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "3a9e7efd55f64d7e7a7a11db5945f2ac5b43729e7221d57d60b5c6e06ac8ec78",
+    "3a9e7efd55f64d7e7a7a11db5945f2ac5b43729e7221d57d60b5c6e06ac8ec78",
+    "c318d6876db7fa8e4e4fcfca4f0177d8bb47035c6f99af1aa7d51799c18c2fba",
+    "ea07f4df003772f80b07b8b4e99f882a117b42e51dda2bc840d36a51c78fb18c",
+    "3dafabbc4b90d26d4fc8c8afe8e150564b77bdde40fc19dacb79c8cd8babd9a2",
+    "5af5c00bb531a2d26935021760e39eae5b16db367eb6696cb35445bc03072116"
+  ],
+  "elapsed_s": 4.8454673290252686
+}

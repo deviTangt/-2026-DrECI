@@ -1,0 +1,64 @@
+{
+  "input_hash": "5bee2d79c992441d640226c2395d396cd70f26255611df931c811cdccbb6ef73",
+  "sample_id": "ESC-CSV-01708",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy",
+    "Ortiz",
+    "shot",
+    "murder",
+    "charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d50c44ebe053cbd8492081d6532b714ca63bcc2999171294bb4d32a2a406a611",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d50c44ebe053cbd8492081d6532b714ca63bcc2999171294bb4d32a2a406a611",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f7a647e4972cf3e1063576017fa2425739e4ff70be7b443f1aee2f658b47bdd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e1c9e9a7a1c43749809df3b691aba0b962938c5c71ce99b58231db5bbc68f549",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cc65ae6e750206dea95df664e860d4e8e1a45af9937a9a819e17bfa51aa5eebc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Ortiz\",\"shot\",\"murder\",\"charges\",\"gang\",\"member\",\"accused\"],\"target_related\":[\"Deputy\",\"Ortiz\",\"shot\",\"apartment\",\"East 223rd Street\",\"murder\",\"charges\"],\"mediators\":[\"Deputy\",\"Ortiz\",\"shot\",\"murder\",\"charges\"]}"
+    },
+    "indirect": {
+      "call_id": "cf0384e7857e661181a27bfb6e4228b45b85b080201314750139c29ede491204",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,4],\"evidence\":\"'gunning down Deputy Ortiz' and 'shot to death' show explicit 'by' causation; shooting before death follows common sense; 'shot to death' corefers gunning down.\"}"
+    }
+  },
+  "call_ids": [
+    "d50c44ebe053cbd8492081d6532b714ca63bcc2999171294bb4d32a2a406a611",
+    "d50c44ebe053cbd8492081d6532b714ca63bcc2999171294bb4d32a2a406a611",
+    "f7a647e4972cf3e1063576017fa2425739e4ff70be7b443f1aee2f658b47bdd3",
+    "e1c9e9a7a1c43749809df3b691aba0b962938c5c71ce99b58231db5bbc68f549",
+    "cc65ae6e750206dea95df664e860d4e8e1a45af9937a9a819e17bfa51aa5eebc",
+    "cf0384e7857e661181a27bfb6e4228b45b85b080201314750139c29ede491204"
+  ],
+  "elapsed_s": 5.400641441345215
+}

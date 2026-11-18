@@ -1,0 +1,62 @@
+{
+  "input_hash": "5b6cba565ff201c856dc863e050d8a69393c0584f19361d016bf9f624cb31c3f",
+  "sample_id": "ESC-CSV-02449",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teenager",
+    "killed",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b3fa721616f04d4c5c8ac67e6e0cf67b1e96c1985c00f1d245e2236d3ed1a716",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b3fa721616f04d4c5c8ac67e6e0cf67b1e96c1985c00f1d245e2236d3ed1a716",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6803f195ece56abee9f27c794b89d3afafcac2afdbd116f95daeba258357a012",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3d36a041756f091b64bb3a3adf518326dc0ee23335ec2e2a15e4e6a0a6469ca0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c170f9fe7fcf3597bb91e32f778ec5854e0ae8db169e498e66aff2de175f4398",
+      "status": "ok",
+      "text": "{\"source_related\":[\"armed\",\"teenager\",\"killed\",\"police\",\"officers\",\"Brooklyn\",\"street\"],\"target_related\":[\"East\",\"Flatbush\",\"Persists\",\"Teenager\",\"Killing\",\"Police\"],\"mediators\":[\"teenager\",\"killed\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "3db17d34c1a54de8d5f9329bc72899831c28560ef367373523634f1842e0e87b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting (teenager killed by police) precedes and plausibly causes the anger in East Flatbush, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "b3fa721616f04d4c5c8ac67e6e0cf67b1e96c1985c00f1d245e2236d3ed1a716",
+    "b3fa721616f04d4c5c8ac67e6e0cf67b1e96c1985c00f1d245e2236d3ed1a716",
+    "6803f195ece56abee9f27c794b89d3afafcac2afdbd116f95daeba258357a012",
+    "3d36a041756f091b64bb3a3adf518326dc0ee23335ec2e2a15e4e6a0a6469ca0",
+    "c170f9fe7fcf3597bb91e32f778ec5854e0ae8db169e498e66aff2de175f4398",
+    "3db17d34c1a54de8d5f9329bc72899831c28560ef367373523634f1842e0e87b"
+  ],
+  "elapsed_s": 12.75472354888916
+}

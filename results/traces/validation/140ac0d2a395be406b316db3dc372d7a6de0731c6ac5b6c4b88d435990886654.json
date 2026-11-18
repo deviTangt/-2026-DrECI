@@ -1,0 +1,63 @@
+{
+  "input_hash": "140ac0d2a395be406b316db3dc372d7a6de0731c6ac5b6c4b88d435990886654",
+  "sample_id": "ESC-CSV-01675",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "apartment",
+    "12000 block",
+    "East 223rd Street"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e3cf75df734b2da39271657c5840838a420cce586199d1d5f5e39415934c56a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e3cf75df734b2da39271657c5840838a420cce586199d1d5f5e39415934c56a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bc29d59d0afccdd833c647984a43b767d748c7a9499de9b6584f7672b9df4116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2910a3eafdc30be076dad0d6011a4e61ca94df7b6cef6191d80f7730e87426f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6c363ecc6d9501aa9ef6320834210352d882bbbbaed9ccb083f472bf1195ce27",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"12000 block\",\"East 223rd Street\"],\"target_related\":[\"Deputy Ortiz\",\"apartment\",\"12000 block\",\"East 223rd Street\"],\"mediators\":[\"Deputy Ortiz\",\"apartment\",\"12000 block\",\"East 223rd Street\"]}"
+    },
+    "indirect": {
+      "call_id": "fdd44d7affc62bfb74e3f5ec8ef3bd9ab42ffd4694c43e8ec99b99d1aa9b96e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot to death' uses 'to' linking shot and death; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "9e3cf75df734b2da39271657c5840838a420cce586199d1d5f5e39415934c56a",
+    "9e3cf75df734b2da39271657c5840838a420cce586199d1d5f5e39415934c56a",
+    "bc29d59d0afccdd833c647984a43b767d748c7a9499de9b6584f7672b9df4116",
+    "2910a3eafdc30be076dad0d6011a4e61ca94df7b6cef6191d80f7730e87426f5",
+    "6c363ecc6d9501aa9ef6320834210352d882bbbbaed9ccb083f472bf1195ce27",
+    "fdd44d7affc62bfb74e3f5ec8ef3bd9ab42ffd4694c43e8ec99b99d1aa9b96e5"
+  ],
+  "elapsed_s": 4.408549785614014
+}

@@ -1,0 +1,71 @@
+{
+  "input_hash": "3b513ce11ebcc90b85be0f392f3f53c025c7a0902fff2bb25672aa5a76c458bc",
+  "sample_id": "ESC-CSV-06781",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "woman",
+    "fatal",
+    "shooting",
+    "rooftop",
+    "Brownsville",
+    "2011",
+    "Zurana",
+    "Horton",
+    "killing",
+    "accused",
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5ed87830db07b973717d94ff604659adfc23bc335c9f3ad381f79875238d6314",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5ed87830db07b973717d94ff604659adfc23bc335c9f3ad381f79875238d6314",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d3584d049fa3326d05aa810a3d1856bb5959ce84b4f85fa9e351f7ab89d0c051",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "98364c31d671cf145560d34ba7e5d9c3753ce088a6ef4fc00685f695f982bfe6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "472910d8975bb11d9f28342d99c5d31bebeeacb28c72bcc4dad782b63451e8de",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"Brownsville\",\"2011\",\"Zurana\",\"Horton\",\"killing\",\"accused\",\"men\"],\"target_related\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"Brownsville\",\"2011\",\"Zurana\",\"Horton\",\"killing\",\"accused\",\"men\",\"evidence\",\"public\",\"disturbing\"],\"mediators\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"Brownsville\",\"2011\",\"Zurana\",\"Horton\",\"killing\",\"accused\",\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "96d7cd123e660d6fb7e7ae5dac556a21e85dca165394e2efff209705db880ef5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The rooftop gunplay (shooting) occurred in 2011 and led to the trial of the two accused men, so gunplay precedes and causes the trial.\"}"
+    }
+  },
+  "call_ids": [
+    "5ed87830db07b973717d94ff604659adfc23bc335c9f3ad381f79875238d6314",
+    "5ed87830db07b973717d94ff604659adfc23bc335c9f3ad381f79875238d6314",
+    "d3584d049fa3326d05aa810a3d1856bb5959ce84b4f85fa9e351f7ab89d0c051",
+    "98364c31d671cf145560d34ba7e5d9c3753ce088a6ef4fc00685f695f982bfe6",
+    "472910d8975bb11d9f28342d99c5d31bebeeacb28c72bcc4dad782b63451e8de",
+    "96d7cd123e660d6fb7e7ae5dac556a21e85dca165394e2efff209705db880ef5"
+  ],
+  "elapsed_s": 5.12066388130188
+}

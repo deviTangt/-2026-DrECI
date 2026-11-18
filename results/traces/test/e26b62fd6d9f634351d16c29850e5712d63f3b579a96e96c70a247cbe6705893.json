@@ -1,0 +1,63 @@
+{
+  "input_hash": "e26b62fd6d9f634351d16c29850e5712d63f3b579a96e96c70a247cbe6705893",
+  "sample_id": "ESC-CSV-09428",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "striking",
+    "brutal",
+    "budget"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "454295c274e71e27a340df7156429875dc9e8675e50e81f962518896ea5b0a55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "454295c274e71e27a340df7156429875dc9e8675e50e81f962518896ea5b0a55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3ce1febfe070d2a85c9617fd507d81c19110eeb9b9c4f5fe494cfccf2a643fef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "285abbbbf22af848ee05dad4f23201384c85a6ede45956162edb3a4c91d995b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e59e0b80a132b3197a8b32d6cd757cf1c4b3957589b5cd72f420577f21c4582a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"budget\",\"brutal\",\"bankruptcy\",\"national\",\"avoid\",\"protesters\",\"striking\"],\"target_related\":[\"protesters\",\"striking\",\"battles\",\"police\",\"brutal\",\"budget\",\"cuts\"],\"mediators\":[\"protesters\",\"striking\",\"brutal\",\"budget\"]}"
+    },
+    "indirect": {
+      "call_id": "1e4ae0bffe2d6a442511f3485e7b65cf062fe35c473f33f10164063b96bf71b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Brutal budget cuts provoke protesters to be furious; cuts occurring before and causing fury follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "454295c274e71e27a340df7156429875dc9e8675e50e81f962518896ea5b0a55",
+    "454295c274e71e27a340df7156429875dc9e8675e50e81f962518896ea5b0a55",
+    "3ce1febfe070d2a85c9617fd507d81c19110eeb9b9c4f5fe494cfccf2a643fef",
+    "285abbbbf22af848ee05dad4f23201384c85a6ede45956162edb3a4c91d995b8",
+    "e59e0b80a132b3197a8b32d6cd757cf1c4b3957589b5cd72f420577f21c4582a",
+    "1e4ae0bffe2d6a442511f3485e7b65cf062fe35c473f33f10164063b96bf71b4"
+  ],
+  "elapsed_s": 4.430901765823364
+}

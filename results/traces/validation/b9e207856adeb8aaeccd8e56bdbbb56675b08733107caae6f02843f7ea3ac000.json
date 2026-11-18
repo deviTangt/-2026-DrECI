@@ -1,0 +1,65 @@
+{
+  "input_hash": "b9e207856adeb8aaeccd8e56bdbbb56675b08733107caae6f02843f7ea3ac000",
+  "sample_id": "ESC-CSV-01960",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy",
+    "Jerry",
+    "Ortiz",
+    "knocking",
+    "door",
+    "investigation"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6739d8ec8e55ca9cb73828b4c7a96128dc8e70fa64f6cc2570c3caed1fd41799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6739d8ec8e55ca9cb73828b4c7a96128dc8e70fa64f6cc2570c3caed1fd41799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8209f41c85b7780e4a7596007d4fe05887048a5444c41ef7a20baab8f3840f81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "94727951bebdeb0f07a67ab3670540d13d7aa499121330547f1286504be3bd0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e8321068cbf9e5d5019d5df1d2bd9144db763f66eb1ad0fea4f05a0ab6173cb5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"killed\",\"knocking\",\"door\",\"investigation\"],\"target_related\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"shot\",\"knocking\",\"door\",\"investigation\"],\"mediators\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"knocking\",\"door\",\"investigation\"]}"
+    },
+    "indirect": {
+      "call_id": "06e7ff0f196c27f99ffe958b932aab049408512ec81fe02a80f127e59d8ff5c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed' — 'by'/'and' links the shooting to the killing; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "6739d8ec8e55ca9cb73828b4c7a96128dc8e70fa64f6cc2570c3caed1fd41799",
+    "6739d8ec8e55ca9cb73828b4c7a96128dc8e70fa64f6cc2570c3caed1fd41799",
+    "8209f41c85b7780e4a7596007d4fe05887048a5444c41ef7a20baab8f3840f81",
+    "94727951bebdeb0f07a67ab3670540d13d7aa499121330547f1286504be3bd0c",
+    "e8321068cbf9e5d5019d5df1d2bd9144db763f66eb1ad0fea4f05a0ab6173cb5",
+    "06e7ff0f196c27f99ffe958b932aab049408512ec81fe02a80f127e59d8ff5c1"
+  ],
+  "elapsed_s": 5.448994398117065
+}

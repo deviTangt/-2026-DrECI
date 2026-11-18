@@ -1,0 +1,67 @@
+{
+  "input_hash": "758a27e540316b16f0369d708108a4ec60bd38b34a9dc07aa2b9121a468a52d5",
+  "sample_id": "ESC-CSV-09506",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "strike",
+    "protesters",
+    "people",
+    "police",
+    "Athens",
+    "Greece",
+    "rioters",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "01d3a5ae1eea8da8cb4d8bd9364babb3d61591a2e3136931614b3c360b58172c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "01d3a5ae1eea8da8cb4d8bd9364babb3d61591a2e3136931614b3c360b58172c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fb4d0a8912e121f4609336869ef0a01f45b0b597014f46c3e2c949ed89ccf89e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bc5dc61d77e988080981f8f3ff0fab7da5dfde369d55706c5e048f028a38c568",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8a40c4b7f8899cad1610363355c073432885c0c2051b41813f5538ec8cc87a43",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"economy\",\"strike\",\"protesters\",\"rioters\",\"bank\",\"Athens\",\"Greece\",\"police\",\"people\"],\"target_related\":[\"strike\",\"protesters\",\"people\",\"police\",\"Athens\",\"Greece\",\"rioters\",\"bank\"],\"mediators\":[\"strike\",\"protesters\",\"people\",\"police\",\"Athens\",\"Greece\",\"rioters\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "8f625463a827f582b549596a01b6ef67cb51fe42e91b25a5ace4e65381404d3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Cuts are 'aimed at rescuing the economy'; the walkout is a strike 'against huge spending cuts,' showing cuts caused the walkout.\"}"
+    }
+  },
+  "call_ids": [
+    "01d3a5ae1eea8da8cb4d8bd9364babb3d61591a2e3136931614b3c360b58172c",
+    "01d3a5ae1eea8da8cb4d8bd9364babb3d61591a2e3136931614b3c360b58172c",
+    "fb4d0a8912e121f4609336869ef0a01f45b0b597014f46c3e2c949ed89ccf89e",
+    "bc5dc61d77e988080981f8f3ff0fab7da5dfde369d55706c5e048f028a38c568",
+    "8a40c4b7f8899cad1610363355c073432885c0c2051b41813f5538ec8cc87a43",
+    "8f625463a827f582b549596a01b6ef67cb51fe42e91b25a5ace4e65381404d3d"
+  ],
+  "elapsed_s": 4.264890432357788
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "8ce06c3c42f51fe2de9b24507a140382f201dead66a81271f06d0b5203fe857e",
+  "sample_id": "ESC-CSV-09418",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "180c461f71ba9eb5d7c6fd3f5eccfabd6a374c71a6ec2c570a797e85e54dd0f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "180c461f71ba9eb5d7c6fd3f5eccfabd6a374c71a6ec2c570a797e85e54dd0f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "18fa4aaae0ee72123e6747dce595c111685c2993d54118c0157bc6c3557db083",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "28240027b64ae3920415d8c458fdc95e51a32a720a3e477fb1872021a1d9c4f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d3002bf9dfac3acdc1fab2322690a3261741665664d8d7311e399deff3820489",
+      "status": "ok",
+      "text": "{\"source_related\":[\"firebomb\",\"bank\",\"Greece\"],\"target_related\":[\"people\",\"three\"],\"mediators\":[\"bank\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "86901e3cf02a728314842640716da04b4a6c27d5b55a286df7c5f60cea463c03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'A firebomb attack ... killed at least three people' — 'killed' directly links the attack as cause of deaths; attack precedes killing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "180c461f71ba9eb5d7c6fd3f5eccfabd6a374c71a6ec2c570a797e85e54dd0f9",
+    "180c461f71ba9eb5d7c6fd3f5eccfabd6a374c71a6ec2c570a797e85e54dd0f9",
+    "18fa4aaae0ee72123e6747dce595c111685c2993d54118c0157bc6c3557db083",
+    "28240027b64ae3920415d8c458fdc95e51a32a720a3e477fb1872021a1d9c4f7",
+    "d3002bf9dfac3acdc1fab2322690a3261741665664d8d7311e399deff3820489",
+    "86901e3cf02a728314842640716da04b4a6c27d5b55a286df7c5f60cea463c03"
+  ],
+  "elapsed_s": 4.627007722854614
+}

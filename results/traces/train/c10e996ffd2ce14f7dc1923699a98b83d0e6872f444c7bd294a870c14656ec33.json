@@ -1,0 +1,63 @@
+{
+  "input_hash": "c10e996ffd2ce14f7dc1923699a98b83d0e6872f444c7bd294a870c14656ec33",
+  "sample_id": "ESC-CSV-00005",
+  "scope": "intra",
+  "split": "train",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Lohan",
+    "actress",
+    "judge",
+    "placement"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9ae591650c46ac56cf37bb1bc7ab206249bb8bcb3752b6945d2b6172065aa7f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9ae591650c46ac56cf37bb1bc7ab206249bb8bcb3752b6945d2b6172065aa7f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "58d3121a9750217e3a24e2ea2effe474c954a0e50dc045be4e16efb7cfb237f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "327a88e016f832548049037370ec185993f05998e21b99a85edc6c1cefaa677a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "edead5eacdc2959e9837dd2b8c2aa81c1a924e0318f9ddbaff3d37a3585b32de",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lohan\",\"Morningside Recovery\",\"actress\",\"judge\",\"placement\"],\"target_related\":[\"Lohan\",\"actress\",\"judge\",\"placement\",\"allowed\"],\"mediators\":[\"Lohan\",\"actress\",\"judge\",\"placement\"]}"
+    },
+    "indirect": {
+      "call_id": "c21432e46ba2c0a62a60144b8ff1c1656113d799649be86b9e7c303aacd45f73",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Heller argued Lohan was settling in and should be allowed to stay; settling in is offered as a reason for staying, but no explicit or implicit causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "9ae591650c46ac56cf37bb1bc7ab206249bb8bcb3752b6945d2b6172065aa7f2",
+    "9ae591650c46ac56cf37bb1bc7ab206249bb8bcb3752b6945d2b6172065aa7f2",
+    "58d3121a9750217e3a24e2ea2effe474c954a0e50dc045be4e16efb7cfb237f6",
+    "327a88e016f832548049037370ec185993f05998e21b99a85edc6c1cefaa677a",
+    "edead5eacdc2959e9837dd2b8c2aa81c1a924e0318f9ddbaff3d37a3585b32de",
+    "c21432e46ba2c0a62a60144b8ff1c1656113d799649be86b9e7c303aacd45f73"
+  ],
+  "elapsed_s": 5.968152761459351
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "0f549faaaa29764f7743b67b0348570e6c3c7e25bbd84b441b864629e93ffd78",
+  "sample_id": "ESC-CSV-02644",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "bottle",
+    "head",
+    "smashed",
+    "projectiles",
+    "hurled",
+    "cops",
+    "riot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ecba7f1dcd1c3f30153cff022c0f691a5faecbcdd5f669d77fc4bbf2d14becbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ecba7f1dcd1c3f30153cff022c0f691a5faecbcdd5f669d77fc4bbf2d14becbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf1dc21c0accac5c642604bddf90bd1af428e9ce9c2802747ff088f3b917fdd7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "761b0ee473353a6c36329eb23b97cc54861b20d3f52af7310c353b616db4bbef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2afe4a52e6368ad4830d77d8c4719d61ce07d3cb7b1309ddc9ebc10dd1a9885c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"riot\",\"projectiles\",\"hurled\",\"cops\",\"smashed\",\"bottle\",\"head\",\"Anger\",\"death\",\"shot\",\"killed\",\"police\"],\"target_related\":[\"bottle\",\"head\",\"pharmacy\",\"customer\",\"smashed\",\"projectiles\",\"hurled\",\"cops\",\"riot\"],\"mediators\":[\"bottle\",\"head\",\"smashed\",\"projectiles\",\"hurled\",\"cops\",\"riot\"]}"
+    },
+    "indirect": {
+      "call_id": "aeeb143658a246b8e8bfd74fc5c8e74c01b67c05d3c730c15b4149b05c37008b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Anger over the death fueled a riot; during the violence a bottle was bashed over a customer's head, linking violence to the bashing.\"}"
+    }
+  },
+  "call_ids": [
+    "ecba7f1dcd1c3f30153cff022c0f691a5faecbcdd5f669d77fc4bbf2d14becbf",
+    "ecba7f1dcd1c3f30153cff022c0f691a5faecbcdd5f669d77fc4bbf2d14becbf",
+    "cf1dc21c0accac5c642604bddf90bd1af428e9ce9c2802747ff088f3b917fdd7",
+    "761b0ee473353a6c36329eb23b97cc54861b20d3f52af7310c353b616db4bbef",
+    "2afe4a52e6368ad4830d77d8c4719d61ce07d3cb7b1309ddc9ebc10dd1a9885c",
+    "aeeb143658a246b8e8bfd74fc5c8e74c01b67c05d3c730c15b4149b05c37008b"
+  ],
+  "elapsed_s": 4.6693196296691895
+}

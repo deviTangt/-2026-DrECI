@@ -1,0 +1,60 @@
+{
+  "input_hash": "a2dbb9b9860699f260140a2ae954a1bb8fa80be5c882f204d337db46ad621a2b",
+  "sample_id": "ESC-CSV-04252",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "sliding"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e5e5299fac4dd10b99ffe6edf1b5939f8ac6295b346e42cbc5e5a791040722b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e5e5299fac4dd10b99ffe6edf1b5939f8ac6295b346e42cbc5e5a791040722b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3198b6369b1b7c81f90d8dc9b62d18924650f8b180f1e93de83ca00b799d73ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f89010d5fe4c67c512d6b9761ce57ae943051f2ec1af002554360a3df98c996e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "527ef43067e5a8f2b6c04208531d7bf5774357670d19fd0166c628e29e787756",
+      "status": "ok",
+      "text": "{\"source_related\":[\"slope\",\"cliff\",\"sliding\"],\"target_related\":[\"walking\",\"hut\",\"sliding\"],\"mediators\":[\"sliding\"]}"
+    },
+    "indirect": {
+      "call_id": "1642e4f630b84ff96deaee6f0986e6b20ae450d4729c2f6c8d8d35a998e287d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling caused him to slide down the slope; the fall precedes and leads to sliding, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "9e5e5299fac4dd10b99ffe6edf1b5939f8ac6295b346e42cbc5e5a791040722b",
+    "9e5e5299fac4dd10b99ffe6edf1b5939f8ac6295b346e42cbc5e5a791040722b",
+    "3198b6369b1b7c81f90d8dc9b62d18924650f8b180f1e93de83ca00b799d73ba",
+    "f89010d5fe4c67c512d6b9761ce57ae943051f2ec1af002554360a3df98c996e",
+    "527ef43067e5a8f2b6c04208531d7bf5774357670d19fd0166c628e29e787756",
+    "1642e4f630b84ff96deaee6f0986e6b20ae450d4729c2f6c8d8d35a998e287d8"
+  ],
+  "elapsed_s": 4.765484809875488
+}

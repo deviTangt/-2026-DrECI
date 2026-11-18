@@ -1,0 +1,63 @@
+{
+  "input_hash": "ea465e8a09dcc9c66b18f7a2a3e4d584a38a5d07a8a6792df124b11aad7d52cc",
+  "sample_id": "ESC-CSV-04636",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paris",
+    "Casty",
+    "Shop",
+    "Jewellery"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4c116f97bc3d4a70aedb73ffb609e65c487406e47ccbccdec92e4f391cca0e50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4c116f97bc3d4a70aedb73ffb609e65c487406e47ccbccdec92e4f391cca0e50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "227cd9de65a08b1ec10a0979ff3c33b1159c1c56e9bbfd317bc2be8944d1d7ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d95592f8ba2734c0152d4e8629f990f2ffb6f59c562d790ed604097aa1fc3025",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b3328f85c55041335b2da3d372bdaa7f1eb6d5fd5af4ba519b16d3ac4d8edb9a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paris\",\"Casty\",\"Shop\",\"Jewellery\"],\"target_related\":[\"Paris\",\"Casty\",\"Shop\",\"Jewellery\"],\"mediators\":[\"Paris\",\"Casty\",\"Shop\",\"Jewellery\"]}"
+    },
+    "indirect": {
+      "call_id": "d91ecab4d796ee153e16e74c8b8340c1430f97c3bb2d66cf4f3dfb3ddc284b60",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Headline 'Jewellery Stolen In Casty Shop Raid' uses 'in' linking the raid to the theft; a raid causing jewellery to be stolen follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4c116f97bc3d4a70aedb73ffb609e65c487406e47ccbccdec92e4f391cca0e50",
+    "4c116f97bc3d4a70aedb73ffb609e65c487406e47ccbccdec92e4f391cca0e50",
+    "227cd9de65a08b1ec10a0979ff3c33b1159c1c56e9bbfd317bc2be8944d1d7ad",
+    "d95592f8ba2734c0152d4e8629f990f2ffb6f59c562d790ed604097aa1fc3025",
+    "b3328f85c55041335b2da3d372bdaa7f1eb6d5fd5af4ba519b16d3ac4d8edb9a",
+    "d91ecab4d796ee153e16e74c8b8340c1430f97c3bb2d66cf4f3dfb3ddc284b60"
+  ],
+  "elapsed_s": 4.072419881820679
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "fc8897288f9267b2377375a687b64b546ef5f9763d10e850921ad08f1730b15e",
+  "sample_id": "ESC-CSV-01944",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5f558fcfef64f726c3a3774a44f1c12eb7683ae17c073696cdf114a4c74c6259",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5f558fcfef64f726c3a3774a44f1c12eb7683ae17c073696cdf114a4c74c6259",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d14825d192ad2d1f6ce0721b80736498d22ca27cf647ce945b1fd7ad538e14a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "85df41e2a1422f7bccd65fb72b777499a9991fc7e1a22e0474097cf6278d11ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "931b3441c8da12830c2ff54bf917d4b093ee9babc5243d6453fb0bae8d98d399",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"handgun\",\"murder\",\"attempted murder\"],\"target_related\":[\"Orozco\",\"Lakewood Stn\",\"Sheriff's Deputy Jerry Ortiz\",\"Hawaiian Gardens Gangmember\"],\"mediators\":[\"Orozco\"]}"
+    },
+    "indirect": {
+      "call_id": "9139a2acfaf9a62e19a47541c0aa794c2eae394dfbe9a17c95b19ecb966fdca2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Orozco used a handgun to commit the murder; the act of committing (X) through Orozco (Z) caused the murdering (Y), forming a chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "5f558fcfef64f726c3a3774a44f1c12eb7683ae17c073696cdf114a4c74c6259",
+    "5f558fcfef64f726c3a3774a44f1c12eb7683ae17c073696cdf114a4c74c6259",
+    "d14825d192ad2d1f6ce0721b80736498d22ca27cf647ce945b1fd7ad538e14a5",
+    "85df41e2a1422f7bccd65fb72b777499a9991fc7e1a22e0474097cf6278d11ab",
+    "931b3441c8da12830c2ff54bf917d4b093ee9babc5243d6453fb0bae8d98d399",
+    "9139a2acfaf9a62e19a47541c0aa794c2eae394dfbe9a17c95b19ecb966fdca2"
+  ],
+  "elapsed_s": 5.583443641662598
+}

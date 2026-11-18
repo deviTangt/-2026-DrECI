@@ -1,0 +1,60 @@
+{
+  "input_hash": "24c1c326e5180b7a34549336342a52bc08c8f9c887ad42f6c698eb0001067bb1",
+  "sample_id": "ESC-CSV-01716",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "killer"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "18b1ce167b48772a899e840e608663d498d599424b03ccda6095f845ebdc76cf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "18b1ce167b48772a899e840e608663d498d599424b03ccda6095f845ebdc76cf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cd991fb7cfda2849f40b922dc19254f7c508094ba4929154dff59d9c31b5a953",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7f42d074193734dd815b003165369b713cd786779012d4faca549489e8fe902b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "928f97b531907f7a9926f1d44729892775f677279ea56db75819b4986e4e1edf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"He\",\"head\",\"dying\",\"ground\",\"killer\"],\"target_related\":[\"killer\",\"away\",\"hide\"],\"mediators\":[\"killer\"]}"
+    },
+    "indirect": {
+      "call_id": "739ac91ff1569a37b9d5495b09c4a78498b2f3a504cc04a2f873e134a39bec4e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The killer ran away after shooting the victim; the shooting did not cause the running, and no explicit or implicit causal word links shot and ran.\"}"
+    }
+  },
+  "call_ids": [
+    "18b1ce167b48772a899e840e608663d498d599424b03ccda6095f845ebdc76cf",
+    "18b1ce167b48772a899e840e608663d498d599424b03ccda6095f845ebdc76cf",
+    "cd991fb7cfda2849f40b922dc19254f7c508094ba4929154dff59d9c31b5a953",
+    "7f42d074193734dd815b003165369b713cd786779012d4faca549489e8fe902b",
+    "928f97b531907f7a9926f1d44729892775f677279ea56db75819b4986e4e1edf",
+    "739ac91ff1569a37b9d5495b09c4a78498b2f3a504cc04a2f873e134a39bec4e"
+  ],
+  "elapsed_s": 5.292101144790649
+}

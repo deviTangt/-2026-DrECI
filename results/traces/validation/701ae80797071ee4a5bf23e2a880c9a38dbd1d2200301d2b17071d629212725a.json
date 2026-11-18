@@ -1,0 +1,62 @@
+{
+  "input_hash": "701ae80797071ee4a5bf23e2a880c9a38dbd1d2200301d2b17071d629212725a",
+  "sample_id": "ESC-CSV-01920",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Orozco",
+    "handgun",
+    "attempted murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7e3fa30c3e4b2a20ccd81dc2676188d971a0c11b576953f3d37829fb3a8c2594",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7e3fa30c3e4b2a20ccd81dc2676188d971a0c11b576953f3d37829fb3a8c2594",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b8a5532eb51737d0ec8d99c41e10b6a64dc62c7d381304a1f8990cf57e99bfbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c514d092d4cb8df9a06ce58dfc10cef56c60cbd356a41375941384decbb6f8a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b603422c77aa96a2e6334e8da930b2a52a250735e52d52ed98c83088fac25141",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"Orozco\",\"handgun\",\"attempted murder\"],\"target_related\":[\"police officer\",\"arrest\",\"street gang\",\"lying in wait\",\"Orozco\",\"handgun\",\"attempted murder\"],\"mediators\":[\"Orozco\",\"handgun\",\"attempted murder\"]}"
+    },
+    "indirect": {
+      "call_id": "060479ef48e42b220ab5cc51c26ea81644c837d63dab9164cd70237b030cf12c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text states 'murder to avoid arrest', explicitly linking murder and arrest via the causation phrase 'to avoid'.\"}"
+    }
+  },
+  "call_ids": [
+    "7e3fa30c3e4b2a20ccd81dc2676188d971a0c11b576953f3d37829fb3a8c2594",
+    "7e3fa30c3e4b2a20ccd81dc2676188d971a0c11b576953f3d37829fb3a8c2594",
+    "b8a5532eb51737d0ec8d99c41e10b6a64dc62c7d381304a1f8990cf57e99bfbc",
+    "c514d092d4cb8df9a06ce58dfc10cef56c60cbd356a41375941384decbb6f8a7",
+    "b603422c77aa96a2e6334e8da930b2a52a250735e52d52ed98c83088fac25141",
+    "060479ef48e42b220ab5cc51c26ea81644c837d63dab9164cd70237b030cf12c"
+  ],
+  "elapsed_s": 5.908793926239014
+}

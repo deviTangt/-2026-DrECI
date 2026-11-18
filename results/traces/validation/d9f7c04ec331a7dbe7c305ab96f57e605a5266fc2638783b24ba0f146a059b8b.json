@@ -1,0 +1,62 @@
+{
+  "input_hash": "d9f7c04ec331a7dbe7c305ab96f57e605a5266fc2638783b24ba0f146a059b8b",
+  "sample_id": "ESC-CSV-02641",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "bottles",
+    "bottle"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da77d591c4399bec068f184e2bcdd7945227ec50f37eedd3ea65835df223f48d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da77d591c4399bec068f184e2bcdd7945227ec50f37eedd3ea65835df223f48d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bc9651722fba5e4228768e72bfe20303729a412465df01c5fe69c28569d3a04b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "38be54551cc35852d8fedab7e661f878dcaa128d3996a490ce1c80e4870e61f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "94ce35bd3656cf97c67b63bfdfac054ac5d980d72006814659c19aba4128a5a8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bottles\",\"cops\",\"mourners\",\"melee\",\"clashed\"],\"target_related\":[\"cops\",\"East Flatbush\",\"Brooklyn\",\"teenager\",\"police\",\"projectiles\",\"car windows\",\"pharmacy customer\",\"bottle\"],\"mediators\":[\"cops\",\"bottles\",\"bottle\"]}"
+    },
+    "indirect": {
+      "call_id": "7103d27408cb8c1e7eab69a8fea039bebb8181468cb2063c09229772ac2e312a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Tossing bottles created a melee; anger fueled a riot where projectiles were hurled. Tossing precedes and contributes to the riot.\"}"
+    }
+  },
+  "call_ids": [
+    "da77d591c4399bec068f184e2bcdd7945227ec50f37eedd3ea65835df223f48d",
+    "da77d591c4399bec068f184e2bcdd7945227ec50f37eedd3ea65835df223f48d",
+    "bc9651722fba5e4228768e72bfe20303729a412465df01c5fe69c28569d3a04b",
+    "38be54551cc35852d8fedab7e661f878dcaa128d3996a490ce1c80e4870e61f2",
+    "94ce35bd3656cf97c67b63bfdfac054ac5d980d72006814659c19aba4128a5a8",
+    "7103d27408cb8c1e7eab69a8fea039bebb8181468cb2063c09229772ac2e312a"
+  ],
+  "elapsed_s": 4.550122976303101
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "68ef2af37469830d5386ebeab96f9614bb11ace083f647293e0c573442a6cb25",
+  "sample_id": "ESC-CSV-02484",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Gray",
+    "March",
+    "9",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a4a317e7bbcdb0f665b400a480580e6db9fd46a8ca39fd2e15d6f445a1a9ca62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a4a317e7bbcdb0f665b400a480580e6db9fd46a8ca39fd2e15d6f445a1a9ca62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0e68baa94ff4b423aa6af21085e5eb42757192f6acead381ef42e016d1cb6c00",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8202869ce0b1b8aad69da78a6dcb9ae9a7bfa7d2903077ef7944aeb40482fb14",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "d0cad8a86a280249ca692b6c59976b2bab259e4b9e20d0b32d812dd30b924281",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Riots\",\"Erupt\",\"Brooklyn\",\"Teen\",\"Gray\",\"March\",\"9\",\"police\"],\"target_related\":[\"Gray\",\"March\",\"9\",\"police\",\"gun\",\"Sgt\",\"Mourad\",\"Officer\",\"Jovaniel\",\"Cordova\",\"fire\"],\"mediators\":[\"Gray\",\"March\",\"9\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "4f0e018518bc1373ee7eef74ddf2d7a02066b0884b90931de63af4790ce3c273",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'Gray was killed on March 9 by police' uses 'by' to explicitly link the killing (Y) to police action, and the death (X) results from being killed.\"}"
+    }
+  },
+  "call_ids": [
+    "a4a317e7bbcdb0f665b400a480580e6db9fd46a8ca39fd2e15d6f445a1a9ca62",
+    "a4a317e7bbcdb0f665b400a480580e6db9fd46a8ca39fd2e15d6f445a1a9ca62",
+    "0e68baa94ff4b423aa6af21085e5eb42757192f6acead381ef42e016d1cb6c00",
+    "8202869ce0b1b8aad69da78a6dcb9ae9a7bfa7d2903077ef7944aeb40482fb14",
+    "d0cad8a86a280249ca692b6c59976b2bab259e4b9e20d0b32d812dd30b924281",
+    "4f0e018518bc1373ee7eef74ddf2d7a02066b0884b90931de63af4790ce3c273"
+  ],
+  "elapsed_s": 11.94164514541626
+}

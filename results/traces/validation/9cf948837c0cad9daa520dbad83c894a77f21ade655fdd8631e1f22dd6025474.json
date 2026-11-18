@@ -1,0 +1,62 @@
+{
+  "input_hash": "9cf948837c0cad9daa520dbad83c894a77f21ade655fdd8631e1f22dd6025474",
+  "sample_id": "ESC-CSV-02168",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Anthony LaCalamita III",
+    "shot dead",
+    "violence"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f09eecd7d48bb3c6671644b8fafba528ce40e22addf61f94e6689ed7c18560df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f09eecd7d48bb3c6671644b8fafba528ce40e22addf61f94e6689ed7c18560df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "40508e33977b21f80968e3a873d7243305f0afd06f5ad169adfec422133a5a08",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8c88ad29f45a1ff7ac9a0f24a16e39c9e6275d1f88ec48a76771b59a45353058",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "090ce57383ff8036d5e1aeae97616098e56535c9677cdccd91e44dbadd84d8e7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"Anthony LaCalamita III\",\"shot dead\",\"shooting\",\"violence\"],\"target_related\":[\"Anthony LaCalamita III\",\"co-workers\",\"Gordon Advisors\",\"wounded\",\"shot dead\",\"violence\"],\"mediators\":[\"Anthony LaCalamita III\",\"shot dead\",\"violence\"]}"
+    },
+    "indirect": {
+      "call_id": "f8a0a664a21b9f6f8129c10443701ffd2c46b2c55e487a946eb6aed9807aa8b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being wounded results from being shot; the shooting caused the managers' wounds, so X (wounded) follows from Y (shooting) by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f09eecd7d48bb3c6671644b8fafba528ce40e22addf61f94e6689ed7c18560df",
+    "f09eecd7d48bb3c6671644b8fafba528ce40e22addf61f94e6689ed7c18560df",
+    "40508e33977b21f80968e3a873d7243305f0afd06f5ad169adfec422133a5a08",
+    "8c88ad29f45a1ff7ac9a0f24a16e39c9e6275d1f88ec48a76771b59a45353058",
+    "090ce57383ff8036d5e1aeae97616098e56535c9677cdccd91e44dbadd84d8e7",
+    "f8a0a664a21b9f6f8129c10443701ffd2c46b2c55e487a946eb6aed9807aa8b9"
+  ],
+  "elapsed_s": 6.588050842285156
+}

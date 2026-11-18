@@ -1,0 +1,61 @@
+{
+  "input_hash": "85d5a0b25635bdb2db53fcaa28ae31a4c9635f20aeffbc4316f20c06a2ef358d",
+  "sample_id": "ESC-CSV-01579",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gunman",
+    "Deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b51c2a006170f4d99e8856b481f167ddf88352e0cba5ef8f2ab8e4197f381ff0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b51c2a006170f4d99e8856b481f167ddf88352e0cba5ef8f2ab8e4197f381ff0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "28127363439545f4e14705244114dde7162131b4c6eff654efe1cd7e0e2bd1ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8986cdcc160c86eef0a645c1bcb99a3cca5502118cb45ee9825cc2aed65c65c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ab721d48317546dc370cbffb76ccbbf2ad7284509da3a06c3cbf86e3224935fb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"Gunman\"],\"target_related\":[\"Gunman\",\"Deputy\"],\"mediators\":[\"Gunman\",\"Deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "8470668bdc467c1ea54c514499fc0b639450f466cad5712d33c3ad03ce3cf871",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"\\\"attack that gave the deputy no chance\\\" and headline \\\"Gunman Kills...Deputy\\\" show the attack caused the killing; common sense also supports attack precedes death.\"}"
+    }
+  },
+  "call_ids": [
+    "b51c2a006170f4d99e8856b481f167ddf88352e0cba5ef8f2ab8e4197f381ff0",
+    "b51c2a006170f4d99e8856b481f167ddf88352e0cba5ef8f2ab8e4197f381ff0",
+    "28127363439545f4e14705244114dde7162131b4c6eff654efe1cd7e0e2bd1ce",
+    "8986cdcc160c86eef0a645c1bcb99a3cca5502118cb45ee9825cc2aed65c65c8",
+    "ab721d48317546dc370cbffb76ccbbf2ad7284509da3a06c3cbf86e3224935fb",
+    "8470668bdc467c1ea54c514499fc0b639450f466cad5712d33c3ad03ce3cf871"
+  ],
+  "elapsed_s": 6.180755615234375
+}

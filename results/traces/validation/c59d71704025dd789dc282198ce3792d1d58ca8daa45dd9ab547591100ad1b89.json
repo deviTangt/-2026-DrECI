@@ -1,0 +1,62 @@
+{
+  "input_hash": "c59d71704025dd789dc282198ce3792d1d58ca8daa45dd9ab547591100ad1b89",
+  "sample_id": "ESC-CSV-02288",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "office",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "807ba3a01c645c01d9aa54127d152b37e77efd3db711c3747ff2181c9afa23ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "807ba3a01c645c01d9aa54127d152b37e77efd3db711c3747ff2181c9afa23ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8ba045f40aac45321f33eb2bb9b5c15bbb9ec3d7b2e4a07d6e22bb1df8390ad6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "48b397cf42481974e002f5f85241ec171be0cb7cbb455e3a8c877cb28a87e227",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d997a93470ef7b9532737b5131561335cca9befbdee3a4d1190222b8e149cca1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"accountant\",\"shotgun\",\"bosses\",\"office\",\"fire\"],\"target_related\":[\"receptionist\",\"bosses\",\"wounding\",\"fire\",\"office\"],\"mediators\":[\"bosses\",\"office\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "231a39370d98d665bb30faf0eb99334d16d899086344133b84b1e1d78274706c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (opening fire) is the act that causes the receptionist's killing; shooting precedes and leads to death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "807ba3a01c645c01d9aa54127d152b37e77efd3db711c3747ff2181c9afa23ce",
+    "807ba3a01c645c01d9aa54127d152b37e77efd3db711c3747ff2181c9afa23ce",
+    "8ba045f40aac45321f33eb2bb9b5c15bbb9ec3d7b2e4a07d6e22bb1df8390ad6",
+    "48b397cf42481974e002f5f85241ec171be0cb7cbb455e3a8c877cb28a87e227",
+    "d997a93470ef7b9532737b5131561335cca9befbdee3a4d1190222b8e149cca1",
+    "231a39370d98d665bb30faf0eb99334d16d899086344133b84b1e1d78274706c"
+  ],
+  "elapsed_s": 7.164949417114258
+}

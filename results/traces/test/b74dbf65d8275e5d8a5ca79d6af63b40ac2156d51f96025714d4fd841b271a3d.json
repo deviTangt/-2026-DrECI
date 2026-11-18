@@ -1,0 +1,64 @@
+{
+  "input_hash": "b74dbf65d8275e5d8a5ca79d6af63b40ac2156d51f96025714d4fd841b271a3d",
+  "sample_id": "ESC-CSV-09271",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "building",
+    "torched",
+    "protests",
+    "Athens",
+    "harsh new austerity measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "291f575875a69285cffefb0ac8687cae64075e29b6cef7f411d296427e807aea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "291f575875a69285cffefb0ac8687cae64075e29b6cef7f411d296427e807aea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f75501ccd2ebe0a91115a0ae290e06ba06b8b842d2279635923b60e491fc142c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4e88561d23f83aad023c147760b26a7fb0fec18f1cfad3a6e6953f76b88fd06c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8d43adc9898cf0d465f398642ca6c5202f102cd78c723acf7195ad977a3c2e22",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"bank\",\"Three people\",\"died\",\"Wednesday\",\"tens of thousands of Greeks\",\"took to the streets\",\"protest\",\"harsh spending cuts\",\"saving the country from bankruptcy\",\"building\",\"torched\",\"protests\",\"Athens\",\"harsh new austerity measures\"],\"target_related\":[\"Greek prime minister\",\"denounced\",\"three bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"harsh new austerity measures\"],\"mediators\":[\"building\",\"torched\",\"protests\",\"Athens\",\"harsh new austerity measures\"]}"
+    },
+    "indirect": {
+      "call_id": "4a278f5733c0d3c50dc5362f4f6412d063a349a9913a31fd1d8e3645c24e184b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says the building 'was torched' and the prime minister denounced the 'murder' of workers killed when it went up in flames; torching caused deaths, called murder.\"}"
+    }
+  },
+  "call_ids": [
+    "291f575875a69285cffefb0ac8687cae64075e29b6cef7f411d296427e807aea",
+    "291f575875a69285cffefb0ac8687cae64075e29b6cef7f411d296427e807aea",
+    "f75501ccd2ebe0a91115a0ae290e06ba06b8b842d2279635923b60e491fc142c",
+    "4e88561d23f83aad023c147760b26a7fb0fec18f1cfad3a6e6953f76b88fd06c",
+    "8d43adc9898cf0d465f398642ca6c5202f102cd78c723acf7195ad977a3c2e22",
+    "4a278f5733c0d3c50dc5362f4f6412d063a349a9913a31fd1d8e3645c24e184b"
+  ],
+  "elapsed_s": 5.32439661026001
+}

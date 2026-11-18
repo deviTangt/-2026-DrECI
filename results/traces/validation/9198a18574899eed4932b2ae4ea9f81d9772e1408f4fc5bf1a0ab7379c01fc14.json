@@ -1,0 +1,63 @@
+{
+  "input_hash": "9198a18574899eed4932b2ae4ea9f81d9772e1408f4fc5bf1a0ab7379c01fc14",
+  "sample_id": "ESC-CSV-02882",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officers",
+    "gun",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c84bc8665443c1d6ce58941329a0914d200cee2dd5f551bce5483791c34af003",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c84bc8665443c1d6ce58941329a0914d200cee2dd5f551bce5483791c34af003",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f45fd1b66b1e6717061776a6b2b9830f27573a6dfca6ec309ff886993f95adcd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a50af443c9a3aa497b583f1882cb71ac5c594e44cff44c7e868fa8d48fe1910c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e0d39beb01ecbfbbcfb591365e83650c02445bc1b5f3e429ec92b39f34a30e28",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officers\",\"gun\",\"cops\"],\"target_related\":[\"police\",\"officers\",\"gun\",\"cops\"],\"mediators\":[\"police\",\"officers\",\"gun\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "f91670ace27a4fd92ce2a7df38fd6302da6a3b2cade305c118fb07360b543a69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting precedes and causes the death; common sense: officers shot him, and the shooting killed him.\"}"
+    }
+  },
+  "call_ids": [
+    "c84bc8665443c1d6ce58941329a0914d200cee2dd5f551bce5483791c34af003",
+    "c84bc8665443c1d6ce58941329a0914d200cee2dd5f551bce5483791c34af003",
+    "f45fd1b66b1e6717061776a6b2b9830f27573a6dfca6ec309ff886993f95adcd",
+    "a50af443c9a3aa497b583f1882cb71ac5c594e44cff44c7e868fa8d48fe1910c",
+    "e0d39beb01ecbfbbcfb591365e83650c02445bc1b5f3e429ec92b39f34a30e28",
+    "f91670ace27a4fd92ce2a7df38fd6302da6a3b2cade305c118fb07360b543a69"
+  ],
+  "elapsed_s": 4.338310956954956
+}

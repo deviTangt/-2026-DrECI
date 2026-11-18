@@ -1,0 +1,64 @@
+{
+  "input_hash": "76add0f18a16c7e1fb8ca17cd8137c212d425223d7003fa2979d57b9e1c52da1",
+  "sample_id": "ESC-CSV-02431",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "police van",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "44db2fc26ed30a12dd9b3c40e43a88c1e6dd26d0e800147291964824c8ecef88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "44db2fc26ed30a12dd9b3c40e43a88c1e6dd26d0e800147291964824c8ecef88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "45ea4b9b8789b86c7cfb4a4b3f620a49dc1350de24b26270847979bb3228b86b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ec9eedf2639ee6b34cb9305910ff2410feda14c3a94c8271ad0f5ce7cda49891",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "33ea3719c9ad572087b6777161221a02649ab2ff7f3d861b0240a8053706df16",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teenager\",\"Police\",\"officer\",\"police van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"vigil\",\"mob\",\"protest\",\"police\",\"officer\",\"brick\",\"police van\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"police\",\"officer\",\"police van\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "adb6eca266f95343a9dfc37aca3c375c3ae7588d1eae7824771262a0e04411c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Title: 'Anger in East Flatbush Persists Over Teenager's Killing by the Police' — 'over' and 'by' explicitly link the killing to the anger.\"}"
+    }
+  },
+  "call_ids": [
+    "44db2fc26ed30a12dd9b3c40e43a88c1e6dd26d0e800147291964824c8ecef88",
+    "44db2fc26ed30a12dd9b3c40e43a88c1e6dd26d0e800147291964824c8ecef88",
+    "45ea4b9b8789b86c7cfb4a4b3f620a49dc1350de24b26270847979bb3228b86b",
+    "ec9eedf2639ee6b34cb9305910ff2410feda14c3a94c8271ad0f5ce7cda49891",
+    "33ea3719c9ad572087b6777161221a02649ab2ff7f3d861b0240a8053706df16",
+    "adb6eca266f95343a9dfc37aca3c375c3ae7588d1eae7824771262a0e04411c0"
+  ],
+  "elapsed_s": 16.10589027404785
+}

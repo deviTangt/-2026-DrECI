@@ -1,0 +1,65 @@
+{
+  "input_hash": "89ee80aa4a519f9d114d90187d3b454e62b4c8b3c9aeeb0c1df39548a14949fc",
+  "sample_id": "ESC-CSV-02443",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "brick",
+    "van",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "953af7a86f6733313dd867b491e53f4545339bd5fb335a051219037153525745",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "953af7a86f6733313dd867b491e53f4545339bd5fb335a051219037153525745",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7756bf1a9f7a52a205e6d2ceceb65de12532f0265844efdf8f3cf17f6efb48ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2dfbde325fd55941241c630efdd9f4c50e9a199daeca6aa5fb3e961258cad66a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9bc093684391d56d74022345ee9b19c9942f1c21dabd1de518e253ed6cb96068",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"thrashing\",\"businesses\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"Monday\",\"night\",\"Wednesday\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "89e7a0985f48e7da6e2e5df4948ea0c13980dd3415c8dab3e56c78d78b25c783",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Anger precedes and plausibly motivates the protests: 'Then came the anger: a Monday evening vigil... a second protest the next night.'\"}"
+    }
+  },
+  "call_ids": [
+    "953af7a86f6733313dd867b491e53f4545339bd5fb335a051219037153525745",
+    "953af7a86f6733313dd867b491e53f4545339bd5fb335a051219037153525745",
+    "7756bf1a9f7a52a205e6d2ceceb65de12532f0265844efdf8f3cf17f6efb48ed",
+    "2dfbde325fd55941241c630efdd9f4c50e9a199daeca6aa5fb3e961258cad66a",
+    "9bc093684391d56d74022345ee9b19c9942f1c21dabd1de518e253ed6cb96068",
+    "89e7a0985f48e7da6e2e5df4948ea0c13980dd3415c8dab3e56c78d78b25c783"
+  ],
+  "elapsed_s": 17.628795862197876
+}

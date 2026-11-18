@@ -1,0 +1,68 @@
+{
+  "input_hash": "12e59e57fe55a93bb27b61d7004268ffada79c31ab8d5e06d8cdc5665adbc15f",
+  "sample_id": "ESC-CSV-06838",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "suspect",
+    "Andrew Lopez",
+    "teens",
+    "Tuesday",
+    "Friday",
+    "Brownsville",
+    "school",
+    "life",
+    "Zurana Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad72970504206b67a6e2e424c51d9ce38b789323cd65e996035d73c38efdf452",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad72970504206b67a6e2e424c51d9ce38b789323cd65e996035d73c38efdf452",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4c7d6665e753f0338bd03ff86d258d9869a84db7db6daca734d4e6f304a51ad5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a8d45315d291bc65cef5262a72958796187966fc89990d4779c0ca7ec84a2583",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4317683bb40c73cc56c73cccdc488b5a6d87fd8ae9ef6193f45320508b29059c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"suspect\",\"Andrew Lopez\",\"teens\",\"Tuesday\",\"Friday\",\"Brownsville\",\"school\",\"life\",\"Zurana Horton\"],\"target_related\":[\"suspect\",\"Andrew Lopez\",\"teens\",\"Tuesday\",\"shooting\",\"Friday\",\"Brownsville\",\"school\",\"life\",\"Zurana Horton\"],\"mediators\":[\"suspect\",\"Andrew Lopez\",\"teens\",\"Tuesday\",\"Friday\",\"Brownsville\",\"school\",\"life\",\"Zurana Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "dcadbc77bbfedd3c43c98de3914dd2be9dfdbb7e0bed6a3a62176eae292e8a7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred last Friday; the suspects were arrested on Tuesday for that shooting, so the shooting preceded and caused the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "ad72970504206b67a6e2e424c51d9ce38b789323cd65e996035d73c38efdf452",
+    "ad72970504206b67a6e2e424c51d9ce38b789323cd65e996035d73c38efdf452",
+    "4c7d6665e753f0338bd03ff86d258d9869a84db7db6daca734d4e6f304a51ad5",
+    "a8d45315d291bc65cef5262a72958796187966fc89990d4779c0ca7ec84a2583",
+    "4317683bb40c73cc56c73cccdc488b5a6d87fd8ae9ef6193f45320508b29059c",
+    "dcadbc77bbfedd3c43c98de3914dd2be9dfdbb7e0bed6a3a62176eae292e8a7f"
+  ],
+  "elapsed_s": 5.205533504486084
+}

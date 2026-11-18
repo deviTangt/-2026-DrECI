@@ -1,0 +1,63 @@
+{
+  "input_hash": "4162a36af9798d1925b1eaefe25e5a2d6969265d005b24d50888b4680a935f49",
+  "sample_id": "ESC-CSV-06789",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew",
+    "Lopez",
+    "fired",
+    "rooftop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e76ec5c8e6a80d8fe269b8e767b95cb5e8fb0b9ac22c866bbd02a051bda584a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e76ec5c8e6a80d8fe269b8e767b95cb5e8fb0b9ac22c866bbd02a051bda584a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "74f18e320cbc1d7adc964ff6e43184d957e719b738f602f7d323c42902a11882",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d9fb351a8fe8a5fcee713a9a26cf70db370f12db4be9e8cea593e0fda04c7052",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cc1f66c665358fac08e7d75ab90d983aa60aa91100da7c5189cd5ce75286ff30",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jonathan\",\"Carrasquillo\",\"brother\",\"Andrew\",\"Lopez\",\"fired\",\"rooftop\"],\"target_related\":[\"Horton\",\"Unique\",\"Armstead\",\"girl\",\"walking\",\"fired\",\"rooftop\"],\"mediators\":[\"Andrew\",\"Lopez\",\"fired\",\"rooftop\"]}"
+    },
+    "indirect": {
+      "call_id": "91fd8f215456a8f48514da69daf05ed71f110039402b8e00682626c5ce2996e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,6],\"evidence\":\"'fired ... on the orders' shows explicit causation; chain: orders -> Andrew Lopez fired -> Horton shot.\"}"
+    }
+  },
+  "call_ids": [
+    "e76ec5c8e6a80d8fe269b8e767b95cb5e8fb0b9ac22c866bbd02a051bda584a4",
+    "e76ec5c8e6a80d8fe269b8e767b95cb5e8fb0b9ac22c866bbd02a051bda584a4",
+    "74f18e320cbc1d7adc964ff6e43184d957e719b738f602f7d323c42902a11882",
+    "d9fb351a8fe8a5fcee713a9a26cf70db370f12db4be9e8cea593e0fda04c7052",
+    "cc1f66c665358fac08e7d75ab90d983aa60aa91100da7c5189cd5ce75286ff30",
+    "91fd8f215456a8f48514da69daf05ed71f110039402b8e00682626c5ce2996e7"
+  ],
+  "elapsed_s": 4.451753377914429
+}

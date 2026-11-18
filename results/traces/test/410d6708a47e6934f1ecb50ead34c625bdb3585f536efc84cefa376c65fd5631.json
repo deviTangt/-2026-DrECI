@@ -1,0 +1,67 @@
+{
+  "input_hash": "410d6708a47e6934f1ecb50ead34c625bdb3585f536efc84cefa376c65fd5631",
+  "sample_id": "ESC-CSV-09276",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "building",
+    "bank",
+    "workers",
+    "killed",
+    "murder",
+    "Athens",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ab875e3dee86bb4a6f65539c9d6611e5be42b17295c962594065b528c2ef23bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ab875e3dee86bb4a6f65539c9d6611e5be42b17295c962594065b528c2ef23bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d3c3911f9b82d0eaf67983e3c23dbac31599230fe8218dfbd1e1c2d45c7104df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "369116bea6e27ba61b5f8a93788faf2e4a92295c724b09f24cbaf3a712bc01d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dee0ac3eb8e549cf1c830e8cbba36e578e93d559dae8f0d726c051a1b14614dd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"austerity\",\"measures\",\"building\",\"bank\",\"workers\",\"killed\",\"murder\",\"Greek\",\"prime\",\"minister\"],\"target_related\":[\"building\",\"bank\",\"workers\",\"killed\",\"murder\",\"Athens\",\"protests\",\"austerity\",\"measures\"],\"mediators\":[\"building\",\"bank\",\"workers\",\"killed\",\"murder\",\"Athens\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "a3b2657bf1c9f017531baaa21969ffe4216073b296cfcb3615d56be219342f3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'torched during protests' — 'during' links the torching to the protests; common sense: protests precede and cause the building being torched.\"}"
+    }
+  },
+  "call_ids": [
+    "ab875e3dee86bb4a6f65539c9d6611e5be42b17295c962594065b528c2ef23bd",
+    "ab875e3dee86bb4a6f65539c9d6611e5be42b17295c962594065b528c2ef23bd",
+    "d3c3911f9b82d0eaf67983e3c23dbac31599230fe8218dfbd1e1c2d45c7104df",
+    "369116bea6e27ba61b5f8a93788faf2e4a92295c724b09f24cbaf3a712bc01d3",
+    "dee0ac3eb8e549cf1c830e8cbba36e578e93d559dae8f0d726c051a1b14614dd",
+    "a3b2657bf1c9f017531baaa21969ffe4216073b296cfcb3615d56be219342f3e"
+  ],
+  "elapsed_s": 4.807305097579956
+}

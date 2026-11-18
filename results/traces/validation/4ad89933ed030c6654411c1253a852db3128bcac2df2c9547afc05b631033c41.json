@@ -1,0 +1,63 @@
+{
+  "input_hash": "4ad89933ed030c6654411c1253a852db3128bcac2df2c9547afc05b631033c41",
+  "sample_id": "ESC-CSV-02957",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "protest",
+    "16-year-old",
+    "Brooklyn"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "db0d7d15e7626c41c0937121a269f90d65c030175d5175f81d6d390fbf4080df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "db0d7d15e7626c41c0937121a269f90d65c030175d5175f81d6d390fbf4080df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f1e554ffb21f3b3dc6d5aff78aabfe666e05d8dde35caaf115f342dc3a484764",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8928bf0203c7d9a5ebdd28c1673f0dfacc1c75c5345a06d4d36493b77a85cfa3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1a991cc266f2591911492313fc6798a50333000b9e0a9a7823bf5559d8f56767",
+      "status": "ok",
+      "text": "{\"source_related\":[\"16-year-old\",\"shot\",\"NYPD\",\"cops\",\"armed\",\"death\",\"vigil\",\"protest\"],\"target_related\":[\"teenagers\",\"Brooklyn\",\"streets\",\"young\",\"people\",\"NYPD\",\"officers\",\"protest\",\"chaos\",\"lashing\"],\"mediators\":[\"NYPD\",\"protest\",\"16-year-old\",\"Brooklyn\"]}"
+    },
+    "indirect": {
+      "call_id": "76ae6fadb839a51d03bac3e028d1ab6266c6649476dcb37c00c28e4aefad77e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The vigil for the teen shot dead turned into a riot; the death implicitly provoked/sparked the riot, and death precedes riot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "db0d7d15e7626c41c0937121a269f90d65c030175d5175f81d6d390fbf4080df",
+    "db0d7d15e7626c41c0937121a269f90d65c030175d5175f81d6d390fbf4080df",
+    "f1e554ffb21f3b3dc6d5aff78aabfe666e05d8dde35caaf115f342dc3a484764",
+    "8928bf0203c7d9a5ebdd28c1673f0dfacc1c75c5345a06d4d36493b77a85cfa3",
+    "1a991cc266f2591911492313fc6798a50333000b9e0a9a7823bf5559d8f56767",
+    "76ae6fadb839a51d03bac3e028d1ab6266c6649476dcb37c00c28e4aefad77e0"
+  ],
+  "elapsed_s": 4.968675136566162
+}

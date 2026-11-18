@@ -1,0 +1,61 @@
+{
+  "input_hash": "0a184dff61c4ced4fbb9431cb19b334329d57b25c73ffe5ac4959e62b5723940",
+  "sample_id": "ESC-CSV-06623",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "youths",
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f72065c19ae3bef112695c88f2b0a848f83f80c3337007629ab3d819df4fe42e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f72065c19ae3bef112695c88f2b0a848f83f80c3337007629ab3d819df4fe42e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "39d8ee21318d80296bf5bde2c9e6feb9d73ccb54572259f11c0c573d6a8e5547",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "196915caefb713e0492b43b5faf57c0d18c080ee99f759e1d061d40b70d27c96",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "caeb1de3e3ab0f58a0e83738d24b87f18280aff753f5de333dffdb372082ad77",
+      "status": "ok",
+      "text": "{\"source_related\":[\"youths\",\"murdering\",\"Horton\"],\"target_related\":[\"Prosecutors\",\"footage\",\"youths\",\"Mothers\",\"Horton\",\"testified\"],\"mediators\":[\"youths\",\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "9be9595410797da812a42de146ca01dfed6d16be49c16a38aec2a9853fd3225b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text states the youths were charged with murder and the footage was shown at their trial; being charged does not cause the trial, so no causal rule applies.\"}"
+    }
+  },
+  "call_ids": [
+    "f72065c19ae3bef112695c88f2b0a848f83f80c3337007629ab3d819df4fe42e",
+    "f72065c19ae3bef112695c88f2b0a848f83f80c3337007629ab3d819df4fe42e",
+    "39d8ee21318d80296bf5bde2c9e6feb9d73ccb54572259f11c0c573d6a8e5547",
+    "196915caefb713e0492b43b5faf57c0d18c080ee99f759e1d061d40b70d27c96",
+    "caeb1de3e3ab0f58a0e83738d24b87f18280aff753f5de333dffdb372082ad77",
+    "9be9595410797da812a42de146ca01dfed6d16be49c16a38aec2a9853fd3225b"
+  ],
+  "elapsed_s": 4.996009111404419
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "d0572713f308feb3fced732bed8ce306318082c61293a6f7f744ea7e37298c39",
+  "sample_id": "ESC-CSV-01818",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7432be7faa8eb166582f0fa2886e4b450e4bf75192073dbcfa426cb11c393067",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7432be7faa8eb166582f0fa2886e4b450e4bf75192073dbcfa426cb11c393067",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "50bb72161999eb48d496dbfeee5753cde9c5561844b3f7d6d674707122f14404",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b46c74128ce7b7ba7800a9bd30b1eb8d86c6bcf0e8b7fd04ee99bd38478269ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ce5fd2291256437442f935175d1f3e26a458f8e41350787a038cf900f82cd454",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"shooting\",\"suspect\",\"June 20\"],\"target_related\":[\"Ortiz\",\"Sheriff Deputy\",\"June 24\",\"2005\",\"apartment\",\"Hawaiian Gardens\",\"Orozco\",\"handgun\",\"murder\",\"attempted murder\"],\"mediators\":[\"Orozco\"]}"
+    },
+    "indirect": {
+      "call_id": "dc4204f0a1294bfa1230f243f633a8d56b8bc1265359f7096d305c4b595a6f03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Deputy Ortiz was killed while investigating a shooting; the investigation (X) preceded and led to the killing (Y), consistent with causal order/common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "7432be7faa8eb166582f0fa2886e4b450e4bf75192073dbcfa426cb11c393067",
+    "7432be7faa8eb166582f0fa2886e4b450e4bf75192073dbcfa426cb11c393067",
+    "50bb72161999eb48d496dbfeee5753cde9c5561844b3f7d6d674707122f14404",
+    "b46c74128ce7b7ba7800a9bd30b1eb8d86c6bcf0e8b7fd04ee99bd38478269ee",
+    "ce5fd2291256437442f935175d1f3e26a458f8e41350787a038cf900f82cd454",
+    "dc4204f0a1294bfa1230f243f633a8d56b8bc1265359f7096d305c4b595a6f03"
+  ],
+  "elapsed_s": 5.3441853523254395
+}

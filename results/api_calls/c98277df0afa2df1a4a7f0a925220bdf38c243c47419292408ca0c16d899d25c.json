@@ -1,0 +1,100 @@
+{
+  "call_id": "c98277df0afa2df1a4a7f0a925220bdf38c243c47419292408ca0c16d899d25c",
+  "stage": "mediator",
+  "request": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert in Entity Extraction. You are good at extracting entities associated with source event and target event from the context text given to you. Note that the associated entities are at word level."
+      },
+      {
+        "role": "user",
+        "content": "\"text\": Police said 12 people were injured in the riots . Firefighters extinguished blazes at least two buildings the bank and a branch of the Finance Ministry while protesters set up burning barricades and torched cars and a fire truck .\n\"source event\": riots,\n\"target event\": burning,   \nQuestion: Please give the entity that the source event and target event are related to.\n###\nPlease follow the following process to answer the  Question:\n\n        - Subquestion 1:Please search for all events or entities associated with the event \"riots\" from \"Police said 12 people were injured in the riots . Firefighters extinguished blazes at least two buildings the bank and a branch of the Finance Ministry while protesters set up burning barricades and torched cars and a fire truck .\", except the event \"riots\" itself.\n        - Answer to subquestion 1:(answer me at word level, such as \"stay\", \"begged\", \"locked up\",\"John\",\"person\".)\n\n        - Subquestion 2:Please search for all events or entities associated with the event \"burning\" from \"Police said 12 people were injured in the riots . Firefighters extinguished blazes at least two buildings the bank and a branch of the Finance Ministry while protesters set up burning barricades and torched cars and a fire truck .\", except the event \"burning\" itself.\n        - Answer to subquestion 2:(answer me at word level, such as \"stay\", \"begged\", \"locked up\",\"John\",\"person\".)\n\n        - Subquestion 3:Please find all events or entities in 'Police said 12 people were injured in the riots . Firefighters extinguished blazes at least two buildings the bank and a branch of the Finance Ministry while protesters set up burning barricades and torched cars and a fire truck .' that are associated with event 'riots' and event 'burning', except event 'riots' and event 'burning' themselves.\n        - Answer to subquestion 3:(answer me at word level, such as \"stay\", \"begged\", \"locked up\",\"John\",\"person\".)\n\n        - Subquestion 4: According to the previous Subquestion 3, if there are entities associated with event 'riots' and event 'burning', except event 'riots' and event 'burning' themselves. Give these entities in json format, such as {[\"Entity 1\", \"Entity 2\",...]}. If they do not exist, answer directly {\"No\"}.\n        - Answer to subquestion 4:\n    \nOutput the results of the four subquestions in ONE valid JSON object, without markdown:\n{\"source_related\":[\"word or phrase\"],\"target_related\":[\"word or phrase\"],\"mediators\":[\"shared word or phrase\"]}.\nUse an empty list for mediators if there is no shared entity or event. Do not include source and target themselves in mediators."
+      }
+    ],
+    "temperature": 0,
+    "thinking": {
+      "type": "disabled"
+    },
+    "max_tokens": 512,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false
+  },
+  "attempts": [
+    {
+      "time_utc": "2026-11-03T11:13:18.628967+00:00",
+      "elapsed_s": 1.226015567779541,
+      "rates": {
+        "input_hit": 0.02,
+        "input_miss": 1.0,
+        "output": 4.0,
+        "unit": "CNY per million tokens",
+        "peak": false
+      },
+      "charge_upper_cny": 0.001001,
+      "error": null,
+      "response": {
+        "id": "3371f7a6-2d58-4757-9305-4d1d3993cc61",
+        "object": "chat.completion",
+        "created": 1793704397,
+        "model": "deepseek-flash",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"source_related\":[\"Police\",\"injured\",\"people\",\"protesters\",\"torched\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"barricades\",\"torched\",\"cars\",\"fire truck\"],\"mediators\":[\"protesters\",\"torched\",\"cars\",\"fire truck\"]}"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 677,
+          "completion_tokens": 81,
+          "total_tokens": 758,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 677
+        },
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+      }
+    }
+  ],
+  "response": {
+    "id": "3371f7a6-2d58-4757-9305-4d1d3993cc61",
+    "object": "chat.completion",
+    "created": 1793704397,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"source_related\":[\"Police\",\"injured\",\"people\",\"protesters\",\"torched\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"barricades\",\"torched\",\"cars\",\"fire truck\"],\"mediators\":[\"protesters\",\"torched\",\"cars\",\"fire truck\"]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 677,
+      "completion_tokens": 81,
+      "total_tokens": 758,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 677
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "charged_upper_cny": 0.001001,
+  "elapsed_s": 1.2260560989379883,
+  "status": "ok"
+}

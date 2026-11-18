@@ -1,0 +1,65 @@
+{
+  "input_hash": "e67f69722772705ba4442d3716ce0adbba2a4b9ee8625441ff77ef01af1cd312",
+  "sample_id": "ESC-CSV-09238",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "petrol bombs",
+    "bank",
+    "Athens",
+    "Wednesday",
+    "violence"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "492d1620931245795aabde96efa2aa5c16f50215b0cb5bd58ebe84842e9a8142",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "492d1620931245795aabde96efa2aa5c16f50215b0cb5bd58ebe84842e9a8142",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "30f84800f0326fdb0b82af297ead9cef51f48afc1d11c4f5d58c1c8db6641be1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "debd276393d922e6a9a2344e1a8c7e372ff57a74e97830f67ca0b00c0684d7dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "93590294892ab58e7cf1f0167f68fc842691eadf4aaea8d2dda137c84e36e1d0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"threw\",\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"anti-austerity\",\"march\",\"violence\"],\"target_related\":[\"Three people\",\"pregnant woman\",\"killed\",\"Greeks\",\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"violence\",\"3\"],\"mediators\":[\"Greeks\",\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"violence\"]}"
+    },
+    "indirect": {
+      "call_id": "921ce3da89469d5d5629490d1c064480f1ef65d7d411c2cb1598e756304c6956",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"\\\"killed when Greeks protesting ... threw petrol bombs\\\" — 'when' links protesting to the deaths; common sense: protest violence caused 3 dead.\"}"
+    }
+  },
+  "call_ids": [
+    "492d1620931245795aabde96efa2aa5c16f50215b0cb5bd58ebe84842e9a8142",
+    "492d1620931245795aabde96efa2aa5c16f50215b0cb5bd58ebe84842e9a8142",
+    "30f84800f0326fdb0b82af297ead9cef51f48afc1d11c4f5d58c1c8db6641be1",
+    "debd276393d922e6a9a2344e1a8c7e372ff57a74e97830f67ca0b00c0684d7dc",
+    "93590294892ab58e7cf1f0167f68fc842691eadf4aaea8d2dda137c84e36e1d0",
+    "921ce3da89469d5d5629490d1c064480f1ef65d7d411c2cb1598e756304c6956"
+  ],
+  "elapsed_s": 4.273713827133179
+}

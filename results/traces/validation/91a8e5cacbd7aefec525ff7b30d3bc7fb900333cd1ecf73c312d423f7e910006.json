@@ -1,0 +1,67 @@
+{
+  "input_hash": "91a8e5cacbd7aefec525ff7b30d3bc7fb900333cd1ecf73c312d423f7e910006",
+  "sample_id": "ESC-CSV-02292",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "fatally",
+    "her",
+    "Madeline Kafoury",
+    "receptionist",
+    "fire",
+    "bosses",
+    "wounding"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "58cab16e285a7f52b9251c825f2c39a4e745ab98897e646c96819ed4ef0dd8c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "58cab16e285a7f52b9251c825f2c39a4e745ab98897e646c96819ed4ef0dd8c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7bbf265f9d9bcf11d04fcac66e41ec250752215814334cfef0863281e91dbd82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d065696a849545e5fd880f728bdb412273298e6b93246b16b75b62365475a9bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "da345678df05fd77b30fe50c4ef3ea2fb894e936dd252094fd7a9b1e80101141",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"fatally\",\"midsection\",\"her\",\"Madeline Kafoury\",\"receptionist\",\"shotgun\",\"fire\",\"bosses\",\"wounding\"],\"target_related\":[\"receptionist\",\"fire\",\"bosses\",\"wounding\",\"gunman\",\"fatally\",\"her\",\"Madeline Kafoury\"],\"mediators\":[\"gunman\",\"fatally\",\"her\",\"Madeline Kafoury\",\"receptionist\",\"fire\",\"bosses\",\"wounding\"]}"
+    },
+    "indirect": {
+      "call_id": "1db465ea7a0380e8e4c8d223e73d8ae85c7657fae387989b4d58745d98e52c0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone in the midsection can cause their death; the shot precedes and causes the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "58cab16e285a7f52b9251c825f2c39a4e745ab98897e646c96819ed4ef0dd8c5",
+    "58cab16e285a7f52b9251c825f2c39a4e745ab98897e646c96819ed4ef0dd8c5",
+    "7bbf265f9d9bcf11d04fcac66e41ec250752215814334cfef0863281e91dbd82",
+    "d065696a849545e5fd880f728bdb412273298e6b93246b16b75b62365475a9bf",
+    "da345678df05fd77b30fe50c4ef3ea2fb894e936dd252094fd7a9b1e80101141",
+    "1db465ea7a0380e8e4c8d223e73d8ae85c7657fae387989b4d58745d98e52c0f"
+  ],
+  "elapsed_s": 8.698139190673828
+}

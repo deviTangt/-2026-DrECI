@@ -1,0 +1,63 @@
+{
+  "input_hash": "59dcc0c96fbca680e0ccd1c2637a21811ff12d97a203c5369bee0045377873fc",
+  "sample_id": "ESC-CSV-02587",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "angry teens",
+    "protesters",
+    "rioting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f08272459c24fca596d544274060c1b7e94da9b26a31b5ab88e241e183c7579c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f08272459c24fca596d544274060c1b7e94da9b26a31b5ab88e241e183c7579c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d8d2c7e6aa8a986836c2bb08506f9c0b2fa2be704be6a8add60308ecd3cb2ccf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f0810cc5c43c171134b71e8873310aa55fe800fd442da20f4d62aacffc53d04b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d1d42c91dd14d339a5fd364fb8f0d7b7d776374ba25c223199b07b6094927e2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"16 - year - old\",\"back\",\"cops\",\"angry teens\",\"rioting\",\"protesters\"],\"target_related\":[\"cops\",\"angry teens\",\"East Flatbush\",\"protesters\",\"rioting\",\"arrested\"],\"mediators\":[\"cops\",\"angry teens\",\"protesters\",\"rioting\"]}"
+    },
+    "indirect": {
+      "call_id": "db0e667e5f94b700e4098f7d351ffb0e1ef66b4cbe2143dc7fe143f8168e1958",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of Kimani Gray precedes and provokes the fights between cops and angry teens, matching common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "f08272459c24fca596d544274060c1b7e94da9b26a31b5ab88e241e183c7579c",
+    "f08272459c24fca596d544274060c1b7e94da9b26a31b5ab88e241e183c7579c",
+    "d8d2c7e6aa8a986836c2bb08506f9c0b2fa2be704be6a8add60308ecd3cb2ccf",
+    "f0810cc5c43c171134b71e8873310aa55fe800fd442da20f4d62aacffc53d04b",
+    "6d1d42c91dd14d339a5fd364fb8f0d7b7d776374ba25c223199b07b6094927e2",
+    "db0e667e5f94b700e4098f7d351ffb0e1ef66b4cbe2143dc7fe143f8168e1958"
+  ],
+  "elapsed_s": 14.091097593307495
+}

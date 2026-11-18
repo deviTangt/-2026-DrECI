@@ -1,0 +1,61 @@
+{
+  "input_hash": "1879a76f5b95e77f6f65b43d9ba4e124f00e9109dacbde766a3b341321604e51",
+  "sample_id": "ESC-CSV-01611",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sheriff",
+    "Deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "146340527726a6edec8519fe943b6d40ec97a30cfde9d47ac50c163f201942c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "146340527726a6edec8519fe943b6d40ec97a30cfde9d47ac50c163f201942c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "67cc09fa4ae42187ef4753b5563364c483330db49efdbef4f8f47ed61766ccee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d9346e814a90111391a5939bf769f24a051c660083d9c3d768143be9e2e57886",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ab6131b4e399af731e0b4fb23cddedf52cd62b411b98ef2ff120f8afc6348d1e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Sheriff\",\"Deputy\"],\"target_related\":[\"Sheriff\",\"Deputy\"],\"mediators\":[\"Sheriff\",\"Deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "de1027343c79bec2c9a29504c8bd5efc9f4e7f5bb65c524e96f9071ef6a9072e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot commonly causes death; the headline's 'Shot and Killed' implies the shooting led to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "146340527726a6edec8519fe943b6d40ec97a30cfde9d47ac50c163f201942c9",
+    "146340527726a6edec8519fe943b6d40ec97a30cfde9d47ac50c163f201942c9",
+    "67cc09fa4ae42187ef4753b5563364c483330db49efdbef4f8f47ed61766ccee",
+    "d9346e814a90111391a5939bf769f24a051c660083d9c3d768143be9e2e57886",
+    "ab6131b4e399af731e0b4fb23cddedf52cd62b411b98ef2ff120f8afc6348d1e",
+    "de1027343c79bec2c9a29504c8bd5efc9f4e7f5bb65c524e96f9071ef6a9072e"
+  ],
+  "elapsed_s": 5.326348781585693
+}

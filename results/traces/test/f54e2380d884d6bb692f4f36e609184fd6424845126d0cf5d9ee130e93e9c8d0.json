@@ -1,0 +1,60 @@
+{
+  "input_hash": "f54e2380d884d6bb692f4f36e609184fd6424845126d0cf5d9ee130e93e9c8d0",
+  "sample_id": "ESC-CSV-04353",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a277840132c14988856aa48c6e71530fe76d5459eb50b2c828a127ba531110b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a277840132c14988856aa48c6e71530fe76d5459eb50b2c828a127ba531110b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "031b46a0e36327c46ce809762f6bc76aafbe6ccaf0ff97130b09e9864df1781d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6ad3f9110eaebfab9ade1f430f3e1256164182b3751f77063c9728b391e8e56b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "60b6114cdfe4fb6af483eed07fa5bff7e7333b78e05437e86bdd246d69246118",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewellery\",\"watches\"],\"target_related\":[\"thieves\",\"jewellery\"],\"mediators\":[\"jewellery\"]}"
+    },
+    "indirect": {
+      "call_id": "8a8df6d2c1b7312cbe1868bdb1f4c05a16e8158e6c8f8a302a35ed628c0717b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving the car into the store enabled the men to grab the jewellery, so the driving caused the nabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "a277840132c14988856aa48c6e71530fe76d5459eb50b2c828a127ba531110b6",
+    "a277840132c14988856aa48c6e71530fe76d5459eb50b2c828a127ba531110b6",
+    "031b46a0e36327c46ce809762f6bc76aafbe6ccaf0ff97130b09e9864df1781d",
+    "6ad3f9110eaebfab9ade1f430f3e1256164182b3751f77063c9728b391e8e56b",
+    "60b6114cdfe4fb6af483eed07fa5bff7e7333b78e05437e86bdd246d69246118",
+    "8a8df6d2c1b7312cbe1868bdb1f4c05a16e8158e6c8f8a302a35ed628c0717b8"
+  ],
+  "elapsed_s": 4.584312677383423
+}

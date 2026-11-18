@@ -1,0 +1,62 @@
+{
+  "input_hash": "88ece6568ae95cc6183321842e6956ffc72dbacd32db906c7f26b8c77f314956",
+  "sample_id": "ESC-CSV-01590",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "deputy",
+    "shot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad61cef9e4d3017e768dd3bc5475f846e1fa0bf414adf75c3f637d94b2ed56ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad61cef9e4d3017e768dd3bc5475f846e1fa0bf414adf75c3f637d94b2ed56ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ed63bdd91f6531c361738261919c25d371c3e2b24cf1d81ecbc5c7dabf902966",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "36c1a61c1ea961c3d0c50abb00ef9d64fcd7b0744629a284dfaaa1cf5f5946ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d4f6a4aabb1fcd780245a70db8c2e4b66ce37ae648d91faa3872922461ee9f28",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"handgun\",\"deputy\",\"shot\",\"fired\"],\"target_related\":[\"gunman\",\"deputy\",\"shot\",\"fired\"],\"mediators\":[\"gunman\",\"deputy\",\"shot\"]}"
+    },
+    "indirect": {
+      "call_id": "bda0c76126465c64e87ef52f60319375cdd49d42c4c50983bb7f725d63f942d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The gunman fired, and this firing was the sudden attack that gave the deputy no chance; firing causes the attack.\"}"
+    }
+  },
+  "call_ids": [
+    "ad61cef9e4d3017e768dd3bc5475f846e1fa0bf414adf75c3f637d94b2ed56ad",
+    "ad61cef9e4d3017e768dd3bc5475f846e1fa0bf414adf75c3f637d94b2ed56ad",
+    "ed63bdd91f6531c361738261919c25d371c3e2b24cf1d81ecbc5c7dabf902966",
+    "36c1a61c1ea961c3d0c50abb00ef9d64fcd7b0744629a284dfaaa1cf5f5946ac",
+    "d4f6a4aabb1fcd780245a70db8c2e4b66ce37ae648d91faa3872922461ee9f28",
+    "bda0c76126465c64e87ef52f60319375cdd49d42c4c50983bb7f725d63f942d2"
+  ],
+  "elapsed_s": 6.1008405685424805
+}

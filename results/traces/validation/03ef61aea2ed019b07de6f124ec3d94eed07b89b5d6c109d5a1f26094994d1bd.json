@@ -1,0 +1,61 @@
+{
+  "input_hash": "03ef61aea2ed019b07de6f124ec3d94eed07b89b5d6c109d5a1f26094994d1bd",
+  "sample_id": "ESC-CSV-02422",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "18754b053675cc4f38ec9cdf6c18b814f8459ec7de61dec5fab94d12911c6b19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "18754b053675cc4f38ec9cdf6c18b814f8459ec7de61dec5fab94d12911c6b19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6d199f2e04af99a32d4a08fd3983df04fb4ec0b79a7a0ce4a95f50f34034396e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3318c7b7172e7364d01454b4852fcae37544eb000e0c78bd0bbe93dc1aea1930",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "58979d7c8769ea33b444de54aec4362b0e91cd877ed7b82c86c1e5db7dbb6e0b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"three\",\"people\",\"killing\",\"one\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"attack\",\"this\",\"morning\"],\"target_related\":[\"man\",\"suspected\",\"high\",\"speed\",\"chase\",\"hours\",\"attack\",\"authorities\"],\"mediators\":[\"man\",\"attack\"]}"
+    },
+    "indirect": {
+      "call_id": "c97308b60373594b0dbfcf55e1a04c9c4ebd0e36701aeb344c9454a538968aca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the suspect was arrested; common sense holds that the shooting prompted the pursuit and arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "18754b053675cc4f38ec9cdf6c18b814f8459ec7de61dec5fab94d12911c6b19",
+    "18754b053675cc4f38ec9cdf6c18b814f8459ec7de61dec5fab94d12911c6b19",
+    "6d199f2e04af99a32d4a08fd3983df04fb4ec0b79a7a0ce4a95f50f34034396e",
+    "3318c7b7172e7364d01454b4852fcae37544eb000e0c78bd0bbe93dc1aea1930",
+    "58979d7c8769ea33b444de54aec4362b0e91cd877ed7b82c86c1e5db7dbb6e0b",
+    "c97308b60373594b0dbfcf55e1a04c9c4ebd0e36701aeb344c9454a538968aca"
+  ],
+  "elapsed_s": 14.93881344795227
+}

@@ -1,0 +1,71 @@
+{
+  "input_hash": "a4da8120d4353342e327fdb8f264578d77fe7d119a7f371404f35aab98de9db9",
+  "sample_id": "ESC-CSV-01685",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy",
+    "Luis",
+    "Gerardo",
+    "Ortiz",
+    "gang",
+    "member",
+    "Hawaiian",
+    "Gardens",
+    "accused",
+    "charges",
+    "capital",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "80a9c2f8e4bdbc8dec1ca7565d82ce508f2b93fff67f5888be805830a9dbaabf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "80a9c2f8e4bdbc8dec1ca7565d82ce508f2b93fff67f5888be805830a9dbaabf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8d53d30354f058c18cd3d528cc4e0d2a0d1769c1d10cc1fcd3e3f960d4860e80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e9985ff89ad93e339d0cd2f4f64948696b7333bc2df443de3b848bebf0c05295",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5c724199cdeb7665030f799b81d1fd556e894a32a7b2e90f233acdc0a49e1ba7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\",\"gang\",\"member\",\"Hawaiian\",\"Gardens\",\"accused\",\"charges\",\"murder\",\"capital\"],\"target_related\":[\"Sheriff\",\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\",\"gang\",\"member\",\"Hawaiian\",\"Gardens\",\"accused\",\"charges\",\"capital\",\"murder\"],\"mediators\":[\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\",\"gang\",\"member\",\"Hawaiian\",\"Gardens\",\"accused\",\"charges\",\"capital\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "64ad5d9b65691bf975df21dd0741083256ebce4ab78108bd501d82975c2d65c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Gunning down (shooting) the deputy is the act that constitutes and causes his murder; the killing precedes the murder charge.\"}"
+    }
+  },
+  "call_ids": [
+    "80a9c2f8e4bdbc8dec1ca7565d82ce508f2b93fff67f5888be805830a9dbaabf",
+    "80a9c2f8e4bdbc8dec1ca7565d82ce508f2b93fff67f5888be805830a9dbaabf",
+    "8d53d30354f058c18cd3d528cc4e0d2a0d1769c1d10cc1fcd3e3f960d4860e80",
+    "e9985ff89ad93e339d0cd2f4f64948696b7333bc2df443de3b848bebf0c05295",
+    "5c724199cdeb7665030f799b81d1fd556e894a32a7b2e90f233acdc0a49e1ba7",
+    "64ad5d9b65691bf975df21dd0741083256ebce4ab78108bd501d82975c2d65c1"
+  ],
+  "elapsed_s": 6.152334928512573
+}

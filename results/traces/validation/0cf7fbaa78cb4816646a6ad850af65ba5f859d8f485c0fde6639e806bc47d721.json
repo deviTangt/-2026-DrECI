@@ -1,0 +1,65 @@
+{
+  "input_hash": "0cf7fbaa78cb4816646a6ad850af65ba5f859d8f485c0fde6639e806bc47d721",
+  "sample_id": "ESC-CSV-02099",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "managing partners",
+    "Troy",
+    "April 2007",
+    "accounting firm",
+    "Anthony LaCalamita III"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fbaea33454582ed565763843a5f4dfe9b8d5d38fd586e477af582086610ccfd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fbaea33454582ed565763843a5f4dfe9b8d5d38fd586e477af582086610ccfd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "828e519d7ac3071655fad556e219694055210f121594dc3b58518ed9d77bdb30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bbe327ecdb90fe85ea4d55b125f6aad43e091c2a11bb8887d2a985d24d760eb7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9d6de3b2dccbc813e233cb83a8bab3bb246a539f5ee2c454144404ee085cd390",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"Troy\",\"April 2007\",\"receptionist\",\"managing partners\",\"Anthony LaCalamita III\"],\"target_related\":[\"receptionist\",\"managing partners\",\"Troy accounting firm\",\"April 2007 shooting\",\"Anthony LaCalamita III\"],\"mediators\":[\"receptionist\",\"managing partners\",\"Troy\",\"April 2007\",\"accounting firm\",\"Anthony LaCalamita III\"]}"
+    },
+    "indirect": {
+      "call_id": "e2dd775718419b42f92b7a7befbe93eec3463a3d39865c67272b0555cc7bba0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shooting ... that left a receptionist dead and two managing partners wounded' — 'left' explicitly links shootings to wounded; shootings precede and cause wounds.\"}"
+    }
+  },
+  "call_ids": [
+    "fbaea33454582ed565763843a5f4dfe9b8d5d38fd586e477af582086610ccfd3",
+    "fbaea33454582ed565763843a5f4dfe9b8d5d38fd586e477af582086610ccfd3",
+    "828e519d7ac3071655fad556e219694055210f121594dc3b58518ed9d77bdb30",
+    "bbe327ecdb90fe85ea4d55b125f6aad43e091c2a11bb8887d2a985d24d760eb7",
+    "9d6de3b2dccbc813e233cb83a8bab3bb246a539f5ee2c454144404ee085cd390",
+    "e2dd775718419b42f92b7a7befbe93eec3463a3d39865c67272b0555cc7bba0f"
+  ],
+  "elapsed_s": 4.76331353187561
+}

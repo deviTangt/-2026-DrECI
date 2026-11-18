@@ -1,0 +1,73 @@
+{
+  "input_hash": "47f751a38b22da00bed289599cb23054ec04b37950ed5707935706d6323d0b76",
+  "sample_id": "ESC-CSV-01548",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Judge",
+    "Philip Hickok",
+    "packed courtroom",
+    "weighed",
+    "aggravating factors",
+    "mitigating circumstances",
+    "ambush slaying",
+    "Los Angeles County Sheriff's Deputy Jerry Ortiz",
+    "June 2005",
+    "concluded",
+    "case",
+    "absolutely warrants",
+    "life without parole",
+    "Judge sentences Orozco"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9ce14c3e43caabd7abab3bef210b0ee053a8db16333bce48640a6107b8ce6e51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9ce14c3e43caabd7abab3bef210b0ee053a8db16333bce48640a6107b8ce6e51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ce247b18a8e2e4034a5a9c736c37645861ef3d0c6986b53a96bf4b52011e6b71",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9b27c19f8baadd84e61eb05d38e6cdd1aeb367701520cc719c0980e7f48272a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a62770a40d19603d0eea3633b54edff59a877d0b3d6f0bafd89242b75a18a0f7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Judge\",\"Philip Hickok\",\"packed courtroom\",\"weighed\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"concluded\",\"case\",\"absolutely warrants\",\"life without parole\",\"Judge sentences Orozco\"],\"target_related\":[\"Judge\",\"Philip Hickok\",\"packed courtroom\",\"weighed\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"concluded\",\"case\",\"absolutely warrants\",\"life without parole\",\"Judge sentences Orozco\"],\"mediators\":[\"Judge\",\"Philip Hickok\",\"packed courtroom\",\"weighed\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"concluded\",\"case\",\"absolutely warrants\",\"life without parole\",\"Judge sentences Orozco\"]}"
+    },
+    "indirect": {
+      "call_id": "9c587b8a19657c91fec16332493356e2b2106147ca0eb3ccebbb7c21ab108212",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The judge's telling/sentencing (X) occurs before and causes the death sentence (Y); common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "9ce14c3e43caabd7abab3bef210b0ee053a8db16333bce48640a6107b8ce6e51",
+    "9ce14c3e43caabd7abab3bef210b0ee053a8db16333bce48640a6107b8ce6e51",
+    "ce247b18a8e2e4034a5a9c736c37645861ef3d0c6986b53a96bf4b52011e6b71",
+    "9b27c19f8baadd84e61eb05d38e6cdd1aeb367701520cc719c0980e7f48272a5",
+    "a62770a40d19603d0eea3633b54edff59a877d0b3d6f0bafd89242b75a18a0f7",
+    "9c587b8a19657c91fec16332493356e2b2106147ca0eb3ccebbb7c21ab108212"
+  ],
+  "elapsed_s": 7.314327955245972
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "68ebdb2bb99c9567bf92c67fab64705142ab2afe2cac49795b60a0714d249bd4",
+  "sample_id": "ESC-CSV-01700",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "defendant",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "75a887ad1874a520275b2ef917b1ed7ded7fb0952b8efdee7b2f4b43ac926250",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "75a887ad1874a520275b2ef917b1ed7ded7fb0952b8efdee7b2f4b43ac926250",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "55d601855d06ad3a1d181a6a931a8d08c1c6895e508b23c6c2a870e7b5819c12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "659b176ed08da6ba820d2c8cf5af64d873582333541b8ddafb8f601cd87b2cc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b9493660c4f6c4ce02bd5c2f3f498e2368293ed460d9e082e111a2c91d4e05ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hawaiian Gardens gang member\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"shooting\",\"defendant\",\"suspect\"],\"target_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\"],\"mediators\":[\"shooting\",\"defendant\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "fa0d051d7d276a227d2a00e405668a5d507412c5162570504ac774b4e1b46d16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'accused of gunning down Deputy... Ortiz was killed' — 'gunning down' directly caused the killing; common sense confirms shooting causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "75a887ad1874a520275b2ef917b1ed7ded7fb0952b8efdee7b2f4b43ac926250",
+    "75a887ad1874a520275b2ef917b1ed7ded7fb0952b8efdee7b2f4b43ac926250",
+    "55d601855d06ad3a1d181a6a931a8d08c1c6895e508b23c6c2a870e7b5819c12",
+    "659b176ed08da6ba820d2c8cf5af64d873582333541b8ddafb8f601cd87b2cc5",
+    "b9493660c4f6c4ce02bd5c2f3f498e2368293ed460d9e082e111a2c91d4e05ae",
+    "fa0d051d7d276a227d2a00e405668a5d507412c5162570504ac774b4e1b46d16"
+  ],
+  "elapsed_s": 5.841346502304077
+}

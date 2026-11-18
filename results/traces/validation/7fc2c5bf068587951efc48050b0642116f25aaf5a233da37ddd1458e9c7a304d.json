@@ -1,0 +1,60 @@
+{
+  "input_hash": "7fc2c5bf068587951efc48050b0642116f25aaf5a233da37ddd1458e9c7a304d",
+  "sample_id": "ESC-CSV-01976",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4df463f2e394e54ffea58a4a89bd2a752a2f522eaffae00c12210fa0b891ebaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4df463f2e394e54ffea58a4a89bd2a752a2f522eaffae00c12210fa0b891ebaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7fe6054f8ea41e32a6a3b96c67aebf3e1935930b18a938b08852f1dcb29ce802",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e076285cc0d771fd7cd482372f43c74165bf762cd31fdcf77e640fd3aba4fc4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "84b1ececba078038a23027a4c1f9c7fb299af58804c3d5aa55000e1da1b1b22e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"door\",\"residence\"],\"target_related\":[\"witness\",\"911\",\"deputy\",\"died\",\"Ortiz\"],\"mediators\":[\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "dff701f7cdc35edf658a446634c096e66769711710f59f323e58e3ffa28b0f45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred after Ortiz knocked on the door, so the knock preceded and plausibly caused the shooting by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4df463f2e394e54ffea58a4a89bd2a752a2f522eaffae00c12210fa0b891ebaf",
+    "4df463f2e394e54ffea58a4a89bd2a752a2f522eaffae00c12210fa0b891ebaf",
+    "7fe6054f8ea41e32a6a3b96c67aebf3e1935930b18a938b08852f1dcb29ce802",
+    "e076285cc0d771fd7cd482372f43c74165bf762cd31fdcf77e640fd3aba4fc4a",
+    "84b1ececba078038a23027a4c1f9c7fb299af58804c3d5aa55000e1da1b1b22e",
+    "dff701f7cdc35edf658a446634c096e66769711710f59f323e58e3ffa28b0f45"
+  ],
+  "elapsed_s": 5.237642526626587
+}

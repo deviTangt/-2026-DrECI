@@ -1,0 +1,62 @@
+{
+  "input_hash": "32d6884c633a7fbf4298b72c15cf9a8354d879ebb38f0a2d5f37cc7d6b41fee9",
+  "sample_id": "ESC-CSV-09736",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Athens",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "19f4a10745d7e25b1b02d567623a88215f5034134e38d8df85fc3af0e42e2b4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "19f4a10745d7e25b1b02d567623a88215f5034134e38d8df85fc3af0e42e2b4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5ea012982f126730865bb0d2d60b0529e5323585ab2480165090e05805093977",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7f82542f01d775c5f4457c42ca45c47febd21e1024f32294493782a9dc58375a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9de43e9335bdd3e00374d75f9a49f6081f64a68ad670646c9d7d7582ad3b7e41",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"bank\",\"Athens\",\"protesters\",\"torched\",\"buildings\"],\"target_related\":[\"bank workers\",\"man\",\"women\",\"died\",\"Riots\",\"austerity\",\"protesters\",\"Athens\"],\"mediators\":[\"bank\",\"Athens\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "66fadf0721cfaf21bb8473afca5cf9ee428fab6a54dfcbdbbc7675352259e971",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,4],\"evidence\":\"'demonstrators set their bank on fire' and 'three bank workers ... died'; 'torched buildings' caused deaths; setting fire before death follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "19f4a10745d7e25b1b02d567623a88215f5034134e38d8df85fc3af0e42e2b4a",
+    "19f4a10745d7e25b1b02d567623a88215f5034134e38d8df85fc3af0e42e2b4a",
+    "5ea012982f126730865bb0d2d60b0529e5323585ab2480165090e05805093977",
+    "7f82542f01d775c5f4457c42ca45c47febd21e1024f32294493782a9dc58375a",
+    "9de43e9335bdd3e00374d75f9a49f6081f64a68ad670646c9d7d7582ad3b7e41",
+    "66fadf0721cfaf21bb8473afca5cf9ee428fab6a54dfcbdbbc7675352259e971"
+  ],
+  "elapsed_s": 4.797405242919922
+}

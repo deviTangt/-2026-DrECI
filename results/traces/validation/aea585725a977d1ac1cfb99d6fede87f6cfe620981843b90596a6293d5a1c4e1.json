@@ -1,0 +1,65 @@
+{
+  "input_hash": "aea585725a977d1ac1cfb99d6fede87f6cfe620981843b90596a6293d5a1c4e1",
+  "sample_id": "ESC-CSV-02117",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Troy",
+    "accounting",
+    "firm",
+    "receptionist",
+    "managing",
+    "partners"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "629e8ca1ac51e77ec6bcc0cef2b3cdd6f6f1612dd743d7f1c0269ebd01b4e92c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "629e8ca1ac51e77ec6bcc0cef2b3cdd6f6f1612dd743d7f1c0269ebd01b4e92c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "248d69424409e5e3842250b8af5462031e692e61ac602d06bb282381a6f8639c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b68ad1b13bd800b6d857e6a5f764cb069375a4f4abd8e3a7551cc5d95f969f07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2cd66f8e907260d9b70d23d1a99f183f7e6b3c44260045e04f64669aaae48c72",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"convicted\",\"man\",\"charged\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"dead\",\"managing\",\"partners\"],\"target_related\":[\"receptionist\",\"dead\",\"managing\",\"partners\",\"shooting\",\"Troy\",\"accounting\",\"firm\"],\"mediators\":[\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"managing\",\"partners\"]}"
+    },
+    "indirect": {
+      "call_id": "b36d5798b54579794eef4ca50b48435d88c4b40c0ba9acab6c09572993f5ce0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The shooting 'left a receptionist dead and two managing partners wounded' — 'left' explicitly links the shooting to the wounding, and shooting precedes wounds by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "629e8ca1ac51e77ec6bcc0cef2b3cdd6f6f1612dd743d7f1c0269ebd01b4e92c",
+    "629e8ca1ac51e77ec6bcc0cef2b3cdd6f6f1612dd743d7f1c0269ebd01b4e92c",
+    "248d69424409e5e3842250b8af5462031e692e61ac602d06bb282381a6f8639c",
+    "b68ad1b13bd800b6d857e6a5f764cb069375a4f4abd8e3a7551cc5d95f969f07",
+    "2cd66f8e907260d9b70d23d1a99f183f7e6b3c44260045e04f64669aaae48c72",
+    "b36d5798b54579794eef4ca50b48435d88c4b40c0ba9acab6c09572993f5ce0a"
+  ],
+  "elapsed_s": 5.918866872787476
+}

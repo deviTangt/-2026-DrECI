@@ -1,0 +1,60 @@
+{
+  "input_hash": "5184cbd5ac2d456166571f91d83e6dd3554405043bf273af8f5f4b80a119336e",
+  "sample_id": "ESC-CSV-04459",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Thieves"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b7060805dcf608dfd6c586016672ca4b75c8efa9f9539c9b2a2d60b479182bc3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b7060805dcf608dfd6c586016672ca4b75c8efa9f9539c9b2a2d60b479182bc3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "51756de578ec0bbb3e613bfb35f88ec3715bce533a669393fb5aa44929b4f718",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ecf6bf9db09ada95a565d2af0defefc45113eb516cc8a7502f5c95a6802bfabf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4ba79141ddd763897ed63b5b49d4240fac248406b764e4c97ffc294534846ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Thieves\",\"car\",\"store\",\"window\"],\"target_related\":[\"Thieves\",\"jewellery\",\"heist\",\"Paris\"],\"mediators\":[\"Thieves\"]}"
+    },
+    "indirect": {
+      "call_id": "e8a6905a9d39a88ea05ad801d3e1d2870de2b7e9bf685bd32915affe5628cde8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the car through the window enabled the thieves to pull off the heist; the smashing precedes and causes the successful robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "b7060805dcf608dfd6c586016672ca4b75c8efa9f9539c9b2a2d60b479182bc3",
+    "b7060805dcf608dfd6c586016672ca4b75c8efa9f9539c9b2a2d60b479182bc3",
+    "51756de578ec0bbb3e613bfb35f88ec3715bce533a669393fb5aa44929b4f718",
+    "ecf6bf9db09ada95a565d2af0defefc45113eb516cc8a7502f5c95a6802bfabf",
+    "c4ba79141ddd763897ed63b5b49d4240fac248406b764e4c97ffc294534846ba",
+    "e8a6905a9d39a88ea05ad801d3e1d2870de2b7e9bf685bd32915affe5628cde8"
+  ],
+  "elapsed_s": 4.611470699310303
+}

@@ -1,0 +1,72 @@
+{
+  "input_hash": "9ff530cfdb7cfb1ad879237b3a4485869d6b63ae7c801390e29fa5717d102588",
+  "sample_id": "ESC-CSV-04427",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "£1",
+    "7m",
+    "Paris",
+    "shop",
+    "Four",
+    "men",
+    "car",
+    "jewellery",
+    "store",
+    "vehicle",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b4b395c6a331c628efbb262e656c4cecf0eb78bab94322018381af8d022187bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b4b395c6a331c628efbb262e656c4cecf0eb78bab94322018381af8d022187bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7a6c7ee936f8e56f73357c73cca2fa4e89b4e8df2bf551712411e128093fb8fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b375f241ab0cce6aeeb5b7dab1abbc0a021088278e1abfb504db0a636168a3a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f3d23025b88d7b51bfbe25992b4c73c4215d6985fbf382718e8bf0fe6bce733c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"heist\",\"Paris\",\"shop\",\"Four\",\"men\",\"car\",\"jewellery\",\"store\",\"vehicle\",\"France\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"stolen\",\"Paris\",\"shop\",\"Four\",\"men\",\"car\",\"jewellery\",\"store\",\"vehicle\",\"France\"],\"mediators\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"Paris\",\"shop\",\"Four\",\"men\",\"car\",\"jewellery\",\"store\",\"vehicle\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "7309f64570a9078d9185e54ee0dd910aeec006077512d807f5700f80fe6a0fec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A heist is the event during which the jewellery and watches were stolen; the theft occurs as part of the heist, so the heist causes the stealing.\"}"
+    }
+  },
+  "call_ids": [
+    "b4b395c6a331c628efbb262e656c4cecf0eb78bab94322018381af8d022187bf",
+    "b4b395c6a331c628efbb262e656c4cecf0eb78bab94322018381af8d022187bf",
+    "7a6c7ee936f8e56f73357c73cca2fa4e89b4e8df2bf551712411e128093fb8fa",
+    "b375f241ab0cce6aeeb5b7dab1abbc0a021088278e1abfb504db0a636168a3a2",
+    "f3d23025b88d7b51bfbe25992b4c73c4215d6985fbf382718e8bf0fe6bce733c",
+    "7309f64570a9078d9185e54ee0dd910aeec006077512d807f5700f80fe6a0fec"
+  ],
+  "elapsed_s": 5.031867742538452
+}

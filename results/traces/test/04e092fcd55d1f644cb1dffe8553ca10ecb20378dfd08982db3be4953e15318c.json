@@ -1,0 +1,62 @@
+{
+  "input_hash": "04e092fcd55d1f644cb1dffe8553ca10ecb20378dfd08982db3be4953e15318c",
+  "sample_id": "ESC-CSV-09475",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "stairwell",
+    "3rd floors",
+    "flee"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "49c71d564d2643e82f4367693f1a951803af78f473d6bcc572720fa875f3a947",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "49c71d564d2643e82f4367693f1a951803af78f473d6bcc572720fa875f3a947",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "955f25f86bf52047fe9a2641ddf8ecf1ba713b7db1587f5920120af74a28301f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7c3f8ae6d6cf8d7e73807b06de48074d4a26543afbe8a199d3e048606e77707a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1357dc4bb62d6dcc0b4c196b188e12dbef0983b575583a88b9d38c351452d8bf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd floors\",\"flee\",\"two floors below\"],\"target_related\":[\"stairwell\",\"3rd floors\",\"flee\"],\"mediators\":[\"stairwell\",\"3rd floors\",\"flee\"]}"
+    },
+    "indirect": {
+      "call_id": "2248f865c269c1c69f481d8bb1dabe88cc9debbdc578d6a4b94d5e94babf569b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fire broke out below, forcing them to flee; while fleeing they became trapped in the stairwell, so the fire led to their being trapped.\"}"
+    }
+  },
+  "call_ids": [
+    "49c71d564d2643e82f4367693f1a951803af78f473d6bcc572720fa875f3a947",
+    "49c71d564d2643e82f4367693f1a951803af78f473d6bcc572720fa875f3a947",
+    "955f25f86bf52047fe9a2641ddf8ecf1ba713b7db1587f5920120af74a28301f",
+    "7c3f8ae6d6cf8d7e73807b06de48074d4a26543afbe8a199d3e048606e77707a",
+    "1357dc4bb62d6dcc0b4c196b188e12dbef0983b575583a88b9d38c351452d8bf",
+    "2248f865c269c1c69f481d8bb1dabe88cc9debbdc578d6a4b94d5e94babf569b"
+  ],
+  "elapsed_s": 4.751255989074707
+}

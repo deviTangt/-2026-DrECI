@@ -1,0 +1,75 @@
+{
+  "input_hash": "8a358f0b7c55c36d43eee0cfcb87d53b0b68e3cd8db8cae401fab02e289226f6",
+  "sample_id": "ESC-CSV-02194",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fired",
+    "job",
+    "accountant",
+    "walked",
+    "office",
+    "receptionist",
+    "manager",
+    "shotgun",
+    "police sergeant",
+    "arraignment",
+    "shot dead",
+    "Madeline Kafoury",
+    "wounded",
+    "Paul Riva",
+    "Alan Steinberg"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d786d1a2cd512fef7644f3e8c6c9b3661ec129b80813daf1dcd83239f4b7c92e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d786d1a2cd512fef7644f3e8c6c9b3661ec129b80813daf1dcd83239f4b7c92e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9678edb83392f7a3d67892a390c2e60d9959aaebc4f047cac0760e361905fa5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4150216b131a004b992080e54a18fe9da7e3e68afcf85edca7b01b8bddbd900d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d77cd5bf3bb9f29bffd0132cbf767b5b7a4abfca8ece0a9660693161497d5eb0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accountant\",\"walked\",\"office\",\"receptionist\",\"manager\",\"shotgun\",\"police sergeant\",\"arraignment\",\"shot dead\",\"Madeline Kafoury\",\"wounded\",\"Paul Riva\",\"Alan Steinberg\"],\"target_related\":[\"man\",\"fired\",\"job\",\"accountant\",\"walked\",\"office\",\"receptionist\",\"manager\",\"shotgun\",\"police sergeant\",\"arraignment\",\"shot dead\",\"Madeline Kafoury\",\"wounded\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"man\",\"fired\",\"job\",\"accountant\",\"walked\",\"office\",\"receptionist\",\"manager\",\"shotgun\",\"police sergeant\",\"arraignment\",\"shot dead\",\"Madeline Kafoury\",\"wounded\",\"Paul Riva\",\"Alan Steinberg\"]}"
+    },
+    "indirect": {
+      "call_id": "c88884f9ebfe13f3293c8b1b74df216831eab4fc435c955af964dd6679941907",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The man's purpose of killing with a shotgun led to the shooting violence; killing precedes and causes the violence by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "d786d1a2cd512fef7644f3e8c6c9b3661ec129b80813daf1dcd83239f4b7c92e",
+    "d786d1a2cd512fef7644f3e8c6c9b3661ec129b80813daf1dcd83239f4b7c92e",
+    "9678edb83392f7a3d67892a390c2e60d9959aaebc4f047cac0760e361905fa5e",
+    "4150216b131a004b992080e54a18fe9da7e3e68afcf85edca7b01b8bddbd900d",
+    "d77cd5bf3bb9f29bffd0132cbf767b5b7a4abfca8ece0a9660693161497d5eb0",
+    "c88884f9ebfe13f3293c8b1b74df216831eab4fc435c955af964dd6679941907"
+  ],
+  "elapsed_s": 15.558636903762817
+}

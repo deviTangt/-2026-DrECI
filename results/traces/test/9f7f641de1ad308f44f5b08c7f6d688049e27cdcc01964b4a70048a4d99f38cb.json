@@ -1,0 +1,62 @@
+{
+  "input_hash": "9f7f641de1ad308f44f5b08c7f6d688049e27cdcc01964b4a70048a4d99f38cb",
+  "sample_id": "ESC-CSV-06774",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "trial",
+    "rooftop",
+    "gunplay"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "94b45f4c35108d850f8bc1e853f20c47cc042396d4d8f6a5545a6b26edb663fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "94b45f4c35108d850f8bc1e853f20c47cc042396d4d8f6a5545a6b26edb663fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b32bf541abc7e796bf1e37cb5de0ed00693fe7cbf326532f250025fcf2235c06",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "049040f563c8f5f41fe61441aa41f8795c1680648867b44f1572afdce0680616",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9a651dd908b3546ab70fce7b53e072736c53d09df23e586ab881e49363587cc8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"woman\",\"Video\",\"trial\",\"rooftop\",\"gunplay\"],\"target_related\":[\"two\",\"men\",\"trial\",\"rooftop\",\"gunplay\"],\"mediators\":[\"trial\",\"rooftop\",\"gunplay\"]}"
+    },
+    "indirect": {
+      "call_id": "4b786d8a34b4fd5a4bce583bcfbc86832d78d220818c3e6bdcae0f394254275b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fatal shooting occurred during the rooftop gunplay, and the two men were subsequently charged in connection with it; the shooting precedes and causes the charges.\"}"
+    }
+  },
+  "call_ids": [
+    "94b45f4c35108d850f8bc1e853f20c47cc042396d4d8f6a5545a6b26edb663fd",
+    "94b45f4c35108d850f8bc1e853f20c47cc042396d4d8f6a5545a6b26edb663fd",
+    "b32bf541abc7e796bf1e37cb5de0ed00693fe7cbf326532f250025fcf2235c06",
+    "049040f563c8f5f41fe61441aa41f8795c1680648867b44f1572afdce0680616",
+    "9a651dd908b3546ab70fce7b53e072736c53d09df23e586ab881e49363587cc8",
+    "4b786d8a34b4fd5a4bce583bcfbc86832d78d220818c3e6bdcae0f394254275b"
+  ],
+  "elapsed_s": 4.983083963394165
+}

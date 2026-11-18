@@ -1,0 +1,66 @@
+{
+  "input_hash": "82d8bdeb351ea9ab10a9abb7c2d14cb679ed7ad12f29122e9e2047e2bd05bf6e",
+  "sample_id": "ESC-CSV-06843",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew",
+    "Lopez",
+    "Confesses",
+    "Zurana",
+    "Horton",
+    "Brooklyn",
+    "Shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d6291664a9f0c275a686389364a7863a030d53331abac384977dea84c2930182",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d6291664a9f0c275a686389364a7863a030d53331abac384977dea84c2930182",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "27b7ec5493aa9c78f390ca643e2d8c612fa9911cd9dff67bb00cf942abec55ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7925bcd3c4bc054ddcc37b52a55dc674eb185552ccc0f0b2a674b2d28854a351",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae7b7ad6c12bece04ac4129ca646282675f59c9a9f9da361663158f0030ba54f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"died\",\"instantly\",\"face\",\"chest\",\"attempted\",\"protect\",\"students\",\"gunfire\",\"Andrew\",\"Lopez\",\"Confesses\",\"Zurana\",\"Horton\",\"Brooklyn\",\"Shooting\"],\"target_related\":[\"Andrew\",\"Lopez\",\"Confesses\",\"Zurana\",\"Horton\",\"Brooklyn\",\"Shooting\"],\"mediators\":[\"Andrew\",\"Lopez\",\"Confesses\",\"Zurana\",\"Horton\",\"Brooklyn\",\"Shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "8f953f37e646704b4b5cdde177f9d24f9c42b5708965a5971029c2f5dfaa9723",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shot in the face and chest killed Horton, so the shooting caused her death, which is the murder described.\"}"
+    }
+  },
+  "call_ids": [
+    "d6291664a9f0c275a686389364a7863a030d53331abac384977dea84c2930182",
+    "d6291664a9f0c275a686389364a7863a030d53331abac384977dea84c2930182",
+    "27b7ec5493aa9c78f390ca643e2d8c612fa9911cd9dff67bb00cf942abec55ff",
+    "7925bcd3c4bc054ddcc37b52a55dc674eb185552ccc0f0b2a674b2d28854a351",
+    "ae7b7ad6c12bece04ac4129ca646282675f59c9a9f9da361663158f0030ba54f",
+    "8f953f37e646704b4b5cdde177f9d24f9c42b5708965a5971029c2f5dfaa9723"
+  ],
+  "elapsed_s": 5.004470348358154
+}

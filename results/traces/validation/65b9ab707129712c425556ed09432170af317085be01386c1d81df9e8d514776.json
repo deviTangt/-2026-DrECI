@@ -1,0 +1,66 @@
+{
+  "input_hash": "65b9ab707129712c425556ed09432170af317085be01386c1d81df9e8d514776",
+  "sample_id": "ESC-CSV-02573",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "police",
+    "bricks",
+    "bottles",
+    "garbage",
+    "clashes",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "76a40d4a0824cf809b3f863f75fcff32021d9f5a44b245213db44811a16259a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "76a40d4a0824cf809b3f863f75fcff32021d9f5a44b245213db44811a16259a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "53786a0864b225f48e85b990b8d41200c32480747cac55e0bf19e2d5743b39c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0e473c13bc77c592d727ba6ce3f946e2789f65412e9303ebf98d7f71843a201f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "19e77a6fe777e2f3470734855c320d662ed978307176b5346c232d6569603408",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\",\"bricks\",\"bottles\",\"garbage\",\"clashes\",\"cops\",\"Kimani\",\"Kiki\",\"Gray\",\"16\",\"Saturday\",\"night\",\"killed\"],\"target_related\":[\"Police\",\"crowd\",\"clashes\",\"cops\",\"Protesters\",\"bricks\",\"bottles\",\"garbage\"],\"mediators\":[\"Protesters\",\"police\",\"bricks\",\"bottles\",\"garbage\",\"clashes\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "0e3c3cae26cb4b9ae1b2f7f813f07862f6e9a3f23198c3bc714f63bac3241f07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Protesters 'enraged over the fatal shooting' poured into streets, clashing with cops; the shooting provoked/aroused a hostile crowd, fitting implicit causation and causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "76a40d4a0824cf809b3f863f75fcff32021d9f5a44b245213db44811a16259a5",
+    "76a40d4a0824cf809b3f863f75fcff32021d9f5a44b245213db44811a16259a5",
+    "53786a0864b225f48e85b990b8d41200c32480747cac55e0bf19e2d5743b39c9",
+    "0e473c13bc77c592d727ba6ce3f946e2789f65412e9303ebf98d7f71843a201f",
+    "19e77a6fe777e2f3470734855c320d662ed978307176b5346c232d6569603408",
+    "0e3c3cae26cb4b9ae1b2f7f813f07862f6e9a3f23198c3bc714f63bac3241f07"
+  ],
+  "elapsed_s": 11.846919536590576
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "2d0b12e8ceed4a92144afd908969d8709b0dbf0323d0142c034827918f94f6c4",
+  "sample_id": "ESC-CSV-02231",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sheriff",
+    "Michigan",
+    "office",
+    "kills",
+    "1",
+    "2"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "acbff3d27feba3851448745c197b2ecb98f32ec04d96d7433375fd5cadbec7c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "acbff3d27feba3851448745c197b2ecb98f32ec04d96d7433375fd5cadbec7c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6241aa42a2661ad53980f0904526905b4d62f320155d446f95b49f3f759eaac7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a0a9480f5fe411850b92088d2eeee09a5c076bc60e506aa16ea92f3f81adb77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "00a6ec8fc45e8c3d05a1013a4f76e25212dc8a9965095b327f50a313f7264bcd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Sheriff\",\"Michigan\",\"office\",\"kills\",\"1\",\"2\"],\"target_related\":[\"Sheriff\",\"Michigan\",\"office\",\"kills\",\"1\",\"2\"],\"mediators\":[\"Sheriff\",\"Michigan\",\"office\",\"kills\",\"1\",\"2\"]}"
+    },
+    "indirect": {
+      "call_id": "a314091d5dfad264f908f47946bc985cabf38c0b050ef81173e4d1e6bd8e6305",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting occurs and then injures people; common sense holds that shooting causes injuries, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "acbff3d27feba3851448745c197b2ecb98f32ec04d96d7433375fd5cadbec7c4",
+    "acbff3d27feba3851448745c197b2ecb98f32ec04d96d7433375fd5cadbec7c4",
+    "6241aa42a2661ad53980f0904526905b4d62f320155d446f95b49f3f759eaac7",
+    "0a0a9480f5fe411850b92088d2eeee09a5c076bc60e506aa16ea92f3f81adb77",
+    "00a6ec8fc45e8c3d05a1013a4f76e25212dc8a9965095b327f50a313f7264bcd",
+    "a314091d5dfad264f908f47946bc985cabf38c0b050ef81173e4d1e6bd8e6305"
+  ],
+  "elapsed_s": 9.47270941734314
+}

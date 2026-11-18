@@ -1,0 +1,65 @@
+{
+  "input_hash": "4e47f1df4002e4c678c5622cc8e7253584a2400bf7aa08a52f6a2ed603f3d108",
+  "sample_id": "ESC-CSV-09280",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "three bank workers",
+    "killed",
+    "building",
+    "protests",
+    "Athens",
+    "austerity measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3432acb50c3deb3c5bfa8e757cfdfa3dc6302381cbd4a117030508bcbfd7514e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3432acb50c3deb3c5bfa8e757cfdfa3dc6302381cbd4a117030508bcbfd7514e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f896bed8b5f07d0b1263ccc1f2bbd012d9924537927ea32e623856ced07b329b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "139b81a1fd337495b6b57f5f823b3779057ec0f4846a0cf1ae42ee5faf95be16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1a07c10b08feb637ef3ce7df1e644610060aa91c01b4fbbf1b2b863b9692bd6f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"killed\",\"tens of thousands\",\"marched\",\"Athens\",\"Greek prime minister\",\"denounced\",\"murder\",\"three bank workers\",\"building\",\"protests\",\"austerity measures\"],\"target_related\":[\"three bank workers\",\"killed\",\"building\",\"protests\",\"Athens\",\"austerity measures\"],\"mediators\":[\"three bank workers\",\"killed\",\"building\",\"protests\",\"Athens\",\"austerity measures\"]}"
+    },
+    "indirect": {
+      "call_id": "be6e97bd301147c8435b374a800ed12f82bfd8705021cda4291c6c4a39cd5ce2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The building 'was torched during protests'; 'during' links the demonstrations/protests to the torching, and common sense holds protests precede and cause torching.\"}"
+    }
+  },
+  "call_ids": [
+    "3432acb50c3deb3c5bfa8e757cfdfa3dc6302381cbd4a117030508bcbfd7514e",
+    "3432acb50c3deb3c5bfa8e757cfdfa3dc6302381cbd4a117030508bcbfd7514e",
+    "f896bed8b5f07d0b1263ccc1f2bbd012d9924537927ea32e623856ced07b329b",
+    "139b81a1fd337495b6b57f5f823b3779057ec0f4846a0cf1ae42ee5faf95be16",
+    "1a07c10b08feb637ef3ce7df1e644610060aa91c01b4fbbf1b2b863b9692bd6f",
+    "be6e97bd301147c8435b374a800ed12f82bfd8705021cda4291c6c4a39cd5ce2"
+  ],
+  "elapsed_s": 5.070444583892822
+}

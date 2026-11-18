@@ -1,0 +1,63 @@
+{
+  "input_hash": "64906d4aff6064bc81ae005b6a471f21c416c0c8227ecc6112ef3f7c998c39d6",
+  "sample_id": "ESC-CSV-09722",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "barricades",
+    "cars",
+    "fire truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4cc4f75c6f957dd7838e964c960ea2dd84fddb0a34fd3e891c97ea38e860bbdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4cc4f75c6f957dd7838e964c960ea2dd84fddb0a34fd3e891c97ea38e860bbdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2bcb00b7f49f25eca61fc113c937e71290b0efa713f5109c0612de66d33ab798",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9fe0e75fde3bf9cf6803eae3262364b94adda1fee5f6c0f818ef841d24a4736d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "392226097f2264ef3f6369362b3ea3b5bd1b495034a809d4c5203420e073b1ea",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"protest\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"protesters\",\"barricades\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"barricades\",\"cars\",\"fire truck\"],\"mediators\":[\"protesters\",\"barricades\",\"cars\",\"fire truck\"]}"
+    },
+    "indirect": {
+      "call_id": "54a9c08fbebd503511377a3163269961967a6fe186db802621ec2633bc474c02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The strike led protesters to set burning barricades and torched cars, which caused the blazes firefighters extinguished; protesters form the chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "4cc4f75c6f957dd7838e964c960ea2dd84fddb0a34fd3e891c97ea38e860bbdd",
+    "4cc4f75c6f957dd7838e964c960ea2dd84fddb0a34fd3e891c97ea38e860bbdd",
+    "2bcb00b7f49f25eca61fc113c937e71290b0efa713f5109c0612de66d33ab798",
+    "9fe0e75fde3bf9cf6803eae3262364b94adda1fee5f6c0f818ef841d24a4736d",
+    "392226097f2264ef3f6369362b3ea3b5bd1b495034a809d4c5203420e073b1ea",
+    "54a9c08fbebd503511377a3163269961967a6fe186db802621ec2633bc474c02"
+  ],
+  "elapsed_s": 5.110426902770996
+}

@@ -1,0 +1,69 @@
+{
+  "input_hash": "c841b7e8570b40da5fc33fe9128a0d2572c24f349bbc046a2be6770c935ab131",
+  "sample_id": "ESC-CSV-07277",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "CHP",
+    "suspicion",
+    "booked",
+    "county jail",
+    "released",
+    "bond",
+    "Chargers player",
+    "pulled over",
+    "early-morning hours",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7f87fe152b4cf240013aecfad15e8430b8071b01b02c3a247963c39cb8151e4d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7f87fe152b4cf240013aecfad15e8430b8071b01b02c3a247963c39cb8151e4d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d2c2e6f4ee3e968a6f39094072e36e29a67e83a12d061c4824c774f4490c30be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6947d5c80864d496eb463d1ef7381184600c45ef32b9eca8d60e9b0df19d0109",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1fb9f055db8034b8c0ffe360eeed834435d144b05957700da39f9d475a650631",
+      "status": "ok",
+      "text": "{\"source_related\":[\"CHP\",\"suspicion\",\"booked\",\"county jail\",\"released\",\"bond\",\"Chargers player\",\"pulled over\",\"early-morning hours\",\"DUI\"],\"target_related\":[\"CHP\",\"suspicion\",\"booked\",\"county jail\",\"released\",\"bond\",\"Chargers player\",\"pulled over\",\"early-morning hours\",\"DUI\"],\"mediators\":[\"CHP\",\"suspicion\",\"booked\",\"county jail\",\"released\",\"bond\",\"Chargers player\",\"pulled over\",\"early-morning hours\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "2389d9499c82b5311eca0f8c1b13516fbfb5e0ae4a924c1bb42acc0c7ae50130",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunken driving' and 'arrested on suspicion of DUI' use 'on suspicion of' linking drunken driving to arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "7f87fe152b4cf240013aecfad15e8430b8071b01b02c3a247963c39cb8151e4d",
+    "7f87fe152b4cf240013aecfad15e8430b8071b01b02c3a247963c39cb8151e4d",
+    "d2c2e6f4ee3e968a6f39094072e36e29a67e83a12d061c4824c774f4490c30be",
+    "6947d5c80864d496eb463d1ef7381184600c45ef32b9eca8d60e9b0df19d0109",
+    "1fb9f055db8034b8c0ffe360eeed834435d144b05957700da39f9d475a650631",
+    "2389d9499c82b5311eca0f8c1b13516fbfb5e0ae4a924c1bb42acc0c7ae50130"
+  ],
+  "elapsed_s": 4.734222173690796
+}

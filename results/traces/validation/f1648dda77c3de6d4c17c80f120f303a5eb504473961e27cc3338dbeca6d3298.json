@@ -1,0 +1,62 @@
+{
+  "input_hash": "f1648dda77c3de6d4c17c80f120f303a5eb504473961e27cc3338dbeca6d3298",
+  "sample_id": "ESC-CSV-07010",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Vincent Jackson",
+    "Chargers receiver",
+    "allegations"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "77b9173878fceeb8e805242d1b5837f536b7f4b3df60633f0a9f60c57c68151d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "77b9173878fceeb8e805242d1b5837f536b7f4b3df60633f0a9f60c57c68151d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f6bb2acd1eb3fe2692483766c91992415a63a400b92ced962cc20a26b08afb05",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d0c7e22dccbce3c19a49484ec33b31dd5ae3bbcc97d46e31b75e4e31174494c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "be2c7388aed3fd3c09767848ec845d698c9c65c5d85fad84009c34abdcbcfa00",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"Chargers receiver\",\"arrested\",\"allegations\"],\"target_related\":[\"Vincent Jackson\",\"Chargers receiver\",\"DUI\",\"allegations\"],\"mediators\":[\"Vincent Jackson\",\"Chargers receiver\",\"allegations\"]}"
+    },
+    "indirect": {
+      "call_id": "76ad4a3050fe63c6f8b94fcb40b1857bbe10babf5243d3591b24a8f0a64ac443",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested on allegations of DUI' — 'on' functions as an explicit causation word linking DUI to the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "77b9173878fceeb8e805242d1b5837f536b7f4b3df60633f0a9f60c57c68151d",
+    "77b9173878fceeb8e805242d1b5837f536b7f4b3df60633f0a9f60c57c68151d",
+    "f6bb2acd1eb3fe2692483766c91992415a63a400b92ced962cc20a26b08afb05",
+    "d0c7e22dccbce3c19a49484ec33b31dd5ae3bbcc97d46e31b75e4e31174494c6",
+    "be2c7388aed3fd3c09767848ec845d698c9c65c5d85fad84009c34abdcbcfa00",
+    "76ad4a3050fe63c6f8b94fcb40b1857bbe10babf5243d3591b24a8f0a64ac443"
+  ],
+  "elapsed_s": 4.476818799972534
+}

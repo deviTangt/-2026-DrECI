@@ -1,0 +1,61 @@
+{
+  "input_hash": "b174237a220226f534206b521134537b7a1b8419d5beca7bc03e1c27e8a9422e",
+  "sample_id": "ESC-CSV-02774",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "neighborhood"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9694143b0f65d215b6a6254da37ecc05b8d60d8a0d620015999bee01c5eef0f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9694143b0f65d215b6a6254da37ecc05b8d60d8a0d620015999bee01c5eef0f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a467748bda7af184c74f7c4c7f5a12d9dcd8c5b1771d5e1990981a69a692fb5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c225e1a918e669f4334d7359328748d0db8535d818b79feb2f006bbdcdf42adf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4a43b678e1bf1273cf665822225ec9fbcc1b249bd02f13c5d38b81be9e641424",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Kimani Gray\",\"Brooklyn\",\"Saturday\",\"children\",\"bottles\",\"rooftops\"],\"target_related\":[\"police\",\"Brooklynites\",\"Twitter\",\"neighborhood\",\"apartment buildings\"],\"mediators\":[\"police\",\"neighborhood\"]}"
+    },
+    "indirect": {
+      "call_id": "092659ae5045a5d98851d1a0e29d4f150bb592725008b8b722961ca53cd939b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shooting of Kimani Gray and the subsequent march are related events, but the text does not state that the shooting caused the march.\"}"
+    }
+  },
+  "call_ids": [
+    "9694143b0f65d215b6a6254da37ecc05b8d60d8a0d620015999bee01c5eef0f9",
+    "9694143b0f65d215b6a6254da37ecc05b8d60d8a0d620015999bee01c5eef0f9",
+    "a467748bda7af184c74f7c4c7f5a12d9dcd8c5b1771d5e1990981a69a692fb5d",
+    "c225e1a918e669f4334d7359328748d0db8535d818b79feb2f006bbdcdf42adf",
+    "4a43b678e1bf1273cf665822225ec9fbcc1b249bd02f13c5d38b81be9e641424",
+    "092659ae5045a5d98851d1a0e29d4f150bb592725008b8b722961ca53cd939b2"
+  ],
+  "elapsed_s": 5.266006946563721
+}

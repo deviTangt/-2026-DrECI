@@ -1,0 +1,61 @@
+{
+  "input_hash": "9c6b12ff679df91554851314e13508dc8d912e47ee85695b233da9e47a84120c",
+  "sample_id": "ESC-CSV-01952",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "Orozco"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d648bc3683be35e9a01006c32a635b672177c8cfb4652539dc674c3e2090c294",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d648bc3683be35e9a01006c32a635b672177c8cfb4652539dc674c3e2090c294",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "76a9028d1985d4ac3e89aae49bdaa136100628290f2986b630dfb14de7433c7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b14892a2726ceb219869c14e35b2b9e26afde1b8b357ee6babbc549e795e550b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6ecc75d47f5bd7c151d68c7d9c93f1312fff5a2d577d81f40632dd3cd1448b6d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"handgun\",\"Orozco\"],\"target_related\":[\"police officer\",\"deputy\",\"Orozco\"],\"mediators\":[\"deputy\",\"Orozco\"]}"
+    },
+    "indirect": {
+      "call_id": "29527c083b79582371cafbf79e33bded4f2cd73f51b8ee323d5ff366f97d59b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Firing at the deputy caused the deputy's death; shooting before killing follows common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "d648bc3683be35e9a01006c32a635b672177c8cfb4652539dc674c3e2090c294",
+    "d648bc3683be35e9a01006c32a635b672177c8cfb4652539dc674c3e2090c294",
+    "76a9028d1985d4ac3e89aae49bdaa136100628290f2986b630dfb14de7433c7f",
+    "b14892a2726ceb219869c14e35b2b9e26afde1b8b357ee6babbc549e795e550b",
+    "6ecc75d47f5bd7c151d68c7d9c93f1312fff5a2d577d81f40632dd3cd1448b6d",
+    "29527c083b79582371cafbf79e33bded4f2cd73f51b8ee323d5ff366f97d59b7"
+  ],
+  "elapsed_s": 4.896608829498291
+}

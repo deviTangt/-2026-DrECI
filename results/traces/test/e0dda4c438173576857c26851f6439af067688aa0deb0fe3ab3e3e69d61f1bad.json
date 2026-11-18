@@ -1,0 +1,74 @@
+{
+  "input_hash": "e0dda4c438173576857c26851f6439af067688aa0deb0fe3ab3e3e69d61f1bad",
+  "sample_id": "ESC-CSV-09296",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man",
+    "killed",
+    "tens of thousands",
+    "marched",
+    "Athens",
+    "Three people",
+    "bank",
+    "flames",
+    "Wednesday",
+    "Greeks",
+    "streets",
+    "protest",
+    "spending cuts",
+    "bankruptcy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c9f15f26953e10a5df2b7d490b31462ff66c64ec8f30468b234df931b1a24edd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c9f15f26953e10a5df2b7d490b31462ff66c64ec8f30468b234df931b1a24edd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f3d38343bf0a33986faa73a24baa30655e815655d90acfc9e68bd62adf8b41e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a3181ae02aede8482a5d29730efe659b80a86e836c59944670866bb3887da334",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "22ed89b98d3b876290ce3966bf731e80859b52f2b5684f09b2d41ad8aaa02d3e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"killed\",\"tens of thousands\",\"marched\",\"Athens\",\"Three people\",\"died\",\"bank\",\"flames\",\"Wednesday\",\"Greeks\",\"streets\",\"protest\",\"spending cuts\",\"bankruptcy\"],\"target_related\":[\"women\",\"man\",\"killed\",\"demonstrations\",\"tens of thousands\",\"marched\",\"Athens\",\"Three people\",\"bank\",\"flames\",\"Wednesday\",\"Greeks\",\"streets\",\"protest\",\"spending cuts\",\"bankruptcy\"],\"mediators\":[\"women\",\"man\",\"killed\",\"tens of thousands\",\"marched\",\"Athens\",\"Three people\",\"bank\",\"flames\",\"Wednesday\",\"Greeks\",\"streets\",\"protest\",\"spending cuts\",\"bankruptcy\"]}"
+    },
+    "indirect": {
+      "call_id": "f8d75787e1bb1f787f98be035a82b0ad24eb8d960d825cef4936d3fd6fd02bb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Three people died when an Athens bank went up in flames... as tens of thousands of Greeks took to the streets to protest' — 'when' links demonstrations to deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "c9f15f26953e10a5df2b7d490b31462ff66c64ec8f30468b234df931b1a24edd",
+    "c9f15f26953e10a5df2b7d490b31462ff66c64ec8f30468b234df931b1a24edd",
+    "f3d38343bf0a33986faa73a24baa30655e815655d90acfc9e68bd62adf8b41e0",
+    "a3181ae02aede8482a5d29730efe659b80a86e836c59944670866bb3887da334",
+    "22ed89b98d3b876290ce3966bf731e80859b52f2b5684f09b2d41ad8aaa02d3e",
+    "f8d75787e1bb1f787f98be035a82b0ad24eb8d960d825cef4936d3fd6fd02bb2"
+  ],
+  "elapsed_s": 4.902761459350586
+}

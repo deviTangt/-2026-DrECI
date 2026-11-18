@@ -1,0 +1,60 @@
+{
+  "input_hash": "e04835bcb62b9478298ab7d3f069f55687d2262bca4e9334d2716e10648d8a0f",
+  "sample_id": "ESC-CSV-06631",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "murdering"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "043dedee217c70d41ad15dd01b459b8931f6a7213ab7e1c2faf4e90d9113588a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "043dedee217c70d41ad15dd01b459b8931f6a7213ab7e1c2faf4e90d9113588a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8e25ea48f70b82fc9e56574f80a1bcc1bb650de85de434511eee58d54948cf3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "055786ffa870c32a3ab3e54bd8f63de58740732154b782a9652ad00a14594ec2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "a80a1601a322581e4241dc90627f5fcfcc9e7027ab5110d3c0a5cc4812afefbb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Zurana Horton\",\"Brooklyn Mother\",\"shot\",\"gang shooting\",\"murdering\"],\"target_related\":[\"two youths\",\"murdering\",\"trial\",\"Prosecutors\"],\"mediators\":[\"murdering\"]}"
+    },
+    "indirect": {
+      "call_id": "ff52713121034b88d9768d27478594ea9fbe64eb86d83f5bd9bebbc307d2324b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Horton was killed; the youths were charged with murdering her. Murdering (Z) links the killing to the charge, forming chain killed->murdering->charged.\"}"
+    }
+  },
+  "call_ids": [
+    "043dedee217c70d41ad15dd01b459b8931f6a7213ab7e1c2faf4e90d9113588a",
+    "043dedee217c70d41ad15dd01b459b8931f6a7213ab7e1c2faf4e90d9113588a",
+    "8e25ea48f70b82fc9e56574f80a1bcc1bb650de85de434511eee58d54948cf3a",
+    "055786ffa870c32a3ab3e54bd8f63de58740732154b782a9652ad00a14594ec2",
+    "a80a1601a322581e4241dc90627f5fcfcc9e7027ab5110d3c0a5cc4812afefbb",
+    "ff52713121034b88d9768d27478594ea9fbe64eb86d83f5bd9bebbc307d2324b"
+  ],
+  "elapsed_s": 5.185878276824951
+}

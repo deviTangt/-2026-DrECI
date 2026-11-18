@@ -1,0 +1,62 @@
+{
+  "input_hash": "a520e0423f8de7af4db86a45897aabcf60c403f6a39184b4e5bb8bf3859da1f0",
+  "sample_id": "ESC-CSV-07082",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "member",
+    "San Diego Chargers",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "017f263e42e325a7595cdb1f26800c491c08017ca721d1098ada52ceba64f05b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "017f263e42e325a7595cdb1f26800c491c08017ca721d1098ada52ceba64f05b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df9931b8ee68cec2d910ff3cd4bc2ed20bb7612f2057f5a8b83ce58800887c71",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b1a3305cb8317fdbe908fbe60f32024ad423a9836fd7566ff21309232328460a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1b859528a63e397fa5de06d6e2c4082423cbc1ebe4994008f55792e6d9ed79b0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"member\",\"San Diego Chargers\",\"suspicion\"],\"target_related\":[\"member\",\"San Diego Chargers\",\"suspicion\",\"arrested\"],\"mediators\":[\"member\",\"San Diego Chargers\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "96ec7c3954245a22c44f3151059cb9b040b5c6a7a28e5b6df58fc1c1ff549a62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Arrested on suspicion of drunk driving' indicates the arrest is based on suspicion of the offense, not that drunk driving caused the arrest; no explicit or implicit causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "017f263e42e325a7595cdb1f26800c491c08017ca721d1098ada52ceba64f05b",
+    "017f263e42e325a7595cdb1f26800c491c08017ca721d1098ada52ceba64f05b",
+    "df9931b8ee68cec2d910ff3cd4bc2ed20bb7612f2057f5a8b83ce58800887c71",
+    "b1a3305cb8317fdbe908fbe60f32024ad423a9836fd7566ff21309232328460a",
+    "1b859528a63e397fa5de06d6e2c4082423cbc1ebe4994008f55792e6d9ed79b0",
+    "96ec7c3954245a22c44f3151059cb9b040b5c6a7a28e5b6df58fc1c1ff549a62"
+  ],
+  "elapsed_s": 4.4750285148620605
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "1288b3fd38b8c823fbb6fb7c3d0621bec11509d615ac1ce9f17f7a7f0c165d5f",
+  "sample_id": "ESC-CSV-09948",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "government",
+    "reforms",
+    "crisis"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "690593f1a5699aa2fd1ae6c7d76f4b9aa8f94cb5d71fdcc48333820f5f85cfb7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "690593f1a5699aa2fd1ae6c7d76f4b9aa8f94cb5d71fdcc48333820f5f85cfb7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "de1cedc7096fef31847ad3fb280f37bf3cea44b740a4492a2502fc2e340931df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e555a99c69be64f416c7497d832c9def311aa2f1f8a8a779d9c51c2242beaea8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "209a805c55dcfa2b12d65c7cb61da778716fa299435b169f91a6cf5ca792cc82",
+      "status": "ok",
+      "text": "{\"source_related\":[\"hefty\",\"reforms\",\"government\",\"financial\",\"crisis\"],\"target_related\":[\"parliament\",\"government\",\"reforms\",\"crisis\"],\"mediators\":[\"government\",\"reforms\",\"crisis\"]}"
+    },
+    "indirect": {
+      "call_id": "f2bfdc6c7b2129a1667a3ef5351a2460c2f866a1e6e0ed2b06822b4eee4e9129",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says parliament will vote on cuts; the cuts are the subject of the vote, not a cause of it. No causal word or structure links cuts to vote.\"}"
+    }
+  },
+  "call_ids": [
+    "690593f1a5699aa2fd1ae6c7d76f4b9aa8f94cb5d71fdcc48333820f5f85cfb7",
+    "690593f1a5699aa2fd1ae6c7d76f4b9aa8f94cb5d71fdcc48333820f5f85cfb7",
+    "de1cedc7096fef31847ad3fb280f37bf3cea44b740a4492a2502fc2e340931df",
+    "e555a99c69be64f416c7497d832c9def311aa2f1f8a8a779d9c51c2242beaea8",
+    "209a805c55dcfa2b12d65c7cb61da778716fa299435b169f91a6cf5ca792cc82",
+    "f2bfdc6c7b2129a1667a3ef5351a2460c2f866a1e6e0ed2b06822b4eee4e9129"
+  ],
+  "elapsed_s": 4.274780988693237
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "281f5ef77570e311e42a7f11b2a3014ece98bcabcb4ccda05b33826b7737b448",
+  "sample_id": "ESC-CSV-04140",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "he",
+    "slope",
+    "cliff"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cf0575164e96c9db840c9ce959852f6276c99ace5ccf802fead45dedb92c5996",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cf0575164e96c9db840c9ce959852f6276c99ace5ccf802fead45dedb92c5996",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5acaa738f2663f407fb4de91adba7660252f4a1942ba9323b6fca33240283fb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e4acb9ffe34b1e862003b1db64b9224ac1c1cabd360616907e1ece51244b086a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f92ed26ab197a1ef17d69002c042c5bbcb4b8aa59672dafd8f5b50793cfcf3f7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"he\",\"walking\",\"hut\",\"sliding\",\"slope\",\"cliff\"],\"target_related\":[\"he\",\"fell\",\"slope\",\"cliff\"],\"mediators\":[\"he\",\"slope\",\"cliff\"]}"
+    },
+    "indirect": {
+      "call_id": "e5bc98c643039203baeb65494fbeb09f24dec54d8ee73df67b739495fc1c7ec5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling precedes and naturally causes sliding down the slope; common sense supports fell causing sliding.\"}"
+    }
+  },
+  "call_ids": [
+    "cf0575164e96c9db840c9ce959852f6276c99ace5ccf802fead45dedb92c5996",
+    "cf0575164e96c9db840c9ce959852f6276c99ace5ccf802fead45dedb92c5996",
+    "5acaa738f2663f407fb4de91adba7660252f4a1942ba9323b6fca33240283fb0",
+    "e4acb9ffe34b1e862003b1db64b9224ac1c1cabd360616907e1ece51244b086a",
+    "f92ed26ab197a1ef17d69002c042c5bbcb4b8aa59672dafd8f5b50793cfcf3f7",
+    "e5bc98c643039203baeb65494fbeb09f24dec54d8ee73df67b739495fc1c7ec5"
+  ],
+  "elapsed_s": 4.861374378204346
+}

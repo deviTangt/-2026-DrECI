@@ -1,0 +1,64 @@
+{
+  "input_hash": "79b4ea97cdf7b9058ee77f50b2535fb2765f497c29e081d56497450eb4b55589",
+  "sample_id": "ESC-CSV-04019",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "man",
+    "killed",
+    "2,000ft",
+    "New Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "072442fdc7f08dbcc1af0a1d6cf52c0e19dba2a3f31dcd349afb2e5b13255f52",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "072442fdc7f08dbcc1af0a1d6cf52c0e19dba2a3f31dcd349afb2e5b13255f52",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1f92d8eb7d67bebab2a2ced9ff5d90e59765946f43e6aee00f3a948374d27445",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3074a3f7b64298a21914770d10dd5ba985ffe37ad4a8a79434fdd124e1630396",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "eb0eaa5d06ae75edcd29371aac84665bc9fe9ba46b9b36229bada56c4474d99e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"man\",\"killed\",\"falling\",\"2,000ft\",\"New Zealand\"],\"target_related\":[\"British\",\"man\",\"killed\",\"climbing\",\"2,000ft\",\"New Zealand\"],\"mediators\":[\"British\",\"man\",\"killed\",\"2,000ft\",\"New Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "f1163ca032873197e5a2dc17203541903255b6e9529511e70c82d9ca7863a88c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Climbing at height precedes and commonly causes falling; the text links falling while climbing, so climbing leads to falling by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "072442fdc7f08dbcc1af0a1d6cf52c0e19dba2a3f31dcd349afb2e5b13255f52",
+    "072442fdc7f08dbcc1af0a1d6cf52c0e19dba2a3f31dcd349afb2e5b13255f52",
+    "1f92d8eb7d67bebab2a2ced9ff5d90e59765946f43e6aee00f3a948374d27445",
+    "3074a3f7b64298a21914770d10dd5ba985ffe37ad4a8a79434fdd124e1630396",
+    "eb0eaa5d06ae75edcd29371aac84665bc9fe9ba46b9b36229bada56c4474d99e",
+    "f1163ca032873197e5a2dc17203541903255b6e9529511e70c82d9ca7863a88c"
+  ],
+  "elapsed_s": 4.523475885391235
+}

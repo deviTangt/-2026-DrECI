@@ -1,0 +1,65 @@
+{
+  "input_hash": "da5a9e911383d1b9f2ba396efcc469ac351710feb567553c55ebdeb43eb46b67",
+  "sample_id": "ESC-CSV-06934",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "32",
+    "1:30 a.m.",
+    "Feb. 1",
+    "state Route 94",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "06f9cd8d98a23030726dfe4771174dc53e8680e8dc220552b287f4912db3a629",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "06f9cd8d98a23030726dfe4771174dc53e8680e8dc220552b287f4912db3a629",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c992e930de966aa3e72f378cfdac828a8a05b91f0c99cc2ee6734a0b064d2723",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fe41d47f62ed5b944c4d71eeb164265b6ebd3faa3a529a33b2ec45f59da057f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8a0c802dc797d91b433edb95a539ceb6449a4443aa94879fcb77f94b740ac50e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"32\",\"1:30 a.m.\",\"Feb. 1\",\"state Route 94\",\"suspicion\"],\"target_related\":[\"Williams\",\"32\",\"1:30 a.m.\",\"Feb. 1\",\"state Route 94\",\"suspicion\"],\"mediators\":[\"Williams\",\"32\",\"1:30 a.m.\",\"Feb. 1\",\"state Route 94\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "9dd4072302087444eca0d16243839ed79ab71012acdff3a575cac6ba2fcc52f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested ... on suspicion of drunken driving' — 'on suspicion of' links the drunken driving to the arrest, indicating causation.\"}"
+    }
+  },
+  "call_ids": [
+    "06f9cd8d98a23030726dfe4771174dc53e8680e8dc220552b287f4912db3a629",
+    "06f9cd8d98a23030726dfe4771174dc53e8680e8dc220552b287f4912db3a629",
+    "c992e930de966aa3e72f378cfdac828a8a05b91f0c99cc2ee6734a0b064d2723",
+    "fe41d47f62ed5b944c4d71eeb164265b6ebd3faa3a529a33b2ec45f59da057f7",
+    "8a0c802dc797d91b433edb95a539ceb6449a4443aa94879fcb77f94b740ac50e",
+    "9dd4072302087444eca0d16243839ed79ab71012acdff3a575cac6ba2fcc52f6"
+  ],
+  "elapsed_s": 4.521820068359375
+}

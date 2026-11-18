@@ -1,0 +1,62 @@
+{
+  "input_hash": "07aca49ef7e5e52944706c858b318e6990ff43bb5c0273852e6e3b76bd25def8",
+  "sample_id": "ESC-CSV-04295",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "he",
+    "fell",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5400d89670139c942930e65aa5b9f43eda55bc9d3c93bbf96d80cf55018f35fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5400d89670139c942930e65aa5b9f43eda55bc9d3c93bbf96d80cf55018f35fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8367111736a448509eac68ab79c345d9f4d99064809c941e74da6b4ec2a5ead7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2f2b7e2f8eed9ce82f541055066ca93ce3369bd0b8f5baa0c37eaa186626b344",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "794f1eb0e899926f0403bd9ccaf4ca80b5b7f5952ef45ee61585ee16dff61f30",
+      "status": "ok",
+      "text": "{\"source_related\":[\"ridgeline\",\"fell\",\"death\",\"he\"],\"target_related\":[\"death\",\"fell\",\"slipped\",\"he\"],\"mediators\":[\"he\",\"fell\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "ed8e0fe8db6494c9ce7be6b15d3d0b4f936aa289075e72c403ebeee47b087d7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'he slipped from the ridgeline and fell to his death' — 'and' links slipping to falling; slipping precedes and causes the fall by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "5400d89670139c942930e65aa5b9f43eda55bc9d3c93bbf96d80cf55018f35fe",
+    "5400d89670139c942930e65aa5b9f43eda55bc9d3c93bbf96d80cf55018f35fe",
+    "8367111736a448509eac68ab79c345d9f4d99064809c941e74da6b4ec2a5ead7",
+    "2f2b7e2f8eed9ce82f541055066ca93ce3369bd0b8f5baa0c37eaa186626b344",
+    "794f1eb0e899926f0403bd9ccaf4ca80b5b7f5952ef45ee61585ee16dff61f30",
+    "ed8e0fe8db6494c9ce7be6b15d3d0b4f936aa289075e72c403ebeee47b087d7a"
+  ],
+  "elapsed_s": 4.451794385910034
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "7f6e693b9911192d9ce6d20c18694e1f8112bb585babda0767068c6db42d47d4",
+  "sample_id": "ESC-CSV-09413",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Marfin bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c170af4cefb9ed67fc867ac1b247d6a06bc7c9424342fd423eaec29d7f9caf8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c170af4cefb9ed67fc867ac1b247d6a06bc7c9424342fd423eaec29d7f9caf8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b24d6751c2cdaa6f71a250d08f7a602f174b28e94ee9dae290268dcffcdeaf4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8b71cef4f3718ca958ec729f9701362b9b3796a7aaef024a6b81a753fd5e2b5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e12346f01788bcb41142b3d3fdb12ab353702dedbfe273178720804a613cea57",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin bank\",\"branch\",\"window\",\"petrol bombs\",\"hooded youths\"],\"target_related\":[\"two women\",\"one man\",\"Three\",\"rioters\"],\"mediators\":[\"Marfin bank\"]}"
+    },
+    "indirect": {
+      "call_id": "59698661dc4810bcc74ee1bba65ff1cd64c33aec35d22b60239cb3fa507eb49b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The bank caught fire after petrol bombs were thrown; the fire caused the deaths of three people, so X precedes and causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "c170af4cefb9ed67fc867ac1b247d6a06bc7c9424342fd423eaec29d7f9caf8b",
+    "c170af4cefb9ed67fc867ac1b247d6a06bc7c9424342fd423eaec29d7f9caf8b",
+    "b24d6751c2cdaa6f71a250d08f7a602f174b28e94ee9dae290268dcffcdeaf4b",
+    "8b71cef4f3718ca958ec729f9701362b9b3796a7aaef024a6b81a753fd5e2b5e",
+    "e12346f01788bcb41142b3d3fdb12ab353702dedbfe273178720804a613cea57",
+    "59698661dc4810bcc74ee1bba65ff1cd64c33aec35d22b60239cb3fa507eb49b"
+  ],
+  "elapsed_s": 4.80308723449707
+}

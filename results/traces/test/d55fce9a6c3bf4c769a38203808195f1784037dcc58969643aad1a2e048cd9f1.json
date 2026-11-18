@@ -1,0 +1,60 @@
+{
+  "input_hash": "d55fce9a6c3bf4c769a38203808195f1784037dcc58969643aad1a2e048cd9f1",
+  "sample_id": "ESC-CSV-06617",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0983252f1433bb2b01a3c6ffe88174874a42e1129d060968a736a76f6e4ec310",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0983252f1433bb2b01a3c6ffe88174874a42e1129d060968a736a76f6e4ec310",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b8c9c089e5bbb743bacd568a0fb4f96971de8c34f4e193f283e55b37c4b198db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "372b0b158a762fb82e0b39ddc94a0c882110c00bf2d87de31c3302df22a11a09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9094b0a7ffeb2ed5b7a5e1a1b7686d11346b9e2f79b226b4690ffd58b4f9533b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"way\"],\"target_related\":[\"Horton\",\"bullet\"],\"mediators\":[\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "1d39eb5853bf66969abbb42402859a3537f1d4b73ca6a5d1ffcba4f849bf6e01",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Pushing a child out of the way causes Horton to take the bullet; the push precedes and enables the taking.\"}"
+    }
+  },
+  "call_ids": [
+    "0983252f1433bb2b01a3c6ffe88174874a42e1129d060968a736a76f6e4ec310",
+    "0983252f1433bb2b01a3c6ffe88174874a42e1129d060968a736a76f6e4ec310",
+    "b8c9c089e5bbb743bacd568a0fb4f96971de8c34f4e193f283e55b37c4b198db",
+    "372b0b158a762fb82e0b39ddc94a0c882110c00bf2d87de31c3302df22a11a09",
+    "9094b0a7ffeb2ed5b7a5e1a1b7686d11346b9e2f79b226b4690ffd58b4f9533b",
+    "1d39eb5853bf66969abbb42402859a3537f1d4b73ca6a5d1ffcba4f849bf6e01"
+  ],
+  "elapsed_s": 5.268411636352539
+}

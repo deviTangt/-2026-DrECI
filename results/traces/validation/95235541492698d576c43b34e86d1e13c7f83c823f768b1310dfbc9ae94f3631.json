@@ -1,0 +1,62 @@
+{
+  "input_hash": "95235541492698d576c43b34e86d1e13c7f83c823f768b1310dfbc9ae94f3631",
+  "sample_id": "ESC-CSV-02462",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "brick",
+    "police",
+    "officer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da5836967cba1deb038b6a11ab3c363b89c2b8d0b402dc53e6555e6e54f2fb20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da5836967cba1deb038b6a11ab3c363b89c2b8d0b402dc53e6555e6e54f2fb20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "daaeb88fc82377b34256f0b85275721c27f5237bb9e114ef18e70ad3466fc9c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8141d82460b539798904139e0649b99ecfcddb7f5517375954bc441e0750caf0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5478487d9a9aecd74dd36277cc2a20275db4739e76771ac4f2dc2c19281123a6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"businesses\",\"protest\",\"officer\",\"brick\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"brick\",\"window\",\"police van\",\"officer\",\"police\",\"someone\"],\"mediators\":[\"brick\",\"police\",\"officer\"]}"
+    },
+    "indirect": {
+      "call_id": "bfe6212867eb3d0d7957f48ef1e231931ca1a99e4619b3d2677c630a0e8912b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Anger led to protests where someone threw a brick through a police van window; anger precedes and causes the throwing.\"}"
+    }
+  },
+  "call_ids": [
+    "da5836967cba1deb038b6a11ab3c363b89c2b8d0b402dc53e6555e6e54f2fb20",
+    "da5836967cba1deb038b6a11ab3c363b89c2b8d0b402dc53e6555e6e54f2fb20",
+    "daaeb88fc82377b34256f0b85275721c27f5237bb9e114ef18e70ad3466fc9c9",
+    "8141d82460b539798904139e0649b99ecfcddb7f5517375954bc441e0750caf0",
+    "5478487d9a9aecd74dd36277cc2a20275db4739e76771ac4f2dc2c19281123a6",
+    "bfe6212867eb3d0d7957f48ef1e231931ca1a99e4619b3d2677c630a0e8912b4"
+  ],
+  "elapsed_s": 8.253169298171997
+}

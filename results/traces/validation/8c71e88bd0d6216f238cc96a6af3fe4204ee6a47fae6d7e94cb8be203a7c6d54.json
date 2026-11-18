@@ -1,0 +1,70 @@
+{
+  "input_hash": "8c71e88bd0d6216f238cc96a6af3fe4204ee6a47fae6d7e94cb8be203a7c6d54",
+  "sample_id": "ESC-CSV-01801",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Ortiz",
+    "Orozco",
+    "Deputy",
+    "Luis Gerardo",
+    "Jerry",
+    "shot",
+    "Hawaiian Gardens",
+    "apartment",
+    "building",
+    "another shooting",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "28bb1c06b3eb378f3b94e455c23cb5dc3ad1844b01eeec7f9d5a3a1218df9f02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "28bb1c06b3eb378f3b94e455c23cb5dc3ad1844b01eeec7f9d5a3a1218df9f02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2711bf64db597f26784654731314b059b3be4c7b94e3e68817442420aa4ee355",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "645ceab83ec4098bca72cb6a811b223b1f3c16aff719f98f360b4b8757e00992",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8bb22f24cebdd566665a620b7efc57c5df1e94653b6e55850ad8c00cd1a06835",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"Jose Luis Orozco\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"shot\",\"Hawaiian Gardens\",\"apartment\",\"building\",\"another shooting\",\"Orozco\",\"death\"],\"target_related\":[\"Ortiz\",\"Orozco\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"shot\",\"Hawaiian Gardens\",\"apartment\",\"building\",\"investigating\",\"Jose Luis Orozco\",\"another shooting\",\"jail\",\"inmates\",\"death\"],\"mediators\":[\"Ortiz\",\"Orozco\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"shot\",\"Hawaiian Gardens\",\"apartment\",\"building\",\"another shooting\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "184d84c895f501ff11ae944cf36957069afb1c1fe7861c760157647c9936401d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ortiz was shot while investigating Orozco; the investigation preceded and led to the shooting, so investigating causes the shooting by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "28bb1c06b3eb378f3b94e455c23cb5dc3ad1844b01eeec7f9d5a3a1218df9f02",
+    "28bb1c06b3eb378f3b94e455c23cb5dc3ad1844b01eeec7f9d5a3a1218df9f02",
+    "2711bf64db597f26784654731314b059b3be4c7b94e3e68817442420aa4ee355",
+    "645ceab83ec4098bca72cb6a811b223b1f3c16aff719f98f360b4b8757e00992",
+    "8bb22f24cebdd566665a620b7efc57c5df1e94653b6e55850ad8c00cd1a06835",
+    "184d84c895f501ff11ae944cf36957069afb1c1fe7861c760157647c9936401d"
+  ],
+  "elapsed_s": 5.38043999671936
+}

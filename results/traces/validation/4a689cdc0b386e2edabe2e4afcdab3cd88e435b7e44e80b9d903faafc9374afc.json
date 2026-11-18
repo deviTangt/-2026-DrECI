@@ -1,0 +1,63 @@
+{
+  "input_hash": "4a689cdc0b386e2edabe2e4afcdab3cd88e435b7e44e80b9d903faafc9374afc",
+  "sample_id": "ESC-CSV-02791",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Kimani Gray",
+    "Brooklyn",
+    "riot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cab53902efee6f5fc0a53bbd8d28216f674e4fdb067e67b7c87dbd9c14ac12ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cab53902efee6f5fc0a53bbd8d28216f674e4fdb067e67b7c87dbd9c14ac12ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a31ace22eef78a9f08ae4534c7656b030d2ab04fe6916f09733c7b0c1284a035",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1b536ebbc1355e24488f8ed5ff3ac23f1b291b34073afb3b0dd780bac8927380",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0c4073952a8eb6bd7104aa7ab5835f71790d081d409e9ce402564c27f71c8ada",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Kimani Gray\",\"Brooklyn\",\"Saturday\",\"riot\"],\"target_related\":[\"candlelit\",\"Brooklyn\",\"Kimani Gray\",\"police\",\"riot\"],\"mediators\":[\"police\",\"Kimani Gray\",\"Brooklyn\",\"riot\"]}"
+    },
+    "indirect": {
+      "call_id": "6a67d3b82f13d225e759038ef6e6bc1b1dd9d3f0e84f1f8c76ed69a976490c7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot 11 times by police prompted the candlelit vigil held in his memory; the shooting precedes and causes the vigil.\"}"
+    }
+  },
+  "call_ids": [
+    "cab53902efee6f5fc0a53bbd8d28216f674e4fdb067e67b7c87dbd9c14ac12ae",
+    "cab53902efee6f5fc0a53bbd8d28216f674e4fdb067e67b7c87dbd9c14ac12ae",
+    "a31ace22eef78a9f08ae4534c7656b030d2ab04fe6916f09733c7b0c1284a035",
+    "1b536ebbc1355e24488f8ed5ff3ac23f1b291b34073afb3b0dd780bac8927380",
+    "0c4073952a8eb6bd7104aa7ab5835f71790d081d409e9ce402564c27f71c8ada",
+    "6a67d3b82f13d225e759038ef6e6bc1b1dd9d3f0e84f1f8c76ed69a976490c7e"
+  ],
+  "elapsed_s": 4.876783609390259
+}

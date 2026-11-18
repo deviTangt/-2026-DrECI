@@ -1,0 +1,70 @@
+{
+  "input_hash": "695c40a185a897793b717ad6b69dd58fd3ff5d393be2aa7da32df04405d63605",
+  "sample_id": "ESC-CSV-02071",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "employee",
+    "fired",
+    "killed",
+    "woman",
+    "men",
+    "Monday",
+    "building",
+    "worked",
+    "officers",
+    "chase",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fa594bc314b3db631d9c3865cf08a4ad8e20a08719f90044a30fec5d06e6dfdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fa594bc314b3db631d9c3865cf08a4ad8e20a08719f90044a30fec5d06e6dfdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b2f45087cd0d1fda961213957cffa11ce9a777e4316208beb5087907a2214949",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "63b544bcf8b9774dc5b561552818cbe3bd3f05d691a252600269485149875bef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "90ed10592945e3b32e529b6ba679a8e18845bc44df9d12f93e1f2c3018d958bc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"Monday\",\"building\",\"worked\",\"officers\",\"chase\",\"police\"],\"target_related\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"Monday\",\"building\",\"worked\",\"officers\",\"chase\",\"police\"],\"mediators\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"Monday\",\"building\",\"worked\",\"officers\",\"chase\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "d40246b87c485362bdf506d38518af657de2d4e3ce45988b67e85688e7101a86",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone is the action that causes them to be wounded; the shot occurs before and produces the wounding.\"}"
+    }
+  },
+  "call_ids": [
+    "fa594bc314b3db631d9c3865cf08a4ad8e20a08719f90044a30fec5d06e6dfdd",
+    "fa594bc314b3db631d9c3865cf08a4ad8e20a08719f90044a30fec5d06e6dfdd",
+    "b2f45087cd0d1fda961213957cffa11ce9a777e4316208beb5087907a2214949",
+    "63b544bcf8b9774dc5b561552818cbe3bd3f05d691a252600269485149875bef",
+    "90ed10592945e3b32e529b6ba679a8e18845bc44df9d12f93e1f2c3018d958bc",
+    "d40246b87c485362bdf506d38518af657de2d4e3ce45988b67e85688e7101a86"
+  ],
+  "elapsed_s": 4.991008043289185
+}

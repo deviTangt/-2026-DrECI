@@ -1,0 +1,67 @@
+{
+  "input_hash": "88c19a9e724d730652b8498bfea02b8089a4d2750b9cdc6aad98fcbc4c2c7434",
+  "sample_id": "ESC-CSV-09583",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "police",
+    "Riots",
+    "austerity",
+    "measures",
+    "Athens",
+    "Wednesday",
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f54240ac8a2787844408139bc7389ade043b15107c4a77002ed1acd45eea1cb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f54240ac8a2787844408139bc7389ade043b15107c4a77002ed1acd45eea1cb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9affae87bcfb2cafab294e8ae8d809b5a308603c86643c512d30ab5369c62e33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2f6219e05441ee0a9c8b0d3d155fea0c3447a989ad5b3718e7f69628c61ad2fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e05c6408526a0d3e9c9c05ebd371c984e598cdfaef089a05d29e1c49e9b744d8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"Riots\",\"austerity\",\"measures\",\"bank workers\",\"Athens\",\"Wednesday\",\"protesters\",\"police\",\"buildings\"],\"target_related\":[\"angry\",\"protesters\",\"parliament\",\"police\",\"Riots\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\",\"buildings\"],\"mediators\":[\"protesters\",\"police\",\"Riots\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\",\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "24218fdf7fd91dbbea7699c9028ecf56ab57c3ec251e8b654b26a32f5f22edda",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Protesters stormed parliament; 'storm' is a verb meaning to rush, not a weather event caused by the protest.\"}"
+    }
+  },
+  "call_ids": [
+    "f54240ac8a2787844408139bc7389ade043b15107c4a77002ed1acd45eea1cb6",
+    "f54240ac8a2787844408139bc7389ade043b15107c4a77002ed1acd45eea1cb6",
+    "9affae87bcfb2cafab294e8ae8d809b5a308603c86643c512d30ab5369c62e33",
+    "2f6219e05441ee0a9c8b0d3d155fea0c3447a989ad5b3718e7f69628c61ad2fa",
+    "e05c6408526a0d3e9c9c05ebd371c984e598cdfaef089a05d29e1c49e9b744d8",
+    "24218fdf7fd91dbbea7699c9028ecf56ab57c3ec251e8b654b26a32f5f22edda"
+  ],
+  "elapsed_s": 4.458681344985962
+}

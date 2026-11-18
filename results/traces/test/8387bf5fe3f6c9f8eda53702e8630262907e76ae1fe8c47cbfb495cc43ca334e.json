@@ -1,0 +1,63 @@
+{
+  "input_hash": "8387bf5fe3f6c9f8eda53702e8630262907e76ae1fe8c47cbfb495cc43ca334e",
+  "sample_id": "ESC-CSV-09262",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "building",
+    "torched"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9540e7fb276102fbffd9cf930864c530ae00599546c1fd4d2afcbea67dc2c978",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9540e7fb276102fbffd9cf930864c530ae00599546c1fd4d2afcbea67dc2c978",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c49e40205c0085e98f09accb012c898331c7b98fa26b78e245c62d4ef79a3909",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "420afc2510b7cb680789da9b3cd9078638f3b5327a6aab9dd1e74169dda0dd4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "72718b7b346f290fa882d7d6f5dc7126617b35ea003eafab7e16bdf7cb74eb0b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"austerity\",\"measures\",\"building\",\"torched\",\"bank\",\"workers\",\"Greek\",\"prime\",\"minister\"],\"target_related\":[\"bank\",\"workers\",\"building\",\"torched\",\"murder\",\"three\"],\"mediators\":[\"bank\",\"workers\",\"building\",\"torched\"]}"
+    },
+    "indirect": {
+      "call_id": "a11f390b0716db925202c87a221ece95320972eb0a86219e249bc9d5c0bbc993",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protests led to the building being torched, and the torched building killed three bank workers: protests -> torched building -> killed.\"}"
+    }
+  },
+  "call_ids": [
+    "9540e7fb276102fbffd9cf930864c530ae00599546c1fd4d2afcbea67dc2c978",
+    "9540e7fb276102fbffd9cf930864c530ae00599546c1fd4d2afcbea67dc2c978",
+    "c49e40205c0085e98f09accb012c898331c7b98fa26b78e245c62d4ef79a3909",
+    "420afc2510b7cb680789da9b3cd9078638f3b5327a6aab9dd1e74169dda0dd4c",
+    "72718b7b346f290fa882d7d6f5dc7126617b35ea003eafab7e16bdf7cb74eb0b",
+    "a11f390b0716db925202c87a221ece95320972eb0a86219e249bc9d5c0bbc993"
+  ],
+  "elapsed_s": 4.169355869293213
+}

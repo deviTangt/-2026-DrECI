@@ -1,0 +1,60 @@
+{
+  "input_hash": "caa51911c3c3170b4ae8c131a780974224c251aad9c303dd5f58fa10888b3127",
+  "sample_id": "ESC-CSV-09967",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrations"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2a9a918b3788b885c5b83dfbace4a9aebcc9d36eb0d1b4da0a6df3112cb1e272",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2a9a918b3788b885c5b83dfbace4a9aebcc9d36eb0d1b4da0a6df3112cb1e272",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b8570a54bcaab4eecdb22bc8b938e87a02caba218a4d45a005844552acbc7438",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a13a3b144945db71e7a3645233f8978c1fb58e46e4dd51387945e8a00ef8eb30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2ff28692b6a0ac5f00d1d2bbdef8b389ef4aaad4ca5f5346f3e5ae932c686c33",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrations\",\"measures\",\"planned\",\"violent\"],\"target_related\":[\"petrol\",\"bomb\",\"died\",\"workers\",\"bank\"],\"mediators\":[\"demonstrations\"]}"
+    },
+    "indirect": {
+      "call_id": "227f91e06fc183069373560d816f62fb2b3dcbb76896bfea472f3d28c3d8ba5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Austerity measures prompted demonstrations, which turned violent and led to the petrol bomb attack; chain: austerity -> demonstrations -> attack.\"}"
+    }
+  },
+  "call_ids": [
+    "2a9a918b3788b885c5b83dfbace4a9aebcc9d36eb0d1b4da0a6df3112cb1e272",
+    "2a9a918b3788b885c5b83dfbace4a9aebcc9d36eb0d1b4da0a6df3112cb1e272",
+    "b8570a54bcaab4eecdb22bc8b938e87a02caba218a4d45a005844552acbc7438",
+    "a13a3b144945db71e7a3645233f8978c1fb58e46e4dd51387945e8a00ef8eb30",
+    "2ff28692b6a0ac5f00d1d2bbdef8b389ef4aaad4ca5f5346f3e5ae932c686c33",
+    "227f91e06fc183069373560d816f62fb2b3dcbb76896bfea472f3d28c3d8ba5d"
+  ],
+  "elapsed_s": 4.26305890083313
+}

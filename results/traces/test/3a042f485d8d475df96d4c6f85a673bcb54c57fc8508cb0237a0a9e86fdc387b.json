@@ -1,0 +1,66 @@
+{
+  "input_hash": "3a042f485d8d475df96d4c6f85a673bcb54c57fc8508cb0237a0a9e86fdc387b",
+  "sample_id": "ESC-CSV-06528",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "killing",
+    "Brownsville",
+    "mother",
+    "12",
+    "Oct.",
+    "2011",
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1d36df25756acd44aadb24f78bd63deb02398874087ac4a4b7d5226fb940089",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1d36df25756acd44aadb24f78bd63deb02398874087ac4a4b7d5226fb940089",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d1bbd782b308caf9aa375844a76354c6bfc1126b67f24e7ca8404b032c5f7f0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4280bdca4416aacfe106af6e402cc8d696cb8e21f3634737d71df064e1f0f328",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "67c80c61f2b1cbabc06a149934c38925d533ab4ce4696b208582f3cfe679fe07",
+      "status": "ok",
+      "text": "{\"source_related\":[\"killing\",\"Brownsville\",\"mother\",\"12\",\"Oct.\",\"2011\",\"men\"],\"target_related\":[\"Prosecutors\",\"released\",\"new\",\"video\",\"killing\",\"Brownsville\",\"mother\",\"12\",\"Oct.\",\"2011\",\"men\"],\"mediators\":[\"killing\",\"Brownsville\",\"mother\",\"12\",\"Oct.\",\"2011\",\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "e5c6d241165c02dd69c7125a31497c1d4dd0ebea51728476382db0fc4e8e72fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says two men are accused of killing a mother and are on trial; being accused does not cause the trial, and no causal rule links X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "b1d36df25756acd44aadb24f78bd63deb02398874087ac4a4b7d5226fb940089",
+    "b1d36df25756acd44aadb24f78bd63deb02398874087ac4a4b7d5226fb940089",
+    "d1bbd782b308caf9aa375844a76354c6bfc1126b67f24e7ca8404b032c5f7f0c",
+    "4280bdca4416aacfe106af6e402cc8d696cb8e21f3634737d71df064e1f0f328",
+    "67c80c61f2b1cbabc06a149934c38925d533ab4ce4696b208582f3cfe679fe07",
+    "e5c6d241165c02dd69c7125a31497c1d4dd0ebea51728476382db0fc4e8e72fa"
+  ],
+  "elapsed_s": 5.227757215499878
+}

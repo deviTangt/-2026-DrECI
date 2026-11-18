@@ -1,0 +1,60 @@
+{
+  "input_hash": "6067d433342650b1469af9eaadc5dda74fc0a190e1b8735bd9a39473865de14e",
+  "sample_id": "ESC-CSV-09744",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "741cf27dde4f455d7d7de38e9ae02f818c195ad66aea1de09f85b7aba676b63b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "741cf27dde4f455d7d7de38e9ae02f818c195ad66aea1de09f85b7aba676b63b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5cf30ff7fb0b11e3bd1f5a017e342e5b3910e51471ea85b888739a82da8146a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "be1442366f42c47cc037887ff8f95776c7b2132a1a6f7fd6194bbb91bcde108a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "051672cf2774a4ef6c844f0a2d7337b5f3983664a04a914b87ddfe378c591412",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"injured\"],\"target_related\":[\"Police\",\"barrages\",\"tear gas\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "60e061e5677f16695b4f8a632210c6750f4f29a83e4174f3db27f50daef0a101",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occurred first, and police responded with tear gas; common sense indicates the riots prompted the police response.\"}"
+    }
+  },
+  "call_ids": [
+    "741cf27dde4f455d7d7de38e9ae02f818c195ad66aea1de09f85b7aba676b63b",
+    "741cf27dde4f455d7d7de38e9ae02f818c195ad66aea1de09f85b7aba676b63b",
+    "5cf30ff7fb0b11e3bd1f5a017e342e5b3910e51471ea85b888739a82da8146a3",
+    "be1442366f42c47cc037887ff8f95776c7b2132a1a6f7fd6194bbb91bcde108a",
+    "051672cf2774a4ef6c844f0a2d7337b5f3983664a04a914b87ddfe378c591412",
+    "60e061e5677f16695b4f8a632210c6750f4f29a83e4174f3db27f50daef0a101"
+  ],
+  "elapsed_s": 4.428480386734009
+}

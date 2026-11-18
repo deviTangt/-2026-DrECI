@@ -1,0 +1,62 @@
+{
+  "input_hash": "43c23a61549e27a66e25b0c1f09911a3d19ad6ee3fd02b5f4c4a7897208e9afb",
+  "sample_id": "ESC-CSV-07265",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "he",
+    "booked",
+    "county jail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1decc7c0bc9a692b5e6043da10c90f38ed8905ecfb476b84caaccfb6043ffaa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1decc7c0bc9a692b5e6043da10c90f38ed8905ecfb476b84caaccfb6043ffaa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f4ff95d7bb3217471d569a5a96784f639edc2fafea16ee2dad49ae7f0ff6f3d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b07e91b3e7692481d9b9c28e91f69437315bbd2460e62d55b6cc07f6ddaf9652",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e9b3de57dff3a7ab93ec947314951c428294cf6cc968eba5e70f2035d6c61b65",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chargers player\",\"pulled over\",\"DUI\",\"CHP\",\"drunken driving\",\"booked\",\"county jail\",\"he\"],\"target_related\":[\"he\",\"booked\",\"county jail\",\"bond\"],\"mediators\":[\"he\",\"booked\",\"county jail\"]}"
+    },
+    "indirect": {
+      "call_id": "af951fdd9aa5dd40d068f230b4d654b68320c1102638d3652206aeb698130152",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"He was arrested, booked into county jail, and later released on bond; arrest leads to booking, which leads to release.\"}"
+    }
+  },
+  "call_ids": [
+    "1decc7c0bc9a692b5e6043da10c90f38ed8905ecfb476b84caaccfb6043ffaa5",
+    "1decc7c0bc9a692b5e6043da10c90f38ed8905ecfb476b84caaccfb6043ffaa5",
+    "f4ff95d7bb3217471d569a5a96784f639edc2fafea16ee2dad49ae7f0ff6f3d5",
+    "b07e91b3e7692481d9b9c28e91f69437315bbd2460e62d55b6cc07f6ddaf9652",
+    "e9b3de57dff3a7ab93ec947314951c428294cf6cc968eba5e70f2035d6c61b65",
+    "af951fdd9aa5dd40d068f230b4d654b68320c1102638d3652206aeb698130152"
+  ],
+  "elapsed_s": 4.923748731613159
+}

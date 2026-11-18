@@ -1,0 +1,65 @@
+{
+  "input_hash": "eb7c4f9862877a729a036c464c099a8e1bc442797f3a3f08056def571bf150fb",
+  "sample_id": "ESC-CSV-02268",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "fired",
+    "shotgun",
+    "office",
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6d3dc10f79b473cc80ed10fa5270c39e1ca86ecd0317c0f7a2c6e08d105a3a10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6d3dc10f79b473cc80ed10fa5270c39e1ca86ecd0317c0f7a2c6e08d105a3a10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b15d56a1770383083b5fdc1cb7307ac692f5c4cd322f583b428ea34ec96ab80d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eaecbd937413eac6f13440081d481d9872cf543a16e436484297177f2a488122",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "395caf7931d6931c7daa9b6678e844e6ddb8682c9e6fa759c46f31b00d4a2bd9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"fired\",\"job\",\"shotgun\",\"bought\",\"office\",\"bosses\",\"receptionist\"],\"target_related\":[\"accountant\",\"fired\",\"shotgun\",\"office\",\"bosses\",\"wounding\",\"killing\",\"receptionist\"],\"mediators\":[\"accountant\",\"fired\",\"shotgun\",\"office\",\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "492adfdd9932b5d125dfd326b62e3e0e2e9cdbdac8b545da3bddda79933cafbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job (being fired) prompted the accountant to buy a shotgun and return to open fire, so the loss precedes and causes the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "6d3dc10f79b473cc80ed10fa5270c39e1ca86ecd0317c0f7a2c6e08d105a3a10",
+    "6d3dc10f79b473cc80ed10fa5270c39e1ca86ecd0317c0f7a2c6e08d105a3a10",
+    "b15d56a1770383083b5fdc1cb7307ac692f5c4cd322f583b428ea34ec96ab80d",
+    "eaecbd937413eac6f13440081d481d9872cf543a16e436484297177f2a488122",
+    "395caf7931d6931c7daa9b6678e844e6ddb8682c9e6fa759c46f31b00d4a2bd9",
+    "492adfdd9932b5d125dfd326b62e3e0e2e9cdbdac8b545da3bddda79933cafbe"
+  ],
+  "elapsed_s": 7.604415416717529
+}

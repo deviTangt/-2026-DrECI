@@ -1,0 +1,70 @@
+{
+  "input_hash": "538dc9c36299fa35240abdb449d9c7abc9bdacbfcbbcfc6244edc806c28f5127",
+  "sample_id": "ESC-CSV-06618",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Zurana",
+    "Horton",
+    "killed",
+    "gang",
+    "Brooklyn",
+    "Mother",
+    "revealed",
+    "Thursday",
+    "N.Y.",
+    "Daily",
+    "News"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fcdbe4a97a7c0ae5eb8f350ddcf064107a4ae7bdfaa42960d704f82f65681023",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fcdbe4a97a7c0ae5eb8f350ddcf064107a4ae7bdfaa42960d704f82f65681023",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a792fc323bb640e6a18dc039bb476f1c28b261c03bbecd1653781c37ca6234c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d61ff25952140b3d5741374daf260b76d020d1754c2b1b2139d424e6a85878d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5292cf9ac88cd73d0ee138e2ca42230e2534e829f9049b929b890a73031a0645",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"Brooklyn\",\"Mother\",\"Zurana\",\"Horton\",\"killed\",\"revealed\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"],\"target_related\":[\"Zurana\",\"Horton\",\"killed\",\"gang\",\"Brooklyn\",\"Mother\",\"revealed\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"],\"mediators\":[\"Zurana\",\"Horton\",\"killed\",\"gang\",\"Brooklyn\",\"Mother\",\"revealed\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"]}"
+    },
+    "indirect": {
+      "call_id": "e51683b9e44519f5fb88a874f981f081b6afd5e2068079c6857020ad829cb80a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed in a gang shooting' — 'by' links the shooting as cause of being shot; shooting precedes being shot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "fcdbe4a97a7c0ae5eb8f350ddcf064107a4ae7bdfaa42960d704f82f65681023",
+    "fcdbe4a97a7c0ae5eb8f350ddcf064107a4ae7bdfaa42960d704f82f65681023",
+    "a792fc323bb640e6a18dc039bb476f1c28b261c03bbecd1653781c37ca6234c2",
+    "d61ff25952140b3d5741374daf260b76d020d1754c2b1b2139d424e6a85878d6",
+    "5292cf9ac88cd73d0ee138e2ca42230e2534e829f9049b929b890a73031a0645",
+    "e51683b9e44519f5fb88a874f981f081b6afd5e2068079c6857020ad829cb80a"
+  ],
+  "elapsed_s": 5.834678411483765
+}

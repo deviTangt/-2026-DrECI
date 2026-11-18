@@ -1,0 +1,61 @@
+{
+  "input_hash": "af015d3252da89bb16641ea71909381d7df98af2173a8b6ec1dee3867157e2ff",
+  "sample_id": "ESC-CSV-09487",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "people",
+    "country"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c908a1ce366498630a133da221674dfe5e838d9bc7eb5670e52f9bd003ccb7a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c908a1ce366498630a133da221674dfe5e838d9bc7eb5670e52f9bd003ccb7a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4d438e93e67603d14e81954315c5922686dedc9109f8cc5e2282907b8b34b2b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2435c104d6106dee997b28574cd2a6f4f48fdbf40b0ac23728a7ad4f30088f9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "9142b175b0c945440a65bf30a35143414fc99921a5bbf872df207be2528a5b06",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"streets\",\"Athens\",\"country\",\"kicked off\"],\"target_related\":[\"general strike\",\"staged\",\"draconian austerity measures\",\"new round\"],\"mediators\":[\"people\",\"country\"]}"
+    },
+    "indirect": {
+      "call_id": "c515f19074a8438c150aba72c2753606e1aa0ae673568bf6bef3bf8b677bf281",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Rallies kicked off as people took to the streets; the general strike was staged as a protest, so rallies precede and cause the protest.\"}"
+    }
+  },
+  "call_ids": [
+    "c908a1ce366498630a133da221674dfe5e838d9bc7eb5670e52f9bd003ccb7a4",
+    "c908a1ce366498630a133da221674dfe5e838d9bc7eb5670e52f9bd003ccb7a4",
+    "4d438e93e67603d14e81954315c5922686dedc9109f8cc5e2282907b8b34b2b9",
+    "2435c104d6106dee997b28574cd2a6f4f48fdbf40b0ac23728a7ad4f30088f9f",
+    "9142b175b0c945440a65bf30a35143414fc99921a5bbf872df207be2528a5b06",
+    "c515f19074a8438c150aba72c2753606e1aa0ae673568bf6bef3bf8b677bf281"
+  ],
+  "elapsed_s": 4.725848436355591
+}

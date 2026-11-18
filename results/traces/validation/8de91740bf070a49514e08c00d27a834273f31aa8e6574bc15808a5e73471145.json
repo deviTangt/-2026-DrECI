@@ -1,0 +1,63 @@
+{
+  "input_hash": "8de91740bf070a49514e08c00d27a834273f31aa8e6574bc15808a5e73471145",
+  "sample_id": "ESC-CSV-07267",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "westbound",
+    "state route 94",
+    "approximately 1 : 30 a . m Sunday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6adbd0a0bf0ae75ba320dac7b9f589e11bb496bef27fe262d6875475397d0bf1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6adbd0a0bf0ae75ba320dac7b9f589e11bb496bef27fe262d6875475397d0bf1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6c67b3202bc2a9d179018682e7231e41d2a1a98df1219b45f48521e113da4e36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1e04ff7dfbc5302617d28e41601beeeb1da24d8c37752b24a808b15242f49ba7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6b1289e6b71ae88e066217005345369d303e629c8d5cfbaf3a9f3b827e67dd81",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"speeding\",\"westbound\",\"state route 94\",\"approximately 1 : 30 a . m Sunday\"],\"target_related\":[\"Williams\",\"stopped\",\"westbound\",\"state route 94\",\"approximately 1 : 30 a . m Sunday\"],\"mediators\":[\"Williams\",\"westbound\",\"state route 94\",\"approximately 1 : 30 a . m Sunday\"]}"
+    },
+    "indirect": {
+      "call_id": "d317a457ec674667b4ab54594151376c6e479278676767bddf9d27b316652bb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'stopped for speeding' uses 'for' as an explicit causation word linking the stop to speeding.\"}"
+    }
+  },
+  "call_ids": [
+    "6adbd0a0bf0ae75ba320dac7b9f589e11bb496bef27fe262d6875475397d0bf1",
+    "6adbd0a0bf0ae75ba320dac7b9f589e11bb496bef27fe262d6875475397d0bf1",
+    "6c67b3202bc2a9d179018682e7231e41d2a1a98df1219b45f48521e113da4e36",
+    "1e04ff7dfbc5302617d28e41601beeeb1da24d8c37752b24a808b15242f49ba7",
+    "6b1289e6b71ae88e066217005345369d303e629c8d5cfbaf3a9f3b827e67dd81",
+    "d317a457ec674667b4ab54594151376c6e479278676767bddf9d27b316652bb0"
+  ],
+  "elapsed_s": 4.520568132400513
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "3a005e00d6321eb2c4c266e6477f0799ad4c4de154592e2fc205023d1d5a1fc9",
+  "sample_id": "ESC-CSV-01828",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "man",
+    "shot",
+    "shooting",
+    "street crime",
+    "Hawaiian Gardens Gangmember",
+    "Lakewood Stn . Sheriff's Deputy Jerry Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "73647c0194871b546d54d2bfbd2e87fef20359f48852fb913d4e6337ea30f69a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "73647c0194871b546d54d2bfbd2e87fef20359f48852fb913d4e6337ea30f69a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4310d45417e66b96eecebff285a3d13c171ddb951924056016e2766ac2f6eb5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "681d9aa1ce08b23ef264f85a311e5348b8d1487691ee99bb485530e6eecf630d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "43e1986e023c11f840945d79068d333c79acf63738a248f3baa50451ab29dfa3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"man\",\"shot\",\"shooting\",\"street crime\",\"Jerry Ortiz\",\"Lakewood Stn . Sheriff's Deputy\",\"Hawaiian Gardens Gangmember\"],\"target_related\":[\"Orozco\",\"June 20 , 2005\",\"attempted murder\",\"man\",\"shot\",\"shooting\",\"jury\",\"street crime\",\"Hawaiian Gardens Gangmember\",\"Lakewood Stn . Sheriff's Deputy Jerry Ortiz\"],\"mediators\":[\"Orozco\",\"man\",\"shot\",\"shooting\",\"street crime\",\"Hawaiian Gardens Gangmember\",\"Lakewood Stn . Sheriff's Deputy Jerry Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "0a513f67007f815effa51b968637450c589d6878970cd020f553abebc2eac098",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murder follows from the murder; common sense holds that committing murder can lead to conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "73647c0194871b546d54d2bfbd2e87fef20359f48852fb913d4e6337ea30f69a",
+    "73647c0194871b546d54d2bfbd2e87fef20359f48852fb913d4e6337ea30f69a",
+    "4310d45417e66b96eecebff285a3d13c171ddb951924056016e2766ac2f6eb5e",
+    "681d9aa1ce08b23ef264f85a311e5348b8d1487691ee99bb485530e6eecf630d",
+    "43e1986e023c11f840945d79068d333c79acf63738a248f3baa50451ab29dfa3",
+    "0a513f67007f815effa51b968637450c589d6878970cd020f553abebc2eac098"
+  ],
+  "elapsed_s": 6.551133155822754
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "89eea00019c9fbc6e88c8090a271c06830c61ad8e82406493d5b9be15dbd5f0b",
+  "sample_id": "ESC-CSV-01528",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose",
+    "Luis",
+    "Orozco",
+    "convicted",
+    "cop",
+    "killer",
+    "crimes"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3e1151675d9cc3ecd379e08b61dde877e4fb65de3f9838f052dca0b6d6a8d952",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3e1151675d9cc3ecd379e08b61dde877e4fb65de3f9838f052dca0b6d6a8d952",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d4d9cd83d0372e3e397d1fe1732d383486603db492a9496b8ceb4bd497a5e997",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a6e94a180295df57396d5539b977c4f08b6b110b11a49a92e929695f94fb05f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "677e6a377a830133f49525e70764d04f438a7c19232029734605e56dd22da74a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"upheld\",\"judge\",\"Norwalk\",\"Superior\",\"Court\",\"Thursday\"],\"target_related\":[\"Jose\",\"Luis\",\"Orozco\",\"crimes\",\"killer\",\"cop\",\"convicted\"],\"mediators\":[\"Jose\",\"Luis\",\"Orozco\",\"convicted\",\"cop\",\"killer\",\"crimes\"]}"
+    },
+    "indirect": {
+      "call_id": "58f926e2bc5c1495dfc5bcb81ba8692336f61eb0cf63fce830e9070df08b5638",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A jury's recommendation that a convicted killer die precedes and causes the death sentence; common sense supports recommendation leading to die.\"}"
+    }
+  },
+  "call_ids": [
+    "3e1151675d9cc3ecd379e08b61dde877e4fb65de3f9838f052dca0b6d6a8d952",
+    "3e1151675d9cc3ecd379e08b61dde877e4fb65de3f9838f052dca0b6d6a8d952",
+    "d4d9cd83d0372e3e397d1fe1732d383486603db492a9496b8ceb4bd497a5e997",
+    "a6e94a180295df57396d5539b977c4f08b6b110b11a49a92e929695f94fb05f7",
+    "677e6a377a830133f49525e70764d04f438a7c19232029734605e56dd22da74a",
+    "58f926e2bc5c1495dfc5bcb81ba8692336f61eb0cf63fce830e9070df08b5638"
+  ],
+  "elapsed_s": 6.448668956756592
+}

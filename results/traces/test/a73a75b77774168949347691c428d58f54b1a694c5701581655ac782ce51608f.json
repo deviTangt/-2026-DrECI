@@ -1,0 +1,60 @@
+{
+  "input_hash": "a73a75b77774168949347691c428d58f54b1a694c5701581655ac782ce51608f",
+  "sample_id": "ESC-CSV-09463",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4b4d16bf55899fe1f011d790aa3e1dbf3911e9f5e9fe5b187fe0d26dc80e5e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4b4d16bf55899fe1f011d790aa3e1dbf3911e9f5e9fe5b187fe0d26dc80e5e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "30b49c833e390a471de9f9e631addbf8d9a65267df48cb843595313b508aaa87",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cda648779acafb53c0c98db5c42ac47fe705b05a1b7493c07bd912684972d1af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f2b2c453da3f963b8db9ad626d07ba4468cd044389535b7d77a28440159fee6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"hurled\",\"Molotov\",\"cocktail\",\"fire\",\"bombs\",\"Bank\"],\"target_related\":[\"3\",\"bank\",\"employees\",\"death\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "aa15d190d57c9b81f76b7a0de0c002783d3d7f80d3fce19e29e5c02c06f1b2db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Fire bombs started the fire; the burnt deaths resulted from it. 'started when' links fire to the attack, and common sense says fire causes burning.\"}"
+    }
+  },
+  "call_ids": [
+    "c4b4d16bf55899fe1f011d790aa3e1dbf3911e9f5e9fe5b187fe0d26dc80e5e2",
+    "c4b4d16bf55899fe1f011d790aa3e1dbf3911e9f5e9fe5b187fe0d26dc80e5e2",
+    "30b49c833e390a471de9f9e631addbf8d9a65267df48cb843595313b508aaa87",
+    "cda648779acafb53c0c98db5c42ac47fe705b05a1b7493c07bd912684972d1af",
+    "6f2b2c453da3f963b8db9ad626d07ba4468cd044389535b7d77a28440159fee6",
+    "aa15d190d57c9b81f76b7a0de0c002783d3d7f80d3fce19e29e5c02c06f1b2db"
+  ],
+  "elapsed_s": 4.492060899734497
+}

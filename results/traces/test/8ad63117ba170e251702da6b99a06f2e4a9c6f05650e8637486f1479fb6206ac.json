@@ -1,0 +1,65 @@
+{
+  "input_hash": "8ad63117ba170e251702da6b99a06f2e4a9c6f05650e8637486f1479fb6206ac",
+  "sample_id": "ESC-CSV-06665",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "Brooklyn",
+    "jury",
+    "verdict",
+    "murderer",
+    "Zurana Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "43cb22138031d444f36fb8d1c2f1f60cc7322e94cfc041de9bd7dd56609236a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "43cb22138031d444f36fb8d1c2f1f60cc7322e94cfc041de9bd7dd56609236a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "119f9eb45e45d769ff6687a86164f01d25d444388677fd396f54434169f09849",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f884223d98e80f97e329c4a0819c182df0269889d9bc1ac4937435959efc7a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ee2ccd86df85d4510fca503ecd4dc2c7b74ba12e0739c8b7674e66a588552b06",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"Brooklyn\",\"jury\",\"verdict\",\"murderer\",\"mother\",\"injury\",\"two others\"],\"target_related\":[\"Andrew Lopez\",\"Brooklyn\",\"jury\",\"verdict\",\"murderer\",\"murder\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"Brooklyn\",\"jury\",\"verdict\",\"murderer\",\"Zurana Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "e52a955bb7d9e426c0bbfc270eb438f780f0216d8bc45576f56a7864cb1ed558",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A guilty verdict for murder follows from the murder; common sense holds that committing murder causes one to be found guilty.\"}"
+    }
+  },
+  "call_ids": [
+    "43cb22138031d444f36fb8d1c2f1f60cc7322e94cfc041de9bd7dd56609236a3",
+    "43cb22138031d444f36fb8d1c2f1f60cc7322e94cfc041de9bd7dd56609236a3",
+    "119f9eb45e45d769ff6687a86164f01d25d444388677fd396f54434169f09849",
+    "0f884223d98e80f97e329c4a0819c182df0269889d9bc1ac4937435959efc7a0",
+    "ee2ccd86df85d4510fca503ecd4dc2c7b74ba12e0739c8b7674e66a588552b06",
+    "e52a955bb7d9e426c0bbfc270eb438f780f0216d8bc45576f56a7864cb1ed558"
+  ],
+  "elapsed_s": 4.587748050689697
+}

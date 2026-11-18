@@ -1,0 +1,61 @@
+{
+  "input_hash": "c9c3be0685c024e817f4e62f826f14043c83dbe34735c0ae8b2586d2ed69da69",
+  "sample_id": "ESC-CSV-09543",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "Greek bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8141a9c33617c4c8c5db05da0ee65b867a8ec1de1a7c2df5bad220b2171f9bec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8141a9c33617c4c8c5db05da0ee65b867a8ec1de1a7c2df5bad220b2171f9bec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "33566c75075a4a2719e9be117e206c0c4fbf8b2544057d90913423cbe3bebea7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3f584f74e8793fbe3389104cd6394a4fc170906411c6ec79ce3738189e6bb350",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8c3ed5b1a6e3f0a405334e07f9c6fa4358913019da204168a9d8e46c618337a9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"petrol bomb\",\"Athens branch\",\"Marfin Investment Bank\",\"protesters\",\"torch\",\"Greek bank\"],\"target_related\":[\"killed\",\"two women\",\"man\",\"inferno\",\"protesters\",\"Greek bank\"],\"mediators\":[\"protesters\",\"Greek bank\"]}"
+    },
+    "indirect": {
+      "call_id": "79fddd6bb9c3249fc88d01db68ded83cda4909d8468aa3f6681fd1794861f5ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'A petrol bomb hurled ... killed two women and a man' — hurling caused the deaths; explicit 'killed' links X to Y, and hurling precedes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8141a9c33617c4c8c5db05da0ee65b867a8ec1de1a7c2df5bad220b2171f9bec",
+    "8141a9c33617c4c8c5db05da0ee65b867a8ec1de1a7c2df5bad220b2171f9bec",
+    "33566c75075a4a2719e9be117e206c0c4fbf8b2544057d90913423cbe3bebea7",
+    "3f584f74e8793fbe3389104cd6394a4fc170906411c6ec79ce3738189e6bb350",
+    "8c3ed5b1a6e3f0a405334e07f9c6fa4358913019da204168a9d8e46c618337a9",
+    "79fddd6bb9c3249fc88d01db68ded83cda4909d8468aa3f6681fd1794861f5ae"
+  ],
+  "elapsed_s": 4.8918726444244385
+}

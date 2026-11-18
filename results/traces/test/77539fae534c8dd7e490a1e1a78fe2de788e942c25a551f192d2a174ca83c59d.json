@@ -1,0 +1,63 @@
+{
+  "input_hash": "77539fae534c8dd7e490a1e1a78fe2de788e942c25a551f192d2a174ca83c59d",
+  "sample_id": "ESC-CSV-04528",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "upmarket jewellery store",
+    "central Paris",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8335bc84e2c9f6973e439f83884b8654f2f15116f626e8ca349d9fcd9af49af4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8335bc84e2c9f6973e439f83884b8654f2f15116f626e8ca349d9fcd9af49af4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3c3ae3da2e11033962e737c95918b4fef455618615293c86c2eed3c25e184963",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "128cdd1e8bfc1b9ab485783a482ab0f79b79e13df21ae05588dbe55e74b545be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0b5e60a9c4d213278f4c3bcbea525c8546d74228fb44bd868507188baedd89d7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"],\"target_related\":[\"shop window\",\"€2 million\",\"$2.6-million\",\"booty\"],\"mediators\":[\"Four men\",\"upmarket jewellery store\",\"central Paris\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "1f1d771ef7efafbeee793e7588c60ab88ffa9729509d252af2d6ddaa7f5ca727",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store directly caused the window to be smashed; the impact precedes and produces the smashing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8335bc84e2c9f6973e439f83884b8654f2f15116f626e8ca349d9fcd9af49af4",
+    "8335bc84e2c9f6973e439f83884b8654f2f15116f626e8ca349d9fcd9af49af4",
+    "3c3ae3da2e11033962e737c95918b4fef455618615293c86c2eed3c25e184963",
+    "128cdd1e8bfc1b9ab485783a482ab0f79b79e13df21ae05588dbe55e74b545be",
+    "0b5e60a9c4d213278f4c3bcbea525c8546d74228fb44bd868507188baedd89d7",
+    "1f1d771ef7efafbeee793e7588c60ab88ffa9729509d252af2d6ddaa7f5ca727"
+  ],
+  "elapsed_s": 4.868332147598267
+}

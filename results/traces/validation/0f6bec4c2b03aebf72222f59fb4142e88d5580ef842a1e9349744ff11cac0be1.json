@@ -1,0 +1,64 @@
+{
+  "input_hash": "0f6bec4c2b03aebf72222f59fb4142e88d5580ef842a1e9349744ff11cac0be1",
+  "sample_id": "ESC-CSV-02816",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "young",
+    "two dozen",
+    "trashed",
+    "Rite Aid"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fcbd9dd7fdde8429aad9f18a716b8e9a795b0e0a1ba36469c4bb3249a055ae90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fcbd9dd7fdde8429aad9f18a716b8e9a795b0e0a1ba36469c4bb3249a055ae90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3edda848740aa6b81d67ed2ffad48ecfa73b80ad0987320464903c9d3dae66de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4c0ba0026bf3997c80bca00040e176903256431a98f3c1651e951674a9135ecb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8943b5dc77fe481f46bf0589b45cf24355f8a69438a144fc7e284c7ca068e1bd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"young\",\"two dozen\",\"group\",\"people\",\"marching\",\"trashed\",\"Rite Aid\"],\"target_related\":[\"riot police\",\"protesters\",\"young\",\"two dozen\",\"trashed\",\"Rite Aid\"],\"mediators\":[\"protesters\",\"young\",\"two dozen\",\"trashed\",\"Rite Aid\"]}"
+    },
+    "indirect": {
+      "call_id": "dfa70bdb8385e13902e40ab29f47c22b950b054652382b35c09d625ea04f689f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters splintering off from the march led them to draw riot police; the split precedes and causes the police response.\"}"
+    }
+  },
+  "call_ids": [
+    "fcbd9dd7fdde8429aad9f18a716b8e9a795b0e0a1ba36469c4bb3249a055ae90",
+    "fcbd9dd7fdde8429aad9f18a716b8e9a795b0e0a1ba36469c4bb3249a055ae90",
+    "3edda848740aa6b81d67ed2ffad48ecfa73b80ad0987320464903c9d3dae66de",
+    "4c0ba0026bf3997c80bca00040e176903256431a98f3c1651e951674a9135ecb",
+    "8943b5dc77fe481f46bf0589b45cf24355f8a69438a144fc7e284c7ca068e1bd",
+    "dfa70bdb8385e13902e40ab29f47c22b950b054652382b35c09d625ea04f689f"
+  ],
+  "elapsed_s": 5.6727519035339355
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "32fd80451ccd590fa40f8c51b7ecbe61c41a32bc4cf9555c8d96cb51c5a5a7fd",
+  "sample_id": "ESC-CSV-09291",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protest",
+    "Greeks",
+    "streets",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "65c941ae4ac6a805a75fde45d2ac72893e26b48f78e902790253c88b9b898277",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "65c941ae4ac6a805a75fde45d2ac72893e26b48f78e902790253c88b9b898277",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "97e1616d29ee40ae1c69c96616528ca60c8b9c30bb4991220ffa5064ceccfb08",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "561df58c0068ece7a7c3c7db17cdebf386d62e0a589dc7480ba2ff171fae1f9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "667137b1c4050887251d16ca7c7fbb556a8f855afcbbd1aa5d3233266924dda5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"protest\",\"Greeks\",\"streets\",\"bankruptcy\",\"Athens\"],\"target_related\":[\"protest\",\"Greeks\",\"streets\",\"Athens\",\"marched\",\"killed\"],\"mediators\":[\"protest\",\"Greeks\",\"streets\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "2d162b060f22d8fba13f1418d1fe3c9db5e593b5e18b5f5ee49c7d30614688f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spending cuts aimed at saving the country prompted tens of thousands of Greeks to protest and march, so cuts caused the demonstrations.\"}"
+    }
+  },
+  "call_ids": [
+    "65c941ae4ac6a805a75fde45d2ac72893e26b48f78e902790253c88b9b898277",
+    "65c941ae4ac6a805a75fde45d2ac72893e26b48f78e902790253c88b9b898277",
+    "97e1616d29ee40ae1c69c96616528ca60c8b9c30bb4991220ffa5064ceccfb08",
+    "561df58c0068ece7a7c3c7db17cdebf386d62e0a589dc7480ba2ff171fae1f9d",
+    "667137b1c4050887251d16ca7c7fbb556a8f855afcbbd1aa5d3233266924dda5",
+    "2d162b060f22d8fba13f1418d1fe3c9db5e593b5e18b5f5ee49c7d30614688f0"
+  ],
+  "elapsed_s": 4.586489915847778
+}

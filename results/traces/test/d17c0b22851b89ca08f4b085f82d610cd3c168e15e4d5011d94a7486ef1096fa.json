@@ -1,0 +1,60 @@
+{
+  "input_hash": "d17c0b22851b89ca08f4b085f82d610cd3c168e15e4d5011d94a7486ef1096fa",
+  "sample_id": "ESC-CSV-09225",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f71d65d8e77da880d08d598df3e9271119845bf67b21afbb78f2b4efd4d5c55a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f71d65d8e77da880d08d598df3e9271119845bf67b21afbb78f2b4efd4d5c55a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5136c6e767731783c9ab11a426ed7087e586c37d0c035b9086c0be1fafdf264f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7c52893a3f0243ec1aec0bb03c8be7994e618c18dd5734a8ec833c109299f685",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8ad4ca39ab284aa254baf6fdf5dec86a6844fef34eb01cd8a860843d74832ff1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"masked youths\",\"police\"],\"target_related\":[\"police\",\"tear gas\",\"flash bombs\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "44e84464aa63d44a9c4cebe3aefcf4c8e6da00ddf15d8d4347a07942fc6500e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Masked youths clashed with police, who then responded with tear gas; the clash precedes and prompts the police response by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f71d65d8e77da880d08d598df3e9271119845bf67b21afbb78f2b4efd4d5c55a",
+    "f71d65d8e77da880d08d598df3e9271119845bf67b21afbb78f2b4efd4d5c55a",
+    "5136c6e767731783c9ab11a426ed7087e586c37d0c035b9086c0be1fafdf264f",
+    "7c52893a3f0243ec1aec0bb03c8be7994e618c18dd5734a8ec833c109299f685",
+    "8ad4ca39ab284aa254baf6fdf5dec86a6844fef34eb01cd8a860843d74832ff1",
+    "44e84464aa63d44a9c4cebe3aefcf4c8e6da00ddf15d8d4347a07942fc6500e3"
+  ],
+  "elapsed_s": 4.991431951522827
+}

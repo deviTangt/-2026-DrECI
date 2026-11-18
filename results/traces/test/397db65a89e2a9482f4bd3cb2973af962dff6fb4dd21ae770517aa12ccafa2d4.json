@@ -1,0 +1,74 @@
+{
+  "input_hash": "397db65a89e2a9482f4bd3cb2973af962dff6fb4dd21ae770517aa12ccafa2d4",
+  "sample_id": "ESC-CSV-06605",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Mother",
+    "13",
+    "Zurana Horton",
+    "shot",
+    "killed",
+    "gang",
+    "Thursday",
+    "N . Y . Daily News",
+    "Prosecutors",
+    "tragic footage",
+    "trial",
+    "two youths",
+    "charged",
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "76478fafdc2604d3e86192bff8b0c9adbc59579a3c2fad383c87b54cf865d8ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "76478fafdc2604d3e86192bff8b0c9adbc59579a3c2fad383c87b54cf865d8ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7158992c818b85db0fb5030c625630e37a3e8830334aff5aed346f4aab4ca877",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "65fe8832e8e68ca994f8a0d4c97797c306316e6675335185a02c479c4dbdc785",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "41a4c887e4e2d725248c562d209e5ed33f97f5e511a364c53ff6aee02ac6eec6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"Thursday\",\"N . Y . Daily News\",\"Prosecutors\",\"tragic footage\",\"trial\",\"two youths\",\"charged\"],\"target_related\":[\"Horton\",\"two youths\",\"charged\",\"trial\",\"Prosecutors\",\"tragic footage\",\"N . Y . Daily News\",\"Thursday\",\"killed\",\"shot\",\"gang\",\"Zurana Horton\",\"13\",\"Mother\",\"Brooklyn\"],\"mediators\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"Thursday\",\"N . Y . Daily News\",\"Prosecutors\",\"tragic footage\",\"trial\",\"two youths\",\"charged\",\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "bec9febe8b89b5fec19885a5b17b5b8ac86b02179b6858e737107deccc667f56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (being shot) precedes and causes death; being shot and killed implies the shooting caused the murdering.\"}"
+    }
+  },
+  "call_ids": [
+    "76478fafdc2604d3e86192bff8b0c9adbc59579a3c2fad383c87b54cf865d8ef",
+    "76478fafdc2604d3e86192bff8b0c9adbc59579a3c2fad383c87b54cf865d8ef",
+    "7158992c818b85db0fb5030c625630e37a3e8830334aff5aed346f4aab4ca877",
+    "65fe8832e8e68ca994f8a0d4c97797c306316e6675335185a02c479c4dbdc785",
+    "41a4c887e4e2d725248c562d209e5ed33f97f5e511a364c53ff6aee02ac6eec6",
+    "bec9febe8b89b5fec19885a5b17b5b8ac86b02179b6858e737107deccc667f56"
+  ],
+  "elapsed_s": 5.473432540893555
+}

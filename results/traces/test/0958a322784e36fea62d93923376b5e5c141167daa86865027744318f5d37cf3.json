@@ -1,0 +1,60 @@
+{
+  "input_hash": "0958a322784e36fea62d93923376b5e5c141167daa86865027744318f5d37cf3",
+  "sample_id": "ESC-CSV-09749",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrators"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "999e6eff726a1ec0d002da83a17532422f21b6b7e2023b316ecdc45c1332c0e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "999e6eff726a1ec0d002da83a17532422f21b6b7e2023b316ecdc45c1332c0e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "038468b6cf2a2ea06e2230c39cbbaa80b973c6beaf3bc7b05699984974203ca7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1ffaab89030d73a4c96e3d8d4517c4a9904a80f966830d8e6814aa16a4473a1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6a1864e2f1fdba57c47ea6c2e87802cda14a8721023927fab2be176f3b4b30bb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"demonstrators\",\"protesters\"],\"target_related\":[\"bank\",\"demonstrators\"],\"mediators\":[\"demonstrators\"]}"
+    },
+    "indirect": {
+      "call_id": "6cc6c4fdd2c994c24a0ea3ee007bac85228af25b0f1bca66f08c7b2ddb2a85e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"'torched buildings' is coreferent with 'set their bank on fire'; the demonstrators' setting the bank on fire caused the deaths, linking torching to setting on fire.\"}"
+    }
+  },
+  "call_ids": [
+    "999e6eff726a1ec0d002da83a17532422f21b6b7e2023b316ecdc45c1332c0e9",
+    "999e6eff726a1ec0d002da83a17532422f21b6b7e2023b316ecdc45c1332c0e9",
+    "038468b6cf2a2ea06e2230c39cbbaa80b973c6beaf3bc7b05699984974203ca7",
+    "1ffaab89030d73a4c96e3d8d4517c4a9904a80f966830d8e6814aa16a4473a1d",
+    "6a1864e2f1fdba57c47ea6c2e87802cda14a8721023927fab2be176f3b4b30bb",
+    "6cc6c4fdd2c994c24a0ea3ee007bac85228af25b0f1bca66f08c7b2ddb2a85e9"
+  ],
+  "elapsed_s": 5.03603720664978
+}

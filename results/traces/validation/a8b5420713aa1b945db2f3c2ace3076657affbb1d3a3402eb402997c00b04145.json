@@ -1,0 +1,64 @@
+{
+  "input_hash": "a8b5420713aa1b945db2f3c2ace3076657affbb1d3a3402eb402997c00b04145",
+  "sample_id": "ESC-CSV-02488",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Kimani Gray",
+    "Brooklyn",
+    "teen",
+    "police",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a32b171c9739eec1cb313a88c37add71602e49d78fa51121144b65d8844de6c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a32b171c9739eec1cb313a88c37add71602e49d78fa51121144b65d8844de6c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "badf77e1853465b069296fb69dcbd76a002efa552d5e2c0f4d7fd7b9f55270f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "44e0ef8fe61a234d74c7bee0e38079122b004de0d040b742911caee077c0465d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5d0375899c0c6feabf2a1c468a4fef75e4a4aba912be821e4aa9f2787e7f50fa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"Brooklyn\",\"teen\",\"fatal shooting\",\"police\",\"cops\"],\"target_related\":[\"protests\",\"Brooklyn\",\"teen\",\"Kimani Gray\",\"police\",\"cops\"],\"mediators\":[\"Kimani Gray\",\"Brooklyn\",\"teen\",\"police\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "c5439ecf63f2646231fdf2c3a6671ba2707b97334e3364038c1d00d7e205e5a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3],\"evidence\":\"Riots erupted following the fatal shooting (death); 'following' explicitly links death to riots, and 'erupted' implies causation.\"}"
+    }
+  },
+  "call_ids": [
+    "0a32b171c9739eec1cb313a88c37add71602e49d78fa51121144b65d8844de6c",
+    "0a32b171c9739eec1cb313a88c37add71602e49d78fa51121144b65d8844de6c",
+    "badf77e1853465b069296fb69dcbd76a002efa552d5e2c0f4d7fd7b9f55270f5",
+    "44e0ef8fe61a234d74c7bee0e38079122b004de0d040b742911caee077c0465d",
+    "5d0375899c0c6feabf2a1c468a4fef75e4a4aba912be821e4aa9f2787e7f50fa",
+    "c5439ecf63f2646231fdf2c3a6671ba2707b97334e3364038c1d00d7e205e5a3"
+  ],
+  "elapsed_s": 10.047680616378784
+}

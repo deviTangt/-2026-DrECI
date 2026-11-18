@@ -1,0 +1,65 @@
+{
+  "input_hash": "f32e1abee7d17dc9ecac0d8c99b822c32b9341fb481c3c9f6f379f7442c177df",
+  "sample_id": "ESC-CSV-02384",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "arrested",
+    "high-speed",
+    "Monday",
+    "attack",
+    "authorities",
+    "Suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6f7560ad0b77fb07e3fb13c2949cb125781c16edd7cd02070adbf6ee608ea54d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6f7560ad0b77fb07e3fb13c2949cb125781c16edd7cd02070adbf6ee608ea54d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "68f0d20e2248c66feab9fdc88362977e0a94ab30fc2849bccd18c8e65e53306c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0ecf67544005e75c3626d6665b53aad28ba680f50dcb264812bf25c86c19bef2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6208671b0569b44413557c99d281a87772ba447be64e1d891b1509bf3b6f65ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"arrested\",\"high-speed\",\"Monday\",\"attack\",\"authorities\",\"Suspect\"],\"target_related\":[\"arrested\",\"high-speed\",\"chase\",\"Monday\",\"attack\",\"authorities\",\"Suspect\"],\"mediators\":[\"arrested\",\"high-speed\",\"Monday\",\"attack\",\"authorities\",\"Suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "952227df68972d1280ebce902fcf1fde1846dd8d75417ee82e290918b30b72cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested after a high-speed chase' — 'after' plus common sense: the chase led to the suspect being caught.\"}"
+    }
+  },
+  "call_ids": [
+    "6f7560ad0b77fb07e3fb13c2949cb125781c16edd7cd02070adbf6ee608ea54d",
+    "6f7560ad0b77fb07e3fb13c2949cb125781c16edd7cd02070adbf6ee608ea54d",
+    "68f0d20e2248c66feab9fdc88362977e0a94ab30fc2849bccd18c8e65e53306c",
+    "0ecf67544005e75c3626d6665b53aad28ba680f50dcb264812bf25c86c19bef2",
+    "6208671b0569b44413557c99d281a87772ba447be64e1d891b1509bf3b6f65ae",
+    "952227df68972d1280ebce902fcf1fde1846dd8d75417ee82e290918b30b72cd"
+  ],
+  "elapsed_s": 11.018421173095703
+}

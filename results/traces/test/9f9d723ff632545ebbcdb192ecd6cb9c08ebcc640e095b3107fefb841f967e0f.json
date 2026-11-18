@@ -1,0 +1,62 @@
+{
+  "input_hash": "9f9d723ff632545ebbcdb192ecd6cb9c08ebcc640e095b3107fefb841f967e0f",
+  "sample_id": "ESC-CSV-09491",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "protesters",
+    "people"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bce5523a3042f79d71fc7c268c6ad15021a13ed2c32bf0e696a81b4d9d4fe46a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bce5523a3042f79d71fc7c268c6ad15021a13ed2c32bf0e696a81b4d9d4fe46a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a0b6d7af6f889f0d3bd303863bfde4066ba32d7c3c35c9d0f1fb19be1ba0acba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ff62b3f84781279b4041406560ea990cd023f9d3723b8bec8d2ea13ad3ede91e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e48e5c36b681ff65387ab2bae03f4b8fc7772aaef76129e2a37a740f57fddbb9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"protesters\",\"people\",\"walkout\"],\"target_related\":[\"police\",\"protesters\",\"people\",\"capital\"],\"mediators\":[\"police\",\"protesters\",\"people\"]}"
+    },
+    "indirect": {
+      "call_id": "d183d6473f98777bfeedb84a300d8ededfe56a804a336ab85bfce97b36de2c93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A 24-hour strike led to protests, and police clashed with protesters; the strike precedes and plausibly causes the clash.\"}"
+    }
+  },
+  "call_ids": [
+    "bce5523a3042f79d71fc7c268c6ad15021a13ed2c32bf0e696a81b4d9d4fe46a",
+    "bce5523a3042f79d71fc7c268c6ad15021a13ed2c32bf0e696a81b4d9d4fe46a",
+    "a0b6d7af6f889f0d3bd303863bfde4066ba32d7c3c35c9d0f1fb19be1ba0acba",
+    "ff62b3f84781279b4041406560ea990cd023f9d3723b8bec8d2ea13ad3ede91e",
+    "e48e5c36b681ff65387ab2bae03f4b8fc7772aaef76129e2a37a740f57fddbb9",
+    "d183d6473f98777bfeedb84a300d8ededfe56a804a336ab85bfce97b36de2c93"
+  ],
+  "elapsed_s": 4.150188446044922
+}

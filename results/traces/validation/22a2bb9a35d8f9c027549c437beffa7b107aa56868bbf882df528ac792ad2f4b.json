@@ -1,0 +1,60 @@
+{
+  "input_hash": "22a2bb9a35d8f9c027549c437beffa7b107aa56868bbf882df528ac792ad2f4b",
+  "sample_id": "ESC-CSV-02717",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "afe64dc4847a81f7cb695d8c5e32b61de7d1bcabeb78e5ad6692ff3e2a20429e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "afe64dc4847a81f7cb695d8c5e32b61de7d1bcabeb78e5ad6692ff3e2a20429e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b9af79103cd60624127138175d37bf965ba6e893d3cc88036ea0727f35df4c7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ee33006e298a6939a50b6a12bddfa6fca372b0786a6c4d1784ab1a1e7af7b0b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "0ac4ffa82a644256676db18b442c939bf62e11f63eccd834d47a875f04e18731",
+      "status": "ok",
+      "text": "{\"source_related\":[\"violence\",\"blocks\",\"NYPD\",\"67th Precinct stationhouse\",\"protest march\",\"candlelight vigil\",\"Kimani ( Kiki ) Gray\",\"police bullets\",\"Saturday\"],\"target_related\":[\"Anger\",\"death\",\"Brooklyn teenager\",\"police\",\"riot\",\"streets\",\"East Flatbush\",\"Monday\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "33f70a297adb2478c0e9ed2f2b8965598e49350f5ea641c5e56978fa0b87aaed",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Scenes' is the subject that 'fueled' is predicated on; the text says anger over the death fueled a riot, not that scenes fueled anything.\"}"
+    }
+  },
+  "call_ids": [
+    "afe64dc4847a81f7cb695d8c5e32b61de7d1bcabeb78e5ad6692ff3e2a20429e",
+    "afe64dc4847a81f7cb695d8c5e32b61de7d1bcabeb78e5ad6692ff3e2a20429e",
+    "b9af79103cd60624127138175d37bf965ba6e893d3cc88036ea0727f35df4c7d",
+    "ee33006e298a6939a50b6a12bddfa6fca372b0786a6c4d1784ab1a1e7af7b0b9",
+    "0ac4ffa82a644256676db18b442c939bf62e11f63eccd834d47a875f04e18731",
+    "33f70a297adb2478c0e9ed2f2b8965598e49350f5ea641c5e56978fa0b87aaed"
+  ],
+  "elapsed_s": 4.722157001495361
+}

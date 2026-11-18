@@ -1,0 +1,64 @@
+{
+  "input_hash": "c7407e1f6bcf588cb6bccb10add99b518eda8619399776559ba67436ce2a8ab8",
+  "sample_id": "ESC-CSV-02965",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "100 people",
+    "threw bottles at officers",
+    "officers",
+    "Kimani Gray",
+    "protest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5b49bdbeba5a26b20e87dbbeaccb1d16e57bb355f277acf616b0311797f13353",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5b49bdbeba5a26b20e87dbbeaccb1d16e57bb355f277acf616b0311797f13353",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3e094f68ad64e4b54a49918ce1c7764f475e7c7f4fc17ffe2b2792865d9af662",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "28e724a16cc2cf44db5439ada15ba881709aecabdcee2d8d8471c8eeb0cb9c8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0d716d5ab5650abd0a232a5f9ee957678769573308c8b5064710270b04bf5308",
+      "status": "ok",
+      "text": "{\"source_related\":[\"100 people\",\"threw bottles at officers\",\"officers\",\"protest\",\"Kimani Gray\"],\"target_related\":[\"Peaceful protest\",\"Kimani Gray\",\"100 people\",\"rioted\",\"threw bottles at officers\",\"officers\"],\"mediators\":[\"100 people\",\"threw bottles at officers\",\"officers\",\"Kimani Gray\",\"protest\"]}"
+    },
+    "indirect": {
+      "call_id": "1d0baff2803d5dcebbc452a2f6ac417d5c5df2ab2dd180ebbf005a661d73f356",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Rioting (100 people rioted) occurred before and caused the protest to turn chaotic, matching common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "5b49bdbeba5a26b20e87dbbeaccb1d16e57bb355f277acf616b0311797f13353",
+    "5b49bdbeba5a26b20e87dbbeaccb1d16e57bb355f277acf616b0311797f13353",
+    "3e094f68ad64e4b54a49918ce1c7764f475e7c7f4fc17ffe2b2792865d9af662",
+    "28e724a16cc2cf44db5439ada15ba881709aecabdcee2d8d8471c8eeb0cb9c8d",
+    "0d716d5ab5650abd0a232a5f9ee957678769573308c8b5064710270b04bf5308",
+    "1d0baff2803d5dcebbc452a2f6ac417d5c5df2ab2dd180ebbf005a661d73f356"
+  ],
+  "elapsed_s": 5.094262599945068
+}

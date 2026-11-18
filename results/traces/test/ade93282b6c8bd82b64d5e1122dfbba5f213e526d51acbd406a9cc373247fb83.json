@@ -1,0 +1,66 @@
+{
+  "input_hash": "ade93282b6c8bd82b64d5e1122dfbba5f213e526d51acbd406a9cc373247fb83",
+  "sample_id": "ESC-CSV-09249",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank workers",
+    "killed",
+    "building",
+    "torched",
+    "protests",
+    "Athens",
+    "austerity measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "157afd6c72b70fe7e19117815b084499c68d8c9401cabab9751f417a37bcf123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "157afd6c72b70fe7e19117815b084499c68d8c9401cabab9751f417a37bcf123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "714cc565ff30f497485052d13daf01df3f9d825887aebdc72d5dcd19a11b037c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b971999226f247d1669b2e191b90cd94587182ff2217e2245f44fc9453213c2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a1b4eea8d69993b2d78892e5811dd82fa68b597ce06f9053fa6df1758d914ed3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank workers\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"killed\"],\"target_related\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\"],\"mediators\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\"]}"
+    },
+    "indirect": {
+      "call_id": "ac3bc8b90b33004adb4db4d017e186e50ea5bd172108e3e9f6715af1d7d11a22",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Building was 'torched during protests' (riot), killing bank workers; 'killed when...torched' links riot to deaths called 'murder'.\"}"
+    }
+  },
+  "call_ids": [
+    "157afd6c72b70fe7e19117815b084499c68d8c9401cabab9751f417a37bcf123",
+    "157afd6c72b70fe7e19117815b084499c68d8c9401cabab9751f417a37bcf123",
+    "714cc565ff30f497485052d13daf01df3f9d825887aebdc72d5dcd19a11b037c",
+    "b971999226f247d1669b2e191b90cd94587182ff2217e2245f44fc9453213c2d",
+    "a1b4eea8d69993b2d78892e5811dd82fa68b597ce06f9053fa6df1758d914ed3",
+    "ac3bc8b90b33004adb4db4d017e186e50ea5bd172108e3e9f6715af1d7d11a22"
+  ],
+  "elapsed_s": 5.168472051620483
+}

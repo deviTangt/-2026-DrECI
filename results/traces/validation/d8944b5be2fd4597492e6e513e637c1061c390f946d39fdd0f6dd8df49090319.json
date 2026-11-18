@@ -1,0 +1,63 @@
+{
+  "input_hash": "d8944b5be2fd4597492e6e513e637c1061c390f946d39fdd0f6dd8df49090319",
+  "sample_id": "ESC-CSV-02092",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Anthony LaCalamita III",
+    "Madeline Kafoury",
+    "Paul Riva",
+    "Alan Steinberg"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "724ebbe49502c1676dcaa53b7af01519cbd8d355be058ab130809d5c2cf47df1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "724ebbe49502c1676dcaa53b7af01519cbd8d355be058ab130809d5c2cf47df1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "59bf881d9149a7c48cca81148b4257d4ebacf179e546c7e96b2c177cf84fded1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "33d22c48c8884e90b065a5df006080637e3b5a13e2bf2f39ec85edaf80c196ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f6ac3ae5ff6a3bc4d9df7e6f0ddf6eb189cbb18b6753b223bfbeb91486e6ae76",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"Troy\",\"office\",\"shotgun\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\"],\"target_related\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"murder\",\"assault\"],\"mediators\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\"]}"
+    },
+    "indirect": {
+      "call_id": "6171666757a00d0fa4ddad4e346490bdd79a0ce6aeb44dcccab55f59c08f9839",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shotgun shooting occurred before and caused the death of Madeline Kafoury; shooting is the act that kills, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "724ebbe49502c1676dcaa53b7af01519cbd8d355be058ab130809d5c2cf47df1",
+    "724ebbe49502c1676dcaa53b7af01519cbd8d355be058ab130809d5c2cf47df1",
+    "59bf881d9149a7c48cca81148b4257d4ebacf179e546c7e96b2c177cf84fded1",
+    "33d22c48c8884e90b065a5df006080637e3b5a13e2bf2f39ec85edaf80c196ec",
+    "f6ac3ae5ff6a3bc4d9df7e6f0ddf6eb189cbb18b6753b223bfbeb91486e6ae76",
+    "6171666757a00d0fa4ddad4e346490bdd79a0ce6aeb44dcccab55f59c08f9839"
+  ],
+  "elapsed_s": 5.180624723434448
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "941faa8e105b7ada8eb4c62a5e2b4d9bef7896eb8ac3345b05f93b41d5bcba4b",
+  "sample_id": "ESC-CSV-07181",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jamal Williams",
+    "cops",
+    "stopped",
+    "Sunday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b23aa6feebd6bfa813270082abcd51c82e8c50a87472229cba8e6e9454c79fe9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b23aa6feebd6bfa813270082abcd51c82e8c50a87472229cba8e6e9454c79fe9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6774941b2c8b43ab5c5fd6105b8c3e0cfed206b22ca8a65dee68af6288875c8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f14b64eeeb91dede033234f0d5fa8b813562668c78ec98ad09c294a8a55a8fab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae274012e711e4951fb062970cdaacdd10a05259fb41811426feb4e31a3cc616",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"cops\",\"stopped\",\"Sunday\",\"suspicions\",\"driving under the influence\"],\"target_related\":[\"Jamal Williams\",\"Bentley\",\"highway 94\",\"Sunday\",\"1 : 00 am\",\"cops\",\"stopped\"],\"mediators\":[\"Jamal Williams\",\"cops\",\"stopped\",\"Sunday\"]}"
+    },
+    "indirect": {
+      "call_id": "b5deeee8ef4d1a072f156659904e6c57d4c963ac227e2091e768d4fc4e9647ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"He was arrested for suspicions of driving under the influence; the DUI driving preceded and prompted the arrest, so driving causes arrest by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "b23aa6feebd6bfa813270082abcd51c82e8c50a87472229cba8e6e9454c79fe9",
+    "b23aa6feebd6bfa813270082abcd51c82e8c50a87472229cba8e6e9454c79fe9",
+    "6774941b2c8b43ab5c5fd6105b8c3e0cfed206b22ca8a65dee68af6288875c8a",
+    "f14b64eeeb91dede033234f0d5fa8b813562668c78ec98ad09c294a8a55a8fab",
+    "ae274012e711e4951fb062970cdaacdd10a05259fb41811426feb4e31a3cc616",
+    "b5deeee8ef4d1a072f156659904e6c57d4c963ac227e2091e768d4fc4e9647ca"
+  ],
+  "elapsed_s": 4.171839237213135
+}

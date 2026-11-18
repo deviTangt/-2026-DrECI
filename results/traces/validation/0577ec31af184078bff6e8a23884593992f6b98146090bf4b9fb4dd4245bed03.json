@@ -1,0 +1,63 @@
+{
+  "input_hash": "0577ec31af184078bff6e8a23884593992f6b98146090bf4b9fb4dd4245bed03",
+  "sample_id": "ESC-CSV-02625",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "death",
+    "Brooklyn",
+    "teenager",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "50eaadb4d25e7203503462ffd0b45b2ee546354a7fbdbd98acbcadf49bd2d7e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "50eaadb4d25e7203503462ffd0b45b2ee546354a7fbdbd98acbcadf49bd2d7e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b214116ce79f7094899553be540abf38ae7942069d485db988ba11e1790ddca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5519f6ab6997e97886b489242aea20cdd96ea5425886fc49809820d4310b0e97",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d7f971f9da7aae785f728a302ae7e2ae5fa70cc95ee70fe08fe0d4e25d59d88",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenager\",\"police\",\"death\",\"killed\"],\"target_related\":[\"death\",\"Brooklyn\",\"teenager\",\"police\",\"riot\",\"East Flatbush\",\"Monday\"],\"mediators\":[\"death\",\"Brooklyn\",\"teenager\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "2b20bde8611556ce226d26e451e98d88ae6e8ab57c831aa46727d22c4efb494c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death of a Brooklyn teenager shot and killed by police fueled a riot — 'fueled' implicitly links the shooting to the anger.\"}"
+    }
+  },
+  "call_ids": [
+    "50eaadb4d25e7203503462ffd0b45b2ee546354a7fbdbd98acbcadf49bd2d7e1",
+    "50eaadb4d25e7203503462ffd0b45b2ee546354a7fbdbd98acbcadf49bd2d7e1",
+    "4b214116ce79f7094899553be540abf38ae7942069d485db988ba11e1790ddca",
+    "5519f6ab6997e97886b489242aea20cdd96ea5425886fc49809820d4310b0e97",
+    "6d7f971f9da7aae785f728a302ae7e2ae5fa70cc95ee70fe08fe0d4e25d59d88",
+    "2b20bde8611556ce226d26e451e98d88ae6e8ab57c831aa46727d22c4efb494c"
+  ],
+  "elapsed_s": 4.518918752670288
+}

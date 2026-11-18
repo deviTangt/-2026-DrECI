@@ -1,0 +1,67 @@
+{
+  "input_hash": "8b0346251fb062f9a2367f30d8678d8bc25c9a474a2dd5d2c4de42600a157439",
+  "sample_id": "ESC-CSV-02039",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shotgun",
+    "attack",
+    "killing",
+    "receptionist",
+    "arraigned",
+    "murder",
+    "charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "89ae12035a56c6c14f1c74818ad4b92044d84ddb3b466dd0e78423d166530d51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "89ae12035a56c6c14f1c74818ad4b92044d84ddb3b466dd0e78423d166530d51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "35db977022dbec4fad637ee12d2b37b8e161aad2a475824cd1bfaf510c0e3813",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "82f2929a1dcfdd64451e68f832364241177b7eb3a98162b07ebdf27d052304c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5ec9cc67c421d5e86b912a90a40b2eee448ee3e1f9f535ce9d1e3c7f180f2f1b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"murder\",\"office\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"charges\"],\"target_related\":[\"accountant\",\"bosses\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"murder\",\"charges\"],\"mediators\":[\"accountant\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"murder\",\"charges\"]}"
+    },
+    "indirect": {
+      "call_id": "ddddd3ea57aa7ff00399e624515c426b141702b79a53a59c78e59c4e0735973c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shootings (shotgun attack) occurred before and caused the wounding of two former bosses; common sense supports shootings causing wounding.\"}"
+    }
+  },
+  "call_ids": [
+    "89ae12035a56c6c14f1c74818ad4b92044d84ddb3b466dd0e78423d166530d51",
+    "89ae12035a56c6c14f1c74818ad4b92044d84ddb3b466dd0e78423d166530d51",
+    "35db977022dbec4fad637ee12d2b37b8e161aad2a475824cd1bfaf510c0e3813",
+    "82f2929a1dcfdd64451e68f832364241177b7eb3a98162b07ebdf27d052304c3",
+    "5ec9cc67c421d5e86b912a90a40b2eee448ee3e1f9f535ce9d1e3c7f180f2f1b",
+    "ddddd3ea57aa7ff00399e624515c426b141702b79a53a59c78e59c4e0735973c"
+  ],
+  "elapsed_s": 5.0172693729400635
+}

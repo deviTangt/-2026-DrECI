@@ -1,0 +1,63 @@
+{
+  "input_hash": "82e29311928db6f31d74a74a81d479da30546992a6e0858a3bd9e08c78111297",
+  "sample_id": "ESC-CSV-07199",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Williams",
+    "Breathalyzer test",
+    "refused",
+    "drunk driving"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b5df85d8df91465d2a348d06f3bf868c7ec62a82b5cafcc1f8b96da5ea057598",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b5df85d8df91465d2a348d06f3bf868c7ec62a82b5cafcc1f8b96da5ea057598",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "27f523ce60b13ba6bee95cf347a36c4ad7e524b7e1523928c46b2dd087a1e98a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eec62cbe97980b9b2854bbc787b77aa4365194e759b53ad34d97b27a453bb157",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "fd1b7df4ad831aaf657c9434c4e562e7904009f7f4d722e554f58a58f39afaa7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"drunk driving\",\"suspicion\",\"pulled over\",\"speeding\",\"Bentley\",\"State Route 94\",\"February 1\",\"refused\",\"Breathalyzer test\"],\"target_related\":[\"Williams\",\"blood-alcohol test\",\"Breathalyzer test\",\"refused\",\"arrested\",\"drunk driving\"],\"mediators\":[\"Williams\",\"Breathalyzer test\",\"refused\",\"drunk driving\"]}"
+    },
+    "indirect": {
+      "call_id": "35dc3998ad87f983a0606fb174d771953fdf6d4bd687cae2ee9c08f50f738bf5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Arrest and blood-alcohol test are separate responses to suspected drunk driving; no causal rule links 'arrested' to 'given'.\"}"
+    }
+  },
+  "call_ids": [
+    "b5df85d8df91465d2a348d06f3bf868c7ec62a82b5cafcc1f8b96da5ea057598",
+    "b5df85d8df91465d2a348d06f3bf868c7ec62a82b5cafcc1f8b96da5ea057598",
+    "27f523ce60b13ba6bee95cf347a36c4ad7e524b7e1523928c46b2dd087a1e98a",
+    "eec62cbe97980b9b2854bbc787b77aa4365194e759b53ad34d97b27a453bb157",
+    "fd1b7df4ad831aaf657c9434c4e562e7904009f7f4d722e554f58a58f39afaa7",
+    "35dc3998ad87f983a0606fb174d771953fdf6d4bd687cae2ee9c08f50f738bf5"
+  ],
+  "elapsed_s": 4.895100831985474
+}

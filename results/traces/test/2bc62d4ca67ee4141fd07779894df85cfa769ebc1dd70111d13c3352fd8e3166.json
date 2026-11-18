@@ -1,0 +1,61 @@
+{
+  "input_hash": "2bc62d4ca67ee4141fd07779894df85cfa769ebc1dd70111d13c3352fd8e3166",
+  "sample_id": "ESC-CSV-04470",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6e9f3da52997bcabee9753286ed8df2f097485921b46bb2e7938f7a1ecb1fb53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6e9f3da52997bcabee9753286ed8df2f097485921b46bb2e7938f7a1ecb1fb53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf3238587e2ba34ae8ada17db40211387ef7b7ca9452697419bcfa783a3c37cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "680557cb023f930c438b8b46606242a67a0f7f0855153e92c6cac5f5042c2fb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7a5b97b3f62d908e4c4ad8ba188f0a80ea2a47777d02227fdff488dff44e4acc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\"],\"target_related\":[\"men\",\"store\",\"jewellery\",\"watches\"],\"mediators\":[\"men\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "d4f0f2f6e272579cf66dea4bcd619410a817213de994c0eba52dd76fc2c44833",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove the car into the store, enabling the robbery; driving into the store before the robbery follows common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "6e9f3da52997bcabee9753286ed8df2f097485921b46bb2e7938f7a1ecb1fb53",
+    "6e9f3da52997bcabee9753286ed8df2f097485921b46bb2e7938f7a1ecb1fb53",
+    "cf3238587e2ba34ae8ada17db40211387ef7b7ca9452697419bcfa783a3c37cd",
+    "680557cb023f930c438b8b46606242a67a0f7f0855153e92c6cac5f5042c2fb0",
+    "7a5b97b3f62d908e4c4ad8ba188f0a80ea2a47777d02227fdff488dff44e4acc",
+    "d4f0f2f6e272579cf66dea4bcd619410a817213de994c0eba52dd76fc2c44833"
+  ],
+  "elapsed_s": 4.161237001419067
+}

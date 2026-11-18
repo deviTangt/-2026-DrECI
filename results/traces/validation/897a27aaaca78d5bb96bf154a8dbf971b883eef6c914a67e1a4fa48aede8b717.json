@@ -1,0 +1,63 @@
+{
+  "input_hash": "897a27aaaca78d5bb96bf154a8dbf971b883eef6c914a67e1a4fa48aede8b717",
+  "sample_id": "ESC-CSV-06972",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "freeway",
+    "San Diego",
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2f3dcb3e3d722394ea3631f47a7662b1526d5d4f704d5e76a8c1b5a2c4a65b29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2f3dcb3e3d722394ea3631f47a7662b1526d5d4f704d5e76a8c1b5a2c4a65b29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e6819cdce834ab93e33bb1b7e3bec5e7c9a90fd094d863dc068855fefd55a0ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2418dbaa060350b9f163d0dcd25427b089d69022a521bf650668b1ae79bb2d8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "eebff24e56c3da0eeb208908822a9563063bb35afc47b93fb57d2fc3b66a44de",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"pulled over\",\"freeway\",\"San Diego\",\"California Highway Patrol\"],\"target_related\":[\"Williams\",\"speeding\",\"freeway\",\"San Diego\",\"California Highway Patrol\"],\"mediators\":[\"Williams\",\"freeway\",\"San Diego\",\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "a1c36323e396a17874f9b3f6abad63cc5783eed3401caff63124fcd95346d171",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'pulled over for speeding' — 'for' explicitly links speeding as the reason for being pulled over; common sense: speeding causes police to pull someone over.\"}"
+    }
+  },
+  "call_ids": [
+    "2f3dcb3e3d722394ea3631f47a7662b1526d5d4f704d5e76a8c1b5a2c4a65b29",
+    "2f3dcb3e3d722394ea3631f47a7662b1526d5d4f704d5e76a8c1b5a2c4a65b29",
+    "e6819cdce834ab93e33bb1b7e3bec5e7c9a90fd094d863dc068855fefd55a0ae",
+    "2418dbaa060350b9f163d0dcd25427b089d69022a521bf650668b1ae79bb2d8f",
+    "eebff24e56c3da0eeb208908822a9563063bb35afc47b93fb57d2fc3b66a44de",
+    "a1c36323e396a17874f9b3f6abad63cc5783eed3401caff63124fcd95346d171"
+  ],
+  "elapsed_s": 3.780360460281372
+}

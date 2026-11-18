@@ -1,0 +1,100 @@
+{
+  "call_id": "4c83d34a5df368d9f682b4f9cc77b87384e8b2ebbeb8bb21df4c81b1e02d92e8",
+  "stage": "E0",
+  "request": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert at identifying cause-effect relationships between events in a text. Please answer this question based on the context given to you."
+      },
+      {
+        "role": "user",
+        "content": "\"text\": “ She ’ s in rehab right now . Lindsay Lohan ’ s attorney said Thursday the actress checked into a California rehab facility , but a state official said it is unlicensed to perform the type of restrictive in - patient treatment a judge required the actress to receive in a misdemeanor driving case .\n\"source event\": rehab,\n\"target event\": checked into,\n\nQuestion: Is there a causal relationship between rehab and checked into ? \n\n    Return only a valid JSON object. Use exactly {\"Answer\":\"Yes\"} or {\"Answer\":\"No\"}."
+      }
+    ],
+    "temperature": 0,
+    "thinking": {
+      "type": "disabled"
+    },
+    "max_tokens": 64,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false
+  },
+  "attempts": [
+    {
+      "time_utc": "2026-11-03T10:55:37.198372+00:00",
+      "elapsed_s": 3.9006545543670654,
+      "rates": {
+        "input_hit": 0.02,
+        "input_miss": 1.0,
+        "output": 4.0,
+        "unit": "CNY per million tokens",
+        "peak": false
+      },
+      "charge_upper_cny": 0.000185,
+      "error": null,
+      "response": {
+        "id": "1bb08326-9546-4b1c-ba22-be1c84d00de2",
+        "object": "chat.completion",
+        "created": 1793703336,
+        "model": "deepseek-flash",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"Answer\":\"No\"}"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 5,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 165
+        },
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+      }
+    }
+  ],
+  "response": {
+    "id": "1bb08326-9546-4b1c-ba22-be1c84d00de2",
+    "object": "chat.completion",
+    "created": 1793703336,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"Answer\":\"No\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 165,
+      "completion_tokens": 5,
+      "total_tokens": 170,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 165
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "charged_upper_cny": 0.000185,
+  "elapsed_s": 3.9006991386413574,
+  "status": "ok"
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "3948bbab2a9736aadc77bcba38876ac28ba7cbe897971d34606e2c1fe6697887",
+  "sample_id": "ESC-CSV-04538",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery store",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "534667e070cd207850438bf4f6fcbfcc561856e4cfea22c0c6f792f5d0ad1f61",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "534667e070cd207850438bf4f6fcbfcc561856e4cfea22c0c6f792f5d0ad1f61",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ef82a9848eab05b6b5980e7b1665ee6781003e7612da71549ed1a843d1c01509",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4ca51604f5cbd79680cf3d28ea3cb0cd1976a1c50047131cdcbc5775d4f0f330",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "05980580c6da7e3a52cbeadfc84a0c9fda88080a4aeee5208d3d2250250d93c4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"€2 million\",\"$2.6-million\",\"booty\",\"police source\"],\"target_related\":[\"Place Vendôme\",\"France\",\"robberies\",\"Cannes\",\"jewellery store\",\"Paris\"],\"mediators\":[\"jewellery store\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "ac41eb4e4c57461369c5ac0b165f3358ad789afdcdd5a1ebb179286cc07ab300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window and enabled the theft, so the ramming caused the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "534667e070cd207850438bf4f6fcbfcc561856e4cfea22c0c6f792f5d0ad1f61",
+    "534667e070cd207850438bf4f6fcbfcc561856e4cfea22c0c6f792f5d0ad1f61",
+    "ef82a9848eab05b6b5980e7b1665ee6781003e7612da71549ed1a843d1c01509",
+    "4ca51604f5cbd79680cf3d28ea3cb0cd1976a1c50047131cdcbc5775d4f0f330",
+    "05980580c6da7e3a52cbeadfc84a0c9fda88080a4aeee5208d3d2250250d93c4",
+    "ac41eb4e4c57461369c5ac0b165f3358ad789afdcdd5a1ebb179286cc07ab300"
+  ],
+  "elapsed_s": 5.273863077163696
+}

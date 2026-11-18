@@ -1,0 +1,64 @@
+{
+  "input_hash": "bb0f195e9432b165e4b955e4e30039a8c4cbd8ee518c7c9ebaef58d93f1dc6c5",
+  "sample_id": "ESC-CSV-07121",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "San Diego Chargers",
+    "defensive tackle",
+    "suspicion",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86f3bede381674558a15b5008a20ea6bd9e5decc23a740b4b4ec52f8d6e2c894",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86f3bede381674558a15b5008a20ea6bd9e5decc23a740b4b4ec52f8d6e2c894",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "80fa7467715a637d651f413b9aa3a24c6f2178cb0a2afa5dc1ea025cdc990dc3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0ed060bd29d7cf55f332fed9935fb9b863db11ade424b000ba13ae39d8d2ef80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fb310338a7de9c76574f34b980b9ca562ab26caa080c16f8f8c3643f13ff82cf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"DUI\",\"suspicion\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"suspicion\",\"DUI\",\"team\"],\"mediators\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"suspicion\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "df3c186c73c0c7ba3ee131a04652c331583af4643f83fa30bb98fe1c442d0b3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunk driving' — 'on suspicion of' links drunk driving as the cause/reason for the arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "86f3bede381674558a15b5008a20ea6bd9e5decc23a740b4b4ec52f8d6e2c894",
+    "86f3bede381674558a15b5008a20ea6bd9e5decc23a740b4b4ec52f8d6e2c894",
+    "80fa7467715a637d651f413b9aa3a24c6f2178cb0a2afa5dc1ea025cdc990dc3",
+    "0ed060bd29d7cf55f332fed9935fb9b863db11ade424b000ba13ae39d8d2ef80",
+    "fb310338a7de9c76574f34b980b9ca562ab26caa080c16f8f8c3643f13ff82cf",
+    "df3c186c73c0c7ba3ee131a04652c331583af4643f83fa30bb98fe1c442d0b3f"
+  ],
+  "elapsed_s": 4.982761383056641
+}

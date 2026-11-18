@@ -1,0 +1,60 @@
+{
+  "input_hash": "bc54259159accba6e652e224f30dfc79d1ab60dc71e36da893ed4bea41745c9d",
+  "sample_id": "ESC-CSV-07009",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e39ec098b3ebf0548e8ab465fa3eaeee72580bd39b5eda833e08a9f2162c46d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e39ec098b3ebf0548e8ab465fa3eaeee72580bd39b5eda833e08a9f2162c46d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1347637d15c904bac4aeb2400b91c0cf4f3c2136968023313dd497c75d9408a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ba7b0454e0f0a2fd7569ea857679e6b6349d6254df249410de61e17a0078182f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d60622af84806b6b5a4c366e4c7b116e8c024b0437836d49c9918d027217efda",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"DUI\",\"player\"],\"target_related\":[\"Williams\",\"jail\"],\"mediators\":[\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "c12fe79a72ed1db223e3f28dd3e22a29b9073d0a0b8d565fcde03c163ee71ae7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested for DUI leads to being taken to jail; arrest precedes and causes the jailing, following common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "9e39ec098b3ebf0548e8ab465fa3eaeee72580bd39b5eda833e08a9f2162c46d",
+    "9e39ec098b3ebf0548e8ab465fa3eaeee72580bd39b5eda833e08a9f2162c46d",
+    "1347637d15c904bac4aeb2400b91c0cf4f3c2136968023313dd497c75d9408a1",
+    "ba7b0454e0f0a2fd7569ea857679e6b6349d6254df249410de61e17a0078182f",
+    "d60622af84806b6b5a4c366e4c7b116e8c024b0437836d49c9918d027217efda",
+    "c12fe79a72ed1db223e3f28dd3e22a29b9073d0a0b8d565fcde03c163ee71ae7"
+  ],
+  "elapsed_s": 3.7804436683654785
+}

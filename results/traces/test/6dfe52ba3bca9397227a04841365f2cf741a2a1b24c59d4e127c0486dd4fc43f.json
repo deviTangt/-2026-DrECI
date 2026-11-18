@@ -1,0 +1,62 @@
+{
+  "input_hash": "6dfe52ba3bca9397227a04841365f2cf741a2a1b24c59d4e127c0486dd4fc43f",
+  "sample_id": "ESC-CSV-06619",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "Lopez",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d2578d20ce1be64a65aa4e8a3d6100bf9b4216ae2b345094a6d243b0798d703b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d2578d20ce1be64a65aa4e8a3d6100bf9b4216ae2b345094a6d243b0798d703b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "984e6bcca2b5ec8e60c093deb2478ffdf92e3ddae0134ad6c04a31ee72b7e661",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ac6a3cce65f7221297727ad52c892a01a17775880f50a1036330807f7f949e35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dbeb8aaf3b7f84c31f279381300646eb4854f85d00a848cc04867d55c5c1cbe0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"bullet\",\"Lopez\",\"shots\",\"death\"],\"target_related\":[\"Horton\",\"Lopez\",\"charged\",\"death\"],\"mediators\":[\"Horton\",\"Lopez\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "ea341003abb76b8313a42fdafe337eb341fd32133733f1b787a216034689703d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Shooting breaks out; Lopez accused of letting off 13 shots in Horton's death, so shooting causes death, and death is charged as murder.\"}"
+    }
+  },
+  "call_ids": [
+    "d2578d20ce1be64a65aa4e8a3d6100bf9b4216ae2b345094a6d243b0798d703b",
+    "d2578d20ce1be64a65aa4e8a3d6100bf9b4216ae2b345094a6d243b0798d703b",
+    "984e6bcca2b5ec8e60c093deb2478ffdf92e3ddae0134ad6c04a31ee72b7e661",
+    "ac6a3cce65f7221297727ad52c892a01a17775880f50a1036330807f7f949e35",
+    "dbeb8aaf3b7f84c31f279381300646eb4854f85d00a848cc04867d55c5c1cbe0",
+    "ea341003abb76b8313a42fdafe337eb341fd32133733f1b787a216034689703d"
+  ],
+  "elapsed_s": 6.591235399246216
+}

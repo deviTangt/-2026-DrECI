@@ -1,0 +1,63 @@
+{
+  "input_hash": "de21fd392b9bcd0b3ff4c1c825c3dcd92ab4b4cff01d3db0db2d7394fdbdcd5f",
+  "sample_id": "ESC-CSV-02570",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "Brooklyn",
+    "streets",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "05b495eb07026d192531a5555acf3fe33c2a49f3a216121dff4d6cac81e1b8f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "05b495eb07026d192531a5555acf3fe33c2a49f3a216121dff4d6cac81e1b8f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2335cdc7ed90ea7478e328de8bce0cff8f97729923a37a4dfc5b462a9ce83f04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b5486168d139916307142ca068b411054a97320e5585516a1ef23826b538eb02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a0f2b2b30a157a394d42640693225d1bfbda374b2f6851290755fd8a0b6d45a8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"enraged\",\"fatal\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\"],\"target_related\":[\"Protesters\",\"poured\",\"Brooklyn\",\"streets\",\"Wednesday\",\"pitching\",\"bricks\",\"bottles\",\"garbage\",\"furious\",\"cops\"],\"mediators\":[\"Protesters\",\"Brooklyn\",\"streets\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "2add88f24470881f9a729e29e43f71ac0a66fb32ba0ea2267309b92aee2b1de4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Protesters 'enraged over the fatal shooting' poured into streets 'pitching bricks...in furious clashes' — enraged implies the shooting provoked the clashes; shooting precedes clashes.\"}"
+    }
+  },
+  "call_ids": [
+    "05b495eb07026d192531a5555acf3fe33c2a49f3a216121dff4d6cac81e1b8f6",
+    "05b495eb07026d192531a5555acf3fe33c2a49f3a216121dff4d6cac81e1b8f6",
+    "2335cdc7ed90ea7478e328de8bce0cff8f97729923a37a4dfc5b462a9ce83f04",
+    "b5486168d139916307142ca068b411054a97320e5585516a1ef23826b538eb02",
+    "a0f2b2b30a157a394d42640693225d1bfbda374b2f6851290755fd8a0b6d45a8",
+    "2add88f24470881f9a729e29e43f71ac0a66fb32ba0ea2267309b92aee2b1de4"
+  ],
+  "elapsed_s": 14.506168127059937
+}

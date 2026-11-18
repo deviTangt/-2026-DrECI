@@ -1,0 +1,60 @@
+{
+  "input_hash": "9696a8ec6222d5454262bf7d3f2481dcedc0f36172e6833016fad3ce75b15c24",
+  "sample_id": "ESC-CSV-02040",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1e09603e08889c4ede46c367c70fe8472a632cfcbcd579d572d7d5f0758f11f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1e09603e08889c4ede46c367c70fe8472a632cfcbcd579d572d7d5f0758f11f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3bc8fa37593dfd89462d1225ae7fe750deacf00d83c5934ed1fa167a9561d250",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "228fba825f4937a9ea71f367f9a16fbda5def1a56c4aab088cec5aff8218ded1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "64d9f34185f58ef1d67444f0be8d2514d43e3daef10e8b01fde2758c506475a5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"wounding\",\"bosses\",\"shotgun\",\"accountant\",\"fired\"],\"target_related\":[\"receptionist\",\"murder\",\"charges\",\"arraigned\"],\"mediators\":[\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "4e3e6894ca88b672b2596d56ef46dc3624011dbb102cd9af5b3d7df66607e5fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The shotgun attack wounded bosses and killed a receptionist who tried to stop him; the attack led to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "1e09603e08889c4ede46c367c70fe8472a632cfcbcd579d572d7d5f0758f11f6",
+    "1e09603e08889c4ede46c367c70fe8472a632cfcbcd579d572d7d5f0758f11f6",
+    "3bc8fa37593dfd89462d1225ae7fe750deacf00d83c5934ed1fa167a9561d250",
+    "228fba825f4937a9ea71f367f9a16fbda5def1a56c4aab088cec5aff8218ded1",
+    "64d9f34185f58ef1d67444f0be8d2514d43e3daef10e8b01fde2758c506475a5",
+    "4e3e6894ca88b672b2596d56ef46dc3624011dbb102cd9af5b3d7df66607e5fb"
+  ],
+  "elapsed_s": 4.484174013137817
+}

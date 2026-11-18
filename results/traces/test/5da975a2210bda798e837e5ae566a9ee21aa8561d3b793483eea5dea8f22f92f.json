@@ -1,0 +1,64 @@
+{
+  "input_hash": "5da975a2210bda798e837e5ae566a9ee21aa8561d3b793483eea5dea8f22f92f",
+  "sample_id": "ESC-CSV-09918",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "people",
+    "dead",
+    "buildings",
+    "burning"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "26c2e80e0aa443de09c195eb9754864881fbfa16c19449fa09f44b30d8b2ea46",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "26c2e80e0aa443de09c195eb9754864881fbfa16c19449fa09f44b30d8b2ea46",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b67731337d35d277eb783975f6a98e3af8027fbdbe10277f03816b6f8cd7e0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "de8bae2295a1f4d87c455b205d66248024faa7afe5a652183f569f5ae7023078",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d7a519adf73c3c468333c0ae0e9fc95f4b1683a1b0e32a615bbbb938d5c46b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"general\",\"strike\",\"battle\",\"Athens\",\"people\",\"dead\",\"buildings\",\"burning\"],\"target_related\":[\"inner\",\"city\",\"police\",\"forces\",\"anarchist\",\"squat\",\"Exarcheia\",\"Athens\",\"people\",\"dead\",\"buildings\",\"burning\"],\"mediators\":[\"Athens\",\"people\",\"dead\",\"buildings\",\"burning\"]}"
+    },
+    "indirect": {
+      "call_id": "9796f3f666ad784f0f0194572e6bc26e4d5345d99a71dc31a1f5ff469bd1bc36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A general strike march turning into a battle implies the march preceded and caused the ensuing battles, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "26c2e80e0aa443de09c195eb9754864881fbfa16c19449fa09f44b30d8b2ea46",
+    "26c2e80e0aa443de09c195eb9754864881fbfa16c19449fa09f44b30d8b2ea46",
+    "4b67731337d35d277eb783975f6a98e3af8027fbdbe10277f03816b6f8cd7e0d",
+    "de8bae2295a1f4d87c455b205d66248024faa7afe5a652183f569f5ae7023078",
+    "6d7a519adf73c3c468333c0ae0e9fc95f4b1683a1b0e32a615bbbb938d5c46b5",
+    "9796f3f666ad784f0f0194572e6bc26e4d5345d99a71dc31a1f5ff469bd1bc36"
+  ],
+  "elapsed_s": 6.0281713008880615
+}

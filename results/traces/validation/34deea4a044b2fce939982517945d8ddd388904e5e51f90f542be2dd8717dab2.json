@@ -1,0 +1,66 @@
+{
+  "input_hash": "34deea4a044b2fce939982517945d8ddd388904e5e51f90f542be2dd8717dab2",
+  "sample_id": "ESC-CSV-01911",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "Jose Luis Orozco",
+    "handgun",
+    "police officer",
+    "attempted murder",
+    "posession of a firearm by a felon",
+    "felon"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c6d5c485b4a670662471c582b544ba34c93b04bf85666a10b662b8c0a4460ada",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c6d5c485b4a670662471c582b544ba34c93b04bf85666a10b662b8c0a4460ada",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0b27d19163bc807b849dbc5d12adf39b2b372ece679f674b3610d63f61ce4e64",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "185775604f1c2ccfdcea112b3f7cc6c0bd3c5e95b4283ebbdf244c15ac6ec2ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e9b1efbc439a103bfa7d87d6d1042808b8a1897ce2332a71b1f555ffc1e1aa31",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"Jose Luis Orozco\",\"handgun\",\"police officer\",\"murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\"],\"target_related\":[\"Orozco\",\"Jose Luis Orozco\",\"handgun\",\"police officer\",\"arrest\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\",\"jury\",\"District Attorney\"],\"mediators\":[\"Orozco\",\"Jose Luis Orozco\",\"handgun\",\"police officer\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\"]}"
+    },
+    "indirect": {
+      "call_id": "49d981bcaedd4c6a4422a02aa1864c70445d33b27433b9efc2ea135c6cc22c3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text states 'murder to avoid arrest,' explicitly linking murder (Y) as caused by avoiding arrest (X).\"}"
+    }
+  },
+  "call_ids": [
+    "c6d5c485b4a670662471c582b544ba34c93b04bf85666a10b662b8c0a4460ada",
+    "c6d5c485b4a670662471c582b544ba34c93b04bf85666a10b662b8c0a4460ada",
+    "0b27d19163bc807b849dbc5d12adf39b2b372ece679f674b3610d63f61ce4e64",
+    "185775604f1c2ccfdcea112b3f7cc6c0bd3c5e95b4283ebbdf244c15ac6ec2ed",
+    "e9b1efbc439a103bfa7d87d6d1042808b8a1897ce2332a71b1f555ffc1e1aa31",
+    "49d981bcaedd4c6a4422a02aa1864c70445d33b27433b9efc2ea135c6cc22c3a"
+  ],
+  "elapsed_s": 5.382293701171875
+}

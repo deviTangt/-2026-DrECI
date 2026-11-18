@@ -1,0 +1,63 @@
+{
+  "input_hash": "0a8fe7c4c58c3896b742dcda4efe9d38d1d94dc202d2ac7c6757521fcfce01ca",
+  "sample_id": "ESC-CSV-04567",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry",
+    "shop",
+    "store",
+    "window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "337c824789840edb72e98f0105d3851a7fdcf63bce16caf7ec022ef23a9cecc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "337c824789840edb72e98f0105d3851a7fdcf63bce16caf7ec022ef23a9cecc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "92d46a32515916cfb09a1b11555c2011e3059065428b781dd8018396c78bac19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "59110c6c4f6ba2b00d8a6489dfdb67a4ed69906064ecd08ecc23f80ee049b8cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "daa42011daf0f9a144140e5b925a560bb23a32ae0316bad45a6ee778e6b70964",
+      "status": "ok",
+      "text": "{\"source_related\":[\"car\",\"window\",\"shop\",\"jewelry\",\"store\"],\"target_related\":[\"jewelry\",\"shop\",\"store\",\"window\",\"million\"],\"mediators\":[\"jewelry\",\"shop\",\"store\",\"window\"]}"
+    },
+    "indirect": {
+      "call_id": "0e48243096e4fb4e330634cf2246b037c518c48c7d045ece275f350ef571de29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window occurs before and enables the stealing of jewelry, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "337c824789840edb72e98f0105d3851a7fdcf63bce16caf7ec022ef23a9cecc4",
+    "337c824789840edb72e98f0105d3851a7fdcf63bce16caf7ec022ef23a9cecc4",
+    "92d46a32515916cfb09a1b11555c2011e3059065428b781dd8018396c78bac19",
+    "59110c6c4f6ba2b00d8a6489dfdb67a4ed69906064ecd08ecc23f80ee049b8cd",
+    "daa42011daf0f9a144140e5b925a560bb23a32ae0316bad45a6ee778e6b70964",
+    "0e48243096e4fb4e330634cf2246b037c518c48c7d045ece275f350ef571de29"
+  ],
+  "elapsed_s": 4.529598236083984
+}

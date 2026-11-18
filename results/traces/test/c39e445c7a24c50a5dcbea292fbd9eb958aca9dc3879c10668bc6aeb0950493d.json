@@ -1,0 +1,64 @@
+{
+  "input_hash": "c39e445c7a24c50a5dcbea292fbd9eb958aca9dc3879c10668bc6aeb0950493d",
+  "sample_id": "ESC-CSV-09720",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "angry protesters",
+    "Molotov cocktails",
+    "police",
+    "storm parliament",
+    "torched buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "670a5d8fd299c825e0e5c3a68e4bbbbabf74f3f60b20181d914e49d4cc7b0378",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "670a5d8fd299c825e0e5c3a68e4bbbbabf74f3f60b20181d914e49d4cc7b0378",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "559c2c26b0d63edcfd430f2e8e02dcea6dc6972736e8abcab8fa49faf02720b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5ecfd9c250eef457a45803bfae7bd47cbbde0ca6b7fb7c13c5f6aea6242762c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8c52717d33a2e3f9dfe42c7baa0d0401a3fb447057d0e2423931c0c65f14d096",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Riots\",\"austerity\",\"measures\",\"bank workers\",\"dead\",\"streets\",\"Athens\",\"Wednesday\",\"angry protesters\",\"storm parliament\",\"Molotov cocktails\",\"police\",\"torched buildings\"],\"target_related\":[\"angry protesters\",\"Molotov cocktails\",\"police\",\"storm parliament\",\"torched buildings\",\"riots\"],\"mediators\":[\"angry protesters\",\"Molotov cocktails\",\"police\",\"storm parliament\",\"torched buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "bbde6e0479af8221a43c73484e5f2b67f40dcce709dd06ab7a27c05da4315a2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Riots over austerity provoked angry protesters, who hurled Molotov cocktails; chain: riots -> angry protesters -> hurled.\"}"
+    }
+  },
+  "call_ids": [
+    "670a5d8fd299c825e0e5c3a68e4bbbbabf74f3f60b20181d914e49d4cc7b0378",
+    "670a5d8fd299c825e0e5c3a68e4bbbbabf74f3f60b20181d914e49d4cc7b0378",
+    "559c2c26b0d63edcfd430f2e8e02dcea6dc6972736e8abcab8fa49faf02720b4",
+    "5ecfd9c250eef457a45803bfae7bd47cbbde0ca6b7fb7c13c5f6aea6242762c7",
+    "8c52717d33a2e3f9dfe42c7baa0d0401a3fb447057d0e2423931c0c65f14d096",
+    "bbde6e0479af8221a43c73484e5f2b67f40dcce709dd06ab7a27c05da4315a2d"
+  ],
+  "elapsed_s": 5.330061674118042
+}

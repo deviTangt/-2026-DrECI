@@ -1,0 +1,62 @@
+{
+  "input_hash": "1f9627d485f9fcf961c3214d97b4699ee9d9bff63f954b942632d1cc4a59148f",
+  "sample_id": "ESC-CSV-01612",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "shot",
+    "head"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "20ba549d05e9000019757e4fa7d24295766b6f54440b1495ab91bca1f16eceb4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "20ba549d05e9000019757e4fa7d24295766b6f54440b1495ab91bca1f16eceb4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ac773e6cb0ceb584246cf5ada79776a8469cf25a503f16137f809f39e9ce70e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b73f41cb976e04804cc1ff0a37e5830b0050e2b636b495210341c009f907833f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bdad29f29e6a661f0a5d7025d2a75b00708c72f6f7d0b9b5c30f2eaddca97647",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"home\",\"door\",\"shot\",\"head\"],\"target_related\":[\"deputy\",\"shot\",\"head\",\"authorities\"],\"mediators\":[\"deputy\",\"shot\",\"head\"]}"
+    },
+    "indirect": {
+      "call_id": "380a7d0160e9928c4cb8875d48eea99a6612be73c975ffb547c868abb6d4b4b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Knocking on the door led someone to shoot the deputy in the head, killing him; common sense supports knock causing the fatal shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "20ba549d05e9000019757e4fa7d24295766b6f54440b1495ab91bca1f16eceb4",
+    "20ba549d05e9000019757e4fa7d24295766b6f54440b1495ab91bca1f16eceb4",
+    "ac773e6cb0ceb584246cf5ada79776a8469cf25a503f16137f809f39e9ce70e4",
+    "b73f41cb976e04804cc1ff0a37e5830b0050e2b636b495210341c009f907833f",
+    "bdad29f29e6a661f0a5d7025d2a75b00708c72f6f7d0b9b5c30f2eaddca97647",
+    "380a7d0160e9928c4cb8875d48eea99a6612be73c975ffb547c868abb6d4b4b4"
+  ],
+  "elapsed_s": 5.937006711959839
+}

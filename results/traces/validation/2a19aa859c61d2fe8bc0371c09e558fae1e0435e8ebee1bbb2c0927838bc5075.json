@@ -1,0 +1,66 @@
+{
+  "input_hash": "2a19aa859c61d2fe8bc0371c09e558fae1e0435e8ebee1bbb2c0927838bc5075",
+  "sample_id": "ESC-CSV-02890",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officers",
+    "gun",
+    "cops",
+    "Kimani Gray",
+    "Brooklyn",
+    "NYPD"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "94b6e1b7de670864a89d2b09f83277ceca2e139e500c84d98d8d04ca2ccbf4e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "94b6e1b7de670864a89d2b09f83277ceca2e139e500c84d98d8d04ca2ccbf4e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5e2fde95690df055267b3ecfc4e3ef642dafd78657742608aca3335dd0137123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "26650369ee1d67b0c86d25221f531b69a713f92db42368f1ea70ea3e511fe01b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3eb9b7106aad3a72540fe21fef09f5eba585789980ca7bbf14ab2fe68fef7a14",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officers\",\"gun\",\"cops\",\"Kimani Gray\",\"Brooklyn\",\"NYPD\"],\"target_related\":[\"police\",\"officers\",\"gun\",\"cops\",\"Kimani Gray\",\"Brooklyn\",\"NYPD\"],\"mediators\":[\"police\",\"officers\",\"gun\",\"cops\",\"Kimani Gray\",\"Brooklyn\",\"NYPD\"]}"
+    },
+    "indirect": {
+      "call_id": "fc2ff1537c9dbf81674d5fa99af999fb894341844752604e986513948fdd7c2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says officers 'shot and killed' the teen; 'shot' (shooting) directly precedes and causes 'killed,' and 'because' links the shooting to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "94b6e1b7de670864a89d2b09f83277ceca2e139e500c84d98d8d04ca2ccbf4e4",
+    "94b6e1b7de670864a89d2b09f83277ceca2e139e500c84d98d8d04ca2ccbf4e4",
+    "5e2fde95690df055267b3ecfc4e3ef642dafd78657742608aca3335dd0137123",
+    "26650369ee1d67b0c86d25221f531b69a713f92db42368f1ea70ea3e511fe01b",
+    "3eb9b7106aad3a72540fe21fef09f5eba585789980ca7bbf14ab2fe68fef7a14",
+    "fc2ff1537c9dbf81674d5fa99af999fb894341844752604e986513948fdd7c2c"
+  ],
+  "elapsed_s": 4.981996059417725
+}

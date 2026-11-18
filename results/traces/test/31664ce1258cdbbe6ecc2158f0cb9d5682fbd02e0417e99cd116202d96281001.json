@@ -1,0 +1,63 @@
+{
+  "input_hash": "31664ce1258cdbbe6ecc2158f0cb9d5682fbd02e0417e99cd116202d96281001",
+  "sample_id": "ESC-CSV-09909",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "suffocated",
+    "Marfin Bank",
+    "Athens",
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e1c0280bf5af94f9986b439afcc8135713d47c11618abb6b9eca73013c7429fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e1c0280bf5af94f9986b439afcc8135713d47c11618abb6b9eca73013c7429fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c2dd28ef5a15ddd4b53f1ae93218ef4701cfe7dcc21ee858f13e57427011450d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "65091503b964ecb9f56c9298fcc6f78e5e268b6fc639b16b80f49ffa98e6bdb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4060da03c5916c4a52057b7e247f1f5703e47a980e14595e5b908a73418bd882",
+      "status": "ok",
+      "text": "{\"source_related\":[\"suffocated\",\"Marfin Bank\",\"Athens\",\"buildings\",\"burning\"],\"target_related\":[\"suffocated\",\"people\",\"Marfin Bank\",\"Athens\",\"buildings\"],\"mediators\":[\"suffocated\",\"Marfin Bank\",\"Athens\",\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "64135a288b28e62068888a71ab7efe90ecb1e3cfa00e8ca242ea067584112558",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"\\\"suffocated to death as a result of a fire\\\" explicitly links fire to death via 'as a result of'; fire preceding deaths also fits common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "e1c0280bf5af94f9986b439afcc8135713d47c11618abb6b9eca73013c7429fd",
+    "e1c0280bf5af94f9986b439afcc8135713d47c11618abb6b9eca73013c7429fd",
+    "c2dd28ef5a15ddd4b53f1ae93218ef4701cfe7dcc21ee858f13e57427011450d",
+    "65091503b964ecb9f56c9298fcc6f78e5e268b6fc639b16b80f49ffa98e6bdb0",
+    "4060da03c5916c4a52057b7e247f1f5703e47a980e14595e5b908a73418bd882",
+    "64135a288b28e62068888a71ab7efe90ecb1e3cfa00e8ca242ea067584112558"
+  ],
+  "elapsed_s": 5.331305027008057
+}

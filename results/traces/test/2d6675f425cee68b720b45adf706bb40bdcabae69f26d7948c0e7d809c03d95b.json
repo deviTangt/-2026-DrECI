@@ -1,0 +1,65 @@
+{
+  "input_hash": "2d6675f425cee68b720b45adf706bb40bdcabae69f26d7948c0e7d809c03d95b",
+  "sample_id": "ESC-CSV-09516",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "branch",
+    "petrol bomb",
+    "protester",
+    "bank workers",
+    "women",
+    "man"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "554b6ebc37f58c1000a35c7fa3a2c3ee3f066c34b9603a0095fb4b681efb3fda",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "554b6ebc37f58c1000a35c7fa3a2c3ee3f066c34b9603a0095fb4b681efb3fda",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a95dbe61c255b305dfff9602c73905cf3e9b7a8c7d7ed29f9fe5e31ad2d814fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9287b4c17c8e76821c6154a7917b2d7a512a9ef8370c81afc8c24776eca90932",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b60900bc5a8ca138c14f314895e226bd47706d2dca274c8e513751330c81cfe6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"branch\",\"petrol bomb\",\"protester\",\"bank workers\",\"women\",\"man\"],\"target_related\":[\"bank workers\",\"women\",\"man\",\"branch\",\"petrol bomb\",\"protester\"],\"mediators\":[\"branch\",\"petrol bomb\",\"protester\",\"bank workers\",\"women\",\"man\"]}"
+    },
+    "indirect": {
+      "call_id": "5b29ff86680e57692e2a088d027602616d915e48853f005337e05ce5de4c166f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'were killed when their branch went up in flames' — 'when' explicitly links the fire to the deaths; common sense: fire causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "554b6ebc37f58c1000a35c7fa3a2c3ee3f066c34b9603a0095fb4b681efb3fda",
+    "554b6ebc37f58c1000a35c7fa3a2c3ee3f066c34b9603a0095fb4b681efb3fda",
+    "a95dbe61c255b305dfff9602c73905cf3e9b7a8c7d7ed29f9fe5e31ad2d814fb",
+    "9287b4c17c8e76821c6154a7917b2d7a512a9ef8370c81afc8c24776eca90932",
+    "b60900bc5a8ca138c14f314895e226bd47706d2dca274c8e513751330c81cfe6",
+    "5b29ff86680e57692e2a088d027602616d915e48853f005337e05ce5de4c166f"
+  ],
+  "elapsed_s": 4.785207033157349
+}

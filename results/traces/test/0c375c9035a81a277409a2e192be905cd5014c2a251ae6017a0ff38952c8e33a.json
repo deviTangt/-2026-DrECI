@@ -1,0 +1,60 @@
+{
+  "input_hash": "0c375c9035a81a277409a2e192be905cd5014c2a251ae6017a0ff38952c8e33a",
+  "sample_id": "ESC-CSV-09411",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4d6e4b8fe12744e524889fd423a0baa5e79d8a746554138d959511d22c4c0788",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4d6e4b8fe12744e524889fd423a0baa5e79d8a746554138d959511d22c4c0788",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c863d011dc5e84d2b1e4d0a02accf9d6cade551362109af977183d525693f108",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aa96e8effb7c405fbbde293f2f5a58b2f20a2feb37e06219f5df634bf27ec6e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ab3a81a1064eb2f0108cdeaf6a1f26ceb62fcefd0971307b4f39980b9498d886",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greek\",\"bank\"],\"target_related\":[\"Three\",\"rioters\"],\"mediators\":[\"rioters\"]}"
+    },
+    "indirect": {
+      "call_id": "97eaf82b306294610e196f30e90869010f067d26a6dae24b63d4bfc603df2cdc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Bombing a bank would cause deaths; the bomb event precedes and causes the killing of three people by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4d6e4b8fe12744e524889fd423a0baa5e79d8a746554138d959511d22c4c0788",
+    "4d6e4b8fe12744e524889fd423a0baa5e79d8a746554138d959511d22c4c0788",
+    "c863d011dc5e84d2b1e4d0a02accf9d6cade551362109af977183d525693f108",
+    "aa96e8effb7c405fbbde293f2f5a58b2f20a2feb37e06219f5df634bf27ec6e9",
+    "ab3a81a1064eb2f0108cdeaf6a1f26ceb62fcefd0971307b4f39980b9498d886",
+    "97eaf82b306294610e196f30e90869010f067d26a6dae24b63d4bfc603df2cdc"
+  ],
+  "elapsed_s": 4.862278938293457
+}

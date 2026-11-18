@@ -1,0 +1,65 @@
+{
+  "input_hash": "29b212680d56d8a846a46b258b4ef6862e41f67afd0ef3f1db9934764a0c41c5",
+  "sample_id": "ESC-CSV-02383",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Troy",
+    "Michigan",
+    "Office",
+    "Dead",
+    "Suspect",
+    "Caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3aa66391794a12c93e39d10756d8eeba35782f64dd4c610b072342de7364a435",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3aa66391794a12c93e39d10756d8eeba35782f64dd4c610b072342de7364a435",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7311b7490cd898db05882d2d2460330bf550f9a7d998eede098233430f724fbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "89f6fc2cade7f6460e41379075ecdbbd687e4bbc864f475eb4816f279dad4b8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9132e33218e2ad8ffea96ec568da76f7059ab033e2533ee29d850f64b180f4a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"Michigan\",\"Office\",\"Dead\",\"Suspect\",\"Caught\"],\"target_related\":[\"Troy\",\"Michigan\",\"Office\",\"Dead\",\"Suspect\",\"Caught\"],\"mediators\":[\"Troy\",\"Michigan\",\"Office\",\"Dead\",\"Suspect\",\"Caught\"]}"
+    },
+    "indirect": {
+      "call_id": "cb2c2964d54d62e9f09fb8cffa223590551367605f0d45c3fd84539f701e89e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting commonly causes people to be injured; the shooting occurs before the resulting injuries, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "3aa66391794a12c93e39d10756d8eeba35782f64dd4c610b072342de7364a435",
+    "3aa66391794a12c93e39d10756d8eeba35782f64dd4c610b072342de7364a435",
+    "7311b7490cd898db05882d2d2460330bf550f9a7d998eede098233430f724fbe",
+    "89f6fc2cade7f6460e41379075ecdbbd687e4bbc864f475eb4816f279dad4b8d",
+    "9132e33218e2ad8ffea96ec568da76f7059ab033e2533ee29d850f64b180f4a3",
+    "cb2c2964d54d62e9f09fb8cffa223590551367605f0d45c3fd84539f701e89e3"
+  ],
+  "elapsed_s": 12.73910903930664
+}

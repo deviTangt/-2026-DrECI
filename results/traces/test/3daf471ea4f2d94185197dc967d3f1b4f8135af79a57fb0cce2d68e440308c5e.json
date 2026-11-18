@@ -1,0 +1,66 @@
+{
+  "input_hash": "3daf471ea4f2d94185197dc967d3f1b4f8135af79a57fb0cce2d68e440308c5e",
+  "sample_id": "ESC-CSV-09282",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "Greeks",
+    "bank",
+    "building",
+    "workers",
+    "austerity",
+    "spending cuts"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45d6d3c18470bd78550f33b100465f7afa229db879eb763333dbaf1ee82b7672",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45d6d3c18470bd78550f33b100465f7afa229db879eb763333dbaf1ee82b7672",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5d1b6ead3174796c7ee9deb4f39fe4e46deeb2243908e3148d0b2f7feb2b956d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ff43cdc5a47ff34192f13468f25e0d219752db552e8e51a01e6b85dc58abf7e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9b5857a5061936aace4f1399608315c15948030bfa99a96120d7aa54fedbc5b2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"spending cuts\",\"bankruptcy\",\"Greeks\",\"Athens\",\"bank\",\"building\",\"workers\",\"prime minister\"],\"target_related\":[\"Athens\",\"Greeks\",\"streets\",\"bank\",\"building\",\"workers\",\"austerity\",\"spending cuts\"],\"mediators\":[\"Athens\",\"Greeks\",\"bank\",\"building\",\"workers\",\"austerity\",\"spending cuts\"]}"
+    },
+    "indirect": {
+      "call_id": "50d44273fa20a853e55293135275a46aa6b65d61637eb46be029b39e3947e3c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3],\"evidence\":\"Protest was 'against harsh new austerity measures' and 'aimed at saving the country'; 'aimed at' and 'against' link measures to protest.\"}"
+    }
+  },
+  "call_ids": [
+    "45d6d3c18470bd78550f33b100465f7afa229db879eb763333dbaf1ee82b7672",
+    "45d6d3c18470bd78550f33b100465f7afa229db879eb763333dbaf1ee82b7672",
+    "5d1b6ead3174796c7ee9deb4f39fe4e46deeb2243908e3148d0b2f7feb2b956d",
+    "ff43cdc5a47ff34192f13468f25e0d219752db552e8e51a01e6b85dc58abf7e1",
+    "9b5857a5061936aace4f1399608315c15948030bfa99a96120d7aa54fedbc5b2",
+    "50d44273fa20a853e55293135275a46aa6b65d61637eb46be029b39e3947e3c9"
+  ],
+  "elapsed_s": 4.666421890258789
+}

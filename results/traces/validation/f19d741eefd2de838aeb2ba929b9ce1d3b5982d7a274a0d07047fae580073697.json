@@ -1,0 +1,61 @@
+{
+  "input_hash": "f19d741eefd2de838aeb2ba929b9ce1d3b5982d7a274a0d07047fae580073697",
+  "sample_id": "ESC-CSV-02601",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Police",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cdc9b2d55e0717335d100b353a95adfd6087b308e3dad44dffab8708f0a8cee4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cdc9b2d55e0717335d100b353a95adfd6087b308e3dad44dffab8708f0a8cee4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e0eb3dad79677b2c5195f051f07e17bfa0d69b4e4b7d10d390f5cef55e3bc1db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "829aa3d89356d8d9f04d47e485543b103db18be12f0a247e2e00c971405c34b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "3473ba9752e766626ad7cd22160af73742727a00158f52bf42458de969816688",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"hostile crowd\",\"planned peaceful vigil\",\"Kimani ( Kiki ) Gray\"],\"target_related\":[\"Protesters\",\"Brooklyn streets\",\"bricks\",\"bottles\",\"garbage\",\"cops\"],\"mediators\":[\"Police\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "0d9e5746fc3949e792ec2d76bce4a433411dc9c5623595fcb45d38d7f8928cc1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No causal link: 'broke away' describes the crowd leaving the vigil; 'pitching' describes protesters throwing objects. Neither causes the other.\"}"
+    }
+  },
+  "call_ids": [
+    "cdc9b2d55e0717335d100b353a95adfd6087b308e3dad44dffab8708f0a8cee4",
+    "cdc9b2d55e0717335d100b353a95adfd6087b308e3dad44dffab8708f0a8cee4",
+    "e0eb3dad79677b2c5195f051f07e17bfa0d69b4e4b7d10d390f5cef55e3bc1db",
+    "829aa3d89356d8d9f04d47e485543b103db18be12f0a247e2e00c971405c34b9",
+    "3473ba9752e766626ad7cd22160af73742727a00158f52bf42458de969816688",
+    "0d9e5746fc3949e792ec2d76bce4a433411dc9c5623595fcb45d38d7f8928cc1"
+  ],
+  "elapsed_s": 5.777112245559692
+}

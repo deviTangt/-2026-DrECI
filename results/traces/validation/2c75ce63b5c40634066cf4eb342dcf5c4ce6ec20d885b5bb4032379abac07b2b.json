@@ -1,0 +1,60 @@
+{
+  "input_hash": "2c75ce63b5c40634066cf4eb342dcf5c4ce6ec20d885b5bb4032379abac07b2b",
+  "sample_id": "ESC-CSV-06954",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cdcfca5311f0aaf2e2b80cd742698ca69c821d0559543f334419f6fa97acdabc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cdcfca5311f0aaf2e2b80cd742698ca69c821d0559543f334419f6fa97acdabc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0e472b5c99e9c5b1ffbbffd1635bb80139da94298778cdca6976db7c12e1aa22",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8111023e2bf1f1ca13f58bea59e90fe254a13e60c23e9aa336807eccf1f67e1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "555ed40e2081cec74bf3e7d8fa46c842ff0ecf751df61bf24aba54057f3b5ec1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"officers\",\"speeding\",\"Bentley\",\"intoxicated\",\"Williams\"],\"target_related\":[\"City Attorney's Office\",\"misdemeanor\",\"drunken-driving\",\"Chargers\",\"Jamal Williams\"],\"mediators\":[\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "5ba48c18b8bd0599f90c8f880ba913ac9af52ef5747d5ebaabe01f8238bac797",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being pulled over for speeding led to consideration of drunken-driving charges, so the stop precedes and causes the charges.\"}"
+    }
+  },
+  "call_ids": [
+    "cdcfca5311f0aaf2e2b80cd742698ca69c821d0559543f334419f6fa97acdabc",
+    "cdcfca5311f0aaf2e2b80cd742698ca69c821d0559543f334419f6fa97acdabc",
+    "0e472b5c99e9c5b1ffbbffd1635bb80139da94298778cdca6976db7c12e1aa22",
+    "8111023e2bf1f1ca13f58bea59e90fe254a13e60c23e9aa336807eccf1f67e1f",
+    "555ed40e2081cec74bf3e7d8fa46c842ff0ecf751df61bf24aba54057f3b5ec1",
+    "5ba48c18b8bd0599f90c8f880ba913ac9af52ef5747d5ebaabe01f8238bac797"
+  ],
+  "elapsed_s": 3.9945032596588135
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "f337eee0c698413c58e9d825e2cc40bc3ef2a7fb42c36af63eec2dfb94ad4812",
+  "sample_id": "ESC-CSV-01568",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4584653c3ac26b561113d9e9f9d7bfffa01c8f0d1b4b8dd19187b5a682125fa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4584653c3ac26b561113d9e9f9d7bfffa01c8f0d1b4b8dd19187b5a682125fa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "079b11533e990dd88204947d40b9e16f18b27e8d4fffb9056eb3141be7b104ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2458fdd65fa8dd9a0c39b6b0486a002656f91e3356d7a5bd8c33c28395f2f2ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "54637d434b6d94c4c146af28cbc3726281e14314e5f11da741d304b6b4023370",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"handgun\",\"officer\",\"face\"],\"target_related\":[\"deputy\",\"fatally\",\"gunman\",\"fired\"],\"mediators\":[\"gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "c69178114ce50e2136369fd3f3d150015508090ea1aaf4a3353bfc0b3612c389",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Putting a handgun to the officer's face and firing directly causes the officer to be fatally shot; the firing follows the putting.\"}"
+    }
+  },
+  "call_ids": [
+    "4584653c3ac26b561113d9e9f9d7bfffa01c8f0d1b4b8dd19187b5a682125fa5",
+    "4584653c3ac26b561113d9e9f9d7bfffa01c8f0d1b4b8dd19187b5a682125fa5",
+    "079b11533e990dd88204947d40b9e16f18b27e8d4fffb9056eb3141be7b104ec",
+    "2458fdd65fa8dd9a0c39b6b0486a002656f91e3356d7a5bd8c33c28395f2f2ca",
+    "54637d434b6d94c4c146af28cbc3726281e14314e5f11da741d304b6b4023370",
+    "c69178114ce50e2136369fd3f3d150015508090ea1aaf4a3353bfc0b3612c389"
+  ],
+  "elapsed_s": 4.578853607177734
+}

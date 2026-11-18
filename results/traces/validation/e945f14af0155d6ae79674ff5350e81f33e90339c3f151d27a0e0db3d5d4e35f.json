@@ -1,0 +1,60 @@
+{
+  "input_hash": "e945f14af0155d6ae79674ff5350e81f33e90339c3f151d27a0e0db3d5d4e35f",
+  "sample_id": "ESC-CSV-02895",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8236dca173543f1a339bcd3c66a6060b9682403e583deb566cec9b865971e90c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8236dca173543f1a339bcd3c66a6060b9682403e583deb566cec9b865971e90c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5970b9c6321a45cc79444b493f2acee1fad4ea11da46ff5999bdedfe83b6d68c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "39d0b27dc8b002e8c5b0a5cbadd629d7cfbea047bba1caf0066cbaf5fd67644c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a820bd2ddbe50880385d5581158cdacdb0b41b39fbd5af04b71a0fa5528f4997",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\"],\"target_related\":[\"crowd\",\"police\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "eedd37a13cb30454044b9721f117b35c4b81e119dd85cf657a2316caae83b5ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesting police treatment follows from the treatment; mistreatment commonly provokes protest, so treatment causes protest by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "8236dca173543f1a339bcd3c66a6060b9682403e583deb566cec9b865971e90c",
+    "8236dca173543f1a339bcd3c66a6060b9682403e583deb566cec9b865971e90c",
+    "5970b9c6321a45cc79444b493f2acee1fad4ea11da46ff5999bdedfe83b6d68c",
+    "39d0b27dc8b002e8c5b0a5cbadd629d7cfbea047bba1caf0066cbaf5fd67644c",
+    "a820bd2ddbe50880385d5581158cdacdb0b41b39fbd5af04b71a0fa5528f4997",
+    "eedd37a13cb30454044b9721f117b35c4b81e119dd85cf657a2316caae83b5ff"
+  ],
+  "elapsed_s": 4.0427892208099365
+}

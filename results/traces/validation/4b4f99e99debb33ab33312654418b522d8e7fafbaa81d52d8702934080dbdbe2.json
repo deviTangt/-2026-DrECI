@@ -1,0 +1,72 @@
+{
+  "input_hash": "4b4f99e99debb33ab33312654418b522d8e7fafbaa81d52d8702934080dbdbe2",
+  "sample_id": "ESC-CSV-02986",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "teenagers",
+    "riot",
+    "streets",
+    "vigil",
+    "shot",
+    "cops",
+    "protest",
+    "Kimani Gray",
+    "people",
+    "threw",
+    "bottles",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "51a35cf6d6cb5bc63883c0c424121df90278d2680cae1a405cc4c3d11f7738be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "51a35cf6d6cb5bc63883c0c424121df90278d2680cae1a405cc4c3d11f7738be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "191dadf2470eed0309d55ec9e7ce6fb275392237a9df899905ecb637e9556323",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5af13fd96d15571e02428560b204809d894e47bfe3569afaab05eb95f702f7e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cdaa9eb94b6c8cfd50e9477f753433afcba482590389446f1998d4b622d75fe2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenagers\",\"riot\",\"streets\",\"vigil\",\"shot\",\"cops\",\"protest\",\"Kimani Gray\",\"people\",\"threw\",\"bottles\",\"officers\"],\"target_related\":[\"Brooklyn\",\"teenagers\",\"riot\",\"streets\",\"vigil\",\"shot\",\"cops\",\"protest\",\"Kimani Gray\",\"people\",\"rioted\",\"threw\",\"bottles\",\"officers\"],\"mediators\":[\"Brooklyn\",\"teenagers\",\"riot\",\"streets\",\"vigil\",\"shot\",\"cops\",\"protest\",\"Kimani Gray\",\"people\",\"threw\",\"bottles\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "9625cfe39e8253bb080149be786f5df81516007eda83858ad817dbbe3a7987ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Chaos (riot, thrown bottles) precedes and produces the chaotic scene; common sense: rioting causes a situation to become chaotic.\"}"
+    }
+  },
+  "call_ids": [
+    "51a35cf6d6cb5bc63883c0c424121df90278d2680cae1a405cc4c3d11f7738be",
+    "51a35cf6d6cb5bc63883c0c424121df90278d2680cae1a405cc4c3d11f7738be",
+    "191dadf2470eed0309d55ec9e7ce6fb275392237a9df899905ecb637e9556323",
+    "5af13fd96d15571e02428560b204809d894e47bfe3569afaab05eb95f702f7e5",
+    "cdaa9eb94b6c8cfd50e9477f753433afcba482590389446f1998d4b622d75fe2",
+    "9625cfe39e8253bb080149be786f5df81516007eda83858ad817dbbe3a7987ca"
+  ],
+  "elapsed_s": 4.85003924369812
+}

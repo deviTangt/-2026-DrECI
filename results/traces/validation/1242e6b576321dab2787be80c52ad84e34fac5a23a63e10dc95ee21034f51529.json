@@ -1,0 +1,65 @@
+{
+  "input_hash": "1242e6b576321dab2787be80c52ad84e34fac5a23a63e10dc95ee21034f51529",
+  "sample_id": "ESC-CSV-01482",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LA",
+    "County",
+    "Sheriff",
+    "Deputy",
+    "Jerry",
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d0596e53ede0f8b84a168c27afe8993fc191f666cd102d82e54140e411e45049",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d0596e53ede0f8b84a168c27afe8993fc191f666cd102d82e54140e411e45049",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dd38304e73b7b3e7b0c0a160ebbfe917fe2c7be7bf6609b7be856a6d5ddeb65a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f2034a2d48e09a768e5cf215f78ec98dfc22f206c68c122026545edc263bf430",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c45d0521a1e165bd782aa602db223bf7b8ee8b8a5839f20c4a152d591045d422",
+      "status": "ok",
+      "text": "{\"source_related\":[\"peace\",\"officer\",\"cold\",\"blood\",\"LA\",\"County\",\"Sheriff\",\"Deputy\",\"Jerry\",\"Ortiz\"],\"target_related\":[\"LA\",\"County\",\"Sheriff\",\"Deputy\",\"Jerry\",\"Ortiz\"],\"mediators\":[\"LA\",\"County\",\"Sheriff\",\"Deputy\",\"Jerry\",\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "c4157da6f3e8f3f5e2074e84cdc4a2c439412935104cec77b2ee06c812f1cd3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being gunned down in cold blood precedes and causes the RIP (rest in peace) tribute; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "d0596e53ede0f8b84a168c27afe8993fc191f666cd102d82e54140e411e45049",
+    "d0596e53ede0f8b84a168c27afe8993fc191f666cd102d82e54140e411e45049",
+    "dd38304e73b7b3e7b0c0a160ebbfe917fe2c7be7bf6609b7be856a6d5ddeb65a",
+    "f2034a2d48e09a768e5cf215f78ec98dfc22f206c68c122026545edc263bf430",
+    "c45d0521a1e165bd782aa602db223bf7b8ee8b8a5839f20c4a152d591045d422",
+    "c4157da6f3e8f3f5e2074e84cdc4a2c439412935104cec77b2ee06c812f1cd3b"
+  ],
+  "elapsed_s": 6.513928413391113
+}

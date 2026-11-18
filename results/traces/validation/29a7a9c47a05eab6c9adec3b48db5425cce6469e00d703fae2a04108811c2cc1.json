@@ -1,0 +1,60 @@
+{
+  "input_hash": "29a7a9c47a05eab6c9adec3b48db5425cce6469e00d703fae2a04108811c2cc1",
+  "sample_id": "ESC-CSV-02259",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "69b154731778c4c8c8448ac77f5a3dd05f55833bcad8f516627c15c52c312a76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "69b154731778c4c8c8448ac77f5a3dd05f55833bcad8f516627c15c52c312a76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c474488139a749bfd486efc8231c72940179f4d7f1637cfad8a485d18135d530",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b2f9adaa2ac37d53fe51280dfc4db65018fbef66f584c584f0e244d2a72ca52a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "df4071e69d9900c58cc6c3f33bf07f81181053a068d265540402cd9cce14245a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"lost\",\"job\",\"bosses\"],\"target_related\":[\"bosses\",\"wounding\",\"killing\",\"receptionist\"],\"mediators\":[\"bosses\"]}"
+    },
+    "indirect": {
+      "call_id": "20a69d0ba8f6d07b4335b56abe73ba27cab8e53012cb6ce8d2e9a56438e63782",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired (losing his job) preceded and plausibly motivated the accountant's return to the office and opening fire.\"}"
+    }
+  },
+  "call_ids": [
+    "69b154731778c4c8c8448ac77f5a3dd05f55833bcad8f516627c15c52c312a76",
+    "69b154731778c4c8c8448ac77f5a3dd05f55833bcad8f516627c15c52c312a76",
+    "c474488139a749bfd486efc8231c72940179f4d7f1637cfad8a485d18135d530",
+    "b2f9adaa2ac37d53fe51280dfc4db65018fbef66f584c584f0e244d2a72ca52a",
+    "df4071e69d9900c58cc6c3f33bf07f81181053a068d265540402cd9cce14245a",
+    "20a69d0ba8f6d07b4335b56abe73ba27cab8e53012cb6ce8d2e9a56438e63782"
+  ],
+  "elapsed_s": 6.250499248504639
+}

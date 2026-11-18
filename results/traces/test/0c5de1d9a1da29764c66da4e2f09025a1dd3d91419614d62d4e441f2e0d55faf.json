@@ -1,0 +1,63 @@
+{
+  "input_hash": "0c5de1d9a1da29764c66da4e2f09025a1dd3d91419614d62d4e441f2e0d55faf",
+  "sample_id": "ESC-CSV-04525",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "store",
+    "vehicle",
+    "jewellery boutique"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a411f4a98084727d56acb9430de754d8617d387a8457778e0291eb62c055a5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a411f4a98084727d56acb9430de754d8617d387a8457778e0291eb62c055a5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f5382cdc0ea1c8fffecc194817c4a30569c8fb9a1a3b536510af3344b86858f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b85929f88b32afcab0ef5b17a3e87a34b002be2b5a42626c4734331be583d1c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0a78617c445d86eb76601880b2ae2a7d7386b25c3705ff91a9858d58b876323b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"four-by-four car\",\"store\",\"vehicle\",\"jewellery boutique\"],\"target_related\":[\"men\",\"store\",\"jewellery\",\"luxury watches\",\"vehicle\",\"jewellery boutique\",\"loot\"],\"mediators\":[\"men\",\"store\",\"vehicle\",\"jewellery boutique\"]}"
+    },
+    "indirect": {
+      "call_id": "dc96475a23a1c0cf5e59be04311738be4d7c06409b47545d0c67f976eb36fcbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Drove a car into the store, then grabbed jewellery — the driving enabled the robbery; 'ploughed their vehicle into' is a coreference of drove causing the raid.\"}"
+    }
+  },
+  "call_ids": [
+    "0a411f4a98084727d56acb9430de754d8617d387a8457778e0291eb62c055a5c",
+    "0a411f4a98084727d56acb9430de754d8617d387a8457778e0291eb62c055a5c",
+    "f5382cdc0ea1c8fffecc194817c4a30569c8fb9a1a3b536510af3344b86858f2",
+    "b85929f88b32afcab0ef5b17a3e87a34b002be2b5a42626c4734331be583d1c5",
+    "0a78617c445d86eb76601880b2ae2a7d7386b25c3705ff91a9858d58b876323b",
+    "dc96475a23a1c0cf5e59be04311738be4d7c06409b47545d0c67f976eb36fcbf"
+  ],
+  "elapsed_s": 4.4730212688446045
+}

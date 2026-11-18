@@ -1,0 +1,65 @@
+{
+  "input_hash": "2c9676b08b77cefbbc8c689879257351c9f769dbf551fa750b12e8b7cf1b9392",
+  "sample_id": "ESC-CSV-09901",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "suffocated",
+    "Marfin Bank",
+    "Athens",
+    "battles",
+    "protesters",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cd760a2c2f3bb4adb49511e8a1a8d58fd16eac14b9ed0da5ea343148de192f69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cd760a2c2f3bb4adb49511e8a1a8d58fd16eac14b9ed0da5ea343148de192f69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "12a9a573d5acb6a68d3cd0dee6f0ca6b4764eaa9000da99b5c962605f0113783",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f343c2b6e25181b248bc0d2bde9abf80943f0b240b8087c2ae707f9e045f72ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "22c49b3d24f438b9761da2719b079a1df989cac303dd750f21d40b6b56eded30",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin Bank\",\"Athens\",\"suffocated\",\"battles\",\"protesters\",\"police\"],\"target_related\":[\"Three\",\"people\",\"suffocated\",\"fire\",\"Marfin Bank\",\"Athens\",\"battles\",\"protesters\",\"police\"],\"mediators\":[\"suffocated\",\"Marfin Bank\",\"Athens\",\"battles\",\"protesters\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "582f60465871c64b1f936cf2d1177fc09f45adc4c91315609393ce7855f79107",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"\\\"suffocated to death as a result of a fire\\\" — \\\"as a result of\\\" explicitly links fire to death; common sense also holds that fire causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "cd760a2c2f3bb4adb49511e8a1a8d58fd16eac14b9ed0da5ea343148de192f69",
+    "cd760a2c2f3bb4adb49511e8a1a8d58fd16eac14b9ed0da5ea343148de192f69",
+    "12a9a573d5acb6a68d3cd0dee6f0ca6b4764eaa9000da99b5c962605f0113783",
+    "f343c2b6e25181b248bc0d2bde9abf80943f0b240b8087c2ae707f9e045f72ef",
+    "22c49b3d24f438b9761da2719b079a1df989cac303dd750f21d40b6b56eded30",
+    "582f60465871c64b1f936cf2d1177fc09f45adc4c91315609393ce7855f79107"
+  ],
+  "elapsed_s": 5.202950477600098
+}

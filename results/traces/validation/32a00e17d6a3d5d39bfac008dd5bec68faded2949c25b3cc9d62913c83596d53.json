@@ -1,0 +1,63 @@
+{
+  "input_hash": "32a00e17d6a3d5d39bfac008dd5bec68faded2949c25b3cc9d62913c83596d53",
+  "sample_id": "ESC-CSV-02407",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "high-speed",
+    "attack",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "16262aef1f8cecae7c4e0fa9fcad2f98ee82492f24d299b1c818aa63236be620",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "16262aef1f8cecae7c4e0fa9fcad2f98ee82492f24d299b1c818aa63236be620",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e8a522670eb91225757761b4e9138c0aca035999f0c70e4d862f25016e7144b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ddae401c6eec92ffe6d83aad4abacf49e7779b2abee61bbfe3bcbbc322f70182",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4f8c21db812b472e785529c8d2fc080e3492c830c8ef768c8840954ed700d3fd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"arrested\",\"high-speed\",\"attack\",\"authorities\"],\"target_related\":[\"man\",\"chase\",\"high-speed\",\"attack\",\"authorities\"],\"mediators\":[\"man\",\"high-speed\",\"attack\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "9624c565002047b14746e5591306d5ef291f4fcbced07129f819e6525480d072",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'was arrested after a high-speed chase' — 'after' explicitly links the chase as preceding cause of the arrest; common sense: chase leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "16262aef1f8cecae7c4e0fa9fcad2f98ee82492f24d299b1c818aa63236be620",
+    "16262aef1f8cecae7c4e0fa9fcad2f98ee82492f24d299b1c818aa63236be620",
+    "e8a522670eb91225757761b4e9138c0aca035999f0c70e4d862f25016e7144b6",
+    "ddae401c6eec92ffe6d83aad4abacf49e7779b2abee61bbfe3bcbbc322f70182",
+    "4f8c21db812b472e785529c8d2fc080e3492c830c8ef768c8840954ed700d3fd",
+    "9624c565002047b14746e5591306d5ef291f4fcbced07129f819e6525480d072"
+  ],
+  "elapsed_s": 17.15653967857361
+}

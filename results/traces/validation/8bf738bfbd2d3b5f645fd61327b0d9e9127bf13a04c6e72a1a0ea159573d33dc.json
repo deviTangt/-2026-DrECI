@@ -1,0 +1,60 @@
+{
+  "input_hash": "8bf738bfbd2d3b5f645fd61327b0d9e9127bf13a04c6e72a1a0ea159573d33dc",
+  "sample_id": "ESC-CSV-01646",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "house"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c8bc108613350ec5bc119050e65dbd138deb261c6cb6a73250e9facef20ac78f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c8bc108613350ec5bc119050e65dbd138deb261c6cb6a73250e9facef20ac78f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "86ae49a85fc6e00552733a88fe29c7e26436c00469663a53c341f2780e8e88b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d48b95b92d521957b8298b55fb3a6ef335deca11b6042fd1b1f632cbbb484882",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "b6d80c02b990eff2c3e97f1806d44c40a49e0a85f836aa25b989782f7b510cbd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jerry Ortiz\",\"head\",\"house\",\"fatally\",\"Deputy\",\"Sheriff\"],\"target_related\":[\"parolee\",\"bathtub\",\"house\",\"found\",\"27-year-old\"],\"mediators\":[\"house\"]}"
+    },
+    "indirect": {
+      "call_id": "a88b37bb98b8a56616ee35f46d737867b42fea85f415d4c84fe57fe8d2d53e1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shooting and the parolee's cowering are separate events; no causal word or structure links them, and the house is merely a location.\"}"
+    }
+  },
+  "call_ids": [
+    "c8bc108613350ec5bc119050e65dbd138deb261c6cb6a73250e9facef20ac78f",
+    "c8bc108613350ec5bc119050e65dbd138deb261c6cb6a73250e9facef20ac78f",
+    "86ae49a85fc6e00552733a88fe29c7e26436c00469663a53c341f2780e8e88b9",
+    "d48b95b92d521957b8298b55fb3a6ef335deca11b6042fd1b1f632cbbb484882",
+    "b6d80c02b990eff2c3e97f1806d44c40a49e0a85f836aa25b989782f7b510cbd",
+    "a88b37bb98b8a56616ee35f46d737867b42fea85f415d4c84fe57fe8d2d53e1f"
+  ],
+  "elapsed_s": 5.481600284576416
+}

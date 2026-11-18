@@ -1,0 +1,64 @@
+{
+  "input_hash": "4015147b759d7dab24c911cdb7f02e46b245a4f2bc2b3ef68e7d90f78ea6bc72",
+  "sample_id": "ESC-CSV-06573",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "death",
+    "second-degree",
+    "assault"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c9b08e7a7b7fd70975721f22069a072f774853cbad737bd73d4779d6582e9026",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c9b08e7a7b7fd70975721f22069a072f774853cbad737bd73d4779d6582e9026",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c2893e4df857b2facb1e6dee823752c89b8161842eed234a94d165d3897660f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fdbd5208f21b8c43aebae29ccccd0183e09770c9ac86fa5fb339fb813c1af762",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bfda1c8bf13f21a730bc962ccb5d900b84919b055ff644397a6443db118de9a0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"death\",\"second-degree\",\"assault\"],\"target_related\":[\"Andrew Lopez\",\"Jury\",\"second-degree\",\"assault\",\"death\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"death\",\"second-degree\",\"assault\"]}"
+    },
+    "indirect": {
+      "call_id": "26581e2d0e129749d17c3ccbc35850ae0b0fab07afd512d95ce6c7042926b9be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of murder follows from the murder charge; the murder is the basis for the guilty verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "c9b08e7a7b7fd70975721f22069a072f774853cbad737bd73d4779d6582e9026",
+    "c9b08e7a7b7fd70975721f22069a072f774853cbad737bd73d4779d6582e9026",
+    "c2893e4df857b2facb1e6dee823752c89b8161842eed234a94d165d3897660f9",
+    "fdbd5208f21b8c43aebae29ccccd0183e09770c9ac86fa5fb339fb813c1af762",
+    "bfda1c8bf13f21a730bc962ccb5d900b84919b055ff644397a6443db118de9a0",
+    "26581e2d0e129749d17c3ccbc35850ae0b0fab07afd512d95ce6c7042926b9be"
+  ],
+  "elapsed_s": 4.652796745300293
+}

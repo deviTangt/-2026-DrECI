@@ -1,0 +1,64 @@
+{
+  "input_hash": "db5bd579851c0a34feb82f745d46f5ade3cefc7a39cb7f09bc2437ad26b6892c",
+  "sample_id": "ESC-CSV-02219",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "two men",
+    "management level employees",
+    "gunshot wounds",
+    "Royal Oak Beaumont Hospital",
+    "Scherlinck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4dfbcf7a914bf11f2eb39d5a036ca01143b1ecbe8ea682c9e13ea6b3a0f4fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4dfbcf7a914bf11f2eb39d5a036ca01143b1ecbe8ea682c9e13ea6b3a0f4fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ad17a83c66dc648dd85ca44674b76f3fe9eede127820a3f5f0dddea0fa92940a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6e8177938032803309c721ef822d80033f2d4ecf4e87535c2f2723d6db37e47f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "655f794d399193aadd49dc8d2e6ddf31187f5ca01c6fb83caf2a9db591be1363",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan man\",\"person\",\"two others\",\"accounting firm\",\"Detroit\",\"police\",\"female receptionist\",\"two men\",\"management level employees\",\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"target_related\":[\"two men\",\"management level employees\",\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"mediators\":[\"two men\",\"management level employees\",\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"]}"
+    },
+    "indirect": {
+      "call_id": "c8891fbc0d2c593fbc599be2773a2c881ccbf505f631a94faeb43e9307224c3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot caused the two men to need surgery for gunshot wounds; the shooting precedes and leads to surgery by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c4dfbcf7a914bf11f2eb39d5a036ca01143b1ecbe8ea682c9e13ea6b3a0f4fd2",
+    "c4dfbcf7a914bf11f2eb39d5a036ca01143b1ecbe8ea682c9e13ea6b3a0f4fd2",
+    "ad17a83c66dc648dd85ca44674b76f3fe9eede127820a3f5f0dddea0fa92940a",
+    "6e8177938032803309c721ef822d80033f2d4ecf4e87535c2f2723d6db37e47f",
+    "655f794d399193aadd49dc8d2e6ddf31187f5ca01c6fb83caf2a9db591be1363",
+    "c8891fbc0d2c593fbc599be2773a2c881ccbf505f631a94faeb43e9307224c3e"
+  ],
+  "elapsed_s": 7.056077241897583
+}

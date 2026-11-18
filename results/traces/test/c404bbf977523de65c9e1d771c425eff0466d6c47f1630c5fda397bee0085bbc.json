@@ -1,0 +1,63 @@
+{
+  "input_hash": "c404bbf977523de65c9e1d771c425eff0466d6c47f1630c5fda397bee0085bbc",
+  "sample_id": "ESC-CSV-09259",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man",
+    "Athens",
+    "protests"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3e812176b90f6f902317169fbadb5789f6c755a31be76aaf1ff3f8dd9735ff69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3e812176b90f6f902317169fbadb5789f6c755a31be76aaf1ff3f8dd9735ff69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6d907037f53a71c866f020f24069b8242bc2604fb9c2f35c50d764a9f728f4a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "02fb05ed8ada343db38f230d9aac2560d8a88ff0d568bdfc94d11d3c12a1a255",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3cac551e46c85ed462336a30f758547d650bf25bc7803c95916f9cc7d69b613c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"marched\",\"Athens\",\"protests\",\"austerity\",\"measures\",\"tens\",\"thousands\"],\"target_related\":[\"women\",\"man\",\"bank\",\"workers\",\"building\",\"torched\",\"protests\",\"Athens\",\"murder\"],\"mediators\":[\"women\",\"man\",\"Athens\",\"protests\"]}"
+    },
+    "indirect": {
+      "call_id": "73dfd92774693a9b5e48aa8119a47fb6723392e91e7edc4718160140b6e84acc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed during demonstrations' and 'killed when the building...was torched during protests' show demonstrations caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "3e812176b90f6f902317169fbadb5789f6c755a31be76aaf1ff3f8dd9735ff69",
+    "3e812176b90f6f902317169fbadb5789f6c755a31be76aaf1ff3f8dd9735ff69",
+    "6d907037f53a71c866f020f24069b8242bc2604fb9c2f35c50d764a9f728f4a3",
+    "02fb05ed8ada343db38f230d9aac2560d8a88ff0d568bdfc94d11d3c12a1a255",
+    "3cac551e46c85ed462336a30f758547d650bf25bc7803c95916f9cc7d69b613c",
+    "73dfd92774693a9b5e48aa8119a47fb6723392e91e7edc4718160140b6e84acc"
+  ],
+  "elapsed_s": 4.513354539871216
+}

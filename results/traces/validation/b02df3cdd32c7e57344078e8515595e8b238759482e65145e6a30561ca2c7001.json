@@ -1,0 +1,63 @@
+{
+  "input_hash": "b02df3cdd32c7e57344078e8515595e8b238759482e65145e6a30561ca2c7001",
+  "sample_id": "ESC-CSV-01921",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Hawaiian Gardens gang member",
+    "L . A . County Sheriff's Deputy Jerry Ortiz",
+    "June , 2005",
+    "Norwalk"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "43a5a7f6e0569af5ad1f38bdee71e91860bcd07b7b39e180568427d58242ecc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "43a5a7f6e0569af5ad1f38bdee71e91860bcd07b7b39e180568427d58242ecc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f921e0205e498f13aeb3186a15bb2a6f93e0e8863c7f41ffe1138c14cfbec7d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4275e5c144caf1d9275a04515fd9484818b52a8412c83cd4c636a170b7b05f1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5cea8e7d3a5611be4b2672e33c21ef8e007e63faa72ae2c3baaa3d856538020e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hawaiian Gardens gang member\",\"L . A . County Sheriff's Deputy Jerry Ortiz\",\"June , 2005\",\"Norwalk\"],\"target_related\":[\"Superior Court jurty\",\"Norwalk\",\"Hawaiian Gardens gang member\",\"murdering\",\"L . A . County Sheriff's Deputy Jerry Ortiz\",\"June , 2005\"],\"mediators\":[\"Hawaiian Gardens gang member\",\"L . A . County Sheriff's Deputy Jerry Ortiz\",\"June , 2005\",\"Norwalk\"]}"
+    },
+    "indirect": {
+      "call_id": "1b14597cedaf9c1cb3f6d7d5fbebbb440856df2153bce3ae10986e31f27c4e3c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Conviction for murdering follows the act of murdering; common sense: committing murder leads to being convicted of it.\"}"
+    }
+  },
+  "call_ids": [
+    "43a5a7f6e0569af5ad1f38bdee71e91860bcd07b7b39e180568427d58242ecc9",
+    "43a5a7f6e0569af5ad1f38bdee71e91860bcd07b7b39e180568427d58242ecc9",
+    "f921e0205e498f13aeb3186a15bb2a6f93e0e8863c7f41ffe1138c14cfbec7d6",
+    "4275e5c144caf1d9275a04515fd9484818b52a8412c83cd4c636a170b7b05f1f",
+    "5cea8e7d3a5611be4b2672e33c21ef8e007e63faa72ae2c3baaa3d856538020e",
+    "1b14597cedaf9c1cb3f6d7d5fbebbb440856df2153bce3ae10986e31f27c4e3c"
+  ],
+  "elapsed_s": 5.634641170501709
+}

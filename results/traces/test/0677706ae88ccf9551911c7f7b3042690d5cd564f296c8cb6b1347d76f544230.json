@@ -1,0 +1,65 @@
+{
+  "input_hash": "0677706ae88ccf9551911c7f7b3042690d5cd564f296c8cb6b1347d76f544230",
+  "sample_id": "ESC-CSV-04568",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "jewelry",
+    "store",
+    "early hours of the morning",
+    "four-by-four car",
+    "vehicle"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ae5095e80dd569f48f101343267f6fecf6e75d2aca8de6ea567eb352d373fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ae5095e80dd569f48f101343267f6fecf6e75d2aca8de6ea567eb352d373fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "386ed3dac1dfeed7d2ad8bada9768e661ddd1b519e1f455aa1d2099e1a01d652",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "80a1e0604a3f591208a193373dcd18925daac243f957e0cbbd8a737ee78833f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0ca98b144da11c22fbf6c0e00a4fb5af0bbd36c1793d72d06533b7d6609c18a9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewelry store\",\"Paris\",\"Monday\",\"shop window\",\"jewelry\",\"police source\",\"four-by-four car\",\"store\",\"early hours of the morning\",\"vehicle\"],\"target_related\":[\"men\",\"jewelry\",\"luxury watches\",\"store\",\"early hours of the morning\",\"four-by-four car\",\"vehicle\"],\"mediators\":[\"men\",\"jewelry\",\"store\",\"early hours of the morning\",\"four-by-four car\",\"vehicle\"]}"
+    },
+    "indirect": {
+      "call_id": "de37710dbacfde3f9e88f3261e51adfdb2b38261947b0eadb252649856c835a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window, enabling the men to grab jewelry; the ramming precedes and causes the grabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "0ae5095e80dd569f48f101343267f6fecf6e75d2aca8de6ea567eb352d373fd2",
+    "0ae5095e80dd569f48f101343267f6fecf6e75d2aca8de6ea567eb352d373fd2",
+    "386ed3dac1dfeed7d2ad8bada9768e661ddd1b519e1f455aa1d2099e1a01d652",
+    "80a1e0604a3f591208a193373dcd18925daac243f957e0cbbd8a737ee78833f3",
+    "0ca98b144da11c22fbf6c0e00a4fb5af0bbd36c1793d72d06533b7d6609c18a9",
+    "de37710dbacfde3f9e88f3261e51adfdb2b38261947b0eadb252649856c835a8"
+  ],
+  "elapsed_s": 5.042959451675415
+}

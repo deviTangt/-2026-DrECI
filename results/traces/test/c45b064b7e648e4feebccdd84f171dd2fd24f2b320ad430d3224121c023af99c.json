@@ -1,0 +1,60 @@
+{
+  "input_hash": "c45b064b7e648e4feebccdd84f171dd2fd24f2b320ad430d3224121c023af99c",
+  "sample_id": "ESC-CSV-09962",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrations"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "97bd467bec86f2e04ad782a6b1baf798cdc920164973eb5548179e80533bccb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "97bd467bec86f2e04ad782a6b1baf798cdc920164973eb5548179e80533bccb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a8e77dd1389944bdc77650b730bae1a09702f407468124aeb7b2fcd786dca0e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7a7d13ed69f99ee76baffe21208d8106fd477a422c2f6ba1863c30b98b13a558",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "23a2f5aee09bfb9f3eec07b2229c204a2ac87666b96d3bbe91b8f7f8b86b4b1d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrations\",\"measures\",\"planned\"],\"target_related\":[\"violent\",\"demonstrations\"],\"mediators\":[\"demonstrations\"]}"
+    },
+    "indirect": {
+      "call_id": "80641d238d9f551f5f72b184db2d651eadd779ee4ca6c019239825c0c035d36d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Demonstrations over austerity turned violent; the austerity measures provoked the demonstrations, which then turned violent, forming a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "97bd467bec86f2e04ad782a6b1baf798cdc920164973eb5548179e80533bccb5",
+    "97bd467bec86f2e04ad782a6b1baf798cdc920164973eb5548179e80533bccb5",
+    "a8e77dd1389944bdc77650b730bae1a09702f407468124aeb7b2fcd786dca0e4",
+    "7a7d13ed69f99ee76baffe21208d8106fd477a422c2f6ba1863c30b98b13a558",
+    "23a2f5aee09bfb9f3eec07b2229c204a2ac87666b96d3bbe91b8f7f8b86b4b1d",
+    "80641d238d9f551f5f72b184db2d651eadd779ee4ca6c019239825c0c035d36d"
+  ],
+  "elapsed_s": 4.602717638015747
+}

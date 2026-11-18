@@ -1,0 +1,64 @@
+{
+  "input_hash": "cdab2f57a060cf88602bb82cd9f3f11588d6738009a6bde7d706b67b3ae6f044",
+  "sample_id": "ESC-CSV-09611",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Firefighters",
+    "bank",
+    "burning",
+    "torched",
+    "fire truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8297c47447e31a0ab2bfd65661ecd6aa5d20341f120bdb16e6ec9287b97749a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8297c47447e31a0ab2bfd65661ecd6aa5d20341f120bdb16e6ec9287b97749a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fa2150e55724d5d4cfdcdd66c829c1b2699b92a0edb8afa13f7fb5c159e8220b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "63c74ff024303d54b70b1cba41c241cd713880fc1256308c84b03dfa5cf67e85",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "94484a7714c2584060cd431bd18ae46ff0b14d1ccabeb2aefeffa69fda0d66eb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Firefighters\",\"protesters\",\"burning\",\"barricades\",\"torched\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"extinguished\",\"buildings\",\"bank\",\"Finance Ministry\",\"burning\",\"torched\",\"fire truck\"],\"mediators\":[\"Firefighters\",\"bank\",\"burning\",\"torched\",\"fire truck\"]}"
+    },
+    "indirect": {
+      "call_id": "f09ec9b43ed17681a9d9b6a8c7551267a4e1af88bc8c676883dfe75b8017102a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots (protesters setting burning barricades and torching cars) occurred before and caused the blazes firefighters extinguished; common sense supports riots causing fires.\"}"
+    }
+  },
+  "call_ids": [
+    "8297c47447e31a0ab2bfd65661ecd6aa5d20341f120bdb16e6ec9287b97749a2",
+    "8297c47447e31a0ab2bfd65661ecd6aa5d20341f120bdb16e6ec9287b97749a2",
+    "fa2150e55724d5d4cfdcdd66c829c1b2699b92a0edb8afa13f7fb5c159e8220b",
+    "63c74ff024303d54b70b1cba41c241cd713880fc1256308c84b03dfa5cf67e85",
+    "94484a7714c2584060cd431bd18ae46ff0b14d1ccabeb2aefeffa69fda0d66eb",
+    "f09ec9b43ed17681a9d9b6a8c7551267a4e1af88bc8c676883dfe75b8017102a"
+  ],
+  "elapsed_s": 4.298398494720459
+}

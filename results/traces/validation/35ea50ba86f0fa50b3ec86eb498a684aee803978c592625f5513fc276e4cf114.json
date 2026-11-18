@@ -1,0 +1,61 @@
+{
+  "input_hash": "35ea50ba86f0fa50b3ec86eb498a684aee803978c592625f5513fc276e4cf114",
+  "sample_id": "ESC-CSV-02023",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "08bb011ee7449d97f2ffa5f9037bc1741ec7ae51f260b6b84fae24c603421815",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "08bb011ee7449d97f2ffa5f9037bc1741ec7ae51f260b6b84fae24c603421815",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2216be760e9d060e990204e7959e0149754d553790b7b9b1215fc60d1688e510",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "21249a90a8358be15e8354a517524b7b770d877ae6ebb7bf4d0123715f354b21",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6e06ea9d6cb45f551d79541fd2c64fcebd7cf033fb88f127b8dccaebeb82806e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"office\",\"shotgun\",\"people\",\"killing\",\"fleeing\",\"police\",\"officers\",\"chase\",\"authorities\"],\"target_related\":[\"man\",\"job\",\"accounting\",\"firm\",\"Detroit\",\"office\"],\"mediators\":[\"man\",\"office\"]}"
+    },
+    "indirect": {
+      "call_id": "10b5488d8562f8bc7f8df56401293b36cfe1cbe746e841337d5b7f80ae4c1363",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired from his job motivated the man to return and shoot people; the firing precedes and causes the shooting by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "08bb011ee7449d97f2ffa5f9037bc1741ec7ae51f260b6b84fae24c603421815",
+    "08bb011ee7449d97f2ffa5f9037bc1741ec7ae51f260b6b84fae24c603421815",
+    "2216be760e9d060e990204e7959e0149754d553790b7b9b1215fc60d1688e510",
+    "21249a90a8358be15e8354a517524b7b770d877ae6ebb7bf4d0123715f354b21",
+    "6e06ea9d6cb45f551d79541fd2c64fcebd7cf033fb88f127b8dccaebeb82806e",
+    "10b5488d8562f8bc7f8df56401293b36cfe1cbe746e841337d5b7f80ae4c1363"
+  ],
+  "elapsed_s": 4.708385467529297
+}

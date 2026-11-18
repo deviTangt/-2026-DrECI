@@ -1,0 +1,61 @@
+{
+  "input_hash": "b6ede10ee5cc7021c64635d9c1363810376d174b82c9ee0db61a9816c3e9e4a8",
+  "sample_id": "ESC-CSV-01907",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "convicted",
+    "Charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6a737c230a758a1cb054af640440d0639c2d483019fcaa8ea4db5cbde4b3f5ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6a737c230a758a1cb054af640440d0639c2d483019fcaa8ea4db5cbde4b3f5ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5d63e93f8c7748956d8531c936eb03880e44ab118502815dbbfe8471e41b9bd1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6f4f00d000580ed478ce69b37aefffda0ceaa4c54b07ba6b835e9cc652af0289",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b458f3d0501c90cede81e141ba39bddd7816c68313df05c999fb3ec43a48b47c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"convicted\",\"gang member\",\"murdering\",\"Deputy Jerry Ortiz\",\"June\",\"2005\",\"Charges\"],\"target_related\":[\"D.A.\",\"Seek\",\"Death Penalty\",\"Charges\",\"convicted\"],\"mediators\":[\"convicted\",\"Charges\"]}"
+    },
+    "indirect": {
+      "call_id": "ed230137a45c4bb102a9960ac67da6a91fce0008539a0c56a2792516eba46fdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Murdering Deputy Ortiz caused his death; killing precedes and causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "6a737c230a758a1cb054af640440d0639c2d483019fcaa8ea4db5cbde4b3f5ca",
+    "6a737c230a758a1cb054af640440d0639c2d483019fcaa8ea4db5cbde4b3f5ca",
+    "5d63e93f8c7748956d8531c936eb03880e44ab118502815dbbfe8471e41b9bd1",
+    "6f4f00d000580ed478ce69b37aefffda0ceaa4c54b07ba6b835e9cc652af0289",
+    "b458f3d0501c90cede81e141ba39bddd7816c68313df05c999fb3ec43a48b47c",
+    "ed230137a45c4bb102a9960ac67da6a91fce0008539a0c56a2792516eba46fdf"
+  ],
+  "elapsed_s": 6.518861532211304
+}

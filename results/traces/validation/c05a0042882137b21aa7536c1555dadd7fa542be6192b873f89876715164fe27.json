@@ -1,0 +1,65 @@
+{
+  "input_hash": "c05a0042882137b21aa7536c1555dadd7fa542be6192b873f89876715164fe27",
+  "sample_id": "ESC-CSV-02344",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Mich",
+    "office",
+    "shooting",
+    "police",
+    "suspect",
+    "worked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8a23c134e20b0fa9820a79b4b420a4fc2dff42727a6ab7ba7e53aac7c2a2b3e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8a23c134e20b0fa9820a79b4b420a4fc2dff42727a6ab7ba7e53aac7c2a2b3e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f4e96b48f69690d2054e9f005d5c3adfeb25455cf33f41f95080de5625a08af2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "042b46097954d9c1c3dc380c2ab3f1e3930124370a97d45db12eb09f1cdbd146",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2323344b2482787a2023289832e64e43f574e226d196f5421516d4119bced02d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"shooting\",\"three\",\"people\",\"accounting\",\"firm\",\"worked\",\"arrested\",\"hours\",\"later\",\"high\",\"speed\",\"chase\",\"authorities\",\"said\",\"Mich\",\"office\",\"police\",\"suspect\"],\"target_related\":[\"1\",\"dead\",\"2\",\"hurt\",\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\"],\"mediators\":[\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\"]}"
+    },
+    "indirect": {
+      "call_id": "f69a592686a316efa98a3da7832c27292739788c1bdbfdf1046cdd96b3d00cb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting can cause death; the text reports '1 dead' in the office shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "8a23c134e20b0fa9820a79b4b420a4fc2dff42727a6ab7ba7e53aac7c2a2b3e6",
+    "8a23c134e20b0fa9820a79b4b420a4fc2dff42727a6ab7ba7e53aac7c2a2b3e6",
+    "f4e96b48f69690d2054e9f005d5c3adfeb25455cf33f41f95080de5625a08af2",
+    "042b46097954d9c1c3dc380c2ab3f1e3930124370a97d45db12eb09f1cdbd146",
+    "2323344b2482787a2023289832e64e43f574e226d196f5421516d4119bced02d",
+    "f69a592686a316efa98a3da7832c27292739788c1bdbfdf1046cdd96b3d00cb9"
+  ],
+  "elapsed_s": 7.755384922027588
+}

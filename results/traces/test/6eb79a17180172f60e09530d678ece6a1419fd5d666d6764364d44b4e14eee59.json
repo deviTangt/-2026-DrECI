@@ -1,0 +1,66 @@
+{
+  "input_hash": "6eb79a17180172f60e09530d678ece6a1419fd5d666d6764364d44b4e14eee59",
+  "sample_id": "ESC-CSV-06710",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "gangbangers",
+    "killing",
+    "mother",
+    "spraying",
+    "bullets",
+    "Brooklyn",
+    "rooftop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "673222073a8fce8881e5e479a1e08949d1d16f9b0b1f29813663acbcb1fa485a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "673222073a8fce8881e5e479a1e08949d1d16f9b0b1f29813663acbcb1fa485a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "20b9da5ec3c1c9cb26d87748f47069df3a18db5b1406f58d213a58b96139e77a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "28e71aa8471ab89db6683697e7a9667afacbd7455962cfaa4bf219a4757ea1aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ed9571f2b1b396ae8f5396686420c611fe2abe6bcf8f535e65d17603846035fd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangbangers\",\"killing\",\"mother\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"],\"target_related\":[\"gangbangers\",\"killing\",\"mother\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"],\"mediators\":[\"gangbangers\",\"killing\",\"mother\",\"spraying\",\"bullets\",\"Brooklyn\",\"rooftop\"]}"
+    },
+    "indirect": {
+      "call_id": "1e0e06dd4a021aff392aac11e5ba731564a9a3837b93f0deb4d94aff6d20375c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being accused and going on trial follows common sense: the accused are brought to trial, so X precedes and causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "673222073a8fce8881e5e479a1e08949d1d16f9b0b1f29813663acbcb1fa485a",
+    "673222073a8fce8881e5e479a1e08949d1d16f9b0b1f29813663acbcb1fa485a",
+    "20b9da5ec3c1c9cb26d87748f47069df3a18db5b1406f58d213a58b96139e77a",
+    "28e71aa8471ab89db6683697e7a9667afacbd7455962cfaa4bf219a4757ea1aa",
+    "ed9571f2b1b396ae8f5396686420c611fe2abe6bcf8f535e65d17603846035fd",
+    "1e0e06dd4a021aff392aac11e5ba731564a9a3837b93f0deb4d94aff6d20375c"
+  ],
+  "elapsed_s": 4.151364088058472
+}

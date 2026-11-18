@@ -1,0 +1,61 @@
+{
+  "input_hash": "4fb4b8f83e40accf4096d9c3d8784be5fd01cc06a8130aabc242fe89dd9e5901",
+  "sample_id": "ESC-CSV-09446",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "494cec989f38f65ee5d4531bfa8c86c2c2b2c8a0ec72f7007fe257f4c3cf5432",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "494cec989f38f65ee5d4531bfa8c86c2c2b2c8a0ec72f7007fe257f4c3cf5432",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "70ab8a8d4dd5d7a44c53dc3e39d815b57706c8bd78403205c9934303e3bb78d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d58f1ee5db42a4e7084c82feab8dbdb18e568dc4672f52d3dc2c129cce162fd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4f97f255075d06e9d27ff322e50a3369cf1d7cbe4a149ea277aa1c55bc60f917",
+      "status": "ok",
+      "text": "{\"source_related\":[\"hooded youths\",\"window\",\"petrol bombs\",\"Marfin bank\",\"fire\"],\"target_related\":[\"firebomb attack\",\"bank\",\"Greece\",\"three people\",\"police\",\"protesters\"],\"mediators\":[\"bank\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "0d929f6ae244fbe72314446acd184f7fcfc8ddffbfcb9774506b32b500d36695",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Youths broke a window and hurled petrol bombs, causing the bank to catch fire; the firebomb attack on the bank killed three people. Chain: broke -> fire -> killed.\"}"
+    }
+  },
+  "call_ids": [
+    "494cec989f38f65ee5d4531bfa8c86c2c2b2c8a0ec72f7007fe257f4c3cf5432",
+    "494cec989f38f65ee5d4531bfa8c86c2c2b2c8a0ec72f7007fe257f4c3cf5432",
+    "70ab8a8d4dd5d7a44c53dc3e39d815b57706c8bd78403205c9934303e3bb78d0",
+    "d58f1ee5db42a4e7084c82feab8dbdb18e568dc4672f52d3dc2c129cce162fd0",
+    "4f97f255075d06e9d27ff322e50a3369cf1d7cbe4a149ea277aa1c55bc60f917",
+    "0d929f6ae244fbe72314446acd184f7fcfc8ddffbfcb9774506b32b500d36695"
+  ],
+  "elapsed_s": 5.222439289093018
+}

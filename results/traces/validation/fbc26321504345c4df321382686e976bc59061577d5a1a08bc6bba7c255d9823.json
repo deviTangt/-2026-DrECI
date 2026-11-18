@@ -1,0 +1,64 @@
+{
+  "input_hash": "fbc26321504345c4df321382686e976bc59061577d5a1a08bc6bba7c255d9823",
+  "sample_id": "ESC-CSV-06975",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "San Diego Chargers",
+    "defensive tackle",
+    "San Diego lineman",
+    "drunken driving"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "473cf6fa871e98a0073d1919276bac778a1460fa8a5d786ad758a659032cad6d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "473cf6fa871e98a0073d1919276bac778a1460fa8a5d786ad758a659032cad6d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2d8bb5fafb36107d0ab09601307268d872a1f6df7950933555f83c786e3560c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "402ad07bfdb8aa1c795a6c70bbd8e8cf7ad4adb96fa89471ac003beed6952912",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6be73404363119c93975c7dcdfdf066dc03108b8b0b5328276723dd79186aea2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"drunken driving\",\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\",\"drunken driving\"],\"mediators\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\",\"drunken driving\"]}"
+    },
+    "indirect": {
+      "call_id": "275aa5090b15c5eb66aff43c41eb6d63f88425c6a3b0fab399e80fdee6170733",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunken driving' uses 'on suspicion of' linking DUI to arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "473cf6fa871e98a0073d1919276bac778a1460fa8a5d786ad758a659032cad6d",
+    "473cf6fa871e98a0073d1919276bac778a1460fa8a5d786ad758a659032cad6d",
+    "2d8bb5fafb36107d0ab09601307268d872a1f6df7950933555f83c786e3560c6",
+    "402ad07bfdb8aa1c795a6c70bbd8e8cf7ad4adb96fa89471ac003beed6952912",
+    "6be73404363119c93975c7dcdfdf066dc03108b8b0b5328276723dd79186aea2",
+    "275aa5090b15c5eb66aff43c41eb6d63f88425c6a3b0fab399e80fdee6170733"
+  ],
+  "elapsed_s": 4.7541985511779785
+}

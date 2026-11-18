@@ -1,0 +1,62 @@
+{
+  "input_hash": "592743232c3ff2919248a7237cc81425eb12c3e5099029e0b6768901ce2e06bc",
+  "sample_id": "ESC-CSV-02706",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "teenager",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eacd304715f677db94892a59031e1e25098b0b31882999e7aadc316a2aac5248",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eacd304715f677db94892a59031e1e25098b0b31882999e7aadc316a2aac5248",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d32d9c29a98f1479a1d207057f43513fb14d23862d6245d73934f03826956821",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a2cc7e516454e284bf19590812851ac4e12076aaac79b2c833a6c4394796b625",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cb7e16f1bfb2fbf93623b16cb3d2bcc93e952ce75fca1338f079efbe17f66462",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenager\",\"shot\",\"police\"],\"target_related\":[\"death\",\"Brooklyn\",\"teenager\",\"police\",\"riot\",\"East Flatbush\"],\"mediators\":[\"Brooklyn\",\"teenager\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "b102c84b24c89d218345a1d01eeb8094c1d8880804f7d80be84a9761258b122f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death of a Brooklyn teenager shot and killed by police fueled a riot — 'fueled' implicitly links the killing to the anger.\"}"
+    }
+  },
+  "call_ids": [
+    "eacd304715f677db94892a59031e1e25098b0b31882999e7aadc316a2aac5248",
+    "eacd304715f677db94892a59031e1e25098b0b31882999e7aadc316a2aac5248",
+    "d32d9c29a98f1479a1d207057f43513fb14d23862d6245d73934f03826956821",
+    "a2cc7e516454e284bf19590812851ac4e12076aaac79b2c833a6c4394796b625",
+    "cb7e16f1bfb2fbf93623b16cb3d2bcc93e952ce75fca1338f079efbe17f66462",
+    "b102c84b24c89d218345a1d01eeb8094c1d8880804f7d80be84a9761258b122f"
+  ],
+  "elapsed_s": 4.642780542373657
+}

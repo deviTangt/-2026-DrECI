@@ -1,0 +1,61 @@
+{
+  "input_hash": "fa4a976c50929608994ea51c1625af2030cd5cdffab50a1414ed07ed3370a59e",
+  "sample_id": "ESC-CSV-02188",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Shooter",
+    "Murder"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "310ba524b070628dee3b16ab9a2f0f22004908d4a2be9fced78d7b6ae3c115df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "310ba524b070628dee3b16ab9a2f0f22004908d4a2be9fced78d7b6ae3c115df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3e4a4a445e757fd254371370554daaa2c4ebe7e850c7146521a29ccde42017bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b608882d123a45808c13f2fcf8b867e67b2f4c44b854f963790777739024b470",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "0be19c0bd646271cf1f2dc71a867ecb4524a1fed0a7fb54519ddc34a9252af16",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Shooter\",\"Murder\"],\"target_related\":[\"Shooter\",\"Murder\"],\"mediators\":[\"Shooter\",\"Murder\"]}"
+    },
+    "indirect": {
+      "call_id": "9d7f8bb48618810f2739381055d118d5f90c2abf76a598fb215064df2a5bf9b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states the shooter was charged with attempted murder; charging is a legal action following the offense, not caused by it. No causation words or causal structure link X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "310ba524b070628dee3b16ab9a2f0f22004908d4a2be9fced78d7b6ae3c115df",
+    "310ba524b070628dee3b16ab9a2f0f22004908d4a2be9fced78d7b6ae3c115df",
+    "3e4a4a445e757fd254371370554daaa2c4ebe7e850c7146521a29ccde42017bd",
+    "b608882d123a45808c13f2fcf8b867e67b2f4c44b854f963790777739024b470",
+    "0be19c0bd646271cf1f2dc71a867ecb4524a1fed0a7fb54519ddc34a9252af16",
+    "9d7f8bb48618810f2739381055d118d5f90c2abf76a598fb215064df2a5bf9b1"
+  ],
+  "elapsed_s": 8.931586742401123
+}

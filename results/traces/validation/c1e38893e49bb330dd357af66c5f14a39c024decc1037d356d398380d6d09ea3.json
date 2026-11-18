@@ -1,0 +1,65 @@
+{
+  "input_hash": "c1e38893e49bb330dd357af66c5f14a39c024decc1037d356d398380d6d09ea3",
+  "sample_id": "ESC-CSV-02977",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gun",
+    "officers",
+    "police",
+    "16-year-old",
+    "Brooklyn",
+    "resident"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fbb8c679f4a0a52fa7953f5cc8fa84ce1c77ec00a917d1441fdfeec589c0db48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fbb8c679f4a0a52fa7953f5cc8fa84ce1c77ec00a917d1441fdfeec589c0db48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a921971faee25f3c2f2bde89fb484b05dbf33a038611e20cbeae57061ca4d02f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8698b4257c5a8058bad70466b3d98832057fb2aef004f9347253d0ede81234f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f23232b77dc4005f6960a1ade1cb27488d356c508603f48fd8c7c027ef54d065",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"16-year-old\",\"Brooklyn\",\"resident\",\"gun\",\"police\"],\"target_related\":[\"gun\",\"officers\",\"police\",\"16-year-old\",\"Brooklyn\",\"resident\"],\"mediators\":[\"gun\",\"officers\",\"police\",\"16-year-old\",\"Brooklyn\",\"resident\"]}"
+    },
+    "indirect": {
+      "call_id": "4199e152f32b65c6c8adbdefc0d54035871f4462db9f87a9baebe25501568bb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says he 'was shot dead by NYPD plainclothes cops' after police say 'he pointed a gun at officers'; 'by' and 'after' link pointing to being shot.\"}"
+    }
+  },
+  "call_ids": [
+    "fbb8c679f4a0a52fa7953f5cc8fa84ce1c77ec00a917d1441fdfeec589c0db48",
+    "fbb8c679f4a0a52fa7953f5cc8fa84ce1c77ec00a917d1441fdfeec589c0db48",
+    "a921971faee25f3c2f2bde89fb484b05dbf33a038611e20cbeae57061ca4d02f",
+    "8698b4257c5a8058bad70466b3d98832057fb2aef004f9347253d0ede81234f7",
+    "f23232b77dc4005f6960a1ade1cb27488d356c508603f48fd8c7c027ef54d065",
+    "4199e152f32b65c6c8adbdefc0d54035871f4462db9f87a9baebe25501568bb5"
+  ],
+  "elapsed_s": 5.101656198501587
+}

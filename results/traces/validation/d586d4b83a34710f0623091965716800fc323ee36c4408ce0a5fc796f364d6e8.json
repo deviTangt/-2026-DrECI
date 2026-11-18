@@ -1,0 +1,64 @@
+{
+  "input_hash": "d586d4b83a34710f0623091965716800fc323ee36c4408ce0a5fc796f364d6e8",
+  "sample_id": "ESC-CSV-02178",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "shot",
+    "dead",
+    "wounded",
+    "hip",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b8d2f45c549142fb41bb689b467b1f6a69d9f3326bfb31e89a9ad09d85de8f1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b8d2f45c549142fb41bb689b467b1f6a69d9f3326bfb31e89a9ad09d85de8f1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5a1b54364a66d9ac0b4b16b2262076a81bda3764b776ce05b6f849b7ebbb5039",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7c9f1a437ca0b7353d6c06e740a8bc20237be14e5110ee30c9cf0680a1b0ddbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c20b8c51eb91b7fd43c4fadce71e5ec5e1e07dd3775997250de1ed78271b249e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"shot\",\"dead\",\"wounded\",\"shot\",\"hip\",\"police\"],\"target_related\":[\"shot\",\"dead\",\"wounded\",\"shot\",\"hip\",\"police\"],\"mediators\":[\"shot\",\"dead\",\"wounded\",\"hip\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "db6a60c757eefde30fa952461c7dbba08dc6877b301b6698178ecab7987ee496",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Monday's violence concluded, then Steinberg was shot and spoke to police about the attack; violence precedes and causes the attack.\"}"
+    }
+  },
+  "call_ids": [
+    "b8d2f45c549142fb41bb689b467b1f6a69d9f3326bfb31e89a9ad09d85de8f1e",
+    "b8d2f45c549142fb41bb689b467b1f6a69d9f3326bfb31e89a9ad09d85de8f1e",
+    "5a1b54364a66d9ac0b4b16b2262076a81bda3764b776ce05b6f849b7ebbb5039",
+    "7c9f1a437ca0b7353d6c06e740a8bc20237be14e5110ee30c9cf0680a1b0ddbc",
+    "c20b8c51eb91b7fd43c4fadce71e5ec5e1e07dd3775997250de1ed78271b249e",
+    "db6a60c757eefde30fa952461c7dbba08dc6877b301b6698178ecab7987ee496"
+  ],
+  "elapsed_s": 5.796176195144653
+}

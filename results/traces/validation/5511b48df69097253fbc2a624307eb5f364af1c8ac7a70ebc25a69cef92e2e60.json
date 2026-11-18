@@ -1,0 +1,66 @@
+{
+  "input_hash": "5511b48df69097253fbc2a624307eb5f364af1c8ac7a70ebc25a69cef92e2e60",
+  "sample_id": "ESC-CSV-07110",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Vincent Jackson",
+    "probation",
+    "previous DUI arrest",
+    "investigation",
+    "Charger Jamal Williams",
+    "arrested",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9d34230aa643a7c10bb550c155154b3c55a48cb6e926bf0e049c0b5f0332259c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9d34230aa643a7c10bb550c155154b3c55a48cb6e926bf0e049c0b5f0332259c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dc483eac7c4b954a0f27cab4a7574b1a6c24de15a130d0d768b83a907c7e54e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ca990ba86898b7e1ae1096c9985d0cd4b678eba77d1bce5b55f5cef65fbccc73",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "3f7f4a81982db32a7db952c6c920520f0d2caf8ddae60c853db757ebca948729",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"wide receiver\",\"probation\",\"previous DUI arrest\",\"investigation\",\"Charger Jamal Williams\",\"arrested\",\"suspicion\"],\"target_related\":[\"Vincent Jackson\",\"probation\",\"previous DUI arrest\",\"pulled over\",\"investigation\",\"Charger Jamal Williams\",\"arrested\",\"suspicion\"],\"mediators\":[\"Vincent Jackson\",\"probation\",\"previous DUI arrest\",\"investigation\",\"Charger Jamal Williams\",\"arrested\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "e8464b0caffbdda4c10e4f86ca2d31bbaae1b27c52dbd7f6a0f9fbbfdc9818e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Jackson was pulled over for investigation of DUI; the stop is for investigating DUI, not caused by a DUI, and no causal rule links the two.\"}"
+    }
+  },
+  "call_ids": [
+    "9d34230aa643a7c10bb550c155154b3c55a48cb6e926bf0e049c0b5f0332259c",
+    "9d34230aa643a7c10bb550c155154b3c55a48cb6e926bf0e049c0b5f0332259c",
+    "dc483eac7c4b954a0f27cab4a7574b1a6c24de15a130d0d768b83a907c7e54e6",
+    "ca990ba86898b7e1ae1096c9985d0cd4b678eba77d1bce5b55f5cef65fbccc73",
+    "3f7f4a81982db32a7db952c6c920520f0d2caf8ddae60c853db757ebca948729",
+    "e8464b0caffbdda4c10e4f86ca2d31bbaae1b27c52dbd7f6a0f9fbbfdc9818e1"
+  ],
+  "elapsed_s": 5.181373834609985
+}

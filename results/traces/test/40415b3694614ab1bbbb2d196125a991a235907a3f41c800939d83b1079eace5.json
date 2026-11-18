@@ -1,0 +1,63 @@
+{
+  "input_hash": "40415b3694614ab1bbbb2d196125a991a235907a3f41c800939d83b1079eace5",
+  "sample_id": "ESC-CSV-04211",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Duncan Rait",
+    "slipping",
+    "ridge",
+    "200ft"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da9de80bdd4ef57d00e603b890de624c71d6bfcd08a9377082179657722c6535",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da9de80bdd4ef57d00e603b890de624c71d6bfcd08a9377082179657722c6535",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fa5cf9deaa2f3d5799272b1e422808e3f266edc8be258d426284ae75612cde82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ef8d10a2ded23663094f1a180e90e3d6c5be262e293965014f262e5f405af024",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a292561004ba192209213b1c58dc78b001b90dbeb7c46ba522bf0a5ffa92cb63",
+      "status": "ok",
+      "text": "{\"source_related\":[\"slipping\",\"ridge\",\"200ft\",\"Duncan Rait\"],\"target_related\":[\"Duncan Rait\",\"slipping\",\"falling\",\"ridge\",\"200ft\"],\"mediators\":[\"Duncan Rait\",\"slipping\",\"ridge\",\"200ft\"]}"
+    },
+    "indirect": {
+      "call_id": "52d457b45d7a9bee9d6e3cd3624b7e3aa97b3b244e347d7bafa18277620c2d1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'killed after slipping and falling' — 'after' explicitly links falling as cause preceding killed.\"}"
+    }
+  },
+  "call_ids": [
+    "da9de80bdd4ef57d00e603b890de624c71d6bfcd08a9377082179657722c6535",
+    "da9de80bdd4ef57d00e603b890de624c71d6bfcd08a9377082179657722c6535",
+    "fa5cf9deaa2f3d5799272b1e422808e3f266edc8be258d426284ae75612cde82",
+    "ef8d10a2ded23663094f1a180e90e3d6c5be262e293965014f262e5f405af024",
+    "a292561004ba192209213b1c58dc78b001b90dbeb7c46ba522bf0a5ffa92cb63",
+    "52d457b45d7a9bee9d6e3cd3624b7e3aa97b3b244e347d7bafa18277620c2d1d"
+  ],
+  "elapsed_s": 4.455119609832764
+}

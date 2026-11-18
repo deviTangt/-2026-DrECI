@@ -1,0 +1,61 @@
+{
+  "input_hash": "c73d0d4af4279393d12f460b11e5b4bcb127265715815fbe265227ad65781ae4",
+  "sample_id": "ESC-CSV-09482",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "fire",
+    "Bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b8cb08e3d66d80b14bc90ec0a78e39b3f113f055746c48b7638a1ac96fd6f55a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b8cb08e3d66d80b14bc90ec0a78e39b3f113f055746c48b7638a1ac96fd6f55a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b3ff786da56f09471eac5fe61329f54a2890555753ca8c575b0537e7cbd2dd65",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fa57150e7dce2016449f2f0d945bae9bac36b02868513d72c97b683d9625e959",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "711d0254822dc79921f5e48dacb161131150bc53ef25793d54ce625895fbc882",
+      "status": "ok",
+      "text": "{\"source_related\":[\"BLAZE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\",\"fire\"],\"target_related\":[\"demonstrators\",\"Molotov cocktail fire bombs\",\"Bank\",\"fire\"],\"mediators\":[\"fire\",\"Bank\"]}"
+    },
+    "indirect": {
+      "call_id": "d3755204461aa60a0f45c521f0f8ea07e9e7f3c5dae64558d570efced71f5344",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,6],\"evidence\":\"The fire 'started when demonstrators hurled' bombs; 'started when' explicitly links Y (hurled) as cause to X (broke out). Chain via fire: hurled->fire->broke out.\"}"
+    }
+  },
+  "call_ids": [
+    "b8cb08e3d66d80b14bc90ec0a78e39b3f113f055746c48b7638a1ac96fd6f55a",
+    "b8cb08e3d66d80b14bc90ec0a78e39b3f113f055746c48b7638a1ac96fd6f55a",
+    "b3ff786da56f09471eac5fe61329f54a2890555753ca8c575b0537e7cbd2dd65",
+    "fa57150e7dce2016449f2f0d945bae9bac36b02868513d72c97b683d9625e959",
+    "711d0254822dc79921f5e48dacb161131150bc53ef25793d54ce625895fbc882",
+    "d3755204461aa60a0f45c521f0f8ea07e9e7f3c5dae64558d570efced71f5344"
+  ],
+  "elapsed_s": 4.513070583343506
+}

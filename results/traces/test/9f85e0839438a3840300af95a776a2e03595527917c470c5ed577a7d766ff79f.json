@@ -1,0 +1,60 @@
+{
+  "input_hash": "9f85e0839438a3840300af95a776a2e03595527917c470c5ed577a7d766ff79f",
+  "sample_id": "ESC-CSV-09305",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Deaths"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "846ca64b663979cc2aefd76ff8dee4d511cbf8aa012cf14af1696f54a219740e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "846ca64b663979cc2aefd76ff8dee4d511cbf8aa012cf14af1696f54a219740e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "02413bf78a633b307d3f023cfdc7b6f2f16ee48be613cd99749421a543eb3b0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "acbb281e2e6f34ee1d91d6624d313a4e6b6ca72f19fbf2673d540c7640215109",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f40a33849d2c239d35f33563196867acd798e8d16b833fece85102bcb5a9d25",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"demonstrations\",\"marched\",\"Athens\",\"Deaths\"],\"target_related\":[\"Bank\",\"Workers\",\"Riot\",\"Deaths\",\"Greek\",\"Prime\",\"Minister\"],\"mediators\":[\"Deaths\"]}"
+    },
+    "indirect": {
+      "call_id": "624dcb56b2a948b4e21300b7d837309312b3ff4434a838bac74d30cef7ab957f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Deaths (Z) resulted from the killings (X) and were called 'Murder' (Y), forming chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "846ca64b663979cc2aefd76ff8dee4d511cbf8aa012cf14af1696f54a219740e",
+    "846ca64b663979cc2aefd76ff8dee4d511cbf8aa012cf14af1696f54a219740e",
+    "02413bf78a633b307d3f023cfdc7b6f2f16ee48be613cd99749421a543eb3b0f",
+    "acbb281e2e6f34ee1d91d6624d313a4e6b6ca72f19fbf2673d540c7640215109",
+    "6f40a33849d2c239d35f33563196867acd798e8d16b833fece85102bcb5a9d25",
+    "624dcb56b2a948b4e21300b7d837309312b3ff4434a838bac74d30cef7ab957f"
+  ],
+  "elapsed_s": 4.457709789276123
+}

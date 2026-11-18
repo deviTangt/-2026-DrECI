@@ -1,0 +1,63 @@
+{
+  "input_hash": "f7d3200970300accc7aede6574228472c737feea369b01ec58b63830191749ff",
+  "sample_id": "ESC-CSV-09479",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "trapped",
+    "stairwell",
+    "3rd floors",
+    "flee"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9a664a0d0a774de75d18d7d94669760e95268d5692f93a61dec8b327baf64da1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9a664a0d0a774de75d18d7d94669760e95268d5692f93a61dec8b327baf64da1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3017c89fdcce67c49743586a7e778e8aca22b75803fea5f0d63080f9d70834b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "69ef5e2509b13cb044d55ab9ccf21302740b91eef76dd1544a36af6627d06132",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "04aad1f276d8a9326be8d8590c137397f9460a43eb8cbaaa993eb8792b0e2e87",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"hurled\",\"Molotov cocktail fire bombs\",\"Bank\",\"trapped\",\"stairwell\",\"3rd floors\",\"flee\",\"broken out\",\"two floors below\"],\"target_related\":[\"trapped\",\"stairwell\",\"3rd floors\",\"flee\",\"fire\"],\"mediators\":[\"trapped\",\"stairwell\",\"3rd floors\",\"flee\"]}"
+    },
+    "indirect": {
+      "call_id": "acda7bc40967f12ed392a3c897988dc38b4b79d83479e3b71305dad4ffe1c33b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Fire broke out two floors below, trapping them in the stairwell while trying to flee; fire->trapped->trying to flee forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "9a664a0d0a774de75d18d7d94669760e95268d5692f93a61dec8b327baf64da1",
+    "9a664a0d0a774de75d18d7d94669760e95268d5692f93a61dec8b327baf64da1",
+    "3017c89fdcce67c49743586a7e778e8aca22b75803fea5f0d63080f9d70834b8",
+    "69ef5e2509b13cb044d55ab9ccf21302740b91eef76dd1544a36af6627d06132",
+    "04aad1f276d8a9326be8d8590c137397f9460a43eb8cbaaa993eb8792b0e2e87",
+    "acda7bc40967f12ed392a3c897988dc38b4b79d83479e3b71305dad4ffe1c33b"
+  ],
+  "elapsed_s": 5.075409412384033
+}

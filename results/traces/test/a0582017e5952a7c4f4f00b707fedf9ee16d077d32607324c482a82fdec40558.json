@@ -1,0 +1,61 @@
+{
+  "input_hash": "a0582017e5952a7c4f4f00b707fedf9ee16d077d32607324c482a82fdec40558",
+  "sample_id": "ESC-CSV-09567",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "541a066d924f05dfcbfce18859e29ba07bbaaeaeba47e95f9e5c4bbf350b6a2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "541a066d924f05dfcbfce18859e29ba07bbaaeaeba47e95f9e5c4bbf350b6a2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b0010594a2619d93041432bac94f80400fe4ab46397fe22cbcc78ae4177d33f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a563be6b5e16217b46140ddde77d274109ed755277057967ddade0ec90bce2c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2f7610194ff6b0d20a739952b0b038510b8c2a20c70ac79340fec4ab35f501a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"government\",\"spending\",\"planned\",\"strike\",\"general\",\"protesters\",\"Athens\",\"streets\",\"tens\",\"thousands\"],\"target_related\":[\"protesters\",\"Greek\",\"bank\",\"burning\",\"dead\",\"died\",\"people\",\"Three\"],\"mediators\":[\"protesters\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "91515661d0ce068d888e4f90e88d061d5ebff556d38ba4a744b6c70f4b1424af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Spending cuts prompted protesters to take to the streets; those protesters then torched the Greek bank, forming a chain cuts->protesters->torch.\"}"
+    }
+  },
+  "call_ids": [
+    "541a066d924f05dfcbfce18859e29ba07bbaaeaeba47e95f9e5c4bbf350b6a2a",
+    "541a066d924f05dfcbfce18859e29ba07bbaaeaeba47e95f9e5c4bbf350b6a2a",
+    "b0010594a2619d93041432bac94f80400fe4ab46397fe22cbcc78ae4177d33f4",
+    "a563be6b5e16217b46140ddde77d274109ed755277057967ddade0ec90bce2c4",
+    "2f7610194ff6b0d20a739952b0b038510b8c2a20c70ac79340fec4ab35f501a2",
+    "91515661d0ce068d888e4f90e88d061d5ebff556d38ba4a744b6c70f4b1424af"
+  ],
+  "elapsed_s": 4.529829740524292
+}

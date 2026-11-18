@@ -1,0 +1,68 @@
+{
+  "input_hash": "c75737ac7b0c7eaf2d3a9ce2d6d2381dd2d3dc8c9fc0bf0edb30695fa31d1aa5",
+  "sample_id": "ESC-CSV-04523",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "jewellery store",
+    "Paris",
+    "Monday",
+    "police source",
+    "Ram-raiders",
+    "jewellery boutique",
+    "Place Vendôme",
+    "dawn"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c669819924c34b278a449453065154f8ee842c08bb23b65e52a452bc0430c19b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c669819924c34b278a449453065154f8ee842c08bb23b65e52a452bc0430c19b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3fd779e1ee6f3b36f99d4e089fdb729c3b67b269b84ec5cbc0046e9e15550cf0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e779d278a1bd783f28f04847bae89c0e21a87e8fcf3de1f8be95bf6bf3ffef81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13a83b971c1bb908f7d3aad0866f04cc32eb0ca4cfc5319e59c5defb12851007",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery store\",\"Paris\",\"Monday\",\"shop window\",\"police source\",\"Ram-raiders\",\"vehicle\",\"jewellery boutique\",\"Place Vendôme\",\"dawn\"],\"target_related\":[\"men\",\"jewellery store\",\"Paris\",\"Monday\",\"€2 million\",\"police source\",\"Ram-raiders\",\"jewellery boutique\",\"Place Vendôme\",\"dawn\",\"loot\"],\"mediators\":[\"men\",\"jewellery store\",\"Paris\",\"Monday\",\"police source\",\"Ram-raiders\",\"jewellery boutique\",\"Place Vendôme\",\"dawn\"]}"
+    },
+    "indirect": {
+      "call_id": "e1299229659f7ab4addc6851c8c8913ea620ba71b1c2aa24fedde5b0e3b58fe2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Ramming the car into the store smashed the window and enabled the raid; 'ploughed their vehicle into' is a coreference of rammed causing the robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "c669819924c34b278a449453065154f8ee842c08bb23b65e52a452bc0430c19b",
+    "c669819924c34b278a449453065154f8ee842c08bb23b65e52a452bc0430c19b",
+    "3fd779e1ee6f3b36f99d4e089fdb729c3b67b269b84ec5cbc0046e9e15550cf0",
+    "e779d278a1bd783f28f04847bae89c0e21a87e8fcf3de1f8be95bf6bf3ffef81",
+    "13a83b971c1bb908f7d3aad0866f04cc32eb0ca4cfc5319e59c5defb12851007",
+    "e1299229659f7ab4addc6851c8c8913ea620ba71b1c2aa24fedde5b0e3b58fe2"
+  ],
+  "elapsed_s": 4.851329803466797
+}

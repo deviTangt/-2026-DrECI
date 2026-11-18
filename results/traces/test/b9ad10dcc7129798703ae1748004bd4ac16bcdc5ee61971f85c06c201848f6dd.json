@@ -1,0 +1,61 @@
+{
+  "input_hash": "b9ad10dcc7129798703ae1748004bd4ac16bcdc5ee61971f85c06c201848f6dd",
+  "sample_id": "ESC-CSV-09489",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "branch"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "484c8723279ca9ee71a8feae9f69224307a4512848f908e5b9f76102008be13c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "484c8723279ca9ee71a8feae9f69224307a4512848f908e5b9f76102008be13c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d55d794cb22eff357f54e86f4ccd407871cd20c9c0c5ebc2bda5bdc4b973b7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9e0cdac73607a88b8a14e4f3cb31c8e28633fcafea9d8e89d03e2c4edd6e7d50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ab37e00be401d819fae18486f1194b33f4ac95ad4cf46c1c4574ff9d4e965d11",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greece\",\"bank\",\"Athens\",\"protesters\",\"petrol bomb\",\"branch\"],\"target_related\":[\"three people\",\"bank workers\",\"two women\",\"man\",\"branch\",\"flames\"],\"mediators\":[\"bank\",\"branch\"]}"
+    },
+    "indirect": {
+      "call_id": "ab5ab59e11e1c68e05de2f78355de557501710f2dfbea016a7c3a15bac00d840",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"Rioters set fire to a bank; the branch went up in flames after a petrol bomb, and the three workers were killed—explicit 'after' and common-sense chain fire->flames->deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "484c8723279ca9ee71a8feae9f69224307a4512848f908e5b9f76102008be13c",
+    "484c8723279ca9ee71a8feae9f69224307a4512848f908e5b9f76102008be13c",
+    "7d55d794cb22eff357f54e86f4ccd407871cd20c9c0c5ebc2bda5bdc4b973b7a",
+    "9e0cdac73607a88b8a14e4f3cb31c8e28633fcafea9d8e89d03e2c4edd6e7d50",
+    "ab37e00be401d819fae18486f1194b33f4ac95ad4cf46c1c4574ff9d4e965d11",
+    "ab5ab59e11e1c68e05de2f78355de557501710f2dfbea016a7c3a15bac00d840"
+  ],
+  "elapsed_s": 5.649283170700073
+}

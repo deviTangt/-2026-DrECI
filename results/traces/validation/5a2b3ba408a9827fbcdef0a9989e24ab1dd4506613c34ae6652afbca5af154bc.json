@@ -1,0 +1,63 @@
+{
+  "input_hash": "5a2b3ba408a9827fbcdef0a9989e24ab1dd4506613c34ae6652afbca5af154bc",
+  "sample_id": "ESC-CSV-02073",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "woman",
+    "men",
+    "police",
+    "Gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "91abac36fe6982b801dbafafdb8570fac87962ef09f5dcd14ad64670f8d46884",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "91abac36fe6982b801dbafafdb8570fac87962ef09f5dcd14ad64670f8d46884",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2518cf0fd17a0a8fdf21af5fbb5349445fbc706c22abc31040952e78982e2de9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5246b29724c82259dc52511e87c94cedd85cb4492f6087ca46e28029af0352ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bf421823f0efd6bb613ec717f3bcf5bf41f0f1bf5f3d7e91278d975a5bb6b9e0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"woman\",\"men\",\"Monday\",\"building\",\"Detroit\",\"police\",\"Gunman\"],\"target_related\":[\"Gunman\",\"woman\",\"men\",\"accounting\",\"office\",\"police\"],\"mediators\":[\"woman\",\"men\",\"police\",\"Gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "40d47802f1a53687cb2a886f96a82f8931dd60218531c823f34c15a02a4e16c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone is the direct physical action that causes their death; shot precedes and causes kills by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "91abac36fe6982b801dbafafdb8570fac87962ef09f5dcd14ad64670f8d46884",
+    "91abac36fe6982b801dbafafdb8570fac87962ef09f5dcd14ad64670f8d46884",
+    "2518cf0fd17a0a8fdf21af5fbb5349445fbc706c22abc31040952e78982e2de9",
+    "5246b29724c82259dc52511e87c94cedd85cb4492f6087ca46e28029af0352ef",
+    "bf421823f0efd6bb613ec717f3bcf5bf41f0f1bf5f3d7e91278d975a5bb6b9e0",
+    "40d47802f1a53687cb2a886f96a82f8931dd60218531c823f34c15a02a4e16c7"
+  ],
+  "elapsed_s": 4.178462982177734
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "9cd65f752fc1df36de6f108b3aa7cede53484f332aa97d9a36fd3d73e6a16dbd",
+  "sample_id": "ESC-CSV-02662",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "police",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a44c4db84e696b451a5488e29166445030d83a5724b4278c6bbbf3bfb67f183",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a44c4db84e696b451a5488e29166445030d83a5724b4278c6bbbf3bfb67f183",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e35a0ad0a0238c13d6cb3f22a9142ab59b8615fe0e4f8e9fa7810d5d38ec78ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8741070fbf36c550ddab75ad8a2f04be751ecedf69b1cbdb344b7cb3b189009c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d24e0101e84df9ada6438a6a1a19471e8c49ecf82cd92c1ec90b59c83f617179",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anger\",\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\",\"streets\",\"East Flatbush\",\"Monday\",\"projectiles\",\"cops\",\"car windows\",\"smashed\",\"pharmacy customer\",\"bottle\",\"head\",\"violence\",\"blocks\",\"NYPD\",\"67th Precinct stationhouse\"],\"target_related\":[\"protest\",\"candlelight vigil\",\"Kimani ( Kiki ) Gray\",\"16\",\"police bullets\",\"Saturday\"],\"mediators\":[\"police\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "d13d14f7bc41f3965227040956ebb4f36150a5c41b0bbb52d714f460ea13d076",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The protest march grew out of a vigil and was followed by the riot, so the march preceded and led to the riot.\"}"
+    }
+  },
+  "call_ids": [
+    "3a44c4db84e696b451a5488e29166445030d83a5724b4278c6bbbf3bfb67f183",
+    "3a44c4db84e696b451a5488e29166445030d83a5724b4278c6bbbf3bfb67f183",
+    "e35a0ad0a0238c13d6cb3f22a9142ab59b8615fe0e4f8e9fa7810d5d38ec78ba",
+    "8741070fbf36c550ddab75ad8a2f04be751ecedf69b1cbdb344b7cb3b189009c",
+    "d24e0101e84df9ada6438a6a1a19471e8c49ecf82cd92c1ec90b59c83f617179",
+    "d13d14f7bc41f3965227040956ebb4f36150a5c41b0bbb52d714f460ea13d076"
+  ],
+  "elapsed_s": 4.46164870262146
+}

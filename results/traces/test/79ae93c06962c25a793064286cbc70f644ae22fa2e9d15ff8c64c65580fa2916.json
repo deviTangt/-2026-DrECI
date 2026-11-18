@@ -1,0 +1,62 @@
+{
+  "input_hash": "79ae93c06962c25a793064286cbc70f644ae22fa2e9d15ff8c64c65580fa2916",
+  "sample_id": "ESC-CSV-06564",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9467e25ed629140acc9d3da00718a086404ef1bc64db2be83316bdbf4f599928",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9467e25ed629140acc9d3da00718a086404ef1bc64db2be83316bdbf4f599928",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5ffbb150ca8cdd90ecffa503d1fbc7f1f1c42d201f9ef40cf9ad3b1d46699837",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5f74cd4763a7d4ca7b0bf73f339f448f0d73a72c8e959ca06604758ebca39652",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "372d4bb43a60b7bd213b33e2f1e9c1a1605ce052cae3e876aeee2481574c5721",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Zurana Horton\",\"murder\",\"Andrew Lopez\"],\"target_related\":[\"Andrew Lopez\",\"murder\",\"Jury\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "9d9eba48bb731b63b47a53c59aa0b4207acc67819f711dc401bdcb6dc4abbec2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states Lopez was found guilty in Horton's death; guilt is a legal verdict about the death, not caused by it. No causal words or causal chain link death to guilty.\"}"
+    }
+  },
+  "call_ids": [
+    "9467e25ed629140acc9d3da00718a086404ef1bc64db2be83316bdbf4f599928",
+    "9467e25ed629140acc9d3da00718a086404ef1bc64db2be83316bdbf4f599928",
+    "5ffbb150ca8cdd90ecffa503d1fbc7f1f1c42d201f9ef40cf9ad3b1d46699837",
+    "5f74cd4763a7d4ca7b0bf73f339f448f0d73a72c8e959ca06604758ebca39652",
+    "372d4bb43a60b7bd213b33e2f1e9c1a1605ce052cae3e876aeee2481574c5721",
+    "9d9eba48bb731b63b47a53c59aa0b4207acc67819f711dc401bdcb6dc4abbec2"
+  ],
+  "elapsed_s": 5.139302015304565
+}

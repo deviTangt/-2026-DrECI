@@ -1,0 +1,62 @@
+{
+  "input_hash": "c544f61b40e8eef3cb8e14f079e1ec5aa92647de8cf433430019f2ef2b84754c",
+  "sample_id": "ESC-CSV-06979",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "booked",
+    "county jail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3445146f4c0abbe7e5c67d0a3b6dfa167251f4a613248df22415437c40694727",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3445146f4c0abbe7e5c67d0a3b6dfa167251f4a613248df22415437c40694727",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "211dcc7e5e6c14ce3ed488e9b001061feb1cc40730e17ae30d7349db75958d7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "df0d6247475ad95095947ed6296a900dbcffdf168d3a4343d19990f9f1988b97",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5f7d93f1e198d32f5d6a5356f83e83afbea1b15ebc7fb2adde19f3fe36351928",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"booked\",\"county jail\",\"released\"],\"target_related\":[\"Williams\",\"booked\",\"county jail\",\"bail\"],\"mediators\":[\"Williams\",\"booked\",\"county jail\"]}"
+    },
+    "indirect": {
+      "call_id": "df96a618e28c5216ed161bdd2f894098337a56c0554ad2f64342e61017939a93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'released on bail' uses 'on' as causal link; bail enables release, and bail precedes release by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "3445146f4c0abbe7e5c67d0a3b6dfa167251f4a613248df22415437c40694727",
+    "3445146f4c0abbe7e5c67d0a3b6dfa167251f4a613248df22415437c40694727",
+    "211dcc7e5e6c14ce3ed488e9b001061feb1cc40730e17ae30d7349db75958d7e",
+    "df0d6247475ad95095947ed6296a900dbcffdf168d3a4343d19990f9f1988b97",
+    "5f7d93f1e198d32f5d6a5356f83e83afbea1b15ebc7fb2adde19f3fe36351928",
+    "df96a618e28c5216ed161bdd2f894098337a56c0554ad2f64342e61017939a93"
+  ],
+  "elapsed_s": 4.207550287246704
+}

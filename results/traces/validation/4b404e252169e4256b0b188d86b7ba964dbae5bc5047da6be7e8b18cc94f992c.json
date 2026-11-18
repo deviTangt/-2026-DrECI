@@ -1,0 +1,61 @@
+{
+  "input_hash": "4b404e252169e4256b0b188d86b7ba964dbae5bc5047da6be7e8b18cc94f992c",
+  "sample_id": "ESC-CSV-02849",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "violent",
+    "riot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a2fccf701fa76a20ed9e772511f894651b4290c9dc34114ce5275f7f7fd9bd8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a2fccf701fa76a20ed9e772511f894651b4290c9dc34114ce5275f7f7fd9bd8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2af66daaf14c39281c9aef414969895a56d14ab94366d82bd325d3f07e613041",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a3de1da4db7919d26cf5d3b8edeecb06f3d30f1deb37765fbc581a2ac046b953",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16eba4aa18efa23a9c91972207b87018a9e525922ad40bef66dd047a95caac55",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"teen\",\"slain\",\"riot\",\"violent\"],\"target_related\":[\"candle\",\"light\",\"violent\",\"riot\",\"Brooklyn\",\"East\",\"Flatbush\"],\"mediators\":[\"violent\",\"riot\"]}"
+    },
+    "indirect": {
+      "call_id": "2c89a7d2a62a92fd5ad565b5f688e8a379676401459b7c939bfb64540b7d798b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Teen was killed by NYPD; the vigil for the slain teen turned violent and snowballed into a riot, forming a chain from killing to vigil to riot.\"}"
+    }
+  },
+  "call_ids": [
+    "a2fccf701fa76a20ed9e772511f894651b4290c9dc34114ce5275f7f7fd9bd8f",
+    "a2fccf701fa76a20ed9e772511f894651b4290c9dc34114ce5275f7f7fd9bd8f",
+    "2af66daaf14c39281c9aef414969895a56d14ab94366d82bd325d3f07e613041",
+    "a3de1da4db7919d26cf5d3b8edeecb06f3d30f1deb37765fbc581a2ac046b953",
+    "16eba4aa18efa23a9c91972207b87018a9e525922ad40bef66dd047a95caac55",
+    "2c89a7d2a62a92fd5ad565b5f688e8a379676401459b7c939bfb64540b7d798b"
+  ],
+  "elapsed_s": 4.8838372230529785
+}

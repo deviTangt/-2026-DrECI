@@ -1,0 +1,72 @@
+{
+  "input_hash": "0752f3ab17a8748cfd35a2f044038b4e020288935507d830328c78aaa7c6e726",
+  "sample_id": "ESC-CSV-06775",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "struck",
+    "Armstead",
+    "jurors",
+    "Brooklyn",
+    "Supreme",
+    "Court",
+    "trial",
+    "woman",
+    "fatal",
+    "rooftop",
+    "men",
+    "charged"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "df2c8709c48dcee0dbb674875563521d84e28ba1f958a4b074ba02ae297ab7f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "df2c8709c48dcee0dbb674875563521d84e28ba1f958a4b074ba02ae297ab7f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f6a2b3a4d9b4211dcfc4b8abe37d17e74c1444278b270019ac5b6514dabf99ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "548ae03cdb5be884d1786b631f17b23631dc9fb8d4000c5069323ebcaae05993",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0962f72d78addddbdcbc314d93a39ea3e29b7ffa943e5f671a64db971a0c3dec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangland\",\"territorial\",\"shooting\",\"struck\",\"Armstead\",\"jurors\",\"Brooklyn\",\"Supreme\",\"Court\",\"trial\",\"woman\",\"fatal\",\"rooftop\",\"men\",\"charged\"],\"target_related\":[\"rooftop\",\"men\",\"charged\",\"trial\",\"shooting\",\"fatal\",\"Brooklyn\",\"woman\",\"Armstead\",\"jurors\",\"Supreme\",\"Court\",\"struck\"],\"mediators\":[\"shooting\",\"struck\",\"Armstead\",\"jurors\",\"Brooklyn\",\"Supreme\",\"Court\",\"trial\",\"woman\",\"fatal\",\"rooftop\",\"men\",\"charged\"]}"
+    },
+    "indirect": {
+      "call_id": "a50c4ba440361069b340beb08d234618f262fce9f9b6cb6567ce54b61c51c67d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"The shooting was 'allegedly sparked by a gangland territorial beef,' where 'sparked' implicitly links beef as cause of the gunplay/shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "df2c8709c48dcee0dbb674875563521d84e28ba1f958a4b074ba02ae297ab7f6",
+    "df2c8709c48dcee0dbb674875563521d84e28ba1f958a4b074ba02ae297ab7f6",
+    "f6a2b3a4d9b4211dcfc4b8abe37d17e74c1444278b270019ac5b6514dabf99ad",
+    "548ae03cdb5be884d1786b631f17b23631dc9fb8d4000c5069323ebcaae05993",
+    "0962f72d78addddbdcbc314d93a39ea3e29b7ffa943e5f671a64db971a0c3dec",
+    "a50c4ba440361069b340beb08d234618f262fce9f9b6cb6567ce54b61c51c67d"
+  ],
+  "elapsed_s": 5.4093523025512695
+}

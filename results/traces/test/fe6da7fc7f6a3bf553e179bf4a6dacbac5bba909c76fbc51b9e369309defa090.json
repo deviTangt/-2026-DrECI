@@ -1,0 +1,64 @@
+{
+  "input_hash": "fe6da7fc7f6a3bf553e179bf4a6dacbac5bba909c76fbc51b9e369309defa090",
+  "sample_id": "ESC-CSV-04492",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "Paris",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1c628974e67ad41738551bf12de11e5e07ddca13adaf7b2483d36756ddbe78f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1c628974e67ad41738551bf12de11e5e07ddca13adaf7b2483d36756ddbe78f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "371090539dfa1bd7f51d9bb4f2202f949ffc84fa69edf1f8f31625f833bdc55d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7b8fefb5f5f3c56ab5ecb31057ee3232089c673b2f9a1b85e9ddfd7435c77948",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bc60d0cb5a62529d4f4fe870cf3d47f33407ea79c6fa0237cd61134b87353fe0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"smash\",\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\",\"Crooks\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "8b42c2b1148b4540870b42a3ab6e3e8413122df2e6131e8198489d99f669750e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link grab and heist; a smash-and-grab is the heist, not its cause, and no Z chain/fork/collider applies.\"}"
+    }
+  },
+  "call_ids": [
+    "1c628974e67ad41738551bf12de11e5e07ddca13adaf7b2483d36756ddbe78f8",
+    "1c628974e67ad41738551bf12de11e5e07ddca13adaf7b2483d36756ddbe78f8",
+    "371090539dfa1bd7f51d9bb4f2202f949ffc84fa69edf1f8f31625f833bdc55d",
+    "7b8fefb5f5f3c56ab5ecb31057ee3232089c673b2f9a1b85e9ddfd7435c77948",
+    "bc60d0cb5a62529d4f4fe870cf3d47f33407ea79c6fa0237cd61134b87353fe0",
+    "8b42c2b1148b4540870b42a3ab6e3e8413122df2e6131e8198489d99f669750e"
+  ],
+  "elapsed_s": 4.276893854141235
+}

@@ -1,0 +1,67 @@
+{
+  "input_hash": "0aaacc9b757c11705774107cc9e852ea45ecec6f28f1a40730c06befb81c01a4",
+  "sample_id": "ESC-CSV-09977",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greece",
+    "parliament",
+    "vote",
+    "hefty",
+    "reforms",
+    "government",
+    "financial",
+    "crisis"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f755cb3b8312eab812ab3fb25c812c714724ba27ea54104442c7c0db763df2c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f755cb3b8312eab812ab3fb25c812c714724ba27ea54104442c7c0db763df2c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "776989918a01845caa07329b4425d88ac5ebba74a7bc448f2761424d87d4f4db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "df992160e54553a8313fd915bfdd34d48eb64b08c3f263c0cac39e8e831a9997",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8c6a56562e7bf67314658c3d0ed6e06a90c822e665a102257f6eb38bbec5c295",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"Greece\",\"parliament\",\"vote\",\"hefty\",\"reforms\",\"government\",\"financial\",\"crisis\"],\"target_related\":[\"hefty\",\"reforms\",\"government\",\"address\",\"financial\",\"crisis\",\"Greece\",\"parliament\",\"vote\"],\"mediators\":[\"Greece\",\"parliament\",\"vote\",\"hefty\",\"reforms\",\"government\",\"financial\",\"crisis\"]}"
+    },
+    "indirect": {
+      "call_id": "e99b9aaa227e72a039557f8d5f6d29a25f28259a6e40c3e2dba702f3af0f22b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says cuts and reforms are proposed to address the financial crisis; austerity is not stated as causing cuts, and no causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "f755cb3b8312eab812ab3fb25c812c714724ba27ea54104442c7c0db763df2c2",
+    "f755cb3b8312eab812ab3fb25c812c714724ba27ea54104442c7c0db763df2c2",
+    "776989918a01845caa07329b4425d88ac5ebba74a7bc448f2761424d87d4f4db",
+    "df992160e54553a8313fd915bfdd34d48eb64b08c3f263c0cac39e8e831a9997",
+    "8c6a56562e7bf67314658c3d0ed6e06a90c822e665a102257f6eb38bbec5c295",
+    "e99b9aaa227e72a039557f8d5f6d29a25f28259a6e40c3e2dba702f3af0f22b2"
+  ],
+  "elapsed_s": 6.262878894805908
+}

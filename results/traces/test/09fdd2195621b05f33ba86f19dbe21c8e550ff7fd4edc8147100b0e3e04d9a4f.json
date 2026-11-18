@@ -1,0 +1,61 @@
+{
+  "input_hash": "09fdd2195621b05f33ba86f19dbe21c8e550ff7fd4edc8147100b0e3e04d9a4f",
+  "sample_id": "ESC-CSV-06629",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "youths",
+    "Lopez"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6c907e2e636f9647ee4ab35a3c33a5c63a2a78dcc2db59df52414fad065c9dda",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6c907e2e636f9647ee4ab35a3c33a5c63a2a78dcc2db59df52414fad065c9dda",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ac55b12dfdd12ec5fcd7f5a0470b3ed1df00aaffe00c168d1d05afbafecd224d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b8015d0751cf7ce54aa559a368fc6fbc92f4c88c0cc3fda4cadd48e296dac4c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "57345c21d3c3a7bac71e7d07625b5dd9015ba23e36fd7fb12c1fff0217d986a4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"youths\",\"Lopez\",\"shots\",\"death\"],\"target_related\":[\"youths\",\"murder\",\"Lopez\",\"accused\"],\"mediators\":[\"youths\",\"Lopez\"]}"
+    },
+    "indirect": {
+      "call_id": "65088bfc066cb22b2b1866270a691922a7f7da89362ddeeb56d6bd4fc9276f73",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says youths are charged with murdering Horton; being charged is a legal consequence of the alleged murder, but no explicit or implicit causal word links murdering to charged.\"}"
+    }
+  },
+  "call_ids": [
+    "6c907e2e636f9647ee4ab35a3c33a5c63a2a78dcc2db59df52414fad065c9dda",
+    "6c907e2e636f9647ee4ab35a3c33a5c63a2a78dcc2db59df52414fad065c9dda",
+    "ac55b12dfdd12ec5fcd7f5a0470b3ed1df00aaffe00c168d1d05afbafecd224d",
+    "b8015d0751cf7ce54aa559a368fc6fbc92f4c88c0cc3fda4cadd48e296dac4c1",
+    "57345c21d3c3a7bac71e7d07625b5dd9015ba23e36fd7fb12c1fff0217d986a4",
+    "65088bfc066cb22b2b1866270a691922a7f7da89362ddeeb56d6bd4fc9276f73"
+  ],
+  "elapsed_s": 5.003948926925659
+}

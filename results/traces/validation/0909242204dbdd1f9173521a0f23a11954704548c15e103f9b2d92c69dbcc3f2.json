@@ -1,0 +1,79 @@
+{
+  "input_hash": "0909242204dbdd1f9173521a0f23a11954704548c15e103f9b2d92c69dbcc3f2",
+  "sample_id": "ESC-CSV-01684",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "defendant",
+    "custody",
+    "status",
+    "Sheriff",
+    "detectives",
+    "prosecutors",
+    "Crimes",
+    "Against",
+    "Police",
+    "Officers",
+    "Section",
+    "CAPOS",
+    "time",
+    "murder",
+    "case",
+    "Deputy",
+    "Ortiz",
+    "working",
+    "Cooley",
+    "said"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5215d0aa94257162e7cf026d123de46cf02244aeeb3beec6720ed09b33f94a5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5215d0aa94257162e7cf026d123de46cf02244aeeb3beec6720ed09b33f94a5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4aabbc4d88c5e8810437eb18f9b1cd4923aa75d7952f4125687772ce407444ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a52df7f9811efb98be74cc6dcc76fb68609bf15523556968b050f5bba4798fa8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "e7c05841c01cdf917fca7eda2ef59cfd19ecc130fad2f689e08ad29cf760382f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Against\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"murder\",\"case\",\"Deputy\",\"Ortiz\",\"working\",\"Cooley\",\"said\"],\"target_related\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Against\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"murder\",\"case\",\"Deputy\",\"Ortiz\",\"working\",\"Cooley\",\"said\"],\"mediators\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes\",\"Against\",\"Police\",\"Officers\",\"Section\",\"CAPOS\",\"time\",\"murder\",\"case\",\"Deputy\",\"Ortiz\",\"working\",\"Cooley\",\"said\"]}"
+    },
+    "indirect": {
+      "call_id": "4cb234a27b95e6ca7b38cd3f22d8cc2f85ecdfba5148fb6092c652559180e170",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Deputy Ortiz was killed; his custody status gave detectives and prosecutors additional time to fully investigate the murder, forming a chain from the killing to the investigation.\"}"
+    }
+  },
+  "call_ids": [
+    "5215d0aa94257162e7cf026d123de46cf02244aeeb3beec6720ed09b33f94a5a",
+    "5215d0aa94257162e7cf026d123de46cf02244aeeb3beec6720ed09b33f94a5a",
+    "4aabbc4d88c5e8810437eb18f9b1cd4923aa75d7952f4125687772ce407444ae",
+    "a52df7f9811efb98be74cc6dcc76fb68609bf15523556968b050f5bba4798fa8",
+    "e7c05841c01cdf917fca7eda2ef59cfd19ecc130fad2f689e08ad29cf760382f",
+    "4cb234a27b95e6ca7b38cd3f22d8cc2f85ecdfba5148fb6092c652559180e170"
+  ],
+  "elapsed_s": 5.0035810470581055
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "35c9098099c189a2a268ae3e3377764d816bdba8bc495a8f2cdc3940a1c958cb",
+  "sample_id": "ESC-CSV-06943",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "officers",
+    "Williams",
+    "Bentley",
+    "intoxicated",
+    "arrest",
+    "blood",
+    "drawn"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5663e869dc5fe8a3dcda5d57670d2ecf68cd7fa0f249a37fc13e7b074a589234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5663e869dc5fe8a3dcda5d57670d2ecf68cd7fa0f249a37fc13e7b074a589234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "219d946f8e7c1cddbf6ca7ad60e2b1d84dfb30e6cfd761be5579d7dab364fc16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eeb2e4314d7439c49e2b6a639e1856697a95aaa573fab954b05d43633369ad3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e11ec4e07aec740866a65ce8e1c2462ca2c073f5e75865c5b6037112ee1dbec2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"officers\",\"Williams\",\"Bentley\",\"intoxicated\",\"arrest\",\"blood\",\"drawn\"],\"target_related\":[\"officers\",\"Williams\",\"Bentley\",\"intoxicated\",\"arrest\",\"blood\",\"drawn\"],\"mediators\":[\"officers\",\"Williams\",\"Bentley\",\"intoxicated\",\"arrest\",\"blood\",\"drawn\"]}"
+    },
+    "indirect": {
+      "call_id": "95a3cb48f81cb19bc4b5bbb55f71cc379f7e7bd28343a205dc8c64fd13f39535",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"\\\"pulled him over for speeding\\\" — 'for' explicitly links speeding as the reason for the stop; common sense: speeding prompts officers to pull a driver over.\"}"
+    }
+  },
+  "call_ids": [
+    "5663e869dc5fe8a3dcda5d57670d2ecf68cd7fa0f249a37fc13e7b074a589234",
+    "5663e869dc5fe8a3dcda5d57670d2ecf68cd7fa0f249a37fc13e7b074a589234",
+    "219d946f8e7c1cddbf6ca7ad60e2b1d84dfb30e6cfd761be5579d7dab364fc16",
+    "eeb2e4314d7439c49e2b6a639e1856697a95aaa573fab954b05d43633369ad3f",
+    "e11ec4e07aec740866a65ce8e1c2462ca2c073f5e75865c5b6037112ee1dbec2",
+    "95a3cb48f81cb19bc4b5bbb55f71cc379f7e7bd28343a205dc8c64fd13f39535"
+  ],
+  "elapsed_s": 5.023053169250488
+}

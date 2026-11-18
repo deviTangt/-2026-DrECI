@@ -1,0 +1,66 @@
+{
+  "input_hash": "600b50589de55bc8d1af453c18c669fbaa6e15cf31eeee8075060ec985dfedcc",
+  "sample_id": "ESC-CSV-09848",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire",
+    "bomb",
+    "people",
+    "man",
+    "women",
+    "dead",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "64a52009496c1b522932c7ea8cd088979829fd5ab55daa70b9fc7c505715eb59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "64a52009496c1b522932c7ea8cd088979829fd5ab55daa70b9fc7c505715eb59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c53f90986b44f028cab5bf415d64f5c44e4d0666f1cea68e072e913d4a0f1660",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b30fa56a476629d95108931862c0ca2fda90e06491e4b7fbbcd838f51a101d82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c1673b1b9286b26c66d9ca49b97ca6df99eb53d421c0c66d80ce2547aa72b60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire\",\"bomb\",\"bank\",\"Greek\",\"Police\",\"people\",\"man\",\"women\",\"dead\"],\"target_related\":[\"fire\",\"bomb\",\"attack\",\"people\",\"man\",\"women\",\"dead\",\"Police\"],\"mediators\":[\"fire\",\"bomb\",\"people\",\"man\",\"women\",\"dead\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "034503d0931d13cbdf8239585ecfac5abace4d7a037a5154d8ffa8f2792895d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Riots led to a fire-bomb attack, and the fire-bomb attack killed three people, forming a chain: riots -> bomb/fire -> killed.\"}"
+    }
+  },
+  "call_ids": [
+    "64a52009496c1b522932c7ea8cd088979829fd5ab55daa70b9fc7c505715eb59",
+    "64a52009496c1b522932c7ea8cd088979829fd5ab55daa70b9fc7c505715eb59",
+    "c53f90986b44f028cab5bf415d64f5c44e4d0666f1cea68e072e913d4a0f1660",
+    "b30fa56a476629d95108931862c0ca2fda90e06491e4b7fbbcd838f51a101d82",
+    "7c1673b1b9286b26c66d9ca49b97ca6df99eb53d421c0c66d80ce2547aa72b60",
+    "034503d0931d13cbdf8239585ecfac5abace4d7a037a5154d8ffa8f2792895d2"
+  ],
+  "elapsed_s": 4.997358322143555
+}

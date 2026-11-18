@@ -1,0 +1,63 @@
+{
+  "input_hash": "1193141d2d388a4744e1468a561e21c2f621375c60504c68705fbed2a13db6c9",
+  "sample_id": "ESC-CSV-01978",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "Los Angeles County Sheriff's Department",
+    "Hawaiian Gardens",
+    "Friday afternoon"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e529e66d152e3e77a14ea7b85257f9f1bd29cbb5bf40e48b5b5f96b9777d397",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e529e66d152e3e77a14ea7b85257f9f1bd29cbb5bf40e48b5b5f96b9777d397",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "efe19a2e879bba4351f1af29f87930e6d202cb0b13253709cd5e65098e1bf859",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1c7e02469c3b2c7f92dac47ee1f37a60eef12fd84d18d76eae11bc07e4d37d54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e3265fd7294d728d148a059ae697ccc65ac7af6e452bdfae3c994ddd7c90f787",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"Los Angeles County Sheriff's Department\",\"Hawaiian Gardens\",\"Friday afternoon\"],\"target_related\":[\"deputy\",\"father\",\"sons\",\"married\",\"Los Angeles County Sheriff's Department\",\"Hawaiian Gardens\",\"Friday afternoon\"],\"mediators\":[\"deputy\",\"Los Angeles County Sheriff's Department\",\"Hawaiian Gardens\",\"Friday afternoon\"]}"
+    },
+    "indirect": {
+      "call_id": "98c89ed2c77f7dfbc06f3e21e02f3c6629f2d4302a72ce49d47a82456fbec887",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting occurring before and causing a person's death follows common sense; the deputy died after the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "9e529e66d152e3e77a14ea7b85257f9f1bd29cbb5bf40e48b5b5f96b9777d397",
+    "9e529e66d152e3e77a14ea7b85257f9f1bd29cbb5bf40e48b5b5f96b9777d397",
+    "efe19a2e879bba4351f1af29f87930e6d202cb0b13253709cd5e65098e1bf859",
+    "1c7e02469c3b2c7f92dac47ee1f37a60eef12fd84d18d76eae11bc07e4d37d54",
+    "e3265fd7294d728d148a059ae697ccc65ac7af6e452bdfae3c994ddd7c90f787",
+    "98c89ed2c77f7dfbc06f3e21e02f3c6629f2d4302a72ce49d47a82456fbec887"
+  ],
+  "elapsed_s": 5.695338726043701
+}

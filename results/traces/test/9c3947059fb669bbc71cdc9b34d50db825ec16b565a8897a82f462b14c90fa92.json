@@ -1,0 +1,61 @@
+{
+  "input_hash": "9c3947059fb669bbc71cdc9b34d50db825ec16b565a8897a82f462b14c90fa92",
+  "sample_id": "ESC-CSV-04412",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "thieves",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8bca92ecff306f61cfb5aca2ad702cd11c6d09e41de08fb77cf31fa92443bf95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8bca92ecff306f61cfb5aca2ad702cd11c6d09e41de08fb77cf31fa92443bf95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2970ce8952b956061353c12224a9fc1e615f5482719a1a241938d51168efb9f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7348b2e475d6cd9dbf1aa1c98316f162709042446a1672e3fbe242ae94e2b529",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3d56c45b0555979610f18c52f9313e425cf56cf19324e8e8664d400868e7dd26",
+      "status": "ok",
+      "text": "{\"source_related\":[\"smash\",\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"store\"],\"target_related\":[\"thieves\",\"car\",\"store\"],\"mediators\":[\"thieves\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "d5e92db2ca316afe28327852437013e783fa1175906cd2276874bd48f0583016",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The thieves grabbed jewelry, then reversed the car; grabbing does not cause reversing. No explicit or implicit causal word links the two events.\"}"
+    }
+  },
+  "call_ids": [
+    "8bca92ecff306f61cfb5aca2ad702cd11c6d09e41de08fb77cf31fa92443bf95",
+    "8bca92ecff306f61cfb5aca2ad702cd11c6d09e41de08fb77cf31fa92443bf95",
+    "2970ce8952b956061353c12224a9fc1e615f5482719a1a241938d51168efb9f9",
+    "7348b2e475d6cd9dbf1aa1c98316f162709042446a1672e3fbe242ae94e2b529",
+    "3d56c45b0555979610f18c52f9313e425cf56cf19324e8e8664d400868e7dd26",
+    "d5e92db2ca316afe28327852437013e783fa1175906cd2276874bd48f0583016"
+  ],
+  "elapsed_s": 4.917915105819702
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "12081fcebe99ab88294324f3cfeb14dec2e374e3aff2df1bc21f90d55423218e",
+  "sample_id": "ESC-CSV-04320",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store",
+    "shop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3dc346b8259d7b170229c1d82125fbe3a44a3daf0cc371b3acb69c8b0f81080c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3dc346b8259d7b170229c1d82125fbe3a44a3daf0cc371b3acb69c8b0f81080c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5af87513ec7755170eff508cf2f249b25b82e97319c0d117b3d34e19037e70c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "693c0df2d0795e449156179f6e83e491f6257d9d99b864589537ad355ffbd71a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "48a5dbcc332251d93f77750554f2e617081c6bf1c212d3a6ecbc36eecd9e8fe9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\"],\"target_related\":[\"shop\",\"window\"],\"mediators\":[\"store\",\"shop\"]}"
+    },
+    "indirect": {
+      "call_id": "c9424e7567e6e1487621ccb5c3c32c176bdf4fe0d8f9b2717ea33d539dfb935f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving a car into the store directly causes the shop window to be smashed; the ramming precedes and produces the smashing.\"}"
+    }
+  },
+  "call_ids": [
+    "3dc346b8259d7b170229c1d82125fbe3a44a3daf0cc371b3acb69c8b0f81080c",
+    "3dc346b8259d7b170229c1d82125fbe3a44a3daf0cc371b3acb69c8b0f81080c",
+    "5af87513ec7755170eff508cf2f249b25b82e97319c0d117b3d34e19037e70c1",
+    "693c0df2d0795e449156179f6e83e491f6257d9d99b864589537ad355ffbd71a",
+    "48a5dbcc332251d93f77750554f2e617081c6bf1c212d3a6ecbc36eecd9e8fe9",
+    "c9424e7567e6e1487621ccb5c3c32c176bdf4fe0d8f9b2717ea33d539dfb935f"
+  ],
+  "elapsed_s": 4.912540912628174
+}

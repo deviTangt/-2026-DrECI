@@ -1,0 +1,62 @@
+{
+  "input_hash": "591408753550ffd858b5fb7f60d3a5aa6c822a63ae0771a37aa1a35c20533d12",
+  "sample_id": "ESC-CSV-09412",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "striking",
+    "furious"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "349a277006cc8717a1530a3380449e1194ddb6de990c27f3aaa216b4a1a8ee7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "349a277006cc8717a1530a3380449e1194ddb6de990c27f3aaa216b4a1a8ee7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8b7a1a15a0d1f948f22fedb0c8ac5acd32766abf36007868bf8e864db033f10d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b5f4ebf129fbe902e64f3161abb42e26efad057c95f2d55ee044b19a8d3fa0a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f74525f6a5a4b15dac946a5c6c6c78c75b2a8bbb760f3fe78b59e80a4d95af8d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"brutal\",\"budget\",\"national\",\"bankruptcy\",\"protesters\",\"striking\",\"furious\"],\"target_related\":[\"police\",\"fought\",\"protesters\",\"striking\",\"furious\"],\"mediators\":[\"protesters\",\"striking\",\"furious\"]}"
+    },
+    "indirect": {
+      "call_id": "3e9ec38e3bdf4adcf59600017de76de2d4342d55c30de027cf475472f5865a5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Budget cuts angered striking protesters, who then fought pitched battles with police: cuts -> protesters' fury -> battles.\"}"
+    }
+  },
+  "call_ids": [
+    "349a277006cc8717a1530a3380449e1194ddb6de990c27f3aaa216b4a1a8ee7e",
+    "349a277006cc8717a1530a3380449e1194ddb6de990c27f3aaa216b4a1a8ee7e",
+    "8b7a1a15a0d1f948f22fedb0c8ac5acd32766abf36007868bf8e864db033f10d",
+    "b5f4ebf129fbe902e64f3161abb42e26efad057c95f2d55ee044b19a8d3fa0a6",
+    "f74525f6a5a4b15dac946a5c6c6c78c75b2a8bbb760f3fe78b59e80a4d95af8d",
+    "3e9ec38e3bdf4adcf59600017de76de2d4342d55c30de027cf475472f5865a5e"
+  ],
+  "elapsed_s": 5.1688759326934814
+}

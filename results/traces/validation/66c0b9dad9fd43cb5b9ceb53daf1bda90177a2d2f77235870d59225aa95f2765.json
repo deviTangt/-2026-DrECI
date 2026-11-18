@@ -1,0 +1,77 @@
+{
+  "input_hash": "66c0b9dad9fd43cb5b9ceb53daf1bda90177a2d2f77235870d59225aa95f2765",
+  "sample_id": "ESC-CSV-01898",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d1879619870d6590fb4fe03200850ab26990d466f21b588cc9a13aedf430f4f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d1879619870d6590fb4fe03200850ab26990d466f21b588cc9a13aedf430f4f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c38b92037030f99f0cc07174bd53ea8b0fff324adb90c24b0293caf71cd2f19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d36672779efed707f4f711c413df1fe27db8ef15e5332ceda67b655062b1d35f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "648b8bc9cdcacebc5aea2a8a038f812c8aa2a5742b7c3a64bce44aec6397a78b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officer\",\"performing\",\"murder\"],\"target_related\":[\"police\",\"officer\",\"murder\",\"handgun\",\"Orozco\"],\"mediators\":[\"police\",\"officer\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "00a9e24dbdd5829387f376ec4a96a2f58fa767f5ebd52d95383e39a83d2dc11a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"\"killed while performing his duties\" — 'while' links the duties to the killing, indicating causation by explicit connective.\"}"
+    }
+  },
+  "call_ids": [
+    "d1879619870d6590fb4fe03200850ab26990d466f21b588cc9a13aedf430f4f0",
+    "d1879619870d6590fb4fe03200850ab26990d466f21b588cc9a13aedf430f4f0",
+    "2c38b92037030f99f0cc07174bd53ea8b0fff324adb90c24b0293caf71cd2f19",
+    "d36672779efed707f4f711c413df1fe27db8ef15e5332ceda67b655062b1d35f",
+    "648b8bc9cdcacebc5aea2a8a038f812c8aa2a5742b7c3a64bce44aec6397a78b",
+    "00a9e24dbdd5829387f376ec4a96a2f58fa767f5ebd52d95383e39a83d2dc11a"
+  ],
+  "elapsed_s": 6.092602014541626,
+  "parse_repair": {
+    "sample_id": "ESC-CSV-01898",
+    "input_hash": "66c0b9dad9fd43cb5b9ceb53daf1bda90177a2d2f77235870d59225aa95f2765",
+    "before": {
+      "e0": 1,
+      "e1": null,
+      "pipeline_status": "reasoner_error"
+    },
+    "after": {
+      "e0": 1,
+      "e1": 1,
+      "pipeline_status": "ok"
+    },
+    "reason": "explicit Answer field recoverable despite unescaped quotation marks in evidence"
+  }
+}

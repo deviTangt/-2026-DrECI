@@ -1,0 +1,63 @@
+{
+  "input_hash": "d9cf8b48e8bc5bfce10a3cf9edccac1e0450a0e560e1151c605e2f7fb2ad7589",
+  "sample_id": "ESC-CSV-02742",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "police",
+    "East Flatbush",
+    "New York"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5dc78564937ca73021dbe8fd5e07d35d27ec88d22b954f08063c9c8ac8450c25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5dc78564937ca73021dbe8fd5e07d35d27ec88d22b954f08063c9c8ac8450c25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1fc4489e4647bec8c8b55c12dfacb5ed24707eaac90bfe5504dc0777bd24f40c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6a0edb2064eb0155c9d608d011d32bab832c2724d513adae03e5789f3bba6251",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7abd2bd134918825f782166bcd8aeef23424dc07532f0589e83c177bba3537d0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"police\",\"Brooklyn\",\"East Flatbush\",\"New York\",\"Saturday\",\"16-year-old\"],\"target_related\":[\"Brooklyn\",\"police\",\"lockdown\",\"East Flatbush\",\"New York\"],\"mediators\":[\"Brooklyn\",\"police\",\"East Flatbush\",\"New York\"]}"
+    },
+    "indirect": {
+      "call_id": "b715f6c71d21d1bcffbb8676cd8a040e1660f5d86cfe1b59ac162bfe80ebe613",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: police shooting of Kimani Gray precedes and provokes the community protest/vigil; the shooting is the grievance that causes the protest.\"}"
+    }
+  },
+  "call_ids": [
+    "5dc78564937ca73021dbe8fd5e07d35d27ec88d22b954f08063c9c8ac8450c25",
+    "5dc78564937ca73021dbe8fd5e07d35d27ec88d22b954f08063c9c8ac8450c25",
+    "1fc4489e4647bec8c8b55c12dfacb5ed24707eaac90bfe5504dc0777bd24f40c",
+    "6a0edb2064eb0155c9d608d011d32bab832c2724d513adae03e5789f3bba6251",
+    "7abd2bd134918825f782166bcd8aeef23424dc07532f0589e83c177bba3537d0",
+    "b715f6c71d21d1bcffbb8676cd8a040e1660f5d86cfe1b59ac162bfe80ebe613"
+  ],
+  "elapsed_s": 4.04606032371521
+}

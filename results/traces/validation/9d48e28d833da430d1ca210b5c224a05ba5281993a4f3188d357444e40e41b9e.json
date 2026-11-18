@@ -1,0 +1,61 @@
+{
+  "input_hash": "9d48e28d833da430d1ca210b5c224a05ba5281993a4f3188d357444e40e41b9e",
+  "sample_id": "ESC-CSV-02158",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "LaCalamita",
+    "Kafoury"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2a57dd801e04606ae35b662c2c4332336c101eecc3ee87ca7dd4d3fce1cbbc3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2a57dd801e04606ae35b662c2c4332336c101eecc3ee87ca7dd4d3fce1cbbc3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d39a91cc1a4ce318bf1fba2bc87c963e617beccb664300d9dde07a58f26d3567",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "68c51aa16c578f8e7be62c9b38f7e1332430a3ea7d450f9d50f956dddadfeb4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0b6b5f394a57cc4d05eb4e651dcfb273a78a6783566b0bc808e012451725fc3f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"death\",\"Kafoury\"],\"target_related\":[\"LaCalamita\",\"first-degree\"],\"mediators\":[\"LaCalamita\",\"Kafoury\"]}"
+    },
+    "indirect": {
+      "call_id": "ddeb51be0f6c83e211bd84997fdb9dc5f01737cbc32a2ac978eae1101201f11a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'charged with ... murder' uses 'with' as an explicit causal/linking word connecting the murder to the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "2a57dd801e04606ae35b662c2c4332336c101eecc3ee87ca7dd4d3fce1cbbc3d",
+    "2a57dd801e04606ae35b662c2c4332336c101eecc3ee87ca7dd4d3fce1cbbc3d",
+    "d39a91cc1a4ce318bf1fba2bc87c963e617beccb664300d9dde07a58f26d3567",
+    "68c51aa16c578f8e7be62c9b38f7e1332430a3ea7d450f9d50f956dddadfeb4a",
+    "0b6b5f394a57cc4d05eb4e651dcfb273a78a6783566b0bc808e012451725fc3f",
+    "ddeb51be0f6c83e211bd84997fdb9dc5f01737cbc32a2ac978eae1101201f11a"
+  ],
+  "elapsed_s": 8.568111658096313
+}

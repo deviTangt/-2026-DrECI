@@ -1,0 +1,77 @@
+{
+  "input_hash": "43143cb56ea09ad6ced07d5d0bdcdb99aa413d9d1ceb7edb3fcf45325db3068d",
+  "sample_id": "ESC-CSV-02120",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "convicted",
+    "charged",
+    "April 2007",
+    "Troy",
+    "accounting firm",
+    "receptionist",
+    "dead",
+    "managing partners",
+    "wounded",
+    "Anthony LaCalamita III",
+    "guilty",
+    "first-degree murder",
+    "assault with intent to murder",
+    "shotgun slaying",
+    "63-year-old Madeline Kafoury",
+    "assault with intent to kill",
+    "Paul Riva",
+    "Alan Steinberg"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bb5d1ecddbce6c37d511bdda68dd4f838473bb0e4ddf8f405bf7a3f79121194c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bb5d1ecddbce6c37d511bdda68dd4f838473bb0e4ddf8f405bf7a3f79121194c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "62e86683510cdb4cc753aab4804acfea73168ddcb1fab773b9e7ca8e48b4f509",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "692bc16da2e492550b235580d7766bfdb7d3dbdf2d7295af754dfe66da242907",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b712cf7ead0a0c73851c94ccf07b5a3fe000806e4f2007668819492b08d32947",
+      "status": "ok",
+      "text": "{\"source_related\":[\"convicted\",\"charged\",\"April 2007\",\"Troy\",\"accounting firm\",\"receptionist\",\"dead\",\"managing partners\",\"wounded\",\"Anthony LaCalamita III\",\"guilty\",\"first-degree murder\",\"assault with intent to murder\",\"shotgun slaying\",\"63-year-old Madeline Kafoury\",\"assault with intent to kill\",\"Paul Riva\",\"Alan Steinberg\"],\"target_related\":[\"convicted\",\"charged\",\"April 2007\",\"Troy\",\"accounting firm\",\"receptionist\",\"dead\",\"managing partners\",\"wounded\",\"Anthony LaCalamita III\",\"guilty\",\"first-degree murder\",\"assault with intent to murder\",\"shotgun slaying\",\"63-year-old Madeline Kafoury\",\"assault with intent to kill\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"convicted\",\"charged\",\"April 2007\",\"Troy\",\"accounting firm\",\"receptionist\",\"dead\",\"managing partners\",\"wounded\",\"Anthony LaCalamita III\",\"guilty\",\"first-degree murder\",\"assault with intent to murder\",\"shotgun slaying\",\"63-year-old Madeline Kafoury\",\"assault with intent to kill\",\"Paul Riva\",\"Alan Steinberg\"]}"
+    },
+    "indirect": {
+      "call_id": "611202d7563b5f0d93b2990379982bbab2ed58e11a55760ee22e8df3b1639f40",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting left the receptionist dead; the killing during the shooting constitutes the murder, so shooting causes murder by causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "bb5d1ecddbce6c37d511bdda68dd4f838473bb0e4ddf8f405bf7a3f79121194c",
+    "bb5d1ecddbce6c37d511bdda68dd4f838473bb0e4ddf8f405bf7a3f79121194c",
+    "62e86683510cdb4cc753aab4804acfea73168ddcb1fab773b9e7ca8e48b4f509",
+    "692bc16da2e492550b235580d7766bfdb7d3dbdf2d7295af754dfe66da242907",
+    "b712cf7ead0a0c73851c94ccf07b5a3fe000806e4f2007668819492b08d32947",
+    "611202d7563b5f0d93b2990379982bbab2ed58e11a55760ee22e8df3b1639f40"
+  ],
+  "elapsed_s": 6.061891078948975
+}

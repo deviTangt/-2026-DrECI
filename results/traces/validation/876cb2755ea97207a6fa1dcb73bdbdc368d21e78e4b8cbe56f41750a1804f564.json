@@ -1,0 +1,67 @@
+{
+  "input_hash": "876cb2755ea97207a6fa1dcb73bdbdc368d21e78e4b8cbe56f41750a1804f564",
+  "sample_id": "ESC-CSV-02010",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Anthony LaCalamita",
+    "suspect",
+    "shot",
+    "three people",
+    "shotgun",
+    "Monday",
+    "fled",
+    "high-speed chase"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ef343dc63f5d98f48237db406620f38f5a92b34e72e599bc31f8c7ddc79e4a1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ef343dc63f5d98f48237db406620f38f5a92b34e72e599bc31f8c7ddc79e4a1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1dd00721cd34d33dcaf7b7d4b4642952df17fa5633563a71ac7e229930b0a362",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d3189cc30f937ce75a572b5a97b74a358a97f35b781a403b85e59b6366391a04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6625887ad62605bbafafd3bd56aa5af9b3be879535416a46c72d7ed932a7746e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita\",\"suspect\",\"entered\",\"second-floor\",\"office\",\"accounting firm\",\"Gordon Advisors\",\"10 a.m.\",\"police\",\"shot\",\"three people\",\"shotgun\",\"Monday\",\"fled\",\"high-speed chase\"],\"target_related\":[\"shot\",\"three people\",\"one\",\"Anthony LaCalamita\",\"suspect\",\"shotgun\",\"Monday\",\"fled\",\"high-speed chase\"],\"mediators\":[\"Anthony LaCalamita\",\"suspect\",\"shot\",\"three people\",\"shotgun\",\"Monday\",\"fled\",\"high-speed chase\"]}"
+    },
+    "indirect": {
+      "call_id": "63a4c0c92128c9a4b52a6264699f36699a00c09efb800a3080fe805a67bbe3c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Opening fire (shooting three people) directly caused one death; 'shot three people, killing one' shows the shooting event causing the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "ef343dc63f5d98f48237db406620f38f5a92b34e72e599bc31f8c7ddc79e4a1f",
+    "ef343dc63f5d98f48237db406620f38f5a92b34e72e599bc31f8c7ddc79e4a1f",
+    "1dd00721cd34d33dcaf7b7d4b4642952df17fa5633563a71ac7e229930b0a362",
+    "d3189cc30f937ce75a572b5a97b74a358a97f35b781a403b85e59b6366391a04",
+    "6625887ad62605bbafafd3bd56aa5af9b3be879535416a46c72d7ed932a7746e",
+    "63a4c0c92128c9a4b52a6264699f36699a00c09efb800a3080fe805a67bbe3c9"
+  ],
+  "elapsed_s": 6.304555416107178
+}

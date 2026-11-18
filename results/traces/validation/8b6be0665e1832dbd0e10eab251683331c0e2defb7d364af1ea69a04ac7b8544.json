@@ -1,0 +1,63 @@
+{
+  "input_hash": "8b6be0665e1832dbd0e10eab251683331c0e2defb7d364af1ea69a04ac7b8544",
+  "sample_id": "ESC-CSV-02596",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "teenager",
+    "shooting",
+    "fatal"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cc491095a40ffe13c4b5d342ca59a9ae09c138006d844919580fdee5afe26a92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cc491095a40ffe13c4b5d342ca59a9ae09c138006d844919580fdee5afe26a92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "558ece7d55263f63c4b83f4532c03749a98ffd84d3c86926ff5840ef1140ef4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a9180ce3359ac87db1db296549d7811cf36dea081596d2879c501d04e027957b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1b352cc20a98010819e8801cfb426ae6df00c07a6a2c3096352b53f80ebadd5c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"teenager\",\"shooting\",\"fatal\",\"Saturday\",\"night\"],\"target_related\":[\"Protesters\",\"shooting\",\"fatal\",\"teenager\",\"police\"],\"mediators\":[\"police\",\"teenager\",\"shooting\",\"fatal\"]}"
+    },
+    "indirect": {
+      "call_id": "8120a9efe5c02d35fcddd62f3d320323d403db57a4b38f2650dc1f566ccb9ccf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'enraged over the fatal shooting' — 'over' links the killing/shooting to the enraged protesters, and killing before enragement fits common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "cc491095a40ffe13c4b5d342ca59a9ae09c138006d844919580fdee5afe26a92",
+    "cc491095a40ffe13c4b5d342ca59a9ae09c138006d844919580fdee5afe26a92",
+    "558ece7d55263f63c4b83f4532c03749a98ffd84d3c86926ff5840ef1140ef4f",
+    "a9180ce3359ac87db1db296549d7811cf36dea081596d2879c501d04e027957b",
+    "1b352cc20a98010819e8801cfb426ae6df00c07a6a2c3096352b53f80ebadd5c",
+    "8120a9efe5c02d35fcddd62f3d320323d403db57a4b38f2650dc1f566ccb9ccf"
+  ],
+  "elapsed_s": 11.478566884994507
+}

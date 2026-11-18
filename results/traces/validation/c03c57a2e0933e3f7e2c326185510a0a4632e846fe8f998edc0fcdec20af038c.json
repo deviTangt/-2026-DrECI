@@ -1,0 +1,74 @@
+{
+  "input_hash": "c03c57a2e0933e3f7e2c326185510a0a4632e846fe8f998edc0fcdec20af038c",
+  "sample_id": "ESC-CSV-02028",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "fired",
+    "job",
+    "accounting firm",
+    "suburban Detroit",
+    "former office",
+    "shotgun",
+    "Monday",
+    "shot",
+    "people",
+    "killing",
+    "fleeing",
+    "police officers",
+    "high-speed chase",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d7997a322ebbab6ed869ff75ea05570ddfae2cec3417e6b7b6acc80b8caa29d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d7997a322ebbab6ed869ff75ea05570ddfae2cec3417e6b7b6acc80b8caa29d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "276c48a6ff582303dadc4d995f23554fdbbbdcdec89fe0fd024607e9e1fb9230",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3140c5fb8ba72131c4524fff73ff4196f40961de22da3bc77ebda37f42adc496",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "84c08da2590d2022701401af60055a17dd858f9c3535fb1ab00ca6446441c688",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"shot\",\"people\",\"killing\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"],\"target_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"shot\",\"people\",\"killing\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"],\"mediators\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"shot\",\"people\",\"killing\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "00f14c7ba0413b93084ed0b1f49c51d3702a33c571067643d9acd7baf5df29ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Walking into the office and shooting people, then fleeing, naturally precedes and causes the police chase, i.e., leading officers.\"}"
+    }
+  },
+  "call_ids": [
+    "d7997a322ebbab6ed869ff75ea05570ddfae2cec3417e6b7b6acc80b8caa29d2",
+    "d7997a322ebbab6ed869ff75ea05570ddfae2cec3417e6b7b6acc80b8caa29d2",
+    "276c48a6ff582303dadc4d995f23554fdbbbdcdec89fe0fd024607e9e1fb9230",
+    "3140c5fb8ba72131c4524fff73ff4196f40961de22da3bc77ebda37f42adc496",
+    "84c08da2590d2022701401af60055a17dd858f9c3535fb1ab00ca6446441c688",
+    "00f14c7ba0413b93084ed0b1f49c51d3702a33c571067643d9acd7baf5df29ed"
+  ],
+  "elapsed_s": 5.369276285171509
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "049d4c3f34b411aa9d11642774e5144b72ded3a98b3aadc535c5255f479fc5ff",
+  "sample_id": "ESC-CSV-02346",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "victim",
+    "Monday",
+    "morning"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0194d9ad69210f8c64f3542e28acfdba389acb8f7951b18f36bcea848c080959",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0194d9ad69210f8c64f3542e28acfdba389acb8f7951b18f36bcea848c080959",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9613c95371d33d0677c86a987cbfbe9193d7a39d4a05b71348b8d9b89182b78b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ca2a09757623dafed650468fb740cd569708173dcaea95d193276b6ea54e88d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f9fb0f67ba02dd4ef685fab4472c28d83331380be6bc75fdbe8b2c98c4cade7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"victim\",\"Monday\",\"morning\"],\"target_related\":[\"victim\",\"Monday\",\"morning\",\"attack\"],\"mediators\":[\"victim\",\"Monday\",\"morning\"]}"
+    },
+    "indirect": {
+      "call_id": "659b2406708015b5a14a5447078199a789afdb41aa7b5b1c30412fe9f148c304",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died in the Monday morning attack' — 'in' links the attack as cause; common sense: an attack causing a victim's death.\"}"
+    }
+  },
+  "call_ids": [
+    "0194d9ad69210f8c64f3542e28acfdba389acb8f7951b18f36bcea848c080959",
+    "0194d9ad69210f8c64f3542e28acfdba389acb8f7951b18f36bcea848c080959",
+    "9613c95371d33d0677c86a987cbfbe9193d7a39d4a05b71348b8d9b89182b78b",
+    "ca2a09757623dafed650468fb740cd569708173dcaea95d193276b6ea54e88d9",
+    "6f9fb0f67ba02dd4ef685fab4472c28d83331380be6bc75fdbe8b2c98c4cade7",
+    "659b2406708015b5a14a5447078199a789afdb41aa7b5b1c30412fe9f148c304"
+  ],
+  "elapsed_s": 7.690548658370972
+}

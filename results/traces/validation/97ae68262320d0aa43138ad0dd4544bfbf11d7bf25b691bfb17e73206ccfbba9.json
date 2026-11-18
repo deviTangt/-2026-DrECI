@@ -1,0 +1,66 @@
+{
+  "input_hash": "97ae68262320d0aa43138ad0dd4544bfbf11d7bf25b691bfb17e73206ccfbba9",
+  "sample_id": "ESC-CSV-02993",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "teenagers",
+    "riot",
+    "streets",
+    "vigil",
+    "NYPD",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1c631459d00df43a1c8c891d0c3b5360fa136ef9e5e1ee01728ddd8774da7e35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1c631459d00df43a1c8c891d0c3b5360fa136ef9e5e1ee01728ddd8774da7e35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5a71b9287168afe659cfe4ea7431898f5cbd7d23f07baaefb7d58d35ac420a56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e458dc4a73083e0b4059417c4d5ed1be13abba2733e047112cdba913657cdade",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9085ffe20ca6892517139b8e6f8ce23435a485496553b364d0b3d9ffddb12b37",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"plainclothes\",\"cops\",\"16-year-old\",\"vigil\",\"teenagers\",\"riot\",\"streets\",\"Brooklyn\"],\"target_related\":[\"Brooklyn\",\"teenagers\",\"riot\",\"streets\",\"vigil\",\"NYPD\",\"cops\"],\"mediators\":[\"Brooklyn\",\"teenagers\",\"riot\",\"streets\",\"vigil\",\"NYPD\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "fa63edf1ac213cfd6daa7bc631308751bddf4fb82943a12f34daf31f3a81291c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting death precedes and plausibly provokes the chaotic riot following the vigil, fitting common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "1c631459d00df43a1c8c891d0c3b5360fa136ef9e5e1ee01728ddd8774da7e35",
+    "1c631459d00df43a1c8c891d0c3b5360fa136ef9e5e1ee01728ddd8774da7e35",
+    "5a71b9287168afe659cfe4ea7431898f5cbd7d23f07baaefb7d58d35ac420a56",
+    "e458dc4a73083e0b4059417c4d5ed1be13abba2733e047112cdba913657cdade",
+    "9085ffe20ca6892517139b8e6f8ce23435a485496553b364d0b3d9ffddb12b37",
+    "fa63edf1ac213cfd6daa7bc631308751bddf4fb82943a12f34daf31f3a81291c"
+  ],
+  "elapsed_s": 4.6348090171813965
+}

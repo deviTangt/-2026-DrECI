@@ -1,0 +1,62 @@
+{
+  "input_hash": "53579cd9e34399e97878c9e58f9d9fac132898045e50599029d7a8461b01475e",
+  "sample_id": "ESC-CSV-02746",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Brooklyn",
+    "New York"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "70634b9d5fa84fa02b6bc4322f5ca6abe48592607c4d68a08a58531982194c93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "70634b9d5fa84fa02b6bc4322f5ca6abe48592607c4d68a08a58531982194c93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "72ca450fd7e9ce8c4ec78431b460c8d13cc304093fac36ea33799d6fb4e11548",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5d5518e4f2a388453e06760885938b52d479602e0f31c0e05cb4d1ea49bb14d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c53f81937c2239a04c2d2e20f3b18714af4c85d70dca91ab8acff7666b860a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Kimani Gray\",\"16-year-old\",\"Saturday\",\"Brooklyn\",\"New York\"],\"target_related\":[\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"100 people\",\"police\"],\"mediators\":[\"police\",\"Brooklyn\",\"New York\"]}"
+    },
+    "indirect": {
+      "call_id": "b64fdbe63f891083c942c5c65023bbf7b21d77c10d8648bfeaf7c8b2b8a89c9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot by police precedes and motivates the candlelit vigil held in response, so the shooting causes the vigil by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "70634b9d5fa84fa02b6bc4322f5ca6abe48592607c4d68a08a58531982194c93",
+    "70634b9d5fa84fa02b6bc4322f5ca6abe48592607c4d68a08a58531982194c93",
+    "72ca450fd7e9ce8c4ec78431b460c8d13cc304093fac36ea33799d6fb4e11548",
+    "5d5518e4f2a388453e06760885938b52d479602e0f31c0e05cb4d1ea49bb14d7",
+    "7c53f81937c2239a04c2d2e20f3b18714af4c85d70dca91ab8acff7666b860a2",
+    "b64fdbe63f891083c942c5c65023bbf7b21d77c10d8648bfeaf7c8b2b8a89c9f"
+  ],
+  "elapsed_s": 4.398024559020996
+}

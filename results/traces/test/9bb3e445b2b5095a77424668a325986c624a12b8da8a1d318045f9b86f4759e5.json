@@ -1,0 +1,60 @@
+{
+  "input_hash": "9bb3e445b2b5095a77424668a325986c624a12b8da8a1d318045f9b86f4759e5",
+  "sample_id": "ESC-CSV-04540",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "jewellery store"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c45015a2669b1e18f8243366e0cabc4cfba4b466a6c2d893d6aaadbc995cc86f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c45015a2669b1e18f8243366e0cabc4cfba4b466a6c2d893d6aaadbc995cc86f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "75a081b68fc5d5acdd7364345955f2e54baffa14c8a38d1f83dd237c68a3b340",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "17bfeaa9cff93ef04602f7af47fc1b1abeab42f076e382ddf0852fa47778cc60",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8df931f90ea5c82bdcc9377253043129c41680cae2003ac363f67a385d4950df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"jewellery store\",\"shop window\",\"€2 million\",\"booty\",\"Paris\"],\"target_related\":[\"Place Vendôme\",\"France\",\"robberies\",\"Cannes\",\"jewellery store\"],\"mediators\":[\"jewellery store\"]}"
+    },
+    "indirect": {
+      "call_id": "567ea5dcc02a3d300b823b20b86394ab8e04c35c35312c78da697f0df1c6cee2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Making off' is the act of escaping after the robbery; it does not cause the heist. No explicit or implicit causal word links them, and no Z chain/fork/collider applies.\"}"
+    }
+  },
+  "call_ids": [
+    "c45015a2669b1e18f8243366e0cabc4cfba4b466a6c2d893d6aaadbc995cc86f",
+    "c45015a2669b1e18f8243366e0cabc4cfba4b466a6c2d893d6aaadbc995cc86f",
+    "75a081b68fc5d5acdd7364345955f2e54baffa14c8a38d1f83dd237c68a3b340",
+    "17bfeaa9cff93ef04602f7af47fc1b1abeab42f076e382ddf0852fa47778cc60",
+    "8df931f90ea5c82bdcc9377253043129c41680cae2003ac363f67a385d4950df",
+    "567ea5dcc02a3d300b823b20b86394ab8e04c35c35312c78da697f0df1c6cee2"
+  ],
+  "elapsed_s": 4.522900342941284
+}

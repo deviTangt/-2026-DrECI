@@ -1,0 +1,62 @@
+{
+  "input_hash": "499de558767506155cbc9b20a4ae66bd6e519557a70f84bfc2b60ce6bcde66c9",
+  "sample_id": "ESC-CSV-01810",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "Ortiz",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "51517d2f2998be33e60e1d2375f785f4e855b8843ee4747246837acc634c776f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "51517d2f2998be33e60e1d2375f785f4e855b8843ee4747246837acc634c776f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bc8e4ac6c64b6413d7fae806e3d56a59ab09c2b0b7147790684bcb85d972140e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d78e6221ece01a751c3fb02f9d366d434b4d394d5688305fe6e0cf1953220dee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e3a4cc6ffe2c1b4e8f4bcb0612f0af50591c4f9df94c0831df3c3e9f58ce6299",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"jury\",\"police officer\",\"firearm\",\"felon\",\"shooting\",\"Ortiz\"],\"target_related\":[\"Ortiz\",\"shooting\",\"Orozco\",\"jail inmates\"],\"mediators\":[\"Orozco\",\"Ortiz\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "4ee5c76d6fc13ac51345a054c6483585f946b3f80ade50c8dfa8e714387f2493",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Murder (killing of Officer Ortiz) necessarily causes the victim's death; murder precedes and produces death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "51517d2f2998be33e60e1d2375f785f4e855b8843ee4747246837acc634c776f",
+    "51517d2f2998be33e60e1d2375f785f4e855b8843ee4747246837acc634c776f",
+    "bc8e4ac6c64b6413d7fae806e3d56a59ab09c2b0b7147790684bcb85d972140e",
+    "d78e6221ece01a751c3fb02f9d366d434b4d394d5688305fe6e0cf1953220dee",
+    "e3a4cc6ffe2c1b4e8f4bcb0612f0af50591c4f9df94c0831df3c3e9f58ce6299",
+    "4ee5c76d6fc13ac51345a054c6483585f946b3f80ade50c8dfa8e714387f2493"
+  ],
+  "elapsed_s": 4.918743133544922
+}

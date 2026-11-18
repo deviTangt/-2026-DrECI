@@ -1,0 +1,68 @@
+{
+  "input_hash": "26f44cdd712fd9b85251101e4bd3d3ebbc6b5a2f4a86fe87900a051044b4ae9f",
+  "sample_id": "ESC-CSV-04163",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "climber",
+    "New Zealand",
+    "Robert Buckley",
+    "second",
+    "Aoraki",
+    "Mount Cook",
+    "national park",
+    "weekend"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dcca207a56152b0d197fb2e57f2b5b5cbf3aaa6d8fed85aa426aba0a1d7311cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dcca207a56152b0d197fb2e57f2b5b5cbf3aaa6d8fed85aa426aba0a1d7311cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dbd63002e7cf78cbae9671b398ef560c5ce771b402f3e1f48ad08bc687da721e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "688594c0d38c57056a0becca5668b532d46dd90bd9f4186487ec79745174360b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e29acf83045217821fa0f566695a42fa7b16f40adfc45b642ad427d2cddf4c64",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"climber\",\"New Zealand\",\"Robert Buckley\",\"second\",\"Aoraki\",\"Mount Cook\",\"national park\",\"weekend\"],\"target_related\":[\"British\",\"climber\",\"New Zealand\",\"fall\",\"Robert Buckley\",\"second\",\"Aoraki\",\"Mount Cook\",\"national park\",\"weekend\"],\"mediators\":[\"British\",\"climber\",\"New Zealand\",\"Robert Buckley\",\"second\",\"Aoraki\",\"Mount Cook\",\"national park\",\"weekend\"]}"
+    },
+    "indirect": {
+      "call_id": "5e8c08f9de4f96aa0b0353e622122e793539cf157231368d7573df33daf3b0be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'dies in New Zealand fall' uses 'in' as explicit causation linking fall to die; common sense: a fatal fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "dcca207a56152b0d197fb2e57f2b5b5cbf3aaa6d8fed85aa426aba0a1d7311cd",
+    "dcca207a56152b0d197fb2e57f2b5b5cbf3aaa6d8fed85aa426aba0a1d7311cd",
+    "dbd63002e7cf78cbae9671b398ef560c5ce771b402f3e1f48ad08bc687da721e",
+    "688594c0d38c57056a0becca5668b532d46dd90bd9f4186487ec79745174360b",
+    "e29acf83045217821fa0f566695a42fa7b16f40adfc45b642ad427d2cddf4c64",
+    "5e8c08f9de4f96aa0b0353e622122e793539cf157231368d7573df33daf3b0be"
+  ],
+  "elapsed_s": 4.799182176589966
+}

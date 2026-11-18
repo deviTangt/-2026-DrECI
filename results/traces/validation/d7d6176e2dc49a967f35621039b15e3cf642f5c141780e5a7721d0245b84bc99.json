@@ -1,0 +1,61 @@
+{
+  "input_hash": "d7d6176e2dc49a967f35621039b15e3cf642f5c141780e5a7721d0245b84bc99",
+  "sample_id": "ESC-CSV-07095",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Vincent Jackson",
+    "investigation"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "22de3480887c6c68595a0653672ba70e9af1c0b1b655e99cf3215cdd7d9654a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "22de3480887c6c68595a0653672ba70e9af1c0b1b655e99cf3215cdd7d9654a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "61c52b5c8a45bacb22abbb446b4105c0c3049f702c1b50154270f4c84292358c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "813f9137b8633cc081aecf39fec24fec2e145805d7faf2588f0744bd707e90af",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "53138632e87d67a5285e15b7420b6b1fc4e94e58ac857de1b1febf6b111dfef5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"arrest\",\"probation\",\"investigation\"],\"target_related\":[\"Vincent Jackson\",\"investigation\",\"DUI\"],\"mediators\":[\"Vincent Jackson\",\"investigation\"]}"
+    },
+    "indirect": {
+      "call_id": "9f2a9c3eca44c2c889d7d183a152b7b4c046687bb6efab419c9a76d56573bb63",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A prior DUI arrest and probation logically precede and can cause being pulled over for DUI investigation, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "22de3480887c6c68595a0653672ba70e9af1c0b1b655e99cf3215cdd7d9654a2",
+    "22de3480887c6c68595a0653672ba70e9af1c0b1b655e99cf3215cdd7d9654a2",
+    "61c52b5c8a45bacb22abbb446b4105c0c3049f702c1b50154270f4c84292358c",
+    "813f9137b8633cc081aecf39fec24fec2e145805d7faf2588f0744bd707e90af",
+    "53138632e87d67a5285e15b7420b6b1fc4e94e58ac857de1b1febf6b111dfef5",
+    "9f2a9c3eca44c2c889d7d183a152b7b4c046687bb6efab419c9a76d56573bb63"
+  ],
+  "elapsed_s": 4.408086776733398
+}

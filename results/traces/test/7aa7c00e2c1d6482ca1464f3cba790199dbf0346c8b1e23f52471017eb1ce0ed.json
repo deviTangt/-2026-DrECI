@@ -1,0 +1,60 @@
+{
+  "input_hash": "7aa7c00e2c1d6482ca1464f3cba790199dbf0346c8b1e23f52471017eb1ce0ed",
+  "sample_id": "ESC-CSV-04431",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0e6d6789906ddb61b85ed31b628f870982aaf443eba9bd4728abea4cc4ec768d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0e6d6789906ddb61b85ed31b628f870982aaf443eba9bd4728abea4cc4ec768d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "91e7a5f0d306e2e8853d3dfc4bd979fd61c4a51ce0630eb3623f6572d6ed8df1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f34bad64c92519d5ec0e4235ef5f94eb9ef4fedc852c9be3a1842208d3b8a6fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "adb87efe8def822279a11442bafb05ca5b40d5b8058ca4253ca45275f12997c0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery store\"],\"target_related\":[\"men\",\"vehicle\"],\"mediators\":[\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "5da4df05454664804398268062b9d3c906c609f83af97b2b5e2060f82753d135",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the car into the store occurs before and enables the men to flee, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0e6d6789906ddb61b85ed31b628f870982aaf443eba9bd4728abea4cc4ec768d",
+    "0e6d6789906ddb61b85ed31b628f870982aaf443eba9bd4728abea4cc4ec768d",
+    "91e7a5f0d306e2e8853d3dfc4bd979fd61c4a51ce0630eb3623f6572d6ed8df1",
+    "f34bad64c92519d5ec0e4235ef5f94eb9ef4fedc852c9be3a1842208d3b8a6fb",
+    "adb87efe8def822279a11442bafb05ca5b40d5b8058ca4253ca45275f12997c0",
+    "5da4df05454664804398268062b9d3c906c609f83af97b2b5e2060f82753d135"
+  ],
+  "elapsed_s": 5.035425662994385
+}

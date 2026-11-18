@@ -1,0 +1,62 @@
+{
+  "input_hash": "4fad45e16375e5625cbda804beac01359e1dd9ff6ce2cec9ead9b1969c2a5e32",
+  "sample_id": "ESC-CSV-01953",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "Orozco",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dabf24c69b4838839eb805d2492aeb85345755cdc558118b648ccabb00749b27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dabf24c69b4838839eb805d2492aeb85345755cdc558118b648ccabb00749b27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e4a622cce2c069c5d3453312fee2ab18613127c30cc48e708d12cf5b9c9657cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "56a7f14bbc9b5fc88fe2db8e4daefb84fac4e8b9255d1e5e04d8e890b100a216",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fed05e5a2171afbca902f13c322d81733ca583cd47d6092785a4910b2b6b311e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"He\",\"deputy\",\"ran\",\"Orozco\",\"suspect\"],\"target_related\":[\"Sheriff Deputy Ortiz\",\"LASD's Gang Enforcement Unit\",\"apartment\",\"Hawaiian Gardens\",\"Orozco\",\"suspect\"],\"mediators\":[\"deputy\",\"Orozco\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "3549e770df75535a024558cd13394b531259f06dda98611522024e1e1179c676",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Firing at the deputy preceded and caused the deputy being killed; common sense: shooting leads to death.\"}"
+    }
+  },
+  "call_ids": [
+    "dabf24c69b4838839eb805d2492aeb85345755cdc558118b648ccabb00749b27",
+    "dabf24c69b4838839eb805d2492aeb85345755cdc558118b648ccabb00749b27",
+    "e4a622cce2c069c5d3453312fee2ab18613127c30cc48e708d12cf5b9c9657cb",
+    "56a7f14bbc9b5fc88fe2db8e4daefb84fac4e8b9255d1e5e04d8e890b100a216",
+    "fed05e5a2171afbca902f13c322d81733ca583cd47d6092785a4910b2b6b311e",
+    "3549e770df75535a024558cd13394b531259f06dda98611522024e1e1179c676"
+  ],
+  "elapsed_s": 5.626502990722656
+}

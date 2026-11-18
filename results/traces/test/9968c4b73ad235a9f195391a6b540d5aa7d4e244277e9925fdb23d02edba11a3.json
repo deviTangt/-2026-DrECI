@@ -1,0 +1,62 @@
+{
+  "input_hash": "9968c4b73ad235a9f195391a6b540d5aa7d4e244277e9925fdb23d02edba11a3",
+  "sample_id": "ESC-CSV-04584",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store",
+    "jewelry",
+    "luxury watches"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1bc6961f5b52ba4e5eedbe6b62e7901fd19e28a412088c1fd0379ec6d16dddd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1bc6961f5b52ba4e5eedbe6b62e7901fd19e28a412088c1fd0379ec6d16dddd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7855c3381e5a5bb63743cc53580565e2d797929c097939e57a63be4ce6fb2ed7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bd702eb649783a8a8eac4f4540d042f0eafa8ee818e14b70f4586758c6069cc2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d13fd51ddac89e3669e573e4bd67626e2eb8c7c45769ba74275bb151c20e1816",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"store\",\"jewelry\",\"luxury watches\",\"vehicle\",\"car\"],\"target_related\":[\"store\",\"jewelry\",\"luxury watches\",\"Paris\"],\"mediators\":[\"store\",\"jewelry\",\"luxury watches\"]}"
+    },
+    "indirect": {
+      "call_id": "b27946f97b2a9c3dd86354d965e286b93a60a12c9c93ecdf2882592ff46f6507",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Grabbing jewelry and watches is the act that constitutes the reported $2.6 million jewelry heist; the theft occurs through the grabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "1bc6961f5b52ba4e5eedbe6b62e7901fd19e28a412088c1fd0379ec6d16dddd4",
+    "1bc6961f5b52ba4e5eedbe6b62e7901fd19e28a412088c1fd0379ec6d16dddd4",
+    "7855c3381e5a5bb63743cc53580565e2d797929c097939e57a63be4ce6fb2ed7",
+    "bd702eb649783a8a8eac4f4540d042f0eafa8ee818e14b70f4586758c6069cc2",
+    "d13fd51ddac89e3669e573e4bd67626e2eb8c7c45769ba74275bb151c20e1816",
+    "b27946f97b2a9c3dd86354d965e286b93a60a12c9c93ecdf2882592ff46f6507"
+  ],
+  "elapsed_s": 3.5122292041778564
+}

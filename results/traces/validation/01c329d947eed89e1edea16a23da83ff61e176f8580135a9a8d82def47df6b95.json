@@ -1,0 +1,64 @@
+{
+  "input_hash": "01c329d947eed89e1edea16a23da83ff61e176f8580135a9a8d82def47df6b95",
+  "sample_id": "ESC-CSV-07230",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers",
+    "defensive tackle",
+    "DUI",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6acb27ab3e8ac6b0a5171a3d0dba01c13ed009de81c0e7f051bb74b7eb45f205",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6acb27ab3e8ac6b0a5171a3d0dba01c13ed009de81c0e7f051bb74b7eb45f205",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3016b6e00c0a4d7ad35485b5d3fc7974a912f85671b6d88edbc45476fcb09ddc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "092eec11683ee20c7f0432d9499fdfe1be933add17f3fc6050c737eab26cbef7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2b55d227a4121fe45b6c3d13893ff586400c2ebe9bacf72f808095927b2f8a85",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"DUI\",\"suspicion\",\"arrest\"],\"target_related\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"DUI\",\"suspicion\",\"drunken driving\",\"team\"],\"mediators\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"DUI\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "f34521563c1f0e2e7a29afde3872acd25936c58f6beb1ae9eddcae12fd979d2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunken driving' — 'on suspicion of' links the DUI to the arrest; common sense: drunken driving leads to arrest.\",\"analysis\":\"Rule 1: 'arrested on suspicion of drunken driving' uses 'on suspicion of' as an explicit causal connector between drunken driving and arrest. Rule 3: common sense holds that drunken driving precedes and causes arrest. Rules 2,4,5,6,7,8 not satisfied.\"}"
+    }
+  },
+  "call_ids": [
+    "6acb27ab3e8ac6b0a5171a3d0dba01c13ed009de81c0e7f051bb74b7eb45f205",
+    "6acb27ab3e8ac6b0a5171a3d0dba01c13ed009de81c0e7f051bb74b7eb45f205",
+    "3016b6e00c0a4d7ad35485b5d3fc7974a912f85671b6d88edbc45476fcb09ddc",
+    "092eec11683ee20c7f0432d9499fdfe1be933add17f3fc6050c737eab26cbef7",
+    "2b55d227a4121fe45b6c3d13893ff586400c2ebe9bacf72f808095927b2f8a85",
+    "f34521563c1f0e2e7a29afde3872acd25936c58f6beb1ae9eddcae12fd979d2a"
+  ],
+  "elapsed_s": 5.0117347240448
+}

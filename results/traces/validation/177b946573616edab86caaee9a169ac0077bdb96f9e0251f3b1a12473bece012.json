@@ -1,0 +1,63 @@
+{
+  "input_hash": "177b946573616edab86caaee9a169ac0077bdb96f9e0251f3b1a12473bece012",
+  "sample_id": "ESC-CSV-07163",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "he",
+    "Bentley",
+    "highway",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aceb991ee52f1eddaecdd1afb88765c892a8bb5e6c9e4e28e0b3de87c64f3853",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aceb991ee52f1eddaecdd1afb88765c892a8bb5e6c9e4e28e0b3de87c64f3853",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2a43b5074bf103502ed733d2e7f6abda9cc25cfc0f232f91e24cfdd3b037fbad",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c5d905fabc91b787cb4c0ca6c84f128ceccf5c30bbad4815b129313ecf8b9287",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0669118bc58f4af4c3d3bbd422eadec5c65eecf597c28c768b8d556b29f27bd3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"he\",\"Bentley\",\"highway\",\"cops\"],\"target_related\":[\"he\",\"Bentley\",\"highway\",\"cops\"],\"mediators\":[\"he\",\"Bentley\",\"highway\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "9f0dab3732b92c67f7af97b82f37f3a7e0b295aa7da0c1da58ffc0047228ac4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving at 1 am led the cops to stop him; driving precedes and causes the stop by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "aceb991ee52f1eddaecdd1afb88765c892a8bb5e6c9e4e28e0b3de87c64f3853",
+    "aceb991ee52f1eddaecdd1afb88765c892a8bb5e6c9e4e28e0b3de87c64f3853",
+    "2a43b5074bf103502ed733d2e7f6abda9cc25cfc0f232f91e24cfdd3b037fbad",
+    "c5d905fabc91b787cb4c0ca6c84f128ceccf5c30bbad4815b129313ecf8b9287",
+    "0669118bc58f4af4c3d3bbd422eadec5c65eecf597c28c768b8d556b29f27bd3",
+    "9f0dab3732b92c67f7af97b82f37f3a7e0b295aa7da0c1da58ffc0047228ac4f"
+  ],
+  "elapsed_s": 4.98349142074585
+}

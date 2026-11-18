@@ -1,0 +1,62 @@
+{
+  "input_hash": "50b073bb5ca3c47bba0843646a34606b2ca5ee55b520aa18d179f001ca6a158c",
+  "sample_id": "ESC-CSV-09549",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "torched",
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "75abca12ae5bf736c6e1c18896f63400dab9458fa597cc4169b8bdd993b1678f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "75abca12ae5bf736c6e1c18896f63400dab9458fa597cc4169b8bdd993b1678f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9acc2326c82ecf62fc2c2d3c0827e925d724be4218c7379d5ce461ae89715e84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1411a21934460472c62ebe9f3ab9e07582678a9618ecacca12509ed24d5f95ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "30e13a7dba2e07225f97f5d8833c54bbec695f4eca39fdbcbc3203ed78573afe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"storm\",\"parliament\",\"torched\",\"buildings\",\"austerity\",\"measures\",\"raise\",\"taxes\",\"bailout\"],\"target_related\":[\"protesters\",\"petrol\",\"bombs\",\"police\",\"torched\",\"buildings\"],\"mediators\":[\"protesters\",\"torched\",\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "beb54c617f250432d73eaaa46a1cdbb1493ddf9ea529e08884f2c3b72180f5f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters acted in protest against austerity measures, and this protest motivation led them to throw petrol bombs at police.\"}"
+    }
+  },
+  "call_ids": [
+    "75abca12ae5bf736c6e1c18896f63400dab9458fa597cc4169b8bdd993b1678f",
+    "75abca12ae5bf736c6e1c18896f63400dab9458fa597cc4169b8bdd993b1678f",
+    "9acc2326c82ecf62fc2c2d3c0827e925d724be4218c7379d5ce461ae89715e84",
+    "1411a21934460472c62ebe9f3ab9e07582678a9618ecacca12509ed24d5f95ce",
+    "30e13a7dba2e07225f97f5d8833c54bbec695f4eca39fdbcbc3203ed78573afe",
+    "beb54c617f250432d73eaaa46a1cdbb1493ddf9ea529e08884f2c3b72180f5f4"
+  ],
+  "elapsed_s": 4.483975887298584
+}

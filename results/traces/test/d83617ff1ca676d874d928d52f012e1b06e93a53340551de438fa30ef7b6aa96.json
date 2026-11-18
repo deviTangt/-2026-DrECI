@@ -1,0 +1,60 @@
+{
+  "input_hash": "d83617ff1ca676d874d928d52f012e1b06e93a53340551de438fa30ef7b6aa96",
+  "sample_id": "ESC-CSV-04522",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Place Vendôme"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bf8345fe8259b9d57829414659ee35fcefe9ec27e4a9ba4d3b3a743d4dbd4983",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bf8345fe8259b9d57829414659ee35fcefe9ec27e4a9ba4d3b3a743d4dbd4983",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b5039e6bc63f79a7c25c80a94b747da608835941d2853cce059eab288b66f9cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4c19cc88b84e4c3ce6792c0de237868c51a44eadac2bfd2d9ced8e9a32ac5a0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0e572d838b33574b5f5e225b28a4de34fb7673c34afe7ed03c2dc56501c28edb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ram\",\"raiders\",\"vehicle\",\"jewellery boutique\",\"Place Vendôme\",\"Paris\",\"Monday\",\"robbery\",\"loot\"],\"target_related\":[\"Place Vendôme\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[\"Place Vendôme\"]}"
+    },
+    "indirect": {
+      "call_id": "254b79e3f464ed457e8081b487bf85918393bde874af9d90b17b550b463ff1eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Raiders ploughed their vehicle into the boutique, an action that directly enabled and caused the robbery/heist to occur.\"}"
+    }
+  },
+  "call_ids": [
+    "bf8345fe8259b9d57829414659ee35fcefe9ec27e4a9ba4d3b3a743d4dbd4983",
+    "bf8345fe8259b9d57829414659ee35fcefe9ec27e4a9ba4d3b3a743d4dbd4983",
+    "b5039e6bc63f79a7c25c80a94b747da608835941d2853cce059eab288b66f9cb",
+    "4c19cc88b84e4c3ce6792c0de237868c51a44eadac2bfd2d9ced8e9a32ac5a0f",
+    "0e572d838b33574b5f5e225b28a4de34fb7673c34afe7ed03c2dc56501c28edb",
+    "254b79e3f464ed457e8081b487bf85918393bde874af9d90b17b550b463ff1eb"
+  ],
+  "elapsed_s": 4.616497039794922
+}

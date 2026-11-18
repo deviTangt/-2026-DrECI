@@ -1,0 +1,60 @@
+{
+  "input_hash": "74ed29b409a50a894af93b7dd91cdf6707e5038c01a75ec450cdfe3a834244de",
+  "sample_id": "ESC-CSV-02628",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f1a0911aa22914f0e669880ceecee1ec289982311891ec61f2108b9ec405ef9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f1a0911aa22914f0e669880ceecee1ec289982311891ec61f2108b9ec405ef9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2707359ad7ca6b2a5739b11e3fe630e5ca402db517ced8b3ecb0995f49125da5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d5d7856d61f13417998971215324a60ad5f060ff0056174ac21999c2e02f35df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c325e3de2636df9eb0dcf88ddb279cdee110d93e6857ecaecb8db7cdacea56f2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"bullets\",\"Saturday\",\"Kimani\",\"Gray\",\"16\"],\"target_related\":[\"scenes\",\"blocks\",\"NYPD\",\"67th Precinct stationhouse\",\"protest march\",\"candlelight vigil\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "571a833d684a3a61af683867b2dc50303a478d5c8341ac303fa6c396902cccc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says violence followed a protest march from a vigil for Gray, killed by police; no causal link between killing and violence.\"}"
+    }
+  },
+  "call_ids": [
+    "f1a0911aa22914f0e669880ceecee1ec289982311891ec61f2108b9ec405ef9f",
+    "f1a0911aa22914f0e669880ceecee1ec289982311891ec61f2108b9ec405ef9f",
+    "2707359ad7ca6b2a5739b11e3fe630e5ca402db517ced8b3ecb0995f49125da5",
+    "d5d7856d61f13417998971215324a60ad5f060ff0056174ac21999c2e02f35df",
+    "c325e3de2636df9eb0dcf88ddb279cdee110d93e6857ecaecb8db7cdacea56f2",
+    "571a833d684a3a61af683867b2dc50303a478d5c8341ac303fa6c396902cccc4"
+  ],
+  "elapsed_s": 4.938621282577515
+}

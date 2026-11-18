@@ -1,0 +1,60 @@
+{
+  "input_hash": "9008dbdbc0947dce348a61bc157588b704a733d676f2093ef9103ac9d1426ae2",
+  "sample_id": "ESC-CSV-09659",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7c2766467e8b285224b65a5a2f79771a79437e5caf9dfa0868f10a4f8cf961ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7c2766467e8b285224b65a5a2f79771a79437e5caf9dfa0868f10a4f8cf961ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "27e8b011e6cdf11e4efc5aff98ed42750d79b6fbd6478af37270a6c0800efc4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "88f2adadacca6c2ec5a7f8816f69cbc9bdb7aece1688f1fa212c7fd80a9e85e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cc6ee324602211977978454141521ea38224e7c8fd9a99dfe4559984acf3d5e5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"taxes\",\"government\",\"spending\",\"austerity\",\"measures\",\"protest\",\"strike\",\"protesters\"],\"target_related\":[\"protesters\",\"police\",\"Molotov\",\"cocktails\",\"buildings\",\"angry\"],\"mediators\":[\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "1c464e75e548cc6d8cbfc7af87fbb8bcc228fd9eecff03596d9080bef9c4bcc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters angered by spending cuts hurled Molotov cocktails; cuts provoked protesters' anger, which led them to hurl objects (X->Z->Y).\"}"
+    }
+  },
+  "call_ids": [
+    "7c2766467e8b285224b65a5a2f79771a79437e5caf9dfa0868f10a4f8cf961ae",
+    "7c2766467e8b285224b65a5a2f79771a79437e5caf9dfa0868f10a4f8cf961ae",
+    "27e8b011e6cdf11e4efc5aff98ed42750d79b6fbd6478af37270a6c0800efc4a",
+    "88f2adadacca6c2ec5a7f8816f69cbc9bdb7aece1688f1fa212c7fd80a9e85e2",
+    "cc6ee324602211977978454141521ea38224e7c8fd9a99dfe4559984acf3d5e5",
+    "1c464e75e548cc6d8cbfc7af87fbb8bcc228fd9eecff03596d9080bef9c4bcc8"
+  ],
+  "elapsed_s": 5.0103912353515625
+}

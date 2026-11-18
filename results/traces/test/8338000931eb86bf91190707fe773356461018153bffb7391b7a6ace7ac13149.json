@@ -1,0 +1,61 @@
+{
+  "input_hash": "8338000931eb86bf91190707fe773356461018153bffb7391b7a6ace7ac13149",
+  "sample_id": "ESC-CSV-09555",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e7dc43870177ea8f04a24dfd39c083b99d1590ba0b8ef31089ba64c5dceb192",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e7dc43870177ea8f04a24dfd39c083b99d1590ba0b8ef31089ba64c5dceb192",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b05ab50cf4558d613247cca404d7ceef1bfb5b21536029c23b824a3f5c3c40fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ad75ed155eaa75c5503026ac6a6ccae3626ce606503632a8b28252c59502e082",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a0506ae2cf6bf9191da5bf0f205d95ac7f1b0016ab55f12ffad811ac911d9cf0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"buildings\",\"bank\",\"petrol bombs\",\"police\",\"parliament\"],\"target_related\":[\"protesters\",\"bank\",\"Greek\"],\"mediators\":[\"protesters\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "6b2384880fe7fad5767755f649900ea97627c09c85f907f27226fc1c092ad3ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Torching the bank caused deaths; common sense and chain via bank: protesters torched bank, 3 dead after.\"}"
+    }
+  },
+  "call_ids": [
+    "9e7dc43870177ea8f04a24dfd39c083b99d1590ba0b8ef31089ba64c5dceb192",
+    "9e7dc43870177ea8f04a24dfd39c083b99d1590ba0b8ef31089ba64c5dceb192",
+    "b05ab50cf4558d613247cca404d7ceef1bfb5b21536029c23b824a3f5c3c40fd",
+    "ad75ed155eaa75c5503026ac6a6ccae3626ce606503632a8b28252c59502e082",
+    "a0506ae2cf6bf9191da5bf0f205d95ac7f1b0016ab55f12ffad811ac911d9cf0",
+    "6b2384880fe7fad5767755f649900ea97627c09c85f907f27226fc1c092ad3ed"
+  ],
+  "elapsed_s": 4.304347515106201
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "9a4318fca6f9606753324411abd3dff8370e90a59c3463983a666e5b9f6cbe2d",
+  "sample_id": "ESC-CSV-04002",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "climber",
+    "Duncan Raite",
+    "died",
+    "slipping",
+    "ridge"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9bfb3022eebb48e21a593cc60c01b548dc288f62cc49dbf956447bca401930ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9bfb3022eebb48e21a593cc60c01b548dc288f62cc49dbf956447bca401930ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b02e3232a8cc2a59c9acdeca862b000e51f1025607d0fe0827f3dc87172dd7c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "30ddcb8c4627aa6fa0a3b3c70fc6215c22fc623c483cb82a79ac7db955d8d9fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "406ff8376921950aac7844a45eccbf60773aebd80101d3c82ff5dc4e886f2848",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climber\",\"Duncan Raite\",\"died\",\"slipping\",\"falling\",\"ridge\"],\"target_related\":[\"climber\",\"Duncan Raite\",\"died\",\"slipping\",\"deaths\",\"ridge\"],\"mediators\":[\"climber\",\"Duncan Raite\",\"died\",\"slipping\",\"ridge\"]}"
+    },
+    "indirect": {
+      "call_id": "213f2f51b3a3c32cca654611af5f443f31f7975d8a501c38e5c4cbeaebd258fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died after slipping and falling' — 'after' plus common sense: the fall caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "9bfb3022eebb48e21a593cc60c01b548dc288f62cc49dbf956447bca401930ce",
+    "9bfb3022eebb48e21a593cc60c01b548dc288f62cc49dbf956447bca401930ce",
+    "b02e3232a8cc2a59c9acdeca862b000e51f1025607d0fe0827f3dc87172dd7c3",
+    "30ddcb8c4627aa6fa0a3b3c70fc6215c22fc623c483cb82a79ac7db955d8d9fd",
+    "406ff8376921950aac7844a45eccbf60773aebd80101d3c82ff5dc4e886f2848",
+    "213f2f51b3a3c32cca654611af5f443f31f7975d8a501c38e5c4cbeaebd258fb"
+  ],
+  "elapsed_s": 4.663269996643066
+}

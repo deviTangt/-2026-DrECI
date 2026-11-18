@@ -1,0 +1,64 @@
+{
+  "input_hash": "120f47abdb2e55352e97fcc92e0dae86d379d8ff47b8c5c48f3c6b478df2b259",
+  "sample_id": "ESC-CSV-04468",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "store",
+    "police",
+    "source",
+    "4.30am"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1ae8a9108b9c1e1aa1d98973d100b5f6ed07fe3f19c3b197778c42e049c5f28f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1ae8a9108b9c1e1aa1d98973d100b5f6ed07fe3f19c3b197778c42e049c5f28f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "74a3c1bbf35166ab275b20f3623850b03edc6cc372cba2a8f94be7935fe96669",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f6cf4b6d6dcf52bec6f7537190a799906db896ea70f69d9c8de4cfebe498ee3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d7fd9f5b92757a6953e45d686d0808774d938ad5f601e46fcc3853b2d56b2182",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"Casty\",\"store\",\"Paris\",\"Place Vendôme\",\"France\",\"Riviera\",\"police\",\"source\",\"four-by-four\",\"4.30am\"],\"target_related\":[\"men\",\"jewellery\",\"luxury\",\"watches\",\"euros\",\"store\",\"police\",\"source\",\"4.30am\"],\"mediators\":[\"men\",\"store\",\"police\",\"source\",\"4.30am\"]}"
+    },
+    "indirect": {
+      "call_id": "bd060ce9e5884696095eb59014646955abb7c1351021ada24197e23dc8547b2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store enabled the men to enter and then grab jewellery and watches; the break-in precedes and enables the theft.\"}"
+    }
+  },
+  "call_ids": [
+    "1ae8a9108b9c1e1aa1d98973d100b5f6ed07fe3f19c3b197778c42e049c5f28f",
+    "1ae8a9108b9c1e1aa1d98973d100b5f6ed07fe3f19c3b197778c42e049c5f28f",
+    "74a3c1bbf35166ab275b20f3623850b03edc6cc372cba2a8f94be7935fe96669",
+    "f6cf4b6d6dcf52bec6f7537190a799906db896ea70f69d9c8de4cfebe498ee3a",
+    "d7fd9f5b92757a6953e45d686d0808774d938ad5f601e46fcc3853b2d56b2182",
+    "bd060ce9e5884696095eb59014646955abb7c1351021ada24197e23dc8547b2c"
+  ],
+  "elapsed_s": 4.177216291427612
+}

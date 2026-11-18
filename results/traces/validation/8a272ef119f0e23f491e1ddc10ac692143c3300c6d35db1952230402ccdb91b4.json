@@ -1,0 +1,70 @@
+{
+  "input_hash": "8a272ef119f0e23f491e1ddc10ac692143c3300c6d35db1952230402ccdb91b4",
+  "sample_id": "ESC-CSV-02996",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protest",
+    "riot",
+    "Brooklyn",
+    "young",
+    "people",
+    "NYPD",
+    "officers",
+    "chaotic",
+    "100",
+    "threw",
+    "bottles"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e597ae8b028bbc8009535b99dbb3e30868c522d5178c4b46234c7c2218a1b7f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e597ae8b028bbc8009535b99dbb3e30868c522d5178c4b46234c7c2218a1b7f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f996af9cf1a71db320d6ea1de07fa9104d5fdf7ab83f62255aa36a4c85bc4624",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "33a4b78331181199e271724c4f6b977f66d42f8a930b09c5e20b649b80b6c90f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2907b158662b8961f7dc0762451067939c7a0fce7de64b765cd49b28784889d2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protest\",\"riot\",\"Brooklyn\",\"young\",\"people\",\"NYPD\",\"officers\",\"chaotic\",\"100\",\"threw\",\"bottles\"],\"target_related\":[\"protest\",\"riot\",\"Brooklyn\",\"young\",\"people\",\"NYPD\",\"officers\",\"chaotic\",\"100\",\"threw\",\"bottles\"],\"mediators\":[\"protest\",\"riot\",\"Brooklyn\",\"young\",\"people\",\"NYPD\",\"officers\",\"chaotic\",\"100\",\"threw\",\"bottles\"]}"
+    },
+    "indirect": {
+      "call_id": "275117cfbb39ea12fb04b1c89431bc9465e4cbcda33bb9ed65db7b823568bd74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The protest turned into a riot; turning chaotic precedes and leads to rioting, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "e597ae8b028bbc8009535b99dbb3e30868c522d5178c4b46234c7c2218a1b7f7",
+    "e597ae8b028bbc8009535b99dbb3e30868c522d5178c4b46234c7c2218a1b7f7",
+    "f996af9cf1a71db320d6ea1de07fa9104d5fdf7ab83f62255aa36a4c85bc4624",
+    "33a4b78331181199e271724c4f6b977f66d42f8a930b09c5e20b649b80b6c90f",
+    "2907b158662b8961f7dc0762451067939c7a0fce7de64b765cd49b28784889d2",
+    "275117cfbb39ea12fb04b1c89431bc9465e4cbcda33bb9ed65db7b823568bd74"
+  ],
+  "elapsed_s": 4.598113775253296
+}

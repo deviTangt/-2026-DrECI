@@ -1,0 +1,72 @@
+{
+  "input_hash": "66062f60aebe6c8d38a22133871dad297625f9c9ed4c682c2d72fad863e24bb7",
+  "sample_id": "ESC-CSV-04290",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Australian",
+    "man",
+    "Aoraki",
+    "Mt",
+    "Cook",
+    "National",
+    "Park",
+    "New",
+    "Zealand",
+    "South",
+    "Island",
+    "Ski",
+    "Mountaineer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4bac7b5d80270dbfd41821e8e360de142fbfc86c748a3aaade63ee40563caa6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4bac7b5d80270dbfd41821e8e360de142fbfc86c748a3aaade63ee40563caa6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ef75f76865680c04fa9c63694cddefd5c4187a74b1aaddc613c3ebd6e1570a42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5b4741602ad20a2f6b867a80adae4810312e3fc7ba2e25627ae875eb7e83d011",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d1a78fc2e69c29cc24d7273c888684cf7e7863701530ad6235451dcc1fd4fb74",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Australian\",\"man\",\"ridge\",\"Aoraki\",\"Mt\",\"Cook\",\"National\",\"Park\",\"New\",\"Zealand\",\"South\",\"Island\",\"Ski\",\"Mountaineer\"],\"target_related\":[\"36\",\"year\",\"old\",\"Australian\",\"man\",\"Friday\",\"Aoraki\",\"Mt\",\"Cook\",\"National\",\"Park\",\"New\",\"Zealand\",\"South\",\"Island\",\"Ski\",\"Mountaineer\"],\"mediators\":[\"Australian\",\"man\",\"Aoraki\",\"Mt\",\"Cook\",\"National\",\"Park\",\"New\",\"Zealand\",\"South\",\"Island\",\"Ski\",\"Mountaineer\"]}"
+    },
+    "indirect": {
+      "call_id": "b9120361438c358e575a9e69dac75bc10c9e42fc639c077a31eb9dd11d6b249b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died ... after falling 150 meters' — 'after' plus common sense that a 150m fall causes death; falling precedes dying.\",\"analysis\":\"Rule 1: 'after' links falling to dying as cause. Rule 3: common sense, fall precedes death and causes it. Rules 2,4-8: no implicit words, coreference, or Z chain/fork/collider.\"}"
+    }
+  },
+  "call_ids": [
+    "4bac7b5d80270dbfd41821e8e360de142fbfc86c748a3aaade63ee40563caa6a",
+    "4bac7b5d80270dbfd41821e8e360de142fbfc86c748a3aaade63ee40563caa6a",
+    "ef75f76865680c04fa9c63694cddefd5c4187a74b1aaddc613c3ebd6e1570a42",
+    "5b4741602ad20a2f6b867a80adae4810312e3fc7ba2e25627ae875eb7e83d011",
+    "d1a78fc2e69c29cc24d7273c888684cf7e7863701530ad6235451dcc1fd4fb74",
+    "b9120361438c358e575a9e69dac75bc10c9e42fc639c077a31eb9dd11d6b249b"
+  ],
+  "elapsed_s": 4.6073925495147705
+}

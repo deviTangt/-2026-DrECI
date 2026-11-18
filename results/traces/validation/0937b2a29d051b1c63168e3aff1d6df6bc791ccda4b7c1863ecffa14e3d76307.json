@@ -1,0 +1,65 @@
+{
+  "input_hash": "0937b2a29d051b1c63168e3aff1d6df6bc791ccda4b7c1863ecffa14e3d76307",
+  "sample_id": "ESC-CSV-07164",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers",
+    "defensive tackle",
+    "Sunday",
+    "suspicions",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2d2dbb49fc1525378f28c855f400734cfe79f1b8413650ba0021bfe9f4a0ebae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2d2dbb49fc1525378f28c855f400734cfe79f1b8413650ba0021bfe9f4a0ebae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6ad2c4695a8545d0946c01312a7571280bf164e52758b01db3e19d218bbc6a29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "66686d05cc6d5effeb6421427160da22fd1b893477b4b380f26491adb03cf91b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1d4225c0dfdf3261a2004822269388ac5500d1d353e36a31e16da4fd6fcd73ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"arrested\",\"Sunday\",\"suspicions\",\"DUI\"],\"target_related\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"Sunday\",\"suspicions\",\"driving under the influence\",\"DUI\"],\"mediators\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"Sunday\",\"suspicions\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "680822b754fd51756e1b10bb075e671f9b76778eb4f1b29b49649aeb3401b391",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested ... for suspicions of driving under the influence' — 'for' links DUI as the reason for the arrest; common sense: DUI leads to arrest.\",\"analysis\":\"Rule 1: 'arrested ... for suspicions of driving under the influence' uses 'for' as an explicit causation word linking DUI to arrest. Rule 2: no implicit causation verbs. Rule 3: common sense — DUI precedes and causes arrest. Rules 4-8: no coreference events or Z structures needed.\"}"
+    }
+  },
+  "call_ids": [
+    "2d2dbb49fc1525378f28c855f400734cfe79f1b8413650ba0021bfe9f4a0ebae",
+    "2d2dbb49fc1525378f28c855f400734cfe79f1b8413650ba0021bfe9f4a0ebae",
+    "6ad2c4695a8545d0946c01312a7571280bf164e52758b01db3e19d218bbc6a29",
+    "66686d05cc6d5effeb6421427160da22fd1b893477b4b380f26491adb03cf91b",
+    "1d4225c0dfdf3261a2004822269388ac5500d1d353e36a31e16da4fd6fcd73ac",
+    "680822b754fd51756e1b10bb075e671f9b76778eb4f1b29b49649aeb3401b391"
+  ],
+  "elapsed_s": 5.440730810165405
+}

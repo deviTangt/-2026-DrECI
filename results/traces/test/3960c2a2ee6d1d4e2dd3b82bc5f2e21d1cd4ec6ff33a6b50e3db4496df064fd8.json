@@ -1,0 +1,63 @@
+{
+  "input_hash": "3960c2a2ee6d1d4e2dd3b82bc5f2e21d1cd4ec6ff33a6b50e3db4496df064fd8",
+  "sample_id": "ESC-CSV-09956",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greece",
+    "parliament",
+    "vote",
+    "government"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6cfcb5347f3ac197d016aa5b776a44650e723189b0bf55ad07fd64c838faa5d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6cfcb5347f3ac197d016aa5b776a44650e723189b0bf55ad07fd64c838faa5d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1529847efebe7acf13987654221b5142901d7c457da1cec0c46c65203798afff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3c7706c63c90338bf5d69944f9f6cd89c152226fb0211fd35b706e3bd9334789",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6caae5eb770f9072b5470f55cbdfb9bbf8c14a218ad0dab1e0da5c344dd18825",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greece\",\"parliament\",\"vote\",\"government\",\"financial\"],\"target_related\":[\"Greece\",\"parliament\",\"vote\",\"reforms\",\"government\"],\"mediators\":[\"Greece\",\"parliament\",\"vote\",\"government\"]}"
+    },
+    "indirect": {
+      "call_id": "f56a7ca1b11e00d1281b787712361494a40d08629aa1f84e4d63c353c6961df8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The cuts are proposed 'to address the country's financial crisis', explicitly linking the crisis as the reason for the cuts.\"}"
+    }
+  },
+  "call_ids": [
+    "6cfcb5347f3ac197d016aa5b776a44650e723189b0bf55ad07fd64c838faa5d6",
+    "6cfcb5347f3ac197d016aa5b776a44650e723189b0bf55ad07fd64c838faa5d6",
+    "1529847efebe7acf13987654221b5142901d7c457da1cec0c46c65203798afff",
+    "3c7706c63c90338bf5d69944f9f6cd89c152226fb0211fd35b706e3bd9334789",
+    "6caae5eb770f9072b5470f55cbdfb9bbf8c14a218ad0dab1e0da5c344dd18825",
+    "f56a7ca1b11e00d1281b787712361494a40d08629aa1f84e4d63c353c6961df8"
+  ],
+  "elapsed_s": 4.662721633911133
+}

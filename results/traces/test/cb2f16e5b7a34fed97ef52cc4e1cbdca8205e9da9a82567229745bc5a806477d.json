@@ -1,0 +1,63 @@
+{
+  "input_hash": "cb2f16e5b7a34fed97ef52cc4e1cbdca8205e9da9a82567229745bc5a806477d",
+  "sample_id": "ESC-CSV-06462",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pregnant mom",
+    "children",
+    "bullets",
+    "killing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bda7c0a65251ae0459499948a09677d3d32b677cdfa5a6816687147b9444b9a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bda7c0a65251ae0459499948a09677d3d32b677cdfa5a6816687147b9444b9a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b59a10e41ae645c47f4b20da628037e758ab80c042549a71f07a6badf3a05179",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1d484a488e807b2d1046788a83bbe1b09f9098c4e619870491170631922a6822",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f0620d4a12b157a0697cd08952d7fcb6699d31110bd0d166dd678115cb270e66",
+      "status": "ok",
+      "text": "{\"source_related\":[\"pregnant mom\",\"children\",\"bullets\",\"killing\",\"shoot\",\"ladies\"],\"target_related\":[\"pregnant mom\",\"killing\",\"Friday\",\"shielded\",\"children\",\"bullets\"],\"mediators\":[\"pregnant mom\",\"children\",\"bullets\",\"killing\"]}"
+    },
+    "indirect": {
+      "call_id": "bd86504c1e99b8ba2cd65016a384ecf3cdd1f7e3532184dc60794a7aba0fc842",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shielding children from bullets caused the pregnant mom to be shot and die; shielding precedes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "bda7c0a65251ae0459499948a09677d3d32b677cdfa5a6816687147b9444b9a6",
+    "bda7c0a65251ae0459499948a09677d3d32b677cdfa5a6816687147b9444b9a6",
+    "b59a10e41ae645c47f4b20da628037e758ab80c042549a71f07a6badf3a05179",
+    "1d484a488e807b2d1046788a83bbe1b09f9098c4e619870491170631922a6822",
+    "f0620d4a12b157a0697cd08952d7fcb6699d31110bd0d166dd678115cb270e66",
+    "bd86504c1e99b8ba2cd65016a384ecf3cdd1f7e3532184dc60794a7aba0fc842"
+  ],
+  "elapsed_s": 4.610112190246582
+}

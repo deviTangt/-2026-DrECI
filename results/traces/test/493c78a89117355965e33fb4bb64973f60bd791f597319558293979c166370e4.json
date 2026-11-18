@@ -1,0 +1,65 @@
+{
+  "input_hash": "493c78a89117355965e33fb4bb64973f60bd791f597319558293979c166370e4",
+  "sample_id": "ESC-CSV-06632",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "Horton",
+    "death",
+    "footage",
+    "trial",
+    "youths"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a277aa966ae94a2e80bb01256571359000820c204a325df8521ff8f3f047cbb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a277aa966ae94a2e80bb01256571359000820c204a325df8521ff8f3f047cbb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ca084f7a69b5bd75ad43e75d966e18c661a2212a09a26e0106c3d003a8ccc136",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "67e8a46f9a320469b885841fbf4cfe955b066f3ce0e87ab8ba971bcdc017bda6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ac4888747fdf931c5cf8beecd2dcc1153b1110e724e08f2c93bda69f7a0ca1ad",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"Horton\",\"death\",\"footage\",\"trial\",\"youths\"],\"target_related\":[\"Lopez\",\"Horton\",\"death\",\"footage\",\"trial\",\"youths\"],\"mediators\":[\"Lopez\",\"Horton\",\"death\",\"footage\",\"trial\",\"youths\"]}"
+    },
+    "indirect": {
+      "call_id": "171fc0c11ad4212b23a8d5d7704393fec744639a95ce5af382fd86445c5e10ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shots fired by Lopez caused Horton's death; firing shots before death follows common-sense causal order, so shots caused murdering.\"}"
+    }
+  },
+  "call_ids": [
+    "0a277aa966ae94a2e80bb01256571359000820c204a325df8521ff8f3f047cbb",
+    "0a277aa966ae94a2e80bb01256571359000820c204a325df8521ff8f3f047cbb",
+    "ca084f7a69b5bd75ad43e75d966e18c661a2212a09a26e0106c3d003a8ccc136",
+    "67e8a46f9a320469b885841fbf4cfe955b066f3ce0e87ab8ba971bcdc017bda6",
+    "ac4888747fdf931c5cf8beecd2dcc1153b1110e724e08f2c93bda69f7a0ca1ad",
+    "171fc0c11ad4212b23a8d5d7704393fec744639a95ce5af382fd86445c5e10ab"
+  ],
+  "elapsed_s": 4.7771852016448975
+}

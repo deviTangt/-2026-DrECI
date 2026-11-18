@@ -1,0 +1,67 @@
+{
+  "input_hash": "cc175023b9422fd1da2b9ff9eec9786fc4bf5f00bff512ccfcdea822dcb19b24",
+  "sample_id": "ESC-CSV-02116",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Anthony LaCalamita III",
+    "Madeline Kafoury",
+    "Paul Riva",
+    "Alan Steinberg",
+    "Troy accounting firm",
+    "receptionist",
+    "managing partners",
+    "shotgun"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cdaf6797bb7d731e2b3313ffbc5727c8e38153b876019a5ce17acaa57babc4a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cdaf6797bb7d731e2b3313ffbc5727c8e38153b876019a5ce17acaa57babc4a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4bba2a71f747df95afff7ec11a284235a16cb9fe408b2420acb8ccb31286d679",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d69fe9bdc54f191fcf0f18a859d2f2be6a2e35fe9e5a9a756f24beae8d9f4936",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "df6edf751de3ad6db25c6c1cf1f6eb4aed58fce0d450995e4b9bb64c953507d4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"Troy accounting firm\",\"receptionist\",\"managing partners\",\"shotgun\"],\"target_related\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"Troy accounting firm\",\"receptionist\",\"managing partners\",\"shotgun\"],\"mediators\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"Troy accounting firm\",\"receptionist\",\"managing partners\",\"shotgun\"]}"
+    },
+    "indirect": {
+      "call_id": "037843a736de5f1dd4b99de466302dcb25a45d5709f014ac9246d3d28d0c8244",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting that left a receptionist dead: the shooting occurred and caused the killing, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "cdaf6797bb7d731e2b3313ffbc5727c8e38153b876019a5ce17acaa57babc4a1",
+    "cdaf6797bb7d731e2b3313ffbc5727c8e38153b876019a5ce17acaa57babc4a1",
+    "4bba2a71f747df95afff7ec11a284235a16cb9fe408b2420acb8ccb31286d679",
+    "d69fe9bdc54f191fcf0f18a859d2f2be6a2e35fe9e5a9a756f24beae8d9f4936",
+    "df6edf751de3ad6db25c6c1cf1f6eb4aed58fce0d450995e4b9bb64c953507d4",
+    "037843a736de5f1dd4b99de466302dcb25a45d5709f014ac9246d3d28d0c8244"
+  ],
+  "elapsed_s": 6.720690011978149
+}

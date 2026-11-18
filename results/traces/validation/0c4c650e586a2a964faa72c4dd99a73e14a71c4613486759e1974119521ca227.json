@@ -1,0 +1,60 @@
+{
+  "input_hash": "0c4c650e586a2a964faa72c4dd99a73e14a71c4613486759e1974119521ca227",
+  "sample_id": "ESC-CSV-07087",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "62df752d3e6e0376591ea27e1c5ecfa89d57f6073529c2609854ba4559277408",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "62df752d3e6e0376591ea27e1c5ecfa89d57f6073529c2609854ba4559277408",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7f931f1d8ef99eb6867f68d5bf2ef59860c793a8102b207579f0da4a2b539f6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e718fc349e34f6d7bbc314c847079c6b965164db6f7fe09d5e8a18945ed4dd65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5565b8de2b6c82908bae964ca3fcc0f9a7cb11c9295df826cd07396746831488",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"drunk driving\",\"San Diego Chargers\",\"member\"],\"target_related\":[\"Williams\",\"county jail\",\"bail\",\"released\"],\"mediators\":[\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "78565251f6e707c659def2b7753c7425020f062266fad62970af6bc087dc68f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested on suspicion of drunk driving leads to being booked into county jail; arrest precedes booking by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "62df752d3e6e0376591ea27e1c5ecfa89d57f6073529c2609854ba4559277408",
+    "62df752d3e6e0376591ea27e1c5ecfa89d57f6073529c2609854ba4559277408",
+    "7f931f1d8ef99eb6867f68d5bf2ef59860c793a8102b207579f0da4a2b539f6a",
+    "e718fc349e34f6d7bbc314c847079c6b965164db6f7fe09d5e8a18945ed4dd65",
+    "5565b8de2b6c82908bae964ca3fcc0f9a7cb11c9295df826cd07396746831488",
+    "78565251f6e707c659def2b7753c7425020f062266fad62970af6bc087dc68f2"
+  ],
+  "elapsed_s": 5.18059778213501
+}

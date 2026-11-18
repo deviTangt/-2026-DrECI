@@ -1,0 +1,61 @@
+{
+  "input_hash": "6a132ae983f3b84d663c951dd9191abd087474d937f900049110a6e33c08585a",
+  "sample_id": "ESC-CSV-09638",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "barricades"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bd2f9ed96cee97200d9ff541a49aad4db4ac957af9a61c605a821d710cc245aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bd2f9ed96cee97200d9ff541a49aad4db4ac957af9a61c605a821d710cc245aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6ba1d3b06b92f13da91edfdbf4b424a1e0e3f2ae45396e1165298a8e7d275a33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e0b201a988fb7c5ce45054f2fa2d97c3407568196ae82ab4f6d9da66deb8a00f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1f62acb72f43a953b633cbd78ed89a4b0ea7b170dd7f3d9e30f875b2ab930c60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"protesters\",\"barricades\"],\"target_related\":[\"protesters\",\"cars\",\"fire truck\",\"barricades\"],\"mediators\":[\"protesters\",\"barricades\"]}"
+    },
+    "indirect": {
+      "call_id": "22a3e97934e0b5195f5047d85bf170e34ba0d8df254df3bc84d60d0832b8403a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters (from the protest) set up burning barricades and torched cars; the protest acts through protesters to cause the torching.\"}"
+    }
+  },
+  "call_ids": [
+    "bd2f9ed96cee97200d9ff541a49aad4db4ac957af9a61c605a821d710cc245aa",
+    "bd2f9ed96cee97200d9ff541a49aad4db4ac957af9a61c605a821d710cc245aa",
+    "6ba1d3b06b92f13da91edfdbf4b424a1e0e3f2ae45396e1165298a8e7d275a33",
+    "e0b201a988fb7c5ce45054f2fa2d97c3407568196ae82ab4f6d9da66deb8a00f",
+    "1f62acb72f43a953b633cbd78ed89a4b0ea7b170dd7f3d9e30f875b2ab930c60",
+    "22a3e97934e0b5195f5047d85bf170e34ba0d8df254df3bc84d60d0832b8403a"
+  ],
+  "elapsed_s": 4.007945775985718
+}

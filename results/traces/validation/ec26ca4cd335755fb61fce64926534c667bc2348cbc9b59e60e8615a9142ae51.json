@@ -1,0 +1,67 @@
+{
+  "input_hash": "ec26ca4cd335755fb61fce64926534c667bc2348cbc9b59e60e8615a9142ae51",
+  "sample_id": "ESC-CSV-07287",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pulled over",
+    "drunken driving",
+    "booked",
+    "county jail",
+    "released",
+    "bond",
+    "CHP",
+    "Chargers player"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fe40fe08add83a30759b03c1dcdf8ce1b7e6e1b7e3a7b7792c08662d41e6643b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fe40fe08add83a30759b03c1dcdf8ce1b7e6e1b7e3a7b7792c08662d41e6643b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2fce5b726b855d0b463e811d18b276901fb1f44898d3995f309f297788cde054",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "232108430d6671503f0823e90a87f48f8907329245f026eac72fd459f9ca3143",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "481eb819caf4ddddc7a8ed2678a0b84041c4c6af3b0551f8ec2c0d2b57ceb91c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"pulled over\",\"arrested\",\"drunken driving\",\"booked\",\"county jail\",\"released\",\"bond\",\"CHP\",\"Chargers player\"],\"target_related\":[\"pulled over\",\"DUI\",\"drunken driving\",\"booked\",\"county jail\",\"released\",\"bond\",\"CHP\",\"Chargers player\"],\"mediators\":[\"pulled over\",\"drunken driving\",\"booked\",\"county jail\",\"released\",\"bond\",\"CHP\",\"Chargers player\"]}"
+    },
+    "indirect": {
+      "call_id": "01c8a283313fa008b632752c111189e2f5b5d420c7be225bbff881cd1b5826c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of DUI' — 'by' explicitly links DUI as cause of arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "fe40fe08add83a30759b03c1dcdf8ce1b7e6e1b7e3a7b7792c08662d41e6643b",
+    "fe40fe08add83a30759b03c1dcdf8ce1b7e6e1b7e3a7b7792c08662d41e6643b",
+    "2fce5b726b855d0b463e811d18b276901fb1f44898d3995f309f297788cde054",
+    "232108430d6671503f0823e90a87f48f8907329245f026eac72fd459f9ca3143",
+    "481eb819caf4ddddc7a8ed2678a0b84041c4c6af3b0551f8ec2c0d2b57ceb91c",
+    "01c8a283313fa008b632752c111189e2f5b5d420c7be225bbff881cd1b5826c0"
+  ],
+  "elapsed_s": 4.325095891952515
+}

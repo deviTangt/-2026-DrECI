@@ -1,0 +1,67 @@
+{
+  "input_hash": "f59b4213b137339b5f69a45a0303c0dc00d28bcf90b6a2c36d3e16e81bf35ece",
+  "sample_id": "ESC-CSV-04307",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "slipped",
+    "ridgeline",
+    "Rait",
+    "mountain climber",
+    "Robert Buckley",
+    "ice",
+    "700 meters",
+    "National Park"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a42acce6f33615320c635a81d9fdb21703b2aa2f77ae29dd726df592f54497bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a42acce6f33615320c635a81d9fdb21703b2aa2f77ae29dd726df592f54497bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c937b920307a070342e713ad65d1e5573f9f3e2b4d50b10ee6cc868d9f7b3f34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "daee10a19e1b3d780623e6b38026235cbd98fb8190269357c63e19736e4aee62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "657e27dabc04fb9f48c562a9e8562ee37fbadb7e682f4427c5f1b0088301441c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"slipped\",\"ridgeline\",\"Rait\",\"mountain climber\",\"Robert Buckley\",\"ice\",\"700 meters\",\"National Park\"],\"target_related\":[\"slipped\",\"ridgeline\",\"death\",\"Rait\",\"mountain climber\",\"Robert Buckley\",\"ice\",\"700 meters\",\"National Park\"],\"mediators\":[\"slipped\",\"ridgeline\",\"Rait\",\"mountain climber\",\"Robert Buckley\",\"ice\",\"700 meters\",\"National Park\"]}"
+    },
+    "indirect": {
+      "call_id": "a2c6c67316feb6ea74475440d7699fe274706a6a88aaab3b1cb3ee9cc765a6fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling from the ridgeline to his death: the fall (Y) occurs before and causes the death (X), consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "a42acce6f33615320c635a81d9fdb21703b2aa2f77ae29dd726df592f54497bc",
+    "a42acce6f33615320c635a81d9fdb21703b2aa2f77ae29dd726df592f54497bc",
+    "c937b920307a070342e713ad65d1e5573f9f3e2b4d50b10ee6cc868d9f7b3f34",
+    "daee10a19e1b3d780623e6b38026235cbd98fb8190269357c63e19736e4aee62",
+    "657e27dabc04fb9f48c562a9e8562ee37fbadb7e682f4427c5f1b0088301441c",
+    "a2c6c67316feb6ea74475440d7699fe274706a6a88aaab3b1cb3ee9cc765a6fc"
+  ],
+  "elapsed_s": 5.80382776260376
+}

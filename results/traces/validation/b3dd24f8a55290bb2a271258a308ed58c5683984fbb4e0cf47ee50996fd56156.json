@@ -1,0 +1,68 @@
+{
+  "input_hash": "b3dd24f8a55290bb2a271258a308ed58c5683984fbb4e0cf47ee50996fd56156",
+  "sample_id": "ESC-CSV-01690",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "head",
+    "killer",
+    "ran",
+    "hide",
+    "Deputy",
+    "Luis",
+    "Gerardo",
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e77508237ac6cb83159aa4e155ea6c3e1f202d18e859a924d9fbc22a4857ecb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e77508237ac6cb83159aa4e155ea6c3e1f202d18e859a924d9fbc22a4857ecb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "187ed9626c5c4e7e432d208800f7d36fc187a9d5e7b78c891052375f97016d09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e56793f36cbb420d4361aeb21c5700af56610cd3be620f870f4e9ad9e1f54e77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e64dc8a940c8b5e7626e4607c7bf008f2534561684b0b8546a165d7a8ee4f23d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"head\",\"killer\",\"ran\",\"hide\",\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\"],\"target_related\":[\"shot\",\"head\",\"ground\",\"killer\",\"ran\",\"hide\",\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\"],\"mediators\":[\"shot\",\"head\",\"killer\",\"ran\",\"hide\",\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "56616309180be2c60ee78f1cf94b5d86102bc8ca4bbe190332afc914a317c863",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Gunning down (shooting in the head) precedes and causes the victim to be left dying on the ground.\"}"
+    }
+  },
+  "call_ids": [
+    "e77508237ac6cb83159aa4e155ea6c3e1f202d18e859a924d9fbc22a4857ecb8",
+    "e77508237ac6cb83159aa4e155ea6c3e1f202d18e859a924d9fbc22a4857ecb8",
+    "187ed9626c5c4e7e432d208800f7d36fc187a9d5e7b78c891052375f97016d09",
+    "e56793f36cbb420d4361aeb21c5700af56610cd3be620f870f4e9ad9e1f54e77",
+    "e64dc8a940c8b5e7626e4607c7bf008f2534561684b0b8546a165d7a8ee4f23d",
+    "56616309180be2c60ee78f1cf94b5d86102bc8ca4bbe190332afc914a317c863"
+  ],
+  "elapsed_s": 5.093350410461426
+}

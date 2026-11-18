@@ -1,0 +1,71 @@
+{
+  "input_hash": "64e0ce6dd6ce2b6d2e4ae30f6a055388bc9c8ca516e9e6928b70da56cd6aa373",
+  "sample_id": "ESC-CSV-02402",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "shooting",
+    "killing",
+    "fired",
+    "arrested",
+    "chase",
+    "Monday",
+    "morning",
+    "Troy",
+    "Michigan",
+    "Office",
+    "Suspect",
+    "Caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "507b6e956726e1a31ff81308ffc3be895321f77b5a4170a1020bc251a589298d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "507b6e956726e1a31ff81308ffc3be895321f77b5a4170a1020bc251a589298d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7b5418771452755cc1b0401874f278fa70a9c609bb4ab190ed8894ecff9f42b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0c8e79ed4101cf8745c514a432931a491e6abede3b7bf90309d1ad0b5fbb48ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4d7eed5b7773618ddd6ce2a7acb17ddd3cd8069983db82ae9b0c4c10be71d7b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"killing\",\"fired\",\"arrested\",\"chase\",\"Monday\",\"morning\",\"Troy\",\"Michigan\",\"Office\",\"Suspect\",\"Caught\"],\"target_related\":[\"shooting\",\"killing\",\"fired\",\"arrested\",\"chase\",\"Monday\",\"morning\",\"Troy\",\"Michigan\",\"Office\",\"Suspect\",\"Caught\"],\"mediators\":[\"shooting\",\"killing\",\"fired\",\"arrested\",\"chase\",\"Monday\",\"morning\",\"Troy\",\"Michigan\",\"Office\",\"Suspect\",\"Caught\"]}"
+    },
+    "indirect": {
+      "call_id": "0ead59276013501553429be1ae3d170330b106a0b89b67a61aacd0c26f319658",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"The 'attack' is the same event as the 'shooting' that killed one and injured two; the shooting is the attack.\"}"
+    }
+  },
+  "call_ids": [
+    "507b6e956726e1a31ff81308ffc3be895321f77b5a4170a1020bc251a589298d",
+    "507b6e956726e1a31ff81308ffc3be895321f77b5a4170a1020bc251a589298d",
+    "7b5418771452755cc1b0401874f278fa70a9c609bb4ab190ed8894ecff9f42b3",
+    "0c8e79ed4101cf8745c514a432931a491e6abede3b7bf90309d1ad0b5fbb48ce",
+    "4d7eed5b7773618ddd6ce2a7acb17ddd3cd8069983db82ae9b0c4c10be71d7b5",
+    "0ead59276013501553429be1ae3d170330b106a0b89b67a61aacd0c26f319658"
+  ],
+  "elapsed_s": 17.741079568862915
+}

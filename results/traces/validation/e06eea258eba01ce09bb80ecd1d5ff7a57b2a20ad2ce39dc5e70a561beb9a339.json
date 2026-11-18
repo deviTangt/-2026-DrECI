@@ -1,0 +1,62 @@
+{
+  "input_hash": "e06eea258eba01ce09bb80ecd1d5ff7a57b2a20ad2ce39dc5e70a561beb9a339",
+  "sample_id": "ESC-CSV-02651",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mourners",
+    "cops",
+    "clashed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e863808a0b699817750901749cc7b7f5c9a52fef663b7bc4e8b51054407ecaff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e863808a0b699817750901749cc7b7f5c9a52fef663b7bc4e8b51054407ecaff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b8134f96064eea3f61510100d1c3eaea3c4bb88d9329f84a052cbbe25e6b12c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "493ebb7537c1c75ac5e434299a17d0fdd4851edfc2508a6bcc0eb6465b3f4bf8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0b484e26b03626b41f14f39b5748a8b89e22d063b9de4977b870504b2f2aa96d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bottles\",\"mourners\",\"cops\",\"clashed\"],\"target_related\":[\"mourners\",\"cops\",\"clashed\",\"angry\"],\"mediators\":[\"mourners\",\"cops\",\"clashed\"]}"
+    },
+    "indirect": {
+      "call_id": "b409f6fa9cf64523197ec386fa982770e9a81ab72897e7b085a9cdd155efdb8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says mourners were 'tossing bottles and creating a melee'; 'creating' explicitly expresses that tossing caused the melee.\"}"
+    }
+  },
+  "call_ids": [
+    "e863808a0b699817750901749cc7b7f5c9a52fef663b7bc4e8b51054407ecaff",
+    "e863808a0b699817750901749cc7b7f5c9a52fef663b7bc4e8b51054407ecaff",
+    "b8134f96064eea3f61510100d1c3eaea3c4bb88d9329f84a052cbbe25e6b12c9",
+    "493ebb7537c1c75ac5e434299a17d0fdd4851edfc2508a6bcc0eb6465b3f4bf8",
+    "0b484e26b03626b41f14f39b5748a8b89e22d063b9de4977b870504b2f2aa96d",
+    "b409f6fa9cf64523197ec386fa982770e9a81ab72897e7b085a9cdd155efdb8b"
+  ],
+  "elapsed_s": 4.689594030380249
+}

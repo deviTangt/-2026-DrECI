@@ -1,0 +1,60 @@
+{
+  "input_hash": "207fdeeecd9b1e2c027592ce6ebaeb309fb32a09c8442b75c6c2ff203a17eb23",
+  "sample_id": "ESC-CSV-06464",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Arrested"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d0cf8669cda56cd9520827b6f14b5d8578f8577e025c0afb4e9ba232c2c3560d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d0cf8669cda56cd9520827b6f14b5d8578f8577e025c0afb4e9ba232c2c3560d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "637b9ea46d21bf840f571f9a5acc6634eec7843785d416b43ab831d609739ebf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bd317fedfd589799f53192c6ef261bbcf0ba547142742d72088285cab5e2786",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6050eab78fec488bf4d0146b088164fa29eb1f63bec0ac888987612497cfc0ed",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"charged\",\"half-brothers\",\"arrested\"],\"target_related\":[\"Teen\",\"Arrested\",\"Brooklyn\",\"Mom\"],\"mediators\":[\"Arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "4368e739beb520dd0cba63cfc1bdc56da41c11542d99db150508b48eafbb97d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Lopez charged with murder and a teen arrested in a shooting; no causal link between murder and shooting is stated or implied.\"}"
+    }
+  },
+  "call_ids": [
+    "d0cf8669cda56cd9520827b6f14b5d8578f8577e025c0afb4e9ba232c2c3560d",
+    "d0cf8669cda56cd9520827b6f14b5d8578f8577e025c0afb4e9ba232c2c3560d",
+    "637b9ea46d21bf840f571f9a5acc6634eec7843785d416b43ab831d609739ebf",
+    "4bd317fedfd589799f53192c6ef261bbcf0ba547142742d72088285cab5e2786",
+    "6050eab78fec488bf4d0146b088164fa29eb1f63bec0ac888987612497cfc0ed",
+    "4368e739beb520dd0cba63cfc1bdc56da41c11542d99db150508b48eafbb97d6"
+  ],
+  "elapsed_s": 4.268676996231079
+}

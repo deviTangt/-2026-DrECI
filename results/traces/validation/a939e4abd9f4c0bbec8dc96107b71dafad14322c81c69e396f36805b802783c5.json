@@ -1,0 +1,69 @@
+{
+  "input_hash": "a939e4abd9f4c0bbec8dc96107b71dafad14322c81c69e396f36805b802783c5",
+  "sample_id": "ESC-CSV-01885",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "man",
+    "back",
+    "yard",
+    "work",
+    "home",
+    "Joliet Avenue",
+    "Hawaiian Gardens",
+    "shooting",
+    "jury",
+    "street"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "03755cbaa80e513ee44d85003b4660e0dfdc1242348185718ee4a4b2222be443",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "03755cbaa80e513ee44d85003b4660e0dfdc1242348185718ee4a4b2222be443",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "16d760bb3c797f66d598d0699c112eb16c0b4d99ec595e1e4ee9ed9c8cb294b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d285ad4cfd52f961de20d6859b4b3fecbc56a6835ce1e5654f522d752950650a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c2567f9f57a527ac8217424216ee333f9ddce199e08d5fdb03d2fe6c55e3448b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"back\",\"yard\",\"work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street\"],\"target_related\":[\"Orozco\",\"convicted\",\"June 20 , 2005\",\"attempted murder\",\"man\",\"shot\",\"back\",\"yard\",\"work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street\"],\"mediators\":[\"man\",\"back\",\"yard\",\"work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street\"]}"
+    },
+    "indirect": {
+      "call_id": "eb2f1e98e4ca30b5cde459abfb9c510c0d035708aa5e47502664c853825a51a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting (shot) is the act that constitutes and causes the street crime; the shot precedes and produces the crime by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "03755cbaa80e513ee44d85003b4660e0dfdc1242348185718ee4a4b2222be443",
+    "03755cbaa80e513ee44d85003b4660e0dfdc1242348185718ee4a4b2222be443",
+    "16d760bb3c797f66d598d0699c112eb16c0b4d99ec595e1e4ee9ed9c8cb294b8",
+    "d285ad4cfd52f961de20d6859b4b3fecbc56a6835ce1e5654f522d752950650a",
+    "c2567f9f57a527ac8217424216ee333f9ddce199e08d5fdb03d2fe6c55e3448b",
+    "eb2f1e98e4ca30b5cde459abfb9c510c0d035708aa5e47502664c853825a51a3"
+  ],
+  "elapsed_s": 6.153155565261841
+}

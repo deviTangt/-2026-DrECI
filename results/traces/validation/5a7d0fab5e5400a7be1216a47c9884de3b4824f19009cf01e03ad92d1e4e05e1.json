@@ -1,0 +1,61 @@
+{
+  "input_hash": "5a7d0fab5e5400a7be1216a47c9884de3b4824f19009cf01e03ad92d1e4e05e1",
+  "sample_id": "ESC-CSV-02713",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "bottles",
+    "bottle"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7cbd7c977530c72e21169d40d35625b370b57159cadf8ce7a6daa7995e12f286",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7cbd7c977530c72e21169d40d35625b370b57159cadf8ce7a6daa7995e12f286",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fd9b4df5034437a26bd1736a74dc2ec14c783492ce8afde728281b0f5af71ea7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "198dc130470488fdb4d535bc6fe43b33aa79b1e00df62b88010eb3ff6b8ba00c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "32dfbcb253836756914c61f981b903b84a93ed93ed22485e01f21b47c6d6fa1b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bottles\",\"melee\",\"mourners\",\"cops\"],\"target_related\":[\"bottle\",\"head\",\"customer\"],\"mediators\":[\"bottles\",\"bottle\"]}"
+    },
+    "indirect": {
+      "call_id": "e00f8ac63b99896781e1b93074a049cb3dc0d2935042d6dc1fd5350b80e44f2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Creating a melee and a bottle bashed over a customer's head are separate riot events; no causal link between creating and bashed is stated.\"}"
+    }
+  },
+  "call_ids": [
+    "7cbd7c977530c72e21169d40d35625b370b57159cadf8ce7a6daa7995e12f286",
+    "7cbd7c977530c72e21169d40d35625b370b57159cadf8ce7a6daa7995e12f286",
+    "fd9b4df5034437a26bd1736a74dc2ec14c783492ce8afde728281b0f5af71ea7",
+    "198dc130470488fdb4d535bc6fe43b33aa79b1e00df62b88010eb3ff6b8ba00c",
+    "32dfbcb253836756914c61f981b903b84a93ed93ed22485e01f21b47c6d6fa1b",
+    "e00f8ac63b99896781e1b93074a049cb3dc0d2935042d6dc1fd5350b80e44f2e"
+  ],
+  "elapsed_s": 5.1022021770477295
+}

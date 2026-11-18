@@ -1,0 +1,63 @@
+{
+  "input_hash": "3e17dad7d0ad681e4b85d85db4dc98cfddd0393c12f8eed3ed8ab37a22cb327d",
+  "sample_id": "ESC-CSV-02975",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16 - year - old",
+    "Brooklyn",
+    "NYPD",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "83d6e47dd2a626d180ac4faf827d49615cda7dc1ded811b50f2bc3f98f81deac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "83d6e47dd2a626d180ac4faf827d49615cda7dc1ded811b50f2bc3f98f81deac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3a4828b7a1ce816a3384d907e324bc206f52c60596c3728b5012fdc8594a8be6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0d6d4abd81c50b8a17d569661cd4d2f0d0e01f660bf4a304d03b5c444b17b0ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5786578e3557dea0833033651f402af15046755aa50d1f8872a00a8507cc32ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"16 - year - old\",\"Brooklyn\",\"resident\",\"police\",\"gun\",\"Saturday\",\"killed\"],\"target_related\":[\"16 - year - old\",\"armed\",\"protest\",\"Brooklyn\",\"riot\",\"young people\",\"NYPD\",\"officers\"],\"mediators\":[\"16 - year - old\",\"Brooklyn\",\"NYPD\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "b4bb7299fbad1f01ed15c73a514dcbcac46ff3538113df746ddb3e5ae146403a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed' explicitly links shot to death; shooting before death follows common sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "83d6e47dd2a626d180ac4faf827d49615cda7dc1ded811b50f2bc3f98f81deac",
+    "83d6e47dd2a626d180ac4faf827d49615cda7dc1ded811b50f2bc3f98f81deac",
+    "3a4828b7a1ce816a3384d907e324bc206f52c60596c3728b5012fdc8594a8be6",
+    "0d6d4abd81c50b8a17d569661cd4d2f0d0e01f660bf4a304d03b5c444b17b0ab",
+    "5786578e3557dea0833033651f402af15046755aa50d1f8872a00a8507cc32ac",
+    "b4bb7299fbad1f01ed15c73a514dcbcac46ff3538113df746ddb3e5ae146403a"
+  ],
+  "elapsed_s": 4.698815107345581
+}

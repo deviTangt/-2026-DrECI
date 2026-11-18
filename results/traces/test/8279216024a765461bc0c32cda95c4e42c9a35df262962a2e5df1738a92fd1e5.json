@@ -1,0 +1,61 @@
+{
+  "input_hash": "8279216024a765461bc0c32cda95c4e42c9a35df262962a2e5df1738a92fd1e5",
+  "sample_id": "ESC-CSV-09416",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "02ab5e8ca41feb9c6d883e9a8ec4479489ccff4e3a42f587de3ca77793717feb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "02ab5e8ca41feb9c6d883e9a8ec4479489ccff4e3a42f587de3ca77793717feb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5d2986066db0e850f3cebee6127e09df975d95bdf69ce976ef385c6486a6c3b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "430331da67e6d150bd122a823adf7afce746723c415092b129108c46e70abfa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "349e5c1a3cec32b404fdd900a1181579f7310c5ac72dc01a9f4b32cacca1d2d8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"firebomb\",\"bank\",\"Greece\",\"police\",\"protesters\",\"youths\",\"window\",\"petrol bombs\"],\"target_related\":[\"people\",\"women\",\"man\",\"Marfin bank\",\"fire\"],\"mediators\":[\"bank\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "13c5e3a0ab1f25393245e80ffdf0007bb65267c0ba7477dcda90864d7d6f3b88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"Firebomb attack caused bank fire; 'caught fire after hooded youths...hurled petrol bombs inside,' and those in the burning bank died.\"}"
+    }
+  },
+  "call_ids": [
+    "02ab5e8ca41feb9c6d883e9a8ec4479489ccff4e3a42f587de3ca77793717feb",
+    "02ab5e8ca41feb9c6d883e9a8ec4479489ccff4e3a42f587de3ca77793717feb",
+    "5d2986066db0e850f3cebee6127e09df975d95bdf69ce976ef385c6486a6c3b6",
+    "430331da67e6d150bd122a823adf7afce746723c415092b129108c46e70abfa2",
+    "349e5c1a3cec32b404fdd900a1181579f7310c5ac72dc01a9f4b32cacca1d2d8",
+    "13c5e3a0ab1f25393245e80ffdf0007bb65267c0ba7477dcda90864d7d6f3b88"
+  ],
+  "elapsed_s": 5.594677686691284
+}

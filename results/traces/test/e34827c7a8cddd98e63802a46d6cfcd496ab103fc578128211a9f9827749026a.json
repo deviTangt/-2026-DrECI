@@ -1,0 +1,66 @@
+{
+  "input_hash": "e34827c7a8cddd98e63802a46d6cfcd496ab103fc578128211a9f9827749026a",
+  "sample_id": "ESC-CSV-09210",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "protesting",
+    "government",
+    "austerity",
+    "measures",
+    "Athens",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f30e8cb4f22ef54bc18bf22cdbe1c4ab2a74d4f7b19e2194e063abc559a591e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f30e8cb4f22ef54bc18bf22cdbe1c4ab2a74d4f7b19e2194e063abc559a591e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "54d2ec81f0692f00059ca6314e2a4b1fadc4baea9786e193343f5a7a7d569e11",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b41238be9eb55dcbb39b86490ed26d6813db3e20da29e646fcf5b10aa4f64be1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8980857b9c56a3fd1d1ec401359b08edd4310b1832b1aeea61dd48005904b07c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"anti\",\"austerity\",\"violence\",\"dead\",\"killed\",\"Greeks\",\"protesting\",\"government\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\"],\"target_related\":[\"Greeks\",\"protesting\",\"government\",\"austerity\",\"measures\",\"petrol\",\"bombs\",\"bank\",\"Athens\",\"Wednesday\"],\"mediators\":[\"Greeks\",\"protesting\",\"government\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "d3c634e51b90f3760ae9b5f4114b8b4e49e70dffec94f0c86bb9798c71c64064",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The march is the setting; protesters (Greeks) threw petrol bombs. No causal rule links the march event to the throwing.\"}"
+    }
+  },
+  "call_ids": [
+    "f30e8cb4f22ef54bc18bf22cdbe1c4ab2a74d4f7b19e2194e063abc559a591e6",
+    "f30e8cb4f22ef54bc18bf22cdbe1c4ab2a74d4f7b19e2194e063abc559a591e6",
+    "54d2ec81f0692f00059ca6314e2a4b1fadc4baea9786e193343f5a7a7d569e11",
+    "b41238be9eb55dcbb39b86490ed26d6813db3e20da29e646fcf5b10aa4f64be1",
+    "8980857b9c56a3fd1d1ec401359b08edd4310b1832b1aeea61dd48005904b07c",
+    "d3c634e51b90f3760ae9b5f4114b8b4e49e70dffec94f0c86bb9798c71c64064"
+  ],
+  "elapsed_s": 5.805191278457642
+}

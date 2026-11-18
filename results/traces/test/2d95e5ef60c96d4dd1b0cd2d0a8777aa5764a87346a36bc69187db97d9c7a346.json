@@ -1,0 +1,61 @@
+{
+  "input_hash": "2d95e5ef60c96d4dd1b0cd2d0a8777aa5764a87346a36bc69187db97d9c7a346",
+  "sample_id": "ESC-CSV-09546",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "taxes",
+    "austerity measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "669a65635ee33982e4851fe0b95fd5c00a4a4633774978ad6c68d2f2dccea913",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "669a65635ee33982e4851fe0b95fd5c00a4a4633774978ad6c68d2f2dccea913",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "372b6b57e2e0120c4b33a29708a42ef927589138bfcc7e056fa21f30fc06760e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "296f10566d00ff9b94af9a948d82bd5bc97334c82569f9a50ba694e6e095c930",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "46c74a4caa7991a022fe65a18c9449b0cc2ab44bf493fd47f15c4384c0e44de6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"taxes\",\"bailout\",\"conditions\",\"decision\"],\"target_related\":[\"protesters\",\"storm\",\"parliament\",\"petrol bombs\",\"police\",\"torched\",\"buildings\",\"austerity measures\"],\"mediators\":[\"taxes\",\"austerity measures\"]}"
+    },
+    "indirect": {
+      "call_id": "d7f5de3fb48af1482655f0217bd5dd232c40049895f409c6c07f21a3d6528944",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters opposed austerity measures and a decision to raise taxes; the tax raise is part of the measures that provoked the protest, forming a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "669a65635ee33982e4851fe0b95fd5c00a4a4633774978ad6c68d2f2dccea913",
+    "669a65635ee33982e4851fe0b95fd5c00a4a4633774978ad6c68d2f2dccea913",
+    "372b6b57e2e0120c4b33a29708a42ef927589138bfcc7e056fa21f30fc06760e",
+    "296f10566d00ff9b94af9a948d82bd5bc97334c82569f9a50ba694e6e095c930",
+    "46c74a4caa7991a022fe65a18c9449b0cc2ab44bf493fd47f15c4384c0e44de6",
+    "d7f5de3fb48af1482655f0217bd5dd232c40049895f409c6c07f21a3d6528944"
+  ],
+  "elapsed_s": 4.212854623794556
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "840ffee496c426c3f59268a0321f50869f98388175c724b726f77e8efdaeb8fa",
+  "sample_id": "ESC-CSV-04503",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "jewelry",
+    "watches",
+    "thieves"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a3dd94024c562be84a30c4c89880e7ab51c896b39927a7547f64d8761c516bee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a3dd94024c562be84a30c4c89880e7ab51c896b39927a7547f64d8761c516bee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "961975a3c274fd4f7f3a39276f6d5f60df0289eb0c9d189f1117b1e687c14079",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e9a65998abc9e18990b2231787cb8cc4a8dd647c3529f1b8097045ce8064568d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "571763170429973d65fdcd4abadfd527cb575f37bd1eac6a2b138361e41fece5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jewelry\",\"watches\",\"thieves\"],\"target_related\":[\"thieves\",\"jewelry\",\"watches\",\"robbers\"],\"mediators\":[\"jewelry\",\"watches\",\"thieves\"]}"
+    },
+    "indirect": {
+      "call_id": "86f02942834355a7367a2e96f8628d74db53c34ea3bf7069b61908f399aba7fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Scooping up the jewelry and watches is the theft that enables the thieves to then make off with the goods; the grabbing precedes and causes the getaway.\"}"
+    }
+  },
+  "call_ids": [
+    "a3dd94024c562be84a30c4c89880e7ab51c896b39927a7547f64d8761c516bee",
+    "a3dd94024c562be84a30c4c89880e7ab51c896b39927a7547f64d8761c516bee",
+    "961975a3c274fd4f7f3a39276f6d5f60df0289eb0c9d189f1117b1e687c14079",
+    "e9a65998abc9e18990b2231787cb8cc4a8dd647c3529f1b8097045ce8064568d",
+    "571763170429973d65fdcd4abadfd527cb575f37bd1eac6a2b138361e41fece5",
+    "86f02942834355a7367a2e96f8628d74db53c34ea3bf7069b61908f399aba7fe"
+  ],
+  "elapsed_s": 4.264981031417847
+}

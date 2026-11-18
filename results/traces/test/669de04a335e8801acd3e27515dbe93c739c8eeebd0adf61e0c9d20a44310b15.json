@@ -1,0 +1,68 @@
+{
+  "input_hash": "669de04a335e8801acd3e27515dbe93c739c8eeebd0adf61e0c9d20a44310b15",
+  "sample_id": "ESC-CSV-09954",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "died",
+    "petrol",
+    "bomb",
+    "attack",
+    "planned",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86ef2bc33938fdcbffa3f687972c4184311a91c862bad3d29c724e32c9f11184",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86ef2bc33938fdcbffa3f687972c4184311a91c862bad3d29c724e32c9f11184",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "de1516ce3b9c8ab3b92e8a8a636c7212dddaa9ff0f4d6a354accd714fe8b5e4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "99ec226350d9c89e3d877b678107a4d4d717ab8ca927c1018fb9e223d98551ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "99270310049625ff01dc02e2cc29885f92c49c0a81951681d7475620158f224b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank\",\"workers\",\"died\",\"petrol\",\"bomb\",\"attack\",\"planned\",\"austerity\",\"measures\"],\"target_related\":[\"bank\",\"workers\",\"died\",\"petrol\",\"bomb\",\"attack\",\"planned\",\"austerity\",\"measures\"],\"mediators\":[\"bank\",\"workers\",\"died\",\"petrol\",\"bomb\",\"attack\",\"planned\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "29f5e377b62933af5a9eec370a26b2e6899999d29c528a9dae271b7ff2fe4d51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Demonstrations over austerity measures turned violent, meaning the demonstrations caused the violence; common sense supports X causing Y.\"}"
+    }
+  },
+  "call_ids": [
+    "86ef2bc33938fdcbffa3f687972c4184311a91c862bad3d29c724e32c9f11184",
+    "86ef2bc33938fdcbffa3f687972c4184311a91c862bad3d29c724e32c9f11184",
+    "de1516ce3b9c8ab3b92e8a8a636c7212dddaa9ff0f4d6a354accd714fe8b5e4f",
+    "99ec226350d9c89e3d877b678107a4d4d717ab8ca927c1018fb9e223d98551ee",
+    "99270310049625ff01dc02e2cc29885f92c49c0a81951681d7475620158f224b",
+    "29f5e377b62933af5a9eec370a26b2e6899999d29c528a9dae271b7ff2fe4d51"
+  ],
+  "elapsed_s": 5.537502765655518
+}

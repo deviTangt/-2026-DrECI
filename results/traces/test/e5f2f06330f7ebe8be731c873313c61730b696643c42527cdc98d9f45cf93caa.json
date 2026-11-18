@@ -1,0 +1,64 @@
+{
+  "input_hash": "e5f2f06330f7ebe8be731c873313c61730b696643c42527cdc98d9f45cf93caa",
+  "sample_id": "ESC-CSV-06485",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "son",
+    "wall",
+    "staggering",
+    "shot",
+    "arm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0baa7410719b2b144542d6755820c6c630aa000d3b7cd24bdb4374afbfb0d0bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0baa7410719b2b144542d6755820c6c630aa000d3b7cd24bdb4374afbfb0d0bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4de45fcea8e478cdce7584b15a1ff9a35f0fc0ba0385a2eff45c63cf23d65006",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e9376b11adafacacc99e414a91aa75993eea2b5475621380f66b8e4ed08b2d88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4ea7f811fa7fd172a7a971faa58b56bf6d16a46e0e1703e4862f80538d14f3c6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"arm\",\"staggering\",\"wall\",\"son\",\"gang\",\"members\",\"stray\",\"rooftop\"],\"target_related\":[\"mother\",\"son\",\"wall\",\"staggering\",\"shot\",\"arm\"],\"mediators\":[\"son\",\"wall\",\"staggering\",\"shot\",\"arm\"]}"
+    },
+    "indirect": {
+      "call_id": "96e6b48b5e6781f6f2fa9a1cd62b892ae5273ac6be6450c7f99fca8a11a5fb6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Stray gunfire from rooftop caused the mother to try to hide her son, so gunfire precedes and prompts the hiding.\"}"
+    }
+  },
+  "call_ids": [
+    "0baa7410719b2b144542d6755820c6c630aa000d3b7cd24bdb4374afbfb0d0bb",
+    "0baa7410719b2b144542d6755820c6c630aa000d3b7cd24bdb4374afbfb0d0bb",
+    "4de45fcea8e478cdce7584b15a1ff9a35f0fc0ba0385a2eff45c63cf23d65006",
+    "e9376b11adafacacc99e414a91aa75993eea2b5475621380f66b8e4ed08b2d88",
+    "4ea7f811fa7fd172a7a971faa58b56bf6d16a46e0e1703e4862f80538d14f3c6",
+    "96e6b48b5e6781f6f2fa9a1cd62b892ae5273ac6be6450c7f99fca8a11a5fb6f"
+  ],
+  "elapsed_s": 4.883058071136475
+}

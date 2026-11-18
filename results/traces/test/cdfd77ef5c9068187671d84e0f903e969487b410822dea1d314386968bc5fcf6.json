@@ -1,0 +1,62 @@
+{
+  "input_hash": "cdfd77ef5c9068187671d84e0f903e969487b410822dea1d314386968bc5fcf6",
+  "sample_id": "ESC-CSV-06614",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton",
+    "child",
+    "bullet"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "44b13d0a8da84d985a5447274cf6697aedd455b192696557143ac56cd8a0c155",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "44b13d0a8da84d985a5447274cf6697aedd455b192696557143ac56cd8a0c155",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "db45989af9d7280bab0df808359b4f1aa318f509e16b4a80675c7a01f03bdd11",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9e026dd025f7c14e19ddfc3756df1498f7128b0503387ba37a3922a6ef36d931",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "a64d6d0c91f69c9cc31d07f96fe4961a3b64bdb59ecd03371d0413e93ee4fef4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"bullet\"],\"target_related\":[\"Horton\",\"child\",\"way\",\"bullet\"],\"mediators\":[\"Horton\",\"child\",\"bullet\"]}"
+    },
+    "indirect": {
+      "call_id": "b3c486e4e179c57e52b2e8b82b56c51e86954bf8f93b44862bde660c9d9207c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting breaks out first; Horton then pushes a child out of the way to take a bullet, so the shooting prompts the pushing.\"}"
+    }
+  },
+  "call_ids": [
+    "44b13d0a8da84d985a5447274cf6697aedd455b192696557143ac56cd8a0c155",
+    "44b13d0a8da84d985a5447274cf6697aedd455b192696557143ac56cd8a0c155",
+    "db45989af9d7280bab0df808359b4f1aa318f509e16b4a80675c7a01f03bdd11",
+    "9e026dd025f7c14e19ddfc3756df1498f7128b0503387ba37a3922a6ef36d931",
+    "a64d6d0c91f69c9cc31d07f96fe4961a3b64bdb59ecd03371d0413e93ee4fef4",
+    "b3c486e4e179c57e52b2e8b82b56c51e86954bf8f93b44862bde660c9d9207c7"
+  ],
+  "elapsed_s": 5.210911512374878
+}

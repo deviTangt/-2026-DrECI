@@ -1,0 +1,62 @@
+{
+  "input_hash": "0e8d30cb8d5c5de95e39d653f105d0a86c29de188a26a9385aede292dcaa6c88",
+  "sample_id": "ESC-CSV-04529",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "car",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b4aa57560fb0374c527f74e1d913e84047f659bfe692fb056c2de741c2f817d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b4aa57560fb0374c527f74e1d913e84047f659bfe692fb056c2de741c2f817d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a6b4300567a605ef6b7df0d892bbed3533ab8b78ab295fda5161cad1e7f1bba9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ba611043b2d4a3b6f5cfecd1c9736baf454733d31bc6161dab21c7f2448551cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "49726ac9c9d58b3e112579aadfee614c0790c6ff38b5e3bfc08a8343857b0ba3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\"],\"target_related\":[\"men\",\"car\",\"store\",\"jewellery\",\"watches\",\"booty\"],\"mediators\":[\"men\",\"car\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "3e419c780d121637ea60ebe84c9af2c1f8200c0c5c4a133fc391aeddc12bfe63",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove the car into the store, smashing the window, and then made off with the loot; driving preceded and enabled making off.\"}"
+    }
+  },
+  "call_ids": [
+    "b4aa57560fb0374c527f74e1d913e84047f659bfe692fb056c2de741c2f817d6",
+    "b4aa57560fb0374c527f74e1d913e84047f659bfe692fb056c2de741c2f817d6",
+    "a6b4300567a605ef6b7df0d892bbed3533ab8b78ab295fda5161cad1e7f1bba9",
+    "ba611043b2d4a3b6f5cfecd1c9736baf454733d31bc6161dab21c7f2448551cb",
+    "49726ac9c9d58b3e112579aadfee614c0790c6ff38b5e3bfc08a8343857b0ba3",
+    "3e419c780d121637ea60ebe84c9af2c1f8200c0c5c4a133fc391aeddc12bfe63"
+  ],
+  "elapsed_s": 5.068041086196899
+}

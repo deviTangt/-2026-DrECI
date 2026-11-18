@@ -1,0 +1,61 @@
+{
+  "input_hash": "6abbdaaaa4e9d0b7a98bd7fec361014f09b2e7c589a683691af8e5ad6996ade9",
+  "sample_id": "ESC-CSV-02250",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3f8599203df211db69960c1d6f78bef906d59022cb55e213794c6124016a061b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3f8599203df211db69960c1d6f78bef906d59022cb55e213794c6124016a061b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f028eaabd10fd452107721576a2202bccefbb97af766a64a142fcd660e06d272",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8cff2df6c907e86166b8d3988e1a309226384ecf35b578c903179420e1c7ca80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "67f2ef192f3545c66c0f44861daf3c3818f20db8b91840ee722b7b480ffa5825",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"lost\",\"job\",\"bosses\",\"receptionist\"],\"target_related\":[\"shotgun\",\"office\",\"bosses\",\"receptionist\",\"wounding\",\"killing\"],\"mediators\":[\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "b9b0735d67e7395afdad9c90463f4ba51d5b8631e17cc66b3a7acd8eadfe7859",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired (losing his job) before returning to open fire follows common sense as the motive causing the shooting spree.\"}"
+    }
+  },
+  "call_ids": [
+    "3f8599203df211db69960c1d6f78bef906d59022cb55e213794c6124016a061b",
+    "3f8599203df211db69960c1d6f78bef906d59022cb55e213794c6124016a061b",
+    "f028eaabd10fd452107721576a2202bccefbb97af766a64a142fcd660e06d272",
+    "8cff2df6c907e86166b8d3988e1a309226384ecf35b578c903179420e1c7ca80",
+    "67f2ef192f3545c66c0f44861daf3c3818f20db8b91840ee722b7b480ffa5825",
+    "b9b0735d67e7395afdad9c90463f4ba51d5b8631e17cc66b3a7acd8eadfe7859"
+  ],
+  "elapsed_s": 8.150534868240356
+}

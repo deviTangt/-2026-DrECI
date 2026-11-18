@@ -1,0 +1,64 @@
+{
+  "input_hash": "efa7e345146042fbe78903d5bcb17b8ab4c373c159e6911c86c0748b65a14c73",
+  "sample_id": "ESC-CSV-09872",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "spending",
+    "cuts",
+    "brutal",
+    "bankruptcy",
+    "national"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "89b24630cb01570009a20849d203ee7eb33ec294b00b16a9fe266649bce24374",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "89b24630cb01570009a20849d203ee7eb33ec294b00b16a9fe266649bce24374",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "16331198b933a72081b11e3114518a78e73f6eb886c144e555b16adc0f1642f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fe4ea8aefafacbc8a89a0edd568a5c3f7e36d49a97bcb512efa0adeac4da39c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7130a990f14f9687f468d5062b0e7b3ccdfa275d7300fd82259fa0e79fc6f57d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"cuts\",\"brutal\"],\"target_related\":[\"bankruptcy\",\"national\"],\"mediators\":[\"spending\",\"cuts\",\"brutal\",\"bankruptcy\",\"national\"]}"
+    },
+    "indirect": {
+      "call_id": "af997fd9e21f38f2c827b411164207ee02a17cf33d10982c8f3cb6c4697d3444",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spending cuts are designed to avoid national bankruptcy; the purpose/intent implies the cuts are meant to prevent bankruptcy, a causal relation.\"}"
+    }
+  },
+  "call_ids": [
+    "89b24630cb01570009a20849d203ee7eb33ec294b00b16a9fe266649bce24374",
+    "89b24630cb01570009a20849d203ee7eb33ec294b00b16a9fe266649bce24374",
+    "16331198b933a72081b11e3114518a78e73f6eb886c144e555b16adc0f1642f6",
+    "fe4ea8aefafacbc8a89a0edd568a5c3f7e36d49a97bcb512efa0adeac4da39c3",
+    "7130a990f14f9687f468d5062b0e7b3ccdfa275d7300fd82259fa0e79fc6f57d",
+    "af997fd9e21f38f2c827b411164207ee02a17cf33d10982c8f3cb6c4697d3444"
+  ],
+  "elapsed_s": 5.490149259567261
+}

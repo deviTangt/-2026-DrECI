@@ -1,0 +1,67 @@
+{
+  "input_hash": "e797d9c765fa19a3d3a19e67935e7c508db6909a940c097729e1d625d6eb0b20",
+  "sample_id": "ESC-CSV-09344",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "buildings",
+    "tax officials",
+    "fire-bomb",
+    "bank",
+    "Greece",
+    "police",
+    "protestors",
+    "budget cuts"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "18be282b484b2b4e13941ab701084d1526a8000002ccc49f93a9c932ff6359df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "18be282b484b2b4e13941ab701084d1526a8000002ccc49f93a9c932ff6359df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "330e26e68962767c05976b938cf19e94c4445320f2ba93ffd91b5e24da9b5a6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5424e8d453acd1207db16720eb7a6e029b97e786722652a1f586e9380ad591ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6388c06777fc98240a0bf6c52d4fd98d2f60c591bfb443e8b40a2cd4abed28dd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"tax officials\",\"fire-bomb\",\"bank\",\"Greece\",\"police\",\"protestors\",\"budget cuts\"],\"target_related\":[\"buildings\",\"tax officials\",\"fire-bomb\",\"bank\",\"Greece\",\"police\",\"protestors\",\"budget cuts\"],\"mediators\":[\"buildings\",\"tax officials\",\"fire-bomb\",\"bank\",\"Greece\",\"police\",\"protestors\",\"budget cuts\"]}"
+    },
+    "indirect": {
+      "call_id": "239f6e97ea1d67465a17da8a920010283bbc723dbca5eb5fc3553cf31983cdde",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protestors furious at budget cuts fought police; fire-bomb attacks occurred on the margins of the protests, so protests precede and plausibly cause the attacks.\"}"
+    }
+  },
+  "call_ids": [
+    "18be282b484b2b4e13941ab701084d1526a8000002ccc49f93a9c932ff6359df",
+    "18be282b484b2b4e13941ab701084d1526a8000002ccc49f93a9c932ff6359df",
+    "330e26e68962767c05976b938cf19e94c4445320f2ba93ffd91b5e24da9b5a6a",
+    "5424e8d453acd1207db16720eb7a6e029b97e786722652a1f586e9380ad591ea",
+    "6388c06777fc98240a0bf6c52d4fd98d2f60c591bfb443e8b40a2cd4abed28dd",
+    "239f6e97ea1d67465a17da8a920010283bbc723dbca5eb5fc3553cf31983cdde"
+  ],
+  "elapsed_s": 5.0445497035980225
+}

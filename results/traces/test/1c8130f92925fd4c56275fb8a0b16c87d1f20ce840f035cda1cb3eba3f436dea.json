@@ -1,0 +1,67 @@
+{
+  "input_hash": "1c8130f92925fd4c56275fb8a0b16c87d1f20ce840f035cda1cb3eba3f436dea",
+  "sample_id": "ESC-CSV-09969",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "petrol",
+    "bomb",
+    "attack",
+    "austerity",
+    "measures",
+    "violent"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e5243da526b0a8201b573c83baa02defd75bd3516a3b36c1d2ea6b8e24a5ed43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e5243da526b0a8201b573c83baa02defd75bd3516a3b36c1d2ea6b8e24a5ed43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fbed6f43342147db14d0f0530a96a43e2ea59d790d8a5de83c339d63ac6deda0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "37600a47d67a090864e0ff7253414927188de182ce404583914115ebe117d976",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5bb6dc5a1b2e8d80ede56094eabb139c9a42c6da64f7887886e3c3f97192661f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank\",\"workers\",\"petrol\",\"bomb\",\"attack\",\"austerity\",\"measures\",\"violent\"],\"target_related\":[\"bank\",\"workers\",\"petrol\",\"bomb\",\"attack\",\"demonstrations\",\"austerity\",\"measures\",\"violent\"],\"mediators\":[\"bank\",\"workers\",\"petrol\",\"bomb\",\"attack\",\"austerity\",\"measures\",\"violent\"]}"
+    },
+    "indirect": {
+      "call_id": "f3ec020ac29517b7814880bfdf3cf8d213d86e97c31873d33a218a48ddffc281",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Demonstrations over austerity turned violent, and the petrol bomb attack during them caused bank workers to die; protests preceding deaths fit common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "e5243da526b0a8201b573c83baa02defd75bd3516a3b36c1d2ea6b8e24a5ed43",
+    "e5243da526b0a8201b573c83baa02defd75bd3516a3b36c1d2ea6b8e24a5ed43",
+    "fbed6f43342147db14d0f0530a96a43e2ea59d790d8a5de83c339d63ac6deda0",
+    "37600a47d67a090864e0ff7253414927188de182ce404583914115ebe117d976",
+    "5bb6dc5a1b2e8d80ede56094eabb139c9a42c6da64f7887886e3c3f97192661f",
+    "f3ec020ac29517b7814880bfdf3cf8d213d86e97c31873d33a218a48ddffc281"
+  ],
+  "elapsed_s": 4.9227025508880615
+}

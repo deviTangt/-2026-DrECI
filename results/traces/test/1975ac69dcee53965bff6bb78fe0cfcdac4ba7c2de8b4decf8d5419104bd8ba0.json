@@ -1,0 +1,65 @@
+{
+  "input_hash": "1975ac69dcee53965bff6bb78fe0cfcdac4ba7c2de8b4decf8d5419104bd8ba0",
+  "sample_id": "ESC-CSV-04418",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "men",
+    "jewellery",
+    "watches",
+    "car",
+    "jewellery store",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b76d5465bf260ec50d25cd8e82bc8afcaa39dd9115930232de57bad032f31862",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b76d5465bf260ec50d25cd8e82bc8afcaa39dd9115930232de57bad032f31862",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a3c24a73fc1986f0cfef5f58f01c1d528238d1a78a773ceeda1ff61b064adeb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "207c39c3c1c942ec495f2fa50f3ec4a7cebf3f1b32ca255151a2819cf8f18bf0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "661a9c23f23357b40bce6588534d69d7e4a40128f910d09e7537f564b9ff8c0f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"4x4\",\"window\",\"store\",\"Rue de Castiglione\",\"jewellery\",\"watches\",\"car\",\"jewellery store\",\"France\"],\"target_related\":[\"men\",\"jewellery\",\"watches\",\"car\",\"jewellery store\",\"vehicle\",\"France\"],\"mediators\":[\"men\",\"jewellery\",\"watches\",\"car\",\"jewellery store\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "57949f39e7d9e7afed0a145a8f0a7ed8e783a4825f2163ff93ccdbd2eadb2915",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drove into the store, then made off with jewellery; driving precedes and enables the subsequent fleeing.\"}"
+    }
+  },
+  "call_ids": [
+    "b76d5465bf260ec50d25cd8e82bc8afcaa39dd9115930232de57bad032f31862",
+    "b76d5465bf260ec50d25cd8e82bc8afcaa39dd9115930232de57bad032f31862",
+    "a3c24a73fc1986f0cfef5f58f01c1d528238d1a78a773ceeda1ff61b064adeb2",
+    "207c39c3c1c942ec495f2fa50f3ec4a7cebf3f1b32ca255151a2819cf8f18bf0",
+    "661a9c23f23357b40bce6588534d69d7e4a40128f910d09e7537f564b9ff8c0f",
+    "57949f39e7d9e7afed0a145a8f0a7ed8e783a4825f2163ff93ccdbd2eadb2915"
+  ],
+  "elapsed_s": 4.160623550415039
+}

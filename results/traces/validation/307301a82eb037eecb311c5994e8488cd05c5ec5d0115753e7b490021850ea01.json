@@ -1,0 +1,62 @@
+{
+  "input_hash": "307301a82eb037eecb311c5994e8488cd05c5ec5d0115753e7b490021850ea01",
+  "sample_id": "ESC-CSV-02048",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "killing",
+    "receptionist",
+    "stop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "439447b9bbb82bcce42f46f3a937ad9ce6d8e5233021847876ac155dbd2cdba9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "439447b9bbb82bcce42f46f3a937ad9ce6d8e5233021847876ac155dbd2cdba9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e6538b10353ce89f6f55518fed2e2fac1c8dd364a651f571b325c4d44af4704f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "704a06cee369786db51a44ed8d7e2a7da008f01a5f58bf4586935b2adff7a8c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4bfb38eee2bc21032a7efde9f7c3c1e8b5b689f99edc6261ce4cb2e0e0b699e7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"wounding\",\"bosses\",\"shotgun\",\"killing\",\"receptionist\",\"stop\"],\"target_related\":[\"killing\",\"receptionist\",\"stop\",\"arraigned\",\"charges\"],\"mediators\":[\"killing\",\"receptionist\",\"stop\"]}"
+    },
+    "indirect": {
+      "call_id": "768954e733a3c1eff8008b141b6d5ee24d780f5dff580ece2f60974ee767032f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"The shotgun attack (X) caused the killing of the receptionist (Y); killing is the murder event, and the attack led to the killing that constituted the murder charge.\"}"
+    }
+  },
+  "call_ids": [
+    "439447b9bbb82bcce42f46f3a937ad9ce6d8e5233021847876ac155dbd2cdba9",
+    "439447b9bbb82bcce42f46f3a937ad9ce6d8e5233021847876ac155dbd2cdba9",
+    "e6538b10353ce89f6f55518fed2e2fac1c8dd364a651f571b325c4d44af4704f",
+    "704a06cee369786db51a44ed8d7e2a7da008f01a5f58bf4586935b2adff7a8c1",
+    "4bfb38eee2bc21032a7efde9f7c3c1e8b5b689f99edc6261ce4cb2e0e0b699e7",
+    "768954e733a3c1eff8008b141b6d5ee24d780f5dff580ece2f60974ee767032f"
+  ],
+  "elapsed_s": 4.746828556060791
+}

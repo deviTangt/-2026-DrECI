@@ -1,0 +1,64 @@
+{
+  "input_hash": "e70f289f139d742e901bdbd44a9349a7270749739d1bfcb5e5caa6ee596b0df7",
+  "sample_id": "ESC-CSV-02446",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mob",
+    "vigil",
+    "protest",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e320e5d0fa856403582cf67a16af76257d5043d225e6a6bc3266020e8adcd5d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e320e5d0fa856403582cf67a16af76257d5043d225e6a6bc3266020e8adcd5d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8fd9d10e93f0b0996b3fc208b50163390a6cacd8d7e65f703e68a54d6b52a2fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2ad62244a3c6e1640a0331c5dd12bb5a84d2b035fee7ca3faac5c83dd874041c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae54d93218f8d41343e0d79542f3d17fde6ad1a18335496ab92055b7c1ee6d4f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"protest\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"mob\",\"local businesses\",\"vigil\",\"protest\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"mob\",\"vigil\",\"protest\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "92e95a896b29d995a7d09ff27006c6a71b9964d1270bd048db712af9c0e001bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Anger (X) drove an unruly young mob (Z), and that mob's thrashing (Y) through businesses followed; chain X->mob->thrashing.\"}"
+    }
+  },
+  "call_ids": [
+    "e320e5d0fa856403582cf67a16af76257d5043d225e6a6bc3266020e8adcd5d3",
+    "e320e5d0fa856403582cf67a16af76257d5043d225e6a6bc3266020e8adcd5d3",
+    "8fd9d10e93f0b0996b3fc208b50163390a6cacd8d7e65f703e68a54d6b52a2fc",
+    "2ad62244a3c6e1640a0331c5dd12bb5a84d2b035fee7ca3faac5c83dd874041c",
+    "ae54d93218f8d41343e0d79542f3d17fde6ad1a18335496ab92055b7c1ee6d4f",
+    "92e95a896b29d995a7d09ff27006c6a71b9964d1270bd048db712af9c0e001bc"
+  ],
+  "elapsed_s": 18.514683485031128
+}

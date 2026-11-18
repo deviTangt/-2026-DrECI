@@ -1,0 +1,60 @@
+{
+  "input_hash": "58a6586f91a1e8fd9c40cf5a21f7d37dc58da4878e023295f8fe5047e6f86192",
+  "sample_id": "ESC-CSV-04542",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "08258f3fab4e33e0b981ce5cdb0320dffa2ddbea3c0911365f4f82f51c777267",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "08258f3fab4e33e0b981ce5cdb0320dffa2ddbea3c0911365f4f82f51c777267",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0254c852b89d08dca8979295bfc4fadb13dc00d3a80a6b2252504e9bf9019096",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d442eca243b94785bfa267c226b7f0474083cbcc4719edcfd891f6d02f20cec6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "af47172c4e598cce53477d58dac40c232ffeef4dc21c7aee1a6e852583f66b89",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"€2 million\",\"$2.6-million\",\"booty\",\"police source\"],\"target_related\":[\"Place Vendôme\",\"France\",\"high-profile robberies\",\"Cannes\",\"police source\"],\"mediators\":[\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "439ae9a91c1226c575eced83fd67ee82ea60fdce6112d8bd5185dff18521173b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window occurs before and enables the men to make off with the booty, i.e., the heist; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "08258f3fab4e33e0b981ce5cdb0320dffa2ddbea3c0911365f4f82f51c777267",
+    "08258f3fab4e33e0b981ce5cdb0320dffa2ddbea3c0911365f4f82f51c777267",
+    "0254c852b89d08dca8979295bfc4fadb13dc00d3a80a6b2252504e9bf9019096",
+    "d442eca243b94785bfa267c226b7f0474083cbcc4719edcfd891f6d02f20cec6",
+    "af47172c4e598cce53477d58dac40c232ffeef4dc21c7aee1a6e852583f66b89",
+    "439ae9a91c1226c575eced83fd67ee82ea60fdce6112d8bd5185dff18521173b"
+  ],
+  "elapsed_s": 4.9135754108428955
+}

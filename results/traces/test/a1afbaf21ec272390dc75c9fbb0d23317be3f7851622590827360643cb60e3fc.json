@@ -1,0 +1,75 @@
+{
+  "input_hash": "a1afbaf21ec272390dc75c9fbb0d23317be3f7851622590827360643cb60e3fc",
+  "sample_id": "ESC-CSV-09680",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrators",
+    "Athens",
+    "streets",
+    "Thieves",
+    "break",
+    "riot",
+    "police",
+    "cordon",
+    "Parliament",
+    "guards",
+    "Tomb",
+    "Soldier",
+    "building",
+    "die",
+    "bank",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "965b70038f702f6cd6dac3a114e48e602680c0c39d540754ef05e16d3aa10cd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "965b70038f702f6cd6dac3a114e48e602680c0c39d540754ef05e16d3aa10cd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5cf9f5f572db8aa600f9c5f378e098a42e3141aaa62eb63febb043d4690ceb8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "716e6c7975937c2483674e3d658ef4d2d5ed29e06ad74d8deaf3407f1446ebf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ac31fb176c5e91c97944e39e4d886cf71a051e743f913ac8d746b5d3fa9a0ffb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"break\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"guards\",\"Tomb\",\"Soldier\",\"building\",\"die\",\"bank\",\"Greek\"],\"target_related\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"break\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"guards\",\"Tomb\",\"Soldier\",\"building\",\"die\",\"bank\",\"Greek\"],\"mediators\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"break\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"guards\",\"Tomb\",\"Soldier\",\"building\",\"die\",\"bank\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "19e67873aadd5ae2f193178b001b70c4c8861c4f1b8a013cc6644551b075d4e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says demonstrators chased guards during riots; it does not state that the riots caused the chasing. No explicit, implicit, or structural causal link is given.\"}"
+    }
+  },
+  "call_ids": [
+    "965b70038f702f6cd6dac3a114e48e602680c0c39d540754ef05e16d3aa10cd0",
+    "965b70038f702f6cd6dac3a114e48e602680c0c39d540754ef05e16d3aa10cd0",
+    "5cf9f5f572db8aa600f9c5f378e098a42e3141aaa62eb63febb043d4690ceb8f",
+    "716e6c7975937c2483674e3d658ef4d2d5ed29e06ad74d8deaf3407f1446ebf4",
+    "ac31fb176c5e91c97944e39e4d886cf71a051e743f913ac8d746b5d3fa9a0ffb",
+    "19e67873aadd5ae2f193178b001b70c4c8861c4f1b8a013cc6644551b075d4e9"
+  ],
+  "elapsed_s": 4.9292755126953125
+}

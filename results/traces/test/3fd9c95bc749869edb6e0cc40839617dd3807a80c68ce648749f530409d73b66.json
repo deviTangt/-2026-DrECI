@@ -1,0 +1,64 @@
+{
+  "input_hash": "3fd9c95bc749869edb6e0cc40839617dd3807a80c68ce648749f530409d73b66",
+  "sample_id": "ESC-CSV-09707",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "buildings",
+    "bank",
+    "cars",
+    "fire",
+    "truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d50f80f892c062d97276e63a7d32872d6045726a7a51b9a8c03aa5f96897a3f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d50f80f892c062d97276e63a7d32872d6045726a7a51b9a8c03aa5f96897a3f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ae3b1fa5aa456bb94d597e59ca4b6e2095cdfc9e3c85734c8e17ed8b8c637a26",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f5e6fc327464784eb1608b719f3b3f30d4e6b80f63d436454d9ef94c45412e22",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bb920e19f74b2ab9d9c1082430f273ebb51f78788e1ddc5298d0474b44ab0e73",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"Molotov\",\"cocktails\",\"police\",\"buildings\",\"cars\",\"fire\",\"truck\"],\"target_related\":[\"Firefighters\",\"buildings\",\"bank\",\"Finance\",\"Ministry\",\"cars\",\"fire\",\"truck\"],\"mediators\":[\"buildings\",\"bank\",\"cars\",\"fire\",\"truck\"]}"
+    },
+    "indirect": {
+      "call_id": "3e4e9258e4db441d6cdd76018e590c715f9e503c41606a5925baf5c37cef16e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Protesters' riots included hurling Molotov cocktails and torching buildings, which caused the blazes firefighters extinguished; riots act through torching buildings to produce blazes.\"}"
+    }
+  },
+  "call_ids": [
+    "d50f80f892c062d97276e63a7d32872d6045726a7a51b9a8c03aa5f96897a3f9",
+    "d50f80f892c062d97276e63a7d32872d6045726a7a51b9a8c03aa5f96897a3f9",
+    "ae3b1fa5aa456bb94d597e59ca4b6e2095cdfc9e3c85734c8e17ed8b8c637a26",
+    "f5e6fc327464784eb1608b719f3b3f30d4e6b80f63d436454d9ef94c45412e22",
+    "bb920e19f74b2ab9d9c1082430f273ebb51f78788e1ddc5298d0474b44ab0e73",
+    "3e4e9258e4db441d6cdd76018e590c715f9e503c41606a5925baf5c37cef16e4"
+  ],
+  "elapsed_s": 4.583460569381714
+}

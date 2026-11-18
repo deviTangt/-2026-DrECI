@@ -1,0 +1,60 @@
+{
+  "input_hash": "0f60296724c10964517299fabf8a880082f7e773f6f15bb8b70ac3e4336c87b3",
+  "sample_id": "ESC-CSV-02567",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "659e074057850b1f3b2e31af579916e620e9e315ffd0da8d11f807a51b1d1a2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "659e074057850b1f3b2e31af579916e620e9e315ffd0da8d11f807a51b1d1a2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d6f60ed1ccef9c843f9aa16eb2a14f34c31c162070cefb003dd651d5ff81a65d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9ca2bea2f8f26f6e92898f321fb2bbeb6a746d1602b60a2a32ab17b015df28cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b6f6f4bfc09f321ea8e591aae3e25fa2b14f21f29a2abb4f35e1c35a19cfa3a5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Saturday\",\"night\",\"Kimani\",\"Gray\"],\"target_related\":[\"crowd\",\"police\",\"vigil\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "2518424593f131bc475c998ff217f91cdf0d238fd23d9ae5508234c4abd16592",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No causal link between 'killed' and 'hostile'; the crowd was hostile and Gray was killed by police, but neither causes the other.\"}"
+    }
+  },
+  "call_ids": [
+    "659e074057850b1f3b2e31af579916e620e9e315ffd0da8d11f807a51b1d1a2d",
+    "659e074057850b1f3b2e31af579916e620e9e315ffd0da8d11f807a51b1d1a2d",
+    "d6f60ed1ccef9c843f9aa16eb2a14f34c31c162070cefb003dd651d5ff81a65d",
+    "9ca2bea2f8f26f6e92898f321fb2bbeb6a746d1602b60a2a32ab17b015df28cd",
+    "b6f6f4bfc09f321ea8e591aae3e25fa2b14f21f29a2abb4f35e1c35a19cfa3a5",
+    "2518424593f131bc475c998ff217f91cdf0d238fd23d9ae5508234c4abd16592"
+  ],
+  "elapsed_s": 13.177250146865845
+}

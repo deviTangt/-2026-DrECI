@@ -1,0 +1,61 @@
+{
+  "input_hash": "cffe450ebae3f65f6f0eaec1877e3856d03ec3ed13114b356361d59ae1aa72aa",
+  "sample_id": "ESC-CSV-09289",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "building",
+    "workers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d2c3223e92826c5513cd9551275d3ca4e0a10e7dd6c515ce2e1f12257c8ae5e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d2c3223e92826c5513cd9551275d3ca4e0a10e7dd6c515ce2e1f12257c8ae5e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c9a938506e7eb23dcef6b52ffd143c96e038be6d831aa7604abbe730df545d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9398ee7d94f63ad4f1abd90a614429094ad0dabb2dcc4cb1750a4d7e0de2228e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e15868a2e600c616ee8bfbae11f92fd32cf7f46d6bf478283ebae5c99137dec2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"building\",\"protests\",\"Athens\",\"austerity\",\"measures\"],\"target_related\":[\"bank\",\"workers\",\"women\",\"man\",\"demonstrations\"],\"mediators\":[\"building\",\"workers\"]}"
+    },
+    "indirect": {
+      "call_id": "ff87348150fc8eba0563c4cae29e46499ce29ed5c871a90aec1436063ea6a3e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'killed when the building they were in was torched' — 'when' links torching to killing; building (Z) was torched, causing workers' deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "d2c3223e92826c5513cd9551275d3ca4e0a10e7dd6c515ce2e1f12257c8ae5e0",
+    "d2c3223e92826c5513cd9551275d3ca4e0a10e7dd6c515ce2e1f12257c8ae5e0",
+    "2c9a938506e7eb23dcef6b52ffd143c96e038be6d831aa7604abbe730df545d6",
+    "9398ee7d94f63ad4f1abd90a614429094ad0dabb2dcc4cb1750a4d7e0de2228e",
+    "e15868a2e600c616ee8bfbae11f92fd32cf7f46d6bf478283ebae5c99137dec2",
+    "ff87348150fc8eba0563c4cae29e46499ce29ed5c871a90aec1436063ea6a3e6"
+  ],
+  "elapsed_s": 5.103740215301514
+}

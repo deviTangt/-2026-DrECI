@@ -1,0 +1,60 @@
+{
+  "input_hash": "da1b5652a147706ac8f4d5b01d88e466ad3988dd9793d7b9134dcddd2dc557bd",
+  "sample_id": "ESC-CSV-07270",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "he"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aacbb49a5b03afa2be3ed60ae1ec967e29a97329f67361a8f9562e7e2a6c6fb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aacbb49a5b03afa2be3ed60ae1ec967e29a97329f67361a8f9562e7e2a6c6fb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "071c3bb31c2af07ea31a5f392d2dc3cc69349941157fa72f911751c433ca8508",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "69b1b4907028ce7695b5d574faa2bf23c4f8d625375439ad70cb3dd91baecdf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b108c8c1d64acd88a8544d27e6ea186cbe649b6489a633537e0360f377d8bd35",
+      "status": "ok",
+      "text": "{\"source_related\":[\"CHP\",\"suspicion\",\"drunken driving\",\"he\"],\"target_related\":[\"county jail\",\"he\",\"released\",\"bond\"],\"mediators\":[\"he\"]}"
+    },
+    "indirect": {
+      "call_id": "f31e38f9b2bb7e4ca59482b6c5c8d19ddf0e35a0b55274e7e8857a624ab4c613",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested on suspicion of drunken driving precedes and leads to being booked into county jail, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "aacbb49a5b03afa2be3ed60ae1ec967e29a97329f67361a8f9562e7e2a6c6fb2",
+    "aacbb49a5b03afa2be3ed60ae1ec967e29a97329f67361a8f9562e7e2a6c6fb2",
+    "071c3bb31c2af07ea31a5f392d2dc3cc69349941157fa72f911751c433ca8508",
+    "69b1b4907028ce7695b5d574faa2bf23c4f8d625375439ad70cb3dd91baecdf4",
+    "b108c8c1d64acd88a8544d27e6ea186cbe649b6489a633537e0360f377d8bd35",
+    "f31e38f9b2bb7e4ca59482b6c5c8d19ddf0e35a0b55274e7e8857a624ab4c613"
+  ],
+  "elapsed_s": 4.377259254455566
+}

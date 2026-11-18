@@ -1,0 +1,66 @@
+{
+  "input_hash": "015976ca8785ac41fcff934ae3bb1bfe1e8e2706312c2e6c7160c9c77c59ba3c",
+  "sample_id": "ESC-CSV-07044",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers",
+    "defensive lineman",
+    "drunken driving",
+    "speeding",
+    "state Route 94",
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3b7b52f0e08b036bf8e859cbc58f7226d5ecc7731c305495182f39eb7e972ea3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3b7b52f0e08b036bf8e859cbc58f7226d5ecc7731c305495182f39eb7e972ea3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "caa947b8d0f2c95488996a8ff429cda951e7742d05b50982059fd59f78936967",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a1909c267e66c8092be3ef1e5b7f3fa023a8741aafd3731e7bcf5012fb637120",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fe124dd77b7078d18d100b75274632a0b148776a7efada7e0086d3cd13c43cac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers\",\"defensive lineman\",\"drunken driving\",\"speeding\",\"state Route 94\",\"California Highway Patrol\"],\"target_related\":[\"Jamal Williams\",\"Chargers\",\"defensive lineman\",\"Sunday\",\"drunken driving\",\"speeding\",\"state Route 94\",\"California Highway Patrol\"],\"mediators\":[\"Jamal Williams\",\"Chargers\",\"defensive lineman\",\"drunken driving\",\"speeding\",\"state Route 94\",\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "f5a9778294cedd55a943c6c25e01c31824a4125116345b0d9eba0c7ccb0c7a38",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested ... on suspicion of drunken driving' — 'on suspicion of' links DUI as the reason for arrest; common sense: DUI causes arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "3b7b52f0e08b036bf8e859cbc58f7226d5ecc7731c305495182f39eb7e972ea3",
+    "3b7b52f0e08b036bf8e859cbc58f7226d5ecc7731c305495182f39eb7e972ea3",
+    "caa947b8d0f2c95488996a8ff429cda951e7742d05b50982059fd59f78936967",
+    "a1909c267e66c8092be3ef1e5b7f3fa023a8741aafd3731e7bcf5012fb637120",
+    "fe124dd77b7078d18d100b75274632a0b148776a7efada7e0086d3cd13c43cac",
+    "f5a9778294cedd55a943c6c25e01c31824a4125116345b0d9eba0c7ccb0c7a38"
+  ],
+  "elapsed_s": 5.488655090332031
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "f96557cc8065b607a7a8b9bac49dd04876cbeae26b11c4601f3e93a885979049",
+  "sample_id": "ESC-CSV-04498",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "robbers",
+    "store",
+    "jewelry",
+    "watches",
+    "thieves",
+    "car",
+    "vehicle"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45500f53dd457e50a86ad7c79c382879a56d587dfe117e7820538133e2e11c17",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45500f53dd457e50a86ad7c79c382879a56d587dfe117e7820538133e2e11c17",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cae61ed7f4ddebbdfa21495b3cd061c79a1f8f88eecdb953932ef104aae5e7f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b686f85c1e70b898157abbd20aac05015582ee6689857d8770b10c0d0c5648cf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "57049b322868505baf11675a1823119f86e817f5ad8e4d58665f328b2cae87d4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"store\",\"jewelry\",\"watches\",\"thieves\",\"car\",\"vehicle\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"store\",\"car\",\"vehicle\"],\"mediators\":[\"robbers\",\"store\",\"jewelry\",\"watches\",\"thieves\",\"car\",\"vehicle\"]}"
+    },
+    "indirect": {
+      "call_id": "4aaaf5ca97b03d9277a377a637b4de86a6a6cbef67116c8fdf896f84ad4b2235",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The smash-and-grab is the overall crime; scooping up jewelry is part of it, not an effect caused by the smash. No causal rule links them.\"}"
+    }
+  },
+  "call_ids": [
+    "45500f53dd457e50a86ad7c79c382879a56d587dfe117e7820538133e2e11c17",
+    "45500f53dd457e50a86ad7c79c382879a56d587dfe117e7820538133e2e11c17",
+    "cae61ed7f4ddebbdfa21495b3cd061c79a1f8f88eecdb953932ef104aae5e7f9",
+    "b686f85c1e70b898157abbd20aac05015582ee6689857d8770b10c0d0c5648cf",
+    "57049b322868505baf11675a1823119f86e817f5ad8e4d58665f328b2cae87d4",
+    "4aaaf5ca97b03d9277a377a637b4de86a6a6cbef67116c8fdf896f84ad4b2235"
+  ],
+  "elapsed_s": 4.596155643463135
+}

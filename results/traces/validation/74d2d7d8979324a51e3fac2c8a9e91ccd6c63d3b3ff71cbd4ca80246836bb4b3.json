@@ -1,0 +1,66 @@
+{
+  "input_hash": "74d2d7d8979324a51e3fac2c8a9e91ccd6c63d3b3ff71cbd4ca80246836bb4b3",
+  "sample_id": "ESC-CSV-07297",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jackson",
+    "charges",
+    "driving",
+    "probation",
+    "prior DUI",
+    "arraignment",
+    "San Diego Superior Court"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d357a53cfb2b650fe52473d2f7706af825e1bdc80242f3b518e3a2f92118d4b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d357a53cfb2b650fe52473d2f7706af825e1bdc80242f3b518e3a2f92118d4b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ec8052045ff2bfff0e43324018d637ad972469542a8c332f9ace6b43a1a36848",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f760707aa83a7b4967d1ec7747b25f6ab97cc3d4e43d2d27f1e8f40e35655758",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fe75fa8cb84d24221d4912ba282cc85245ecfa3bff572f6244fe6f33a9b32a4f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Arrested\",\"CHP\",\"suspicion\",\"booked\",\"county jail\",\"released\",\"bond\",\"Jackson\",\"charges\",\"driving\",\"probation\",\"prior DUI\",\"arraignment\",\"San Diego Superior Court\"],\"target_related\":[\"Jackson\",\"charges\",\"driving\",\"probation\",\"prior DUI\",\"arraignment\",\"San Diego Superior Court\"],\"mediators\":[\"Jackson\",\"charges\",\"driving\",\"probation\",\"prior DUI\",\"arraignment\",\"San Diego Superior Court\"]}"
+    },
+    "indirect": {
+      "call_id": "d876b91fbc5b80cd63dc19e0663288bb9deac18c8c5f103bfec59d9dc86be980",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links drunken driving to facing; facing charges is a legal consequence, not caused by the DUI event per rules.\"}"
+    }
+  },
+  "call_ids": [
+    "d357a53cfb2b650fe52473d2f7706af825e1bdc80242f3b518e3a2f92118d4b5",
+    "d357a53cfb2b650fe52473d2f7706af825e1bdc80242f3b518e3a2f92118d4b5",
+    "ec8052045ff2bfff0e43324018d637ad972469542a8c332f9ace6b43a1a36848",
+    "f760707aa83a7b4967d1ec7747b25f6ab97cc3d4e43d2d27f1e8f40e35655758",
+    "fe75fa8cb84d24221d4912ba282cc85245ecfa3bff572f6244fe6f33a9b32a4f",
+    "d876b91fbc5b80cd63dc19e0663288bb9deac18c8c5f103bfec59d9dc86be980"
+  ],
+  "elapsed_s": 5.428289890289307
+}

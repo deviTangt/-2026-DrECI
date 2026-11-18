@@ -1,0 +1,62 @@
+{
+  "input_hash": "911d9bc395f530f9a69b4db10ce1da36c017fa4a56e70f99ec1c578442674d53",
+  "sample_id": "ESC-CSV-09737",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "police",
+    "rioters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0448b493b9654e9186a3b7e581d3540af2aaa554ecf06d864b52eaf3d1aecf45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0448b493b9654e9186a3b7e581d3540af2aaa554ecf06d864b52eaf3d1aecf45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f547d948fdcae3f1effec60c9aeb8b8364d455abbd17c0e8f07601f43ec555c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ab45d1f7bda507413ba44b8b2138ae5229e5a0109e115000bbd7ca3aafe748fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6485fb18484801038b6d6d32a9d10b302fb4383275801be9baf975d08486c5a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"city\",\"center\",\"rioters\"],\"target_related\":[\"protesters\",\"Molotov\",\"cocktails\",\"police\",\"rioters\",\"paving\",\"stones\",\"fire\",\"bombs\"],\"mediators\":[\"protesters\",\"police\",\"rioters\"]}"
+    },
+    "indirect": {
+      "call_id": "c04ed09e76dc5b094e0a7d963009a49aa5bd564b4c248a4d9b832e4bf77b6e53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Riots involve rioters; rioters hurled stones and fire bombs, forming chain Riots->rioters->hurled.\"}"
+    }
+  },
+  "call_ids": [
+    "0448b493b9654e9186a3b7e581d3540af2aaa554ecf06d864b52eaf3d1aecf45",
+    "0448b493b9654e9186a3b7e581d3540af2aaa554ecf06d864b52eaf3d1aecf45",
+    "f547d948fdcae3f1effec60c9aeb8b8364d455abbd17c0e8f07601f43ec555c3",
+    "ab45d1f7bda507413ba44b8b2138ae5229e5a0109e115000bbd7ca3aafe748fd",
+    "6485fb18484801038b6d6d32a9d10b302fb4383275801be9baf975d08486c5a3",
+    "c04ed09e76dc5b094e0a7d963009a49aa5bd564b4c248a4d9b832e4bf77b6e53"
+  ],
+  "elapsed_s": 5.171270132064819
+}

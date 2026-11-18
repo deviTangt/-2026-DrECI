@@ -1,0 +1,61 @@
+{
+  "input_hash": "67e0ae623b74f2eca92c2cc8eec2747e4d148583714ad2e516263f218fa8106d",
+  "sample_id": "ESC-CSV-04531",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "shop window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "56dcd063cf380df13f40e825570695aab6b48a7dd916fb8f5943d327f5ac7830",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "56dcd063cf380df13f40e825570695aab6b48a7dd916fb8f5943d327f5ac7830",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "19f2d6b608c1ba57713251cd9562029d65858db28a2e539b59e7b88674ac5e66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "68aa3748e56916545c004e07eccaf430d812d2aa58a1e596dcbcbd1e903de8ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "97c2269a997de1eda63b3d09e8b461567b7dc4eda45ebe02489794b759477690",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewellery store\",\"central Paris\",\"Monday\",\"shop window\"],\"target_related\":[\"Four men\",\"€2 million\",\"$2.6-million\",\"booty\",\"shop window\"],\"mediators\":[\"Four men\",\"shop window\"]}"
+    },
+    "indirect": {
+      "call_id": "72be8fb95c656b908c061d0f0a94956d8bdac269815f7c135bf3f765f1514597",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the store window enabled the men to grab the jewellery and flee; the smash precedes and causes the making off with the booty.\"}"
+    }
+  },
+  "call_ids": [
+    "56dcd063cf380df13f40e825570695aab6b48a7dd916fb8f5943d327f5ac7830",
+    "56dcd063cf380df13f40e825570695aab6b48a7dd916fb8f5943d327f5ac7830",
+    "19f2d6b608c1ba57713251cd9562029d65858db28a2e539b59e7b88674ac5e66",
+    "68aa3748e56916545c004e07eccaf430d812d2aa58a1e596dcbcbd1e903de8ba",
+    "97c2269a997de1eda63b3d09e8b461567b7dc4eda45ebe02489794b759477690",
+    "72be8fb95c656b908c061d0f0a94956d8bdac269815f7c135bf3f765f1514597"
+  ],
+  "elapsed_s": 4.84149956703186
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "87560d1580e2dcd39d3e12f19be4e89e626c59b5b6087085f8c1dff31b2f9c9c",
+  "sample_id": "ESC-CSV-02970",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protest",
+    "riot",
+    "Brooklyn",
+    "tonight",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "754177e30ac48d87bcaf1656454efb673f26b40298e1389a82199b1c13969998",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "754177e30ac48d87bcaf1656454efb673f26b40298e1389a82199b1c13969998",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fcad7fd0f8e5416f75ddb33a1813f9b16c3b3b4b205bdc1cae95180b06e7a6a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8589c6be4b9fb51f9435f00dff01c1f35cd584db408a128b4201d4112e0bf506",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f4e668ded394ea237df727d47a7221c53bfb2c30b72f28a8997ccd797b9346dc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"young people\",\"NYPD officers\",\"protest\",\"riot\",\"Brooklyn\",\"tonight\"],\"target_related\":[\"100 people\",\"officers\",\"protest\",\"riot\",\"Brooklyn\",\"tonight\",\"threw bottles\"],\"mediators\":[\"protest\",\"riot\",\"Brooklyn\",\"tonight\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "22ccfd5ff77c4d5150e63a6c8e3613929f75802fe2c44d61a886ca251e417b43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Lashing out at officers escalated the orderly protest into a riot; attacking police preceded and caused the rioting.\"}"
+    }
+  },
+  "call_ids": [
+    "754177e30ac48d87bcaf1656454efb673f26b40298e1389a82199b1c13969998",
+    "754177e30ac48d87bcaf1656454efb673f26b40298e1389a82199b1c13969998",
+    "fcad7fd0f8e5416f75ddb33a1813f9b16c3b3b4b205bdc1cae95180b06e7a6a0",
+    "8589c6be4b9fb51f9435f00dff01c1f35cd584db408a128b4201d4112e0bf506",
+    "f4e668ded394ea237df727d47a7221c53bfb2c30b72f28a8997ccd797b9346dc",
+    "22ccfd5ff77c4d5150e63a6c8e3613929f75802fe2c44d61a886ca251e417b43"
+  ],
+  "elapsed_s": 4.141566276550293
+}

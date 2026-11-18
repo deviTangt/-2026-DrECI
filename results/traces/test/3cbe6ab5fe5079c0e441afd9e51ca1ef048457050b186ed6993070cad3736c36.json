@@ -1,0 +1,64 @@
+{
+  "input_hash": "3cbe6ab5fe5079c0e441afd9e51ca1ef048457050b186ed6993070cad3736c36",
+  "sample_id": "ESC-CSV-04049",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "36-year-old",
+    "200 metres",
+    "steep ice gully",
+    "Tasman Saddle Hut",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "07f02ecb37e9980c9d2c1cd4c3aa92be80d325ee0e45878da37a571d0a1a96b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "07f02ecb37e9980c9d2c1cd4c3aa92be80d325ee0e45878da37a571d0a1a96b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d68585d898b2a0a0db972b828ea9b595e1e17a6d3264ece40dc0f02e061fed1b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4fc806d6df613a39fcb4924ba6ac381e7d32f730c31f54d07bc7381ee296961f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3d6eb70633494a7ba46832536385d7ce614dc02194516c5f783db292b526860b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"36-year-old\",\"Melbourne\",\"200 metres\",\"steep ice gully\",\"Tasman Saddle Hut\",\"police\"],\"target_related\":[\"brother\",\"witnessed\",\"night\",\"hut\",\"rescuers\"],\"mediators\":[\"36-year-old\",\"200 metres\",\"steep ice gully\",\"Tasman Saddle Hut\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "ec611c0f992145de2c8de3eab9158d210d5f84aa027888a3b120a902740f45ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping on ice naturally precedes and causes the subsequent fall down the gully; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "07f02ecb37e9980c9d2c1cd4c3aa92be80d325ee0e45878da37a571d0a1a96b6",
+    "07f02ecb37e9980c9d2c1cd4c3aa92be80d325ee0e45878da37a571d0a1a96b6",
+    "d68585d898b2a0a0db972b828ea9b595e1e17a6d3264ece40dc0f02e061fed1b",
+    "4fc806d6df613a39fcb4924ba6ac381e7d32f730c31f54d07bc7381ee296961f",
+    "3d6eb70633494a7ba46832536385d7ce614dc02194516c5f783db292b526860b",
+    "ec611c0f992145de2c8de3eab9158d210d5f84aa027888a3b120a902740f45ec"
+  ],
+  "elapsed_s": 4.684666872024536
+}

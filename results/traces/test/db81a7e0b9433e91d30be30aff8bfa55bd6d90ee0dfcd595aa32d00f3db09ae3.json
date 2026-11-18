@@ -1,0 +1,76 @@
+{
+  "input_hash": "db81a7e0b9433e91d30be30aff8bfa55bd6d90ee0dfcd595aa32d00f3db09ae3",
+  "sample_id": "ESC-CSV-04322",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "making off",
+    "two-million-euro",
+    "booty",
+    "police source",
+    "upscale Place Vendome",
+    "France",
+    "spate",
+    "high-profile robberies",
+    "southern resort",
+    "Cannes"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cb1a6490cced5b9ef15a1561dee8b8173c37fd225a33af51acbe99de4e02b112",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cb1a6490cced5b9ef15a1561dee8b8173c37fd225a33af51acbe99de4e02b112",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d9df08d007959fbfb908223ab2c142de0573ebd3afaf27dd946119f7deb9327",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4507dd9ad68f8e133bb04d05ac730a627e251991406e7dac232f77aa48a166c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "e1023117cd2e49edb374b42ad31485beb3fb3cc317fd5b695cd67b2cdf3ec396",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"two-million-euro\",\"booty\",\"police source\"],\"target_related\":[\"upscale Place Vendome\",\"France\",\"spate\",\"high-profile robberies\",\"southern resort\",\"Cannes\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"two-million-euro\",\"booty\",\"police source\",\"upscale Place Vendome\",\"France\",\"spate\",\"high-profile robberies\",\"southern resort\",\"Cannes\"]}"
+    },
+    "indirect": {
+      "call_id": "986f8118529ce049df0f3ffd9d00c58e383fd87b06567eee32f5af84b8439d9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window occurs before and enables the heist, making off with the booty; common sense supports smashing causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "cb1a6490cced5b9ef15a1561dee8b8173c37fd225a33af51acbe99de4e02b112",
+    "cb1a6490cced5b9ef15a1561dee8b8173c37fd225a33af51acbe99de4e02b112",
+    "7d9df08d007959fbfb908223ab2c142de0573ebd3afaf27dd946119f7deb9327",
+    "4507dd9ad68f8e133bb04d05ac730a627e251991406e7dac232f77aa48a166c3",
+    "e1023117cd2e49edb374b42ad31485beb3fb3cc317fd5b695cd67b2cdf3ec396",
+    "986f8118529ce049df0f3ffd9d00c58e383fd87b06567eee32f5af84b8439d9a"
+  ],
+  "elapsed_s": 4.942692995071411
+}

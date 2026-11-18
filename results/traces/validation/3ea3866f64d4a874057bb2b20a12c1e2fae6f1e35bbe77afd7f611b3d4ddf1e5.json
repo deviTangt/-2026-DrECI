@@ -1,0 +1,70 @@
+{
+  "input_hash": "3ea3866f64d4a874057bb2b20a12c1e2fae6f1e35bbe77afd7f611b3d4ddf1e5",
+  "sample_id": "ESC-CSV-01676",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "defendant",
+    "custody",
+    "status",
+    "Sheriff",
+    "detectives",
+    "prosecutors",
+    "Crimes Against Police Officers Section",
+    "CAPOS",
+    "Deputy Ortiz",
+    "killed",
+    "Cooley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1d20217650bf8864c42e4163d89ca4b929e243112f103bdc0daadeec2067dbb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1d20217650bf8864c42e4163d89ca4b929e243112f103bdc0daadeec2067dbb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bf14c8afab3e8de40dfac51a501fe3f4cecfe06001d89f819d2105b694863f50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5ecde1317e9eaa5bf129565de10c0983eeccdf4821e46fd727298a1ef6a0b520",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5a50f23d6bd521299841a9a18a72f565f315ce8e6443fc63314a6a903edf46f2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"head\",\"dying\",\"ground\",\"killer\",\"ran\",\"hide\",\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Deputy Ortiz\",\"killed\",\"Cooley\"],\"target_related\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"investigate\",\"case\",\"Deputy Ortiz\",\"working\",\"killed\",\"Cooley\"],\"mediators\":[\"defendant\",\"custody\",\"status\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Deputy Ortiz\",\"killed\",\"Cooley\"]}"
+    },
+    "indirect": {
+      "call_id": "f09f0ef4240700fdc88b827a6ee4202e07d03fca0665a05146be1c6923951045",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot in the head is a lethal act that causes death, so the shooting causes the murder by common sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "1d20217650bf8864c42e4163d89ca4b929e243112f103bdc0daadeec2067dbb5",
+    "1d20217650bf8864c42e4163d89ca4b929e243112f103bdc0daadeec2067dbb5",
+    "bf14c8afab3e8de40dfac51a501fe3f4cecfe06001d89f819d2105b694863f50",
+    "5ecde1317e9eaa5bf129565de10c0983eeccdf4821e46fd727298a1ef6a0b520",
+    "5a50f23d6bd521299841a9a18a72f565f315ce8e6443fc63314a6a903edf46f2",
+    "f09f0ef4240700fdc88b827a6ee4202e07d03fca0665a05146be1c6923951045"
+  ],
+  "elapsed_s": 6.389506816864014
+}

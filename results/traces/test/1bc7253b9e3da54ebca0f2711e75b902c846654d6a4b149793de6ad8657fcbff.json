@@ -1,0 +1,62 @@
+{
+  "input_hash": "1bc7253b9e3da54ebca0f2711e75b902c846654d6a4b149793de6ad8657fcbff",
+  "sample_id": "ESC-CSV-09691",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Three",
+    "bank",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ccfecac4f90673033eb48dd306ae787c01882beafaf339547fd5b8e52a78e69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ccfecac4f90673033eb48dd306ae787c01882beafaf339547fd5b8e52a78e69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a9aa253355a94c2a3b24a83352d5751440adb90b0e65591aa6a572e3f246e1e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7aaa27596d214c4bbcd900f5700da7ab272ef866c52af0d7580900068b238e10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "92bda895ce7550ca9aff65dce8875f483c23fe65fb2c8a43110f9ae73266a0f1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Three\",\"die\",\"bank\",\"Greek\"],\"target_related\":[\"Three\",\"bank\",\"Greek\",\"riots\"],\"mediators\":[\"Three\",\"bank\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "3d44b6695ad76a39e44a15f8901caf16169281329d99c2d96f170f7aeb9d3b36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occurring before deaths; common sense: violent riots can cause people to die, so riots cause die.\"}"
+    }
+  },
+  "call_ids": [
+    "6ccfecac4f90673033eb48dd306ae787c01882beafaf339547fd5b8e52a78e69",
+    "6ccfecac4f90673033eb48dd306ae787c01882beafaf339547fd5b8e52a78e69",
+    "a9aa253355a94c2a3b24a83352d5751440adb90b0e65591aa6a572e3f246e1e5",
+    "7aaa27596d214c4bbcd900f5700da7ab272ef866c52af0d7580900068b238e10",
+    "92bda895ce7550ca9aff65dce8875f483c23fe65fb2c8a43110f9ae73266a0f1",
+    "3d44b6695ad76a39e44a15f8901caf16169281329d99c2d96f170f7aeb9d3b36"
+  ],
+  "elapsed_s": 4.510013103485107
+}

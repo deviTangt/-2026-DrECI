@@ -1,0 +1,63 @@
+{
+  "input_hash": "d82f8d943c530bde8ff3dcb802d2f83134f8a81d94155906f79f62ac7b110f1f",
+  "sample_id": "ESC-CSV-09444",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "bomb",
+    "Greek",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ca9142ef0f986e06b0a15116fdb3bdcbdb64fbea4b9d2ba26b7c38f1af19bea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ca9142ef0f986e06b0a15116fdb3bdcbdb64fbea4b9d2ba26b7c38f1af19bea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aed27e5ffc31edffa2a0446e45d77a3e053c954b6891446418390eae9ab21b14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a96b7c7209ceacce7d037b0fd8af419d0f23c3066229cd45beceea7e5667df9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a815c8e679959e96e2d64bab0bf5d423deefe4256abb9dffd4590c169e7471d0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded\",\"youths\",\"hurled\",\"petrol\",\"bombs\",\"stores\",\"businesses\",\"centre\",\"capital\",\"Athens\",\"demonstrators\",\"storm\",\"parliament\",\"general\",\"strike\",\"spread\",\"northern\",\"city\",\"Thessaloniki\",\"rioters\",\"bomb\",\"Greek\",\"bank\"],\"target_related\":[\"Three\",\"rioters\",\"bomb\",\"Greek\",\"bank\"],\"mediators\":[\"rioters\",\"bomb\",\"Greek\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "07d901ed5afc45d025c726436b481665766a7c0e7231abb313f481452cd6b53f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Rioters bombing a bank caused three deaths; rioting precedes and leads to people being killed, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "6ca9142ef0f986e06b0a15116fdb3bdcbdb64fbea4b9d2ba26b7c38f1af19bea",
+    "6ca9142ef0f986e06b0a15116fdb3bdcbdb64fbea4b9d2ba26b7c38f1af19bea",
+    "aed27e5ffc31edffa2a0446e45d77a3e053c954b6891446418390eae9ab21b14",
+    "a96b7c7209ceacce7d037b0fd8af419d0f23c3066229cd45beceea7e5667df9b",
+    "a815c8e679959e96e2d64bab0bf5d423deefe4256abb9dffd4590c169e7471d0",
+    "07d901ed5afc45d025c726436b481665766a7c0e7231abb313f481452cd6b53f"
+  ],
+  "elapsed_s": 4.856227874755859
+}

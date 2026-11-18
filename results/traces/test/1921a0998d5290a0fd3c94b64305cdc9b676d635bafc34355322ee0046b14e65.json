@@ -1,0 +1,71 @@
+{
+  "input_hash": "1921a0998d5290a0fd3c94b64305cdc9b676d635bafc34355322ee0046b14e65",
+  "sample_id": "ESC-CSV-04256",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Duncan Rait",
+    "died",
+    "falling",
+    "ridge",
+    "Tasman Glacier",
+    "helicopter",
+    "group",
+    "walking",
+    "hut",
+    "sliding",
+    "steep slope",
+    "cliff"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b987dee824302e696c9c125ae4c820b81582bc1f1fdecfec48ad5877e07740b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b987dee824302e696c9c125ae4c820b81582bc1f1fdecfec48ad5877e07740b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2a0653aaed75f94086b2f7c5e9692fc33065af66fe593884e8e1c5035a4a9fe0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "43fa033676aa0dc1b583527fa01f8f40aa22fd45d05657658629fd427898cd9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f7ed4f0cbe0672fbc8acc66e808e49ae20f010eb27a2fbea0491a28a80478307",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Duncan Rait\",\"died\",\"falling\",\"ridge\",\"Tasman Glacier\",\"helicopter\",\"group\",\"walking\",\"hut\",\"fell\",\"sliding\",\"steep slope\",\"cliff\"],\"target_related\":[\"Duncan Rait\",\"died\",\"slipping\",\"falling\",\"ridge\",\"Tasman Glacier\",\"helicopter\",\"group\",\"walking\",\"hut\",\"sliding\",\"steep slope\",\"cliff\"],\"mediators\":[\"Duncan Rait\",\"died\",\"falling\",\"ridge\",\"Tasman Glacier\",\"helicopter\",\"group\",\"walking\",\"hut\",\"sliding\",\"steep slope\",\"cliff\"]}"
+    },
+    "indirect": {
+      "call_id": "d452fa7244f7ae594ab1ddb735e6c7ddf2ede28f37ef61c71a98af5a5039518f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping occurs before falling and naturally causes it; the text says he died after slipping and falling, so slipping led to the fall.\"}"
+    }
+  },
+  "call_ids": [
+    "b987dee824302e696c9c125ae4c820b81582bc1f1fdecfec48ad5877e07740b9",
+    "b987dee824302e696c9c125ae4c820b81582bc1f1fdecfec48ad5877e07740b9",
+    "2a0653aaed75f94086b2f7c5e9692fc33065af66fe593884e8e1c5035a4a9fe0",
+    "43fa033676aa0dc1b583527fa01f8f40aa22fd45d05657658629fd427898cd9f",
+    "f7ed4f0cbe0672fbc8acc66e808e49ae20f010eb27a2fbea0491a28a80478307",
+    "d452fa7244f7ae594ab1ddb735e6c7ddf2ede28f37ef61c71a98af5a5039518f"
+  ],
+  "elapsed_s": 4.375473737716675
+}

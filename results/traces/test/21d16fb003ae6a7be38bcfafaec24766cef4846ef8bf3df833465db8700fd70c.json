@@ -1,0 +1,62 @@
+{
+  "input_hash": "21d16fb003ae6a7be38bcfafaec24766cef4846ef8bf3df833465db8700fd70c",
+  "sample_id": "ESC-CSV-09496",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dd7705c8b519df439754cbd60c78f86cd646797858b1f373c7981d8c4d711e98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dd7705c8b519df439754cbd60c78f86cd646797858b1f373c7981d8c4d711e98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "737e91e97d0a101ced8aedc28d012d34e7bfade716ff86d027cdcf138a7a95ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "18ca04e5fb714d1736312808da1dc66db8f0707736ea680a1dfc013318e1d8e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "435e3dc50b460831a79e2521bdbffb9e684969c909d54d1fe56814d973936a47",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"economy\",\"rescuing\",\"country\"],\"target_related\":[\"nationwide\",\"Athens\",\"Greece\",\"rioters\",\"bank\",\"fire\"],\"mediators\":[\"Athens\",\"bank\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "495007c90776499537665728300f3c188bd988c42f6cac7d8fed5530c5f70afd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Strike was 'against huge spending cuts,' and 'by' in 'set fire...during a nationwide strike against...cuts' links cuts as cause of strike.\"}"
+    }
+  },
+  "call_ids": [
+    "dd7705c8b519df439754cbd60c78f86cd646797858b1f373c7981d8c4d711e98",
+    "dd7705c8b519df439754cbd60c78f86cd646797858b1f373c7981d8c4d711e98",
+    "737e91e97d0a101ced8aedc28d012d34e7bfade716ff86d027cdcf138a7a95ab",
+    "18ca04e5fb714d1736312808da1dc66db8f0707736ea680a1dfc013318e1d8e3",
+    "435e3dc50b460831a79e2521bdbffb9e684969c909d54d1fe56814d973936a47",
+    "495007c90776499537665728300f3c188bd988c42f6cac7d8fed5530c5f70afd"
+  ],
+  "elapsed_s": 4.882815837860107
+}

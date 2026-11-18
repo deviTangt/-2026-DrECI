@@ -1,0 +1,63 @@
+{
+  "input_hash": "c34b4eba526d9871c845af08151684b6e86a0d048c1c9f1c810bce9b706f2181",
+  "sample_id": "ESC-CSV-07170",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers",
+    "team",
+    "arrest"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6c644c9a2b45a42faedc3498fe6810db3f195088da925f190d5fd2f7740eb891",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6c644c9a2b45a42faedc3498fe6810db3f195088da925f190d5fd2f7740eb891",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "83da4c6dd2724dd18277254bec4fd178b715fe8a5092c71e0e9b1c3adc889ed2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a5a5ff66a78ed6cc2ee12bb9e4f2bf2fe1256e7e48da3c5dae34e550a48909c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "416ffafb567e1454392c6378a4d5089d0ad4f71c9490b17151f353b91e8f7892",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers\",\"team\",\"arrest\"],\"target_related\":[\"Jamal Williams\",\"Chargers\",\"team\",\"arrest\"],\"mediators\":[\"Jamal Williams\",\"Chargers\",\"team\",\"arrest\"]}"
+    },
+    "indirect": {
+      "call_id": "d195655cac5106626c65270522f1b1a9aa35b02fb3b68e8141e9566ccdd268f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states Williams was arrested for DUI; 'for' links arrest to DUI as reason, but no explicit/implicit causal verb, causal order, coreference, chain, collider, or fork between Arrested and DUI.\"}"
+    }
+  },
+  "call_ids": [
+    "6c644c9a2b45a42faedc3498fe6810db3f195088da925f190d5fd2f7740eb891",
+    "6c644c9a2b45a42faedc3498fe6810db3f195088da925f190d5fd2f7740eb891",
+    "83da4c6dd2724dd18277254bec4fd178b715fe8a5092c71e0e9b1c3adc889ed2",
+    "0a5a5ff66a78ed6cc2ee12bb9e4f2bf2fe1256e7e48da3c5dae34e550a48909c",
+    "416ffafb567e1454392c6378a4d5089d0ad4f71c9490b17151f353b91e8f7892",
+    "d195655cac5106626c65270522f1b1a9aa35b02fb3b68e8141e9566ccdd268f7"
+  ],
+  "elapsed_s": 4.720830202102661
+}

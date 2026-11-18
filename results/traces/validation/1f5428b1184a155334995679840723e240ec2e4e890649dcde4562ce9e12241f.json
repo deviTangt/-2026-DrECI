@@ -1,0 +1,62 @@
+{
+  "input_hash": "1f5428b1184a155334995679840723e240ec2e4e890649dcde4562ce9e12241f",
+  "sample_id": "ESC-CSV-02581",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police",
+    "protesters",
+    "rioting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5bd33fd5e551e2072d4944a3a7b6d77e9bc4b96c5983bc78263ef9e9e36662f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5bd33fd5e551e2072d4944a3a7b6d77e9bc4b96c5983bc78263ef9e9e36662f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9886dc8ff140215c7d8e2daa5682278a61159be6ac11160020f3e43fb075cca2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "488146cbad219ae44b67abb0ddfbdcb6b90b9244fadf5c1669ecd03e61159bd7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "95f5919d790468647e65d94dbb6c721602d1f06b32c8fd889e930d7925ec121d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"16 - year - old\",\"back\",\"Police\",\"rioting\",\"protesters\",\"cops\"],\"target_related\":[\"crowd\",\"Police\",\"protesters\",\"rioting\",\"vigil\"],\"mediators\":[\"Police\",\"protesters\",\"rioting\"]}"
+    },
+    "indirect": {
+      "call_id": "a128660d190f492a99406d5a0858b44b3ba5c4f170273bffa8a4772768430a3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The shooting revelation sparked the furious crowd's rioting; 'after it's revealed...was shot' precedes and provokes the furious crowd.\"}"
+    }
+  },
+  "call_ids": [
+    "5bd33fd5e551e2072d4944a3a7b6d77e9bc4b96c5983bc78263ef9e9e36662f2",
+    "5bd33fd5e551e2072d4944a3a7b6d77e9bc4b96c5983bc78263ef9e9e36662f2",
+    "9886dc8ff140215c7d8e2daa5682278a61159be6ac11160020f3e43fb075cca2",
+    "488146cbad219ae44b67abb0ddfbdcb6b90b9244fadf5c1669ecd03e61159bd7",
+    "95f5919d790468647e65d94dbb6c721602d1f06b32c8fd889e930d7925ec121d",
+    "a128660d190f492a99406d5a0858b44b3ba5c4f170273bffa8a4772768430a3d"
+  ],
+  "elapsed_s": 11.367156982421875
+}

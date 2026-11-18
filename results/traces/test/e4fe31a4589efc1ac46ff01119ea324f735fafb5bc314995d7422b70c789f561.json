@@ -1,0 +1,62 @@
+{
+  "input_hash": "e4fe31a4589efc1ac46ff01119ea324f735fafb5bc314995d7422b70c789f561",
+  "sample_id": "ESC-CSV-06839",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "shot",
+    "gunfire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15cc955ffdbd6e57a6c6bab6f94a539a933dd62a8bca0601d6bd283b6b3dd2b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15cc955ffdbd6e57a6c6bab6f94a539a933dd62a8bca0601d6bd283b6b3dd2b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d2fd54c94aed286bf71c8803aa7197d52b0e479ad73fd41763ade55effde525e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ba456bdc5e9669ed96555ce21b2af3db24d9ef860738a0221607fdae75fc020b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5f0081f46645122728264b5adf6cdad8954834fdf77eb5456f724b4f8ebb61dc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"teens\",\"arrested\",\"Tuesday\",\"Friday\",\"Brownsville\",\"school\",\"Zurana Horton\",\"shot\",\"gunfire\"],\"target_related\":[\"Horton\",\"students\",\"gunfire\",\"shot\",\"chest\",\"face\"],\"mediators\":[\"Horton\",\"shot\",\"gunfire\"]}"
+    },
+    "indirect": {
+      "call_id": "245a5f73dc9c4220e00470f77d0df6176c766aa306395291d150f8af3f3b4806",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred, and Horton attempted to protect students from the gunfire, dying from a shot; the shooting prompted her protective act.\"}"
+    }
+  },
+  "call_ids": [
+    "15cc955ffdbd6e57a6c6bab6f94a539a933dd62a8bca0601d6bd283b6b3dd2b0",
+    "15cc955ffdbd6e57a6c6bab6f94a539a933dd62a8bca0601d6bd283b6b3dd2b0",
+    "d2fd54c94aed286bf71c8803aa7197d52b0e479ad73fd41763ade55effde525e",
+    "ba456bdc5e9669ed96555ce21b2af3db24d9ef860738a0221607fdae75fc020b",
+    "5f0081f46645122728264b5adf6cdad8954834fdf77eb5456f724b4f8ebb61dc",
+    "245a5f73dc9c4220e00470f77d0df6176c766aa306395291d150f8af3f3b4806"
+  ],
+  "elapsed_s": 4.389326572418213
+}

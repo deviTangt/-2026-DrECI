@@ -1,0 +1,61 @@
+{
+  "input_hash": "6fa92d10297ebb3b4ef6ef8d47957bb0acf289d0f08bd1fe04730ce36e1b736d",
+  "sample_id": "ESC-CSV-02770",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "hospital"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "39a157ffb5f7aa5e59acaa9fb58966b0cb14bc41d7bb931ae71a167f652ba821",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "39a157ffb5f7aa5e59acaa9fb58966b0cb14bc41d7bb931ae71a167f652ba821",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "80eb1182b16c14216d7798cfd936e3882c89f4ffade38003a7a94000a4f6bde3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d8d6a438d7aea54685e6a425a2fa5de4849348c977fbc295689adc635e97cc31",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "526f5135bc1dbe5b33272f9628cb4914a3578038e3c419a3175f2ab50fe3a717",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"rushed\",\"hospital\"],\"target_related\":[\"Gray\",\"hospital\",\"arrival\"],\"mediators\":[\"Gray\",\"hospital\"]}"
+    },
+    "indirect": {
+      "call_id": "3354fed77c30193522169f7a2d81362d036115fbc0a3e9d6cce16f278132ad17",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: being shot causes death; the shooting occurred before Gray was declared dead on arrival.\"}"
+    }
+  },
+  "call_ids": [
+    "39a157ffb5f7aa5e59acaa9fb58966b0cb14bc41d7bb931ae71a167f652ba821",
+    "39a157ffb5f7aa5e59acaa9fb58966b0cb14bc41d7bb931ae71a167f652ba821",
+    "80eb1182b16c14216d7798cfd936e3882c89f4ffade38003a7a94000a4f6bde3",
+    "d8d6a438d7aea54685e6a425a2fa5de4849348c977fbc295689adc635e97cc31",
+    "526f5135bc1dbe5b33272f9628cb4914a3578038e3c419a3175f2ab50fe3a717",
+    "3354fed77c30193522169f7a2d81362d036115fbc0a3e9d6cce16f278132ad17"
+  ],
+  "elapsed_s": 4.761967658996582
+}

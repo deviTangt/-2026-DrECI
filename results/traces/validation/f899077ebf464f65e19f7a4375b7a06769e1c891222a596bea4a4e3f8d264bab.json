@@ -1,0 +1,67 @@
+{
+  "input_hash": "f899077ebf464f65e19f7a4375b7a06769e1c891222a596bea4a4e3f8d264bab",
+  "sample_id": "ESC-CSV-02377",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "three people",
+    "accounting firm",
+    "fired",
+    "arrested",
+    "high-speed chase",
+    "Monday morning attack",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eeddbd2b21d90b39c1fd7f0c6515b77853a4b3db938982fdd8d7fa3afc6a6e3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eeddbd2b21d90b39c1fd7f0c6515b77853a4b3db938982fdd8d7fa3afc6a6e3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "12a425654ae1f2804f5040b1e89ba8e3ed8bc92f25ca29581ee5e4fb3bb954b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fcab9df8add20b45d40316ea06cb99edf60b2c2ece0569870c7a39053ff5cef6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cc1ef71d3466e5b2bcb998777bcdc98ef6e9a4b8c5a4462cb3aac2175da0dd28",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"three people\",\"accounting firm\",\"fired\",\"arrested\",\"high-speed chase\",\"Monday morning attack\",\"authorities\"],\"target_related\":[\"man\",\"three people\",\"accounting firm\",\"fired\",\"arrested\",\"high-speed chase\",\"Monday morning attack\",\"authorities\"],\"mediators\":[\"man\",\"three people\",\"accounting firm\",\"fired\",\"arrested\",\"high-speed chase\",\"Monday morning attack\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "904b9e4c119ac9297099bacb8dac20ae21bef478adf9d7d3a5250cd0b11ccd7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people caused one death; common sense holds that shooting can cause killing, and the shooting precedes the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "eeddbd2b21d90b39c1fd7f0c6515b77853a4b3db938982fdd8d7fa3afc6a6e3f",
+    "eeddbd2b21d90b39c1fd7f0c6515b77853a4b3db938982fdd8d7fa3afc6a6e3f",
+    "12a425654ae1f2804f5040b1e89ba8e3ed8bc92f25ca29581ee5e4fb3bb954b1",
+    "fcab9df8add20b45d40316ea06cb99edf60b2c2ece0569870c7a39053ff5cef6",
+    "cc1ef71d3466e5b2bcb998777bcdc98ef6e9a4b8c5a4462cb3aac2175da0dd28",
+    "904b9e4c119ac9297099bacb8dac20ae21bef478adf9d7d3a5250cd0b11ccd7b"
+  ],
+  "elapsed_s": 12.259360551834106
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "6829522bf20e42ae55038e72b97f40ed6bfc0a26d57d2d7a93ce8a278986d96c",
+  "sample_id": "ESC-CSV-01790",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy",
+    "killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5fe860caa61192f043ffc366121bde479eeb55f0eb78301a37de264afca171e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5fe860caa61192f043ffc366121bde479eeb55f0eb78301a37de264afca171e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a9aca7437593de786471cdf8b967e3b17cef8549b3c3c045fb8cbe489fa0916",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9e483dfbca40ddf2574c6232354b622d614d9cc5224223b1139cae76aa2643bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c9a3d3f41704e7bd2d61174cd69dfc590ab62b5a87c1d4b646c1de1159241438",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Luis Gerardo \\\"Jerry\\\" Ortiz\",\"35\",\"Hawaiian Gardens\",\"apartment\",\"building\",\"investigating\",\"Jose Luis Orozco\",\"another\",\"shooting\",\"killer\"],\"target_related\":[\"Deputy\",\"killer\",\"death\"],\"mediators\":[\"Deputy\",\"killer\"]}"
+    },
+    "indirect": {
+      "call_id": "687fdba9fd73a0b0d57a56977641765e7be4d8439eafc5e0502107b5f4f8e96f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot (the deputy's killing) precedes and causes the killer's death sentence; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "5fe860caa61192f043ffc366121bde479eeb55f0eb78301a37de264afca171e7",
+    "5fe860caa61192f043ffc366121bde479eeb55f0eb78301a37de264afca171e7",
+    "4a9aca7437593de786471cdf8b967e3b17cef8549b3c3c045fb8cbe489fa0916",
+    "9e483dfbca40ddf2574c6232354b622d614d9cc5224223b1139cae76aa2643bb",
+    "c9a3d3f41704e7bd2d61174cd69dfc590ab62b5a87c1d4b646c1de1159241438",
+    "687fdba9fd73a0b0d57a56977641765e7be4d8439eafc5e0502107b5f4f8e96f"
+  ],
+  "elapsed_s": 5.857986211776733
+}

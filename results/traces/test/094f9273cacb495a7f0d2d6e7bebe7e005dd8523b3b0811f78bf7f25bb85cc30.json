@@ -1,0 +1,60 @@
+{
+  "input_hash": "094f9273cacb495a7f0d2d6e7bebe7e005dd8523b3b0811f78bf7f25bb85cc30",
+  "sample_id": "ESC-CSV-09300",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "country"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cbc6f4e5e8e67b8604ff1ac3346c6a04bc58a40ceb463914ab60c49b4443b95c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cbc6f4e5e8e67b8604ff1ac3346c6a04bc58a40ceb463914ab60c49b4443b95c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "185589c8bcfe9a5deb4500fe6ee2758c84d50d97334fea55fee7a8d5d8123b1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "09d8d3bee9613d09be9c8b3c8b5c826729a24775abab398bcff2f0001ce49a36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dd12069aefb2cf8448cc34e7e2455a9ab4a572b3bef6fbd5d5d244b45bb9725f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"protest\",\"Greeks\",\"streets\",\"harsh\"],\"target_related\":[\"saving\",\"country\",\"saving the country\"],\"mediators\":[\"country\"]}"
+    },
+    "indirect": {
+      "call_id": "877863eed98de158ccf37a37428b4c37cadbd944fc2d965007c381dd2a62708c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Cuts are 'aimed at saving the country from bankruptcy,' explicitly linking the cuts to preventing bankruptcy.\"}"
+    }
+  },
+  "call_ids": [
+    "cbc6f4e5e8e67b8604ff1ac3346c6a04bc58a40ceb463914ab60c49b4443b95c",
+    "cbc6f4e5e8e67b8604ff1ac3346c6a04bc58a40ceb463914ab60c49b4443b95c",
+    "185589c8bcfe9a5deb4500fe6ee2758c84d50d97334fea55fee7a8d5d8123b1e",
+    "09d8d3bee9613d09be9c8b3c8b5c826729a24775abab398bcff2f0001ce49a36",
+    "dd12069aefb2cf8448cc34e7e2455a9ab4a572b3bef6fbd5d5d244b45bb9725f",
+    "877863eed98de158ccf37a37428b4c37cadbd944fc2d965007c381dd2a62708c"
+  ],
+  "elapsed_s": 4.407994747161865
+}

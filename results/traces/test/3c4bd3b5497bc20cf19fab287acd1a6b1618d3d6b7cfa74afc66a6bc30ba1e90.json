@@ -1,0 +1,60 @@
+{
+  "input_hash": "3c4bd3b5497bc20cf19fab287acd1a6b1618d3d6b7cfa74afc66a6bc30ba1e90",
+  "sample_id": "ESC-CSV-04293",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "ice"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7c06a740d759c8d3803be7821894994a1f4b912bef778283aad8041babc373cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7c06a740d759c8d3803be7821894994a1f4b912bef778283aad8041babc373cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "056adcd1648f37800da790d33ee19b74a56ec7ebb7f398ad336931853c3fd758",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6e590460f4dfc9f362d92e51f1088cd5d4b8b4af45ef7301086d4f4c12457466",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "57532acc0bc68ca67f453de693a859c805468ae6c6dc9fa854afe023c63738dd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"ice\"],\"target_related\":[\"700\",\"meters\",\"death\"],\"mediators\":[\"ice\"]}"
+    },
+    "indirect": {
+      "call_id": "ddcefbd5a7c38fb0594716b8603f8fd4f98ac99ed59d740fd547e402cb8cc57c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping on ice naturally causes a person to lose footing and fall, so X (slipped) precedes and causes Y (fell).\"}"
+    }
+  },
+  "call_ids": [
+    "7c06a740d759c8d3803be7821894994a1f4b912bef778283aad8041babc373cd",
+    "7c06a740d759c8d3803be7821894994a1f4b912bef778283aad8041babc373cd",
+    "056adcd1648f37800da790d33ee19b74a56ec7ebb7f398ad336931853c3fd758",
+    "6e590460f4dfc9f362d92e51f1088cd5d4b8b4af45ef7301086d4f4c12457466",
+    "57532acc0bc68ca67f453de693a859c805468ae6c6dc9fa854afe023c63738dd",
+    "ddcefbd5a7c38fb0594716b8603f8fd4f98ac99ed59d740fd547e402cb8cc57c"
+  ],
+  "elapsed_s": 4.99299955368042
+}

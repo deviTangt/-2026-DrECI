@@ -1,0 +1,63 @@
+{
+  "input_hash": "db9fe85406eac362301a73ab66d127fadcb30de1a350a48a5e831d3aa5150137",
+  "sample_id": "ESC-CSV-02271",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shotgun",
+    "office",
+    "bosses"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ccaa2623a5376026ab5bfb6e2e1a3ae6341c73c2bf1e58600a68b5b71e21e62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ccaa2623a5376026ab5bfb6e2e1a3ae6341c73c2bf1e58600a68b5b71e21e62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "35442dddf51e8847e4800844f04bc966f3c3374d4719fcb9523b396f8ee4446c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e1f9ae4c8c0c96b5e65458d3711bc7e8cf22f8e845efa1f504e30173afc498c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8f6c63e7278394bb40b98d545031f2914514908fd680480feac03fa1b167e8e1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\"],\"target_related\":[\"accountant\",\"shotgun\",\"office\",\"bosses\",\"receptionist\"],\"mediators\":[\"accountant\",\"shotgun\",\"office\",\"bosses\"]}"
+    },
+    "indirect": {
+      "call_id": "06b2fe9bd0e130698098f5d64d8c18246823b92244d72597206ccfb25b5ee80e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job (being fired) prompted the accountant to buy a shotgun and return to open fire, so X precedes and causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0ccaa2623a5376026ab5bfb6e2e1a3ae6341c73c2bf1e58600a68b5b71e21e62",
+    "0ccaa2623a5376026ab5bfb6e2e1a3ae6341c73c2bf1e58600a68b5b71e21e62",
+    "35442dddf51e8847e4800844f04bc966f3c3374d4719fcb9523b396f8ee4446c",
+    "e1f9ae4c8c0c96b5e65458d3711bc7e8cf22f8e845efa1f504e30173afc498c0",
+    "8f6c63e7278394bb40b98d545031f2914514908fd680480feac03fa1b167e8e1",
+    "06b2fe9bd0e130698098f5d64d8c18246823b92244d72597206ccfb25b5ee80e"
+  ],
+  "elapsed_s": 9.146322250366211
+}

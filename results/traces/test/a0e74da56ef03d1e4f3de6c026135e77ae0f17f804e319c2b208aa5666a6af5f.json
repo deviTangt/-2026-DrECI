@@ -1,0 +1,65 @@
+{
+  "input_hash": "a0e74da56ef03d1e4f3de6c026135e77ae0f17f804e319c2b208aa5666a6af5f",
+  "sample_id": "ESC-CSV-04011",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "man",
+    "killed",
+    "climber",
+    "mountain",
+    "New Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bf770253a9a7078a1e66f373525380e300fe52b7cef570fa0a824c74a65a817d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bf770253a9a7078a1e66f373525380e300fe52b7cef570fa0a824c74a65a817d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "54fc23724668a718a838c76bbcc24d6cb0f68722a2d38c26a6322b86e3a5c4b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "80a1ec0a5576c71cae0253ed3a5e34bde5ef051683d1b353e81a40010d1d4acb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4abd35cfc88a6ca20eef1be94a680053aa68015c08821cff1e6e06fb79e36fa5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"man\",\"killed\",\"climbing\",\"New Zealand\",\"climber\",\"mountain\"],\"target_related\":[\"British\",\"man\",\"killed\",\"climber\",\"mountain\",\"New Zealand\"],\"mediators\":[\"British\",\"man\",\"killed\",\"climber\",\"mountain\",\"New Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "e98445227d2504037ab18053a89ff57681b91e3a9f239a2b0f7cff5315a01acc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed after falling' — 'after' plus 'killed' explicitly links falling to death; common sense: a 2,000ft fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "bf770253a9a7078a1e66f373525380e300fe52b7cef570fa0a824c74a65a817d",
+    "bf770253a9a7078a1e66f373525380e300fe52b7cef570fa0a824c74a65a817d",
+    "54fc23724668a718a838c76bbcc24d6cb0f68722a2d38c26a6322b86e3a5c4b0",
+    "80a1ec0a5576c71cae0253ed3a5e34bde5ef051683d1b353e81a40010d1d4acb",
+    "4abd35cfc88a6ca20eef1be94a680053aa68015c08821cff1e6e06fb79e36fa5",
+    "e98445227d2504037ab18053a89ff57681b91e3a9f239a2b0f7cff5315a01acc"
+  ],
+  "elapsed_s": 4.3106372356414795
+}

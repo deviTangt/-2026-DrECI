@@ -1,0 +1,65 @@
+{
+  "input_hash": "fad207df4aef6d20438fd16da1df6ceaa2be9ba1d83ed38896633d47af18cb64",
+  "sample_id": "ESC-CSV-02627",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "police",
+    "teenager",
+    "Brooklyn",
+    "death",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "355305fa47c54cc99bc6c5da69d3b2feab0deacc0bbf91a02658ebacccbde2a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "355305fa47c54cc99bc6c5da69d3b2feab0deacc0bbf91a02658ebacccbde2a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "949b67ce6bedd937b6ac03f21ed0b72ed66c1a1644c71d0ef31aa23d42db42da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3c71b6e8f970d3181bc24d717849b838be758bde3b73af7a5e782935e7be2653",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8f80bcedcd728060c1d68f74b1400c83cd9030e8cd4502737bfb1c4e3eb1a002",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\",\"death\",\"killed\"],\"target_related\":[\"riot\",\"death\",\"Brooklyn\",\"teenager\",\"cops\",\"police\",\"vigil\",\"killed\"],\"mediators\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"death\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "5b80ead53e5b0c91b4c92c092f4540671261df0498f69e980723150b88213021",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death of a Brooklyn teenager shot and killed by police fueled a riot; 'fueled' implicitly links the shooting to the anger.\"}"
+    }
+  },
+  "call_ids": [
+    "355305fa47c54cc99bc6c5da69d3b2feab0deacc0bbf91a02658ebacccbde2a7",
+    "355305fa47c54cc99bc6c5da69d3b2feab0deacc0bbf91a02658ebacccbde2a7",
+    "949b67ce6bedd937b6ac03f21ed0b72ed66c1a1644c71d0ef31aa23d42db42da",
+    "3c71b6e8f970d3181bc24d717849b838be758bde3b73af7a5e782935e7be2653",
+    "8f80bcedcd728060c1d68f74b1400c83cd9030e8cd4502737bfb1c4e3eb1a002",
+    "5b80ead53e5b0c91b4c92c092f4540671261df0498f69e980723150b88213021"
+  ],
+  "elapsed_s": 4.634581565856934
+}

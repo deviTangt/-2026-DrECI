@@ -1,0 +1,60 @@
+{
+  "input_hash": "cd1cfcf499d8f1b164eb14afa874e75241ccd9f899f222f46845bf8d230359a5",
+  "sample_id": "ESC-CSV-04661",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b08508a6411db7c2b111a34553b0c52ae4446a232499849c7b238325e5f98e98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b08508a6411db7c2b111a34553b0c52ae4446a232499849c7b238325e5f98e98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "af58a83336c298b799ee72b6d9611c2fac9fa9b7ec37db81515345ff40de209c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a218b8f5846498c8d14ee48eb0bf3dfb1b3a3fbfe6004dbc2d6acc951f0ae374",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2acd77066f2544305d4d10fe7ee78fe82c2df1ef185d3671bd6ea43c5a26e795",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"4x4\",\"Paris\",\"shop\"],\"target_related\":[\"jewellery\",\"robbery\",\"Paris\",\"France\",\"summer\"],\"mediators\":[\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "7a50610e6ed92103141f3303690a5cc6ee0f6e02dcc38e2a96fad9c25c484b77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming a 4x4 into a shop enables robbers to steal jewels, so the ram causes the theft by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "b08508a6411db7c2b111a34553b0c52ae4446a232499849c7b238325e5f98e98",
+    "b08508a6411db7c2b111a34553b0c52ae4446a232499849c7b238325e5f98e98",
+    "af58a83336c298b799ee72b6d9611c2fac9fa9b7ec37db81515345ff40de209c",
+    "a218b8f5846498c8d14ee48eb0bf3dfb1b3a3fbfe6004dbc2d6acc951f0ae374",
+    "2acd77066f2544305d4d10fe7ee78fe82c2df1ef185d3671bd6ea43c5a26e795",
+    "7a50610e6ed92103141f3303690a5cc6ee0f6e02dcc38e2a96fad9c25c484b77"
+  ],
+  "elapsed_s": 4.771623849868774
+}

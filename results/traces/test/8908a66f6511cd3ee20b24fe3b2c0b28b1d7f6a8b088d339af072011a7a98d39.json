@@ -1,0 +1,62 @@
+{
+  "input_hash": "8908a66f6511cd3ee20b24fe3b2c0b28b1d7f6a8b088d339af072011a7a98d39",
+  "sample_id": "ESC-CSV-04169",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "climber",
+    "New Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6cb3b0bf4308c581cb2a74147385c3b9cc85f32d325c0f21ada36050e844359a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6cb3b0bf4308c581cb2a74147385c3b9cc85f32d325c0f21ada36050e844359a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "49d5a158aef48b68e82f40946ae48ee55128356c0eb5bb440f7a994a61064a7c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "049220d0398b03dba86f335f239be0fdbbca9a38afb3edae3ae3fa84f5ddef62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0ad59a456a99255fb8f9547ed0f14741b2fa5a4129201d48c33c62414a589359",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"climber\",\"death\",\"New Zealand\"],\"target_related\":[\"British\",\"climber\",\"New Zealand\",\"fall\"],\"mediators\":[\"British\",\"climber\",\"New Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "4ab3baae6630674a32362664708e34ca2174bbf60843b2dd2f15acd2f2685c5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling from a height causes death; the fall precedes and leads to the climber's death, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "6cb3b0bf4308c581cb2a74147385c3b9cc85f32d325c0f21ada36050e844359a",
+    "6cb3b0bf4308c581cb2a74147385c3b9cc85f32d325c0f21ada36050e844359a",
+    "49d5a158aef48b68e82f40946ae48ee55128356c0eb5bb440f7a994a61064a7c",
+    "049220d0398b03dba86f335f239be0fdbbca9a38afb3edae3ae3fa84f5ddef62",
+    "0ad59a456a99255fb8f9547ed0f14741b2fa5a4129201d48c33c62414a589359",
+    "4ab3baae6630674a32362664708e34ca2174bbf60843b2dd2f15acd2f2685c5a"
+  ],
+  "elapsed_s": 4.3912107944488525
+}

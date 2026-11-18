@@ -1,0 +1,71 @@
+{
+  "input_hash": "70b9c3e0a2b3b5d48f21f0c490c4797a032ef09ffde37497ea58f2480f2d8689",
+  "sample_id": "ESC-CSV-06500",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "mother",
+    "child",
+    "school",
+    "daughter",
+    "police",
+    "Lopez",
+    "bullet",
+    "shot",
+    "dead",
+    "shielding",
+    "gang",
+    "children"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "376a2568b4edd7c1a229c1dcc9ea9197f650a94a039cfdcc0367f0d05f7759af",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "376a2568b4edd7c1a229c1dcc9ea9197f650a94a039cfdcc0367f0d05f7759af",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7c6ea50ad74cdf3ff48b531772114264106d5f979b380307c843076cecfa6757",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8a7d8005725cfc43c1cd0aca45c97d183c6d41000e735004aeaf3a71ecb95c62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "039782bb5f677b4342902a96d4660d630340b5da453be94b77d1df7f3bd36730",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bullet\",\"mother\",\"shot\",\"dead\",\"shielding\",\"child\",\"school\",\"daughter\",\"police\",\"Lopez\",\"gang\",\"members\",\"children\"],\"target_related\":[\"gang\",\"attack\",\"mother\",\"child\",\"school\",\"daughter\",\"police\",\"Lopez\",\"bullet\",\"shot\",\"dead\",\"shielding\",\"children\"],\"mediators\":[\"mother\",\"child\",\"school\",\"daughter\",\"police\",\"Lopez\",\"bullet\",\"shot\",\"dead\",\"shielding\",\"gang\",\"children\"]}"
+    },
+    "indirect": {
+      "call_id": "63d5914347f75f112294fe7a770e4e3c848178523de401a553206250fbad3acb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The stray bullet hit the mother; she was caught up in the gang attack. The hit does not cause her to be caught up; both describe the same incident without causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "376a2568b4edd7c1a229c1dcc9ea9197f650a94a039cfdcc0367f0d05f7759af",
+    "376a2568b4edd7c1a229c1dcc9ea9197f650a94a039cfdcc0367f0d05f7759af",
+    "7c6ea50ad74cdf3ff48b531772114264106d5f979b380307c843076cecfa6757",
+    "8a7d8005725cfc43c1cd0aca45c97d183c6d41000e735004aeaf3a71ecb95c62",
+    "039782bb5f677b4342902a96d4660d630340b5da453be94b77d1df7f3bd36730",
+    "63d5914347f75f112294fe7a770e4e3c848178523de401a553206250fbad3acb"
+  ],
+  "elapsed_s": 5.671756029129028
+}

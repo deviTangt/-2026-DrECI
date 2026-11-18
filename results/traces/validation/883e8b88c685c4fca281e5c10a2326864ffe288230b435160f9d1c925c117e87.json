@@ -1,0 +1,63 @@
+{
+  "input_hash": "883e8b88c685c4fca281e5c10a2326864ffe288230b435160f9d1c925c117e87",
+  "sample_id": "ESC-CSV-07132",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "freeway",
+    "Sunday",
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0d24aa0232252e38c103209a8e179812a278793cea1c59106a00c9ff9abd94d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0d24aa0232252e38c103209a8e179812a278793cea1c59106a00c9ff9abd94d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f59c6b2f229514b81b1eeafcd77fd3eb9e1c59ce590bd3042199ef2511e604f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bd5791797b5692f17d3f728b860e909e6824bb247b3fa4484497665fd14f1ca5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f598e58b64feb1d8fe1b6296616966cafc8febbe4fd5b6e41348f891580f77b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"pulled over\",\"freeway\",\"Sunday\",\"California Highway Patrol\"],\"target_related\":[\"Williams\",\"speeding\",\"freeway\",\"Sunday\",\"California Highway Patrol\"],\"mediators\":[\"Williams\",\"freeway\",\"Sunday\",\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "cb147d6a57da0b4aae87bb6361f8ce3dae2c46c3d868e0d36e445f064f06da5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'pulled over for speeding' — the preposition 'for' explicitly links speeding as the cause of being pulled over.\"}"
+    }
+  },
+  "call_ids": [
+    "0d24aa0232252e38c103209a8e179812a278793cea1c59106a00c9ff9abd94d5",
+    "0d24aa0232252e38c103209a8e179812a278793cea1c59106a00c9ff9abd94d5",
+    "f59c6b2f229514b81b1eeafcd77fd3eb9e1c59ce590bd3042199ef2511e604f4",
+    "bd5791797b5692f17d3f728b860e909e6824bb247b3fa4484497665fd14f1ca5",
+    "6f598e58b64feb1d8fe1b6296616966cafc8febbe4fd5b6e41348f891580f77b",
+    "cb147d6a57da0b4aae87bb6361f8ce3dae2c46c3d868e0d36e445f064f06da5b"
+  ],
+  "elapsed_s": 4.267725944519043
+}

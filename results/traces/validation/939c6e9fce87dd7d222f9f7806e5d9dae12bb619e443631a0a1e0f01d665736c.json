@@ -1,0 +1,61 @@
+{
+  "input_hash": "939c6e9fce87dd7d222f9f7806e5d9dae12bb619e443631a0a1e0f01d665736c",
+  "sample_id": "ESC-CSV-02552",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "fatal shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "06566e7252302f75498d2ef4652890688fdbed72fb5b5b2ea6bd4cafe266c6aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "06566e7252302f75498d2ef4652890688fdbed72fb5b5b2ea6bd4cafe266c6aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a36d00682869323d3bf2206be85001d1e2ccdb82e7198225d339f60c3f414ac8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4ebca23cd0b1d059c166dbcfc029b349a16d6f7e40f4295389f0cf777e0d25c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5e14ee3cb36f04e3067ff4b34fa873863e64a163670eb0870547dfc70991acdf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"teenager\",\"police\",\"fatal shooting\",\"back\"],\"target_related\":[\"protesters\",\"Protesters\",\"fatal shooting\",\"police\",\"Brooklyn streets\",\"cops\"],\"mediators\":[\"police\",\"fatal shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "2ca6bc86bb8f41c6fd20feb643b126feb67939f39f0f3d49dd49bdd856571c19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3,4],\"evidence\":\"Text says protesters were 'enraged over the fatal shooting' and 'after it's revealed that ... Kimani Gray was shot,' explicitly linking the shooting to enragement.\"}"
+    }
+  },
+  "call_ids": [
+    "06566e7252302f75498d2ef4652890688fdbed72fb5b5b2ea6bd4cafe266c6aa",
+    "06566e7252302f75498d2ef4652890688fdbed72fb5b5b2ea6bd4cafe266c6aa",
+    "a36d00682869323d3bf2206be85001d1e2ccdb82e7198225d339f60c3f414ac8",
+    "4ebca23cd0b1d059c166dbcfc029b349a16d6f7e40f4295389f0cf777e0d25c0",
+    "5e14ee3cb36f04e3067ff4b34fa873863e64a163670eb0870547dfc70991acdf",
+    "2ca6bc86bb8f41c6fd20feb643b126feb67939f39f0f3d49dd49bdd856571c19"
+  ],
+  "elapsed_s": 7.2142603397369385
+}

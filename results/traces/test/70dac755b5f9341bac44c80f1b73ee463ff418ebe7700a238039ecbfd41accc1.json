@@ -1,0 +1,62 @@
+{
+  "input_hash": "70dac755b5f9341bac44c80f1b73ee463ff418ebe7700a238039ecbfd41accc1",
+  "sample_id": "ESC-CSV-09620",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Tens of thousands of people",
+    "took to the streets",
+    "nationwide strike"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "649124e04f959e46a6c79384a0396711bc7ef1c553dc61e47593966612ea7b2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "649124e04f959e46a6c79384a0396711bc7ef1c553dc61e47593966612ea7b2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c85775a4f3dcd3399aabd91af427c5306068793422ed14d411ddd20431082675",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "122c5cf210450ae4d3f6e5d4d4d6adf337c5964c3ba9df0706b76d21975eb0e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0cd3b825117190968447564a9f7b472c5f651f769d6d4095e5fa469faa8c49a1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Tens of thousands of people\",\"took to the streets\",\"nationwide strike\"],\"target_related\":[\"Tens of thousands of people\",\"took to the streets\",\"nationwide strike\",\"new taxes\",\"government spending cuts\",\"International Monetary Fund\",\"European nations\",\"heavily indebted Greece\",\"euro110 billion\",\"$141 billion\",\"loan package\",\"defaulting\"],\"mediators\":[\"Tens of thousands of people\",\"took to the streets\",\"nationwide strike\"]}"
+    },
+    "indirect": {
+      "call_id": "a4d4672286265fa2c0efcc9ad67bd6764093adf9b14ddf06040fc9a0ff324cb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says people took to streets to protest; riots are mentioned only in headline, with no causal link to protest.\"}"
+    }
+  },
+  "call_ids": [
+    "649124e04f959e46a6c79384a0396711bc7ef1c553dc61e47593966612ea7b2f",
+    "649124e04f959e46a6c79384a0396711bc7ef1c553dc61e47593966612ea7b2f",
+    "c85775a4f3dcd3399aabd91af427c5306068793422ed14d411ddd20431082675",
+    "122c5cf210450ae4d3f6e5d4d4d6adf337c5964c3ba9df0706b76d21975eb0e4",
+    "0cd3b825117190968447564a9f7b472c5f651f769d6d4095e5fa469faa8c49a1",
+    "a4d4672286265fa2c0efcc9ad67bd6764093adf9b14ddf06040fc9a0ff324cb8"
+  ],
+  "elapsed_s": 4.724193811416626
+}

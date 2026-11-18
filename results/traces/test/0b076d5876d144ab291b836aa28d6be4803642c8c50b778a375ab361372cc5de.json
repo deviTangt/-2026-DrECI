@@ -1,0 +1,61 @@
+{
+  "input_hash": "0b076d5876d144ab291b836aa28d6be4803642c8c50b778a375ab361372cc5de",
+  "sample_id": "ESC-CSV-04421",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Jewellery",
+    "shop"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "99bdb3e9acc3f43b20b7546376818455558954f7f7feca77ee3ebc509b714db1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "99bdb3e9acc3f43b20b7546376818455558954f7f7feca77ee3ebc509b714db1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "167ab25d021e2c1398bb8f88a30085e7a8a4dfb64f1b5b8dd600463b4fa3bb79",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "791453ccdbe7b772c3e7359eb234ed610791c291b895b5844523e487f18d3efd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4eed2134225db5539d789284cf7fc6616a833d7b1e3ae5627c97077941603ee1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"heist\",\"shop\"],\"target_related\":[\"Jewellery\",\"shop\",\"Paris\"],\"mediators\":[\"Jewellery\",\"shop\"]}"
+    },
+    "indirect": {
+      "call_id": "e4174879f5fd9b81bd796ffbf1a60b90b9aed9bd8f2d0505fbf98137a5a98553",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text states jewellery was stolen during a raid; 'during' is temporal, not causal. No explicit or implicit causation words link 'stolen' and 'Raid'.\"}"
+    }
+  },
+  "call_ids": [
+    "99bdb3e9acc3f43b20b7546376818455558954f7f7feca77ee3ebc509b714db1",
+    "99bdb3e9acc3f43b20b7546376818455558954f7f7feca77ee3ebc509b714db1",
+    "167ab25d021e2c1398bb8f88a30085e7a8a4dfb64f1b5b8dd600463b4fa3bb79",
+    "791453ccdbe7b772c3e7359eb234ed610791c291b895b5844523e487f18d3efd",
+    "4eed2134225db5539d789284cf7fc6616a833d7b1e3ae5627c97077941603ee1",
+    "e4174879f5fd9b81bd796ffbf1a60b90b9aed9bd8f2d0505fbf98137a5a98553"
+  ],
+  "elapsed_s": 4.1285364627838135
+}

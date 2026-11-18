@@ -1,0 +1,62 @@
+{
+  "input_hash": "69a5ba06bf3414ed08915be9a5fcf66ef72230916b797a744c8732f0ccc8c722",
+  "sample_id": "ESC-CSV-02689",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "bullets",
+    "Kimani ( Kiki ) Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fa92645c029cccecb1af9427b92ef73363a75c2915c58436274ae7fd7ca7e88c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fa92645c029cccecb1af9427b92ef73363a75c2915c58436274ae7fd7ca7e88c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9465ec4a79ce628c5ef906e49ec3b92e3a0b3844a7ed464ce36e6d385ccb216e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "48160a77df60d8644a7c2865a5d46dd68932396f22afc03b5c7e2479294ca27d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c90249bb213c70aada39a7b96a0b628dd9f641c298e10effc300bfb62cb6b671",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"police\",\"bullets\",\"Kimani ( Kiki ) Gray\"],\"target_related\":[\"police\",\"bullets\",\"Kimani ( Kiki ) Gray\"],\"mediators\":[\"police\",\"bullets\",\"Kimani ( Kiki ) Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "0fcbe4c664e197e96e334d8a8a364864fa0a458557429f8f280da705a800be70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed by police bullets' uses 'by' to link shot to killed; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "fa92645c029cccecb1af9427b92ef73363a75c2915c58436274ae7fd7ca7e88c",
+    "fa92645c029cccecb1af9427b92ef73363a75c2915c58436274ae7fd7ca7e88c",
+    "9465ec4a79ce628c5ef906e49ec3b92e3a0b3844a7ed464ce36e6d385ccb216e",
+    "48160a77df60d8644a7c2865a5d46dd68932396f22afc03b5c7e2479294ca27d",
+    "c90249bb213c70aada39a7b96a0b628dd9f641c298e10effc300bfb62cb6b671",
+    "0fcbe4c664e197e96e334d8a8a364864fa0a458557429f8f280da705a800be70"
+  ],
+  "elapsed_s": 4.922082424163818
+}

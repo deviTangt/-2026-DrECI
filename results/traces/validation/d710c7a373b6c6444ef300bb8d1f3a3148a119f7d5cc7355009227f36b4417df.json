@@ -1,0 +1,72 @@
+{
+  "input_hash": "d710c7a373b6c6444ef300bb8d1f3a3148a119f7d5cc7355009227f36b4417df",
+  "sample_id": "ESC-CSV-02227",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "kills",
+    "injures",
+    "gunshot",
+    "wounds",
+    "surgery",
+    "receptionist",
+    "men",
+    "employees",
+    "Sheriff",
+    "Michigan",
+    "office",
+    "Royal Oak Beaumont Hospital",
+    "Scherlinck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "95a82073216028d8e0056e04f72baab1da953016171b6585b7c388a785fdd926",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "95a82073216028d8e0056e04f72baab1da953016171b6585b7c388a785fdd926",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1c2d0707f0da392e218b5caa5ce6bef6ff9819139728566fd083e01e5c77499a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3f2700ebd0b4ae8912054aedebe7a2886b93a301dbbd200022e8f8ccdb81bd60",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e865fecd873c11e3535ecaadff945f2b669201ea06cdd5a896a030be14551bde",
+      "status": "ok",
+      "text": "{\"source_related\":[\"kills\",\"injures\",\"gunshot\",\"wounds\",\"surgery\",\"receptionist\",\"men\",\"employees\",\"Sheriff\",\"Michigan\",\"office\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"target_related\":[\"kills\",\"injures\",\"gunshot\",\"wounds\",\"surgery\",\"receptionist\",\"men\",\"employees\",\"Sheriff\",\"Michigan\",\"office\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"mediators\":[\"kills\",\"injures\",\"gunshot\",\"wounds\",\"surgery\",\"receptionist\",\"men\",\"employees\",\"Sheriff\",\"Michigan\",\"office\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"]}"
+    },
+    "indirect": {
+      "call_id": "3ab12e0baaea96de21688a3f21f94291305a5e327dfe362c80a9149120333e64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shooting kills 1' explicitly links shooting to death; common sense: shooting causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "95a82073216028d8e0056e04f72baab1da953016171b6585b7c388a785fdd926",
+    "95a82073216028d8e0056e04f72baab1da953016171b6585b7c388a785fdd926",
+    "1c2d0707f0da392e218b5caa5ce6bef6ff9819139728566fd083e01e5c77499a",
+    "3f2700ebd0b4ae8912054aedebe7a2886b93a301dbbd200022e8f8ccdb81bd60",
+    "e865fecd873c11e3535ecaadff945f2b669201ea06cdd5a896a030be14551bde",
+    "3ab12e0baaea96de21688a3f21f94291305a5e327dfe362c80a9149120333e64"
+  ],
+  "elapsed_s": 7.581295967102051
+}

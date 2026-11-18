@@ -1,0 +1,62 @@
+{
+  "input_hash": "2333c3dc5545771b19695447a0f82b46dc84f531eca7d9dc9d08b6b589d89838",
+  "sample_id": "ESC-CSV-01821",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jose Luis Orozco",
+    "jury",
+    "District Attorney's office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6d6c923a3bb0cd401155c5d3493ccf3b0e4c42b2faf4e5fe954a9e08413f2aea",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6d6c923a3bb0cd401155c5d3493ccf3b0e4c42b2faf4e5fe954a9e08413f2aea",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bbbf24701cbd44ba627c792a82e435bf26c03cadce9e2ea89417844999bfcaab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b0e60681471258c45cde603c06d5209deda2bff829f1e465414cc16e35c2d5d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "8b0bbe2cb884f59263d08e284522cae49f481aea0cd8900f3aa483be61e2ee1d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"Jerry Ortiz\",\"Lakewood Stn . Sheriff's Deputy\",\"Hawaiian Gardens Gangmember\",\"jury\",\"District Attorney's office\"],\"target_related\":[\"Jose Luis Orozco\",\"jury\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"District Attorney's office\"],\"mediators\":[\"Jose Luis Orozco\",\"jury\",\"District Attorney's office\"]}"
+    },
+    "indirect": {
+      "call_id": "78f48f43034b059799f3c0da89a28010eb2695d841ea3b94272d9d7538f61f34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murdering implies guilt; the murdering precedes and causes the guilty verdict by the jury.\"}"
+    }
+  },
+  "call_ids": [
+    "6d6c923a3bb0cd401155c5d3493ccf3b0e4c42b2faf4e5fe954a9e08413f2aea",
+    "6d6c923a3bb0cd401155c5d3493ccf3b0e4c42b2faf4e5fe954a9e08413f2aea",
+    "bbbf24701cbd44ba627c792a82e435bf26c03cadce9e2ea89417844999bfcaab",
+    "b0e60681471258c45cde603c06d5209deda2bff829f1e465414cc16e35c2d5d2",
+    "8b0bbe2cb884f59263d08e284522cae49f481aea0cd8900f3aa483be61e2ee1d",
+    "78f48f43034b059799f3c0da89a28010eb2695d841ea3b94272d9d7538f61f34"
+  ],
+  "elapsed_s": 6.593821287155151
+}

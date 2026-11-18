@@ -1,0 +1,75 @@
+{
+  "input_hash": "b53c2e3f91193f37a6daa41fcdc4f794a0a0734be7dbeaa22bae8d1aefc9ecf8",
+  "sample_id": "ESC-CSV-02222",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "shot",
+    "death",
+    "person",
+    "two",
+    "others",
+    "Monday",
+    "suburban",
+    "Detroit",
+    "accounting",
+    "firm",
+    "fired",
+    "last",
+    "week",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cd749c1000b303cea5b99ab054fbb3ea5cfb457aa6ed2e2804bc27f476417cff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cd749c1000b303cea5b99ab054fbb3ea5cfb457aa6ed2e2804bc27f476417cff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e3199b85403ead0abdc6b640cfc5088a748fdc8fb681c9218d3462ce4cc187f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b51138a733dd665fedbdb8022c5910b0f922634a6d2ed04c8f469ee507344f3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13c1445b76ca66559ce301adc58b895514a99bd41c270f7d24c68d50b500c780",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"shot\",\"death\",\"person\",\"injured\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"],\"target_related\":[\"Michigan\",\"man\",\"shot\",\"death\",\"one\",\"person\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"],\"mediators\":[\"Michigan\",\"man\",\"shot\",\"death\",\"person\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "45f69a2cad0eb5be84a006814dce4e516758809aaad3f976eada7edf4ab92afc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot to death one person and injured two others' — the shooting directly caused the injuries; explicit 'shot...injured' and common-sense order.\"}"
+    }
+  },
+  "call_ids": [
+    "cd749c1000b303cea5b99ab054fbb3ea5cfb457aa6ed2e2804bc27f476417cff",
+    "cd749c1000b303cea5b99ab054fbb3ea5cfb457aa6ed2e2804bc27f476417cff",
+    "9e3199b85403ead0abdc6b640cfc5088a748fdc8fb681c9218d3462ce4cc187f",
+    "b51138a733dd665fedbdb8022c5910b0f922634a6d2ed04c8f469ee507344f3d",
+    "13c1445b76ca66559ce301adc58b895514a99bd41c270f7d24c68d50b500c780",
+    "45f69a2cad0eb5be84a006814dce4e516758809aaad3f976eada7edf4ab92afc"
+  ],
+  "elapsed_s": 6.001085519790649
+}

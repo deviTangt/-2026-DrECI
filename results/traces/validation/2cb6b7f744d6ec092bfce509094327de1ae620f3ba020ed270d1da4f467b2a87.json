@@ -1,0 +1,90 @@
+{
+  "input_hash": "2cb6b7f744d6ec092bfce509094327de1ae620f3ba020ed270d1da4f467b2a87",
+  "sample_id": "ESC-CSV-02382",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "three",
+    "people",
+    "killing",
+    "one",
+    "accounting",
+    "firm",
+    "fired",
+    "last",
+    "week",
+    "arrested",
+    "high",
+    "speed",
+    "chase",
+    "few",
+    "hours",
+    "Monday",
+    "morning",
+    "attack",
+    "authorities",
+    "said",
+    "Troy",
+    "Michigan",
+    "Office",
+    "Shooting",
+    "Follow",
+    "Up",
+    "1",
+    "Dead",
+    "2",
+    "Suspect",
+    "Caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f4959bfa3a957f06106da98da41854f48e97e9194752fa15d241d10d3de8ffee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f4959bfa3a957f06106da98da41854f48e97e9194752fa15d241d10d3de8ffee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "85dd39af34786e5ac141ec13dac2cf04fd515f99ee2d926d8de52f6b1df206c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "443a165230af7744fa3c80ad06c94b1f18d7731d9459b4e8c61cb2ec9d08848a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f124f4f71f68a0cb3da95141cc577f0fce94525c341593854cb7e4451c20855",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"shooting\",\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"arrested\",\"high\",\"speed\",\"chase\",\"few\",\"hours\",\"Monday\",\"morning\",\"attack\",\"authorities\",\"said\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Follow\",\"Up\",\"1\",\"Dead\",\"2\",\"Injured\",\"Suspect\",\"Caught\"],\"target_related\":[\"shooting\",\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"arrested\",\"high\",\"speed\",\"chase\",\"few\",\"hours\",\"Monday\",\"morning\",\"attack\",\"authorities\",\"said\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Follow\",\"Up\",\"1\",\"Dead\",\"2\",\"Injured\",\"Suspect\",\"Caught\"],\"mediators\":[\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"arrested\",\"high\",\"speed\",\"chase\",\"few\",\"hours\",\"Monday\",\"morning\",\"attack\",\"authorities\",\"said\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Follow\",\"Up\",\"1\",\"Dead\",\"2\",\"Suspect\",\"Caught\"]}"
+    },
+    "indirect": {
+      "call_id": "5b30b8eeb162ac96306b3d75938e175e49b6bc44148918e4dfdf2d7c800e3d65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people logically causes two to be injured; the shooting precedes and produces the injuries.\"}"
+    }
+  },
+  "call_ids": [
+    "f4959bfa3a957f06106da98da41854f48e97e9194752fa15d241d10d3de8ffee",
+    "f4959bfa3a957f06106da98da41854f48e97e9194752fa15d241d10d3de8ffee",
+    "85dd39af34786e5ac141ec13dac2cf04fd515f99ee2d926d8de52f6b1df206c2",
+    "443a165230af7744fa3c80ad06c94b1f18d7731d9459b4e8c61cb2ec9d08848a",
+    "6f124f4f71f68a0cb3da95141cc577f0fce94525c341593854cb7e4451c20855",
+    "5b30b8eeb162ac96306b3d75938e175e49b6bc44148918e4dfdf2d7c800e3d65"
+  ],
+  "elapsed_s": 10.963682174682617
+}

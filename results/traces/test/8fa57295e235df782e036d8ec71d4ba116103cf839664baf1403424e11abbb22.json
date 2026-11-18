@@ -1,0 +1,63 @@
+{
+  "input_hash": "8fa57295e235df782e036d8ec71d4ba116103cf839664baf1403424e11abbb22",
+  "sample_id": "ESC-CSV-09652",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "barricades",
+    "cars",
+    "fire truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b84c861b84c9a10787db9ec13302ebcfa23daba0cecde42ec9b21498721b1a1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b84c861b84c9a10787db9ec13302ebcfa23daba0cecde42ec9b21498721b1a1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3dc70834503f19c3d7d61903a68d2e48c223ae28ee0f0d06399a390b66f036c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "21be136f39d8191c4521d01a16f599ff609e0a116be5c20e9bad8b998f2ea583",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "23acc977da35d3fe6f4b680f2976de93f607a72ace202f454e8460b944da9c41",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"protesters\",\"barricades\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"barricades\",\"cars\",\"fire truck\"],\"mediators\":[\"protesters\",\"barricades\",\"cars\",\"fire truck\"]}"
+    },
+    "indirect": {
+      "call_id": "ed4b6cf57940071d8a751e220619e7e9cef5ebd23dfac88a76b094de3f33ace2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Protesters set up burning barricades and torched cars; the protest (X) led protesters to cause burning (Y), and protesters (Z) link X to Y.\"}"
+    }
+  },
+  "call_ids": [
+    "b84c861b84c9a10787db9ec13302ebcfa23daba0cecde42ec9b21498721b1a1f",
+    "b84c861b84c9a10787db9ec13302ebcfa23daba0cecde42ec9b21498721b1a1f",
+    "3dc70834503f19c3d7d61903a68d2e48c223ae28ee0f0d06399a390b66f036c3",
+    "21be136f39d8191c4521d01a16f599ff609e0a116be5c20e9bad8b998f2ea583",
+    "23acc977da35d3fe6f4b680f2976de93f607a72ace202f454e8460b944da9c41",
+    "ed4b6cf57940071d8a751e220619e7e9cef5ebd23dfac88a76b094de3f33ace2"
+  ],
+  "elapsed_s": 5.0885844230651855
+}

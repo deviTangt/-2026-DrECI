@@ -1,0 +1,64 @@
+{
+  "input_hash": "7941db203aee58316fe9fda409ae2d8d9d80881a836853333f33637d65bd3d4c",
+  "sample_id": "ESC-CSV-04679",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "police",
+    "jewellery",
+    "robbery",
+    "Paris",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad4285e7358bdb8334b918236b461744e27ed3a80da80830fb5946ae9e29b705",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad4285e7358bdb8334b918236b461744e27ed3a80da80830fb5946ae9e29b705",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2815d25c6a4e667db85dbd114def8b3441d1bc9cffe0cb6515ee369e45a24666",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3b3c36f8eda61f862df1f217cf5d2cddc917ea86fa70b9e4b48caeef4c6cac3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "f66d4aa834cf00655f1a7eaa4976a982842a821dfb5632c5a876ee2ad1b0dd05",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jewellery\",\"robbery\",\"Paris\",\"France\",\"summer\",\"police\"],\"target_related\":[\"police\",\"jewellery\",\"robbery\",\"Paris\",\"France\"],\"mediators\":[\"police\",\"jewellery\",\"robbery\",\"Paris\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "ca3ea0c0b74beb8753f74f7354606677180c03b85aac67119bc15f9913d05cfc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Police are investigating the thefts; the thefts do not cause the investigating. No explicit or implicit causal word links them, and no causal order or coreference applies.\"}"
+    }
+  },
+  "call_ids": [
+    "ad4285e7358bdb8334b918236b461744e27ed3a80da80830fb5946ae9e29b705",
+    "ad4285e7358bdb8334b918236b461744e27ed3a80da80830fb5946ae9e29b705",
+    "2815d25c6a4e667db85dbd114def8b3441d1bc9cffe0cb6515ee369e45a24666",
+    "3b3c36f8eda61f862df1f217cf5d2cddc917ea86fa70b9e4b48caeef4c6cac3f",
+    "f66d4aa834cf00655f1a7eaa4976a982842a821dfb5632c5a876ee2ad1b0dd05",
+    "ca3ea0c0b74beb8753f74f7354606677180c03b85aac67119bc15f9913d05cfc"
+  ],
+  "elapsed_s": 4.506205797195435
+}

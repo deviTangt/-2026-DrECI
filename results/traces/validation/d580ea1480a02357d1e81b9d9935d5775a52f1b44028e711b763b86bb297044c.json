@@ -1,0 +1,66 @@
+{
+  "input_hash": "d580ea1480a02357d1e81b9d9935d5775a52f1b44028e711b763b86bb297044c",
+  "sample_id": "ESC-CSV-06977",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "San Diego",
+    "lineman",
+    "DUI",
+    "Williams",
+    "county",
+    "jail",
+    "bail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a42c9a2bec573eef199e39a551548d5fe899b3efb2a894c38198ab2fd41b496",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a42c9a2bec573eef199e39a551548d5fe899b3efb2a894c38198ab2fd41b496",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0bbfd1ad78f9de56776c24104d2d9e9ade191d4b940010d09e204d963c445896",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f2f8a0bc93a697279378b5ce174fefbaf2bde5ef373eb5740031bb2ae4712a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d947fd9d29cf8e815176cf7446f367ea608aaa19abe7b74bee981345d086e0b7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"San Diego\",\"lineman\",\"DUI\",\"Williams\",\"county\",\"jail\",\"bail\"],\"target_related\":[\"San Diego\",\"lineman\",\"DUI\",\"Williams\",\"county\",\"jail\",\"bail\",\"released\"],\"mediators\":[\"San Diego\",\"lineman\",\"DUI\",\"Williams\",\"county\",\"jail\",\"bail\"]}"
+    },
+    "indirect": {
+      "call_id": "1f0cb58c642ad83099b808915d355a59f54fb5d6fb3b371bf95f5b95ff0d1a12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested on suspicion of DUI precedes and leads to being booked into county jail, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "0a42c9a2bec573eef199e39a551548d5fe899b3efb2a894c38198ab2fd41b496",
+    "0a42c9a2bec573eef199e39a551548d5fe899b3efb2a894c38198ab2fd41b496",
+    "0bbfd1ad78f9de56776c24104d2d9e9ade191d4b940010d09e204d963c445896",
+    "0f2f8a0bc93a697279378b5ce174fefbaf2bde5ef373eb5740031bb2ae4712a7",
+    "d947fd9d29cf8e815176cf7446f367ea608aaa19abe7b74bee981345d086e0b7",
+    "1f0cb58c642ad83099b808915d355a59f54fb5d6fb3b371bf95f5b95ff0d1a12"
+  ],
+  "elapsed_s": 3.687777519226074
+}

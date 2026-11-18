@@ -1,0 +1,68 @@
+{
+  "input_hash": "7d7b42e9ffb3215600c2445f347cf3bcdfd2acbd5775aec6029daad94505a5a2",
+  "sample_id": "ESC-CSV-04605",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "car",
+    "jewellery store",
+    "central Paris",
+    "shop window",
+    "€2 million",
+    "R26 million",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "538b6ae4c1b41ae3705a792d2fc6456cacd8da8c7e57a7ace4a013f5752bed6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "538b6ae4c1b41ae3705a792d2fc6456cacd8da8c7e57a7ace4a013f5752bed6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "04c35cc882a7af12d4003175de64990847d1425842dbfbf1fa9d276dffeeba14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "07437fdda5dcd8f394d1e580bbb83b3d6e9ee8a3a978e16d6d755a6250d870f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f8fc64f046ec28019b1d14252795fad7a325257e51ef2b2d5e3f6ded2dbcfa2b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"jewellery store\",\"central Paris\",\"shop window\",\"€2 million\",\"R26 million\",\"booty\",\"police source\"],\"target_related\":[\"France\",\"jewellery\",\"Four men\",\"car\",\"jewellery store\",\"central Paris\",\"shop window\",\"€2 million\",\"R26 million\",\"booty\",\"police source\"],\"mediators\":[\"Four men\",\"car\",\"jewellery store\",\"central Paris\",\"shop window\",\"€2 million\",\"R26 million\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "59be0da2b3c1d9066391f92e30d9dbd0d665d8dc30d0a728aedec54afaf57563",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window and enabled the men to make off with the booty, so ramming caused the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "538b6ae4c1b41ae3705a792d2fc6456cacd8da8c7e57a7ace4a013f5752bed6f",
+    "538b6ae4c1b41ae3705a792d2fc6456cacd8da8c7e57a7ace4a013f5752bed6f",
+    "04c35cc882a7af12d4003175de64990847d1425842dbfbf1fa9d276dffeeba14",
+    "07437fdda5dcd8f394d1e580bbb83b3d6e9ee8a3a978e16d6d755a6250d870f2",
+    "f8fc64f046ec28019b1d14252795fad7a325257e51ef2b2d5e3f6ded2dbcfa2b",
+    "59be0da2b3c1d9066391f92e30d9dbd0d665d8dc30d0a728aedec54afaf57563"
+  ],
+  "elapsed_s": 4.568887710571289
+}

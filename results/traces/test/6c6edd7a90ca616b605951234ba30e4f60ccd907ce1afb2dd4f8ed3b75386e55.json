@@ -1,0 +1,62 @@
+{
+  "input_hash": "6c6edd7a90ca616b605951234ba30e4f60ccd907ce1afb2dd4f8ed3b75386e55",
+  "sample_id": "ESC-CSV-06659",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "victims",
+    "injured"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "18a9beeef8126051863ac60f8a8c0b79695de21c807da2fd04e71734138a0869",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "18a9beeef8126051863ac60f8a8c0b79695de21c807da2fd04e71734138a0869",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1061d9ebcaa955374b08caccabc08a715209df861833cd5f40846a9e590fd1ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2e1fb38eb12e058d3ddd2ebd8e3673d4ac3004a1042e27262ea80ae763a5737e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0391c09b9c1ebdbed107890fec6ed31ae352f530c634776c1607948b945e31bd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"victims\",\"injured\"],\"target_related\":[\"Horton\",\"victims\",\"injured\"],\"mediators\":[\"Horton\",\"victims\",\"injured\"]}"
+    },
+    "indirect": {
+      "call_id": "645ecc02d33c401655a26101ef06a83e18d4706a346351b0bf13427b8fb90dcc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'victims killed and injured in the crossfire' — 'in' explicitly links crossfire as cause of being killed; common sense: crossfire causes deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "18a9beeef8126051863ac60f8a8c0b79695de21c807da2fd04e71734138a0869",
+    "18a9beeef8126051863ac60f8a8c0b79695de21c807da2fd04e71734138a0869",
+    "1061d9ebcaa955374b08caccabc08a715209df861833cd5f40846a9e590fd1ce",
+    "2e1fb38eb12e058d3ddd2ebd8e3673d4ac3004a1042e27262ea80ae763a5737e",
+    "0391c09b9c1ebdbed107890fec6ed31ae352f530c634776c1607948b945e31bd",
+    "645ecc02d33c401655a26101ef06a83e18d4706a346351b0bf13427b8fb90dcc"
+  ],
+  "elapsed_s": 3.861029863357544
+}

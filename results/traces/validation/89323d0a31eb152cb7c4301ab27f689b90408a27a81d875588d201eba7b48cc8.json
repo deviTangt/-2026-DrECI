@@ -1,0 +1,62 @@
+{
+  "input_hash": "89323d0a31eb152cb7c4301ab27f689b90408a27a81d875588d201eba7b48cc8",
+  "sample_id": "ESC-CSV-01713",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Ortiz",
+    "Deputy",
+    "defendant"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ab4613798e2ef40ed7bcfec3de86a6c9e80c45e7970bcb9ea31ce9965e0f469",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ab4613798e2ef40ed7bcfec3de86a6c9e80c45e7970bcb9ea31ce9965e0f469",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "17235b953913d99acc225bba1e0df133a20e20e3e652e6a205954d60d92d560f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0deca5004e3f15b1b3e8b9c2752fbd1ea88f9ebf07cfc44cb0a9c159bc6d6289",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a4677fea46fa92691421dec7d7284381da0bdc4d4fd4148750c42af7bc2a9edc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"Deputy\",\"shooting\",\"defendant\",\"suspect\",\"investigating\",\"gunning\",\"Luis\",\"Gerardo\",\"Jerry\"],\"target_related\":[\"Cooley\",\"District\",\"Attorney\",\"Steve\",\"charges\",\"murder\",\"capital\",\"Hawaiian\",\"Gardens\",\"gang\",\"member\",\"defendant\",\"Ortiz\",\"Deputy\"],\"mediators\":[\"Ortiz\",\"Deputy\",\"defendant\"]}"
+    },
+    "indirect": {
+      "call_id": "70f82d2bf03d91f3dcdd77e4d8316bd2759b8dfaa3a1adcb91f1dbc2818ada12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Deputy Ortiz was killed, and charges were filed against the defendant accused of gunning him down; the killing precedes and prompts the filing.\"}"
+    }
+  },
+  "call_ids": [
+    "0ab4613798e2ef40ed7bcfec3de86a6c9e80c45e7970bcb9ea31ce9965e0f469",
+    "0ab4613798e2ef40ed7bcfec3de86a6c9e80c45e7970bcb9ea31ce9965e0f469",
+    "17235b953913d99acc225bba1e0df133a20e20e3e652e6a205954d60d92d560f",
+    "0deca5004e3f15b1b3e8b9c2752fbd1ea88f9ebf07cfc44cb0a9c159bc6d6289",
+    "a4677fea46fa92691421dec7d7284381da0bdc4d4fd4148750c42af7bc2a9edc",
+    "70f82d2bf03d91f3dcdd77e4d8316bd2759b8dfaa3a1adcb91f1dbc2818ada12"
+  ],
+  "elapsed_s": 5.967667818069458
+}

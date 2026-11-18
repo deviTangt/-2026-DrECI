@@ -1,0 +1,61 @@
+{
+  "input_hash": "7807a6a648e6a156a71425f10480581b91e95f4b5c4ff88278ec0a2b1b334d05",
+  "sample_id": "ESC-CSV-06830",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "students",
+    "children"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a26cd1903ffac2c1eb4050dd0a850b3773b5f247ee8d4edca2f50a6a0e39ccb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a26cd1903ffac2c1eb4050dd0a850b3773b5f247ee8d4edca2f50a6a0e39ccb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "009fa2a72ceb407018db648e3cd6781ecb48543681ed3d7df892d1fff52463fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9356be6a72d43b94f3cb1825ae5c906236ab3e5d970d80b33708b9c262a9ffcc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0ff66ce72f235ec97c8dfe79e32baf8c08e7ca74088ffaa5d6a130f99557361b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"died\",\"gunfire\",\"murder\",\"confessed\"],\"target_related\":[\"students\",\"children\",\"shielding\",\"harm\",\"mother\"],\"mediators\":[\"students\",\"children\"]}"
+    },
+    "indirect": {
+      "call_id": "bc8fc75b0ce5780fe5c30035cdbf5601179a515bc26c7a93630b364d3a14cf30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Gunfire occurs, prompting Horton to attempt to protect students by shielding them; common sense: gunfire causes protective action.\"}"
+    }
+  },
+  "call_ids": [
+    "a26cd1903ffac2c1eb4050dd0a850b3773b5f247ee8d4edca2f50a6a0e39ccb0",
+    "a26cd1903ffac2c1eb4050dd0a850b3773b5f247ee8d4edca2f50a6a0e39ccb0",
+    "009fa2a72ceb407018db648e3cd6781ecb48543681ed3d7df892d1fff52463fd",
+    "9356be6a72d43b94f3cb1825ae5c906236ab3e5d970d80b33708b9c262a9ffcc",
+    "0ff66ce72f235ec97c8dfe79e32baf8c08e7ca74088ffaa5d6a130f99557361b",
+    "bc8fc75b0ce5780fe5c30035cdbf5601179a515bc26c7a93630b364d3a14cf30"
+  ],
+  "elapsed_s": 5.35382080078125
+}

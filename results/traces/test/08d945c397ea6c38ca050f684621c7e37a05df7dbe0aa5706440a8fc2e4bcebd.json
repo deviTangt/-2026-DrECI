@@ -1,0 +1,66 @@
+{
+  "input_hash": "08d945c397ea6c38ca050f684621c7e37a05df7dbe0aa5706440a8fc2e4bcebd",
+  "sample_id": "ESC-CSV-04565",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "jewelry"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "03aae39eaeb0bb00a5abfa36a084f50ef22494e096cb2ea50c88a4bf8d157844",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "03aae39eaeb0bb00a5abfa36a084f50ef22494e096cb2ea50c88a4bf8d157844",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "03f508a72394c23dee5309f019f690d27d026f0c5fa7846136e721f73f156959",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8d73715a55a6b9e36b0a307264d7ac936a862d3593c975948734b66454d2e4d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "18187bf733c3cc8921c37159857165250f95c2cd16fdff7830d31b3da2009069",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"jewelry\"],\"target_related\":[\"Four men\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"jewelry\",\"$2.6 million\",\"two million Euros\"],\"mediators\":[\"Four men\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"jewelry\"]}"
+    },
+    "indirect": {
+      "call_id": "36194546a302f5d51696a128d27955b38915e204d73bd7a4ecf69ee9fc5ce0b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window and enabled the jewelry theft, so the ramming caused the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "03aae39eaeb0bb00a5abfa36a084f50ef22494e096cb2ea50c88a4bf8d157844",
+    "03aae39eaeb0bb00a5abfa36a084f50ef22494e096cb2ea50c88a4bf8d157844",
+    "03f508a72394c23dee5309f019f690d27d026f0c5fa7846136e721f73f156959",
+    "8d73715a55a6b9e36b0a307264d7ac936a862d3593c975948734b66454d2e4d4",
+    "18187bf733c3cc8921c37159857165250f95c2cd16fdff7830d31b3da2009069",
+    "36194546a302f5d51696a128d27955b38915e204d73bd7a4ecf69ee9fc5ce0b6"
+  ],
+  "elapsed_s": 4.892206430435181
+}

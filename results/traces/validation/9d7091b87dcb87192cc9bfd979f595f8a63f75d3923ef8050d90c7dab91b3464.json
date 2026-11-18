@@ -1,0 +1,66 @@
+{
+  "input_hash": "9d7091b87dcb87192cc9bfd979f595f8a63f75d3923ef8050d90c7dab91b3464",
+  "sample_id": "ESC-CSV-02262",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "bosses",
+    "receptionist",
+    "office",
+    "shotgun",
+    "job",
+    "Associated Press"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8a57fc32b4f710f295b80e282ff696abb2f055f34d4ae0d71c5c4a0c60a84733",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8a57fc32b4f710f295b80e282ff696abb2f055f34d4ae0d71c5c4a0c60a84733",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "509de283c93de6b9936d0ee16d971900b90a1aa99694e62ed86f64b737c02d4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bf0019c8369af2f12b9c613afe2ecff14d248e2df753fe26f6ca6d683412e05",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d7d479c5b0e5038949d7684d788a71ec8b13f60b2690b8b9caec9011d1341658",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"Riva\",\"chest\",\"building\",\"Whiteside\",\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"Associated Press\"],\"target_related\":[\"accountant\",\"bosses\",\"receptionist\",\"fire\",\"office\",\"shotgun\",\"job\",\"Associated Press\"],\"mediators\":[\"accountant\",\"bosses\",\"receptionist\",\"office\",\"shotgun\",\"job\",\"Associated Press\"]}"
+    },
+    "indirect": {
+      "call_id": "746207087470f71fcdc87372f0a0ac00dc59a51035bdda51b330139e70d937a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone in the chest would cause wounding; X (shot) precedes Y (wounding) by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8a57fc32b4f710f295b80e282ff696abb2f055f34d4ae0d71c5c4a0c60a84733",
+    "8a57fc32b4f710f295b80e282ff696abb2f055f34d4ae0d71c5c4a0c60a84733",
+    "509de283c93de6b9936d0ee16d971900b90a1aa99694e62ed86f64b737c02d4f",
+    "4bf0019c8369af2f12b9c613afe2ecff14d248e2df753fe26f6ca6d683412e05",
+    "d7d479c5b0e5038949d7684d788a71ec8b13f60b2690b8b9caec9011d1341658",
+    "746207087470f71fcdc87372f0a0ac00dc59a51035bdda51b330139e70d937a9"
+  ],
+  "elapsed_s": 7.073015213012695
+}

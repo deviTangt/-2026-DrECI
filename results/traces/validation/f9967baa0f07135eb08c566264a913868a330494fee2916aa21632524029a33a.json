@@ -1,0 +1,62 @@
+{
+  "input_hash": "f9967baa0f07135eb08c566264a913868a330494fee2916aa21632524029a33a",
+  "sample_id": "ESC-CSV-02412",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "arrested",
+    "attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "505735cf1432d3b85358492cbb1e3d1de9e30bddd66d518008e760ba5e007860",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "505735cf1432d3b85358492cbb1e3d1de9e30bddd66d518008e760ba5e007860",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c70ac2c5e825a2fefb49b45d6fccb20055dbda69858961d30bbe1591eeeef882",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8b8b4e600a22488f8b7f40a09eca05d9e523aecbcde2809bbe87f89eccb509f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d3cdb2e5b485ec8104f86a8c1d3be143c36b618c1b8dd0f5cdaff7b53b105b6d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"people\",\"Detroit\",\"accounting firm\",\"fired\",\"arrested\",\"attack\"],\"target_related\":[\"man\",\"arrested\",\"high-speed\",\"attack\"],\"mediators\":[\"man\",\"arrested\",\"attack\"]}"
+    },
+    "indirect": {
+      "call_id": "40523378d0c66641f68e2b9af06e2f540c46dc949ac87b0cc9f83e46f7ae7f58",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the chase; the suspect fled after the attack, prompting a high-speed chase, so shooting caused the chase by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "505735cf1432d3b85358492cbb1e3d1de9e30bddd66d518008e760ba5e007860",
+    "505735cf1432d3b85358492cbb1e3d1de9e30bddd66d518008e760ba5e007860",
+    "c70ac2c5e825a2fefb49b45d6fccb20055dbda69858961d30bbe1591eeeef882",
+    "8b8b4e600a22488f8b7f40a09eca05d9e523aecbcde2809bbe87f89eccb509f3",
+    "d3cdb2e5b485ec8104f86a8c1d3be143c36b618c1b8dd0f5cdaff7b53b105b6d",
+    "40523378d0c66641f68e2b9af06e2f540c46dc949ac87b0cc9f83e46f7ae7f58"
+  ],
+  "elapsed_s": 17.444886922836304
+}

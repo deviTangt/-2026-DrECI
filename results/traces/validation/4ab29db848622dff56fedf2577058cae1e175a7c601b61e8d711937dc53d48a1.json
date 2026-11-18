@@ -1,0 +1,61 @@
+{
+  "input_hash": "4ab29db848622dff56fedf2577058cae1e175a7c601b61e8d711937dc53d48a1",
+  "sample_id": "ESC-CSV-02435",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "brick",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "efe9f96a347facebc5f5505f7a300856a1b62eba8989589b6f9bf9e3616dfcf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "efe9f96a347facebc5f5505f7a300856a1b62eba8989589b6f9bf9e3616dfcf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "be56968e7b1d6596f43540cdaecf4b338f308445f096b1fe3e4be0f4857c6afb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e7da8cfe96078987e745942255107bc1f84f3f8d03bd333af4676b547012fdea",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "cfa4191c33f315eb74396399d673f2a0b0154a50818e964e091681341898c9e2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mob\",\"thrashing\",\"protest\",\"police\",\"brick\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"brick\",\"window\",\"police van\",\"someone\",\"officer\",\"police\"],\"mediators\":[\"brick\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "5506eff422e4a4764683e24221a7f982693e938f3f8e8e900dcd449ab61ac6ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Anger led to protests where someone threw a brick through a police van window; anger->protest->brick thrown forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "efe9f96a347facebc5f5505f7a300856a1b62eba8989589b6f9bf9e3616dfcf7",
+    "efe9f96a347facebc5f5505f7a300856a1b62eba8989589b6f9bf9e3616dfcf7",
+    "be56968e7b1d6596f43540cdaecf4b338f308445f096b1fe3e4be0f4857c6afb",
+    "e7da8cfe96078987e745942255107bc1f84f3f8d03bd333af4676b547012fdea",
+    "cfa4191c33f315eb74396399d673f2a0b0154a50818e964e091681341898c9e2",
+    "5506eff422e4a4764683e24221a7f982693e938f3f8e8e900dcd449ab61ac6ca"
+  ],
+  "elapsed_s": 27.187328338623047
+}

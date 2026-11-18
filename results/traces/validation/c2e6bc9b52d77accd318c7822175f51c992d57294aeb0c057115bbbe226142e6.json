@@ -1,0 +1,60 @@
+{
+  "input_hash": "c2e6bc9b52d77accd318c7822175f51c992d57294aeb0c057115bbbe226142e6",
+  "sample_id": "ESC-CSV-02549",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0675e75d7a59f964b22168e1b471f1686a0b93bef12b0eba7b5a0e9b18441d42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0675e75d7a59f964b22168e1b471f1686a0b93bef12b0eba7b5a0e9b18441d42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b103e13d806e4745aa49577d5f9ff7c5c79b57eaf95626e2a25da6938c23de78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6c52c7574c1e0c7e0c00947ebafdf86a2f0f0b52eebe65eb4ed8aad204f3daff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "934e67f0b8fedffa333007ddcf75994e0ef24ff1a9f30bd21bf04fe3105b40d1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\"],\"target_related\":[\"Police\",\"crowd\"],\"mediators\":[\"crowd\"]}"
+    },
+    "indirect": {
+      "call_id": "c3d0ab6d640bf240f3a50fcde9f085669fee40fe32ebfafd0dc56ddbb9baefa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links 'furious' to 'control'; 'furious' describes the crowd, not a cause of the control struggle.\"}"
+    }
+  },
+  "call_ids": [
+    "0675e75d7a59f964b22168e1b471f1686a0b93bef12b0eba7b5a0e9b18441d42",
+    "0675e75d7a59f964b22168e1b471f1686a0b93bef12b0eba7b5a0e9b18441d42",
+    "b103e13d806e4745aa49577d5f9ff7c5c79b57eaf95626e2a25da6938c23de78",
+    "6c52c7574c1e0c7e0c00947ebafdf86a2f0f0b52eebe65eb4ed8aad204f3daff",
+    "934e67f0b8fedffa333007ddcf75994e0ef24ff1a9f30bd21bf04fe3105b40d1",
+    "c3d0ab6d640bf240f3a50fcde9f085669fee40fe32ebfafd0dc56ddbb9baefa2"
+  ],
+  "elapsed_s": 6.5423264503479
+}

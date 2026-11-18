@@ -1,0 +1,64 @@
+{
+  "input_hash": "9ddda894a4bea65db8f8a8a62c77b5ba024583c42020b7abda3176635b5a55ed",
+  "sample_id": "ESC-CSV-02013",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "suspect",
+    "Anthony LaCalamita",
+    "police",
+    "Shooting",
+    "Accounting Firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "40f2e6e1e4be8830e71fcd3ccc9f3bc5d17c3724cf205f4208d09779b44266b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "40f2e6e1e4be8830e71fcd3ccc9f3bc5d17c3724cf205f4208d09779b44266b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5ae97855e01bdb802a652c077bb8d4dff2bc1a3c64fb5be2269c2802ab96cfc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0aae0428ff6be3dfd53814eac8d9dae78da2a2ab03fda487361fc08c8691b8b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "547a83fb4f109c3af410d26d1b766f0021de644404c0d603e091731dfac5c8a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"suspect\",\"Anthony LaCalamita\",\"entered\",\"office\",\"accounting firm\",\"Gordon Advisors\",\"police\",\"Shooting\"],\"target_related\":[\"Shooting\",\"Accounting Firm\",\"Woman\",\"Dead\",\"suspect\",\"Anthony LaCalamita\",\"opened fire\",\"police\"],\"mediators\":[\"suspect\",\"Anthony LaCalamita\",\"police\",\"Shooting\",\"Accounting Firm\"]}"
+    },
+    "indirect": {
+      "call_id": "3df344cff036736beaa9505eeddbbb33a119db849a4f370aab0439c34638f7e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Opening fire at people commonly causes injury; the shooting left two people hurt, so X precedes and causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "40f2e6e1e4be8830e71fcd3ccc9f3bc5d17c3724cf205f4208d09779b44266b4",
+    "40f2e6e1e4be8830e71fcd3ccc9f3bc5d17c3724cf205f4208d09779b44266b4",
+    "5ae97855e01bdb802a652c077bb8d4dff2bc1a3c64fb5be2269c2802ab96cfc8",
+    "0aae0428ff6be3dfd53814eac8d9dae78da2a2ab03fda487361fc08c8691b8b7",
+    "547a83fb4f109c3af410d26d1b766f0021de644404c0d603e091731dfac5c8a2",
+    "3df344cff036736beaa9505eeddbbb33a119db849a4f370aab0439c34638f7e9"
+  ],
+  "elapsed_s": 6.0140767097473145
+}

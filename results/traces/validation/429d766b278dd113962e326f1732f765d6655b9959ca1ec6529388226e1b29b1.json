@@ -1,0 +1,62 @@
+{
+  "input_hash": "429d766b278dd113962e326f1732f765d6655b9959ca1ec6529388226e1b29b1",
+  "sample_id": "ESC-CSV-02842",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "teen",
+    "slain"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ffd9ae089f96bd760bcc2082d60125f1a86e75a71d5a808a8cb80441f9fca51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ffd9ae089f96bd760bcc2082d60125f1a86e75a71d5a808a8cb80441f9fca51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ab82a47beddae7aa5718fd2cc229cb8278e39cb6085c82aff9cb3004c8df3e31",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "556c8e130aa1759b8eff77b110f34ec18f2f7f6c8e36374466a472d6a2d7f2d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "36f813d409f5e3cf4b20727da7e5e9201835b460d0b12013965ef4488253e091",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"shot\",\"teen\",\"Saturday\",\"night\",\"slain\"],\"target_related\":[\"Brooklyn\",\"slain\",\"teen\",\"NYPD\",\"riot\"],\"mediators\":[\"NYPD\",\"teen\",\"slain\"]}"
+    },
+    "indirect": {
+      "call_id": "c89d263a70d0866c643da4f05465feb7a0502730928718076d092a0555f230f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The teen was killed by NYPD; the killing precedes and prompts the Brooklyn vigil, which follows as a response to the death.\"}"
+    }
+  },
+  "call_ids": [
+    "0ffd9ae089f96bd760bcc2082d60125f1a86e75a71d5a808a8cb80441f9fca51",
+    "0ffd9ae089f96bd760bcc2082d60125f1a86e75a71d5a808a8cb80441f9fca51",
+    "ab82a47beddae7aa5718fd2cc229cb8278e39cb6085c82aff9cb3004c8df3e31",
+    "556c8e130aa1759b8eff77b110f34ec18f2f7f6c8e36374466a472d6a2d7f2d3",
+    "36f813d409f5e3cf4b20727da7e5e9201835b460d0b12013965ef4488253e091",
+    "c89d263a70d0866c643da4f05465feb7a0502730928718076d092a0555f230f4"
+  ],
+  "elapsed_s": 3.920804977416992
+}

@@ -1,0 +1,67 @@
+{
+  "input_hash": "93ea33d9241a57120bb5fc4ab08c25ecaa25dc32c05687757456d9fc9a5a8e8b",
+  "sample_id": "ESC-CSV-02072",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "employee",
+    "fired",
+    "woman",
+    "men",
+    "Monday",
+    "building",
+    "Detroit",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "88d4de9f7f7698bb64b6c6024ae0b146607468509d8a437020652194f7ff7bd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "88d4de9f7f7698bb64b6c6024ae0b146607468509d8a437020652194f7ff7bd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aec7b8e104b58d4d5123aeea58f91436199b2894b23ea13e8a0c3e0f79faa85f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "92d13ebc91e88c685025c557e838ac587ad01599cc2579f7cd901398fdb2dc15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "956e4572a1eccfbf2e9f04179db1d09bc0a73415bf52b46dc359befe74883a7b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"woman\",\"men\",\"Monday\",\"building\",\"Detroit\",\"police\"],\"target_related\":[\"employee\",\"fired\",\"woman\",\"men\",\"Monday\",\"building\",\"Detroit\",\"police\"],\"mediators\":[\"employee\",\"fired\",\"woman\",\"men\",\"Monday\",\"building\",\"Detroit\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "eb978e7248f33fa57551c94c7049599b57eb12722f03c093e109706b278c87db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone is commonly understood to cause their death; the shot occurred before and resulted in the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "88d4de9f7f7698bb64b6c6024ae0b146607468509d8a437020652194f7ff7bd4",
+    "88d4de9f7f7698bb64b6c6024ae0b146607468509d8a437020652194f7ff7bd4",
+    "aec7b8e104b58d4d5123aeea58f91436199b2894b23ea13e8a0c3e0f79faa85f",
+    "92d13ebc91e88c685025c557e838ac587ad01599cc2579f7cd901398fdb2dc15",
+    "956e4572a1eccfbf2e9f04179db1d09bc0a73415bf52b46dc359befe74883a7b",
+    "eb978e7248f33fa57551c94c7049599b57eb12722f03c093e109706b278c87db"
+  ],
+  "elapsed_s": 5.6733338832855225
+}

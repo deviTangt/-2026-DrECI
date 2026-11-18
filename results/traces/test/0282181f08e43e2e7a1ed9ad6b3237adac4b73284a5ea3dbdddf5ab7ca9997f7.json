@@ -1,0 +1,63 @@
+{
+  "input_hash": "0282181f08e43e2e7a1ed9ad6b3237adac4b73284a5ea3dbdddf5ab7ca9997f7",
+  "sample_id": "ESC-CSV-09662",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Tear gas",
+    "city center",
+    "rioters",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45608738a9aabfdea2dc39393e4cdaf19f8e9de73e8dbf0eb35adca023fb0a6d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45608738a9aabfdea2dc39393e4cdaf19f8e9de73e8dbf0eb35adca023fb0a6d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bce86a8f03ff7fd63877eede2b420adbdca2f9f870d6019525973c95d7ba66db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "589d67228a4e3f38665a1bc486f16c6d01596d03293f12578e6dc890e0894a76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1607ba09792e0708b4ca2e69bff6ac2a633f3adc94d33137ff642530b7e56c95",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"Tear gas\",\"city center\",\"rioters\",\"police\"],\"target_related\":[\"Tear gas\",\"city center\",\"rioters\",\"paving stones\",\"fire bombs\",\"police\"],\"mediators\":[\"Tear gas\",\"city center\",\"rioters\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "58046bede2784b4731eeae5995239a38c3cd5dfd0ae1f99d2d51e1683cc24e54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesting new taxes and spending cuts prompted rioters to hurl stones and fire bombs; the protest precedes and causes the hurling.\"}"
+    }
+  },
+  "call_ids": [
+    "45608738a9aabfdea2dc39393e4cdaf19f8e9de73e8dbf0eb35adca023fb0a6d",
+    "45608738a9aabfdea2dc39393e4cdaf19f8e9de73e8dbf0eb35adca023fb0a6d",
+    "bce86a8f03ff7fd63877eede2b420adbdca2f9f870d6019525973c95d7ba66db",
+    "589d67228a4e3f38665a1bc486f16c6d01596d03293f12578e6dc890e0894a76",
+    "1607ba09792e0708b4ca2e69bff6ac2a633f3adc94d33137ff642530b7e56c95",
+    "58046bede2784b4731eeae5995239a38c3cd5dfd0ae1f99d2d51e1683cc24e54"
+  ],
+  "elapsed_s": 4.711287260055542
+}

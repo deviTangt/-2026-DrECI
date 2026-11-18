@@ -1,0 +1,64 @@
+{
+  "input_hash": "1955495266886c899aca24ec7b304387a689d59dbf6e5c10576378957a608684",
+  "sample_id": "ESC-CSV-02464",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officers",
+    "teenager",
+    "Kimani Gray",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3e0cc4f2fd947fa3c7819b66859f6b654212f47e0179b00679d03a3d8e9b45f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3e0cc4f2fd947fa3c7819b66859f6b654212f47e0179b00679d03a3d8e9b45f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bb4c4576983847b1aa0ea6514421dca57c879acd3426bd348ba684d853ddbc3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c59a063e57765fdf7df7616b28392cd1ea65111b718ebd630f659d72bd53c802",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b3cdb54d58a4c00b5374b1eab4d6b31e80fd44472637b9cc90ea6da1ce0398af",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officers\",\"teenager\",\"Kimani Gray\",\"revolver\",\"shooting\"],\"target_related\":[\"police\",\"officers\",\"teenager\",\"Kimani Gray\",\"shooting\"],\"mediators\":[\"police\",\"officers\",\"teenager\",\"Kimani Gray\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "7a0b70107ce632550ef202befb43942e42f1f77989c66325d82e6c227537ffad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'fatally shot the teenager' — 'shot' directly causes 'killed'; explicit 'fatally' and common-sense order confirm causation.\"}"
+    }
+  },
+  "call_ids": [
+    "3e0cc4f2fd947fa3c7819b66859f6b654212f47e0179b00679d03a3d8e9b45f6",
+    "3e0cc4f2fd947fa3c7819b66859f6b654212f47e0179b00679d03a3d8e9b45f6",
+    "bb4c4576983847b1aa0ea6514421dca57c879acd3426bd348ba684d853ddbc3f",
+    "c59a063e57765fdf7df7616b28392cd1ea65111b718ebd630f659d72bd53c802",
+    "b3cdb54d58a4c00b5374b1eab4d6b31e80fd44472637b9cc90ea6da1ce0398af",
+    "7a0b70107ce632550ef202befb43942e42f1f77989c66325d82e6c227537ffad"
+  ],
+  "elapsed_s": 7.608527421951294
+}

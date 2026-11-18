@@ -1,0 +1,63 @@
+{
+  "input_hash": "6c9c9f87687061fcf37b25698b0b6b5fff4a43a25ab0dc3b2b341479a8b0bf84",
+  "sample_id": "ESC-CSV-06442",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Hero",
+    "Brooklyn",
+    "Mom"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "355397bf4aa820074291b5a77cb520e2aecab221d921570eba32aa418bd10bf9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "355397bf4aa820074291b5a77cb520e2aecab221d921570eba32aa418bd10bf9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "11c3c93dea7070d79275dc43209b22cb4bfbe511a0a01215c6af4449cf802b8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "80d38ff8b213383377a139fdac4e17bba7c35e5036694a481931e815ba11ab0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1281d4575fe999081e8e3b7014c4829e4d8ee6056ca043bf722e3e58611d1041",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Hero\",\"Brooklyn\",\"Mom\"],\"target_related\":[\"Teen\",\"Hero\",\"Brooklyn\",\"Mom\"],\"mediators\":[\"Teen\",\"Hero\",\"Brooklyn\",\"Mom\"]}"
+    },
+    "indirect": {
+      "call_id": "f58d096aa7e6cc4373b176445b04e36da10f8b9d13ccf64087fd670c25d168bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Headline 'Arrested in Shooting' uses 'in' linking arrest to the shooting; common sense: a shooting precedes and leads to an arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "355397bf4aa820074291b5a77cb520e2aecab221d921570eba32aa418bd10bf9",
+    "355397bf4aa820074291b5a77cb520e2aecab221d921570eba32aa418bd10bf9",
+    "11c3c93dea7070d79275dc43209b22cb4bfbe511a0a01215c6af4449cf802b8b",
+    "80d38ff8b213383377a139fdac4e17bba7c35e5036694a481931e815ba11ab0a",
+    "1281d4575fe999081e8e3b7014c4829e4d8ee6056ca043bf722e3e58611d1041",
+    "f58d096aa7e6cc4373b176445b04e36da10f8b9d13ccf64087fd670c25d168bf"
+  ],
+  "elapsed_s": 4.486139535903931
+}

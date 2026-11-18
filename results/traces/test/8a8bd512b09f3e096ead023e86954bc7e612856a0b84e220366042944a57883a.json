@@ -1,0 +1,67 @@
+{
+  "input_hash": "8a8bd512b09f3e096ead023e86954bc7e612856a0b84e220366042944a57883a",
+  "sample_id": "ESC-CSV-04429",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "£1 . 7m",
+    "upmarket central Paris shop",
+    "Place Vendome",
+    "France",
+    "robberies",
+    "Cannes"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e9e22a0963b4635d06e4aeced5ce5e654b450910331a2ebab0440fd4e2036c62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e9e22a0963b4635d06e4aeced5ce5e654b450910331a2ebab0440fd4e2036c62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "36dbac62d27e7ebe6541a210576f9b84de9084dab6bb1468e2877c37798cc888",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a2810d71551e0d333c689cac492d8490e8602132288bfa3a9d902cb379c2601",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f67512e46b534dd498c61eca38ddc44b4668232ff957a3455cd0c559cad349b1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"£1 . 7m\",\"heist\",\"upmarket central Paris shop\",\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1 . 7m\",\"stolen\",\"upmarket central Paris shop\",\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[\"Jewellery\",\"watches\",\"£1 . 7m\",\"upmarket central Paris shop\",\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"]}"
+    },
+    "indirect": {
+      "call_id": "25f4fcd278bce26165d755e56af4329bfe933bc8e98f0b73b59ec70451daf522",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Passive 'have been stolen during a heist' uses 'during' linking the theft to the heist; the heist is the setting in which stealing occurred.\"}"
+    }
+  },
+  "call_ids": [
+    "e9e22a0963b4635d06e4aeced5ce5e654b450910331a2ebab0440fd4e2036c62",
+    "e9e22a0963b4635d06e4aeced5ce5e654b450910331a2ebab0440fd4e2036c62",
+    "36dbac62d27e7ebe6541a210576f9b84de9084dab6bb1468e2877c37798cc888",
+    "3a2810d71551e0d333c689cac492d8490e8602132288bfa3a9d902cb379c2601",
+    "f67512e46b534dd498c61eca38ddc44b4668232ff957a3455cd0c559cad349b1",
+    "25f4fcd278bce26165d755e56af4329bfe933bc8e98f0b73b59ec70451daf522"
+  ],
+  "elapsed_s": 5.2237303256988525
+}

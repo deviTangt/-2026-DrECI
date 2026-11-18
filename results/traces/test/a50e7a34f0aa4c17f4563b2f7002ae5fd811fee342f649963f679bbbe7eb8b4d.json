@@ -1,0 +1,67 @@
+{
+  "input_hash": "a50e7a34f0aa4c17f4563b2f7002ae5fd811fee342f649963f679bbbe7eb8b4d",
+  "sample_id": "ESC-CSV-09825",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "man",
+    "women",
+    "killed",
+    "fire-bomb",
+    "bank",
+    "Athens",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45d3140cb179c70c6db7972f69d89c5a5fb1f6de1aa22463d3208f0497c7b9ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45d3140cb179c70c6db7972f69d89c5a5fb1f6de1aa22463d3208f0497c7b9ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "26e5827bfcf577f8525022463f408c2ce5f174f720098e5889499ecb50e57a82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e33eeea48748aeeba346b9b5b659be3a337457cb6b28517cbad92e94a0bfd6dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "148ca5cc5c7050c93895e719ceb037015b6a185e81701a34123203d8ad1eff3b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"man\",\"women\",\"killed\",\"fire-bomb\",\"bank\",\"Athens\",\"protesters\"],\"target_related\":[\"people\",\"man\",\"women\",\"killed\",\"fire-bomb\",\"bank\",\"Athens\",\"protesters\"],\"mediators\":[\"people\",\"man\",\"women\",\"killed\",\"fire-bomb\",\"bank\",\"Athens\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "f00494f69bc8acea71f1cb454b17b838d1c99d2f55f1b6d0447e432c1fa64a31",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text states the fire-bomb attack 'left at least three people dead,' using 'left' as an explicit causal verb linking attack to deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "45d3140cb179c70c6db7972f69d89c5a5fb1f6de1aa22463d3208f0497c7b9ca",
+    "45d3140cb179c70c6db7972f69d89c5a5fb1f6de1aa22463d3208f0497c7b9ca",
+    "26e5827bfcf577f8525022463f408c2ce5f174f720098e5889499ecb50e57a82",
+    "e33eeea48748aeeba346b9b5b659be3a337457cb6b28517cbad92e94a0bfd6dd",
+    "148ca5cc5c7050c93895e719ceb037015b6a185e81701a34123203d8ad1eff3b",
+    "f00494f69bc8acea71f1cb454b17b838d1c99d2f55f1b6d0447e432c1fa64a31"
+  ],
+  "elapsed_s": 4.458485841751099
+}

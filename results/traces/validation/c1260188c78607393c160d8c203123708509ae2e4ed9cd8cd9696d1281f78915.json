@@ -1,0 +1,62 @@
+{
+  "input_hash": "c1260188c78607393c160d8c203123708509ae2e4ed9cd8cd9696d1281f78915",
+  "sample_id": "ESC-CSV-01643",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "man",
+    "arrest",
+    "hoping"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "799484e06312a69f649c5790962d1ffd2dc7f630624ece42ecf8129c68b82591",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "799484e06312a69f649c5790962d1ffd2dc7f630624ece42ecf8129c68b82591",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7c90a7eec76275f4b035a321a197afc83c7fac2b124786472ef7e382a4ac45b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9bdb94292f0825feb2008452a8be8e056e412c3bf43f601096017f59901be26e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "171fe180a440023ad2a08f0139a1df1d5e70addd0b564828dce807fee80581ff",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"arrest\",\"suspicion\",\"hoping\"],\"target_related\":[\"Deputy\",\"Jerry Ortiz\",\"man\",\"arrest\",\"hoping\"],\"mediators\":[\"man\",\"arrest\",\"hoping\"]}"
+    },
+    "indirect": {
+      "call_id": "2c7fe1573a077250cca4988753751646fe81f4fea263a388f30fc527d0d0f4f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says he was looking for a man suspected of attempted murder; the suspicion is the reason for the search, not a cause of his looking.\"}"
+    }
+  },
+  "call_ids": [
+    "799484e06312a69f649c5790962d1ffd2dc7f630624ece42ecf8129c68b82591",
+    "799484e06312a69f649c5790962d1ffd2dc7f630624ece42ecf8129c68b82591",
+    "7c90a7eec76275f4b035a321a197afc83c7fac2b124786472ef7e382a4ac45b4",
+    "9bdb94292f0825feb2008452a8be8e056e412c3bf43f601096017f59901be26e",
+    "171fe180a440023ad2a08f0139a1df1d5e70addd0b564828dce807fee80581ff",
+    "2c7fe1573a077250cca4988753751646fe81f4fea263a388f30fc527d0d0f4f3"
+  ],
+  "elapsed_s": 4.341699838638306
+}

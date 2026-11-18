@@ -1,0 +1,69 @@
+{
+  "input_hash": "605187a2c4bf1a995b1690e7851a9af63f5d35a802caa8417fb9d1db305af683",
+  "sample_id": "ESC-CSV-06634",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "Zurana",
+    "Brooklyn",
+    "Mother",
+    "13",
+    "gang",
+    "Thursday",
+    "N.Y.",
+    "Daily",
+    "News"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6e64a85e1c5d9b7ed18b7205e96bfa7f0f2dc351f3181b3743dc5e75e6a85eff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6e64a85e1c5d9b7ed18b7205e96bfa7f0f2dc351f3181b3743dc5e75e6a85eff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "044d6169d74700ed4a87034c8a5966ce1079a368a57d4b1f807a5d37e8839b96",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "21a9dad0101b5557aedb689b9baa51aba51eaa458f85e4ff8d62119415ccf7d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4a102412e6f759ddbcd86eb5b5d5326e211e9a91f907633fef0cca69d44a2111",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"bullet\",\"Brooklyn\",\"Mother\",\"13\",\"Zurana\",\"gang\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"],\"target_related\":[\"Horton\",\"Zurana\",\"Brooklyn\",\"Mother\",\"13\",\"gang\",\"shooting\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"],\"mediators\":[\"Horton\",\"Zurana\",\"Brooklyn\",\"Mother\",\"13\",\"gang\",\"Thursday\",\"N.Y.\",\"Daily\",\"News\"]}"
+    },
+    "indirect": {
+      "call_id": "1e7d12997c8b5c6347a7f4875881886cdbaec04363db94cbb46ff0c17a9324c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed in a gang shooting' — 'by' links the shooting to being killed; shooting precedes and causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "6e64a85e1c5d9b7ed18b7205e96bfa7f0f2dc351f3181b3743dc5e75e6a85eff",
+    "6e64a85e1c5d9b7ed18b7205e96bfa7f0f2dc351f3181b3743dc5e75e6a85eff",
+    "044d6169d74700ed4a87034c8a5966ce1079a368a57d4b1f807a5d37e8839b96",
+    "21a9dad0101b5557aedb689b9baa51aba51eaa458f85e4ff8d62119415ccf7d4",
+    "4a102412e6f759ddbcd86eb5b5d5326e211e9a91f907633fef0cca69d44a2111",
+    "1e7d12997c8b5c6347a7f4875881886cdbaec04363db94cbb46ff0c17a9324c8"
+  ],
+  "elapsed_s": 4.867999076843262
+}

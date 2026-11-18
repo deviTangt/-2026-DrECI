@@ -1,0 +1,61 @@
+{
+  "input_hash": "9867f792782d0bea7f2e3c7078a26c02474b323b8641ff86cf4b0b29b44176ee",
+  "sample_id": "ESC-CSV-02815",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Police",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5d2c92f369b5a7c2a6e056c0c73ccd9048bf6bf331942ea5782762e9b652a137",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5d2c92f369b5a7c2a6e056c0c73ccd9048bf6bf331942ea5782762e9b652a137",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5f9a364828f8e3fe4be2d6e2b9b235c1469db10ff81eb9de279a79152462a608",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a1378e938fd601dfe6ccd2013b7921c4eb11bbf4b64b0c9ab7223bd5c5169cd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "a2665a6e6854534851eca225c7e920d351956c1a90f66a7ca885566c32dad278",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Police\",\"Brooklyn\",\"Neighborhood\"],\"target_related\":[\"protesters\",\"riot police\",\"Rite Aid\",\"marching\"],\"mediators\":[\"Police\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "89321efa799cec136fdffc3f61b74928c1b890cbc6e347c9695b8bdca95bce2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Teen killed by police sparked anger; protesters splintered off and trashed Rite Aid. Killing precedes trashing, and anger/protest chain links them.\"}"
+    }
+  },
+  "call_ids": [
+    "5d2c92f369b5a7c2a6e056c0c73ccd9048bf6bf331942ea5782762e9b652a137",
+    "5d2c92f369b5a7c2a6e056c0c73ccd9048bf6bf331942ea5782762e9b652a137",
+    "5f9a364828f8e3fe4be2d6e2b9b235c1469db10ff81eb9de279a79152462a608",
+    "a1378e938fd601dfe6ccd2013b7921c4eb11bbf4b64b0c9ab7223bd5c5169cd0",
+    "a2665a6e6854534851eca225c7e920d351956c1a90f66a7ca885566c32dad278",
+    "89321efa799cec136fdffc3f61b74928c1b890cbc6e347c9695b8bdca95bce2f"
+  ],
+  "elapsed_s": 4.957603454589844
+}

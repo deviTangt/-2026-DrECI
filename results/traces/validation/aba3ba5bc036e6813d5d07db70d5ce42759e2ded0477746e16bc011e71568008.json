@@ -1,0 +1,66 @@
+{
+  "input_hash": "aba3ba5bc036e6813d5d07db70d5ce42759e2ded0477746e16bc011e71568008",
+  "sample_id": "ESC-CSV-02682",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "cops",
+    "bottles",
+    "bottle",
+    "Brooklyn teenager",
+    "death",
+    "Anger"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a14d1ae4bbbaca43238968f3fcc1f74e986bed910d174ba14e53ee508db3443f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a14d1ae4bbbaca43238968f3fcc1f74e986bed910d174ba14e53ee508db3443f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bbbb0f3570852f8ddbd881fc9cb690e1b625c249792cb7390f96c9f73380fee1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d19a86a21c9c2295b1843c5a439eb740a67fcfbdeece8af42b7fd3d9a9e178a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "054035978a0d076914bd34d76d4ac16156446dba8eb746dde7c4d2e4078e1661",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mourners\",\"cops\",\"bottles\",\"melee\",\"Memorial\",\"Kimani 'Kiki' Gray\",\"police\",\"gun\",\"angry\"],\"target_related\":[\"Anger\",\"death\",\"Brooklyn teenager\",\"police\",\"East Flatbush\",\"projectiles\",\"cops\",\"car windows\",\"pharmacy customer\",\"bottle\"],\"mediators\":[\"police\",\"cops\",\"bottles\",\"bottle\",\"Brooklyn teenager\",\"death\",\"Anger\"]}"
+    },
+    "indirect": {
+      "call_id": "d5ba52d601d6e4f050940a2812af9a644394eb648ea309f8ffe9df8153687da4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Anger over the teen's death fueled the riot; mourners clashed with cops, and the clash/anger chain links clashed to riot via anger.\"}"
+    }
+  },
+  "call_ids": [
+    "a14d1ae4bbbaca43238968f3fcc1f74e986bed910d174ba14e53ee508db3443f",
+    "a14d1ae4bbbaca43238968f3fcc1f74e986bed910d174ba14e53ee508db3443f",
+    "bbbb0f3570852f8ddbd881fc9cb690e1b625c249792cb7390f96c9f73380fee1",
+    "d19a86a21c9c2295b1843c5a439eb740a67fcfbdeece8af42b7fd3d9a9e178a0",
+    "054035978a0d076914bd34d76d4ac16156446dba8eb746dde7c4d2e4078e1661",
+    "d5ba52d601d6e4f050940a2812af9a644394eb648ea309f8ffe9df8153687da4"
+  ],
+  "elapsed_s": 4.485833406448364
+}

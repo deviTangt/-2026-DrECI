@@ -1,0 +1,69 @@
+{
+  "input_hash": "ab15b2c0c8b1e38d4f8ed7b9b8d70444d9d480600c7c40d738bd517b6013383e",
+  "sample_id": "ESC-CSV-04330",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "two-million-euro",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "00a19a06dd502576aa9d22931e08cbd0bca6659fac7065a739a8d47a01c03dce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "00a19a06dd502576aa9d22931e08cbd0bca6659fac7065a739a8d47a01c03dce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2ac519106527513245ccc39ce1174ddd240ae53e45675bb1d4a0969b0a781fbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fee8e0863dfecf77e394345d06b6eb2b80f5f32aa57b56151d38ed87dca8bdd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "605c0b2da51632904a406f04811e259f65cce5d4f0df7044df97ca364acdef64",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "7feab67b4b5368121dd6c98fb59f82185868b666675e2b07566dc30a42973759",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window enables the men to take the loot and flee; the breaking occurs before and causes the making off.\"}"
+    }
+  },
+  "call_ids": [
+    "00a19a06dd502576aa9d22931e08cbd0bca6659fac7065a739a8d47a01c03dce",
+    "00a19a06dd502576aa9d22931e08cbd0bca6659fac7065a739a8d47a01c03dce",
+    "2ac519106527513245ccc39ce1174ddd240ae53e45675bb1d4a0969b0a781fbe",
+    "fee8e0863dfecf77e394345d06b6eb2b80f5f32aa57b56151d38ed87dca8bdd4",
+    "605c0b2da51632904a406f04811e259f65cce5d4f0df7044df97ca364acdef64",
+    "7feab67b4b5368121dd6c98fb59f82185868b666675e2b07566dc30a42973759"
+  ],
+  "elapsed_s": 4.853398084640503
+}

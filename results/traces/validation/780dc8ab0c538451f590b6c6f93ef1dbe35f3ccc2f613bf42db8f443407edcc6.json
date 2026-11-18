@@ -1,0 +1,63 @@
+{
+  "input_hash": "780dc8ab0c538451f590b6c6f93ef1dbe35f3ccc2f613bf42db8f443407edcc6",
+  "sample_id": "ESC-CSV-02150",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LaCalamita",
+    "Kafoury",
+    "Shooter",
+    "Attempted"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "819871cfe6ba1a811cb3f9df3075e54d533c9e5e1390fbf45c5ede185e038852",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "819871cfe6ba1a811cb3f9df3075e54d533c9e5e1390fbf45c5ede185e038852",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d49729bdbcab0442b5ae629058e3ba7e06c453eed377f30f0e04d1ed6e05048e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "19760de331fba14c8702a8a7fe028df3cc930cdd91d92121befb33f42185aec5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bce760074ec45af373df4d7d04920fc0c3df9ff37186373b17e8be84ef27f6ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"Kafoury\",\"death\",\"Shooter\",\"Attempted\"],\"target_related\":[\"LaCalamita\",\"first\",\"degree\",\"murder\",\"Kafoury\",\"Detroit\",\"Office\",\"Shooter\",\"Murder\",\"Attempted\",\"Murder\"],\"mediators\":[\"LaCalamita\",\"Kafoury\",\"Shooter\",\"Attempted\"]}"
+    },
+    "indirect": {
+      "call_id": "f6e929fbfa3518efb699b00297e755ad9662cfd8e5a94477c619094f4002dbb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'charged with first-degree murder' — the phrase 'with' links the charge (Y) to the murder (X), expressing causation.\"}"
+    }
+  },
+  "call_ids": [
+    "819871cfe6ba1a811cb3f9df3075e54d533c9e5e1390fbf45c5ede185e038852",
+    "819871cfe6ba1a811cb3f9df3075e54d533c9e5e1390fbf45c5ede185e038852",
+    "d49729bdbcab0442b5ae629058e3ba7e06c453eed377f30f0e04d1ed6e05048e",
+    "19760de331fba14c8702a8a7fe028df3cc930cdd91d92121befb33f42185aec5",
+    "bce760074ec45af373df4d7d04920fc0c3df9ff37186373b17e8be84ef27f6ae",
+    "f6e929fbfa3518efb699b00297e755ad9662cfd8e5a94477c619094f4002dbb1"
+  ],
+  "elapsed_s": 5.512940406799316
+}

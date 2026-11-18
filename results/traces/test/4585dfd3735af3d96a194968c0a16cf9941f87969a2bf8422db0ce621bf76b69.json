@@ -1,0 +1,64 @@
+{
+  "input_hash": "4585dfd3735af3d96a194968c0a16cf9941f87969a2bf8422db0ce621bf76b69",
+  "sample_id": "ESC-CSV-04495",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "Paris",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "02d543ff681856d2b25c6a908e8171ac1bf0173f6f17ce3e261efcf5bc1e6905",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "02d543ff681856d2b25c6a908e8171ac1bf0173f6f17ce3e261efcf5bc1e6905",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "785c0bdfeec345b603236d7e4b44a35bd585a3bf8125cb329a204930d8c967a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "07cb608c45b2ce9dd8b92096c66acf2034717d553d6cc78b1fc305b1a9c74f82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "047ea14eb55776b22114a77be1a5cde734e71454f17b5b5ce0a3dcd03efb98df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"],\"target_related\":[\"Paris\",\"jewelry\",\"store\",\"robbers\",\"jewelry\",\"watches\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "24b97eabfa80bfa14a369fd5e0b06329405fe8bc62b06d7301b11c3f08386397",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link 'make off' and 'heist'; they describe the same robbery, not cause and effect.\"}"
+    }
+  },
+  "call_ids": [
+    "02d543ff681856d2b25c6a908e8171ac1bf0173f6f17ce3e261efcf5bc1e6905",
+    "02d543ff681856d2b25c6a908e8171ac1bf0173f6f17ce3e261efcf5bc1e6905",
+    "785c0bdfeec345b603236d7e4b44a35bd585a3bf8125cb329a204930d8c967a8",
+    "07cb608c45b2ce9dd8b92096c66acf2034717d553d6cc78b1fc305b1a9c74f82",
+    "047ea14eb55776b22114a77be1a5cde734e71454f17b5b5ce0a3dcd03efb98df",
+    "24b97eabfa80bfa14a369fd5e0b06329405fe8bc62b06d7301b11c3f08386397"
+  ],
+  "elapsed_s": 4.912865161895752
+}

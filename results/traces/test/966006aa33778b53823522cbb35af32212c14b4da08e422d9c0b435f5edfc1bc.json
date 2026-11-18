@@ -1,0 +1,62 @@
+{
+  "input_hash": "966006aa33778b53823522cbb35af32212c14b4da08e422d9c0b435f5edfc1bc",
+  "sample_id": "ESC-CSV-04461",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Casty store",
+    "Paris",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "316c400ee9b1eb5f75c2027f192b7c80d9b4ae8ba68428d80a4c153bb9e43df4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "316c400ee9b1eb5f75c2027f192b7c80d9b4ae8ba68428d80a4c153bb9e43df4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fd57107ae190605e668251c2acee07ad3eb589f542ab836356806c01116f9c0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "86f5a7b22c19a42feff4057131f29fc237915fbf9fe5115b5c5420bf286db4f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "025a37b3bd9ea31b4e0c0d5b7325d2ca1cd8f94f95205915b677d853eed0a12b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"Casty store\",\"Paris\",\"Place Vendôme\"],\"target_related\":[\"France\",\"Riviera\",\"high-profile\"],\"mediators\":[\"Casty store\",\"Paris\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "c111bdca74947bbdb1bd710cfebd6af85fc60d7b1fe030ed3a80ae35de4a1bc2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The men rammed the store in a robbery; ramming is part of the robbery, not a cause of robberies. No causal word or structure links rammed to robberies.\"}"
+    }
+  },
+  "call_ids": [
+    "316c400ee9b1eb5f75c2027f192b7c80d9b4ae8ba68428d80a4c153bb9e43df4",
+    "316c400ee9b1eb5f75c2027f192b7c80d9b4ae8ba68428d80a4c153bb9e43df4",
+    "fd57107ae190605e668251c2acee07ad3eb589f542ab836356806c01116f9c0b",
+    "86f5a7b22c19a42feff4057131f29fc237915fbf9fe5115b5c5420bf286db4f8",
+    "025a37b3bd9ea31b4e0c0d5b7325d2ca1cd8f94f95205915b677d853eed0a12b",
+    "c111bdca74947bbdb1bd710cfebd6af85fc60d7b1fe030ed3a80ae35de4a1bc2"
+  ],
+  "elapsed_s": 4.1583781242370605
+}

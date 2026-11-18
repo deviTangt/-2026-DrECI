@@ -1,0 +1,63 @@
+{
+  "input_hash": "61f68732fc3e1f6cdbb6fa3859bf8d7050f13c7faa8c96b4476d8fcbeaac29fa",
+  "sample_id": "ESC-CSV-02892",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "Fatal",
+    "Brooklyn",
+    "Teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5c15226b64b08f84097bdbb6ce3b196913a4faff8c20dba848085ae2129718b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5c15226b64b08f84097bdbb6ce3b196913a4faff8c20dba848085ae2129718b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "561bb34a2ecc65af7546398ab50b046723d62e42a52bd40245a1fb4bccc60a01",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "669cdff5b920837d205822b4dcbff978e433f70d5b449093c20f605a080d29a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4a3c9b2bc304327177c8a3afd81d53e92f435315bf75918bd4d2dab2b0b211ec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"Fatal\",\"Brooklyn\",\"Teen\"],\"target_related\":[\"Dozens\",\"NYPD\",\"Fatal\",\"Brooklyn\",\"Teen\"],\"mediators\":[\"NYPD\",\"Fatal\",\"Brooklyn\",\"Teen\"]}"
+    },
+    "indirect": {
+      "call_id": "3793b1a99432813437c216ec3ebaf8a9a0a5a61a674f43f0674dca6491bd5201",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"'Riot Over' the fatal shooting implies the shooting provoked/sparked the riot; 'over' signals the riot was caused by the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "5c15226b64b08f84097bdbb6ce3b196913a4faff8c20dba848085ae2129718b9",
+    "5c15226b64b08f84097bdbb6ce3b196913a4faff8c20dba848085ae2129718b9",
+    "561bb34a2ecc65af7546398ab50b046723d62e42a52bd40245a1fb4bccc60a01",
+    "669cdff5b920837d205822b4dcbff978e433f70d5b449093c20f605a080d29a2",
+    "4a3c9b2bc304327177c8a3afd81d53e92f435315bf75918bd4d2dab2b0b211ec",
+    "3793b1a99432813437c216ec3ebaf8a9a0a5a61a674f43f0674dca6491bd5201"
+  ],
+  "elapsed_s": 4.180236101150513
+}

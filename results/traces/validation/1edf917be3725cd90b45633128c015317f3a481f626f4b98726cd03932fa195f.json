@@ -1,0 +1,62 @@
+{
+  "input_hash": "1edf917be3725cd90b45633128c015317f3a481f626f4b98726cd03932fa195f",
+  "sample_id": "ESC-CSV-02450",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "East Flatbush",
+    "Teenager",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "75f228b66151c77bb02df5abc54ecf58242e1aede03099783fb8c4d474cf44fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "75f228b66151c77bb02df5abc54ecf58242e1aede03099783fb8c4d474cf44fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a8b07e7dbde248a07ee65da7bb30fa75e5c9e586b81e908997d14733c59327b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "25d3ced949a393b1ccba6ef5d9c0e4f7c9113a91d436b21c0c9470788904d662",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7048e0d08362a7066cbb0209fda6084f08d86861be55cce401f84b29d1b7d7c7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teenager\",\"Police\",\"East Flatbush\"],\"target_related\":[\"East Flatbush\",\"Persists\",\"Teenager\",\"Police\"],\"mediators\":[\"East Flatbush\",\"Teenager\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "131b3537610461966695d9f97985bf9ed5da865fce69fd27d97438064270d62a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Title links 'Killing by the Police' to 'Anger' via 'Over' (because of); common sense: a killing causes anger.\"}"
+    }
+  },
+  "call_ids": [
+    "75f228b66151c77bb02df5abc54ecf58242e1aede03099783fb8c4d474cf44fd",
+    "75f228b66151c77bb02df5abc54ecf58242e1aede03099783fb8c4d474cf44fd",
+    "a8b07e7dbde248a07ee65da7bb30fa75e5c9e586b81e908997d14733c59327b9",
+    "25d3ced949a393b1ccba6ef5d9c0e4f7c9113a91d436b21c0c9470788904d662",
+    "7048e0d08362a7066cbb0209fda6084f08d86861be55cce401f84b29d1b7d7c7",
+    "131b3537610461966695d9f97985bf9ed5da865fce69fd27d97438064270d62a"
+  ],
+  "elapsed_s": 11.826477766036987
+}

@@ -1,0 +1,69 @@
+{
+  "input_hash": "a4850d03b1ac921983218b97767768944d9a25bf2dbfc7c30c594ba4dcfbb09c",
+  "sample_id": "ESC-CSV-09945",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "protest",
+    "march",
+    "general",
+    "5th",
+    "May",
+    "PAME",
+    "media",
+    "coverage",
+    "estimates"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "52c610fd37251cddbefcaa012fee38a762e0161d5f4e5a4b36e01714de64831e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "52c610fd37251cddbefcaa012fee38a762e0161d5f4e5a4b36e01714de64831e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a314090cc4c2d37930ee4345fdbd0ca9bb75bf440a49fc8ad0aba7d5a08759bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fb6ece5b911c4b16e309a8bfd9e0ebf0c255bc1380346a03954aefbc6f54991f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "55ba915d857e3b85f82eae222dc94c1f39f00fd2f5141d908732a59dc4c9993a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"protest\",\"march\",\"general\",\"5th\",\"May\",\"PAME\",\"media\",\"coverage\",\"estimates\"],\"target_related\":[\"Athens\",\"protest\",\"march\",\"general\",\"5th\",\"May\",\"PAME\",\"media\",\"coverage\",\"estimates\"],\"mediators\":[\"Athens\",\"protest\",\"march\",\"general\",\"5th\",\"May\",\"PAME\",\"media\",\"coverage\",\"estimates\"]}"
+    },
+    "indirect": {
+      "call_id": "fef814854bf7991aa091a7f7c1f615b105420d2abb05f0940e3c0f65d3622524",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'general strike called for the 5th of May was attended by an approximate 200,000' — 'by' explicitly links the strike to attendance/participation.\"}"
+    }
+  },
+  "call_ids": [
+    "52c610fd37251cddbefcaa012fee38a762e0161d5f4e5a4b36e01714de64831e",
+    "52c610fd37251cddbefcaa012fee38a762e0161d5f4e5a4b36e01714de64831e",
+    "a314090cc4c2d37930ee4345fdbd0ca9bb75bf440a49fc8ad0aba7d5a08759bb",
+    "fb6ece5b911c4b16e309a8bfd9e0ebf0c255bc1380346a03954aefbc6f54991f",
+    "55ba915d857e3b85f82eae222dc94c1f39f00fd2f5141d908732a59dc4c9993a",
+    "fef814854bf7991aa091a7f7c1f615b105420d2abb05f0940e3c0f65d3622524"
+  ],
+  "elapsed_s": 4.880392789840698
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "2b475c0b76b40622d44b5c150328ac1b66ec2298715c3d2e4ede1db09e87060f",
+  "sample_id": "ESC-CSV-07279",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "CHP",
+    "booked",
+    "county jail",
+    "released",
+    "bond"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "484753ad603bdba7d9b5b6555ef34f17694dabda75780d886d57b6d54beccc71",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "484753ad603bdba7d9b5b6555ef34f17694dabda75780d886d57b6d54beccc71",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1642cef94e80cb75061b4367f28f4bf78dc423dd54a8cacd0d792bc458ecc594",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6638b38ca0a48578cceef1e4ab06d93ad516af469c2a900ca22bc88b43de6776",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b6607aca34def4887ff914d91d6b97583559fa4178a600c7ebc0bc669e846633",
+      "status": "ok",
+      "text": "{\"source_related\":[\"CHP\",\"suspicion\",\"booked\",\"county jail\",\"released\",\"bond\"],\"target_related\":[\"CHP\",\"booked\",\"county jail\",\"released\",\"bond\"],\"mediators\":[\"CHP\",\"booked\",\"county jail\",\"released\",\"bond\"]}"
+    },
+    "indirect": {
+      "call_id": "eaaa23b14c31364f160978ffa5d752b27f785752b213b991031253022a9f93f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Arrested ... on suspicion of drunken driving' — 'on suspicion of' links the drunken driving to the arrest; common sense: drunken driving leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "484753ad603bdba7d9b5b6555ef34f17694dabda75780d886d57b6d54beccc71",
+    "484753ad603bdba7d9b5b6555ef34f17694dabda75780d886d57b6d54beccc71",
+    "1642cef94e80cb75061b4367f28f4bf78dc423dd54a8cacd0d792bc458ecc594",
+    "6638b38ca0a48578cceef1e4ab06d93ad516af469c2a900ca22bc88b43de6776",
+    "b6607aca34def4887ff914d91d6b97583559fa4178a600c7ebc0bc669e846633",
+    "eaaa23b14c31364f160978ffa5d752b27f785752b213b991031253022a9f93f3"
+  ],
+  "elapsed_s": 6.520874977111816
+}

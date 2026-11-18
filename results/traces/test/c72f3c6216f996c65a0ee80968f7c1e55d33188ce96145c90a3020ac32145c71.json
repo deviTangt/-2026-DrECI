@@ -1,0 +1,65 @@
+{
+  "input_hash": "c72f3c6216f996c65a0ee80968f7c1e55d33188ce96145c90a3020ac32145c71",
+  "sample_id": "ESC-CSV-06909",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang member",
+    "mother of 12",
+    "sprayed",
+    "bullets",
+    "Brooklyn rooftop",
+    "broad daylight"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "df15462cc45c982889132673e1959dccd921937055ba16ce35140e62bc291d32",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "df15462cc45c982889132673e1959dccd921937055ba16ce35140e62bc291d32",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "14a2aa1115733212ab33af51866ca1a25b31ab35b1b8d53cf0af431cdc614343",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "50d5d528f2aa0da907e3033a7b55eacd7915c4f673132bdfb060ea12d87d221c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e013573f2009c830f4f21e71b8076e4006ad70ab6612cc3ad6ff9004536d38a5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\"],\"target_related\":[\"gang member\",\"Tuesday\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\"],\"mediators\":[\"gang member\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\"]}"
+    },
+    "indirect": {
+      "call_id": "f81c558a9c3116e38df5ff2d107560f85d87b8f291daf51c195e78d619721d94",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Conviction follows the killing; 'for' links the crime to the conviction, but claiming the life does not cause being convicted under the given causal rules.\"}"
+    }
+  },
+  "call_ids": [
+    "df15462cc45c982889132673e1959dccd921937055ba16ce35140e62bc291d32",
+    "df15462cc45c982889132673e1959dccd921937055ba16ce35140e62bc291d32",
+    "14a2aa1115733212ab33af51866ca1a25b31ab35b1b8d53cf0af431cdc614343",
+    "50d5d528f2aa0da907e3033a7b55eacd7915c4f673132bdfb060ea12d87d221c",
+    "e013573f2009c830f4f21e71b8076e4006ad70ab6612cc3ad6ff9004536d38a5",
+    "f81c558a9c3116e38df5ff2d107560f85d87b8f291daf51c195e78d619721d94"
+  ],
+  "elapsed_s": 4.750587463378906
+}

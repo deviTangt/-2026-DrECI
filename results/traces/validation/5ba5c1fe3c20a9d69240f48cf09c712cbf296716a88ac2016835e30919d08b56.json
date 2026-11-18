@@ -1,0 +1,65 @@
+{
+  "input_hash": "5ba5c1fe3c20a9d69240f48cf09c712cbf296716a88ac2016835e30919d08b56",
+  "sample_id": "ESC-CSV-01912",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jose Luis Orozco",
+    "29",
+    "1st degree murder",
+    "attempted murder",
+    "posession of a firearm by a felon",
+    "convicted"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "14cd7afa33644af8f211b4f144b325c02daee56fb9d88deff97d17063d6c1fb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "14cd7afa33644af8f211b4f144b325c02daee56fb9d88deff97d17063d6c1fb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "910012c0e9cb2a2b556a2d4cbedafc0b01935a0d7be3d236a3c33c32c943b1b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "848ee48b5edd04436c206fba81b57b12ef93814797790614c1558355d5854074",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ca86968e54b8764adb814b64c214c4f38f7df833aa8c90c8416aa1919566f2b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"convicted\",\"Hawaiian Gardens gang member\",\"L . A . County Sheriff's Deputy Jerry Ortiz\",\"June , 2005\",\"Jose Luis Orozco\",\"29\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\"],\"target_related\":[\"jury\",\"Jose Luis Orozco\",\"29\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"convicted\",\"murdering\"],\"mediators\":[\"Jose Luis Orozco\",\"29\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"convicted\"]}"
+    },
+    "indirect": {
+      "call_id": "571de0345a483af9e8aa25fe3e6fd473ff1b0adcc289a1306aaed701f18eded7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The jury 'convicted' Orozco of 'murdering' Deputy Ortiz, and found him 'guilty'; the murdering leads to the guilty verdict (explicit 'convicted', causal order).\"}"
+    }
+  },
+  "call_ids": [
+    "14cd7afa33644af8f211b4f144b325c02daee56fb9d88deff97d17063d6c1fb9",
+    "14cd7afa33644af8f211b4f144b325c02daee56fb9d88deff97d17063d6c1fb9",
+    "910012c0e9cb2a2b556a2d4cbedafc0b01935a0d7be3d236a3c33c32c943b1b3",
+    "848ee48b5edd04436c206fba81b57b12ef93814797790614c1558355d5854074",
+    "ca86968e54b8764adb814b64c214c4f38f7df833aa8c90c8416aa1919566f2b5",
+    "571de0345a483af9e8aa25fe3e6fd473ff1b0adcc289a1306aaed701f18eded7"
+  ],
+  "elapsed_s": 6.5844032764434814
+}

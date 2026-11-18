@@ -1,0 +1,61 @@
+{
+  "input_hash": "e952234987d4388c90c629eb091d636044c38f7feae06853e5f4d46515349baa",
+  "sample_id": "ESC-CSV-02948",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "young people",
+    "NYPD officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aec28e5e86d549169c4378bf7309e9ba7a69cad9bc38aeb1d682345ac1dace09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aec28e5e86d549169c4378bf7309e9ba7a69cad9bc38aeb1d682345ac1dace09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "410dfeda30487cd2537272666839e832717d195cd2afd6cb6f53caaabd2efbe7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9aa5ed19c454e7d632e2c8ed93424483732e2c1fbc173106587a15f3fe7d6c33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4e31d1958373b4c933d38e074911290f259ce576e4793bfd9d010178af74e4b4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"young people\",\"NYPD officers\"],\"target_related\":[\"Brooklyn\",\"protest\",\"death\",\"armed 16 - year - old\",\"young people\",\"NYPD officers\"],\"mediators\":[\"young people\",\"NYPD officers\"]}"
+    },
+    "indirect": {
+      "call_id": "1d78c77b96ced340f30e8aee3da0cc8fd2064f6b60611d467b8686f446d58a79",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Lashing out by young people at officers occurred before and caused the protest to turn into a riot, matching common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "aec28e5e86d549169c4378bf7309e9ba7a69cad9bc38aeb1d682345ac1dace09",
+    "aec28e5e86d549169c4378bf7309e9ba7a69cad9bc38aeb1d682345ac1dace09",
+    "410dfeda30487cd2537272666839e832717d195cd2afd6cb6f53caaabd2efbe7",
+    "9aa5ed19c454e7d632e2c8ed93424483732e2c1fbc173106587a15f3fe7d6c33",
+    "4e31d1958373b4c933d38e074911290f259ce576e4793bfd9d010178af74e4b4",
+    "1d78c77b96ced340f30e8aee3da0cc8fd2064f6b60611d467b8686f446d58a79"
+  ],
+  "elapsed_s": 4.3992626667022705
+}

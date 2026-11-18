@@ -1,0 +1,62 @@
+{
+  "input_hash": "bdd46001dc343edb50c1cb118bb3df5920a2d50b92120dbe98a203a8b3dc342e",
+  "sample_id": "ESC-CSV-06635",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "youths",
+    "murdering",
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d2725e009a31c33ddbcc655c69293edb538d1b7720fbf8b88f24d00ab947108b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d2725e009a31c33ddbcc655c69293edb538d1b7720fbf8b88f24d00ab947108b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "915cac48641a3c8797a21c3b16852ee1ff8407d2be3e541eb6976517ecfab3ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c53f631639dc98bb4a7524c64490bf317e6158b34c8188298b63929b9a206acd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8d4638d2cc964c6a496155731df58fdfcfa02e91756505b136b773a211e3569a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"youths\",\"murdering\",\"Horton\"],\"target_related\":[\"Prosecutors\",\"footage\",\"youths\",\"murdering\",\"Horton\",\"Monday\",\"testimony\",\"man\",\"Lopez\",\"brother\",\"stand\"],\"mediators\":[\"youths\",\"murdering\",\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "3651285fec7ae07e78c669ded2495867a561a0a545816921dfb50498a76ae0bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says the youths were charged with murdering Horton and that the trial is scheduled; being charged does not cause the trial in the given wording.\"}"
+    }
+  },
+  "call_ids": [
+    "d2725e009a31c33ddbcc655c69293edb538d1b7720fbf8b88f24d00ab947108b",
+    "d2725e009a31c33ddbcc655c69293edb538d1b7720fbf8b88f24d00ab947108b",
+    "915cac48641a3c8797a21c3b16852ee1ff8407d2be3e541eb6976517ecfab3ba",
+    "c53f631639dc98bb4a7524c64490bf317e6158b34c8188298b63929b9a206acd",
+    "8d4638d2cc964c6a496155731df58fdfcfa02e91756505b136b773a211e3569a",
+    "3651285fec7ae07e78c669ded2495867a561a0a545816921dfb50498a76ae0bc"
+  ],
+  "elapsed_s": 5.163928508758545
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "e47bdbe523c09b94468e0851a83dc8db100166928d75c8299aaacb5ce8486ae9",
+  "sample_id": "ESC-CSV-09949",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "austerity",
+    "planned",
+    "violent"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9b2d076cb2016185974ff347b5885ada40d6f769f5345f6a67fd21a1ac4e6a3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9b2d076cb2016185974ff347b5885ada40d6f769f5345f6a67fd21a1ac4e6a3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "263eadcf97e5d60a442d4b2f709b78b7674ba4f82c796b2b5b14cf9ce0b0c2cf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "544500e8fb6476938fa08a46d42aef58c44c37f9e740e2cbc1fbf33991b6a045",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9487e757a142eaa4affd45b867664979e951e3e14d42207c045ccb893e76f475",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"planned\",\"demonstrations\",\"violent\"],\"target_related\":[\"austerity\",\"measures\",\"planned\",\"violent\"],\"mediators\":[\"austerity\",\"planned\",\"violent\"]}"
+    },
+    "indirect": {
+      "call_id": "2fd325364b492cc60240ed49e3277c695561117e32d4c114f7e8d4b80220e4c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Demonstrations turned violent over the planned austerity measures, implying the measures provoked the demonstrations.\"}"
+    }
+  },
+  "call_ids": [
+    "9b2d076cb2016185974ff347b5885ada40d6f769f5345f6a67fd21a1ac4e6a3a",
+    "9b2d076cb2016185974ff347b5885ada40d6f769f5345f6a67fd21a1ac4e6a3a",
+    "263eadcf97e5d60a442d4b2f709b78b7674ba4f82c796b2b5b14cf9ce0b0c2cf",
+    "544500e8fb6476938fa08a46d42aef58c44c37f9e740e2cbc1fbf33991b6a045",
+    "9487e757a142eaa4affd45b867664979e951e3e14d42207c045ccb893e76f475",
+    "2fd325364b492cc60240ed49e3277c695561117e32d4c114f7e8d4b80220e4c4"
+  ],
+  "elapsed_s": 4.162869215011597
+}

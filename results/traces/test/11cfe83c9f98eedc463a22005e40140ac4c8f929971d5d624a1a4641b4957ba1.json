@@ -1,0 +1,60 @@
+{
+  "input_hash": "11cfe83c9f98eedc463a22005e40140ac4c8f929971d5d624a1a4641b4957ba1",
+  "sample_id": "ESC-CSV-06708",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gangbangers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "999d2f78aabbb65be149c58a1b3f22d9909e27f6c32d5ddb02fc76a86388a02a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "999d2f78aabbb65be149c58a1b3f22d9909e27f6c32d5ddb02fc76a86388a02a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ab1ccf31f9a39de39bb9f8027bb2d13f2da7966cf21e9269b73936c38381e26c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "69c37ab547366c574541d995bda7cc7a22338e8287abf8cc2c516831dbb5c916",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a98f03269d2aeaced76de9e1763201bd05ae8a5405a0d5ab122e41b179ccf244",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangbangers\",\"bullets\",\"rooftop\",\"Brooklyn\"],\"target_related\":[\"gangbangers\",\"mother\",\"12\",\"tragically\"],\"mediators\":[\"gangbangers\"]}"
+    },
+    "indirect": {
+      "call_id": "f000e6bad72c3ea446c917ddd43dad3ff83b6c44ea3d1ea7fe9d5abaf928bb4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spraying bullets from a rooftop occurred before and directly caused the mother's death, matching common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "999d2f78aabbb65be149c58a1b3f22d9909e27f6c32d5ddb02fc76a86388a02a",
+    "999d2f78aabbb65be149c58a1b3f22d9909e27f6c32d5ddb02fc76a86388a02a",
+    "ab1ccf31f9a39de39bb9f8027bb2d13f2da7966cf21e9269b73936c38381e26c",
+    "69c37ab547366c574541d995bda7cc7a22338e8287abf8cc2c516831dbb5c916",
+    "a98f03269d2aeaced76de9e1763201bd05ae8a5405a0d5ab122e41b179ccf244",
+    "f000e6bad72c3ea446c917ddd43dad3ff83b6c44ea3d1ea7fe9d5abaf928bb4b"
+  ],
+  "elapsed_s": 5.437488555908203
+}

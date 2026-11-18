@@ -1,0 +1,63 @@
+{
+  "input_hash": "d6804f00cc4e46b253669740f6c8585309891d7e0b518bb4646883949a4751b4",
+  "sample_id": "ESC-CSV-06824",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "confessed",
+    "Brooklyn",
+    "gang"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "597ffe595ba4488469a487749edee9d19b0899b892140696250b51ec7d3bc85e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "597ffe595ba4488469a487749edee9d19b0899b892140696250b51ec7d3bc85e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf70ea5b88ac8d4468e3b957a6cec4dbc5a14fa50a169bd72df94a406343edc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "525f2f55f21a46736a9365992909a10dbe918d975cf526c3e31985e1eb68ae40",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c2b9245d3e498480b3c0a73e4ffcf2367417eb9ff290228ad25cf0097d7d13f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"confessed\",\"Brooklyn\",\"18-year-old\",\"male\",\"gang\",\"shooting\"],\"target_related\":[\"Andrew Lopez\",\"confessed\",\"Zurana Horton\",\"Brooklyn\",\"mother\",\"gang\",\"murder\"],\"mediators\":[\"Andrew Lopez\",\"confessed\",\"Brooklyn\",\"gang\"]}"
+    },
+    "indirect": {
+      "call_id": "8af3f85b567edf4be19eac7ecc13618ccd90788c322b83b3a8dbf0cca3e584b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting is the act that causes a murder; the gang-related shooting resulted in the mother's death, so Shooting causes murder by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "597ffe595ba4488469a487749edee9d19b0899b892140696250b51ec7d3bc85e",
+    "597ffe595ba4488469a487749edee9d19b0899b892140696250b51ec7d3bc85e",
+    "cf70ea5b88ac8d4468e3b957a6cec4dbc5a14fa50a169bd72df94a406343edc5",
+    "525f2f55f21a46736a9365992909a10dbe918d975cf526c3e31985e1eb68ae40",
+    "7c2b9245d3e498480b3c0a73e4ffcf2367417eb9ff290228ad25cf0097d7d13f",
+    "8af3f85b567edf4be19eac7ecc13618ccd90788c322b83b3a8dbf0cca3e584b4"
+  ],
+  "elapsed_s": 5.211934566497803
+}

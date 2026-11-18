@@ -1,0 +1,63 @@
+{
+  "input_hash": "62dd26f7ccac042b9f8a35d2b7a62439a1a19c9bed3d353b249f440bdd4cab71",
+  "sample_id": "ESC-CSV-09746",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police",
+    "said",
+    "12",
+    "people"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "23f04558787e2a7017a0675805b1680e9578167381e7999487b218d6746666b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "23f04558787e2a7017a0675805b1680e9578167381e7999487b218d6746666b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1e8312b8052c4157737dd5470861feb91cd1661bb515468bba32096ce48530b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "899cca4a0ffd74c4b2988afa75fe42dae06176fb50e538a017b848b293053db4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "14cbc249374caeb2883aeb830bcf166608f378314b352d92f2179ac4243ddfb7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Police\",\"said\",\"12\",\"people\"],\"target_related\":[\"Police\",\"said\",\"12\",\"people\",\"riots\"],\"mediators\":[\"Police\",\"said\",\"12\",\"people\"]}"
+    },
+    "indirect": {
+      "call_id": "5e2ebae8a96ac8b4b17ff09ee5b7e57553f891474c5b555ca63f058f00d630ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occur before people are injured; common sense holds that riots cause injuries, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "23f04558787e2a7017a0675805b1680e9578167381e7999487b218d6746666b4",
+    "23f04558787e2a7017a0675805b1680e9578167381e7999487b218d6746666b4",
+    "1e8312b8052c4157737dd5470861feb91cd1661bb515468bba32096ce48530b1",
+    "899cca4a0ffd74c4b2988afa75fe42dae06176fb50e538a017b848b293053db4",
+    "14cbc249374caeb2883aeb830bcf166608f378314b352d92f2179ac4243ddfb7",
+    "5e2ebae8a96ac8b4b17ff09ee5b7e57553f891474c5b555ca63f058f00d630ac"
+  ],
+  "elapsed_s": 4.8439435958862305
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "df0b6079eeeaeae5648728db795dab0b66086abcb89678f670bdf18210ccf3e0",
+  "sample_id": "ESC-CSV-02124",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paul Riva",
+    "Alan Steinberg",
+    "accounting firm",
+    "Madeline Kafoury"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0897863ffa6e9a3e8a5bde0cce719e4d1f6b2dea6def42fc292ebb13b530e584",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0897863ffa6e9a3e8a5bde0cce719e4d1f6b2dea6def42fc292ebb13b530e584",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0c03e4af376b5f6ce1ed6a556c0d19c650bc6399f36ac41b0d2568831a5f1bb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4a6946d52dde7e762db900bfbd04b02a8822a1e4fdc203a00acdb8b34da01098",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "008e230dab358b30d2735d1be30db682ed76abafb2e1059ee02758e3da3c9d1f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"receptionist\",\"managing partners\",\"Madeline Kafoury\"],\"target_related\":[\"Anthony LaCalamita III\",\"jury\",\"man\",\"murder\",\"assault\"],\"mediators\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"Madeline Kafoury\"]}"
+    },
+    "indirect": {
+      "call_id": "ed09d7f3a5df9b00ed81e4816c806cee0146279f480b39aeaa7db9d7bc7e4152",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shootings occurred in April 2007; the jury later convicted the man charged in them, so the shootings preceded and led to the conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "0897863ffa6e9a3e8a5bde0cce719e4d1f6b2dea6def42fc292ebb13b530e584",
+    "0897863ffa6e9a3e8a5bde0cce719e4d1f6b2dea6def42fc292ebb13b530e584",
+    "0c03e4af376b5f6ce1ed6a556c0d19c650bc6399f36ac41b0d2568831a5f1bb6",
+    "4a6946d52dde7e762db900bfbd04b02a8822a1e4fdc203a00acdb8b34da01098",
+    "008e230dab358b30d2735d1be30db682ed76abafb2e1059ee02758e3da3c9d1f",
+    "ed09d7f3a5df9b00ed81e4816c806cee0146279f480b39aeaa7db9d7bc7e4152"
+  ],
+  "elapsed_s": 5.882560729980469
+}

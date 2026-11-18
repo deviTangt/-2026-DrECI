@@ -1,0 +1,62 @@
+{
+  "input_hash": "4c7e79925e8bdaee1e67fe10962231421bb4e3bece41ad6d6c3047610e3f7344",
+  "sample_id": "ESC-CSV-02220",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunshot wounds",
+    "Royal Oak Beaumont Hospital",
+    "Scherlinck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2493fe05895704db5547da7cb8f7c13e19da9fc6ce87b5ee006b0288c7903bad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2493fe05895704db5547da7cb8f7c13e19da9fc6ce87b5ee006b0288c7903bad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "94bc38a41a8dbdda34de780d1bceebb62544648a99140d46ec449eada6585d65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "56ffb035db699e5760055bc3bf2483a9f280326014904833114dff89fb13331c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "92b9ee45e5b7308bf5d8dea8968518a41068adb937561c5c28b8453e97ec6b0e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"public places\",\"Atlanta\",\"Georgia\",\"Seattle\",\"Washington\",\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"target_related\":[\"two men\",\"management level employees\",\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"mediators\":[\"gunshot wounds\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"]}"
+    },
+    "indirect": {
+      "call_id": "1eb9c7ee7202e929acef8922476efdb37a475972abe9f4e5980e40acb471aba3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting caused gunshot wounds, which required surgery; shooting precedes surgery and causally leads to it by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "2493fe05895704db5547da7cb8f7c13e19da9fc6ce87b5ee006b0288c7903bad",
+    "2493fe05895704db5547da7cb8f7c13e19da9fc6ce87b5ee006b0288c7903bad",
+    "94bc38a41a8dbdda34de780d1bceebb62544648a99140d46ec449eada6585d65",
+    "56ffb035db699e5760055bc3bf2483a9f280326014904833114dff89fb13331c",
+    "92b9ee45e5b7308bf5d8dea8968518a41068adb937561c5c28b8453e97ec6b0e",
+    "1eb9c7ee7202e929acef8922476efdb37a475972abe9f4e5980e40acb471aba3"
+  ],
+  "elapsed_s": 8.892357349395752
+}

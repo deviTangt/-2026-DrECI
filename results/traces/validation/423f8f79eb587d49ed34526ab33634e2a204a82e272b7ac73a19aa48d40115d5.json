@@ -1,0 +1,65 @@
+{
+  "input_hash": "423f8f79eb587d49ed34526ab33634e2a204a82e272b7ac73a19aa48d40115d5",
+  "sample_id": "ESC-CSV-07094",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "defensive tackle",
+    "suspicion",
+    "last weekend",
+    "freeway",
+    "downtown"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ebfeba1899bcb211d8bed44b33ad4542214d8e0163ac605b9d9b01f9cf5eff3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ebfeba1899bcb211d8bed44b33ad4542214d8e0163ac605b9d9b01f9cf5eff3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "00db0298444a6deae6bbc592aa60a42d2620dfa8e282c65fb6d9c535d952f265",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d967f4a7d5f86e99c88e09a5390e01a40ffc48d294b3ed74b6e321dbca56f8b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2237846d60afce92f33ddb5a94325386336ad3b07b5b0a0869e7615b88f8de36",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"defensive tackle\",\"California Highway Patrol\",\"suspicion\",\"last weekend\",\"freeway\",\"downtown\"],\"target_related\":[\"Jamal Williams\",\"defensive tackle\",\"suspicion\",\"last weekend\",\"freeway\",\"downtown\"],\"mediators\":[\"Jamal Williams\",\"defensive tackle\",\"suspicion\",\"last weekend\",\"freeway\",\"downtown\"]}"
+    },
+    "indirect": {
+      "call_id": "d1393f103d532fd36bdc2b38e842201ec91f0b0cb7b8ad2ac4f926a775de12e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested on suspicion of drunken driving' — 'on suspicion of' links the arrest to drunken driving as its cause.\"}"
+    }
+  },
+  "call_ids": [
+    "ebfeba1899bcb211d8bed44b33ad4542214d8e0163ac605b9d9b01f9cf5eff3e",
+    "ebfeba1899bcb211d8bed44b33ad4542214d8e0163ac605b9d9b01f9cf5eff3e",
+    "00db0298444a6deae6bbc592aa60a42d2620dfa8e282c65fb6d9c535d952f265",
+    "d967f4a7d5f86e99c88e09a5390e01a40ffc48d294b3ed74b6e321dbca56f8b6",
+    "2237846d60afce92f33ddb5a94325386336ad3b07b5b0a0869e7615b88f8de36",
+    "d1393f103d532fd36bdc2b38e842201ec91f0b0cb7b8ad2ac4f926a775de12e3"
+  ],
+  "elapsed_s": 4.312615156173706
+}

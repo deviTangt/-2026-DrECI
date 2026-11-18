@@ -1,0 +1,65 @@
+{
+  "input_hash": "de16292ddcd57d41ba2e8e8011da5f19452510e70d563708ecb563657a382802",
+  "sample_id": "ESC-CSV-02232",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "person",
+    "injured",
+    "police",
+    "man",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "82b54e20c02263e440e7d2275971f384476794415ff0d0fa20b4840d494c6a75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "82b54e20c02263e440e7d2275971f384476794415ff0d0fa20b4840d494c6a75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "12273dd41ddc26e5e371d276e88e5e21cef8bac113d32400650cb66202d18765",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6bf1bc2d195a3224861f11232363366dfb88eef9a4e3ca4d0f75800ed46998df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6e61029ea3b54e3cd5cc472fda4dc250130fef4641cade8f0df20cf86d98a318",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"shot\",\"injured\",\"police\",\"man\",\"fired\",\"Detroit\",\"accounting\",\"firm\"],\"target_related\":[\"shot\",\"person\",\"injured\",\"police\",\"man\",\"Monday\"],\"mediators\":[\"shot\",\"person\",\"injured\",\"police\",\"man\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "2edc680fd3fb2a59ad5bf222defca4dd50cf5b245602bdac2874fb9cef6d5b63",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting (man shot to death one person) causes death; the shooting precedes and produces the death.\"}"
+    }
+  },
+  "call_ids": [
+    "82b54e20c02263e440e7d2275971f384476794415ff0d0fa20b4840d494c6a75",
+    "82b54e20c02263e440e7d2275971f384476794415ff0d0fa20b4840d494c6a75",
+    "12273dd41ddc26e5e371d276e88e5e21cef8bac113d32400650cb66202d18765",
+    "6bf1bc2d195a3224861f11232363366dfb88eef9a4e3ca4d0f75800ed46998df",
+    "6e61029ea3b54e3cd5cc472fda4dc250130fef4641cade8f0df20cf86d98a318",
+    "2edc680fd3fb2a59ad5bf222defca4dd50cf5b245602bdac2874fb9cef6d5b63"
+  ],
+  "elapsed_s": 9.71706748008728
+}

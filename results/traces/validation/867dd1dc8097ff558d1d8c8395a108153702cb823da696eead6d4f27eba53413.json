@@ -1,0 +1,60 @@
+{
+  "input_hash": "867dd1dc8097ff558d1d8c8395a108153702cb823da696eead6d4f27eba53413",
+  "sample_id": "ESC-CSV-01996",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "witness"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0eda1aaf37f1b7c9e3fe7e155c707a07c8f38828119d64a78dcea198221cd6ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0eda1aaf37f1b7c9e3fe7e155c707a07c8f38828119d64a78dcea198221cd6ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2350f3f3850f2bf44d30fc8c5629c79a50ef15cc2ecacf4fc72420f9d8700058",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "069001c389e31228d9ac6598486589e3321568f6a7ba9d0aff4ae02e6c71e127",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "357c0212a536dfb90927a66555e357c3a01b75ee5cf43779bd490f6dcf512d10",
+      "status": "ok",
+      "text": "{\"source_related\":[\"witness\",\"911\"],\"target_related\":[\"shooting\"],\"mediators\":[\"witness\"]}"
+    },
+    "indirect": {
+      "call_id": "596541981110c39ab09dfa5bd2323f9d3efcc7d4bc522301656c7376a339eda8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"A witness called 911 in order to report the shooting; calling enables reporting but does not cause it, and no explicit or implicit causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "0eda1aaf37f1b7c9e3fe7e155c707a07c8f38828119d64a78dcea198221cd6ef",
+    "0eda1aaf37f1b7c9e3fe7e155c707a07c8f38828119d64a78dcea198221cd6ef",
+    "2350f3f3850f2bf44d30fc8c5629c79a50ef15cc2ecacf4fc72420f9d8700058",
+    "069001c389e31228d9ac6598486589e3321568f6a7ba9d0aff4ae02e6c71e127",
+    "357c0212a536dfb90927a66555e357c3a01b75ee5cf43779bd490f6dcf512d10",
+    "596541981110c39ab09dfa5bd2323f9d3efcc7d4bc522301656c7376a339eda8"
+  ],
+  "elapsed_s": 5.765795469284058
+}

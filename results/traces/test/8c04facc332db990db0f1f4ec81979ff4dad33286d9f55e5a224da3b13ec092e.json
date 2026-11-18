@@ -1,0 +1,68 @@
+{
+  "input_hash": "8c04facc332db990db0f1f4ec81979ff4dad33286d9f55e5a224da3b13ec092e",
+  "sample_id": "ESC-CSV-09929",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "protest",
+    "general",
+    "5th",
+    "May",
+    "media",
+    "coverage",
+    "participation",
+    "PAME"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "68fd8ad481acba790a0d8e03f56f3010b705dc81d780481804528a3b8d82b2c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "68fd8ad481acba790a0d8e03f56f3010b705dc81d780481804528a3b8d82b2c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d98db52eac46d8843fffd0abbf81ee672d49a16aee5718e87ff89930a64407b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9f30bcad52015110a562ff33c94f32e950d0e4a7d62a466a77d2e45b07bd40b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6a313c71a769f7b4d373094eca15e4a89672cedeceb301b8cd22d3635a4f3d5a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"protest\",\"general\",\"5th\",\"May\",\"media\",\"coverage\",\"participation\",\"PAME\"],\"target_related\":[\"Athens\",\"protest\",\"general\",\"5th\",\"May\",\"media\",\"coverage\",\"participation\",\"PAME\"],\"mediators\":[\"Athens\",\"protest\",\"general\",\"5th\",\"May\",\"media\",\"coverage\",\"participation\",\"PAME\"]}"
+    },
+    "indirect": {
+      "call_id": "e9f5f3d4292a41c927fd769331547c983bf47e395f876722469741727dccddac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A general strike called for May 5 precedes and prompts the Athens protest march marking its zenith, so the strike causes the march by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "68fd8ad481acba790a0d8e03f56f3010b705dc81d780481804528a3b8d82b2c4",
+    "68fd8ad481acba790a0d8e03f56f3010b705dc81d780481804528a3b8d82b2c4",
+    "0d98db52eac46d8843fffd0abbf81ee672d49a16aee5718e87ff89930a64407b",
+    "9f30bcad52015110a562ff33c94f32e950d0e4a7d62a466a77d2e45b07bd40b7",
+    "6a313c71a769f7b4d373094eca15e4a89672cedeceb301b8cd22d3635a4f3d5a",
+    "e9f5f3d4292a41c927fd769331547c983bf47e395f876722469741727dccddac"
+  ],
+  "elapsed_s": 5.629292964935303
+}

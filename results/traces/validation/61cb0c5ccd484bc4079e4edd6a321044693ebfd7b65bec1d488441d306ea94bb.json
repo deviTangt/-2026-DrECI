@@ -1,0 +1,65 @@
+{
+  "input_hash": "61cb0c5ccd484bc4079e4edd6a321044693ebfd7b65bec1d488441d306ea94bb",
+  "sample_id": "ESC-CSV-02979",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16-year-old",
+    "NYPD",
+    "plainclothes",
+    "cops",
+    "shot",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a22469cc54f7fd7e8dbdee502792cfb9c670c9d76d02e7f7742826c670c48664",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a22469cc54f7fd7e8dbdee502792cfb9c670c9d76d02e7f7742826c670c48664",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c3b351f79fa4f49859777c5fbf4dbc8b822a3ae050035e7584f1dd8e8d74aaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7c49dd295dae027b92e0b041430e3a0e00b5b2f47f5a2479c431cca4175a4dec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f28f6fce777c1c62216dfebad6f059b3272f439d3abfe08bf5d575cb9b51a462",
+      "status": "ok",
+      "text": "{\"source_related\":[\"16-year-old\",\"armed\",\"shot\",\"dead\",\"NYPD\",\"plainclothes\",\"cops\"],\"target_related\":[\"16-year-old\",\"NYPD\",\"plainclothes\",\"cops\",\"shot\",\"dead\"],\"mediators\":[\"16-year-old\",\"NYPD\",\"plainclothes\",\"cops\",\"shot\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "b3033d54310360c5d55c431e06241121b23489995fdc56bff2119d5f971a59c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The death of the 16-year-old precedes and prompts the vigil held in his memory, so death causes the vigil by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "a22469cc54f7fd7e8dbdee502792cfb9c670c9d76d02e7f7742826c670c48664",
+    "a22469cc54f7fd7e8dbdee502792cfb9c670c9d76d02e7f7742826c670c48664",
+    "2c3b351f79fa4f49859777c5fbf4dbc8b822a3ae050035e7584f1dd8e8d74aaf",
+    "7c49dd295dae027b92e0b041430e3a0e00b5b2f47f5a2479c431cca4175a4dec",
+    "f28f6fce777c1c62216dfebad6f059b3272f439d3abfe08bf5d575cb9b51a462",
+    "b3033d54310360c5d55c431e06241121b23489995fdc56bff2119d5f971a59c9"
+  ],
+  "elapsed_s": 4.912567138671875
+}

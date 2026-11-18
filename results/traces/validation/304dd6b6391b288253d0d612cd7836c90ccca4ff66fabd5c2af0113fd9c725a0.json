@@ -1,0 +1,66 @@
+{
+  "input_hash": "304dd6b6391b288253d0d612cd7836c90ccca4ff66fabd5c2af0113fd9c725a0",
+  "sample_id": "ESC-CSV-01807",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "jury",
+    "murder",
+    "police",
+    "officer",
+    "firearm",
+    "felon"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1f45805f16a0890d310286535050d1228b967944cd23a9d75679ff7f41ac628",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1f45805f16a0890d310286535050d1228b967944cd23a9d75679ff7f41ac628",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9b339e1787c8a47a7e810a4a2922d7f4fc4dea0717e0ee51922ef6e34cb2d8ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b222d8cea37784141735eee8c9c2cc641fbc30c86fb9ff124c7ca1dd52966bc3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "45974c145fa7a0709ab09c0302eafc5c2746c31ac71106052587772e3d1222a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"killer\",\"death\",\"jury\",\"murder\",\"police\",\"officer\",\"firearm\",\"felon\"],\"target_related\":[\"Orozco\",\"jury\",\"murder\",\"police\",\"officer\",\"firearm\",\"felon\"],\"mediators\":[\"Orozco\",\"jury\",\"murder\",\"police\",\"officer\",\"firearm\",\"felon\"]}"
+    },
+    "indirect": {
+      "call_id": "f03bc3304db1296abf065fc50b49780385fa33989dcc83239c53cabd3aae850c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text states Orozco was found guilty by the jury; the sentence follows the guilty verdict but no causal rule links 'sentence' to 'guilty' explicitly or implicitly.\"}"
+    }
+  },
+  "call_ids": [
+    "b1f45805f16a0890d310286535050d1228b967944cd23a9d75679ff7f41ac628",
+    "b1f45805f16a0890d310286535050d1228b967944cd23a9d75679ff7f41ac628",
+    "9b339e1787c8a47a7e810a4a2922d7f4fc4dea0717e0ee51922ef6e34cb2d8ce",
+    "b222d8cea37784141735eee8c9c2cc641fbc30c86fb9ff124c7ca1dd52966bc3",
+    "45974c145fa7a0709ab09c0302eafc5c2746c31ac71106052587772e3d1222a3",
+    "f03bc3304db1296abf065fc50b49780385fa33989dcc83239c53cabd3aae850c"
+  ],
+  "elapsed_s": 6.214683294296265
+}

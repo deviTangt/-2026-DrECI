@@ -1,0 +1,61 @@
+{
+  "input_hash": "5926a9b54204a204babfebd90642156ed36ba0f8e78f0bbe6a97168320dd6647",
+  "sample_id": "ESC-CSV-09861",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "stores",
+    "businesses"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "69f06e40e32bc7d126facc685129f265e773a111576dafa3459c931705a71035",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "69f06e40e32bc7d126facc685129f265e773a111576dafa3459c931705a71035",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3b20b39b979ef9876af3729ead606f02fab7b70cc49062cfbd1956ac8d257c0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0ec6da36b2439a27df3e031551421810771cb290ea85e46a14d9a6753befd45e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "824c879527df4ed35dc8888262c7a4a9693577d0512c0b8d7ad27839fef4c414",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank\",\"government buildings\",\"stores\",\"businesses\"],\"target_related\":[\"Hooded youths\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\"],\"mediators\":[\"stores\",\"businesses\"]}"
+    },
+    "indirect": {
+      "call_id": "f5bba65faf18823df65f1914d959c4b7ab91f961603a0651b0df51a9d06a8f5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'hurled petrol bombs ... setting ... ablaze' — the participle 'setting' expresses the hurling causing the ablaze; 'by' relation implicit in construction.\"}"
+    }
+  },
+  "call_ids": [
+    "69f06e40e32bc7d126facc685129f265e773a111576dafa3459c931705a71035",
+    "69f06e40e32bc7d126facc685129f265e773a111576dafa3459c931705a71035",
+    "3b20b39b979ef9876af3729ead606f02fab7b70cc49062cfbd1956ac8d257c0b",
+    "0ec6da36b2439a27df3e031551421810771cb290ea85e46a14d9a6753befd45e",
+    "824c879527df4ed35dc8888262c7a4a9693577d0512c0b8d7ad27839fef4c414",
+    "f5bba65faf18823df65f1914d959c4b7ab91f961603a0651b0df51a9d06a8f5a"
+  ],
+  "elapsed_s": 5.411706209182739
+}

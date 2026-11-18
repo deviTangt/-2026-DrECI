@@ -1,0 +1,62 @@
+{
+  "input_hash": "c7adf862702374dce446a4fac95960f3d04b0b4dbed9167b8a280cd0cfdc7ec9",
+  "sample_id": "ESC-CSV-09299",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "streets",
+    "protest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "02b1ba3ad5c667561e14de4b059de883ccdc54a57c0633244c897b6b3051e6a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "02b1ba3ad5c667561e14de4b059de883ccdc54a57c0633244c897b6b3051e6a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "abbe85d677b6b40cb31b7aa21778ef0615909e00a37f45b1feab586aebfde0ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2bfe3052ea197ded2f2be878aa8cbe2608dc4424a2e56f6c96b55465b774c7fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a97e08e4376fd5dd33589acb633d5cf6e25eb7dd9d74403cd8aecf9c7db8cac3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"protest\",\"Greeks\",\"streets\",\"harsh\"],\"target_related\":[\"country\",\"bankruptcy\",\"Greeks\",\"streets\",\"protest\"],\"mediators\":[\"Greeks\",\"streets\",\"protest\"]}"
+    },
+    "indirect": {
+      "call_id": "3173b8c690dab6e24a0780df44c0a26fd50ddde69d081a1621410ffaf85f0b25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'spending cuts aimed at saving the country' — 'aimed at' links cuts to saving, expressing purpose/causation.\"}"
+    }
+  },
+  "call_ids": [
+    "02b1ba3ad5c667561e14de4b059de883ccdc54a57c0633244c897b6b3051e6a4",
+    "02b1ba3ad5c667561e14de4b059de883ccdc54a57c0633244c897b6b3051e6a4",
+    "abbe85d677b6b40cb31b7aa21778ef0615909e00a37f45b1feab586aebfde0ff",
+    "2bfe3052ea197ded2f2be878aa8cbe2608dc4424a2e56f6c96b55465b774c7fa",
+    "a97e08e4376fd5dd33589acb633d5cf6e25eb7dd9d74403cd8aecf9c7db8cac3",
+    "3173b8c690dab6e24a0780df44c0a26fd50ddde69d081a1621410ffaf85f0b25"
+  ],
+  "elapsed_s": 4.59346079826355
+}

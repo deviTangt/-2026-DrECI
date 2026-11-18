@@ -1,0 +1,67 @@
+{
+  "input_hash": "8d9d17fb64fb3bd0190e07c9294d83de506a5d78ea28b51ed7a7c404bdd16c80",
+  "sample_id": "ESC-CSV-01518",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Norwalk Superior Court judge",
+    "jury",
+    "recommendation",
+    "convicted",
+    "cop killer",
+    "Jose Luis Orozco",
+    "die",
+    "sentences"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "871be7a3c90998faa213a8005407a6f7908b953b3e1c49868eb402cb8f252dd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "871be7a3c90998faa213a8005407a6f7908b953b3e1c49868eb402cb8f252dd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf2d2cb0a65c223654bcc54b197748b74369f8c2a58981824e60b54d3b65a692",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b27129409cf285bc0e4089120097264f25b06aa85d8219b3772355779e586983",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "622da0ae9e593047a67c5246fbf56345a7b6a8cc6c7f19d3443fa71d23442e37",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Norwalk Superior Court judge\",\"jury\",\"recommendation\",\"convicted\",\"cop killer\",\"Jose Luis Orozco\",\"die\",\"sentences\"],\"target_related\":[\"Norwalk Superior Court judge\",\"jury\",\"recommendation\",\"convicted\",\"cop killer\",\"Jose Luis Orozco\",\"die\",\"sentences\"],\"mediators\":[\"Norwalk Superior Court judge\",\"jury\",\"recommendation\",\"convicted\",\"cop killer\",\"Jose Luis Orozco\",\"die\",\"sentences\"]}"
+    },
+    "indirect": {
+      "call_id": "b9c30fad2872f53bdab35c97313d66742c47cfaab4790be2f427c69e648f7074",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: committing crimes (murder of a cop) leads to a death sentence; the judge upheld the death penalty for his crimes.\"}"
+    }
+  },
+  "call_ids": [
+    "871be7a3c90998faa213a8005407a6f7908b953b3e1c49868eb402cb8f252dd3",
+    "871be7a3c90998faa213a8005407a6f7908b953b3e1c49868eb402cb8f252dd3",
+    "cf2d2cb0a65c223654bcc54b197748b74369f8c2a58981824e60b54d3b65a692",
+    "b27129409cf285bc0e4089120097264f25b06aa85d8219b3772355779e586983",
+    "622da0ae9e593047a67c5246fbf56345a7b6a8cc6c7f19d3443fa71d23442e37",
+    "b9c30fad2872f53bdab35c97313d66742c47cfaab4790be2f427c69e648f7074"
+  ],
+  "elapsed_s": 5.136770009994507
+}

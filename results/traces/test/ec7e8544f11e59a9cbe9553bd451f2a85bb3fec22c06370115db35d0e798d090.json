@@ -1,0 +1,60 @@
+{
+  "input_hash": "ec7e8544f11e59a9cbe9553bd451f2a85bb3fec22c06370115db35d0e798d090",
+  "sample_id": "ESC-CSV-04354",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c1745923ac5841498a5ebc1b8f218eaa2660fe425e83a98588e8a0c3b1b15678",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c1745923ac5841498a5ebc1b8f218eaa2660fe425e83a98588e8a0c3b1b15678",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bbc23a1ff6db11d47b35f9e07e182af463cfadd6c8c61c463ef6967dceb53850",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4eb112e2855b0c5859f3c0ec80aad74c0cabcc7a2773636bbde635e0956ca92a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "38743112f858b2f504693e250a2f971fcaa7c9c48de967d03ef96b6db7436ce5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"window\"],\"target_related\":[\"men\",\"jewellery\",\"watches\"],\"mediators\":[\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "76c808a913e83d2427d78826a798de6b8e22e1b68d5fb9b06cb77cc438327039",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window, enabling the men to grab jewellery; the ramming precedes and enables the grabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "c1745923ac5841498a5ebc1b8f218eaa2660fe425e83a98588e8a0c3b1b15678",
+    "c1745923ac5841498a5ebc1b8f218eaa2660fe425e83a98588e8a0c3b1b15678",
+    "bbc23a1ff6db11d47b35f9e07e182af463cfadd6c8c61c463ef6967dceb53850",
+    "4eb112e2855b0c5859f3c0ec80aad74c0cabcc7a2773636bbde635e0956ca92a",
+    "38743112f858b2f504693e250a2f971fcaa7c9c48de967d03ef96b6db7436ce5",
+    "76c808a913e83d2427d78826a798de6b8e22e1b68d5fb9b06cb77cc438327039"
+  ],
+  "elapsed_s": 4.322325944900513
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "ad2ca32f1170f02f8f0059b32b5f8274112e8abf4a58c9804fba926111c3a14f",
+  "sample_id": "ESC-CSV-09217",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "smoke"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c46e480519cd64b2b03aeb717da158ab6369122ab6496a1b204d7be51e79ae03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c46e480519cd64b2b03aeb717da158ab6369122ab6496a1b204d7be51e79ae03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "597c14676472fee23d52a357ac92df4454c279f231f0099adb59e46872298887",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9646ed90debbb331ec61bf35f36b479ec8374a6fe8a0b46b7379e02e78d361b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "79dfee447c2c7767613a51626411a48b06f25bdc8ebbb4c71c186ede054c1d93",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"Molotov cocktails\",\"windows\",\"commercial building\",\"Stadiou Avenue\"],\"target_related\":[\"smoke\",\"women\",\"man\",\"Marfin bank branch\"],\"mediators\":[\"smoke\"]}"
+    },
+    "indirect": {
+      "call_id": "97490b0943fc4516afd1d2f65274f2b55d403066c9468c83801a432d4c677f50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters tossed Molotov cocktails, creating smoke; the women and man choked on that smoke, forming chain tossed->smoke->choked.\"}"
+    }
+  },
+  "call_ids": [
+    "c46e480519cd64b2b03aeb717da158ab6369122ab6496a1b204d7be51e79ae03",
+    "c46e480519cd64b2b03aeb717da158ab6369122ab6496a1b204d7be51e79ae03",
+    "597c14676472fee23d52a357ac92df4454c279f231f0099adb59e46872298887",
+    "9646ed90debbb331ec61bf35f36b479ec8374a6fe8a0b46b7379e02e78d361b9",
+    "79dfee447c2c7767613a51626411a48b06f25bdc8ebbb4c71c186ede054c1d93",
+    "97490b0943fc4516afd1d2f65274f2b55d403066c9468c83801a432d4c677f50"
+  ],
+  "elapsed_s": 5.206959009170532
+}

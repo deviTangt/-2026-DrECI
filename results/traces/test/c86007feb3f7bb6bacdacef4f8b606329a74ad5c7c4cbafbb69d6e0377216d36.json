@@ -1,0 +1,60 @@
+{
+  "input_hash": "c86007feb3f7bb6bacdacef4f8b606329a74ad5c7c4cbafbb69d6e0377216d36",
+  "sample_id": "ESC-CSV-09657",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d99930fcc01c9dfa8ac3875b77c1bc10e9f2628f47f5dc1e2691262ce59b92a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d99930fcc01c9dfa8ac3875b77c1bc10e9f2628f47f5dc1e2691262ce59b92a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b449d2d476ea1b63f76dbae1a5cb8d87f2b74b037cc39a2b4900407d88a51e23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "959ed7471b347cb437ceb0454348a1dab44b79d34dc6c34487c986b9b775cd88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13ead04a1cb03cfe10ad7ab1926d8c34b86195de495f7ba8d9b53d4981614681",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"buildings\",\"Molotov cocktails\",\"police\"],\"target_related\":[\"Police\",\"tear gas\",\"barrages\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "a45cb562a2fb50181ac528b70e4768bfee8bfcf14eca71b08d19d2b52963f3c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters torched buildings, then police responded with tear gas; torching preceded and prompted the police response.\"}"
+    }
+  },
+  "call_ids": [
+    "d99930fcc01c9dfa8ac3875b77c1bc10e9f2628f47f5dc1e2691262ce59b92a8",
+    "d99930fcc01c9dfa8ac3875b77c1bc10e9f2628f47f5dc1e2691262ce59b92a8",
+    "b449d2d476ea1b63f76dbae1a5cb8d87f2b74b037cc39a2b4900407d88a51e23",
+    "959ed7471b347cb437ceb0454348a1dab44b79d34dc6c34487c986b9b775cd88",
+    "13ead04a1cb03cfe10ad7ab1926d8c34b86195de495f7ba8d9b53d4981614681",
+    "a45cb562a2fb50181ac528b70e4768bfee8bfcf14eca71b08d19d2b52963f3c5"
+  ],
+  "elapsed_s": 4.048462152481079
+}

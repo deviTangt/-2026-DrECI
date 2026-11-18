@@ -1,0 +1,66 @@
+{
+  "input_hash": "6505af6ec1c2f57d1ba0865b8d4c5aec8193cf4bc3ebecf3ef00735fbc7aafe8",
+  "sample_id": "ESC-CSV-02193",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "Madeline Kafoury",
+    "shot",
+    "managers",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c015175a9881de6a587ebacbf7482b2f65906e486391c40cf680eea74d6be65d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c015175a9881de6a587ebacbf7482b2f65906e486391c40cf680eea74d6be65d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f5a27a832104cfc58aabee7d5c45ef39bbaeeee8a7b614805c70b007a5660df0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1e584e0a0d0cfe30c134d7cce4cdbb6a360e968ec81cec3ae89fe417017a17ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ec07706f4bc7f2bef8ad8e092023a20a63df9598eb682ffcca0061c6f3872bd0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"target_related\":[\"Monday\",\"concluded\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"mediators\":[\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "6e7725dab7ab145687d59c3dcfd9a4dd2ac623acb0584526bde0055f5254b9fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Violence (Y) caused the receptionist to be shot, and being shot made her dead (X); chain: violence->shot->dead.\"}"
+    }
+  },
+  "call_ids": [
+    "c015175a9881de6a587ebacbf7482b2f65906e486391c40cf680eea74d6be65d",
+    "c015175a9881de6a587ebacbf7482b2f65906e486391c40cf680eea74d6be65d",
+    "f5a27a832104cfc58aabee7d5c45ef39bbaeeee8a7b614805c70b007a5660df0",
+    "1e584e0a0d0cfe30c134d7cce4cdbb6a360e968ec81cec3ae89fe417017a17ac",
+    "ec07706f4bc7f2bef8ad8e092023a20a63df9598eb682ffcca0061c6f3872bd0",
+    "6e7725dab7ab145687d59c3dcfd9a4dd2ac623acb0584526bde0055f5254b9fc"
+  ],
+  "elapsed_s": 17.563294410705566
+}

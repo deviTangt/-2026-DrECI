@@ -1,0 +1,63 @@
+{
+  "input_hash": "92bd32a6f8c0315ad0b067604af39c9970ffeef85fe4c59e6c3f66cdf8d27571",
+  "sample_id": "ESC-CSV-04069",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "accidents",
+    "Mt Cook",
+    "weekend"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "881b59a65db338e10253ad110a58d125cea66325c671a823081809a2e8b452f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "26e7a6e6b1cdd05b058c4e1c0fc2364f398a4636ec47dd03b87a4cd32ca59612",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4a1647d430bf476edfbd1187255c890172b0c0fee0362eb7ddfd943589bf4e6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"],\"target_related\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"],\"mediators\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"]}"
+    },
+    "indirect": {
+      "call_id": "0288f95f530b953bb0f6a42cc5ad88807d549cfdd666dc556823fa219048cadb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Climbing accidents caused the men's deaths; the fatal outcome resulted from climbing, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+    "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+    "881b59a65db338e10253ad110a58d125cea66325c671a823081809a2e8b452f9",
+    "26e7a6e6b1cdd05b058c4e1c0fc2364f398a4636ec47dd03b87a4cd32ca59612",
+    "c4a1647d430bf476edfbd1187255c890172b0c0fee0362eb7ddfd943589bf4e6",
+    "0288f95f530b953bb0f6a42cc5ad88807d549cfdd666dc556823fa219048cadb"
+  ],
+  "elapsed_s": 3.94116473197937
+}

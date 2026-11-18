@@ -1,0 +1,69 @@
+{
+  "input_hash": "c555f3542bd4f71849f7b371910bacad74bb06781227d782ac1001326bf5d6fc",
+  "sample_id": "ESC-CSV-06746",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Zurana Horton",
+    "Brownsville",
+    "rooftop",
+    "2011",
+    "Brooklyn",
+    "woman",
+    "fatal",
+    "shooting",
+    "gunplay",
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7a9b9a739dfb240247ac9b3757408d5bcad4b521091102985bc786aa82a8192c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7a9b9a739dfb240247ac9b3757408d5bcad4b521091102985bc786aa82a8192c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f0b9208875e9d63ae85815b0d42bddbab89e271e9a4f2307bc69c72e7ba71532",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "80005b1c02359e433a7e49f8ebf40e7620aecebf6d37c62341fffe7d187d338b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cd1c65db6b78250161001fff8abaaab55520833cfac04e3956fb8e8a522c3e48",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Zurana Horton\",\"Brownsville\",\"rooftop\",\"2011\",\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"gunplay\",\"men\"],\"target_related\":[\"two men\",\"trial\",\"rooftop\",\"gunplay\",\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"Zurana Horton\",\"Brownsville\",\"2011\"],\"mediators\":[\"Zurana Horton\",\"Brownsville\",\"rooftop\",\"2011\",\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"gunplay\",\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "aae787befe3b8439a72e3bc199772d3a1eae04c936cf8a73684cdc20e328c0db",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says men are 'accused of killing' and 'charged in rooftop gunplay'; killing and charged are parallel descriptions, not causally linked.\"}"
+    }
+  },
+  "call_ids": [
+    "7a9b9a739dfb240247ac9b3757408d5bcad4b521091102985bc786aa82a8192c",
+    "7a9b9a739dfb240247ac9b3757408d5bcad4b521091102985bc786aa82a8192c",
+    "f0b9208875e9d63ae85815b0d42bddbab89e271e9a4f2307bc69c72e7ba71532",
+    "80005b1c02359e433a7e49f8ebf40e7620aecebf6d37c62341fffe7d187d338b",
+    "cd1c65db6b78250161001fff8abaaab55520833cfac04e3956fb8e8a522c3e48",
+    "aae787befe3b8439a72e3bc199772d3a1eae04c936cf8a73684cdc20e328c0db"
+  ],
+  "elapsed_s": 5.05826473236084
+}

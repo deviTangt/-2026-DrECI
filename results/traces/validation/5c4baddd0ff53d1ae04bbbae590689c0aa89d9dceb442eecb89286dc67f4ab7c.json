@@ -1,0 +1,63 @@
+{
+  "input_hash": "5c4baddd0ff53d1ae04bbbae590689c0aa89d9dceb442eecb89286dc67f4ab7c",
+  "sample_id": "ESC-CSV-07005",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "San Diego Chargers",
+    "DUI",
+    "player"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2e792c10325bb6f132fdf7441fcd90e4888cd794c4d5512bf3f14376dac2078b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2e792c10325bb6f132fdf7441fcd90e4888cd794c4d5512bf3f14376dac2078b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "abf4401e13836ef804ac7a4032a375563dc7d9de997cf314fefceeadaa16eed2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5702eb9e0eb7ee3fc28872188ffd4b449edb7f4a65e4545eb6bd82463788ff8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f9cb6bd59338f05ba58e0a59b6bc1fe75fcd428eb02411aa5a4be24982c4df3f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"DUI\",\"player\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"DUI\",\"player\"],\"mediators\":[\"Jamal Williams\",\"San Diego Chargers\",\"DUI\",\"player\"]}"
+    },
+    "indirect": {
+      "call_id": "badcde5a098a5f0b4526402edb02d3d10517600a1329fd01c378e44d0543b39c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunk driving' uses 'on suspicion of' linking drunk driving to arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "2e792c10325bb6f132fdf7441fcd90e4888cd794c4d5512bf3f14376dac2078b",
+    "2e792c10325bb6f132fdf7441fcd90e4888cd794c4d5512bf3f14376dac2078b",
+    "abf4401e13836ef804ac7a4032a375563dc7d9de997cf314fefceeadaa16eed2",
+    "5702eb9e0eb7ee3fc28872188ffd4b449edb7f4a65e4545eb6bd82463788ff8c",
+    "f9cb6bd59338f05ba58e0a59b6bc1fe75fcd428eb02411aa5a4be24982c4df3f",
+    "badcde5a098a5f0b4526402edb02d3d10517600a1329fd01c378e44d0543b39c"
+  ],
+  "elapsed_s": 4.497173070907593
+}

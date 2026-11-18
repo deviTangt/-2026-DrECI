@@ -1,0 +1,61 @@
+{
+  "input_hash": "49d65840f56c0fdc536110a1fe34e0e4b09a5d8f691a3eef4bb2ef3f8d04c428",
+  "sample_id": "ESC-CSV-09591",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrators",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "24feb1b859df57bbbbe2f561a9ac5b713d0dbefc41ac490d2e873ea375228e8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "24feb1b859df57bbbbe2f561a9ac5b713d0dbefc41ac490d2e873ea375228e8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a3407f3d81bf700033cc27a74fb3aefc1e1f639e4fb5c45c71d67573f75d599",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6f534beba9015fa34805d0aa1c40cc8f4bd3b7ffea1be03b1762eeb67995adba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b9d5da51a0252cb50fedc0a4690f8487024488c244c051af408fef6413e31981",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"demonstrators\",\"bank\"],\"target_related\":[\"bank workers\",\"man\",\"women\",\"demonstrators\",\"bank\"],\"mediators\":[\"demonstrators\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "6d22ffc8396b042e2e1ec896b4487f4ecc9300e28dcb7802842505f7fab69f94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,4,6],\"evidence\":\"Demonstrators set bank on fire; bank workers died after it was torched. 'after' and common sense link torching to deaths; Z=demonstrators/bank chain.\"}"
+    }
+  },
+  "call_ids": [
+    "24feb1b859df57bbbbe2f561a9ac5b713d0dbefc41ac490d2e873ea375228e8f",
+    "24feb1b859df57bbbbe2f561a9ac5b713d0dbefc41ac490d2e873ea375228e8f",
+    "4a3407f3d81bf700033cc27a74fb3aefc1e1f639e4fb5c45c71d67573f75d599",
+    "6f534beba9015fa34805d0aa1c40cc8f4bd3b7ffea1be03b1762eeb67995adba",
+    "b9d5da51a0252cb50fedc0a4690f8487024488c244c051af408fef6413e31981",
+    "6d22ffc8396b042e2e1ec896b4487f4ecc9300e28dcb7802842505f7fab69f94"
+  ],
+  "elapsed_s": 5.046133041381836
+}

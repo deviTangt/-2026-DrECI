@@ -1,0 +1,64 @@
+{
+  "input_hash": "0f06b4de7037c55575c84dcc92d8ecc85753c9a61605bb2fb6c210157ab4a0e6",
+  "sample_id": "ESC-CSV-04048",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "36 - year - old",
+    "Melbourne",
+    "ice gully",
+    "Tasman Saddle Hut",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "47ef02ef0cbb3d465a6d43794c48bc7604e74bc9b6a9211cd39eb41b56258e78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "47ef02ef0cbb3d465a6d43794c48bc7604e74bc9b6a9211cd39eb41b56258e78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8a16f8a0598195040d9e827f6f6439668ca24da8a18d3c4f2c0251254da792c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "efe5cba73294880fddca5c96c897e1cb4e10917541a23ba691463070db97da34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9ccb07429e2456915527bacf3c70a3500043389110a5d66d0c200ca077a4862e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"36 - year - old\",\"Melbourne\",\"ice gully\",\"Tasman Saddle Hut\",\"police\"],\"target_related\":[\"36 - year - old\",\"Melbourne\",\"ice gully\",\"Tasman Saddle Hut\",\"police\"],\"mediators\":[\"36 - year - old\",\"Melbourne\",\"ice gully\",\"Tasman Saddle Hut\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "88e41b429c694063cece30f678ca2a3cb2357c17141c899c32160568439d9c32",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping on ice naturally precedes and causes the subsequent fall; common sense supports slipped causes fell.\"}"
+    }
+  },
+  "call_ids": [
+    "47ef02ef0cbb3d465a6d43794c48bc7604e74bc9b6a9211cd39eb41b56258e78",
+    "47ef02ef0cbb3d465a6d43794c48bc7604e74bc9b6a9211cd39eb41b56258e78",
+    "8a16f8a0598195040d9e827f6f6439668ca24da8a18d3c4f2c0251254da792c9",
+    "efe5cba73294880fddca5c96c897e1cb4e10917541a23ba691463070db97da34",
+    "9ccb07429e2456915527bacf3c70a3500043389110a5d66d0c200ca077a4862e",
+    "88e41b429c694063cece30f678ca2a3cb2357c17141c899c32160568439d9c32"
+  ],
+  "elapsed_s": 4.457131862640381
+}

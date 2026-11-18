@@ -1,0 +1,68 @@
+{
+  "input_hash": "8e868c98b808effc9e14fe7bde846a56ac6161709e49ab35d9666993d33948e1",
+  "sample_id": "ESC-CSV-01886",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "Jerry",
+    "Ortiz",
+    "Deputy",
+    "Sheriff's",
+    "Lakewood",
+    "Hawaiian",
+    "Gardens",
+    "Gangmember"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4e3970ddb0f95098494b565c7982dd7b1bd87715a404994180ec0618f9dc0c35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4e3970ddb0f95098494b565c7982dd7b1bd87715a404994180ec0618f9dc0c35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "75cde0003592d8b7c33f8717a3157f568c3892be920b3d769fae6e6e8fddeadf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5012309768c9d0e3f5fd4a430b1b3a4d9853867c8fd1ebf27825334c523dd35a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "cae3be6a4ab96c918bf7a5485ba245fec70290cb0e7a4e4fdde3539ee045a72a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lakewood\",\"Sheriff's\",\"Deputy\",\"Jerry\",\"Ortiz\",\"Orozco\",\"Hawaiian\",\"Gardens\",\"Gangmember\"],\"target_related\":[\"Orozco\",\"Jerry\",\"Ortiz\",\"Deputy\",\"Sheriff's\",\"Lakewood\",\"Hawaiian\",\"Gardens\",\"Gangmember\"],\"mediators\":[\"Orozco\",\"Jerry\",\"Ortiz\",\"Deputy\",\"Sheriff's\",\"Lakewood\",\"Hawaiian\",\"Gardens\",\"Gangmember\"]}"
+    },
+    "indirect": {
+      "call_id": "585dbcb56e55d4ecd1a3fb6d3be82a33ed7c1402c48fb474a540bcdadb72c0fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murdering follows from the act of murdering; the murder precedes and causes the conviction under common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4e3970ddb0f95098494b565c7982dd7b1bd87715a404994180ec0618f9dc0c35",
+    "4e3970ddb0f95098494b565c7982dd7b1bd87715a404994180ec0618f9dc0c35",
+    "75cde0003592d8b7c33f8717a3157f568c3892be920b3d769fae6e6e8fddeadf",
+    "5012309768c9d0e3f5fd4a430b1b3a4d9853867c8fd1ebf27825334c523dd35a",
+    "cae3be6a4ab96c918bf7a5485ba245fec70290cb0e7a4e4fdde3539ee045a72a",
+    "585dbcb56e55d4ecd1a3fb6d3be82a33ed7c1402c48fb474a540bcdadb72c0fc"
+  ],
+  "elapsed_s": 5.568898439407349
+}

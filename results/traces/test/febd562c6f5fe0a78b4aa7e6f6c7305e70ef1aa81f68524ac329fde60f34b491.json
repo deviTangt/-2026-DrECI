@@ -1,0 +1,61 @@
+{
+  "input_hash": "febd562c6f5fe0a78b4aa7e6f6c7305e70ef1aa81f68524ac329fde60f34b491",
+  "sample_id": "ESC-CSV-04493",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bde48c38ba1478c8c392fd200e6262177ec4fe689f194d7ac47b05d231d53afa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bde48c38ba1478c8c392fd200e6262177ec4fe689f194d7ac47b05d231d53afa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "288ffb4509389ad61a2dccf85edf274598b4cd05fc006ee5d7f7d23c208e8f1b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8f5da793883f5f8531b2ac02fcaf14b801bae22b3e8490260503bcb05a4e9c1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e8b680ad914f701bbfb3699ffbfe7f94091d5aeb55bafd5b80ae2de194a51be1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"SUV\",\"store\",\"Casty\",\"Paris\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"store\",\"Paris\"],\"mediators\":[\"store\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "ad2cc61e771e30c7e2bf809120465f5986e540adb52def61a828261f1b5bfee6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the SUV into the store front enabled the thieves to then grab the jewelry, so X precedes and causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "bde48c38ba1478c8c392fd200e6262177ec4fe689f194d7ac47b05d231d53afa",
+    "bde48c38ba1478c8c392fd200e6262177ec4fe689f194d7ac47b05d231d53afa",
+    "288ffb4509389ad61a2dccf85edf274598b4cd05fc006ee5d7f7d23c208e8f1b",
+    "8f5da793883f5f8531b2ac02fcaf14b801bae22b3e8490260503bcb05a4e9c1e",
+    "e8b680ad914f701bbfb3699ffbfe7f94091d5aeb55bafd5b80ae2de194a51be1",
+    "ad2cc61e771e30c7e2bf809120465f5986e540adb52def61a828261f1b5bfee6"
+  ],
+  "elapsed_s": 3.8461759090423584
+}

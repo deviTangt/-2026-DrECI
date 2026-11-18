@@ -1,0 +1,67 @@
+{
+  "input_hash": "6dafdbebbc7402c7dbee2226082d718f14aa603a1f972822f6f638c7ea47eb08",
+  "sample_id": "ESC-CSV-04590",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rammed",
+    "car",
+    "smashing",
+    "shop",
+    "window",
+    "jewelry",
+    "store",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "97a1269d0c141fff3e72b951331b37bb8dd6feef40f2bafdb4c66302c29ff886",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "97a1269d0c141fff3e72b951331b37bb8dd6feef40f2bafdb4c66302c29ff886",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "65d5a31bb65b3c5cc9e24f704116697aa289722cc225be0cb482b4a756d0e025",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3bb4e1ac5e200ea33baf7ed525f4a80e4f62a60be5eb38cc1c697f461f66af8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cd9a6c5dca4122e55042e8063937e76ac1c1943878f20f2cc303c6765f371177",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rammed\",\"car\",\"smashing\",\"shop\",\"window\",\"jewelry\",\"store\",\"Paris\"],\"target_related\":[\"jewelry\",\"store\",\"Paris\",\"rammed\",\"car\",\"smashing\",\"shop\",\"window\"],\"mediators\":[\"rammed\",\"car\",\"smashing\",\"shop\",\"window\",\"jewelry\",\"store\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "06fa01b20dd502fca35f828b261642ef190107d770b76b6f5e2d719e14ed8d2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the store (hit) occurs before and enables the theft; common sense: the hit causes the stealing.\"}"
+    }
+  },
+  "call_ids": [
+    "97a1269d0c141fff3e72b951331b37bb8dd6feef40f2bafdb4c66302c29ff886",
+    "97a1269d0c141fff3e72b951331b37bb8dd6feef40f2bafdb4c66302c29ff886",
+    "65d5a31bb65b3c5cc9e24f704116697aa289722cc225be0cb482b4a756d0e025",
+    "3bb4e1ac5e200ea33baf7ed525f4a80e4f62a60be5eb38cc1c697f461f66af8b",
+    "cd9a6c5dca4122e55042e8063937e76ac1c1943878f20f2cc303c6765f371177",
+    "06fa01b20dd502fca35f828b261642ef190107d770b76b6f5e2d719e14ed8d2a"
+  ],
+  "elapsed_s": 4.4923012256622314
+}

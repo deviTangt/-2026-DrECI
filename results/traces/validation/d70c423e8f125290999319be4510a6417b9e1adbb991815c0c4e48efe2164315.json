@@ -1,0 +1,65 @@
+{
+  "input_hash": "d70c423e8f125290999319be4510a6417b9e1adbb991815c0c4e48efe2164315",
+  "sample_id": "ESC-CSV-07085",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Charger",
+    "member",
+    "San Diego Chargers",
+    "suspicion",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dbd62d73ae1a8ecb082120b2f6adc9ce550ce290a024823a1e07a9a41e9ef4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dbd62d73ae1a8ecb082120b2f6adc9ce550ce290a024823a1e07a9a41e9ef4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c6f075822ed9e26ac2ea73b91d1bca78e40be95de25f710dc7028e43607ae315",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "445cb9dfe7891b473f099cda9bec440f0931b0fe1d6d7c2cbc7d31b6b714faec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c9189a64c639f156172459af9aeb264a2ef868ed566c79a73f29435ea6941396",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Charger\",\"member\",\"San Diego Chargers\",\"suspicion\",\"DUI\"],\"target_related\":[\"Jamal Williams\",\"Charger\",\"member\",\"San Diego Chargers\",\"suspicion\",\"DUI\"],\"mediators\":[\"Jamal Williams\",\"Charger\",\"member\",\"San Diego Chargers\",\"suspicion\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "757de84ec5407430dfd2a0a23e1b4ee2845e878744cbd942329cf3e3849ac1c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Arrest is on suspicion of drunk driving; the text states the reason for arrest, not that arrest caused drunk driving. No causal rule applies.\"}"
+    }
+  },
+  "call_ids": [
+    "dbd62d73ae1a8ecb082120b2f6adc9ce550ce290a024823a1e07a9a41e9ef4b3",
+    "dbd62d73ae1a8ecb082120b2f6adc9ce550ce290a024823a1e07a9a41e9ef4b3",
+    "c6f075822ed9e26ac2ea73b91d1bca78e40be95de25f710dc7028e43607ae315",
+    "445cb9dfe7891b473f099cda9bec440f0931b0fe1d6d7c2cbc7d31b6b714faec",
+    "c9189a64c639f156172459af9aeb264a2ef868ed566c79a73f29435ea6941396",
+    "757de84ec5407430dfd2a0a23e1b4ee2845e878744cbd942329cf3e3849ac1c7"
+  ],
+  "elapsed_s": 5.130237340927124
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "a23df4967f69a9a7a079a614c8286f6afa051f1378c2f062bbe4d1946be481c6",
+  "sample_id": "ESC-CSV-09483",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "703b85d7d56a74b41d02c3691e19a2cf6443af5d62930310dc9992e6cc86f54e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "703b85d7d56a74b41d02c3691e19a2cf6443af5d62930310dc9992e6cc86f54e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1e8a92c1ffd51f103a6a55c5b3b57370dbbca964aa16084253b4f3f1bb72c50d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ae06fe913bbb2eb0ca9c86e60bef53f55adeb45c5d2fbfab3ef9241096866898",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "78fe41fce218c71dfb7a9c3edfbf989d4b4de698d42a9df8b8138ad495274841",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire\",\"demonstrators\",\"hurled\",\"Molotov\",\"cocktail\",\"fire\",\"bombs\",\"Bank\"],\"target_related\":[\"trapped\",\"stairwell\",\"3rd\",\"floors\",\"fire\",\"broken\",\"two\",\"floors\"],\"mediators\":[\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "02f24d8371612b0e39dfb158109ffb88b06dd624eb969ebcd4eb4d3ea76403aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"The fire started (X) below, trapping people trying to flee (Y); the started fire caused them to be trapped while fleeing, a causal chain X->fire->flee.\"}"
+    }
+  },
+  "call_ids": [
+    "703b85d7d56a74b41d02c3691e19a2cf6443af5d62930310dc9992e6cc86f54e",
+    "703b85d7d56a74b41d02c3691e19a2cf6443af5d62930310dc9992e6cc86f54e",
+    "1e8a92c1ffd51f103a6a55c5b3b57370dbbca964aa16084253b4f3f1bb72c50d",
+    "ae06fe913bbb2eb0ca9c86e60bef53f55adeb45c5d2fbfab3ef9241096866898",
+    "78fe41fce218c71dfb7a9c3edfbf989d4b4de698d42a9df8b8138ad495274841",
+    "02f24d8371612b0e39dfb158109ffb88b06dd624eb969ebcd4eb4d3ea76403aa"
+  ],
+  "elapsed_s": 5.014592409133911
+}

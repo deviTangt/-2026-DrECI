@@ -1,0 +1,61 @@
+{
+  "input_hash": "2770b9f28ea61dfed2c34478e725bfe27ca4b2676be1672e7d17944659839992",
+  "sample_id": "ESC-CSV-04432",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6452864256d0f51a71b58890914717f2cfd6ba0bfac1c2cab1c4e7500b5ae8ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6452864256d0f51a71b58890914717f2cfd6ba0bfac1c2cab1c4e7500b5ae8ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b2f92b1d4d29ae3e764dbe4b92ed09f2f49809f703b6973fad88a035b5c1d20d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "365f680ce964c990be25749add063a9925816cca54de110d61a679b61adf8c28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "461ef7662922c8091aaf44fe3d8b72de4dcfeee4fa43486173a50fe19cb6023d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"4x4\",\"window\",\"store\",\"Rue de Castiglione\",\"jewellery\",\"watches\"],\"target_related\":[\"jewellery\",\"watches\",\"Paris\",\"shop\",\"Stolen\"],\"mediators\":[\"jewellery\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "76f1dfb4612107019dfa9d8dc8049be76f77c0dbafb56d35f18e6ec46617a9e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving a 4x4 through the store window enabled the men to steal jewellery and watches, i.e., the raid; the drive precedes and causes the raid.\"}"
+    }
+  },
+  "call_ids": [
+    "6452864256d0f51a71b58890914717f2cfd6ba0bfac1c2cab1c4e7500b5ae8ac",
+    "6452864256d0f51a71b58890914717f2cfd6ba0bfac1c2cab1c4e7500b5ae8ac",
+    "b2f92b1d4d29ae3e764dbe4b92ed09f2f49809f703b6973fad88a035b5c1d20d",
+    "365f680ce964c990be25749add063a9925816cca54de110d61a679b61adf8c28",
+    "461ef7662922c8091aaf44fe3d8b72de4dcfeee4fa43486173a50fe19cb6023d",
+    "76f1dfb4612107019dfa9d8dc8049be76f77c0dbafb56d35f18e6ec46617a9e2"
+  ],
+  "elapsed_s": 4.3890767097473145
+}

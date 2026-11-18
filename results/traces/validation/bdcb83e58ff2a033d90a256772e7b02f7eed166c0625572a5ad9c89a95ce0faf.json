@@ -1,0 +1,61 @@
+{
+  "input_hash": "bdcb83e58ff2a033d90a256772e7b02f7eed166c0625572a5ad9c89a95ce0faf",
+  "sample_id": "ESC-CSV-02164",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Madeline Kafoury",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c487e360d2868703c1fdc4601720a2a4d1baa1a653cdf9ea9763b36664656c36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c487e360d2868703c1fdc4601720a2a4d1baa1a653cdf9ea9763b36664656c36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ecdfb3ad0b83c2ea49431c96ffcd857c2b4ac8dce9765de01bd34e8ef2d78b16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "33b3a8983c9db9baf7d6c2f166da2ac118c0993b57087282c3c9f1e17020986f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16dda1bc22f0871e4959b19d00fb447b7f996f5c11ae4512dfd8298b2473a97c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Madeline Kafoury\",\"receptionist\"],\"target_related\":[\"Madeline Kafoury\",\"Steinberg\",\"Riva\",\"receptionist\"],\"mediators\":[\"Madeline Kafoury\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "416dc656d2dd87ef1d92a16c399f6c1398db9a11910c918960a4efaff0d538f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'was shot dead' uses 'shot' as the means by which she became dead, an explicit causal construction linking shot to dead.\"}"
+    }
+  },
+  "call_ids": [
+    "c487e360d2868703c1fdc4601720a2a4d1baa1a653cdf9ea9763b36664656c36",
+    "c487e360d2868703c1fdc4601720a2a4d1baa1a653cdf9ea9763b36664656c36",
+    "ecdfb3ad0b83c2ea49431c96ffcd857c2b4ac8dce9765de01bd34e8ef2d78b16",
+    "33b3a8983c9db9baf7d6c2f166da2ac118c0993b57087282c3c9f1e17020986f",
+    "16dda1bc22f0871e4959b19d00fb447b7f996f5c11ae4512dfd8298b2473a97c",
+    "416dc656d2dd87ef1d92a16c399f6c1398db9a11910c918960a4efaff0d538f3"
+  ],
+  "elapsed_s": 7.718635559082031
+}

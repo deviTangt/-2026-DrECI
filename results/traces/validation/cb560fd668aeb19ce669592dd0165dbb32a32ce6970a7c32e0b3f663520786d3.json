@@ -1,0 +1,61 @@
+{
+  "input_hash": "cb560fd668aeb19ce669592dd0165dbb32a32ce6970a7c32e0b3f663520786d3",
+  "sample_id": "ESC-CSV-02778",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "children"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0925b204b591a88c24a684f60288d6b592935f8a0f95410657b78bb2a1b6e0c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0925b204b591a88c24a684f60288d6b592935f8a0f95410657b78bb2a1b6e0c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a7886e81fa824340ecd3634952c96a9eb833d414e546dbb41289a299bf16179a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a006ccac9098f11687ad492c83fb3bc96e3a6b7d72fbde42bce5c4c2262370f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "be97370e669ee8a7b094ee0a093846bbb2abf4adf2d41c31541ae312e578c362",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bottles\",\"police\",\"children\",\"seen\"],\"target_related\":[\"police\",\"children\",\"searched\",\"warrants\"],\"mediators\":[\"police\",\"children\"]}"
+    },
+    "indirect": {
+      "call_id": "1841bd9aad553f997d0b6c00661bd7f68f2c3ef13c080b6bd0f3ddf8651ef36f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Children throwing bottles at police prompted police to search buildings looking for them; throwing precedes and causes the looking.\"}"
+    }
+  },
+  "call_ids": [
+    "0925b204b591a88c24a684f60288d6b592935f8a0f95410657b78bb2a1b6e0c9",
+    "0925b204b591a88c24a684f60288d6b592935f8a0f95410657b78bb2a1b6e0c9",
+    "a7886e81fa824340ecd3634952c96a9eb833d414e546dbb41289a299bf16179a",
+    "0a006ccac9098f11687ad492c83fb3bc96e3a6b7d72fbde42bce5c4c2262370f",
+    "be97370e669ee8a7b094ee0a093846bbb2abf4adf2d41c31541ae312e578c362",
+    "1841bd9aad553f997d0b6c00661bd7f68f2c3ef13c080b6bd0f3ddf8651ef36f"
+  ],
+  "elapsed_s": 4.319315195083618
+}

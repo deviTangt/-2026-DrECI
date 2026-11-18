@@ -1,0 +1,64 @@
+{
+  "input_hash": "f21933842ddff079227bce63399cab97e1f6a17d3aae547d1461d3fb80efa890",
+  "sample_id": "ESC-CSV-02114",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "two",
+    "managing",
+    "partners",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7876d001199c53deef96c721d41d573b5872541a6b2b847a67c012fc0ef5ecfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7876d001199c53deef96c721d41d573b5872541a6b2b847a67c012fc0ef5ecfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "27998d1e604ecc16e0076ecc3d7024e59332324ba4202b67da27fbd3424de3b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b52ea6cfe76455f14c3f3260e3576b57b93ebd38958731cbe457db61a0c6f9eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9019d07911d0e5b6179f70a326967478292f80a7bc9a07ae447875be1a5bb296",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"convicted\",\"man\",\"charged\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"dead\",\"two\",\"managing\",\"partners\",\"wounded\"],\"target_related\":[\"shooting\",\"receptionist\",\"two\",\"managing\",\"partners\",\"wounded\"],\"mediators\":[\"receptionist\",\"two\",\"managing\",\"partners\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "c5cde6d3ba3dc508cb3943c4bca496478f632d97e1d410435f2b6886cf56fe99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting that left a receptionist dead: the shooting occurred first and caused the death, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "7876d001199c53deef96c721d41d573b5872541a6b2b847a67c012fc0ef5ecfe",
+    "7876d001199c53deef96c721d41d573b5872541a6b2b847a67c012fc0ef5ecfe",
+    "27998d1e604ecc16e0076ecc3d7024e59332324ba4202b67da27fbd3424de3b3",
+    "b52ea6cfe76455f14c3f3260e3576b57b93ebd38958731cbe457db61a0c6f9eb",
+    "9019d07911d0e5b6179f70a326967478292f80a7bc9a07ae447875be1a5bb296",
+    "c5cde6d3ba3dc508cb3943c4bca496478f632d97e1d410435f2b6886cf56fe99"
+  ],
+  "elapsed_s": 6.736136436462402
+}

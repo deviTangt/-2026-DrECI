@@ -1,0 +1,64 @@
+{
+  "input_hash": "f831de15c140ab1bdf2a913f950f0b21faf033ab42784631204b884c17055cec",
+  "sample_id": "ESC-CSV-02006",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "woman",
+    "men",
+    "Shooting",
+    "Accounting",
+    "Firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3cd76d9db6c76308ad4a381d29111db5bcf9621141d11116c7a2347764db0b5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3cd76d9db6c76308ad4a381d29111db5bcf9621141d11116c7a2347764db0b5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a2dc2a0058fe111c16b055bb9cd0dbefddeba7a60e8c29b00a343d3e78ed78e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "00b6565bc43d4debe082303eaf9a24304106a7cc9cefa0f14c53d7bcda034f09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "17d99aca6194a5299f0c984e3b0d8f91b8ce4363fcd81fd5c57d64aeb88b7d69",
+      "status": "ok",
+      "text": "{\"source_related\":[\"woman\",\"men\",\"police\",\"Shooting\",\"Accounting\",\"Firm\"],\"target_related\":[\"woman\",\"men\",\"Shooting\",\"Accounting\",\"Firm\"],\"mediators\":[\"woman\",\"men\",\"Shooting\",\"Accounting\",\"Firm\"]}"
+    },
+    "indirect": {
+      "call_id": "0f1637bf92f3d98b178195192b4f527f369ed2ad003aff3ea735fb778fdd6180",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot causes injury; the headline states shooting left a woman dead and two hurt, so shot precedes and causes Hurt.\"}"
+    }
+  },
+  "call_ids": [
+    "3cd76d9db6c76308ad4a381d29111db5bcf9621141d11116c7a2347764db0b5c",
+    "3cd76d9db6c76308ad4a381d29111db5bcf9621141d11116c7a2347764db0b5c",
+    "4a2dc2a0058fe111c16b055bb9cd0dbefddeba7a60e8c29b00a343d3e78ed78e",
+    "00b6565bc43d4debe082303eaf9a24304106a7cc9cefa0f14c53d7bcda034f09",
+    "17d99aca6194a5299f0c984e3b0d8f91b8ce4363fcd81fd5c57d64aeb88b7d69",
+    "0f1637bf92f3d98b178195192b4f527f369ed2ad003aff3ea735fb778fdd6180"
+  ],
+  "elapsed_s": 5.392147064208984
+}

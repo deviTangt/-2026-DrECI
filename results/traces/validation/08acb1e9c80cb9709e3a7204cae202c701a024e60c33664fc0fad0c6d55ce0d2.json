@@ -1,0 +1,68 @@
+{
+  "input_hash": "08acb1e9c80cb9709e3a7204cae202c701a024e60c33664fc0fad0c6d55ce0d2",
+  "sample_id": "ESC-CSV-02632",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "police",
+    "cops",
+    "shot",
+    "killed",
+    "teenager",
+    "16-year-old",
+    "vigil",
+    "candlelight"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f354e8495697b337cfe69569a03ee110bf1ed51fbe6575d90901f2b11f6ad5ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f354e8495697b337cfe69569a03ee110bf1ed51fbe6575d90901f2b11f6ad5ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1108a82a6d37f613efc9d31ad72bc5b885428b25bb25693042be32176dd87a72",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cadb4a907c999e28bceb3449fc13d04f7b9f016eeb8800bbc86f7f8c507a36dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "762fd845c912aacf0feaac60b2586604772c57501e6aa7827578dd835d8e19a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\",\"vigil\",\"candlelight\",\"16-year-old\",\"cops\"],\"target_related\":[\"East Flatbush\",\"Monday\",\"projectiles\",\"cops\",\"car windows\",\"pharmacy customer\",\"bottle\",\"Brooklyn\",\"vigil\",\"candlelight\",\"16-year-old\",\"cops\"],\"mediators\":[\"Brooklyn\",\"police\",\"cops\",\"shot\",\"killed\",\"teenager\",\"16-year-old\",\"vigil\",\"candlelight\"]}"
+    },
+    "indirect": {
+      "call_id": "d012c2cb28e6a74f964d6fac6ae79f4e4fa9af52932103e0cd60b89264bd7112",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2],\"evidence\":\"Text says anger 'fueled a riot' — 'fueled' is an implicit causation word linking Anger (X) to Riot (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "f354e8495697b337cfe69569a03ee110bf1ed51fbe6575d90901f2b11f6ad5ec",
+    "f354e8495697b337cfe69569a03ee110bf1ed51fbe6575d90901f2b11f6ad5ec",
+    "1108a82a6d37f613efc9d31ad72bc5b885428b25bb25693042be32176dd87a72",
+    "cadb4a907c999e28bceb3449fc13d04f7b9f016eeb8800bbc86f7f8c507a36dc",
+    "762fd845c912aacf0feaac60b2586604772c57501e6aa7827578dd835d8e19a2",
+    "d012c2cb28e6a74f964d6fac6ae79f4e4fa9af52932103e0cd60b89264bd7112"
+  ],
+  "elapsed_s": 4.110381126403809
+}

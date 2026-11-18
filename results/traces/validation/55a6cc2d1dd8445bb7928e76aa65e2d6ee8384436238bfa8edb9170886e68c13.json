@@ -1,0 +1,63 @@
+{
+  "input_hash": "55a6cc2d1dd8445bb7928e76aa65e2d6ee8384436238bfa8edb9170886e68c13",
+  "sample_id": "ESC-CSV-02252",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "receptionist",
+    "opened fire",
+    "killing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "678656c8aa1ee0086a71681bf0ff767d8f1201a4631cace8e693cd8c270c8312",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "678656c8aa1ee0086a71681bf0ff767d8f1201a4631cace8e693cd8c270c8312",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "864786b343efe9c5a2a3ea3c8e99f3f51338325c7a9364a887fb8ef4beed8b5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "84462e08904b35ff017d31361d34e38d5552ebbcbf1eeab9a7e36aa54206dbe6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2bad74716df2097805713350609d5fd28b17c28a1222d164c3c53daec5be4b70",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"office\",\"bosses\",\"receptionist\",\"opened fire\",\"killing\"],\"target_related\":[\"bosses\",\"receptionist\",\"opened fire\",\"killing\"],\"mediators\":[\"bosses\",\"receptionist\",\"opened fire\",\"killing\"]}"
+    },
+    "indirect": {
+      "call_id": "b7b69f6db4173f0659bef2b77da68d2179ba839eabdb0ae1d74fb80044e4c0d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (opening fire) occurs before and causes the wounding of the bosses; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "678656c8aa1ee0086a71681bf0ff767d8f1201a4631cace8e693cd8c270c8312",
+    "678656c8aa1ee0086a71681bf0ff767d8f1201a4631cace8e693cd8c270c8312",
+    "864786b343efe9c5a2a3ea3c8e99f3f51338325c7a9364a887fb8ef4beed8b5a",
+    "84462e08904b35ff017d31361d34e38d5552ebbcbf1eeab9a7e36aa54206dbe6",
+    "2bad74716df2097805713350609d5fd28b17c28a1222d164c3c53daec5be4b70",
+    "b7b69f6db4173f0659bef2b77da68d2179ba839eabdb0ae1d74fb80044e4c0d4"
+  ],
+  "elapsed_s": 8.173319816589355
+}

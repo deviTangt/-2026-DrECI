@@ -1,0 +1,63 @@
+{
+  "input_hash": "2aa9f7bb5ed01ee829912343d2094b9b02e07bbd139018053fb0d58f169aaa8a",
+  "sample_id": "ESC-CSV-02004",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Shooting",
+    "Accounting Firm",
+    "three people",
+    "killing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0741e34a6b6d5f10f2be7f8790a0a660a9ef8affb4d5a8675d23cf955084ac28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0741e34a6b6d5f10f2be7f8790a0a660a9ef8affb4d5a8675d23cf955084ac28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e986bbef7432e7b2efa44f56966e47a7ef6819ddc6220ce57323fb0fc820f613",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c11ac2eadecd128b55b7f3c3d8a432bdabce9f0aac50f342082e26fd87ef8bc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8b7c651e94d1f1474c1c51dd79e84823b03f53fd8ba11f8749c718862296859d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"three people\",\"killing\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\",\"Shooting\",\"Accounting Firm\"],\"target_related\":[\"Shooting\",\"Accounting Firm\",\"Woman\",\"Dead\",\"2\",\"people\",\"shot\",\"three people\",\"killing\",\"one\"],\"mediators\":[\"Shooting\",\"Accounting Firm\",\"three people\",\"killing\"]}"
+    },
+    "indirect": {
+      "call_id": "eedc2b85be93faa4d86dfe3b453feccb5d907d94508fca163970006a6083e718",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people with a shotgun directly causes them to be hurt; the shot precedes and produces the injuries.\"}"
+    }
+  },
+  "call_ids": [
+    "0741e34a6b6d5f10f2be7f8790a0a660a9ef8affb4d5a8675d23cf955084ac28",
+    "0741e34a6b6d5f10f2be7f8790a0a660a9ef8affb4d5a8675d23cf955084ac28",
+    "e986bbef7432e7b2efa44f56966e47a7ef6819ddc6220ce57323fb0fc820f613",
+    "c11ac2eadecd128b55b7f3c3d8a432bdabce9f0aac50f342082e26fd87ef8bc9",
+    "8b7c651e94d1f1474c1c51dd79e84823b03f53fd8ba11f8749c718862296859d",
+    "eedc2b85be93faa4d86dfe3b453feccb5d907d94508fca163970006a6083e718"
+  ],
+  "elapsed_s": 6.013455390930176
+}

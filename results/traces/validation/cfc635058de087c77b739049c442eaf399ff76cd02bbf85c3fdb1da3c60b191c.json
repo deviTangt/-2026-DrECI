@@ -1,0 +1,62 @@
+{
+  "input_hash": "cfc635058de087c77b739049c442eaf399ff76cd02bbf85c3fdb1da3c60b191c",
+  "sample_id": "ESC-CSV-07090",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Vincent Jackson",
+    "wide receiver",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "267ecad077faa6022350a38138190f45c9bed8149837b9354e1b6f64447ab54c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "267ecad077faa6022350a38138190f45c9bed8149837b9354e1b6f64447ab54c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ac30cb752a5b6eb3135424fe0d025e64f7ced99a2faa5479d7830151fb2e0bf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "41c3810034bc082b3db66a8d48aa11c464fbced8e030a1b0bd5f6b724a893521",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e93356b13e250673d55a7454bb9139e8f9c06b9e44f9c9915ba89b925adb9b5a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"wide receiver\",\"DUI\"],\"target_related\":[\"Vincent Jackson\",\"wide receiver\",\"DUI\"],\"mediators\":[\"Vincent Jackson\",\"wide receiver\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "b24e9913526af8c41d214a4b80ab0da5d15c4ca100fb29229b10f0785b35a009",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'on probation for a previous DUI arrest' shows probation follows the arrest; no causation word or causal structure links them.\"}"
+    }
+  },
+  "call_ids": [
+    "267ecad077faa6022350a38138190f45c9bed8149837b9354e1b6f64447ab54c",
+    "267ecad077faa6022350a38138190f45c9bed8149837b9354e1b6f64447ab54c",
+    "ac30cb752a5b6eb3135424fe0d025e64f7ced99a2faa5479d7830151fb2e0bf4",
+    "41c3810034bc082b3db66a8d48aa11c464fbced8e030a1b0bd5f6b724a893521",
+    "e93356b13e250673d55a7454bb9139e8f9c06b9e44f9c9915ba89b925adb9b5a",
+    "b24e9913526af8c41d214a4b80ab0da5d15c4ca100fb29229b10f0785b35a009"
+  ],
+  "elapsed_s": 4.513397216796875
+}

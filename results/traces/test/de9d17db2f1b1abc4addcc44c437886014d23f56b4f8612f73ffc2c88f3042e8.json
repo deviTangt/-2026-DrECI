@@ -1,0 +1,65 @@
+{
+  "input_hash": "de9d17db2f1b1abc4addcc44c437886014d23f56b4f8612f73ffc2c88f3042e8",
+  "sample_id": "ESC-CSV-06871",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "slaying",
+    "wounding",
+    "gang member",
+    "sprayed",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2d57a2cf21406ccab60c0769ebeb9b00252d3bec91d9ec92edb936e965cfeee0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2d57a2cf21406ccab60c0769ebeb9b00252d3bec91d9ec92edb936e965cfeee0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "19a5e4fb9dce8b95991111574a8208bc9cc8fe7198f18a50c658490f1b273c7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cace2a988606bb36fa98a370f3920caf2a26cab5c6c79eb25e1bc7645d523c0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "966bb8e354a2354241899aa30dba6fc3c3ff1dedd94def0fbe92fb4c4dad3b35",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"slaying\",\"wounding\",\"rival gang members\",\"gang member\",\"sprayed\",\"bullets\"],\"target_related\":[\"Andrew Lopez\",\"slaying\",\"wounding\",\"gang member\",\"sprayed\",\"bullets\",\"mother of 12\",\"Zurana Horton\"],\"mediators\":[\"Andrew Lopez\",\"slaying\",\"wounding\",\"gang member\",\"sprayed\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "c2cbcf1575cebb924914b6502a2d07852355dd77ff4a196c8159e527dab30556",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Targeting rival gang members (X) led him to spray bullets, which killed Zurana Horton (Y); targeting precedes and causes the fatal shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "2d57a2cf21406ccab60c0769ebeb9b00252d3bec91d9ec92edb936e965cfeee0",
+    "2d57a2cf21406ccab60c0769ebeb9b00252d3bec91d9ec92edb936e965cfeee0",
+    "19a5e4fb9dce8b95991111574a8208bc9cc8fe7198f18a50c658490f1b273c7d",
+    "cace2a988606bb36fa98a370f3920caf2a26cab5c6c79eb25e1bc7645d523c0a",
+    "966bb8e354a2354241899aa30dba6fc3c3ff1dedd94def0fbe92fb4c4dad3b35",
+    "c2cbcf1575cebb924914b6502a2d07852355dd77ff4a196c8159e527dab30556"
+  ],
+  "elapsed_s": 5.678380489349365
+}

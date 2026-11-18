@@ -1,0 +1,68 @@
+{
+  "input_hash": "a3d22212f4138c72909457ecf10765052013a7620a90171373f235c6b9cd269c",
+  "sample_id": "ESC-CSV-01629",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "sheriff",
+    "deputy",
+    "shot",
+    "head",
+    "home",
+    "door",
+    "anti-gang",
+    "unit",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0c01666ba80a2c023baf5054c4b1f8b584c56b242c14c4526d1e2d4465af5224",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0c01666ba80a2c023baf5054c4b1f8b584c56b242c14c4526d1e2d4465af5224",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "384547a989297a6264d3a8b150223a14fc3eefdfa032209dc90990231ee40363",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e80526672761e3b71b9edb2ba5b171f113d019f790bc6cb8d333a3a13292a14c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ba854079180230dbfb69d45618e22b00447f664c1b6b49874278423140a2367a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"sheriff\",\"deputy\",\"shot\",\"head\",\"home\",\"door\",\"anti-gang\",\"unit\",\"authorities\"],\"target_related\":[\"sheriff\",\"deputy\",\"shot\",\"head\",\"home\",\"door\",\"anti-gang\",\"unit\",\"authorities\"],\"mediators\":[\"sheriff\",\"deputy\",\"shot\",\"head\",\"home\",\"door\",\"anti-gang\",\"unit\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "d2bf073f822d453ec314953493c89018ad0665ab791f1646ec59ec3da66d1b0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says he 'was killed Friday when he knocked on the door... and someone shot him in the head,' using 'when' to link the shooting to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "0c01666ba80a2c023baf5054c4b1f8b584c56b242c14c4526d1e2d4465af5224",
+    "0c01666ba80a2c023baf5054c4b1f8b584c56b242c14c4526d1e2d4465af5224",
+    "384547a989297a6264d3a8b150223a14fc3eefdfa032209dc90990231ee40363",
+    "e80526672761e3b71b9edb2ba5b171f113d019f790bc6cb8d333a3a13292a14c",
+    "ba854079180230dbfb69d45618e22b00447f664c1b6b49874278423140a2367a",
+    "d2bf073f822d453ec314953493c89018ad0665ab791f1646ec59ec3da66d1b0b"
+  ],
+  "elapsed_s": 4.709652423858643
+}

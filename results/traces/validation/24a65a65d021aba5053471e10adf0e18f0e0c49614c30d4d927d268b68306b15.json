@@ -1,0 +1,62 @@
+{
+  "input_hash": "24a65a65d021aba5053471e10adf0e18f0e0c49614c30d4d927d268b68306b15",
+  "sample_id": "ESC-CSV-02837",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "officers",
+    "teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f0041913f9f801655b358a7e871efede40d499aac5dd2932495c21609023e6e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f0041913f9f801655b358a7e871efede40d499aac5dd2932495c21609023e6e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b36ffe2e0ad0fc0168131d1b19f074da8147123e0b7732e3aa98c9f49704ed59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "05ee9e748b15909fe41c58184b58217a865c576a31719cb219aa6d216acec244",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "270c1227bd7fdcb1c99b3db7af07b5fd77cb943e44a2868aa9c163b85fb5d38d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"teen\"],\"target_related\":[\"NYPD\",\"officers\",\"teen\"],\"mediators\":[\"NYPD\",\"officers\",\"teen\"]}"
+    },
+    "indirect": {
+      "call_id": "0afa588f251c5bdf116e22154b52aca8943b22cc7f0be98f4feaf94ef90ab015",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed' — the conjunction 'and' links shot to killed; shooting caused the teen's death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f0041913f9f801655b358a7e871efede40d499aac5dd2932495c21609023e6e3",
+    "f0041913f9f801655b358a7e871efede40d499aac5dd2932495c21609023e6e3",
+    "b36ffe2e0ad0fc0168131d1b19f074da8147123e0b7732e3aa98c9f49704ed59",
+    "05ee9e748b15909fe41c58184b58217a865c576a31719cb219aa6d216acec244",
+    "270c1227bd7fdcb1c99b3db7af07b5fd77cb943e44a2868aa9c163b85fb5d38d",
+    "0afa588f251c5bdf116e22154b52aca8943b22cc7f0be98f4feaf94ef90ab015"
+  ],
+  "elapsed_s": 4.713919639587402
+}

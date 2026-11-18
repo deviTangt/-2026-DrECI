@@ -1,0 +1,64 @@
+{
+  "input_hash": "e699bb6944366228d3f1ba50a63febe4001d7527f4980cc993bed1f9c067f02b",
+  "sample_id": "ESC-CSV-09419",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "demonstrators",
+    "parliament",
+    "general",
+    "budget"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5c4ac11071f0ca6979e5f734546140fe06bf7feb8f7078baa84727391113b922",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5c4ac11071f0ca6979e5f734546140fe06bf7feb8f7078baa84727391113b922",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b7f30e62d16962b1c3bb4fa63560850abbbde83ca7c71827ac930099eb32e7cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "728aeda44ca844a810d8ece1d4e2fb2d9c3a6b2b7539e7ff92afca66596218a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1b2cea816236926c27b42452aaa2b965123f6ea9e0819c4ee5522da371fb72a1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"budget\",\"bankruptcy\",\"protesters\",\"striking\",\"demonstrators\",\"parliament\",\"general\",\"strike\"],\"target_related\":[\"protesters\",\"demonstrators\",\"parliament\",\"general\",\"budget\",\"cuts\",\"striking\"],\"mediators\":[\"protesters\",\"demonstrators\",\"parliament\",\"general\",\"budget\"]}"
+    },
+    "indirect": {
+      "call_id": "dc061f98336d168856f0f01f5ec58c12bf2f2c7c2f48fbce59aa553427e83d61",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Striking protesters were 'furious at brutal budget cuts,' implying the cuts provoked/aggravated the strike.\"}"
+    }
+  },
+  "call_ids": [
+    "5c4ac11071f0ca6979e5f734546140fe06bf7feb8f7078baa84727391113b922",
+    "5c4ac11071f0ca6979e5f734546140fe06bf7feb8f7078baa84727391113b922",
+    "b7f30e62d16962b1c3bb4fa63560850abbbde83ca7c71827ac930099eb32e7cc",
+    "728aeda44ca844a810d8ece1d4e2fb2d9c3a6b2b7539e7ff92afca66596218a2",
+    "1b2cea816236926c27b42452aaa2b965123f6ea9e0819c4ee5522da371fb72a1",
+    "dc061f98336d168856f0f01f5ec58c12bf2f2c7c2f48fbce59aa553427e83d61"
+  ],
+  "elapsed_s": 5.285578489303589
+}

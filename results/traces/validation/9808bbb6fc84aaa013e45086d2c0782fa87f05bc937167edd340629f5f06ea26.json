@@ -1,0 +1,62 @@
+{
+  "input_hash": "9808bbb6fc84aaa013e45086d2c0782fa87f05bc937167edd340629f5f06ea26",
+  "sample_id": "ESC-CSV-01720",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy",
+    "Ortiz",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cf014e876a136d37bdf951a9408e4f602eb1190e2d559ec356d44b82c1551c36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cf014e876a136d37bdf951a9408e4f602eb1190e2d559ec356d44b82c1551c36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d687d8bf0600d38841756fc6e43a5705a7e40912f653fa3581e889ae06622a04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f8815027a708cba19468a8ad8edc6b6eaa2c9d61086c090b2cb7b80d903109e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "71c6fd7fd1b7ad5fa95dd0ba534138d5eae87a9f56651259dbac62d5de91db00",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Luis\",\"Gerardo\",\"Ortiz\",\"gang\",\"member\",\"murder\",\"charges\"],\"target_related\":[\"Deputy\",\"Ortiz\",\"murder\",\"case\",\"investigate\"],\"mediators\":[\"Deputy\",\"Ortiz\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "11b1802a5c06e156bde5039270f79956af176f8997896cfca43f18e261d047e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Gunning down Deputy Ortiz directly caused his death; shooting before being killed follows common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "cf014e876a136d37bdf951a9408e4f602eb1190e2d559ec356d44b82c1551c36",
+    "cf014e876a136d37bdf951a9408e4f602eb1190e2d559ec356d44b82c1551c36",
+    "d687d8bf0600d38841756fc6e43a5705a7e40912f653fa3581e889ae06622a04",
+    "f8815027a708cba19468a8ad8edc6b6eaa2c9d61086c090b2cb7b80d903109e8",
+    "71c6fd7fd1b7ad5fa95dd0ba534138d5eae87a9f56651259dbac62d5de91db00",
+    "11b1802a5c06e156bde5039270f79956af176f8997896cfca43f18e261d047e6"
+  ],
+  "elapsed_s": 6.64285135269165
+}

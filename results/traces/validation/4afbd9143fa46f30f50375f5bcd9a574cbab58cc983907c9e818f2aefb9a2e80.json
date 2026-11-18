@@ -1,0 +1,62 @@
+{
+  "input_hash": "4afbd9143fa46f30f50375f5bcd9a574cbab58cc983907c9e818f2aefb9a2e80",
+  "sample_id": "ESC-CSV-02301",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "96125f3b3769e595718575535ed990b145c4d305112188b69827f062dfef56c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "96125f3b3769e595718575535ed990b145c4d305112188b69827f062dfef56c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7e4a72cff1ca95079c12d1c1b4d1c19888a064e24c01ebd75a15e5e0e95a0e0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3c10d88a15768b45f9e5c5153042ba5b67624bced20a52713bd5ab9f7a7aa64a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "87f70743a843dd8b6eaa52cf112c28fb1dcf96a216f07e124950387a7da511db",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"office\",\"bosses\",\"receptionist\"],\"target_related\":[\"bosses\",\"receptionist\",\"accountant\"],\"mediators\":[\"accountant\",\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "0a46ab85b74123f36eb1d4abfd0d1e8a20d1ade31f30001bff278f4320e6a01f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (opening fire) occurs before and causes the killing of the receptionist, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "96125f3b3769e595718575535ed990b145c4d305112188b69827f062dfef56c6",
+    "96125f3b3769e595718575535ed990b145c4d305112188b69827f062dfef56c6",
+    "7e4a72cff1ca95079c12d1c1b4d1c19888a064e24c01ebd75a15e5e0e95a0e0b",
+    "3c10d88a15768b45f9e5c5153042ba5b67624bced20a52713bd5ab9f7a7aa64a",
+    "87f70743a843dd8b6eaa52cf112c28fb1dcf96a216f07e124950387a7da511db",
+    "0a46ab85b74123f36eb1d4abfd0d1e8a20d1ade31f30001bff278f4320e6a01f"
+  ],
+  "elapsed_s": 6.254073143005371
+}

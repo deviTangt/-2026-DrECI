@@ -1,0 +1,68 @@
+{
+  "input_hash": "afcc24695d50f8c678ebc95591facbfaa45aad11ba683f5f74b74b3f1f6277a2",
+  "sample_id": "ESC-CSV-01815",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "jury",
+    "guilty",
+    "first-degree murder",
+    "police officer",
+    "firearm",
+    "felon",
+    "Ortiz",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "426d599a192a8c52ecd4b475fa266a0413f38490a02c0229d60f3e6dc87e8567",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "426d599a192a8c52ecd4b475fa266a0413f38490a02c0229d60f3e6dc87e8567",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c0c1c0cd4764dd0bf270f8165c87a9d94f5c9ee8353692266a2f0fa755d6cc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d3b4dde2357d3f182b807070b77bc238912baf5f6ec17302e47de139afa3b533",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f011bc2bafe25adfd2daf889a0c07696a71b321733a439ed6d902ba26d34c1ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"jail inmates\",\"Ortiz\",\"death\",\"jury\",\"guilty\",\"first-degree murder\",\"police officer\",\"firearm\",\"felon\"],\"target_related\":[\"Orozco\",\"jury\",\"guilty\",\"first-degree murder\",\"police officer\",\"firearm\",\"felon\",\"Ortiz\",\"death\"],\"mediators\":[\"Orozco\",\"jury\",\"guilty\",\"first-degree murder\",\"police officer\",\"firearm\",\"felon\",\"Ortiz\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "5a9a6f6248fdfea5fba0956cdef7ea4458fd09c2d17be5661c9d530e0dcf0ed3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting precedes and causes the victim's death, which constitutes the murder; common sense supports shooting causing murder.\"}"
+    }
+  },
+  "call_ids": [
+    "426d599a192a8c52ecd4b475fa266a0413f38490a02c0229d60f3e6dc87e8567",
+    "426d599a192a8c52ecd4b475fa266a0413f38490a02c0229d60f3e6dc87e8567",
+    "2c0c1c0cd4764dd0bf270f8165c87a9d94f5c9ee8353692266a2f0fa755d6cc4",
+    "d3b4dde2357d3f182b807070b77bc238912baf5f6ec17302e47de139afa3b533",
+    "f011bc2bafe25adfd2daf889a0c07696a71b321733a439ed6d902ba26d34c1ba",
+    "5a9a6f6248fdfea5fba0956cdef7ea4458fd09c2d17be5661c9d530e0dcf0ed3"
+  ],
+  "elapsed_s": 6.262084722518921
+}

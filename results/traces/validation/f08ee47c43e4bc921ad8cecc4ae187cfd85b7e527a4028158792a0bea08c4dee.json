@@ -1,0 +1,63 @@
+{
+  "input_hash": "f08ee47c43e4bc921ad8cecc4ae187cfd85b7e527a4028158792a0bea08c4dee",
+  "sample_id": "ESC-CSV-02990",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16-year-old",
+    "Brooklyn",
+    "NYPD",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "32653abbf30cd8578c3bcd09a4a6783d0d4a956fda6a8e137c447e20d03902d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "32653abbf30cd8578c3bcd09a4a6783d0d4a956fda6a8e137c447e20d03902d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9d1e3a6df70f4531683b25e4681636399432eda2b40a56ec5d793744b47b581d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "42aae46a3d2c3c04b0226055b04acb8bd57de159791914ae2d1ec6811163c35f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "590ebadf63cb9fccc7eadee944243e1dd93c6e4439cc4f8b25f4aa45faa2de9c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"16-year-old\",\"Brooklyn\",\"resident\",\"gun\",\"police\",\"Saturday\",\"teenagers\",\"cops\"],\"target_related\":[\"16-year-old\",\"Brooklyn\",\"teenagers\",\"streets\",\"NYPD\",\"cops\"],\"mediators\":[\"16-year-old\",\"Brooklyn\",\"NYPD\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "74131a9882fa622e2efdeb482ce39659a046b9ee20945a421fd389a1603cb23f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The 16-year-old was shot dead by NYPD cops; the vigil followed his death, so the shooting caused the vigil.\"}"
+    }
+  },
+  "call_ids": [
+    "32653abbf30cd8578c3bcd09a4a6783d0d4a956fda6a8e137c447e20d03902d0",
+    "32653abbf30cd8578c3bcd09a4a6783d0d4a956fda6a8e137c447e20d03902d0",
+    "9d1e3a6df70f4531683b25e4681636399432eda2b40a56ec5d793744b47b581d",
+    "42aae46a3d2c3c04b0226055b04acb8bd57de159791914ae2d1ec6811163c35f",
+    "590ebadf63cb9fccc7eadee944243e1dd93c6e4439cc4f8b25f4aa45faa2de9c",
+    "74131a9882fa622e2efdeb482ce39659a046b9ee20945a421fd389a1603cb23f"
+  ],
+  "elapsed_s": 5.60265588760376
+}

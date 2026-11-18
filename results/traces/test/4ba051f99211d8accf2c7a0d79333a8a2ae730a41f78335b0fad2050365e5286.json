@@ -1,0 +1,74 @@
+{
+  "input_hash": "4ba051f99211d8accf2c7a0d79333a8a2ae730a41f78335b0fad2050365e5286",
+  "sample_id": "ESC-CSV-06624",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Mother",
+    "13",
+    "Zurana Horton",
+    "shot",
+    "killed",
+    "gang",
+    "revealed",
+    "Thursday",
+    "N . Y . Daily News",
+    "charged",
+    "Lopez",
+    "letting off",
+    "13 shots",
+    "Horton's death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "810e392f577103dbdc321519c072b692e01606e0c4bfa4f517eb50afe573ccf9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "810e392f577103dbdc321519c072b692e01606e0c4bfa4f517eb50afe573ccf9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5cf2dfaeb0f0aea936acce52594931888b8057781dc50c945f810624610e61a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "06afdd6e3149e92a66f8bf30500651239b62ae3121e0b35fcaf756cf659ed9da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8aed5ed4a8c60f6ae82c2cdee9b56a3f7833d9a6c6de8635ff20a69a9dae9012",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"revealed\",\"Thursday\",\"N . Y . Daily News\",\"charged\",\"Lopez\",\"accused\",\"letting off\",\"13 shots\",\"Horton's death\"],\"target_related\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"shooting\",\"revealed\",\"Thursday\",\"N . Y . Daily News\",\"Both\",\"charged\",\"Lopez\",\"standing accused\",\"letting off\",\"13 shots\",\"Horton's death\"],\"mediators\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"revealed\",\"Thursday\",\"N . Y . Daily News\",\"charged\",\"Lopez\",\"letting off\",\"13 shots\",\"Horton's death\"]}"
+    },
+    "indirect": {
+      "call_id": "54b3ffb83ef7aac6de72c28a10dbc1b82f28c8ac557cd9ef254420798b6964ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'letting off 13 shots in Horton's death' and 'charged with murder' link the shooting to the killing; shooting before murder follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "810e392f577103dbdc321519c072b692e01606e0c4bfa4f517eb50afe573ccf9",
+    "810e392f577103dbdc321519c072b692e01606e0c4bfa4f517eb50afe573ccf9",
+    "5cf2dfaeb0f0aea936acce52594931888b8057781dc50c945f810624610e61a5",
+    "06afdd6e3149e92a66f8bf30500651239b62ae3121e0b35fcaf756cf659ed9da",
+    "8aed5ed4a8c60f6ae82c2cdee9b56a3f7833d9a6c6de8635ff20a69a9dae9012",
+    "54b3ffb83ef7aac6de72c28a10dbc1b82f28c8ac557cd9ef254420798b6964ef"
+  ],
+  "elapsed_s": 5.489246368408203
+}

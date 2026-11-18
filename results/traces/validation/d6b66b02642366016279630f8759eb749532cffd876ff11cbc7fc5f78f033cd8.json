@@ -1,0 +1,63 @@
+{
+  "input_hash": "d6b66b02642366016279630f8759eb749532cffd876ff11cbc7fc5f78f033cd8",
+  "sample_id": "ESC-CSV-02927",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teen",
+    "death",
+    "shot",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "55a9ee098a6c085ed2fd1e6e1ca3aff5ddb3b2b805cc20175af8b0b77dffd045",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "55a9ee098a6c085ed2fd1e6e1ca3aff5ddb3b2b805cc20175af8b0b77dffd045",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c955d01a3db46d23b6ddf7a498aab4cc4ea9cdb462a8552234fc53f364f03d9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c289771e6c2f68ccfac2dc0b1b31e32d4582ce092ab8ead125461829952e6921",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "acaa11baf7ac7fdbb0307eb3b183756430a4e084f629046ae878430cfc16bd98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fatal\",\"shot\",\"cops\",\"gun\",\"witness\",\"teen\",\"death\"],\"target_related\":[\"Brooklyn\",\"teen\",\"death\",\"cops\",\"shot\"],\"mediators\":[\"teen\",\"death\",\"shot\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "20bfdb0d19737aa8081105622e5d8136d0150e9ac03227e33bfb17abde5b119b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a fatal police shooting of a teen precedes and provokes the Brooklyn riot over the teen's death.\"}"
+    }
+  },
+  "call_ids": [
+    "55a9ee098a6c085ed2fd1e6e1ca3aff5ddb3b2b805cc20175af8b0b77dffd045",
+    "55a9ee098a6c085ed2fd1e6e1ca3aff5ddb3b2b805cc20175af8b0b77dffd045",
+    "c955d01a3db46d23b6ddf7a498aab4cc4ea9cdb462a8552234fc53f364f03d9b",
+    "c289771e6c2f68ccfac2dc0b1b31e32d4582ce092ab8ead125461829952e6921",
+    "acaa11baf7ac7fdbb0307eb3b183756430a4e084f629046ae878430cfc16bd98",
+    "20bfdb0d19737aa8081105622e5d8136d0150e9ac03227e33bfb17abde5b119b"
+  ],
+  "elapsed_s": 4.594568729400635
+}

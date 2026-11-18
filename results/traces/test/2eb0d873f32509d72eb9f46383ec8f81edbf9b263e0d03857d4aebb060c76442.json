@@ -1,0 +1,67 @@
+{
+  "input_hash": "2eb0d873f32509d72eb9f46383ec8f81edbf9b263e0d03857d4aebb060c76442",
+  "sample_id": "ESC-CSV-09284",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "bank workers",
+    "killed",
+    "building",
+    "torched",
+    "protests",
+    "Athens",
+    "austerity measures",
+    "Greek prime minister"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7941073254c1e0fc7271d4c41837d15d4c16d7ba52e97521689c89b68c8adfd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7941073254c1e0fc7271d4c41837d15d4c16d7ba52e97521689c89b68c8adfd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ab7cfbb322e3ed51ce10ca06ee806cef3bd18368acdb3e54fff927c973b8a552",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "058fd2d0d08ec31589904fba0572df0c87049633e47475459fa633375d84e7ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6abaf046006c7f4a3223dcfce6e060ab238cd9308ff7fef1b25c162dcde61fee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"],\"target_related\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"],\"mediators\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"austerity measures\",\"Greek prime minister\"]}"
+    },
+    "indirect": {
+      "call_id": "e035c87fa30edd257afab45e0b2d44a427b5a0fcf4f42ed4fb10109b06731b0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says workers were 'killed when the building...was torched'; 'killed' links the 'murder' to the deaths, and killing causing death follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "7941073254c1e0fc7271d4c41837d15d4c16d7ba52e97521689c89b68c8adfd2",
+    "7941073254c1e0fc7271d4c41837d15d4c16d7ba52e97521689c89b68c8adfd2",
+    "ab7cfbb322e3ed51ce10ca06ee806cef3bd18368acdb3e54fff927c973b8a552",
+    "058fd2d0d08ec31589904fba0572df0c87049633e47475459fa633375d84e7ff",
+    "6abaf046006c7f4a3223dcfce6e060ab238cd9308ff7fef1b25c162dcde61fee",
+    "e035c87fa30edd257afab45e0b2d44a427b5a0fcf4f42ed4fb10109b06731b0e"
+  ],
+  "elapsed_s": 4.7532594203948975
+}

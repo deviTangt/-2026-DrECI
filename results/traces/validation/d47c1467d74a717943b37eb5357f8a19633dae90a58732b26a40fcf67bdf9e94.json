@@ -1,0 +1,62 @@
+{
+  "input_hash": "d47c1467d74a717943b37eb5357f8a19633dae90a58732b26a40fcf67bdf9e94",
+  "sample_id": "ESC-CSV-07001",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "San Diego Chargers",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "50003bc7d42bba46d38298f5c9d095c218bfe7ad0062197a58364ac619312ba0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "50003bc7d42bba46d38298f5c9d095c218bfe7ad0062197a58364ac619312ba0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f20f7e3273a843cfa5861af08f654fab0decbe2f479df36ce95a683855c682e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0181585f447ddb6bdc1494f399a9bb5caf71c43db17b4869f6b70b5d8606eb8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fb15585cecc730bd37f1f111dbb43d5efb31270119d0b007b6252a022bb82b8c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"drunk driving\",\"Sunday\",\"February 1, 2009\",\"DUI\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"Defensive Tackle\",\"DUI\"],\"mediators\":[\"Jamal Williams\",\"San Diego Chargers\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "97fc2b6b59d5677f727a0f7261ddf2a747e168bb034d26d31b2f84982d79090e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Arrest on suspicion of drunk driving logically precedes and leads to DUI charges being filed.\"}"
+    }
+  },
+  "call_ids": [
+    "50003bc7d42bba46d38298f5c9d095c218bfe7ad0062197a58364ac619312ba0",
+    "50003bc7d42bba46d38298f5c9d095c218bfe7ad0062197a58364ac619312ba0",
+    "f20f7e3273a843cfa5861af08f654fab0decbe2f479df36ce95a683855c682e2",
+    "0181585f447ddb6bdc1494f399a9bb5caf71c43db17b4869f6b70b5d8606eb8f",
+    "fb15585cecc730bd37f1f111dbb43d5efb31270119d0b007b6252a022bb82b8c",
+    "97fc2b6b59d5677f727a0f7261ddf2a747e168bb034d26d31b2f84982d79090e"
+  ],
+  "elapsed_s": 4.0699462890625
+}

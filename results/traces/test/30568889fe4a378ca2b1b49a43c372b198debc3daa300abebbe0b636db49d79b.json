@@ -1,0 +1,61 @@
+{
+  "input_hash": "30568889fe4a378ca2b1b49a43c372b198debc3daa300abebbe0b636db49d79b",
+  "sample_id": "ESC-CSV-09803",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "national",
+    "bankruptcy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1d31fe3f1d180e025ad1d290a53acae619c4e5085e2ebe569036c58779e3123e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1d31fe3f1d180e025ad1d290a53acae619c4e5085e2ebe569036c58779e3123e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7bcffbd2b9c4b134bd00844e8e98567bf9e1e1f7a0c82b4c11589b0c18c7739a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "79be0be63a04c32c9600cf65fb9569c6b6b088101f6fab2f68a10557b8912c95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d2694882e615d92532014e58b8cf7eb39ee70f845c1083a8e8c01e9e38f5382",
+      "status": "ok",
+      "text": "{\"source_related\":[\"brutal\",\"spending\",\"national\",\"bankruptcy\"],\"target_related\":[\"national\",\"bankruptcy\"],\"mediators\":[\"national\",\"bankruptcy\"]}"
+    },
+    "indirect": {
+      "call_id": "2a822704a70bbb792b7007a70cbd64dd49561d3f758a61e541065f2996ca7c0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'cuts designed to avoid national bankruptcy' uses 'to' expressing purpose/causation, linking cuts to avoiding bankruptcy.\"}"
+    }
+  },
+  "call_ids": [
+    "1d31fe3f1d180e025ad1d290a53acae619c4e5085e2ebe569036c58779e3123e",
+    "1d31fe3f1d180e025ad1d290a53acae619c4e5085e2ebe569036c58779e3123e",
+    "7bcffbd2b9c4b134bd00844e8e98567bf9e1e1f7a0c82b4c11589b0c18c7739a",
+    "79be0be63a04c32c9600cf65fb9569c6b6b088101f6fab2f68a10557b8912c95",
+    "6d2694882e615d92532014e58b8cf7eb39ee70f845c1083a8e8c01e9e38f5382",
+    "2a822704a70bbb792b7007a70cbd64dd49561d3f758a61e541065f2996ca7c0c"
+  ],
+  "elapsed_s": 4.546599388122559
+}

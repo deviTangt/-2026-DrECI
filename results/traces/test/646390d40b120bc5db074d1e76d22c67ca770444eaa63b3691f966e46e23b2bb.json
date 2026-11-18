@@ -1,0 +1,61 @@
+{
+  "input_hash": "646390d40b120bc5db074d1e76d22c67ca770444eaa63b3691f966e46e23b2bb",
+  "sample_id": "ESC-CSV-09672",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cd7a492ccc139628733ea4909f0cc7b01c4925bfb64dd9bda380cba3d3f03620",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cd7a492ccc139628733ea4909f0cc7b01c4925bfb64dd9bda380cba3d3f03620",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f6d614f1993e85eb7f2bba2b1b3987ce8868aff2c4f7259c260748d37afd16ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5d3dba40c3cdea533e9882d9e87b03925e2693631826871291ddf5f39dace17a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5deeea1e1be19763cfe9066b82e43406b0f0304fc4d8072488d20064a39d2cdb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"target_related\":[\"bank\",\"workers\",\"three\"],\"mediators\":[\"bank\",\"workers\"]}"
+    },
+    "indirect": {
+      "call_id": "48b17afdd6e97ee78563ba2ad3eeeb2f242cdc98c839e324dbce545049cb2109",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots over austerity measures left three bank workers dead; common sense: riots occurring caused the deaths, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "cd7a492ccc139628733ea4909f0cc7b01c4925bfb64dd9bda380cba3d3f03620",
+    "cd7a492ccc139628733ea4909f0cc7b01c4925bfb64dd9bda380cba3d3f03620",
+    "f6d614f1993e85eb7f2bba2b1b3987ce8868aff2c4f7259c260748d37afd16ed",
+    "5d3dba40c3cdea533e9882d9e87b03925e2693631826871291ddf5f39dace17a",
+    "5deeea1e1be19763cfe9066b82e43406b0f0304fc4d8072488d20064a39d2cdb",
+    "48b17afdd6e97ee78563ba2ad3eeeb2f242cdc98c839e324dbce545049cb2109"
+  ],
+  "elapsed_s": 4.229808807373047
+}

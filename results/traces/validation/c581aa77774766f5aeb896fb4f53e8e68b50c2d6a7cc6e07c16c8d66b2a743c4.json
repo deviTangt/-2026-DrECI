@@ -1,0 +1,63 @@
+{
+  "input_hash": "c581aa77774766f5aeb896fb4f53e8e68b50c2d6a7cc6e07c16c8d66b2a743c4",
+  "sample_id": "ESC-CSV-02513",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Teen",
+    "Killed",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "83a45a324a0a72b1e3a6a1d87cdb46a4bd11839d1793df1a1902f9343645e94b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "83a45a324a0a72b1e3a6a1d87cdb46a4bd11839d1793df1a1902f9343645e94b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d220b7b576a83dbd01d4093c097841fc17328056125137ab51082b24de496f53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3b4e02f2e4b6b36eeb1df0563b90014af33e74ecdf94523217cd6cfb2353fdf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "265f87d89b2831a6c6089abc313fba65366f7249483dc454ce9432cc0d80f0f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Teen\",\"Killed\",\"Police\"],\"target_related\":[\"Erupt\",\"Brooklyn\",\"Teen\",\"Killed\",\"Police\"],\"mediators\":[\"Brooklyn\",\"Teen\",\"Killed\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "bcbc5e94e840a3d32718847c55aec1c9968794ff9fbac5df33dd2daa2ee05d8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Headline 'Riots Erupt Following Death' uses 'following' to link death to riots; common sense also supports death causing riots.\"}"
+    }
+  },
+  "call_ids": [
+    "83a45a324a0a72b1e3a6a1d87cdb46a4bd11839d1793df1a1902f9343645e94b",
+    "83a45a324a0a72b1e3a6a1d87cdb46a4bd11839d1793df1a1902f9343645e94b",
+    "d220b7b576a83dbd01d4093c097841fc17328056125137ab51082b24de496f53",
+    "3b4e02f2e4b6b36eeb1df0563b90014af33e74ecdf94523217cd6cfb2353fdf7",
+    "265f87d89b2831a6c6089abc313fba65366f7249483dc454ce9432cc0d80f0f6",
+    "bcbc5e94e840a3d32718847c55aec1c9968794ff9fbac5df33dd2daa2ee05d8a"
+  ],
+  "elapsed_s": 7.216749668121338
+}

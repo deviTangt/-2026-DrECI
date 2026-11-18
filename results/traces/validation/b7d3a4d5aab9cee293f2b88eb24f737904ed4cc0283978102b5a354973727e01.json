@@ -1,0 +1,63 @@
+{
+  "input_hash": "b7d3a4d5aab9cee293f2b88eb24f737904ed4cc0283978102b5a354973727e01",
+  "sample_id": "ESC-CSV-02677",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "teenager",
+    "Brooklyn",
+    "16-year-old"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5240780f1a1a178a5cebf17d23dcef984ae09d9c54cfd35c8c6e961153271105",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5240780f1a1a178a5cebf17d23dcef984ae09d9c54cfd35c8c6e961153271105",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d0ac7f42ea286837a541abb47997226c28b32d1cf1477c9aa64ab34e7c99d30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ec63ee181bce9d71272bb71a2f5d74df4c1eaff1cd5279882ae8ed9a53f3a663",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bf6f0f893f022ef7726a3dfe53262a2e4fac343db1627395197e464f1a3c10bc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\"],\"target_related\":[\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\",\"death\"],\"mediators\":[\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\"]}"
+    },
+    "indirect": {
+      "call_id": "7b970c68abfd350ef0b8d9ca7ea91f7a02c736aac210c509a626075a4fccc236",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed by police' — 'by' explicitly links shot to killed; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "5240780f1a1a178a5cebf17d23dcef984ae09d9c54cfd35c8c6e961153271105",
+    "5240780f1a1a178a5cebf17d23dcef984ae09d9c54cfd35c8c6e961153271105",
+    "7d0ac7f42ea286837a541abb47997226c28b32d1cf1477c9aa64ab34e7c99d30",
+    "ec63ee181bce9d71272bb71a2f5d74df4c1eaff1cd5279882ae8ed9a53f3a663",
+    "bf6f0f893f022ef7726a3dfe53262a2e4fac343db1627395197e464f1a3c10bc",
+    "7b970c68abfd350ef0b8d9ca7ea91f7a02c736aac210c509a626075a4fccc236"
+  ],
+  "elapsed_s": 4.366964817047119
+}

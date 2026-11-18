@@ -1,0 +1,65 @@
+{
+  "input_hash": "38787994aa29c69a2b81aebcbd0a2cc49b7e242065dcd62edaca07c180bb0974",
+  "sample_id": "ESC-CSV-06673",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Lopez",
+    "murder",
+    "second-degree",
+    "sentenced",
+    "Justice Vincent Del Giudice",
+    "life in prison"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0fe3f69179cbaa91ee0e3e51c10034373e7a097c60b9bd6e11500f267f89825e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0fe3f69179cbaa91ee0e3e51c10034373e7a097c60b9bd6e11500f267f89825e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "486aecca6176a3164991bc0a8c369e1541da96651cd4ba115a32b46678363ff6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "de4a3fcd2912b2fb37ce42340f0d203b8e120b1fb651f68c053ff48f37e02414",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c53be8664642dcfe645343f19fb97f38995b7bb6e5e66676eac8b03ee80056b0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"murder\",\"second-degree\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\"],\"target_related\":[\"Lopez\",\"murder\",\"second-degree\",\"assault\",\"first degree\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\"],\"mediators\":[\"Lopez\",\"murder\",\"second-degree\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\"]}"
+    },
+    "indirect": {
+      "call_id": "06bec5bccdbb15d5efebbb0d6c19534cd0416eedb5ac3dbf3ae675ec6504d8dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Passive construction 'Convicted of ... assault in the first degree' uses 'of' to link the conviction (Y) to the assault charge (X), expressing causation.\"}"
+    }
+  },
+  "call_ids": [
+    "0fe3f69179cbaa91ee0e3e51c10034373e7a097c60b9bd6e11500f267f89825e",
+    "0fe3f69179cbaa91ee0e3e51c10034373e7a097c60b9bd6e11500f267f89825e",
+    "486aecca6176a3164991bc0a8c369e1541da96651cd4ba115a32b46678363ff6",
+    "de4a3fcd2912b2fb37ce42340f0d203b8e120b1fb651f68c053ff48f37e02414",
+    "c53be8664642dcfe645343f19fb97f38995b7bb6e5e66676eac8b03ee80056b0",
+    "06bec5bccdbb15d5efebbb0d6c19534cd0416eedb5ac3dbf3ae675ec6504d8dd"
+  ],
+  "elapsed_s": 4.1696248054504395
+}

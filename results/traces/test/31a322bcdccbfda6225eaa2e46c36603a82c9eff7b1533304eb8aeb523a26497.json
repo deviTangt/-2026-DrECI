@@ -1,0 +1,63 @@
+{
+  "input_hash": "31a322bcdccbfda6225eaa2e46c36603a82c9eff7b1533304eb8aeb523a26497",
+  "sample_id": "ESC-CSV-04630",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "men",
+    "car",
+    "jewellery store",
+    "shop window"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "11796372af32c517503d2f97daadb48c7467fc52e011916bcdf1f4d84ad44ea1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "11796372af32c517503d2f97daadb48c7467fc52e011916bcdf1f4d84ad44ea1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "95a0579171fd3b713a3a6611aa65e63a8946ed8518fa28357d921119c8a69531",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "01ebd6c07b71f064e43a72816199125541894dcb08d9101a5552ac4259b2388e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "30c1cdf6fdcf067a1eecc0bded3b2239e10e7a4ca23fe6fb6be1e6362668fd89",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery store\",\"shop window\",\"booty\"],\"target_related\":[\"men\",\"car\",\"jewellery store\",\"shop window\"],\"mediators\":[\"men\",\"car\",\"jewellery store\",\"shop window\"]}"
+    },
+    "indirect": {
+      "call_id": "dd125c2c68db8fcaedef28f91aaa9c554fbe0a0bb4dbce35f9885fa13111cadc",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Ramming the store enabled the men to make off with the booty; making off did not cause the ramming. No explicit or implicit causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "11796372af32c517503d2f97daadb48c7467fc52e011916bcdf1f4d84ad44ea1",
+    "11796372af32c517503d2f97daadb48c7467fc52e011916bcdf1f4d84ad44ea1",
+    "95a0579171fd3b713a3a6611aa65e63a8946ed8518fa28357d921119c8a69531",
+    "01ebd6c07b71f064e43a72816199125541894dcb08d9101a5552ac4259b2388e",
+    "30c1cdf6fdcf067a1eecc0bded3b2239e10e7a4ca23fe6fb6be1e6362668fd89",
+    "dd125c2c68db8fcaedef28f91aaa9c554fbe0a0bb4dbce35f9885fa13111cadc"
+  ],
+  "elapsed_s": 4.741601228713989
+}

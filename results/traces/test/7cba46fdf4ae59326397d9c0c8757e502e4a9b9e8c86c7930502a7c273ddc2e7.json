@@ -1,0 +1,65 @@
+{
+  "input_hash": "7cba46fdf4ae59326397d9c0c8757e502e4a9b9e8c86c7930502a7c273ddc2e7",
+  "sample_id": "ESC-CSV-04422",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "car",
+    "jewellery store",
+    "fleeing",
+    "vehicle",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6557d5ce510fada4cf20a0e5c1bf612f632bcd49a3da05d4d099af00976ece8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6557d5ce510fada4cf20a0e5c1bf612f632bcd49a3da05d4d099af00976ece8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "765afb085b8ccd92d0a4de006df63d07d156e19d25207cf3a2f2d3bcc6605c24",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "81739254242bf30bdb4409ef8193063505f483bb9359a0de603a948d8da4d6f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "adfe76cc21ac58fd338953dad996f48c8d0c5244e313c3575db6020b4382188d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery store\",\"fleeing\",\"vehicle\",\"France\"],\"target_related\":[\"men\",\"car\",\"jewellery store\",\"fleeing\",\"vehicle\",\"France\"],\"mediators\":[\"men\",\"car\",\"jewellery store\",\"fleeing\",\"vehicle\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "27e573ea252ece36409aeb7a9a68589dc16ffd939a7b76e2d77cde426abc4c57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing a car into the store is the means that enables the robbery, so the smash precedes and causes the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "6557d5ce510fada4cf20a0e5c1bf612f632bcd49a3da05d4d099af00976ece8f",
+    "6557d5ce510fada4cf20a0e5c1bf612f632bcd49a3da05d4d099af00976ece8f",
+    "765afb085b8ccd92d0a4de006df63d07d156e19d25207cf3a2f2d3bcc6605c24",
+    "81739254242bf30bdb4409ef8193063505f483bb9359a0de603a948d8da4d6f3",
+    "adfe76cc21ac58fd338953dad996f48c8d0c5244e313c3575db6020b4382188d",
+    "27e573ea252ece36409aeb7a9a68589dc16ffd939a7b76e2d77cde426abc4c57"
+  ],
+  "elapsed_s": 4.2218849658966064
+}

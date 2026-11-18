@@ -1,0 +1,62 @@
+{
+  "input_hash": "773620f6e93e272fd30702c030392becce9eb9e15d8d81dec9f59a82674d5bb3",
+  "sample_id": "ESC-CSV-04360",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Robbers",
+    "jewelry",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "94e95631c4df9da101431b16f9938afb02d85442b703156bc094b6e6653620d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "94e95631c4df9da101431b16f9938afb02d85442b703156bc094b6e6653620d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "db35d5fd09224226a290818c92bbb4c2fc08efe9f94bef9321b7cfc77d601a70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b7119cce1768ceda98f9098ca9dc2dd5f711c238ac01d8d5400bb6083827cb4e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "07a699a91ede5b21b84d39f512f3ea159449b80afcb8b8e9056e2e89c65c165b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"4x4\",\"store\",\"jewelry\",\"watches\",\"car\"],\"target_related\":[\"Paris\",\"thieves\",\"jewellery\"],\"mediators\":[\"Robbers\",\"jewelry\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "94bdf37e1c705512bc217f82fd352a42e915a6ac9c83ba70a2d26546d39a109f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links crash to nab; crash precedes but does not cause the thieves' nabbing of jewelry.\"}"
+    }
+  },
+  "call_ids": [
+    "94e95631c4df9da101431b16f9938afb02d85442b703156bc094b6e6653620d4",
+    "94e95631c4df9da101431b16f9938afb02d85442b703156bc094b6e6653620d4",
+    "db35d5fd09224226a290818c92bbb4c2fc08efe9f94bef9321b7cfc77d601a70",
+    "b7119cce1768ceda98f9098ca9dc2dd5f711c238ac01d8d5400bb6083827cb4e",
+    "07a699a91ede5b21b84d39f512f3ea159449b80afcb8b8e9056e2e89c65c165b",
+    "94bdf37e1c705512bc217f82fd352a42e915a6ac9c83ba70a2d26546d39a109f"
+  ],
+  "elapsed_s": 4.734674692153931
+}

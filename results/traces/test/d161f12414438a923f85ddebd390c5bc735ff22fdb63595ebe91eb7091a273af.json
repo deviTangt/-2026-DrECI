@@ -1,0 +1,62 @@
+{
+  "input_hash": "d161f12414438a923f85ddebd390c5bc735ff22fdb63595ebe91eb7091a273af",
+  "sample_id": "ESC-CSV-06578",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "shot",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "37e91dfb8c7b9f0917769c0851165253c99042022f2b5ed63ca0b89122dcb8f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "37e91dfb8c7b9f0917769c0851165253c99042022f2b5ed63ca0b89122dcb8f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ed3626c2d74e861afee71affa70a72da8369b9ee5ead67f1381e5ad87d6a3007",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c825e58d5bdad128083b67c27bd9067eeb93a632ca087e503917b03f11de0378",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b9ed939396f457db37e98e9c57f0cfdf16e620fd4c9350dec990f9aab8f87e83",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"guilty\",\"murder\",\"assault\",\"Zurana Horton\",\"Horton\",\"shot\",\"killed\"],\"target_related\":[\"shot\",\"killed\",\"Horton\",\"October 2011\",\"erupted\",\"outside\"],\"mediators\":[\"Horton\",\"shot\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "0ebde27bdcbbfe55dde2e4016e9b96d34bac03b5ec0726fbca42bf024059aa55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Horton was shot and killed ... when gunfire erupted' — 'when' links gunfire to the death, and gunfire causing death follows causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "37e91dfb8c7b9f0917769c0851165253c99042022f2b5ed63ca0b89122dcb8f3",
+    "37e91dfb8c7b9f0917769c0851165253c99042022f2b5ed63ca0b89122dcb8f3",
+    "ed3626c2d74e861afee71affa70a72da8369b9ee5ead67f1381e5ad87d6a3007",
+    "c825e58d5bdad128083b67c27bd9067eeb93a632ca087e503917b03f11de0378",
+    "b9ed939396f457db37e98e9c57f0cfdf16e620fd4c9350dec990f9aab8f87e83",
+    "0ebde27bdcbbfe55dde2e4016e9b96d34bac03b5ec0726fbca42bf024059aa55"
+  ],
+  "elapsed_s": 5.354236841201782
+}

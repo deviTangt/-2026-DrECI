@@ -1,0 +1,68 @@
+{
+  "input_hash": "0906c38c24ef7bc69dc63b70e44baf0e8b950d568d292c1eacf28cb9f65c6396",
+  "sample_id": "ESC-CSV-09273",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank",
+    "Wednesday",
+    "Greeks",
+    "protest",
+    "spending cuts",
+    "bankruptcy",
+    "Bank Workers",
+    "Riot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "38126032297ad8cf0c16c8598853f0b72c5ef3c2f407321f237dedd249c92384",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "38126032297ad8cf0c16c8598853f0b72c5ef3c2f407321f237dedd249c92384",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f990869cf7d8e1e588f83567a2e4cd66fb8df68abfb0b5e22dccc5cd944ae26d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "88519a044f9bd1faf9814305a9b5514e709ec3069169e4293684cf6ec2839816",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4616525823430dca721104e6da33fa3ead73ea63ce1acb204df7bfc45b5d5ff8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"bank\",\"Wednesday\",\"Greeks\",\"protest\",\"spending cuts\",\"bankruptcy\",\"Bank Workers\",\"Riot\"],\"target_related\":[\"Three people\",\"Athens\",\"bank\",\"Wednesday\",\"Greeks\",\"protest\",\"spending cuts\",\"bankruptcy\",\"Bank Workers\",\"Riot\",\"Murder\"],\"mediators\":[\"Athens\",\"bank\",\"Wednesday\",\"Greeks\",\"protest\",\"spending cuts\",\"bankruptcy\",\"Bank Workers\",\"Riot\"]}"
+    },
+    "indirect": {
+      "call_id": "5e0a0c7e8fe9acb6c604bbca9bf588f8e79a431c6b7749655ac24a028087c300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Three people died when an Athens bank went up in flames' — 'when' links the fire to the deaths; fire preceding deaths fits common sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "38126032297ad8cf0c16c8598853f0b72c5ef3c2f407321f237dedd249c92384",
+    "38126032297ad8cf0c16c8598853f0b72c5ef3c2f407321f237dedd249c92384",
+    "f990869cf7d8e1e588f83567a2e4cd66fb8df68abfb0b5e22dccc5cd944ae26d",
+    "88519a044f9bd1faf9814305a9b5514e709ec3069169e4293684cf6ec2839816",
+    "4616525823430dca721104e6da33fa3ead73ea63ce1acb204df7bfc45b5d5ff8",
+    "5e0a0c7e8fe9acb6c604bbca9bf588f8e79a431c6b7749655ac24a028087c300"
+  ],
+  "elapsed_s": 5.101896524429321
+}

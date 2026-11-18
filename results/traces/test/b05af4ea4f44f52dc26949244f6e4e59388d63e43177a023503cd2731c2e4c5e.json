@@ -1,0 +1,66 @@
+{
+  "input_hash": "b05af4ea4f44f52dc26949244f6e4e59388d63e43177a023503cd2731c2e4c5e",
+  "sample_id": "ESC-CSV-09671",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "set",
+    "burning",
+    "barricades",
+    "cars",
+    "fire",
+    "truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "463dd369fee1d6802a044242bfbddf084434175670024e705f095aea0b4b6705",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "463dd369fee1d6802a044242bfbddf084434175670024e705f095aea0b4b6705",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "59b04e7e6b5d42c89bcf093b8fcae1b5c3234eb885ec197e0181806fa856d917",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cf9d1547b32716300066f8a7fcaacf38a12d043bd70828928650ef885b189af8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f600c6b8a5fabf9a3ae3621bf10340fb76ab38d416d918ce70bc24a98ee17947",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Firefighters\",\"extinguished\",\"blazes\",\"buildings\",\"Finance\",\"Ministry\",\"protesters\",\"set\",\"burning\",\"barricades\",\"cars\",\"fire\",\"truck\"],\"target_related\":[\"protesters\",\"set\",\"burning\",\"barricades\",\"cars\",\"fire\",\"truck\"],\"mediators\":[\"protesters\",\"set\",\"burning\",\"barricades\",\"cars\",\"fire\",\"truck\"]}"
+    },
+    "indirect": {
+      "call_id": "2db68b7e43f78845b2cfdd2b602e25b556547f1ecc173ce0f5ad6b421c73e3db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters (Z) caused the riots and also torched cars and a fire truck, forming a chain: riots -> protesters -> torched.\"}"
+    }
+  },
+  "call_ids": [
+    "463dd369fee1d6802a044242bfbddf084434175670024e705f095aea0b4b6705",
+    "463dd369fee1d6802a044242bfbddf084434175670024e705f095aea0b4b6705",
+    "59b04e7e6b5d42c89bcf093b8fcae1b5c3234eb885ec197e0181806fa856d917",
+    "cf9d1547b32716300066f8a7fcaacf38a12d043bd70828928650ef885b189af8",
+    "f600c6b8a5fabf9a3ae3621bf10340fb76ab38d416d918ce70bc24a98ee17947",
+    "2db68b7e43f78845b2cfdd2b602e25b556547f1ecc173ce0f5ad6b421c73e3db"
+  ],
+  "elapsed_s": 5.149808168411255
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "5ff1620554d8a9585b1b657fcd836ca61f9686f2ace3fb1e13e7b43d0add9e2a",
+  "sample_id": "ESC-CSV-02491",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "police",
+    "gun",
+    "Sgt . Mourad Mourad",
+    "Officer Jovaniel Cordova"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c38198640d397226d75d74db8b05b852ab846539849a2ef75ecf0706e3f89f12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c38198640d397226d75d74db8b05b852ab846539849a2ef75ecf0706e3f89f12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "262475b4df097cdbf49a80b714fae0b821d2fad1d83d851ff7f5bfbdaf77901d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7344396aff34333551707a8434f5c100878b9eb50a27398c05735fcafb0c85ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a29cd8a18bc098eb5f74e7d8dc74f89b370250aeb223ed1f7ecc396ee05fedd7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"police\",\"March 9\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\"],\"target_related\":[\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\",\"Gray\"],\"mediators\":[\"Gray\",\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\"]}"
+    },
+    "indirect": {
+      "call_id": "9457ab02b0978f4a46799a930f6ae91a60edfae3dfa8c223ff1ead94e9e3dda1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Police 'opened fire' before Gray was 'killed'; the phrase 'before they opened fire' links the shooting to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "c38198640d397226d75d74db8b05b852ab846539849a2ef75ecf0706e3f89f12",
+    "c38198640d397226d75d74db8b05b852ab846539849a2ef75ecf0706e3f89f12",
+    "262475b4df097cdbf49a80b714fae0b821d2fad1d83d851ff7f5bfbdaf77901d",
+    "7344396aff34333551707a8434f5c100878b9eb50a27398c05735fcafb0c85ac",
+    "a29cd8a18bc098eb5f74e7d8dc74f89b370250aeb223ed1f7ecc396ee05fedd7",
+    "9457ab02b0978f4a46799a930f6ae91a60edfae3dfa8c223ff1ead94e9e3dda1"
+  ],
+  "elapsed_s": 12.531925201416016
+}

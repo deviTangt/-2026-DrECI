@@ -1,0 +1,63 @@
+{
+  "input_hash": "45a886f2048fa42013f4155810cec1a83221ea6ddf5943ea5c944bc8ebc2a2f7",
+  "sample_id": "ESC-CSV-04504",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8df9f223cd50b6422ce69af799bb80c9349478ca4ab63f5eb541a2f2fd814abe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8df9f223cd50b6422ce69af799bb80c9349478ca4ab63f5eb541a2f2fd814abe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "35e4ae0ccd5168d42e80838569ac983690a41ed2c32d06550452ca4b0dc3d396",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b0321c3361fed4f73e786d4eaf2c33dc49d42816c7eda3efc3e78b8f65321372",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "6988d88dc00f64a176e179651a6c359cdcb6b8aaa6b0c0a82ad4e3164819dd62",
+      "status": "ok",
+      "text": "{\"source_related\":[\"smash\",\"robbers\",\"jewelry\",\"watches\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"store\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "be63aa66412bc8fa870d8e27120226628edd86a28b3b1239e253876e0e8181dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The grab (seizing jewelry) enables the robbers to make off with the stolen goods; grabbing precedes and causes the getaway.\"}"
+    }
+  },
+  "call_ids": [
+    "8df9f223cd50b6422ce69af799bb80c9349478ca4ab63f5eb541a2f2fd814abe",
+    "8df9f223cd50b6422ce69af799bb80c9349478ca4ab63f5eb541a2f2fd814abe",
+    "35e4ae0ccd5168d42e80838569ac983690a41ed2c32d06550452ca4b0dc3d396",
+    "b0321c3361fed4f73e786d4eaf2c33dc49d42816c7eda3efc3e78b8f65321372",
+    "6988d88dc00f64a176e179651a6c359cdcb6b8aaa6b0c0a82ad4e3164819dd62",
+    "be63aa66412bc8fa870d8e27120226628edd86a28b3b1239e253876e0e8181dc"
+  ],
+  "elapsed_s": 4.786035537719727
+}

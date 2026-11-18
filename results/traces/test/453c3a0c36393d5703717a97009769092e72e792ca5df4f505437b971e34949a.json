@@ -1,0 +1,62 @@
+{
+  "input_hash": "453c3a0c36393d5703717a97009769092e72e792ca5df4f505437b971e34949a",
+  "sample_id": "ESC-CSV-09891",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "police",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c186c21f7f86e01fd637e6345f232e4c5e58d90a635c5e18453385d1957d6b90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c186c21f7f86e01fd637e6345f232e4c5e58d90a635c5e18453385d1957d6b90",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9479eb1f06fb4f5ab7822e34cec131a204134f819b83504c6831fe67e51c05c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "098915fa422063d40b8993b5b341ff02ff0eda0266d44cf399a53a9c6dd01cee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "333964ef33374dd2605f0fb19810ec7ec5b608aa5e7ee0ca1c4ea693dc65cc62",
+      "status": "ok",
+      "text": "{\"source_related\":[\"general\",\"strike\",\"protesters\",\"police\",\"Athens\"],\"target_related\":[\"protesters\",\"police\",\"Athens\",\"anti\",\"measure\"],\"mediators\":[\"protesters\",\"police\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "132aeea27a626e084e4d5b9cb1493c5959382af80b6d3cdd87f3ac8249a9fc09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A general strike march turning into a battle implies the march led to the battles, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "c186c21f7f86e01fd637e6345f232e4c5e58d90a635c5e18453385d1957d6b90",
+    "c186c21f7f86e01fd637e6345f232e4c5e58d90a635c5e18453385d1957d6b90",
+    "9479eb1f06fb4f5ab7822e34cec131a204134f819b83504c6831fe67e51c05c0",
+    "098915fa422063d40b8993b5b341ff02ff0eda0266d44cf399a53a9c6dd01cee",
+    "333964ef33374dd2605f0fb19810ec7ec5b608aa5e7ee0ca1c4ea693dc65cc62",
+    "132aeea27a626e084e4d5b9cb1493c5959382af80b6d3cdd87f3ac8249a9fc09"
+  ],
+  "elapsed_s": 5.701090097427368
+}

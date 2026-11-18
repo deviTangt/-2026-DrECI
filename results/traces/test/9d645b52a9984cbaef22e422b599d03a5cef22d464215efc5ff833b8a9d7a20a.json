@@ -1,0 +1,66 @@
+{
+  "input_hash": "9d645b52a9984cbaef22e422b599d03a5cef22d464215efc5ff833b8a9d7a20a",
+  "sample_id": "ESC-CSV-09389",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "petrol bombs",
+    "stores",
+    "businesses",
+    "buildings",
+    "tax officials",
+    "fire",
+    "protests"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "43e9ee9990f1f1f19291068ffbba453732a40af30a3924385486e50b9f7c97db",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "43e9ee9990f1f1f19291068ffbba453732a40af30a3924385486e50b9f7c97db",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dda27fa7052de6af0425b5fed77daa8702c57fc019852f69de5e4bf11e37b6d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c8bacd93f7d7276b47b95fc606a056acf831f6a26de5de2c47f73a1a03098223",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "cc67519b825437c04ec595d02dacb8c3b4a86e9890ac9a5c2a3310aff41b7316",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded youths\",\"petrol bombs\",\"stores\",\"businesses\",\"capital Athens\",\"demonstrators\",\"parliament\",\"general strike\",\"Thessaloniki\",\"buildings\",\"tax officials\",\"fire\",\"protests\"],\"target_related\":[\"petrol bombs\",\"stores\",\"businesses\",\"buildings\",\"tax officials\",\"fire\",\"protests\"],\"mediators\":[\"petrol bombs\",\"stores\",\"businesses\",\"buildings\",\"tax officials\",\"fire\",\"protests\"]}"
+    },
+    "indirect": {
+      "call_id": "99348ceaf5c1c4afe2ccbf69568ec2085150c836ec18d1e866160fc1a1536d1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Rioting spread and fire-bomb attacks occurred on margins of protests; rioting (X) led to fire-bomb attacks (Y) via protests as chain.\"}"
+    }
+  },
+  "call_ids": [
+    "43e9ee9990f1f1f19291068ffbba453732a40af30a3924385486e50b9f7c97db",
+    "43e9ee9990f1f1f19291068ffbba453732a40af30a3924385486e50b9f7c97db",
+    "dda27fa7052de6af0425b5fed77daa8702c57fc019852f69de5e4bf11e37b6d0",
+    "c8bacd93f7d7276b47b95fc606a056acf831f6a26de5de2c47f73a1a03098223",
+    "cc67519b825437c04ec595d02dacb8c3b4a86e9890ac9a5c2a3310aff41b7316",
+    "99348ceaf5c1c4afe2ccbf69568ec2085150c836ec18d1e866160fc1a1536d1a"
+  ],
+  "elapsed_s": 4.94464898109436
+}

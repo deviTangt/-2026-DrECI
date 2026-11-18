@@ -1,0 +1,65 @@
+{
+  "input_hash": "46b128bb4735205bb584b11ca6c25d261849238121ab9a80e3200d3d44e26aaa",
+  "sample_id": "ESC-CSV-02249",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shotgun",
+    "job",
+    "office",
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "55904a281efe529ca09af4794ee672fd48ba56e60a47a13edd38b5a8aefdfb48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "55904a281efe529ca09af4794ee672fd48ba56e60a47a13edd38b5a8aefdfb48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2bba23e7244232dd45c35b55315e3199a343c8d6fe4e7a9994a1f7c75cd4e587",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "869280e75966f5ff52c501284e38b660781541b46d37737c4b8c0f630e0bd4d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8d87dd20127da79c82065d6f68922757a0c1a3ac95234cfa1d845a1033d56f92",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"Riva\",\"chest\",\"building\",\"Whiteside\",\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\"],\"target_related\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\",\"wounding\",\"fire\"],\"mediators\":[\"accountant\",\"shotgun\",\"job\",\"office\",\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "bb0774a2b756b82276eaa320953761b3442fa06920c6e1adc7f9541e3b342cab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone in the upper chest can cause death; the shooting precedes and causes the killing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "55904a281efe529ca09af4794ee672fd48ba56e60a47a13edd38b5a8aefdfb48",
+    "55904a281efe529ca09af4794ee672fd48ba56e60a47a13edd38b5a8aefdfb48",
+    "2bba23e7244232dd45c35b55315e3199a343c8d6fe4e7a9994a1f7c75cd4e587",
+    "869280e75966f5ff52c501284e38b660781541b46d37737c4b8c0f630e0bd4d9",
+    "8d87dd20127da79c82065d6f68922757a0c1a3ac95234cfa1d845a1033d56f92",
+    "bb0774a2b756b82276eaa320953761b3442fa06920c6e1adc7f9541e3b342cab"
+  ],
+  "elapsed_s": 6.693715333938599
+}

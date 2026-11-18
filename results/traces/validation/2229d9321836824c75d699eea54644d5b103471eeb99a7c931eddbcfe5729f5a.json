@@ -1,0 +1,63 @@
+{
+  "input_hash": "2229d9321836824c75d699eea54644d5b103471eeb99a7c931eddbcfe5729f5a",
+  "sample_id": "ESC-CSV-02619",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "teenager",
+    "police",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fff3d88bfb25eb544f6b4d09efd5def0d40bd0e571d50a0cd751bf9790509dd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fff3d88bfb25eb544f6b4d09efd5def0d40bd0e571d50a0cd751bf9790509dd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "76f94f677165932aea8af61d303a0f22a5c4a514a505b03a32383de9a76d018e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d63c47d75351e69a7e89713600767ec6a64b9d4ba86a1db0a0d13ec58e3cf31a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6bad987f71693f7921a0c9986f3862250ea517735a9f7a2477f60c94063aee60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\",\"killed\"],\"target_related\":[\"Brooklyn\",\"teenager\",\"police\",\"shot\",\"killed\",\"anger\"],\"mediators\":[\"Brooklyn\",\"teenager\",\"police\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "e628263b886cad6d7e78945f600212b0dcdab1c5c9f86c43cd8cddc31af22222",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed by police' — 'killed' explicitly links being shot to death; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "fff3d88bfb25eb544f6b4d09efd5def0d40bd0e571d50a0cd751bf9790509dd4",
+    "fff3d88bfb25eb544f6b4d09efd5def0d40bd0e571d50a0cd751bf9790509dd4",
+    "76f94f677165932aea8af61d303a0f22a5c4a514a505b03a32383de9a76d018e",
+    "d63c47d75351e69a7e89713600767ec6a64b9d4ba86a1db0a0d13ec58e3cf31a",
+    "6bad987f71693f7921a0c9986f3862250ea517735a9f7a2477f60c94063aee60",
+    "e628263b886cad6d7e78945f600212b0dcdab1c5c9f86c43cd8cddc31af22222"
+  ],
+  "elapsed_s": 4.622029066085815
+}

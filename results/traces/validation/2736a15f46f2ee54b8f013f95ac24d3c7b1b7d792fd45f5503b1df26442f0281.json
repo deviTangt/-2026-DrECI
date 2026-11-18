@@ -1,0 +1,60 @@
+{
+  "input_hash": "2736a15f46f2ee54b8f013f95ac24d3c7b1b7d792fd45f5503b1df26442f0281",
+  "sample_id": "ESC-CSV-02078",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da41a28889162b9370510ac9a78d040067f177716f053c9206a1c2fbc635d141",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da41a28889162b9370510ac9a78d040067f177716f053c9206a1c2fbc635d141",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4fb5b024b544f61ad41b8e46c19fd438f8192932a7d6d2c4db20c9fcff83e0d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c56f2fee2d039bf9f16e1d630ef4b61c6606853b18bd51f68dd5f0104a34a603",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "edc116eaa2a91243549f7f72a2615c47ff885932c24561726ce3b8e25c27e115",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Suspect\",\"Troy\",\"Mich\",\"company\",\"Gunman\"],\"target_related\":[\"Gunman\",\"kills\",\"accounting\",\"office\"],\"mediators\":[\"Gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "bf953532de92cf43f60d82a9ad1cccb21b415ac5fffe35e2a759fd5b290f64b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Suspect was fired by the company; the gunman (Z) then kills 1 and wounds 2 at the accounting office, forming chain fired->gunman->wounds.\"}"
+    }
+  },
+  "call_ids": [
+    "da41a28889162b9370510ac9a78d040067f177716f053c9206a1c2fbc635d141",
+    "da41a28889162b9370510ac9a78d040067f177716f053c9206a1c2fbc635d141",
+    "4fb5b024b544f61ad41b8e46c19fd438f8192932a7d6d2c4db20c9fcff83e0d6",
+    "c56f2fee2d039bf9f16e1d630ef4b61c6606853b18bd51f68dd5f0104a34a603",
+    "edc116eaa2a91243549f7f72a2615c47ff885932c24561726ce3b8e25c27e115",
+    "bf953532de92cf43f60d82a9ad1cccb21b415ac5fffe35e2a759fd5b290f64b1"
+  ],
+  "elapsed_s": 4.392525911331177
+}

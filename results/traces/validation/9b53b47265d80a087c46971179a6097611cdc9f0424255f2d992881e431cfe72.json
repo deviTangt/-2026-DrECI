@@ -1,0 +1,63 @@
+{
+  "input_hash": "9b53b47265d80a087c46971179a6097611cdc9f0424255f2d992881e431cfe72",
+  "sample_id": "ESC-CSV-07173",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "booked",
+    "released",
+    "bail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a313ef49495f4324e728371bc782cfe5759e0c9b5389dbc1cf42602c83d0a9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a313ef49495f4324e728371bc782cfe5759e0c9b5389dbc1cf42602c83d0a9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a62d6fe7c8062cc05e1af3525e43095c0023424b6f7c0cbee92c988ebf95867b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b1c8874b2b27494c74fe7edf295ccf26f01e3046422f1816345c12cd75d6a116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0cdca14df24cd4ea7948fe127babd436bf065fcee8bd5a55427e34cc58693262",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers\",\"DUI\",\"booked\",\"released\",\"bail\"],\"target_related\":[\"Jamal Williams\",\"County jail\",\"booked\",\"released\",\"bail\"],\"mediators\":[\"Jamal Williams\",\"booked\",\"released\",\"bail\"]}"
+    },
+    "indirect": {
+      "call_id": "47de7d8c430772a72dd6b549f53bd3dd1509f23fa3b32402b1763cacc7997468",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested for DUI commonly leads to being taken to jail; arrest precedes and causes the transport.\"}"
+    }
+  },
+  "call_ids": [
+    "0a313ef49495f4324e728371bc782cfe5759e0c9b5389dbc1cf42602c83d0a9d",
+    "0a313ef49495f4324e728371bc782cfe5759e0c9b5389dbc1cf42602c83d0a9d",
+    "a62d6fe7c8062cc05e1af3525e43095c0023424b6f7c0cbee92c988ebf95867b",
+    "b1c8874b2b27494c74fe7edf295ccf26f01e3046422f1816345c12cd75d6a116",
+    "0cdca14df24cd4ea7948fe127babd436bf065fcee8bd5a55427e34cc58693262",
+    "47de7d8c430772a72dd6b549f53bd3dd1509f23fa3b32402b1763cacc7997468"
+  ],
+  "elapsed_s": 4.142589569091797
+}

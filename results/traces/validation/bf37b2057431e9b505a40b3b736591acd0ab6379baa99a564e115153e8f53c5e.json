@@ -1,0 +1,65 @@
+{
+  "input_hash": "bf37b2057431e9b505a40b3b736591acd0ab6379baa99a564e115153e8f53c5e",
+  "sample_id": "ESC-CSV-02008",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "man",
+    "office",
+    "shotgun",
+    "Monday",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "691e8120f1a484a9d157bd69677a3812a5ee82077f4622a6c15c088b22bf972f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "691e8120f1a484a9d157bd69677a3812a5ee82077f4622a6c15c088b22bf972f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bd0ee193e4f130a2d6e259c9cb62716b485511fbbafeb0006954eca8d6fe086a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7cf634f20aee34257a9f23e154aa6b60f9794d693b63a5633359ba00c6f0ce0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3369341292f54a7832462865b2b50e6bb1ada980aca635aa87acc56be96dc593",
+      "status": "ok",
+      "text": "{\"source_related\":[\"woman\",\"men\",\"people\",\"police\",\"man\",\"office\",\"shotgun\",\"Monday\",\"authorities\"],\"target_related\":[\"people\",\"man\",\"office\",\"shotgun\",\"Monday\",\"authorities\"],\"mediators\":[\"people\",\"man\",\"office\",\"shotgun\",\"Monday\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "1d5e734302624dad8e08f72b4beb3d8137bd4485cfcdd2932db8233a52589089",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people occurred before and caused the killing of one; common sense: shooting can cause death.\"}"
+    }
+  },
+  "call_ids": [
+    "691e8120f1a484a9d157bd69677a3812a5ee82077f4622a6c15c088b22bf972f",
+    "691e8120f1a484a9d157bd69677a3812a5ee82077f4622a6c15c088b22bf972f",
+    "bd0ee193e4f130a2d6e259c9cb62716b485511fbbafeb0006954eca8d6fe086a",
+    "7cf634f20aee34257a9f23e154aa6b60f9794d693b63a5633359ba00c6f0ce0c",
+    "3369341292f54a7832462865b2b50e6bb1ada980aca635aa87acc56be96dc593",
+    "1d5e734302624dad8e08f72b4beb3d8137bd4485cfcdd2932db8233a52589089"
+  ],
+  "elapsed_s": 5.701006650924683
+}

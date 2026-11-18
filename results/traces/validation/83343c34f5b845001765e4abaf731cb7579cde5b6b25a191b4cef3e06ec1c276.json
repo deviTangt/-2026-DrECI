@@ -1,0 +1,69 @@
+{
+  "input_hash": "83343c34f5b845001765e4abaf731cb7579cde5b6b25a191b4cef3e06ec1c276",
+  "sample_id": "ESC-CSV-01719",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "apartment",
+    "East 223rd Street",
+    "defendant",
+    "Sheriff",
+    "detectives",
+    "prosecutors",
+    "Crimes Against Police Officers Section",
+    "CAPOS",
+    "Cooley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4a08646af204f45d5c7c93ffaa31055255415bf41b4f9cb01a30ff84c54894d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4a08646af204f45d5c7c93ffaa31055255415bf41b4f9cb01a30ff84c54894d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0e81eb81a31120d7c5bc39e68124a295de7bc2ed5227284aa0269144e8581221",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "20052601aa9420a088122eaafc46f1659e71382c0c2c792d536958d28dc62a67",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e3c70982ea4d25645b5f018ffc5493335c57ed1c4a584a93d5bdb64a96abf751",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"defendant\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Cooley\"],\"target_related\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"defendant\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Cooley\"],\"mediators\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"defendant\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Cooley\"]}"
+    },
+    "indirect": {
+      "call_id": "516518cf735b6bf5d80c23a51c0aaaf48da5f7fec6a179517d5858aa6d8b3e46",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot to death directly causes death; shooting precedes and causes being killed by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4a08646af204f45d5c7c93ffaa31055255415bf41b4f9cb01a30ff84c54894d6",
+    "4a08646af204f45d5c7c93ffaa31055255415bf41b4f9cb01a30ff84c54894d6",
+    "0e81eb81a31120d7c5bc39e68124a295de7bc2ed5227284aa0269144e8581221",
+    "20052601aa9420a088122eaafc46f1659e71382c0c2c792d536958d28dc62a67",
+    "e3c70982ea4d25645b5f018ffc5493335c57ed1c4a584a93d5bdb64a96abf751",
+    "516518cf735b6bf5d80c23a51c0aaaf48da5f7fec6a179517d5858aa6d8b3e46"
+  ],
+  "elapsed_s": 4.729897737503052
+}

@@ -1,0 +1,67 @@
+{
+  "input_hash": "638f2808d2238d1dc13c215d82fed8d4e4d064c48e49513771f605cc138e7918",
+  "sample_id": "ESC-CSV-04536",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "raiders",
+    "ploughed",
+    "vehicle",
+    "boutique",
+    "Paris",
+    "Monday",
+    "dawn",
+    "loot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aeca0153d10b1ce3a96ca522f14b9000cc3e540fbc4f23acffebec75d9016b24",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aeca0153d10b1ce3a96ca522f14b9000cc3e540fbc4f23acffebec75d9016b24",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "be85d0ba654dab5069a5693acb6a2ebb1aab880667383cfd7a1dedf9b605742d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e183927b66732cf338d35e2908e5b15116d9e6ff8a63043e59df44e8f666c142",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3c09ba69fda15c629ef6413c3c1aaa12cfc7491f4e580bb13bf7bd7e79fa81e3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"Monday\",\"dawn\",\"loot\"],\"target_related\":[\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"Monday\",\"dawn\",\"loot\"],\"mediators\":[\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"Monday\",\"dawn\",\"loot\"]}"
+    },
+    "indirect": {
+      "call_id": "8ca65c64abdc5e13cf64bffd497ad2bddb69f9e3d39ac37a75bcb48728fc4c33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Making off with loot is the act of taking stolen goods during the robbery; the robbery precedes and enables the making off, so X follows from Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "aeca0153d10b1ce3a96ca522f14b9000cc3e540fbc4f23acffebec75d9016b24",
+    "aeca0153d10b1ce3a96ca522f14b9000cc3e540fbc4f23acffebec75d9016b24",
+    "be85d0ba654dab5069a5693acb6a2ebb1aab880667383cfd7a1dedf9b605742d",
+    "e183927b66732cf338d35e2908e5b15116d9e6ff8a63043e59df44e8f666c142",
+    "3c09ba69fda15c629ef6413c3c1aaa12cfc7491f4e580bb13bf7bd7e79fa81e3",
+    "8ca65c64abdc5e13cf64bffd497ad2bddb69f9e3d39ac37a75bcb48728fc4c33"
+  ],
+  "elapsed_s": 4.671532154083252
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "7f3ee56de749ba453258fcca066695d1a683e9c4124c043d4951d2047e985396",
+  "sample_id": "ESC-CSV-02891",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bb3a61dc1d0c1b013eecb1b6dd49d026b128b7f0ed453a89c466c5964bfedeb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bb3a61dc1d0c1b013eecb1b6dd49d026b128b7f0ed453a89c466c5964bfedeb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e73dbdb7e4507f871f4c7ef0659283396982706c1fa14bf68ad80ae2ef256d5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cf59b060d883ab5d6b1342c28e703b128cc110e7f5d4044e0c5a5a960ff274bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "71f92e71cea3e5d5db70c76f26d67b348cd053104ebf043d90866e7b1f84045e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"Brooklyn\",\"Teen\",\"Fatal\",\"death\"],\"target_related\":[\"crowd\",\"gathered\",\"mourn\",\"police\",\"treatment\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "e3639dfd44493e644b02a798928ad0a533280b0c40d38a4dc4aca258723b800e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fatal police shooting of a teen precedes and prompts the crowd to gather and protest police treatment, fitting common-sense cause and effect.\"}"
+    }
+  },
+  "call_ids": [
+    "bb3a61dc1d0c1b013eecb1b6dd49d026b128b7f0ed453a89c466c5964bfedeb6",
+    "bb3a61dc1d0c1b013eecb1b6dd49d026b128b7f0ed453a89c466c5964bfedeb6",
+    "e73dbdb7e4507f871f4c7ef0659283396982706c1fa14bf68ad80ae2ef256d5a",
+    "cf59b060d883ab5d6b1342c28e703b128cc110e7f5d4044e0c5a5a960ff274bb",
+    "71f92e71cea3e5d5db70c76f26d67b348cd053104ebf043d90866e7b1f84045e",
+    "e3639dfd44493e644b02a798928ad0a533280b0c40d38a4dc4aca258723b800e"
+  ],
+  "elapsed_s": 4.297315359115601
+}

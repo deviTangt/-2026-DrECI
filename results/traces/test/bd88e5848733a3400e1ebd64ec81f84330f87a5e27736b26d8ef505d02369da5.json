@@ -1,0 +1,69 @@
+{
+  "input_hash": "bd88e5848733a3400e1ebd64ec81f84330f87a5e27736b26d8ef505d02369da5",
+  "sample_id": "ESC-CSV-06910",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "gang member",
+    "mother of 12",
+    "sprayed",
+    "bullets",
+    "Brooklyn rooftop",
+    "broad daylight",
+    "guilty",
+    "claiming the life"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "322d901fa4f3bfe9e402747d357752373d6dfe320f911230bfac7c394cae1e13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "322d901fa4f3bfe9e402747d357752373d6dfe320f911230bfac7c394cae1e13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bd031ce982db49926f73bd2ae737c538cce6f90fbe22543d2db3d3c6acf0277e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "276ba37f7b88cda9c8fa1109bc3373f8acb695982b0d50b6316b8c10287fa9d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f8c2448efe758e3b73abe76b616f19b02ee84d5c404d0ebf5982ec8bfbf4441",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"gang member\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\",\"guilty\",\"convicted\",\"claiming the life\"],\"target_related\":[\"Andrew Lopez\",\"gang member\",\"murder\",\"guilty\",\"Zurana Horton\",\"claiming the life\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"gang member\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\",\"broad daylight\",\"guilty\",\"claiming the life\"]}"
+    },
+    "indirect": {
+      "call_id": "acc0656ac19e6ec656478fbc0b6a29c673edf56fc12105090a8b44cd8c7eb6c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'convicted Tuesday for claiming the life' — 'for' links the murder to the conviction; murder precedes and causes conviction by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "322d901fa4f3bfe9e402747d357752373d6dfe320f911230bfac7c394cae1e13",
+    "322d901fa4f3bfe9e402747d357752373d6dfe320f911230bfac7c394cae1e13",
+    "bd031ce982db49926f73bd2ae737c538cce6f90fbe22543d2db3d3c6acf0277e",
+    "276ba37f7b88cda9c8fa1109bc3373f8acb695982b0d50b6316b8c10287fa9d9",
+    "6f8c2448efe758e3b73abe76b616f19b02ee84d5c404d0ebf5982ec8bfbf4441",
+    "acc0656ac19e6ec656478fbc0b6a29c673edf56fc12105090a8b44cd8c7eb6c1"
+  ],
+  "elapsed_s": 5.655273914337158
+}

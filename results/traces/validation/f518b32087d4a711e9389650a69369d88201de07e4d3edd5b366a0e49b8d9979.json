@@ -1,0 +1,74 @@
+{
+  "input_hash": "f518b32087d4a711e9389650a69369d88201de07e4d3edd5b366a0e49b8d9979",
+  "sample_id": "ESC-CSV-02226",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "person",
+    "injured",
+    "two",
+    "others",
+    "Monday",
+    "suburban",
+    "Detroit",
+    "accounting",
+    "firm",
+    "fired",
+    "last",
+    "week",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "03a001c066df37e2ba5dc741edaaebb2baa9a948ba9732e2842cdca17b53369e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "03a001c066df37e2ba5dc741edaaebb2baa9a948ba9732e2842cdca17b53369e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c0d9603062c1aa3660739f77e6f300eef4da9febe2921b9fc1e1b0ba9335570a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "99256ba4f6e00cfd9aa7b2f9560ed16f5b0c62dbba2459178fcea4e9042531f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "26272147e0ede6e0b8e5b4c3242bf8dadbc89c0bb937f6ac1875f5daa766dff0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"person\",\"injured\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"],\"target_related\":[\"Michigan\",\"man\",\"person\",\"injured\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"],\"mediators\":[\"Michigan\",\"man\",\"person\",\"injured\",\"two\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "47e33671e8084724f1d7661906f8d3129e8d4bcd1a4ce428f36558a3c9bd06ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone to death directly causes death; the shot precedes and produces the death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "03a001c066df37e2ba5dc741edaaebb2baa9a948ba9732e2842cdca17b53369e",
+    "03a001c066df37e2ba5dc741edaaebb2baa9a948ba9732e2842cdca17b53369e",
+    "c0d9603062c1aa3660739f77e6f300eef4da9febe2921b9fc1e1b0ba9335570a",
+    "99256ba4f6e00cfd9aa7b2f9560ed16f5b0c62dbba2459178fcea4e9042531f0",
+    "26272147e0ede6e0b8e5b4c3242bf8dadbc89c0bb937f6ac1875f5daa766dff0",
+    "47e33671e8084724f1d7661906f8d3129e8d4bcd1a4ce428f36558a3c9bd06ac"
+  ],
+  "elapsed_s": 8.082237005233765
+}

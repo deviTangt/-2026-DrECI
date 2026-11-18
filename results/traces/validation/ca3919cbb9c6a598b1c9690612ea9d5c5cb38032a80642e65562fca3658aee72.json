@@ -1,0 +1,67 @@
+{
+  "input_hash": "ca3919cbb9c6a598b1c9690612ea9d5c5cb38032a80642e65562fca3658aee72",
+  "sample_id": "ESC-CSV-02398",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "killing",
+    "Troy",
+    "Michigan",
+    "Office",
+    "Shooting",
+    "Suspect",
+    "Caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "32dd773bfce9ca8d6e88d863a776ffae8cd01f89accdabd45f604d8d08e020bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "32dd773bfce9ca8d6e88d863a776ffae8cd01f89accdabd45f604d8d08e020bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ee67defa9fc40021806e2e295d85597e65ccf791ed0884485b2b5b88ce88a290",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aaaded649a93565613a3896f2a981cb4ff393efc0be40d230778b4fb07cdd4c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "52df459c4fd3690fe6066b8d603282c9350b768f87e4861235a187a35490b2f5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"killing\",\"fired\",\"arrested\",\"chase\",\"Monday\",\"morning\",\"authorities\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Suspect\",\"Caught\"],\"target_related\":[\"shooting\",\"killing\",\"Dead\",\"Suspect\",\"Caught\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\"],\"mediators\":[\"shooting\",\"killing\",\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Suspect\",\"Caught\"]}"
+    },
+    "indirect": {
+      "call_id": "4a519463635e97ecbb32eed834b1af14a9033107be8f6554294bf885f5160332",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The attack (shooting) occurred before and caused the injuries; common sense: shooting people injures them.\"}"
+    }
+  },
+  "call_ids": [
+    "32dd773bfce9ca8d6e88d863a776ffae8cd01f89accdabd45f604d8d08e020bd",
+    "32dd773bfce9ca8d6e88d863a776ffae8cd01f89accdabd45f604d8d08e020bd",
+    "ee67defa9fc40021806e2e295d85597e65ccf791ed0884485b2b5b88ce88a290",
+    "aaaded649a93565613a3896f2a981cb4ff393efc0be40d230778b4fb07cdd4c2",
+    "52df459c4fd3690fe6066b8d603282c9350b768f87e4861235a187a35490b2f5",
+    "4a519463635e97ecbb32eed834b1af14a9033107be8f6554294bf885f5160332"
+  ],
+  "elapsed_s": 16.289581775665283
+}

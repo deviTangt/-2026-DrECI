@@ -1,0 +1,70 @@
+{
+  "input_hash": "006c048e2989e95edfff9eb259ce96813e8c6ac5fabeea0bbfdf944e60ce88e9",
+  "sample_id": "ESC-CSV-09768",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police",
+    "said",
+    "people",
+    "man",
+    "women",
+    "killed",
+    "fire",
+    "bomb",
+    "bank",
+    "Greek",
+    "riots"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "58995bae1a481d3b157b2fa69ffd78092d1fb2165cc8b98bb9b7249e5d3f1ac1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "58995bae1a481d3b157b2fa69ffd78092d1fb2165cc8b98bb9b7249e5d3f1ac1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f4c2574fd085afe3def813e502c8d6676454a7d5eacc07e175576e4a859dcd8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0c64e4d8bcd3ec4f63dcc66e252c63ff99123e7970e9a374241c76298691bdf2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "67cafb390abe4928dcca7a870d51ab45ac6920433480fc85614847a282002500",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"killed\",\"fire\",\"bomb\",\"bank\",\"Greek\",\"riots\"],\"target_related\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"killed\",\"fire\",\"bomb\",\"bank\",\"Greek\",\"riots\"],\"mediators\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"killed\",\"fire\",\"bomb\",\"bank\",\"Greek\",\"riots\"]}"
+    },
+    "indirect": {
+      "call_id": "3e19b39e779a9e0aa41751bf3bcd48cb75067168a48be8616745c97dc676772f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed in the fire-bomb attack' — 'by'/'in' links attack to deaths; attack before death follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "58995bae1a481d3b157b2fa69ffd78092d1fb2165cc8b98bb9b7249e5d3f1ac1",
+    "58995bae1a481d3b157b2fa69ffd78092d1fb2165cc8b98bb9b7249e5d3f1ac1",
+    "f4c2574fd085afe3def813e502c8d6676454a7d5eacc07e175576e4a859dcd8c",
+    "0c64e4d8bcd3ec4f63dcc66e252c63ff99123e7970e9a374241c76298691bdf2",
+    "67cafb390abe4928dcca7a870d51ab45ac6920433480fc85614847a282002500",
+    "3e19b39e779a9e0aa41751bf3bcd48cb75067168a48be8616745c97dc676772f"
+  ],
+  "elapsed_s": 4.795514822006226
+}

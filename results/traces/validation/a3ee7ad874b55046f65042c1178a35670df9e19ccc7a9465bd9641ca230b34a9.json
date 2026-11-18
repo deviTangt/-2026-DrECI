@@ -1,0 +1,64 @@
+{
+  "input_hash": "a3ee7ad874b55046f65042c1178a35670df9e19ccc7a9465bd9641ca230b34a9",
+  "sample_id": "ESC-CSV-02684",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "projectiles",
+    "cops",
+    "streets",
+    "East Flatbush",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "77a58b58802931dd98d5c30a3a4d01e369fefaca90f73f7668838d4206fdd2e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "77a58b58802931dd98d5c30a3a4d01e369fefaca90f73f7668838d4206fdd2e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a5854bd92b2ce7b0a7744a0f5f4c192f310f76c463674b20db5e23bc1b0fa2cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "52e260c0f8626741506d467210972e9dd10f30b43c7cead18ecf1cad22f739dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "232635d4cded85486d143e072ea450ab26cda63203cefb54946deb38b8fb1433",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anger\",\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\",\"streets\",\"East Flatbush\",\"Monday\",\"projectiles\",\"cops\",\"car windows\",\"smashed\",\"pharmacy customer\",\"bottle\",\"bashed\",\"head\"],\"target_related\":[\"projectiles\",\"cops\",\"riot\",\"streets\",\"East Flatbush\",\"Monday\"],\"mediators\":[\"projectiles\",\"cops\",\"streets\",\"East Flatbush\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "15a7e719033ca5078fd0aadb8e3095fa93e585a03de714b3a67a8d7be4c83647",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death fueled a riot; the riot then involved projectiles being hurled at cops, implying the riot provoked the hurling.\"}"
+    }
+  },
+  "call_ids": [
+    "77a58b58802931dd98d5c30a3a4d01e369fefaca90f73f7668838d4206fdd2e8",
+    "77a58b58802931dd98d5c30a3a4d01e369fefaca90f73f7668838d4206fdd2e8",
+    "a5854bd92b2ce7b0a7744a0f5f4c192f310f76c463674b20db5e23bc1b0fa2cb",
+    "52e260c0f8626741506d467210972e9dd10f30b43c7cead18ecf1cad22f739dc",
+    "232635d4cded85486d143e072ea450ab26cda63203cefb54946deb38b8fb1433",
+    "15a7e719033ca5078fd0aadb8e3095fa93e585a03de714b3a67a8d7be4c83647"
+  ],
+  "elapsed_s": 5.249071359634399
+}

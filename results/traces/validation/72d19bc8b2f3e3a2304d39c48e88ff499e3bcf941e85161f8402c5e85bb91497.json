@@ -1,0 +1,68 @@
+{
+  "input_hash": "72d19bc8b2f3e3a2304d39c48e88ff499e3bcf941e85161f8402c5e85bb91497",
+  "sample_id": "ESC-CSV-02503",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Gray",
+    "police",
+    "gun",
+    "Sgt",
+    "Mourad",
+    "Officer",
+    "Jovaniel",
+    "Cordova",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ac3d1fb7d9d02e460e6210a1077e17861ef874f7f0ea0e209e7e3e0ecea60bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ac3d1fb7d9d02e460e6210a1077e17861ef874f7f0ea0e209e7e3e0ecea60bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b070dd2a7e737ffa3133524e62604bafe533ebd93cb8336aa59053e139152b69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9739f323595e8da5b9bc04ab214333988eaefaf541da00abb0449d30c8628029",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "9234fef3456130a657d444bde0e414b57a01b5c2d935213b8e9951d7821e7dca",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"police\",\"gun\",\"Sgt\",\"Mourad\",\"Officer\",\"Jovaniel\",\"Cordova\",\"fire\"],\"target_related\":[\"Gray\",\"police\",\"gun\",\"Sgt\",\"Mourad\",\"Officer\",\"Jovaniel\",\"Cordova\",\"fire\"],\"mediators\":[\"Gray\",\"police\",\"gun\",\"Sgt\",\"Mourad\",\"Officer\",\"Jovaniel\",\"Cordova\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "f451b572cfca1edf95d1f04086cbd4d2d457350747a3928a22ece5ed8aa1b470",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"X and Y are the same event (Gray was killed); no causal relation between identical events.\"}"
+    }
+  },
+  "call_ids": [
+    "0ac3d1fb7d9d02e460e6210a1077e17861ef874f7f0ea0e209e7e3e0ecea60bb",
+    "0ac3d1fb7d9d02e460e6210a1077e17861ef874f7f0ea0e209e7e3e0ecea60bb",
+    "b070dd2a7e737ffa3133524e62604bafe533ebd93cb8336aa59053e139152b69",
+    "9739f323595e8da5b9bc04ab214333988eaefaf541da00abb0449d30c8628029",
+    "9234fef3456130a657d444bde0e414b57a01b5c2d935213b8e9951d7821e7dca",
+    "f451b572cfca1edf95d1f04086cbd4d2d457350747a3928a22ece5ed8aa1b470"
+  ],
+  "elapsed_s": 7.487148761749268
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "f1cb5d6889f3c75b5fb668725d65438e5aef56efe85952d1c50097e092162e19",
+  "sample_id": "ESC-CSV-07135",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "71b49dbba95f874713092964c06c9d2f8cd7361cd9c45852f5333606efc3ccfb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "71b49dbba95f874713092964c06c9d2f8cd7361cd9c45852f5333606efc3ccfb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8756b91ea05c9f9b6b090b541fd37d5cc99673ad8837e1fd4ea1221920651288",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dbaafa29be8f77cc4f3e4dd386836bb4b4746eaff408492c9d15fd7e42fcefe0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "58a62d2a9bc2ba29160b4c1e806d43183fa816ac0500eaa0d1a7c5bfe525387f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"DUI\",\"suspicion\",\"Chargers\"],\"target_related\":[\"Williams\",\"county jail\",\"bail\",\"released\"],\"mediators\":[\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "a8670e118abb214d0d439d12e3d4898d7498a5b4d0a1bb30b79ea8eb8cbe57f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested on suspicion of DUI precedes and leads to being booked into county jail, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "71b49dbba95f874713092964c06c9d2f8cd7361cd9c45852f5333606efc3ccfb",
+    "71b49dbba95f874713092964c06c9d2f8cd7361cd9c45852f5333606efc3ccfb",
+    "8756b91ea05c9f9b6b090b541fd37d5cc99673ad8837e1fd4ea1221920651288",
+    "dbaafa29be8f77cc4f3e4dd386836bb4b4746eaff408492c9d15fd7e42fcefe0",
+    "58a62d2a9bc2ba29160b4c1e806d43183fa816ac0500eaa0d1a7c5bfe525387f",
+    "a8670e118abb214d0d439d12e3d4898d7498a5b4d0a1bb30b79ea8eb8cbe57f1"
+  ],
+  "elapsed_s": 4.3428826332092285
+}

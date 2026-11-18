@@ -1,0 +1,64 @@
+{
+  "input_hash": "eead90d46d3951079ae7611acfa7cd97a1e9f8a67add51b03582e70ba7d81b99",
+  "sample_id": "ESC-CSV-04007",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "climber",
+    "mountain",
+    "New Zealand",
+    "ridge",
+    "national park"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d5734d31233a5ad25ad707c8f2cecce24aacceabd68821eda923ebf39e24f116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d5734d31233a5ad25ad707c8f2cecce24aacceabd68821eda923ebf39e24f116",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "602e31b03fad75845a74bb6539431f18789a0541f11f112e8776517f57d0193b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "784fe477a25d5019b515ff9b484e323c8aefa1328a731a9ee987ddc8df3e3830",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b920d3a020461d0ed563d5f411929b50dd381fd8634bac2278a7731c2c3d139b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climber\",\"mountain\",\"New Zealand\",\"slipped\",\"fell\",\"ridge\",\"national park\"],\"target_related\":[\"climber\",\"Mr Buckley\",\"Duncan Raite\",\"mountain\",\"New Zealand\",\"ridge\",\"national park\"],\"mediators\":[\"climber\",\"mountain\",\"New Zealand\",\"ridge\",\"national park\"]}"
+    },
+    "indirect": {
+      "call_id": "01d548120d1b56814d248467266700730c81047a608521053d5eb1ca9269689f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says climber 'dies after falling' and Raite 'died when he slipped and fell', explicitly linking falling to death; common sense also supports falling causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "d5734d31233a5ad25ad707c8f2cecce24aacceabd68821eda923ebf39e24f116",
+    "d5734d31233a5ad25ad707c8f2cecce24aacceabd68821eda923ebf39e24f116",
+    "602e31b03fad75845a74bb6539431f18789a0541f11f112e8776517f57d0193b",
+    "784fe477a25d5019b515ff9b484e323c8aefa1328a731a9ee987ddc8df3e3830",
+    "b920d3a020461d0ed563d5f411929b50dd381fd8634bac2278a7731c2c3d139b",
+    "01d548120d1b56814d248467266700730c81047a608521053d5eb1ca9269689f"
+  ],
+  "elapsed_s": 4.678400039672852
+}

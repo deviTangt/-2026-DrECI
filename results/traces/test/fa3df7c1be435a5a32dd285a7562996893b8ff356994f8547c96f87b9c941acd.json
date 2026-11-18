@@ -1,0 +1,68 @@
+{
+  "input_hash": "fa3df7c1be435a5a32dd285a7562996893b8ff356994f8547c96f87b9c941acd",
+  "sample_id": "ESC-CSV-09269",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank",
+    "flames",
+    "Wednesday",
+    "Greeks",
+    "protest",
+    "spending",
+    "cuts",
+    "bankruptcy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9c79378f255c3ba6b28ae9b4626bb9e237378029abc345e7baf92d7881a47d42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9c79378f255c3ba6b28ae9b4626bb9e237378029abc345e7baf92d7881a47d42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1f05edb4aa93475b82ec9b56de272165ff6a518ab6783478545db0f9ce1ec6d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8352a829c919c416a432374b36c10e33b56f6ac7a124408d7b167fec4dab8334",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2c5145692353040d6cb727e9e0a96dc9ccec063370f56b938f6a1016ba4a0841",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"bank\",\"Greeks\",\"streets\",\"protest\",\"spending\",\"cuts\",\"bankruptcy\",\"flames\",\"Wednesday\"],\"target_related\":[\"people\",\"Athens\",\"bank\",\"flames\",\"Wednesday\",\"Greeks\",\"protest\",\"spending\",\"cuts\",\"bankruptcy\"],\"mediators\":[\"Athens\",\"bank\",\"flames\",\"Wednesday\",\"Greeks\",\"protest\",\"spending\",\"cuts\",\"bankruptcy\"]}"
+    },
+    "indirect": {
+      "call_id": "6e0a3acff39c033b45303fe7abb93d95979c9cc0657dd261a34ac1cb4e3ab755",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The riot/protest occurred before the bank fire and deaths; common sense holds that rioting led to the fatal fire.\"}"
+    }
+  },
+  "call_ids": [
+    "9c79378f255c3ba6b28ae9b4626bb9e237378029abc345e7baf92d7881a47d42",
+    "9c79378f255c3ba6b28ae9b4626bb9e237378029abc345e7baf92d7881a47d42",
+    "1f05edb4aa93475b82ec9b56de272165ff6a518ab6783478545db0f9ce1ec6d3",
+    "8352a829c919c416a432374b36c10e33b56f6ac7a124408d7b167fec4dab8334",
+    "2c5145692353040d6cb727e9e0a96dc9ccec063370f56b938f6a1016ba4a0841",
+    "6e0a3acff39c033b45303fe7abb93d95979c9cc0657dd261a34ac1cb4e3ab755"
+  ],
+  "elapsed_s": 4.748119115829468
+}

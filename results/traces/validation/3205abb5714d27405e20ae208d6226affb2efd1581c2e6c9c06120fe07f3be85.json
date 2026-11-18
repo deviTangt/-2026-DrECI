@@ -1,0 +1,62 @@
+{
+  "input_hash": "3205abb5714d27405e20ae208d6226affb2efd1581c2e6c9c06120fe07f3be85",
+  "sample_id": "ESC-CSV-01594",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "deputy",
+    "officer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "01cdfed5195c86383cd00d840b3795b8c5656121ffc2b869e47d1f5c60342553",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "01cdfed5195c86383cd00d840b3795b8c5656121ffc2b869e47d1f5c60342553",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "91ba8bb0b159d871841c8862b90860273a1cd1765e71c7313419ba6c3741ffd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "14c83edc7f1e28f7d32ea695e24e1f608a67fca96e99026c355e75bbfb7b8ba5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d619f467128ff4618c3f7cb1c6773984e32ec90bd7c4b0da8b9089aff147715",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"shot\",\"fatally\",\"deputy\",\"officer\"],\"target_related\":[\"gunman\",\"handgun\",\"shot\",\"deputy\",\"officer\"],\"mediators\":[\"shot\",\"deputy\",\"officer\"]}"
+    },
+    "indirect": {
+      "call_id": "24b11cb2220430ab26c384bae31942f4e4a4562db02a8784fe2a2b42a7fe0b94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The gunman 'fired' at the officer, and Ortiz 'probably died instantly' — the firing caused the death; 'when' links the shooting to the fatal outcome.\"}"
+    }
+  },
+  "call_ids": [
+    "01cdfed5195c86383cd00d840b3795b8c5656121ffc2b869e47d1f5c60342553",
+    "01cdfed5195c86383cd00d840b3795b8c5656121ffc2b869e47d1f5c60342553",
+    "91ba8bb0b159d871841c8862b90860273a1cd1765e71c7313419ba6c3741ffd0",
+    "14c83edc7f1e28f7d32ea695e24e1f608a67fca96e99026c355e75bbfb7b8ba5",
+    "6d619f467128ff4618c3f7cb1c6773984e32ec90bd7c4b0da8b9089aff147715",
+    "24b11cb2220430ab26c384bae31942f4e4a4562db02a8784fe2a2b42a7fe0b94"
+  ],
+  "elapsed_s": 5.821712493896484
+}

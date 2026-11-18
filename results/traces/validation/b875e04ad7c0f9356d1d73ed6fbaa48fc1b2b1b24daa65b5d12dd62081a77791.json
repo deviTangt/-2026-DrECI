@@ -1,0 +1,65 @@
+{
+  "input_hash": "b875e04ad7c0f9356d1d73ed6fbaa48fc1b2b1b24daa65b5d12dd62081a77791",
+  "sample_id": "ESC-CSV-01727",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "District Attorney Steve Cooley",
+    "capital murder charges",
+    "Hawaiian Gardens gang member",
+    "gunning down",
+    "Deputy Luis Gerardo ( Jerry ) Ortiz",
+    "Cooley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dd0a0172ab3a8066cf08f8b4a64ff7eb39f116df69813ff7408e2129fbc0315e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dd0a0172ab3a8066cf08f8b4a64ff7eb39f116df69813ff7408e2129fbc0315e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c823a71cfe416d8babe71e4960c1a6242fe6d1818f1df017161093228c53a556",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "899f2e56e7b1e0c0cc6693948bcb72c293f4a516e4141a0ea7a94bc989f08e94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "caddf40eeb91077274228495eac4fbe93f2cbca6c606afb5bb73916e7adc7c4a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"defendant\",\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"Deputy Ortiz\",\"killed\",\"Cooley\",\"District Attorney Steve Cooley\",\"capital murder charges\",\"Hawaiian Gardens gang member\",\"gunning down\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\"],\"target_related\":[\"District Attorney Steve Cooley\",\"capital murder charges\",\"Hawaiian Gardens gang member\",\"accused\",\"gunning down\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"murder\",\"Cooley\"],\"mediators\":[\"District Attorney Steve Cooley\",\"capital murder charges\",\"Hawaiian Gardens gang member\",\"gunning down\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"Cooley\"]}"
+    },
+    "indirect": {
+      "call_id": "f58da26884c09f69624e20df8ed1c1b12c0bc8ea163be57ccbedc35ea198b5d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The murder (killing of Deputy Ortiz) occurred before capital murder charges were filed against the accused gang member, so the murder led to the filing.\"}"
+    }
+  },
+  "call_ids": [
+    "dd0a0172ab3a8066cf08f8b4a64ff7eb39f116df69813ff7408e2129fbc0315e",
+    "dd0a0172ab3a8066cf08f8b4a64ff7eb39f116df69813ff7408e2129fbc0315e",
+    "c823a71cfe416d8babe71e4960c1a6242fe6d1818f1df017161093228c53a556",
+    "899f2e56e7b1e0c0cc6693948bcb72c293f4a516e4141a0ea7a94bc989f08e94",
+    "caddf40eeb91077274228495eac4fbe93f2cbca6c606afb5bb73916e7adc7c4a",
+    "f58da26884c09f69624e20df8ed1c1b12c0bc8ea163be57ccbedc35ea198b5d8"
+  ],
+  "elapsed_s": 6.849733829498291
+}

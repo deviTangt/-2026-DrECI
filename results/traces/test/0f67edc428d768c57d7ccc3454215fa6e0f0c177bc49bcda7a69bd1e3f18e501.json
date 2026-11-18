@@ -1,0 +1,67 @@
+{
+  "input_hash": "0f67edc428d768c57d7ccc3454215fa6e0f0c177bc49bcda7a69bd1e3f18e501",
+  "sample_id": "ESC-CSV-06383",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton",
+    "pushes",
+    "child",
+    "grips",
+    "chest",
+    "collapses",
+    "ground",
+    "blood"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c5aa87f56656bac331c927c86bff04f603365fd30c97918c46a325f62cde98c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c5aa87f56656bac331c927c86bff04f603365fd30c97918c46a325f62cde98c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "07df9330ca8c7fd0af67cc0a59503489baeccf7ec8333cf5d6e25491150ebb55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cda12821d84495f2dfb200c2871c552671873c03a5dd5bb4c8c77b8485bc3c1c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "73f395a626c8f675ebcb79518e29433bafc236c0d4516951a161ee2171bec021",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"killed\",\"Brooklyn\",\"mother\",\"daughter\",\"school\",\"Horton\",\"pushes\",\"child\",\"grips\",\"chest\",\"collapses\",\"ground\",\"blood\"],\"target_related\":[\"Horton\",\"pushes\",\"child\",\"grips\",\"chest\",\"collapses\",\"ground\",\"blood\"],\"mediators\":[\"Horton\",\"pushes\",\"child\",\"grips\",\"chest\",\"collapses\",\"ground\",\"blood\"]}"
+    },
+    "indirect": {
+      "call_id": "9a72cd1d4ffa48a09d4f7e87788b215457cda6eeca14d4b4f66c31022d290719",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shootout is the background event; Horton pushes a child out of the way. No explicit or implicit causal wording links the shootout to the pushing.\"}"
+    }
+  },
+  "call_ids": [
+    "c5aa87f56656bac331c927c86bff04f603365fd30c97918c46a325f62cde98c2",
+    "c5aa87f56656bac331c927c86bff04f603365fd30c97918c46a325f62cde98c2",
+    "07df9330ca8c7fd0af67cc0a59503489baeccf7ec8333cf5d6e25491150ebb55",
+    "cda12821d84495f2dfb200c2871c552671873c03a5dd5bb4c8c77b8485bc3c1c",
+    "73f395a626c8f675ebcb79518e29433bafc236c0d4516951a161ee2171bec021",
+    "9a72cd1d4ffa48a09d4f7e87788b215457cda6eeca14d4b4f66c31022d290719"
+  ],
+  "elapsed_s": 4.608022689819336
+}

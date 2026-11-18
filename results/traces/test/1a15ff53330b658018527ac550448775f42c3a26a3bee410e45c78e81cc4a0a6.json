@@ -1,0 +1,65 @@
+{
+  "input_hash": "1a15ff53330b658018527ac550448775f42c3a26a3bee410e45c78e81cc4a0a6",
+  "sample_id": "ESC-CSV-09223",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "petrol bombs",
+    "bank",
+    "Athens",
+    "Wednesday",
+    "anti-austerity",
+    "march"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "421eb7c2a6efefa36e90c63295b0e990fe840bbb489db30243928f0f9aa6b649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "421eb7c2a6efefa36e90c63295b0e990fe840bbb489db30243928f0f9aa6b649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0ce3c16f93fd7d99ed76a85cade7b27fed3fc3ab858681e28e762a7a4cc0b4cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3047e0a426c9fcb421718b8dd8e009545df5b1c4447f23bcffb3f0d9087a3026",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dd82b261f19f63562473c2679b9d21722c810d6eebabd932298a5ff380baeee1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"threw\",\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"anti-austerity\",\"march\"],\"target_related\":[\"killed\",\"dead\",\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"anti-austerity\",\"march\"],\"mediators\":[\"petrol bombs\",\"bank\",\"Athens\",\"Wednesday\",\"anti-austerity\",\"march\"]}"
+    },
+    "indirect": {
+      "call_id": "13fa0bf055676c33716ee88464523f746c0265e4e681da5cc18a3506fbd9ee1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Protesting Greeks 'threw petrol bombs' causing deaths; 'march erupts in violence' shows protest led to violence.\"}"
+    }
+  },
+  "call_ids": [
+    "421eb7c2a6efefa36e90c63295b0e990fe840bbb489db30243928f0f9aa6b649",
+    "421eb7c2a6efefa36e90c63295b0e990fe840bbb489db30243928f0f9aa6b649",
+    "0ce3c16f93fd7d99ed76a85cade7b27fed3fc3ab858681e28e762a7a4cc0b4cb",
+    "3047e0a426c9fcb421718b8dd8e009545df5b1c4447f23bcffb3f0d9087a3026",
+    "dd82b261f19f63562473c2679b9d21722c810d6eebabd932298a5ff380baeee1",
+    "13fa0bf055676c33716ee88464523f746c0265e4e681da5cc18a3506fbd9ee1d"
+  ],
+  "elapsed_s": 5.562740087509155
+}

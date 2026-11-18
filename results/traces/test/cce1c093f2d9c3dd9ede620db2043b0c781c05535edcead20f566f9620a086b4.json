@@ -1,0 +1,61 @@
+{
+  "input_hash": "cce1c093f2d9c3dd9ede620db2043b0c781c05535edcead20f566f9620a086b4",
+  "sample_id": "ESC-CSV-06519",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "students"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cae6955b385bf4e32f63f4248a79ee45d33407ca815dae6c85934752ec275e15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cae6955b385bf4e32f63f4248a79ee45d33407ca815dae6c85934752ec275e15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5db96fb894eec69e3889c9fd5f9cc88f49360ff1b7abfb70c47aef21e4c46184",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "acb9bbe0fe4f1b1c71dda1603f0b3da0d3cb59640ced050bb0db1f127f53831a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "093063746f0a1fc74923765ed92ec4ac7a50a37392e13e232f119eb1be024e7b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"students\"],\"target_related\":[\"Horton\",\"students\"],\"mediators\":[\"Horton\",\"students\"]}"
+    },
+    "indirect": {
+      "call_id": "b7fff43f693862ab2a83bb5b89fa8a1122a04d79d61fb413ce2a13be065918ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Dying while trying to shield students implies the shielding act led to his death; common sense supports shield causes died.\"}"
+    }
+  },
+  "call_ids": [
+    "cae6955b385bf4e32f63f4248a79ee45d33407ca815dae6c85934752ec275e15",
+    "cae6955b385bf4e32f63f4248a79ee45d33407ca815dae6c85934752ec275e15",
+    "5db96fb894eec69e3889c9fd5f9cc88f49360ff1b7abfb70c47aef21e4c46184",
+    "acb9bbe0fe4f1b1c71dda1603f0b3da0d3cb59640ced050bb0db1f127f53831a",
+    "093063746f0a1fc74923765ed92ec4ac7a50a37392e13e232f119eb1be024e7b",
+    "b7fff43f693862ab2a83bb5b89fa8a1122a04d79d61fb413ce2a13be065918ac"
+  ],
+  "elapsed_s": 5.630284309387207
+}

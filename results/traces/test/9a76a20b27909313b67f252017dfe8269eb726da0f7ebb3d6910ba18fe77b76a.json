@@ -1,0 +1,67 @@
+{
+  "input_hash": "9a76a20b27909313b67f252017dfe8269eb726da0f7ebb3d6910ba18fe77b76a",
+  "sample_id": "ESC-CSV-04635",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "£1",
+    "7m",
+    "upmarket",
+    "central",
+    "Paris",
+    "shop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "95d5ed86a58f39f1cfa7414293696e96bc3b8977f889a06437d723abaf056794",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "95d5ed86a58f39f1cfa7414293696e96bc3b8977f889a06437d723abaf056794",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0c31e8b6ec9c48fa5d70ec0ee55a2e7ff16c056b45c26fc7b2c773bd12bbb5e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a61a619dc1a469eeb4d14446685d524451d2d32a33bc0a062e0f091fc8e7e8a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "79f17d5ac0dc8b00b9215019bb14579d833bcd1120972d8c2fd0c02d1464e0f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"upmarket\",\"central\",\"Paris\",\"shop\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"upmarket\",\"central\",\"Paris\",\"shop\"],\"mediators\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"upmarket\",\"central\",\"Paris\",\"shop\"]}"
+    },
+    "indirect": {
+      "call_id": "2e7909efdea2e4e20e05efefdefbbcc761f7c35bb1c3c882e277f2cdcc833b0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'have been stolen during a heist' — 'during' links the theft to the heist; common sense: a heist causes items to be stolen.\"}"
+    }
+  },
+  "call_ids": [
+    "95d5ed86a58f39f1cfa7414293696e96bc3b8977f889a06437d723abaf056794",
+    "95d5ed86a58f39f1cfa7414293696e96bc3b8977f889a06437d723abaf056794",
+    "0c31e8b6ec9c48fa5d70ec0ee55a2e7ff16c056b45c26fc7b2c773bd12bbb5e9",
+    "a61a619dc1a469eeb4d14446685d524451d2d32a33bc0a062e0f091fc8e7e8a5",
+    "79f17d5ac0dc8b00b9215019bb14579d833bcd1120972d8c2fd0c02d1464e0f6",
+    "2e7909efdea2e4e20e05efefdefbbcc761f7c35bb1c3c882e277f2cdcc833b0c"
+  ],
+  "elapsed_s": 5.228954076766968
+}

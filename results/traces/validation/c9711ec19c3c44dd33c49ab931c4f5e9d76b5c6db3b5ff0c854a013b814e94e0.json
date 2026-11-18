@@ -1,0 +1,64 @@
+{
+  "input_hash": "c9711ec19c3c44dd33c49ab931c4f5e9d76b5c6db3b5ff0c854a013b814e94e0",
+  "sample_id": "ESC-CSV-02999",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "NYPD",
+    "cops",
+    "shot",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8d898224ebee8c85202d26d095411f66a91426b6be428cb772084bb116c29596",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8d898224ebee8c85202d26d095411f66a91426b6be428cb772084bb116c29596",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "549bdfac3ddf939a2f5db55758a6af8a491331ea4f9a21839f24ac0b2956978e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "71480cc0f05dfec752e2353a2e37b81efa89651a42012ab0b87cd3395cdf93e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fc0fc8f4e85731b6288054e56b3f50b2982d02db93fceca346104e73b1cd7f10",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chaos\",\"Brooklyn\",\"teenagers\",\"streets\",\"NYPD\",\"cops\",\"shot\",\"dead\"],\"target_related\":[\"16\",\"year\",\"old\",\"shot\",\"dead\",\"NYPD\",\"cops\",\"Brooklyn\"],\"mediators\":[\"Brooklyn\",\"NYPD\",\"cops\",\"shot\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "143645b4314f04bd7bb3f95578fe9f9d6379a2286f242f242e0a6469e3b0d9f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"The riot occurred 'following vigil,' implying the vigil provoked or sparked the riot; 'following' signals the vigil led to the chaos.\"}"
+    }
+  },
+  "call_ids": [
+    "8d898224ebee8c85202d26d095411f66a91426b6be428cb772084bb116c29596",
+    "8d898224ebee8c85202d26d095411f66a91426b6be428cb772084bb116c29596",
+    "549bdfac3ddf939a2f5db55758a6af8a491331ea4f9a21839f24ac0b2956978e",
+    "71480cc0f05dfec752e2353a2e37b81efa89651a42012ab0b87cd3395cdf93e9",
+    "fc0fc8f4e85731b6288054e56b3f50b2982d02db93fceca346104e73b1cd7f10",
+    "143645b4314f04bd7bb3f95578fe9f9d6379a2286f242f242e0a6469e3b0d9f9"
+  ],
+  "elapsed_s": 4.87000846862793
+}

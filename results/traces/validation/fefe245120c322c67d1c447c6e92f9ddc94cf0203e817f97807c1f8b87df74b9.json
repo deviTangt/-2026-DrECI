@@ -1,0 +1,63 @@
+{
+  "input_hash": "fefe245120c322c67d1c447c6e92f9ddc94cf0203e817f97807c1f8b87df74b9",
+  "sample_id": "ESC-CSV-02506",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Gray",
+    "police",
+    "Mourad",
+    "Cordova"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "195573367c21467ae9e1b9e7931137389818c5d2ba4b41894f90568baa0f5d28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "195573367c21467ae9e1b9e7931137389818c5d2ba4b41894f90568baa0f5d28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9de327f0690427ec3bd042bbe6e7bac462b4c69c1c3b0e5b18542611e0b6b5e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bcd23c5b3a988731a843672f2fa6a1bc7a3b7aabaab45a2c298c7fca32ca0922",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "00db906c9749980bf0560eda5490cdd51f7952502942b28385bbb78247fc1f48",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"gun\",\"Sgt\",\"Mourad Mourad\",\"Officer Jovaniel Cordova\",\"police\"],\"target_related\":[\"Gray\",\"killed\",\"police\",\"Mourad\",\"Cordova\"],\"mediators\":[\"Gray\",\"police\",\"Mourad\",\"Cordova\"]}"
+    },
+    "indirect": {
+      "call_id": "dd6b9a1a04ffd10dab912ad2412dc0a5fbca0e5aacedb0b0f0c8423eb8e00a38",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Gray was killed by police who claim he pointed a gun before they opened fire; pointing preceded and prompted the shooting, causing death.\"}"
+    }
+  },
+  "call_ids": [
+    "195573367c21467ae9e1b9e7931137389818c5d2ba4b41894f90568baa0f5d28",
+    "195573367c21467ae9e1b9e7931137389818c5d2ba4b41894f90568baa0f5d28",
+    "9de327f0690427ec3bd042bbe6e7bac462b4c69c1c3b0e5b18542611e0b6b5e8",
+    "bcd23c5b3a988731a843672f2fa6a1bc7a3b7aabaab45a2c298c7fca32ca0922",
+    "00db906c9749980bf0560eda5490cdd51f7952502942b28385bbb78247fc1f48",
+    "dd6b9a1a04ffd10dab912ad2412dc0a5fbca0e5aacedb0b0f0c8423eb8e00a38"
+  ],
+  "elapsed_s": 7.367110013961792
+}

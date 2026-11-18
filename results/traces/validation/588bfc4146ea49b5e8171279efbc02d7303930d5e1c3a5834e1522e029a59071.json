@@ -1,0 +1,65 @@
+{
+  "input_hash": "588bfc4146ea49b5e8171279efbc02d7303930d5e1c3a5834e1522e029a59071",
+  "sample_id": "ESC-CSV-02595",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "cops",
+    "Brooklyn",
+    "streets",
+    "Kimani Gray",
+    "shot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "abeb3e1a9b01ab5ecca462f3fc30755a759cdecc4170b4c6c805a8f941103a64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "abeb3e1a9b01ab5ecca462f3fc30755a759cdecc4170b4c6c805a8f941103a64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "45cb71647ab0f82d88887d8e27a1f65cd65d41e82687f23666774cc4b8aa3ac8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "66091e31d0d59a14019609ba376d444a1074a1c3e7d072a6745c66c28e050f9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "672862d79424402874fb2c4096ace65df3626d61c1fdc6ee7b933fe8c0af471a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"fatal shooting\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"cops\",\"Kimani Gray\",\"shot\"],\"target_related\":[\"Protesters\",\"cops\",\"Brooklyn\",\"streets\",\"Kimani Gray\",\"shot\"],\"mediators\":[\"Protesters\",\"cops\",\"Brooklyn\",\"streets\",\"Kimani Gray\",\"shot\"]}"
+    },
+    "indirect": {
+      "call_id": "712e08e9c7fe2beed8ecfde0a3a39fac2d32a33d569750488f4d4bd59f840bee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Protesters 'enraged' over the shooting 'poured into Brooklyn streets... pitching bricks... during third night of rioting'; enraged protesters battle cops during rioting—anger fuels rioting.\"}"
+    }
+  },
+  "call_ids": [
+    "abeb3e1a9b01ab5ecca462f3fc30755a759cdecc4170b4c6c805a8f941103a64",
+    "abeb3e1a9b01ab5ecca462f3fc30755a759cdecc4170b4c6c805a8f941103a64",
+    "45cb71647ab0f82d88887d8e27a1f65cd65d41e82687f23666774cc4b8aa3ac8",
+    "66091e31d0d59a14019609ba376d444a1074a1c3e7d072a6745c66c28e050f9a",
+    "672862d79424402874fb2c4096ace65df3626d61c1fdc6ee7b933fe8c0af471a",
+    "712e08e9c7fe2beed8ecfde0a3a39fac2d32a33d569750488f4d4bd59f840bee"
+  ],
+  "elapsed_s": 9.897435188293457
+}

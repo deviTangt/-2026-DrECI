@@ -1,0 +1,62 @@
+{
+  "input_hash": "0f81a4d0634389b53bb6dac723cffa22e67a00399bcf7f849f461e84fe416b03",
+  "sample_id": "ESC-CSV-09290",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9f09667da5d901c5bc7b110d6b3bec12ef071c800b68bf8cd7f7063fc9f2bd54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9f09667da5d901c5bc7b110d6b3bec12ef071c800b68bf8cd7f7063fc9f2bd54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bde3c39c213c7c8c9f4b669d65ffe2047792170a90619a064c7cc1ffdc0b3dba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "71cdac293789edac9799c155464d8781d941680848ea6f43bbf3d12c3df6486a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "da645b4a51252d4f4a4b6bbeeea12e1b11c54edb7db36d8d8f384b369586f792",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"austerity\",\"measures\",\"Greeks\",\"protest\",\"bankruptcy\",\"country\"],\"target_related\":[\"Greeks\",\"streets\",\"Athens\",\"austerity\",\"measures\",\"bank\",\"building\",\"torched\"],\"mediators\":[\"Greeks\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "2a86ff3caa88a9bfa77a81ad73e75b97b57f075ef0091d0b47dfabfe02312432",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3],\"evidence\":\"Protests were 'against harsh new austerity measures' and 'aimed at' spending cuts; 'aimed at' and 'against' link cuts to protests, and cuts precede protests by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "9f09667da5d901c5bc7b110d6b3bec12ef071c800b68bf8cd7f7063fc9f2bd54",
+    "9f09667da5d901c5bc7b110d6b3bec12ef071c800b68bf8cd7f7063fc9f2bd54",
+    "bde3c39c213c7c8c9f4b669d65ffe2047792170a90619a064c7cc1ffdc0b3dba",
+    "71cdac293789edac9799c155464d8781d941680848ea6f43bbf3d12c3df6486a",
+    "da645b4a51252d4f4a4b6bbeeea12e1b11c54edb7db36d8d8f384b369586f792",
+    "2a86ff3caa88a9bfa77a81ad73e75b97b57f075ef0091d0b47dfabfe02312432"
+  ],
+  "elapsed_s": 5.40985631942749
+}

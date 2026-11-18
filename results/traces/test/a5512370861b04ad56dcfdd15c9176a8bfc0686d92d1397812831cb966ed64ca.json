@@ -1,0 +1,65 @@
+{
+  "input_hash": "a5512370861b04ad56dcfdd15c9176a8bfc0686d92d1397812831cb966ed64ca",
+  "sample_id": "ESC-CSV-04015",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "man",
+    "killed",
+    "2,000ft",
+    "New Zealand",
+    "Climber"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "83ad4d800179df73e696cc09761c51651665336b1141d659b58d5bbc98b5c892",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "83ad4d800179df73e696cc09761c51651665336b1141d659b58d5bbc98b5c892",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d838e49c6d6002906f4fee686ad7ef4e8a0323d8bde6f6604c4f463aeeefbeba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c53c14bf26f92656ea9d03d1501f1612ba2bce222405a4d4d8199283db7b513b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a4528fb78a5949eb71394cfd9f1712aea47a17a10330526ad916dfcc869fd88d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"man\",\"killed\",\"falling\",\"2,000ft\",\"New Zealand\",\"Climber\"],\"target_related\":[\"British\",\"man\",\"killed\",\"climbing\",\"2,000ft\",\"New Zealand\",\"Climber\"],\"mediators\":[\"British\",\"man\",\"killed\",\"2,000ft\",\"New Zealand\",\"Climber\"]}"
+    },
+    "indirect": {
+      "call_id": "23930d1f0973aec1719437ad93ed0b73a51daf54534f71f50739c2600cdd065e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed after falling ... while climbing' — 'after' and 'while' link climbing to the fall; common sense: climbing precedes and causes the fall.\"}"
+    }
+  },
+  "call_ids": [
+    "83ad4d800179df73e696cc09761c51651665336b1141d659b58d5bbc98b5c892",
+    "83ad4d800179df73e696cc09761c51651665336b1141d659b58d5bbc98b5c892",
+    "d838e49c6d6002906f4fee686ad7ef4e8a0323d8bde6f6604c4f463aeeefbeba",
+    "c53c14bf26f92656ea9d03d1501f1612ba2bce222405a4d4d8199283db7b513b",
+    "a4528fb78a5949eb71394cfd9f1712aea47a17a10330526ad916dfcc869fd88d",
+    "23930d1f0973aec1719437ad93ed0b73a51daf54534f71f50739c2600cdd065e"
+  ],
+  "elapsed_s": 4.137438535690308
+}

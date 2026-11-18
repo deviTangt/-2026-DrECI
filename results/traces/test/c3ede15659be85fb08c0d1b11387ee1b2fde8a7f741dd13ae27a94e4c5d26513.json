@@ -1,0 +1,63 @@
+{
+  "input_hash": "c3ede15659be85fb08c0d1b11387ee1b2fde8a7f741dd13ae27a94e4c5d26513",
+  "sample_id": "ESC-CSV-04324",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry",
+    "watches",
+    "store",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "07475f98aebf344e16e5e8bc670cdcfa843af099215f600dc2a5472cbe316ffb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "07475f98aebf344e16e5e8bc670cdcfa843af099215f600dc2a5472cbe316ffb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2f0c9d4dfbd7f3258f0b31620df69023280c678cf1c07e3a0f14099245091f9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "590d2f8f158f1e7ed841489431f6e309648f808d2431815070b32495ba5932cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "29a559aa817749767f7eb87848b3e10054a1b22070d8bcb058c81941f7166148",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewelry\",\"watches\",\"police\"],\"target_related\":[\"jewelry\",\"watches\",\"store\",\"Paris\",\"police\"],\"mediators\":[\"jewelry\",\"watches\",\"store\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "e2e603df33e031485be728918237cdba3501ae0e0b06212ec8342fa9a59c9e9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove a car into the store, enabling them to grab jewelry and watches; driving into the store precedes and causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "07475f98aebf344e16e5e8bc670cdcfa843af099215f600dc2a5472cbe316ffb",
+    "07475f98aebf344e16e5e8bc670cdcfa843af099215f600dc2a5472cbe316ffb",
+    "2f0c9d4dfbd7f3258f0b31620df69023280c678cf1c07e3a0f14099245091f9a",
+    "590d2f8f158f1e7ed841489431f6e309648f808d2431815070b32495ba5932cb",
+    "29a559aa817749767f7eb87848b3e10054a1b22070d8bcb058c81941f7166148",
+    "e2e603df33e031485be728918237cdba3501ae0e0b06212ec8342fa9a59c9e9d"
+  ],
+  "elapsed_s": 5.724212646484375
+}

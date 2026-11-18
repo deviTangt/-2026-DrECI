@@ -1,0 +1,61 @@
+{
+  "input_hash": "9d402d424b07e5b1d590e7864a3bc34505f876e752a0647218d74d5978e63c13",
+  "sample_id": "ESC-CSV-09283",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1a74c96eed5c61a463a66279327718a4dc3a8c7ca6b926f8598c92181683c0bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1a74c96eed5c61a463a66279327718a4dc3a8c7ca6b926f8598c92181683c0bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e20f01ff4ba30c0b91728df2ca57ecf8f7d7cb5dfe970c7d0e8eb1d81ecf93ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "62b782f331d1dac6a63f71b3aaa7e644a461472d8d91f1de6eb38a55981fdacc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "17904b40fbc689131cb7fa2eaf06fa491463533be88b766e7d03c5a64892a589",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"bank\",\"Wednesday\"],\"target_related\":[\"people\",\"Three\"],\"mediators\":[\"Athens\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "5cefde69764151bf95e9fdbb0456fcb1cf02bf9edb7fc0543bfe6058da45842b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died when an Athens bank went up in flames' — 'when' links the fire as cause; common sense: fire caused deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "1a74c96eed5c61a463a66279327718a4dc3a8c7ca6b926f8598c92181683c0bc",
+    "1a74c96eed5c61a463a66279327718a4dc3a8c7ca6b926f8598c92181683c0bc",
+    "e20f01ff4ba30c0b91728df2ca57ecf8f7d7cb5dfe970c7d0e8eb1d81ecf93ed",
+    "62b782f331d1dac6a63f71b3aaa7e644a461472d8d91f1de6eb38a55981fdacc",
+    "17904b40fbc689131cb7fa2eaf06fa491463533be88b766e7d03c5a64892a589",
+    "5cefde69764151bf95e9fdbb0456fcb1cf02bf9edb7fc0543bfe6058da45842b"
+  ],
+  "elapsed_s": 4.453840017318726
+}

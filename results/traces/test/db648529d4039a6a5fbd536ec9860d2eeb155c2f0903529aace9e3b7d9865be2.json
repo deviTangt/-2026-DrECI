@@ -1,0 +1,69 @@
+{
+  "input_hash": "db648529d4039a6a5fbd536ec9860d2eeb155c2f0903529aace9e3b7d9865be2",
+  "sample_id": "ESC-CSV-09751",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "barricades",
+    "torched",
+    "cars",
+    "fire truck",
+    "Firefighters",
+    "blazes",
+    "buildings",
+    "bank",
+    "Finance Ministry"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9bf02f247279fc81135a32bbbfe4de5d75ed4175195ce11f3f29009c02edf763",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9bf02f247279fc81135a32bbbfe4de5d75ed4175195ce11f3f29009c02edf763",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6ae8c587cecae417d5819eec164685c1f809c3252530c3fe7937b4063743be02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "03a040cf3984cbc0d5a722335302f3541c31e46ce9345edad0b2ea1a6d7ed20f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "943e49d3146e8c58cd7cb2a62a888a97f408d13154fb892de87b3c26665f4cd1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"torched\",\"cars\",\"fire truck\",\"barricades\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"Finance Ministry\"],\"target_related\":[\"protesters\",\"barricades\",\"torched\",\"cars\",\"fire truck\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"Finance Ministry\"],\"mediators\":[\"protesters\",\"barricades\",\"torched\",\"cars\",\"fire truck\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"Finance Ministry\"]}"
+    },
+    "indirect": {
+      "call_id": "4ad0753a057796b217adfec017bfc203b7d835671c620bd860ac91a7cb86d37d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Riots (protesters) led to burning barricades, torched cars and fire truck; protesters set up burning barricades, a chain from riots to burning.\"}"
+    }
+  },
+  "call_ids": [
+    "9bf02f247279fc81135a32bbbfe4de5d75ed4175195ce11f3f29009c02edf763",
+    "9bf02f247279fc81135a32bbbfe4de5d75ed4175195ce11f3f29009c02edf763",
+    "6ae8c587cecae417d5819eec164685c1f809c3252530c3fe7937b4063743be02",
+    "03a040cf3984cbc0d5a722335302f3541c31e46ce9345edad0b2ea1a6d7ed20f",
+    "943e49d3146e8c58cd7cb2a62a888a97f408d13154fb892de87b3c26665f4cd1",
+    "4ad0753a057796b217adfec017bfc203b7d835671c620bd860ac91a7cb86d37d"
+  ],
+  "elapsed_s": 5.883227825164795
+}

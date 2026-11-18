@@ -1,0 +1,61 @@
+{
+  "input_hash": "ad7e43f1fba51babace61408b47a0b805bb94a9ce5aa279417236c490d26280c",
+  "sample_id": "ESC-CSV-06675",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Horton",
+    "victim"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8dbd28fffb6b78603252d93f2dab74154c0fca683c877acc388289e126b2cd55",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8dbd28fffb6b78603252d93f2dab74154c0fca683c877acc388289e126b2cd55",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "23e30133de88cfcdbee1632e195e1e226eab75fc9470d8dd21ca869b995fca24",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a53e18dcc3a8d2e100e04f091dc90eeb59696663b5ad0b26cdad1a60bd8c993",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "87aae84f1d65dcd0629a87005034ff8d2cc45c890fa41ff61993faec0db7e2ed",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"victims\",\"injured\",\"crossfire\",\"murder\",\"trial\",\"Lopez\",\"Carrasquillo\"],\"target_related\":[\"gang\",\"Brooklyn\",\"senseless\",\"victim\",\"Horton\",\"plagues\"],\"mediators\":[\"Horton\",\"victim\"]}"
+    },
+    "indirect": {
+      "call_id": "bf0fa936bcaf2540f808d79b4bcea6c4a21ccf4f7341ab82fced9d5dcd19922b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Gang violence (Y) led to Horton being killed (X); Horton is the victim linking the violence to the killing, forming a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "8dbd28fffb6b78603252d93f2dab74154c0fca683c877acc388289e126b2cd55",
+    "8dbd28fffb6b78603252d93f2dab74154c0fca683c877acc388289e126b2cd55",
+    "23e30133de88cfcdbee1632e195e1e226eab75fc9470d8dd21ca869b995fca24",
+    "0a53e18dcc3a8d2e100e04f091dc90eeb59696663b5ad0b26cdad1a60bd8c993",
+    "87aae84f1d65dcd0629a87005034ff8d2cc45c890fa41ff61993faec0db7e2ed",
+    "bf0fa936bcaf2540f808d79b4bcea6c4a21ccf4f7341ab82fced9d5dcd19922b"
+  ],
+  "elapsed_s": 4.249023914337158
+}

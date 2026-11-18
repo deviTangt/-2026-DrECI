@@ -1,0 +1,76 @@
+{
+  "input_hash": "9916ad882e3027d7ce827db3543bfe48f3ebcc0cd1ff52a656a75c775f10dd7b",
+  "sample_id": "ESC-CSV-06457",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "18-year-old",
+    "gang member",
+    "confessed",
+    "pregnant mom",
+    "died",
+    "Friday",
+    "shielded",
+    "children",
+    "bullets",
+    "ladies",
+    "sources",
+    "New York Daily News",
+    "Teen",
+    "Arrested",
+    "Hero",
+    "Brooklyn",
+    "Mom"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aa318f88532b9bf91e85c69a615cafe80b72a2b3c78a58f815693c6a3ad3bf33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aa318f88532b9bf91e85c69a615cafe80b72a2b3c78a58f815693c6a3ad3bf33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cab1365ae2e69188246ca136d6177538298a5cf9c384aeca32ff9494f7265576",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4299109b37be62cbf0868b7e22b35b2253caed8b7593431f7d8cd6343e9299c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5f676314e5ead2d13b32395fb9c49698caffe9492c66b13a7cecfd9956108aa5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"ladies\",\"sources\",\"New York Daily News\",\"Teen\",\"Arrested\",\"Hero\",\"Brooklyn\",\"Mom\"],\"target_related\":[\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"ladies\",\"sources\",\"New York Daily News\",\"Teen\",\"Arrested\",\"Hero\",\"Brooklyn\",\"Mom\"],\"mediators\":[\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"ladies\",\"sources\",\"New York Daily News\",\"Teen\",\"Arrested\",\"Hero\",\"Brooklyn\",\"Mom\"]}"
+    },
+    "indirect": {
+      "call_id": "de39ba3dd6994be3058a652ab389e19f7463cb1c9b1d1a5dbac7a23924dc8623",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing (causing death) follows from and is caused by the shooting; common sense: shooting leads to killing.\"}"
+    }
+  },
+  "call_ids": [
+    "aa318f88532b9bf91e85c69a615cafe80b72a2b3c78a58f815693c6a3ad3bf33",
+    "aa318f88532b9bf91e85c69a615cafe80b72a2b3c78a58f815693c6a3ad3bf33",
+    "cab1365ae2e69188246ca136d6177538298a5cf9c384aeca32ff9494f7265576",
+    "4299109b37be62cbf0868b7e22b35b2253caed8b7593431f7d8cd6343e9299c5",
+    "5f676314e5ead2d13b32395fb9c49698caffe9492c66b13a7cecfd9956108aa5",
+    "de39ba3dd6994be3058a652ab389e19f7463cb1c9b1d1a5dbac7a23924dc8623"
+  ],
+  "elapsed_s": 5.592867374420166
+}

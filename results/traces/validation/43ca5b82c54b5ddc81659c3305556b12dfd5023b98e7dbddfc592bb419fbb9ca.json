@@ -1,0 +1,62 @@
+{
+  "input_hash": "43ca5b82c54b5ddc81659c3305556b12dfd5023b98e7dbddfc592bb419fbb9ca",
+  "sample_id": "ESC-CSV-02898",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "protest",
+    "crowd"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ba1a19bd5c33bdb203aa776529c30909d13dc79a2259e03820c575023c2ebff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ba1a19bd5c33bdb203aa776529c30909d13dc79a2259e03820c575023c2ebff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "99348b86f74ec959fcfe49b7d298b536166baf8a236b4cfcd13ec38b99540fc2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1718cf076802db1750ee087ce9dc2d01cd07bece559db5163e597fa1b3f41dcf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3415130ab7c584454165874ba78d554443ac47a8311fd67aa1a06d7ab28042ed",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"protest\",\"mourn\",\"death\",\"crowd\"],\"target_related\":[\"NYPD\",\"Shooting\",\"Brooklyn\",\"Teen\",\"police\",\"protest\",\"crowd\"],\"mediators\":[\"police\",\"protest\",\"crowd\"]}"
+    },
+    "indirect": {
+      "call_id": "28fda26d80d3bbe5f5ebc0e1d6f4ae5cd4b40563d7139b15c5b1d684eb92da92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protest over police treatment of the teen precedes and plausibly causes the riot by the crowd.\"}"
+    }
+  },
+  "call_ids": [
+    "ba1a19bd5c33bdb203aa776529c30909d13dc79a2259e03820c575023c2ebff5",
+    "ba1a19bd5c33bdb203aa776529c30909d13dc79a2259e03820c575023c2ebff5",
+    "99348b86f74ec959fcfe49b7d298b536166baf8a236b4cfcd13ec38b99540fc2",
+    "1718cf076802db1750ee087ce9dc2d01cd07bece559db5163e597fa1b3f41dcf",
+    "3415130ab7c584454165874ba78d554443ac47a8311fd67aa1a06d7ab28042ed",
+    "28fda26d80d3bbe5f5ebc0e1d6f4ae5cd4b40563d7139b15c5b1d684eb92da92"
+  ],
+  "elapsed_s": 4.630880355834961
+}

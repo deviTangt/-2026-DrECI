@@ -1,0 +1,61 @@
+{
+  "input_hash": "d98f1b10062978fd2dbd09e44316c85066bd2e01e0dd18dd57136b33fac37238",
+  "sample_id": "ESC-CSV-02589",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6879fe1048f77d85e322cad4f71da7a9c38d0fa7a7528fb1866dffe1f51dbac9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6879fe1048f77d85e322cad4f71da7a9c38d0fa7a7528fb1866dffe1f51dbac9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "294bd5e7347c85055c37625c47bd3527a18d98f41eb0199455358e39f68e162a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8a19761899fc7e11459c904267278bf0f7c4d3ffe2c0b9415297012e70d2fc64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2481c564d34197fafb2a82faec9a535c4b5375469231d7370ca563bcd5d727c2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"crowd\",\"protesters\",\"cops\"],\"target_related\":[\"protesters\",\"cops\",\"Brooklyn\",\"streets\"],\"mediators\":[\"protesters\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "c5a3e6d1ed5e71bbbc2110fb0366520415d3f8c82626c6d5f0e5d886c693d22d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A hostile crowd breaking away and enraged protesters battling cops implies hostility precedes and drives the rioting.\"}"
+    }
+  },
+  "call_ids": [
+    "6879fe1048f77d85e322cad4f71da7a9c38d0fa7a7528fb1866dffe1f51dbac9",
+    "6879fe1048f77d85e322cad4f71da7a9c38d0fa7a7528fb1866dffe1f51dbac9",
+    "294bd5e7347c85055c37625c47bd3527a18d98f41eb0199455358e39f68e162a",
+    "8a19761899fc7e11459c904267278bf0f7c4d3ffe2c0b9415297012e70d2fc64",
+    "2481c564d34197fafb2a82faec9a535c4b5375469231d7370ca563bcd5d727c2",
+    "c5a3e6d1ed5e71bbbc2110fb0366520415d3f8c82626c6d5f0e5d886c693d22d"
+  ],
+  "elapsed_s": 10.442432403564453
+}

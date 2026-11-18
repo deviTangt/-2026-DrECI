@@ -1,0 +1,64 @@
+{
+  "input_hash": "4d796535f6b31fca785482cf8a2c292ac81060c59e55d2f65ab89c778728b98d",
+  "sample_id": "ESC-CSV-01755",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "convicted",
+    "killer",
+    "cop",
+    "laughed",
+    "hearing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6164597b20f62d96ae84cce33ef4f836e679b078a8ee47bbc023e6381674c255",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6164597b20f62d96ae84cce33ef4f836e679b078a8ee47bbc023e6381674c255",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aec811ba81162a86e68618e47bfb846ef0c669f6f9ed4b469d3993027e042b4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9cf8dbb93653d4f9e5b2f7b50acbb665ab152686d742161eb0327c006e8eeb4e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5e247e9316833ced2b388653356a00e1c2517c41e38567afc028f64966b79b07",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"convicted\",\"killer\",\"cop\",\"laughed\",\"hearing\"],\"target_related\":[\"put\",\"convicted\",\"killer\",\"cop\",\"laughed\",\"hearing\"],\"mediators\":[\"convicted\",\"killer\",\"cop\",\"laughed\",\"hearing\"]}"
+    },
+    "indirect": {
+      "call_id": "7adfd5b5585a19a8a8c88119f995d99cee17fa7aef1375562804bed93b2a859d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A jury's ruling that he be put to death: the ruling (death sentence) directly causes the death penalty outcome by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "6164597b20f62d96ae84cce33ef4f836e679b078a8ee47bbc023e6381674c255",
+    "6164597b20f62d96ae84cce33ef4f836e679b078a8ee47bbc023e6381674c255",
+    "aec811ba81162a86e68618e47bfb846ef0c669f6f9ed4b469d3993027e042b4c",
+    "9cf8dbb93653d4f9e5b2f7b50acbb665ab152686d742161eb0327c006e8eeb4e",
+    "5e247e9316833ced2b388653356a00e1c2517c41e38567afc028f64966b79b07",
+    "7adfd5b5585a19a8a8c88119f995d99cee17fa7aef1375562804bed93b2a859d"
+  ],
+  "elapsed_s": 6.027993202209473
+}

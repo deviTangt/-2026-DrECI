@@ -1,0 +1,64 @@
+{
+  "input_hash": "eaefe11e13227585970806a6a629d84cf7691f4fc55488cd891ae225610fe57b",
+  "sample_id": "ESC-CSV-02183",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Steinberg",
+    "Riva",
+    "police",
+    "shot",
+    "hip"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c46f429c687cb0348372ce6a38ecd6cab7c8bc85164bb7e02b73006701e1bffe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c46f429c687cb0348372ce6a38ecd6cab7c8bc85164bb7e02b73006701e1bffe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "424507c5347da3c92419e7cf1fc203df3edcbbe96fcddb5d137089dd63c6e6fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "acc85b0af16127cfc48e27e9620ff0a8fd6c73f2583ff6461b69cfdf83d8f875",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16a4ef769ed04dc28d2d5da9a23e79eb925aac7b05955ec0ae8865d0151bf2d2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"co - workers\",\"Steinberg\",\"Riva\",\"shot\",\"hip\",\"police\"],\"target_related\":[\"Steinberg\",\"Riva\",\"police\",\"shot\",\"hip\"],\"mediators\":[\"Steinberg\",\"Riva\",\"police\",\"shot\",\"hip\"]}"
+    },
+    "indirect": {
+      "call_id": "4905d030478339e354413fe1128be9069e0f632ff835eed2b2ec48bfcc1b0390",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (gunfire) occurs before and causes the attack; the attack is the shooting incident, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c46f429c687cb0348372ce6a38ecd6cab7c8bc85164bb7e02b73006701e1bffe",
+    "c46f429c687cb0348372ce6a38ecd6cab7c8bc85164bb7e02b73006701e1bffe",
+    "424507c5347da3c92419e7cf1fc203df3edcbbe96fcddb5d137089dd63c6e6fb",
+    "acc85b0af16127cfc48e27e9620ff0a8fd6c73f2583ff6461b69cfdf83d8f875",
+    "16a4ef769ed04dc28d2d5da9a23e79eb925aac7b05955ec0ae8865d0151bf2d2",
+    "4905d030478339e354413fe1128be9069e0f632ff835eed2b2ec48bfcc1b0390"
+  ],
+  "elapsed_s": 6.7269287109375
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "e714a96ed9f14e096d441d062cae7185e06f1c1335c06f3d8f8146e149f102bc",
+  "sample_id": "ESC-CSV-07039",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9408085afad5fae9ce19f08dbf2e8c963cbd41012d6fdd8754c415ab00a11d6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9408085afad5fae9ce19f08dbf2e8c963cbd41012d6fdd8754c415ab00a11d6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "45af15b49856405d5ffa433c050564ae2abbb3392b45ff27502f86f5977135c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6fbdc2b99d8628e80d20da78bc8782687a21c95d3a04879da11f40a360f0c8eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a93bcfeb7a802fddd940a97f10d7a1dcb542aac0ba6bd42d274dc2d53c8cba87",
+      "status": "ok",
+      "text": "{\"source_related\":[\"speeding\",\"state Route 94\",\"California Highway Patrol\",\"suspicion\"],\"target_related\":[\"Jamal Williams\",\"Chargers defensive lineman\",\"Sunday\",\"California Highway Patrol\"],\"mediators\":[\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "769adc1919999425394262264b67d426dcefb031b667cc32e534d70f4f320ab9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested ... on suspicion of drunken driving' — 'on suspicion of' links the drunken driving to the arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "9408085afad5fae9ce19f08dbf2e8c963cbd41012d6fdd8754c415ab00a11d6a",
+    "9408085afad5fae9ce19f08dbf2e8c963cbd41012d6fdd8754c415ab00a11d6a",
+    "45af15b49856405d5ffa433c050564ae2abbb3392b45ff27502f86f5977135c1",
+    "6fbdc2b99d8628e80d20da78bc8782687a21c95d3a04879da11f40a360f0c8eb",
+    "a93bcfeb7a802fddd940a97f10d7a1dcb542aac0ba6bd42d274dc2d53c8cba87",
+    "769adc1919999425394262264b67d426dcefb031b667cc32e534d70f4f320ab9"
+  ],
+  "elapsed_s": 4.010141372680664
+}

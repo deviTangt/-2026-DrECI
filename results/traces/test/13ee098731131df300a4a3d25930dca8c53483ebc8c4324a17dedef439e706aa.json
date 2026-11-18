@@ -1,0 +1,66 @@
+{
+  "input_hash": "13ee098731131df300a4a3d25930dca8c53483ebc8c4324a17dedef439e706aa",
+  "sample_id": "ESC-CSV-09627",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "taxes",
+    "spending",
+    "government",
+    "protest",
+    "people",
+    "streets",
+    "nationwide"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "52e496bac03a4a66a7fbf7f2a2f4f93ce371f70428849540f78baa12e2893ae1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "52e496bac03a4a66a7fbf7f2a2f4f93ce371f70428849540f78baa12e2893ae1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "34abf8b6219817a12a1e78fd589d57e9c54889fbbaf244eb2050780f80120738",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a046912ee95cdd2d01e1f8b3d702e33d20eb0fac368f3a217432458f647d6f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4c01bffb180222df630c72ac3f21749254efb10ef3c1dec6754330c6c863b612",
+      "status": "ok",
+      "text": "{\"source_related\":[\"taxes\",\"spending\",\"government\",\"protest\",\"strike\",\"people\",\"streets\",\"nationwide\"],\"target_related\":[\"protest\",\"taxes\",\"cuts\",\"people\",\"streets\",\"nationwide\",\"government\"],\"mediators\":[\"taxes\",\"spending\",\"government\",\"protest\",\"people\",\"streets\",\"nationwide\"]}"
+    },
+    "indirect": {
+      "call_id": "a53d5250f6a33d718f3c2752f733832652e750bb59ed336705398cd5938b3c1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spending cuts demanded by IMF/European nations prompted people to protest in a nationwide strike; cuts precede and cause the strike by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "52e496bac03a4a66a7fbf7f2a2f4f93ce371f70428849540f78baa12e2893ae1",
+    "52e496bac03a4a66a7fbf7f2a2f4f93ce371f70428849540f78baa12e2893ae1",
+    "34abf8b6219817a12a1e78fd589d57e9c54889fbbaf244eb2050780f80120738",
+    "3a046912ee95cdd2d01e1f8b3d702e33d20eb0fac368f3a217432458f647d6f7",
+    "4c01bffb180222df630c72ac3f21749254efb10ef3c1dec6754330c6c863b612",
+    "a53d5250f6a33d718f3c2752f733832652e750bb59ed336705398cd5938b3c1a"
+  ],
+  "elapsed_s": 5.4649481773376465
+}

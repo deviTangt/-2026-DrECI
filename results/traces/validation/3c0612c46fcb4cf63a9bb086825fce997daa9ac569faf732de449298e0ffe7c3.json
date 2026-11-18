@@ -1,0 +1,62 @@
+{
+  "input_hash": "3c0612c46fcb4cf63a9bb086825fce997daa9ac569faf732de449298e0ffe7c3",
+  "sample_id": "ESC-CSV-01919",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "murder",
+    "attempted murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "849e1968dd277762b31a7c76601d4ca51a974ff4ad935d61c0760e551b482555",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "849e1968dd277762b31a7c76601d4ca51a974ff4ad935d61c0760e551b482555",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f98ed12f84957fcea3b480ba8af056c2fd81dcca5cfc58d1a026452ed08890d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1de4f6c5ad7ee77bbf24da7ef86480c5f7f6231eb4b1bc568d55161510a0a64c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "361a85491caa60414c2a50e7177a25b8ae667ab0678e81bbc8eeb2839142909c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"murder\",\"Orozco\",\"handgun\",\"attempted murder\"],\"target_related\":[\"Jose Luis Orozco\",\"jury\",\"murder\",\"attempted murder\",\"firearm\",\"felon\"],\"mediators\":[\"Orozco\",\"murder\",\"attempted murder\"]}"
+    },
+    "indirect": {
+      "call_id": "a065fae0f29a22f669ba0970cb8e92857aebbad9298d83783c1b0636b27fa37b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing a police officer intentionally while performing duties is a special circumstance of murder; the jury found Orozco guilty of first-degree murder.\"}"
+    }
+  },
+  "call_ids": [
+    "849e1968dd277762b31a7c76601d4ca51a974ff4ad935d61c0760e551b482555",
+    "849e1968dd277762b31a7c76601d4ca51a974ff4ad935d61c0760e551b482555",
+    "f98ed12f84957fcea3b480ba8af056c2fd81dcca5cfc58d1a026452ed08890d5",
+    "1de4f6c5ad7ee77bbf24da7ef86480c5f7f6231eb4b1bc568d55161510a0a64c",
+    "361a85491caa60414c2a50e7177a25b8ae667ab0678e81bbc8eeb2839142909c",
+    "a065fae0f29a22f669ba0970cb8e92857aebbad9298d83783c1b0636b27fa37b"
+  ],
+  "elapsed_s": 5.599978446960449
+}

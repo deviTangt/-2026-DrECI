@@ -1,0 +1,63 @@
+{
+  "input_hash": "43daf47e36002156f43238bf694fc6102604e1ae08089b68690d0cdea481c95b",
+  "sample_id": "ESC-CSV-02985",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16-year-old",
+    "NYPD",
+    "plainclothes",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c332c158e7b34d99b9cd557da2805379c8574335d5a1ab92337a913c8cfc6787",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c332c158e7b34d99b9cd557da2805379c8574335d5a1ab92337a913c8cfc6787",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "937752251dc4e60221b1ff2e7148014060d663897c87bbcf934807f3bb04fa3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "931faac428cbbb2a14a3c13bf1a59389579750ced276a00d2a813a72462f4a04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5e07c89be1a5b837d38a651d582a7b73e11562483e18a4bceab7381139a8d860",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"plainclothes\",\"cops\",\"16-year-old\"],\"target_related\":[\"16-year-old\",\"NYPD\",\"plainclothes\",\"cops\"],\"mediators\":[\"16-year-old\",\"NYPD\",\"plainclothes\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "17f99b5435d3a6d0c7c2a8f94f936d1cb64b2225642261141324bffc5266b2d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'shot dead by' uses 'by' as an explicit causation word linking being shot to being dead.\"}"
+    }
+  },
+  "call_ids": [
+    "c332c158e7b34d99b9cd557da2805379c8574335d5a1ab92337a913c8cfc6787",
+    "c332c158e7b34d99b9cd557da2805379c8574335d5a1ab92337a913c8cfc6787",
+    "937752251dc4e60221b1ff2e7148014060d663897c87bbcf934807f3bb04fa3d",
+    "931faac428cbbb2a14a3c13bf1a59389579750ced276a00d2a813a72462f4a04",
+    "5e07c89be1a5b837d38a651d582a7b73e11562483e18a4bceab7381139a8d860",
+    "17f99b5435d3a6d0c7c2a8f94f936d1cb64b2225642261141324bffc5266b2d7"
+  ],
+  "elapsed_s": 3.7830495834350586
+}

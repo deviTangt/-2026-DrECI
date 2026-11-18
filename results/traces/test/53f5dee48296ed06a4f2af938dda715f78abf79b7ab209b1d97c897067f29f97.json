@@ -1,0 +1,61 @@
+{
+  "input_hash": "53f5dee48296ed06a4f2af938dda715f78abf79b7ab209b1d97c897067f29f97",
+  "sample_id": "ESC-CSV-09563",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "petrol bomb",
+    "petrol bombs"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "32e96c8ba667732dac888c78c7c2c4ea2f83f5442a90530ee9331f949601e52c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "32e96c8ba667732dac888c78c7c2c4ea2f83f5442a90530ee9331f949601e52c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b79c3aa989809d2b256dcf02fb3ca06599b2f98726aa933d31b28f264a7393f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "adb72b19e2e4c6fece8fe3c60e9a938b6a75a052b910e131e154c59794d9335b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "54ce062151e5646c3a5aa985ceaf1fb6345aa6e6f8a6719efc8f216aadf4ac5b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"storm\",\"parliament\",\"threw\",\"petrol bombs\",\"police\",\"torched\",\"buildings\",\"austerity measures\",\"raise taxes\",\"bailout\"],\"target_related\":[\"petrol bomb\",\"Athens\",\"Marfin Investment Bank\",\"killed\",\"two women\",\"a man\",\"caught\"],\"mediators\":[\"petrol bomb\",\"petrol bombs\"]}"
+    },
+    "indirect": {
+      "call_id": "6943f85957392defc6f52d4c902dd05e935c2d4c9d265592496c1e89d1a64175",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters threw petrol bombs (Z) during the protest (X); a petrol bomb hurled at the bank caused the inferno (Y), forming X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "32e96c8ba667732dac888c78c7c2c4ea2f83f5442a90530ee9331f949601e52c",
+    "32e96c8ba667732dac888c78c7c2c4ea2f83f5442a90530ee9331f949601e52c",
+    "b79c3aa989809d2b256dcf02fb3ca06599b2f98726aa933d31b28f264a7393f8",
+    "adb72b19e2e4c6fece8fe3c60e9a938b6a75a052b910e131e154c59794d9335b",
+    "54ce062151e5646c3a5aa985ceaf1fb6345aa6e6f8a6719efc8f216aadf4ac5b",
+    "6943f85957392defc6f52d4c902dd05e935c2d4c9d265592496c1e89d1a64175"
+  ],
+  "elapsed_s": 4.086287021636963
+}

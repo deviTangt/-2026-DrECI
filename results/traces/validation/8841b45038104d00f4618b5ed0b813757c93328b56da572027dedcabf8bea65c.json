@@ -1,0 +1,60 @@
+{
+  "input_hash": "8841b45038104d00f4618b5ed0b813757c93328b56da572027dedcabf8bea65c",
+  "sample_id": "ESC-CSV-01691",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7254ec827674e3606b37aef617abe32c622844c1fa1130656db7ec1f825251ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7254ec827674e3606b37aef617abe32c622844c1fa1130656db7ec1f825251ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "44a26afc257cd73d7f1ff2876d5613bda79af2f50b28e6d2a41558745a6098e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2b9c8ef62be4524c63ba4cdcac3ed2f3542ddfe147f33513387152971a6ce4ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "50fbc88899146ecb088bfc6fa37fa008c6a1779b19f9b28d41701229ec2cc6a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"killer\",\"head\",\"ground\",\"apartment\",\"East 223rd Street\"],\"target_related\":[\"killer\",\"ran away\"],\"mediators\":[\"killer\"]}"
+    },
+    "indirect": {
+      "call_id": "bf70766dc9aef22a0757726c42859039851925786891e383e73d03a9656a4bf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot and left dying enabled the killer to run away and try to hide; the shooting precedes and causes the hiding.\"}"
+    }
+  },
+  "call_ids": [
+    "7254ec827674e3606b37aef617abe32c622844c1fa1130656db7ec1f825251ca",
+    "7254ec827674e3606b37aef617abe32c622844c1fa1130656db7ec1f825251ca",
+    "44a26afc257cd73d7f1ff2876d5613bda79af2f50b28e6d2a41558745a6098e8",
+    "2b9c8ef62be4524c63ba4cdcac3ed2f3542ddfe147f33513387152971a6ce4ed",
+    "50fbc88899146ecb088bfc6fa37fa008c6a1779b19f9b28d41701229ec2cc6a3",
+    "bf70766dc9aef22a0757726c42859039851925786891e383e73d03a9656a4bf4"
+  ],
+  "elapsed_s": 5.2334043979644775
+}

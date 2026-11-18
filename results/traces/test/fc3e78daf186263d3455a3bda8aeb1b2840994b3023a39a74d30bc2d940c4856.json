@@ -1,0 +1,60 @@
+{
+  "input_hash": "fc3e78daf186263d3455a3bda8aeb1b2840994b3023a39a74d30bc2d940c4856",
+  "sample_id": "ESC-CSV-09666",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f18554d19ce907130f42c3ce3d14c6480cda7017ffdd709e78953a3685e7c35e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f18554d19ce907130f42c3ce3d14c6480cda7017ffdd709e78953a3685e7c35e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ddceafd23bfa866c28374bc1cb86c91db637790d4cba2531c7ac44b46adbf0e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "54fffb75f5ec850e9b2763cf3a94a6d9b60318eb23f5ea7470517d504d779c01",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6ec882315c1cb568e23ba96b7f5504d13dcb56af5f7f79ea2f64da047877c8ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"ceremonial guards\",\"Tomb of the Unknown Soldier\",\"Parliament\",\"riot police cordon\",\"building\"],\"target_related\":[\"Police\",\"tear gas\",\"barrages\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "e1b8eeffed0b3aad7c8707a99a403716ac4bf32c99565d8006d35848c29b36a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Demonstrators chased guards, then police responded with tear gas; the chase precedes and prompts the police response by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f18554d19ce907130f42c3ce3d14c6480cda7017ffdd709e78953a3685e7c35e",
+    "f18554d19ce907130f42c3ce3d14c6480cda7017ffdd709e78953a3685e7c35e",
+    "ddceafd23bfa866c28374bc1cb86c91db637790d4cba2531c7ac44b46adbf0e4",
+    "54fffb75f5ec850e9b2763cf3a94a6d9b60318eb23f5ea7470517d504d779c01",
+    "6ec882315c1cb568e23ba96b7f5504d13dcb56af5f7f79ea2f64da047877c8ba",
+    "e1b8eeffed0b3aad7c8707a99a403716ac4bf32c99565d8006d35848c29b36a0"
+  ],
+  "elapsed_s": 5.482248067855835
+}

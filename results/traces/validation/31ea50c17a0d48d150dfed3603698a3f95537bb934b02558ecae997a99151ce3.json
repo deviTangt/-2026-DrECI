@@ -1,0 +1,65 @@
+{
+  "input_hash": "31ea50c17a0d48d150dfed3603698a3f95537bb934b02558ecae997a99151ce3",
+  "sample_id": "ESC-CSV-01957",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Deputy",
+    "Jerry",
+    "Ortiz",
+    "shot",
+    "killed",
+    "door"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2aa9de63502b6ba3bdbc25e393e4db8c6001229a29ad0bfb5a514ece37c1e68a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2aa9de63502b6ba3bdbc25e393e4db8c6001229a29ad0bfb5a514ece37c1e68a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "10f7db541d4068769035bbfd4f9baee0f5574bb4214ff00d1ceef6484011acae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9556aefa1d7b72dbb551f67d0fdaadbbe21427790731e1c3127e08100e30e0d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "6167d5d0b6c579e4684328ef8ef5ea465f866ac4fba799712934effdff517118",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"shot\",\"killed\",\"door\"],\"target_related\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"shot\",\"killed\",\"door\"],\"mediators\":[\"Deputy\",\"Jerry\",\"Ortiz\",\"shot\",\"killed\",\"door\"]}"
+    },
+    "indirect": {
+      "call_id": "bc99469824cddf5e599c7a2d61ceeb4b1b3e9ec1496ad48371a042b19eb5366a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Knocking on a door during an investigation precedes and leads to Deputy Ortiz being shot and killed, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "2aa9de63502b6ba3bdbc25e393e4db8c6001229a29ad0bfb5a514ece37c1e68a",
+    "2aa9de63502b6ba3bdbc25e393e4db8c6001229a29ad0bfb5a514ece37c1e68a",
+    "10f7db541d4068769035bbfd4f9baee0f5574bb4214ff00d1ceef6484011acae",
+    "9556aefa1d7b72dbb551f67d0fdaadbbe21427790731e1c3127e08100e30e0d5",
+    "6167d5d0b6c579e4684328ef8ef5ea465f866ac4fba799712934effdff517118",
+    "bc99469824cddf5e599c7a2d61ceeb4b1b3e9ec1496ad48371a042b19eb5366a"
+  ],
+  "elapsed_s": 5.8866870403289795
+}

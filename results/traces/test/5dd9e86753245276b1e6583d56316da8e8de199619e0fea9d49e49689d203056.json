@@ -1,0 +1,67 @@
+{
+  "input_hash": "5dd9e86753245276b1e6583d56316da8e8de199619e0fea9d49e49689d203056",
+  "sample_id": "ESC-CSV-09275",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "killed",
+    "building",
+    "torched",
+    "Athens",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a7efae4e660e6a7b8932a70dfc1a63fe2ec2472a7597b1f6b4fa49d2a5b06c5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a7efae4e660e6a7b8932a70dfc1a63fe2ec2472a7597b1f6b4fa49d2a5b06c5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d23c462fd81d2d00f5bf86a7afa9fe0e5373f27441743b023bb8413db1ffdecc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d4016fb9f9895437241713c278b8c83862802d8d2c8355bf331a8d1d13c12d45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7fc61f0121b5970cb2610abfd84e5e67fa7c63d9a8fd1b553e27ad619af66bbe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"building\",\"torched\",\"austerity\",\"measures\",\"bank\",\"workers\",\"killed\"],\"target_related\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"Athens\",\"protests\",\"austerity\",\"measures\"],\"mediators\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"Athens\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "0368b30f149cac58ce0df503388b0dbedddcb3ad27587e96a6ae9821b63f828f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The building was torched during protests, killing three bank workers; the torching during protests caused the deaths described as murder.\"}"
+    }
+  },
+  "call_ids": [
+    "a7efae4e660e6a7b8932a70dfc1a63fe2ec2472a7597b1f6b4fa49d2a5b06c5b",
+    "a7efae4e660e6a7b8932a70dfc1a63fe2ec2472a7597b1f6b4fa49d2a5b06c5b",
+    "d23c462fd81d2d00f5bf86a7afa9fe0e5373f27441743b023bb8413db1ffdecc",
+    "d4016fb9f9895437241713c278b8c83862802d8d2c8355bf331a8d1d13c12d45",
+    "7fc61f0121b5970cb2610abfd84e5e67fa7c63d9a8fd1b553e27ad619af66bbe",
+    "0368b30f149cac58ce0df503388b0dbedddcb3ad27587e96a6ae9821b63f828f"
+  ],
+  "elapsed_s": 4.078744411468506
+}

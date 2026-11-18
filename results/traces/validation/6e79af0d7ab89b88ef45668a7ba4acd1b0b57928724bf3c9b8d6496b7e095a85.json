@@ -1,0 +1,63 @@
+{
+  "input_hash": "6e79af0d7ab89b88ef45668a7ba4acd1b0b57928724bf3c9b8d6496b7e095a85",
+  "sample_id": "ESC-CSV-02783",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Teen",
+    "Shot",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ca1ee1f5952f64cefd0bb79affab551f8bec922ee180b7e58545b773675dc799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ca1ee1f5952f64cefd0bb79affab551f8bec922ee180b7e58545b773675dc799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0b339dde5ec84c8d06dc08017ceef1c0622bef47a7cebc3764ff831fe296ede0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b48dee194a3b206b035e333f8f6c77f1f9bda8117c1d3dbe5253d466c077f781",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bfee079b583a2274d1fcfcc38158e4f05568a0cb54f48b1b5f573eca12d71e74",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Teen\",\"Shot\",\"Police\"],\"target_related\":[\"Brooklyn\",\"Teen\",\"Shot\",\"Police\"],\"mediators\":[\"Brooklyn\",\"Teen\",\"Shot\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "d83bb9acbb4584c683bfaf3abe9eaaff593cb5bfd2efec4df58e2f7af802c27e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A vigil gathering precedes and, by common sense, can escalate into the riot that broke out during it.\"}"
+    }
+  },
+  "call_ids": [
+    "ca1ee1f5952f64cefd0bb79affab551f8bec922ee180b7e58545b773675dc799",
+    "ca1ee1f5952f64cefd0bb79affab551f8bec922ee180b7e58545b773675dc799",
+    "0b339dde5ec84c8d06dc08017ceef1c0622bef47a7cebc3764ff831fe296ede0",
+    "b48dee194a3b206b035e333f8f6c77f1f9bda8117c1d3dbe5253d466c077f781",
+    "bfee079b583a2274d1fcfcc38158e4f05568a0cb54f48b1b5f573eca12d71e74",
+    "d83bb9acbb4584c683bfaf3abe9eaaff593cb5bfd2efec4df58e2f7af802c27e"
+  ],
+  "elapsed_s": 4.366152048110962
+}

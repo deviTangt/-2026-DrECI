@@ -1,0 +1,65 @@
+{
+  "input_hash": "b400c998f9cfa908aaf3eb70fda4952b41bb44c4e287a8482d1ba1329b2ca2b5",
+  "sample_id": "ESC-CSV-06889",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang member",
+    "convicted",
+    "Tuesday",
+    "13 bullets",
+    "Brooklyn rooftop",
+    "broad daylight"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "58e7ed0fe388e8db1ae39067648545952cbcca0be4db2ef064e24af13c90abd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "58e7ed0fe388e8db1ae39067648545952cbcca0be4db2ef064e24af13c90abd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "79b907c2f763cc3c2d5b7ab02b5accd9ece5330e1b0da924eb8907b7d8d5f90f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9aebfc08e6f56365e36f4329e6c48ccdcc531ff0f76e67306451d0071450f43b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8442b56dafd6a587ef14772e0a68cfadfca32040343ec1f0147d1355da891e27",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"convicted\",\"Tuesday\",\"13 bullets\",\"Brooklyn rooftop\",\"broad daylight\"],\"target_related\":[\"gang member\",\"convicted\",\"Tuesday\",\"mother of 12\",\"13 bullets\",\"Brooklyn rooftop\",\"broad daylight\"],\"mediators\":[\"gang member\",\"convicted\",\"Tuesday\",\"13 bullets\",\"Brooklyn rooftop\",\"broad daylight\"]}"
+    },
+    "indirect": {
+      "call_id": "d055a4810016c10a2d8689112ba9e1f69e3768c60d74187fc984a6289e30d381",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'sprayed 13 bullets' caused 'claiming the life'; the preposition 'by' links the spraying to the killing, and common sense confirms bullets sprayed cause death.\"}"
+    }
+  },
+  "call_ids": [
+    "58e7ed0fe388e8db1ae39067648545952cbcca0be4db2ef064e24af13c90abd9",
+    "58e7ed0fe388e8db1ae39067648545952cbcca0be4db2ef064e24af13c90abd9",
+    "79b907c2f763cc3c2d5b7ab02b5accd9ece5330e1b0da924eb8907b7d8d5f90f",
+    "9aebfc08e6f56365e36f4329e6c48ccdcc531ff0f76e67306451d0071450f43b",
+    "8442b56dafd6a587ef14772e0a68cfadfca32040343ec1f0147d1355da891e27",
+    "d055a4810016c10a2d8689112ba9e1f69e3768c60d74187fc984a6289e30d381"
+  ],
+  "elapsed_s": 5.690057277679443
+}

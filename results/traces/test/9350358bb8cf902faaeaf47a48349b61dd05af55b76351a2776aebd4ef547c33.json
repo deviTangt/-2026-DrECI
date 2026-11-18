@@ -1,0 +1,60 @@
+{
+  "input_hash": "9350358bb8cf902faaeaf47a48349b61dd05af55b76351a2776aebd4ef547c33",
+  "sample_id": "ESC-CSV-06603",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a0159a486aaf2cf3a1adc1849e86ae88b012c007b2eca77514b7032956ae58b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a0159a486aaf2cf3a1adc1849e86ae88b012c007b2eca77514b7032956ae58b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4d80483a5f2e93c44144b71160ecf604230ddf1ad6efd7a08de7beab60dc77c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2ce6d694aa731015db370f27c0e4129edb9c35071d826b21e94cfb7f9b08eeba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16167efa8f498894b187f32c28a4bb57d84678e1233ff89b45762138e5491bcc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"Lopez\",\"Horton\",\"death\"],\"target_related\":[\"Mothers\",\"Horton\",\"testified\"],\"mediators\":[\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "c5b13d7e5b1be02444bfea66300d3074f48fbdd789b38184b65eca7e7a42074a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states both are charged with murder and one witness testified at the trial; no causal link between being charged and the trial is expressed or implied.\"}"
+    }
+  },
+  "call_ids": [
+    "a0159a486aaf2cf3a1adc1849e86ae88b012c007b2eca77514b7032956ae58b4",
+    "a0159a486aaf2cf3a1adc1849e86ae88b012c007b2eca77514b7032956ae58b4",
+    "4d80483a5f2e93c44144b71160ecf604230ddf1ad6efd7a08de7beab60dc77c3",
+    "2ce6d694aa731015db370f27c0e4129edb9c35071d826b21e94cfb7f9b08eeba",
+    "16167efa8f498894b187f32c28a4bb57d84678e1233ff89b45762138e5491bcc",
+    "c5b13d7e5b1be02444bfea66300d3074f48fbdd789b38184b65eca7e7a42074a"
+  ],
+  "elapsed_s": 4.5122599601745605
+}

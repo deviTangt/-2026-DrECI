@@ -1,0 +1,60 @@
+{
+  "input_hash": "8419adf3606ffde28338829b615bd2a1e7b1d28d17fe464ea28085c89b8cfd47",
+  "sample_id": "ESC-CSV-01965",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "him"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c05e24f126f7485ddd894712a9b80859b317271bef63662786a2976192af1946",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c05e24f126f7485ddd894712a9b80859b317271bef63662786a2976192af1946",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e1b61b0eb9fe83f856e676ee4432dccb418a7ff2778ebe06b95c0a2a5e94f58",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "660065e8a452a30924464730c236f2397c5afb6fd7ee68885da0bd41667e9627",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "83ec5cf6d8116b3c5da070f479790910b2a748cb52ad2580b28ca0841076fbb2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"suspect\",\"head\",\"him\"],\"target_related\":[\"Deputy Jerry Ortiz\",\"killed\",\"investigation\"],\"mediators\":[\"him\"]}"
+    },
+    "indirect": {
+      "call_id": "d2f7df3bfacf66450e272c790680623105d1de8b7530383a733adeee03957627",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"X and Y are the same event (the shooting); no causal relation between identical events, and Z 'him' is the victim, not a causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "c05e24f126f7485ddd894712a9b80859b317271bef63662786a2976192af1946",
+    "c05e24f126f7485ddd894712a9b80859b317271bef63662786a2976192af1946",
+    "9e1b61b0eb9fe83f856e676ee4432dccb418a7ff2778ebe06b95c0a2a5e94f58",
+    "660065e8a452a30924464730c236f2397c5afb6fd7ee68885da0bd41667e9627",
+    "83ec5cf6d8116b3c5da070f479790910b2a748cb52ad2580b28ca0841076fbb2",
+    "d2f7df3bfacf66450e272c790680623105d1de8b7530383a733adeee03957627"
+  ],
+  "elapsed_s": 5.315014362335205
+}

@@ -1,0 +1,73 @@
+{
+  "input_hash": "625f081f9edd266d5bd421da6beb3fdc66ec9fa6821a3bbbee81e90a4e1bcb42",
+  "sample_id": "ESC-CSV-02109",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "receptionist",
+    "Troy",
+    "office",
+    "April",
+    "2007",
+    "accounting",
+    "firm",
+    "managing",
+    "partners",
+    "wounded",
+    "suspect",
+    "jury",
+    "convicted",
+    "charged"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45e06d54e099cbc0dd74e2c7aae67c8aa3fc14bf21714d100a7a92bd7c4a41f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45e06d54e099cbc0dd74e2c7aae67c8aa3fc14bf21714d100a7a92bd7c4a41f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "71c69a7a49a212ee5f22da8bbfe4b9bf9638997fc7db5a6c3f7483d77ea5859c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "39ad29ada71ea9dded4f17d25c8f21d03f91a20fb8b3fde4b390f3d4cb7eaff3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "eeccd86fe227772539b9acc5259e611619882fa90e4dd086da6dc51846ac1281",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"office\",\"April\",\"2007\",\"accounting\",\"firm\",\"receptionist\",\"managing\",\"partners\",\"wounded\",\"suspect\",\"jury\",\"convicted\",\"charged\"],\"target_related\":[\"receptionist\",\"Troy\",\"office\",\"April\",\"2007\",\"accounting\",\"firm\",\"managing\",\"partners\",\"wounded\",\"shooting\",\"suspect\",\"jury\",\"convicted\",\"charged\"],\"mediators\":[\"receptionist\",\"Troy\",\"office\",\"April\",\"2007\",\"accounting\",\"firm\",\"managing\",\"partners\",\"wounded\",\"suspect\",\"jury\",\"convicted\",\"charged\"]}"
+    },
+    "indirect": {
+      "call_id": "6944c96d2675ff785d54d78cab73db9bf23272b756e1d2b7ddff0a43942ee16c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The shooting 'left a receptionist dead' — 'left' explicitly links the shooting to the death, and common sense confirms shooting causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "45e06d54e099cbc0dd74e2c7aae67c8aa3fc14bf21714d100a7a92bd7c4a41f6",
+    "45e06d54e099cbc0dd74e2c7aae67c8aa3fc14bf21714d100a7a92bd7c4a41f6",
+    "71c69a7a49a212ee5f22da8bbfe4b9bf9638997fc7db5a6c3f7483d77ea5859c",
+    "39ad29ada71ea9dded4f17d25c8f21d03f91a20fb8b3fde4b390f3d4cb7eaff3",
+    "eeccd86fe227772539b9acc5259e611619882fa90e4dd086da6dc51846ac1281",
+    "6944c96d2675ff785d54d78cab73db9bf23272b756e1d2b7ddff0a43942ee16c"
+  ],
+  "elapsed_s": 4.885425329208374
+}

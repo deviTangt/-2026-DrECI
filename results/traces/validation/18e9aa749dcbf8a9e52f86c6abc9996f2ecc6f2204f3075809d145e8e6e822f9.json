@@ -1,0 +1,65 @@
+{
+  "input_hash": "18e9aa749dcbf8a9e52f86c6abc9996f2ecc6f2204f3075809d145e8e6e822f9",
+  "sample_id": "ESC-CSV-01929",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "guilty",
+    "attempted murder",
+    "posession of a firearm by a felon",
+    "Lakewood Stn",
+    "Sheriff's Deputy Jerry Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e1e3a092210da58072601623edac82a72e6b8cfd74eaf43d15983a41ff6a2c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e1e3a092210da58072601623edac82a72e6b8cfd74eaf43d15983a41ff6a2c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4e88b0dec39c88b664a7280cf043641afd5d2851bf132db4856a16b0f3a6e600",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7b62e47e950321c662bab87c73ed1a0ab1f5d11123fadb8805511dda2afead9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "df6c66745913f75bb5b966cf6be964c7d6d39d81bbbdbb7ec30db7aea8d5faba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"guilty\",\"attempted murder\",\"posession of a firearm by a felon\",\"Gangmember\",\"Lakewood Stn\",\"Sheriff's Deputy Jerry Ortiz\"],\"target_related\":[\"jury\",\"Jose Luis Orozco\",\"guilty\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"Hawaiian Gardens Gangmember\",\"Lakewood Stn\",\"Sheriff's Deputy Jerry Ortiz\"],\"mediators\":[\"Jose Luis Orozco\",\"guilty\",\"attempted murder\",\"posession of a firearm by a felon\",\"Lakewood Stn\",\"Sheriff's Deputy Jerry Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "6de6daa1b960b7248528df7b48297966fd5937cf367776fedf685e7c641d0f3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: being found guilty of murder (X) leads to being convicted (Y); the verdict of guilt causes the conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "9e1e3a092210da58072601623edac82a72e6b8cfd74eaf43d15983a41ff6a2c3",
+    "9e1e3a092210da58072601623edac82a72e6b8cfd74eaf43d15983a41ff6a2c3",
+    "4e88b0dec39c88b664a7280cf043641afd5d2851bf132db4856a16b0f3a6e600",
+    "7b62e47e950321c662bab87c73ed1a0ab1f5d11123fadb8805511dda2afead9b",
+    "df6c66745913f75bb5b966cf6be964c7d6d39d81bbbdbb7ec30db7aea8d5faba",
+    "6de6daa1b960b7248528df7b48297966fd5937cf367776fedf685e7c641d0f3e"
+  ],
+  "elapsed_s": 6.116633415222168
+}

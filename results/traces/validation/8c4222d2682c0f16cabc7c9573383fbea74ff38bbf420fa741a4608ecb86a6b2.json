@@ -1,0 +1,62 @@
+{
+  "input_hash": "8c4222d2682c0f16cabc7c9573383fbea74ff38bbf420fa741a4608ecb86a6b2",
+  "sample_id": "ESC-CSV-07269",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jackson",
+    "driving",
+    "charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ce3c47fdb223fdeb4e487bc694dd6e61aef145d590a54eac3ca8679b647b3bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ce3c47fdb223fdeb4e487bc694dd6e61aef145d590a54eac3ca8679b647b3bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "21f66479466e9c7abaea07ee616d363bd07f27c67881d183a2c7bf5cc72ee396",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "890015b246a8a63152f14527bc4a1d5e5905efd322bdcea1956fdab12bdf4e38",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5a191ad9cec28efa20c6116cad63465467c92e0fafe037f885bfe4e2b9e7b1c4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jackson\",\"driving\",\"charges\",\"DUI\"],\"target_related\":[\"Jackson\",\"driving\",\"charges\",\"probation\"],\"mediators\":[\"Jackson\",\"driving\",\"charges\"]}"
+    },
+    "indirect": {
+      "call_id": "ca17e5f1e631ed842eb5611bfb1e2f76dd0825671ec505bccb6f962977e030f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A prior DUI commonly leads to being placed on probation, so the prior DUI causes the probation status.\"}"
+    }
+  },
+  "call_ids": [
+    "6ce3c47fdb223fdeb4e487bc694dd6e61aef145d590a54eac3ca8679b647b3bb",
+    "6ce3c47fdb223fdeb4e487bc694dd6e61aef145d590a54eac3ca8679b647b3bb",
+    "21f66479466e9c7abaea07ee616d363bd07f27c67881d183a2c7bf5cc72ee396",
+    "890015b246a8a63152f14527bc4a1d5e5905efd322bdcea1956fdab12bdf4e38",
+    "5a191ad9cec28efa20c6116cad63465467c92e0fafe037f885bfe4e2b9e7b1c4",
+    "ca17e5f1e631ed842eb5611bfb1e2f76dd0825671ec505bccb6f962977e030f5"
+  ],
+  "elapsed_s": 3.8585941791534424
+}

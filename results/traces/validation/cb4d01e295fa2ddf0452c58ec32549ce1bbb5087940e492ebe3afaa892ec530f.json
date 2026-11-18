@@ -1,0 +1,61 @@
+{
+  "input_hash": "cb4d01e295fa2ddf0452c58ec32549ce1bbb5087940e492ebe3afaa892ec530f",
+  "sample_id": "ESC-CSV-02861",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ccd5f48fdb6204c84381923d06a2df4a29f899c53e11bc6eb4d4ae3da169f718",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ccd5f48fdb6204c84381923d06a2df4a29f899c53e11bc6eb4d4ae3da169f718",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2edb0ffee07693a73dd12c6f9f96ac29013349a93e68ca4540cfad630d3c31e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "30c3f175b42e058f878a760101e590fabc6b0d2c9dfc391544b8fd9a0295766d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8fd6cfd9b2d69af2e922efcfa48b44f27574662a6751dcbbd8cb03401220e9ca",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"teen\"],\"target_related\":[\"NYPD\",\"teen\",\"slain\"],\"mediators\":[\"NYPD\",\"teen\"]}"
+    },
+    "indirect": {
+      "call_id": "45079e08fd8e5cfea4071df504a243b285912d4a52e63eb0c55e4b98052d6c19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed' uses 'and' linking shot to killed; common sense: shooting causes killing.\"}"
+    }
+  },
+  "call_ids": [
+    "ccd5f48fdb6204c84381923d06a2df4a29f899c53e11bc6eb4d4ae3da169f718",
+    "ccd5f48fdb6204c84381923d06a2df4a29f899c53e11bc6eb4d4ae3da169f718",
+    "2edb0ffee07693a73dd12c6f9f96ac29013349a93e68ca4540cfad630d3c31e1",
+    "30c3f175b42e058f878a760101e590fabc6b0d2c9dfc391544b8fd9a0295766d",
+    "8fd6cfd9b2d69af2e922efcfa48b44f27574662a6751dcbbd8cb03401220e9ca",
+    "45079e08fd8e5cfea4071df504a243b285912d4a52e63eb0c55e4b98052d6c19"
+  ],
+  "elapsed_s": 4.35594916343689
+}

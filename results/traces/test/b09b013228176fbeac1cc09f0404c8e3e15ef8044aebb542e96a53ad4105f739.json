@@ -1,0 +1,66 @@
+{
+  "input_hash": "b09b013228176fbeac1cc09f0404c8e3e15ef8044aebb542e96a53ad4105f739",
+  "sample_id": "ESC-CSV-09215",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "protesting",
+    "petrol",
+    "bombs",
+    "bank",
+    "Athens",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cf731d3055b7ec16182584086952a2a07a3993c124a418de952f5bc8570e87d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cf731d3055b7ec16182584086952a2a07a3993c124a418de952f5bc8570e87d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "71110a13bc8767f6901b3f8d62a9486ff91d46f98ed57a1d4c07476a07899636",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e66c877432d43d19795f0a689c3842ae70540f8270eac64cf2df254d821ac5d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "340878aef9a49f88cd937df607c4fa220cc4089e46ac1490c8d4f3cbd08fd3b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"protesting\",\"petrol\",\"bombs\",\"bank\",\"Athens\",\"Wednesday\"],\"target_related\":[\"Three\",\"people\",\"pregnant\",\"woman\",\"Greeks\",\"protesting\",\"petrol\",\"bombs\",\"bank\",\"Athens\",\"Wednesday\"],\"mediators\":[\"Greeks\",\"protesting\",\"petrol\",\"bombs\",\"bank\",\"Athens\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "4a8ac7873573b169146f936f2986575fc26d62408d7968332538535d4ccd3d12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'were killed when Greeks ... threw petrol bombs' — 'when' links the throwing to the killing; throwing bombs caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "cf731d3055b7ec16182584086952a2a07a3993c124a418de952f5bc8570e87d7",
+    "cf731d3055b7ec16182584086952a2a07a3993c124a418de952f5bc8570e87d7",
+    "71110a13bc8767f6901b3f8d62a9486ff91d46f98ed57a1d4c07476a07899636",
+    "e66c877432d43d19795f0a689c3842ae70540f8270eac64cf2df254d821ac5d8",
+    "340878aef9a49f88cd937df607c4fa220cc4089e46ac1490c8d4f3cbd08fd3b5",
+    "4a8ac7873573b169146f936f2986575fc26d62408d7968332538535d4ccd3d12"
+  ],
+  "elapsed_s": 5.644780874252319
+}

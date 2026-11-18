@@ -1,0 +1,74 @@
+{
+  "input_hash": "4e21a27fe039c59c017e380f384533bcf33e199969ca45dc92b8e065b2e264bd",
+  "sample_id": "ESC-CSV-09921",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "radio",
+    "TV",
+    "stations",
+    "strike",
+    "fire",
+    "Marfin",
+    "Bank",
+    "Stadiou",
+    "street",
+    "branch",
+    "death",
+    "workers",
+    "pregnant",
+    "woman",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fea439f13da4f29d3fd711a255ca5550f5408d3cb4f6c2a6f8225ef5edd0ea95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fea439f13da4f29d3fd711a255ca5550f5408d3cb4f6c2a6f8225ef5edd0ea95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "56063571d03bcbb9dae4fbc2282650b799bcf1bb119c3a924e86dbbc864f251d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c63b2ce23350ee4e806baf7a0c5296f98e3a006fcad437f46cf9525c4cdcda6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "eec266c3d898d27dbccb33e3c487fd87e31acd3c0aa7e478f2dc1eb40d4b2408",
+      "status": "ok",
+      "text": "{\"source_related\":[\"radio\",\"TV\",\"stations\",\"strike\",\"fire\",\"Marfin\",\"Bank\",\"Stadiou\",\"street\",\"branch\",\"death\",\"workers\",\"pregnant\",\"woman\",\"protesters\"],\"target_related\":[\"radio\",\"TV\",\"stations\",\"strike\",\"fire\",\"Marfin\",\"Bank\",\"Stadiou\",\"street\",\"branch\",\"death\",\"workers\",\"pregnant\",\"woman\",\"protesters\"],\"mediators\":[\"radio\",\"TV\",\"stations\",\"strike\",\"fire\",\"Marfin\",\"Bank\",\"Stadiou\",\"street\",\"branch\",\"death\",\"workers\",\"pregnant\",\"woman\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "a96a41f7c1824c45b730786738abcee3b8270504ced27d3420797dc450416458",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says stations decided to break their strike 'under pressure by the events,' explicitly linking events to pressure via 'by'.\"}"
+    }
+  },
+  "call_ids": [
+    "fea439f13da4f29d3fd711a255ca5550f5408d3cb4f6c2a6f8225ef5edd0ea95",
+    "fea439f13da4f29d3fd711a255ca5550f5408d3cb4f6c2a6f8225ef5edd0ea95",
+    "56063571d03bcbb9dae4fbc2282650b799bcf1bb119c3a924e86dbbc864f251d",
+    "c63b2ce23350ee4e806baf7a0c5296f98e3a006fcad437f46cf9525c4cdcda6a",
+    "eec266c3d898d27dbccb33e3c487fd87e31acd3c0aa7e478f2dc1eb40d4b2408",
+    "a96a41f7c1824c45b730786738abcee3b8270504ced27d3420797dc450416458"
+  ],
+  "elapsed_s": 5.696171760559082
+}

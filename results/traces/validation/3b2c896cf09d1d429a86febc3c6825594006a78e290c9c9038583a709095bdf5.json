@@ -1,0 +1,60 @@
+{
+  "input_hash": "3b2c896cf09d1d429a86febc3c6825594006a78e290c9c9038583a709095bdf5",
+  "sample_id": "ESC-CSV-02350",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "man"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "990d1b32c9d08e43832e29c8e427097d15004da7dc621ee713775d719130de8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "990d1b32c9d08e43832e29c8e427097d15004da7dc621ee713775d719130de8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8cc326f79a09b7713f65aed2c51e1c2bcbf3f8f50899cba9a12eab437c056cda",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ec2d1c3b30f22d1bec1ad63c09a29b65fe86650442ed1590e9cf8028deeacdf8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "268e69ef7a05132faa6e633f7c9f1836305d5c6ae0e2d51462a7ff4ab294f353",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shooting\",\"people\",\"worked\"],\"target_related\":[\"man\",\"chase\",\"authorities\"],\"mediators\":[\"man\"]}"
+    },
+    "indirect": {
+      "call_id": "ae6cda201fc78ea560f658fdb78850dcd44abf59d8370fb7b2b5f7b3b30258fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being suspected of shooting three people plausibly leads to arrest hours later; suspicion precedes and causes the arrest by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "990d1b32c9d08e43832e29c8e427097d15004da7dc621ee713775d719130de8f",
+    "990d1b32c9d08e43832e29c8e427097d15004da7dc621ee713775d719130de8f",
+    "8cc326f79a09b7713f65aed2c51e1c2bcbf3f8f50899cba9a12eab437c056cda",
+    "ec2d1c3b30f22d1bec1ad63c09a29b65fe86650442ed1590e9cf8028deeacdf8",
+    "268e69ef7a05132faa6e633f7c9f1836305d5c6ae0e2d51462a7ff4ab294f353",
+    "ae6cda201fc78ea560f658fdb78850dcd44abf59d8370fb7b2b5f7b3b30258fc"
+  ],
+  "elapsed_s": 7.02749490737915
+}

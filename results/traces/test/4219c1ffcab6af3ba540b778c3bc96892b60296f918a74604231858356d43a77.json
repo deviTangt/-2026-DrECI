@@ -1,0 +1,63 @@
+{
+  "input_hash": "4219c1ffcab6af3ba540b778c3bc96892b60296f918a74604231858356d43a77",
+  "sample_id": "ESC-CSV-06637",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "accused",
+    "Horton",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "09b188ba1149fecc85c23f08e51e33f942cff862c34f37240648174a5dec2aeb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "09b188ba1149fecc85c23f08e51e33f942cff862c34f37240648174a5dec2aeb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d684e96acadae8bae1fb466950755db3732f3bd725cf09f0699a3b619405a39f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e8180459455bea73a345d34d877d77d019f20f358bfdb71e655eece7f8ea12a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "634da7a893c9aeb7fb0566045b80377f1873e996f8aba1db7262226cbd6789ad",
+      "status": "ok",
+      "text": "{\"source_related\":[\"charged\",\"Lopez\",\"accused\",\"Horton\",\"death\"],\"target_related\":[\"Lopez\",\"accused\",\"letting off\",\"Horton\",\"death\"],\"mediators\":[\"Lopez\",\"accused\",\"Horton\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "dca398206bc6fe3a2b6c7b04a999ad0c91701c72b91b00ead5d0be45055a554c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Lopez is accused of letting off 13 shots in Horton's death; no explicit or implicit causal word links murder and shots, and shots do not cause murder by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "09b188ba1149fecc85c23f08e51e33f942cff862c34f37240648174a5dec2aeb",
+    "09b188ba1149fecc85c23f08e51e33f942cff862c34f37240648174a5dec2aeb",
+    "d684e96acadae8bae1fb466950755db3732f3bd725cf09f0699a3b619405a39f",
+    "e8180459455bea73a345d34d877d77d019f20f358bfdb71e655eece7f8ea12a5",
+    "634da7a893c9aeb7fb0566045b80377f1873e996f8aba1db7262226cbd6789ad",
+    "dca398206bc6fe3a2b6c7b04a999ad0c91701c72b91b00ead5d0be45055a554c"
+  ],
+  "elapsed_s": 4.835771322250366
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "9b1cbfb2db5dbf94143162782025b9b4bb22a70c589c0e75b788bba65a2c604d",
+  "sample_id": "ESC-CSV-01740",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Deputy Ortiz",
+    "Cooley",
+    "shooting",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7ee66466f7e7ecb6967cf0839bb21127bd13c57e3cc0492a84f91af8ee49452a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7ee66466f7e7ecb6967cf0839bb21127bd13c57e3cc0492a84f91af8ee49452a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ca9f53482ab10cd20f0b25e2421dc0381de9a574a038e1af412251065c562fdc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9364cea6def17b49d1c66207f208b297d6a8cc25b818499389c922094949f7fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "b63db86e59e91187fdb19e03e715a181ff5fbca34622bf3bf077462509db213c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"shot\",\"apartment\",\"East 223rd Street\",\"killed\",\"shooting\",\"defendant\",\"suspect\"],\"target_related\":[\"Cooley\",\"news conference\",\"Bellflower courthouse\",\"said\"],\"mediators\":[\"Deputy Ortiz\",\"Cooley\",\"shooting\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "36d227c507490e7d853be6d21b61be4591267c0de22d3fcc9f4f7e244c1b1260",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The death is mentioned as context for holding a news conference; no causal wording or structure links the death to the conference.\"}"
+    }
+  },
+  "call_ids": [
+    "7ee66466f7e7ecb6967cf0839bb21127bd13c57e3cc0492a84f91af8ee49452a",
+    "7ee66466f7e7ecb6967cf0839bb21127bd13c57e3cc0492a84f91af8ee49452a",
+    "ca9f53482ab10cd20f0b25e2421dc0381de9a574a038e1af412251065c562fdc",
+    "9364cea6def17b49d1c66207f208b297d6a8cc25b818499389c922094949f7fb",
+    "b63db86e59e91187fdb19e03e715a181ff5fbca34622bf3bf077462509db213c",
+    "36d227c507490e7d853be6d21b61be4591267c0de22d3fcc9f4f7e244c1b1260"
+  ],
+  "elapsed_s": 5.802430152893066
+}

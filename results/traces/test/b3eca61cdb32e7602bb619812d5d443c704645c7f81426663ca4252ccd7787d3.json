@@ -1,0 +1,61 @@
+{
+  "input_hash": "b3eca61cdb32e7602bb619812d5d443c704645c7f81426663ca4252ccd7787d3",
+  "sample_id": "ESC-CSV-06932",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang",
+    "member"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ab6e0a0a98ca8ecd7ce842f1602f7dba818d1d25eddc0c3280976285c76f68c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ab6e0a0a98ca8ecd7ce842f1602f7dba818d1d25eddc0c3280976285c76f68c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b161336808542831241d64113bb692684358c6a75d0218fb1d1056e415905c06",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a55e008ad1429852e19d42f8ed7f05738230df5503cde6a59b47d3f3d8a0633",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae6ec8736c435dc41fe8a78eefc9ee946414e2cbcc70dad13aa9a444e21873d3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"bullet\",\"Lopez\",\"targeted\",\"gang\",\"members\"],\"target_related\":[\"Gang\",\"member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\"],\"mediators\":[\"gang\",\"member\"]}"
+    },
+    "indirect": {
+      "call_id": "74112ae4549a7bdb963b8bd5396ed0a1cc9d1a264eea00bbc1aaa1de19879237",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says Horton was struck by a stray bullet during Lopez's targeting of rivals; it does not state the striking caused the slay, nor do 'gang'/'member' form a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "ab6e0a0a98ca8ecd7ce842f1602f7dba818d1d25eddc0c3280976285c76f68c4",
+    "ab6e0a0a98ca8ecd7ce842f1602f7dba818d1d25eddc0c3280976285c76f68c4",
+    "b161336808542831241d64113bb692684358c6a75d0218fb1d1056e415905c06",
+    "9a55e008ad1429852e19d42f8ed7f05738230df5503cde6a59b47d3f3d8a0633",
+    "ae6ec8736c435dc41fe8a78eefc9ee946414e2cbcc70dad13aa9a444e21873d3",
+    "74112ae4549a7bdb963b8bd5396ed0a1cc9d1a264eea00bbc1aaa1de19879237"
+  ],
+  "elapsed_s": 5.97711443901062
+}

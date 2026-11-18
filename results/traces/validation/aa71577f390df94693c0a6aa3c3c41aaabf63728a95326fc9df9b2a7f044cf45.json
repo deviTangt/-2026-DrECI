@@ -1,0 +1,62 @@
+{
+  "input_hash": "aa71577f390df94693c0a6aa3c3c41aaabf63728a95326fc9df9b2a7f044cf45",
+  "sample_id": "ESC-CSV-07155",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Vincent Jackson",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cfb4b8ce4a0f392613ab853ee0e63ca8a934c27484132918a21c93581cfdf071",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cfb4b8ce4a0f392613ab853ee0e63ca8a934c27484132918a21c93581cfdf071",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f7a13379b16626c0212dc1ca2511a3380ce34eeb24bba98a68a46ed0b8b85fc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f1a464a6820f0ead530b23f45fbac1be2589b15416a628a2d603554d30fa7345",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "14b004bf55408ad55eef570c8fbcf02a7c0e5a33fd9b661b0ec9b7e3ddd32107",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Vincent Jackson\",\"DUI\"],\"target_related\":[\"Jamal Williams\",\"Vincent Jackson\",\"DUI\"],\"mediators\":[\"Jamal Williams\",\"Vincent Jackson\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "e493925ac858dd35361dc8d23aa1b0df4e83ba164bdf6337cc753df7b06baf2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drunk driving precedes and commonly causes arrest; 'arrested on suspicion of drunk driving' implies X leads to Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "cfb4b8ce4a0f392613ab853ee0e63ca8a934c27484132918a21c93581cfdf071",
+    "cfb4b8ce4a0f392613ab853ee0e63ca8a934c27484132918a21c93581cfdf071",
+    "f7a13379b16626c0212dc1ca2511a3380ce34eeb24bba98a68a46ed0b8b85fc8",
+    "f1a464a6820f0ead530b23f45fbac1be2589b15416a628a2d603554d30fa7345",
+    "14b004bf55408ad55eef570c8fbcf02a7c0e5a33fd9b661b0ec9b7e3ddd32107",
+    "e493925ac858dd35361dc8d23aa1b0df4e83ba164bdf6337cc753df7b06baf2c"
+  ],
+  "elapsed_s": 3.630622625350952
+}

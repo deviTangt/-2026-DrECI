@@ -1,0 +1,61 @@
+{
+  "input_hash": "32fe7a4438539586f1fee9c28da9a9d72e8185e297aafc72c8e44117b794fab4",
+  "sample_id": "ESC-CSV-06670",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Lopez",
+    "life in prison"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "90becfcf7f585cfa6ae1e9fb82dbf7bbeb2b4c96710089294e5dd9c23382f8db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "90becfcf7f585cfa6ae1e9fb82dbf7bbeb2b4c96710089294e5dd9c23382f8db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7c005ff6cba0f93bf1d9645415f5df3bd1ad45df0041bd3d5bff2d0ad552c624",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4c3dbcd59114ecdff0f20995d8cef1f2e2228ecd1b6ff02760fa0358835f59c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "9405fca8d9fb60da1ab2b9ec0f8fceae36b91c86812ed95f9e852e6eee636a19",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"Justice Vincent Del Giudice\",\"life in prison\"],\"target_related\":[\"Lopez\",\"life in prison\",\"second - degree murder\",\"assault in the first degree\"],\"mediators\":[\"Lopez\",\"life in prison\"]}"
+    },
+    "indirect": {
+      "call_id": "7275eb3a8d3f5d5a0711cddd776170ec85042e1d6fbda954a102f9861a74dd47",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being sentenced (X) occurs before and causes the resulting sentence (Y); common sense: sentencing produces a sentence.\"}"
+    }
+  },
+  "call_ids": [
+    "90becfcf7f585cfa6ae1e9fb82dbf7bbeb2b4c96710089294e5dd9c23382f8db",
+    "90becfcf7f585cfa6ae1e9fb82dbf7bbeb2b4c96710089294e5dd9c23382f8db",
+    "7c005ff6cba0f93bf1d9645415f5df3bd1ad45df0041bd3d5bff2d0ad552c624",
+    "4c3dbcd59114ecdff0f20995d8cef1f2e2228ecd1b6ff02760fa0358835f59c4",
+    "9405fca8d9fb60da1ab2b9ec0f8fceae36b91c86812ed95f9e852e6eee636a19",
+    "7275eb3a8d3f5d5a0711cddd776170ec85042e1d6fbda954a102f9861a74dd47"
+  ],
+  "elapsed_s": 4.139873504638672
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "dd9ebfb3db93a956e9b1fc5103cd8ce162de64794feaa4062ab7eab43d6c9c9d",
+  "sample_id": "ESC-CSV-02282",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "shotgun"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5fe9616cd7d3470e10c815e7bf3f91ac4130d9646ea3b39c2468a462d395b09d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5fe9616cd7d3470e10c815e7bf3f91ac4130d9646ea3b39c2468a462d395b09d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7a4d6e580fad829531c88a5274e617610c46910f7c61f59fc04187c7864c2c75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "79910f04e52b564ace814f3bc90f7d53cdb4398ada5532cb5b23adedf07fa4b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b6f2bea32410161bbaf2382c965544892293abe76a980550c46245dd0a683c8b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shotgun\",\"bosses\",\"office\"],\"target_related\":[\"bosses\",\"receptionist\",\"shotgun\"],\"mediators\":[\"bosses\",\"shotgun\"]}"
+    },
+    "indirect": {
+      "call_id": "c02ffc0429d41491f5df68268bd61b68b6e7a652928538634febb341fe213918",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Opening fire on his bosses directly caused them to be wounded; the shooting precedes and produces the wounding by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "5fe9616cd7d3470e10c815e7bf3f91ac4130d9646ea3b39c2468a462d395b09d",
+    "5fe9616cd7d3470e10c815e7bf3f91ac4130d9646ea3b39c2468a462d395b09d",
+    "7a4d6e580fad829531c88a5274e617610c46910f7c61f59fc04187c7864c2c75",
+    "79910f04e52b564ace814f3bc90f7d53cdb4398ada5532cb5b23adedf07fa4b4",
+    "b6f2bea32410161bbaf2382c965544892293abe76a980550c46245dd0a683c8b",
+    "c02ffc0429d41491f5df68268bd61b68b6e7a652928538634febb341fe213918"
+  ],
+  "elapsed_s": 6.491875648498535
+}

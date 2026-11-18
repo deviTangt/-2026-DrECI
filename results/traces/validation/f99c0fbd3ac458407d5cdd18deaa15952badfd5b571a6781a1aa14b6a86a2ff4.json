@@ -1,0 +1,65 @@
+{
+  "input_hash": "f99c0fbd3ac458407d5cdd18deaa15952badfd5b571a6781a1aa14b6a86a2ff4",
+  "sample_id": "ESC-CSV-01718",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "shooting",
+    "defendant",
+    "suspect",
+    "murder",
+    "case"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "32ca71659fd7974ef12b6c21284fad025b3969846ec4c3f54571b7707b2ecfdc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "32ca71659fd7974ef12b6c21284fad025b3969846ec4c3f54571b7707b2ecfdc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aee1ba075efef10d763747d4edb748e1cb49cdb815acbc07fb8db17f494c1cd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d1849eb1477dbabd79ede29bd34a2cfa63584a66b7acca947829526df89ad60a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0b3dc703fe4714f7b5018a6b2443c982765d67ed4cb502a58691e70a92ab55bd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\",\"murder\",\"case\",\"Deputy Ortiz\"],\"target_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\",\"murder\",\"case\",\"Deputy Ortiz\"],\"mediators\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\",\"murder\",\"case\"]}"
+    },
+    "indirect": {
+      "call_id": "325959c629550eb86258512f4912c433cf2054859dfae9c64b9d8b8ec9aae23b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Deputy Ortiz was killed while investigating a shooting; investigating preceded and led to his killing, consistent with causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "32ca71659fd7974ef12b6c21284fad025b3969846ec4c3f54571b7707b2ecfdc",
+    "32ca71659fd7974ef12b6c21284fad025b3969846ec4c3f54571b7707b2ecfdc",
+    "aee1ba075efef10d763747d4edb748e1cb49cdb815acbc07fb8db17f494c1cd9",
+    "d1849eb1477dbabd79ede29bd34a2cfa63584a66b7acca947829526df89ad60a",
+    "0b3dc703fe4714f7b5018a6b2443c982765d67ed4cb502a58691e70a92ab55bd",
+    "325959c629550eb86258512f4912c433cf2054859dfae9c64b9d8b8ec9aae23b"
+  ],
+  "elapsed_s": 5.156137704849243
+}

@@ -1,0 +1,69 @@
+{
+  "input_hash": "1bed280c144c959309a39d692e0524aa850db11da7f81639d138e95db5f9807c",
+  "sample_id": "ESC-CSV-02653",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "protest",
+    "march",
+    "candlelight",
+    "Kimani",
+    "Gray",
+    "police",
+    "bullets",
+    "Saturday",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ae9d2fd5ba8e5e4212531befb06662555ed4fdb45640955b53bac8134040e137",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ae9d2fd5ba8e5e4212531befb06662555ed4fdb45640955b53bac8134040e137",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2fa6971cccd8d462bd3b3eaeb9754cc0b9f28134394c486a0de301e4e8c612e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7ac39474f85c820c7c44e9a14b40e34b624c2271e1ea64c6d2ae6b7b47ebf9c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7cb8c5835a1746a8b7ea178e3e11526394cb2f710e0adde18ab45c4586b1a3f1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"candlelight\",\"protest\",\"march\",\"Kimani\",\"Gray\",\"police\",\"bullets\",\"Saturday\",\"Brooklyn\",\"cops\"],\"target_related\":[\"riot\",\"Brooklyn\",\"NYPD\",\"67th\",\"Precinct\",\"stationhouse\",\"protest\",\"march\",\"candlelight\",\"vigil\",\"Kimani\",\"Gray\",\"police\",\"bullets\",\"Saturday\",\"cops\"],\"mediators\":[\"Brooklyn\",\"protest\",\"march\",\"candlelight\",\"Kimani\",\"Gray\",\"police\",\"bullets\",\"Saturday\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "b834248f5747356efee87369fc945b0190d3b8a46bdf15d2b7d57d219774dfeb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Violence followed a protest march that grew out of a candlelight vigil; the vigil prompted the march and ensuing violence.\"}"
+    }
+  },
+  "call_ids": [
+    "ae9d2fd5ba8e5e4212531befb06662555ed4fdb45640955b53bac8134040e137",
+    "ae9d2fd5ba8e5e4212531befb06662555ed4fdb45640955b53bac8134040e137",
+    "2fa6971cccd8d462bd3b3eaeb9754cc0b9f28134394c486a0de301e4e8c612e0",
+    "7ac39474f85c820c7c44e9a14b40e34b624c2271e1ea64c6d2ae6b7b47ebf9c3",
+    "7cb8c5835a1746a8b7ea178e3e11526394cb2f710e0adde18ab45c4586b1a3f1",
+    "b834248f5747356efee87369fc945b0190d3b8a46bdf15d2b7d57d219774dfeb"
+  ],
+  "elapsed_s": 5.133002042770386
+}

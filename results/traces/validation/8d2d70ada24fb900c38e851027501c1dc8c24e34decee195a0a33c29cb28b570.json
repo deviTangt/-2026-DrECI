@@ -1,0 +1,62 @@
+{
+  "input_hash": "8d2d70ada24fb900c38e851027501c1dc8c24e34decee195a0a33c29cb28b570",
+  "sample_id": "ESC-CSV-02896",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officers",
+    "Kimani Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8d2bf4d7c5dba3fe5e86efd367c9ddcaa5a3be5c82bd1ec6644803a42b2e8dab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8d2bf4d7c5dba3fe5e86efd367c9ddcaa5a3be5c82bd1ec6644803a42b2e8dab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "451afdab2798c521e2b727a17690e3ff54cd341c300fe49df8252e3ea8ff7283",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fa76bea99ca96cfc03ebea6d355640913eacbe491ab567af5957bcf8a1102ffd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b9931603fee6f5ca7cb0d46658f9c9d5910cb3158ad01b754a3d67f62e622ba2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officers\",\"gun\",\"cops\",\"Kimani Gray\"],\"target_related\":[\"police\",\"officers\",\"killed\",\"Kimani Gray\",\"Brooklyn\",\"NYPD\"],\"mediators\":[\"police\",\"officers\",\"Kimani Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "bc3c789f8d8344d262282781822a07783573d5dff15d457304468bba55a28ddb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says officers shot and killed Gray 'because he allegedly pointed a gun at the cops,' explicitly linking pointed to Shooting via 'because'.\"}"
+    }
+  },
+  "call_ids": [
+    "8d2bf4d7c5dba3fe5e86efd367c9ddcaa5a3be5c82bd1ec6644803a42b2e8dab",
+    "8d2bf4d7c5dba3fe5e86efd367c9ddcaa5a3be5c82bd1ec6644803a42b2e8dab",
+    "451afdab2798c521e2b727a17690e3ff54cd341c300fe49df8252e3ea8ff7283",
+    "fa76bea99ca96cfc03ebea6d355640913eacbe491ab567af5957bcf8a1102ffd",
+    "b9931603fee6f5ca7cb0d46658f9c9d5910cb3158ad01b754a3d67f62e622ba2",
+    "bc3c789f8d8344d262282781822a07783573d5dff15d457304468bba55a28ddb"
+  ],
+  "elapsed_s": 4.86027717590332
+}

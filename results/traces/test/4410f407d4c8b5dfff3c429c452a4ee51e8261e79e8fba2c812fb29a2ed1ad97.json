@@ -1,0 +1,61 @@
+{
+  "input_hash": "4410f407d4c8b5dfff3c429c452a4ee51e8261e79e8fba2c812fb29a2ed1ad97",
+  "sample_id": "ESC-CSV-06436",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "597cff6ed5bed37f11638f964b59884ab850ac57edcf0d4672bc293e9ceb21d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "597cff6ed5bed37f11638f964b59884ab850ac57edcf0d4672bc293e9ceb21d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f0525a382875662242b29670fa62e5a6b054fd7344a16bc8f7da800387730cb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "067d3b3d4e603e27254397f029522393001c01b7bfdf8cc1d5daa8947976d77b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "88fa0eabcc609fb8dbc598e4d76675242abb431532d2f47feb1fbf951df9a17d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bullets\",\"ladies\",\"Lopez\",\"half-brothers\",\"arrested\"],\"target_related\":[\"killing\",\"pregnant mom\",\"Lopez\",\"charged\",\"arrested\"],\"mediators\":[\"Lopez\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "df410793ef2071280ed638b5284981e106ac2399a6f7349cf2ad590a4b9a3510",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting the pregnant mom caused her death; the shooting precedes and causes the murder charge, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "597cff6ed5bed37f11638f964b59884ab850ac57edcf0d4672bc293e9ceb21d8",
+    "597cff6ed5bed37f11638f964b59884ab850ac57edcf0d4672bc293e9ceb21d8",
+    "f0525a382875662242b29670fa62e5a6b054fd7344a16bc8f7da800387730cb6",
+    "067d3b3d4e603e27254397f029522393001c01b7bfdf8cc1d5daa8947976d77b",
+    "88fa0eabcc609fb8dbc598e4d76675242abb431532d2f47feb1fbf951df9a17d",
+    "df410793ef2071280ed638b5284981e106ac2399a6f7349cf2ad590a4b9a3510"
+  ],
+  "elapsed_s": 4.379494667053223
+}

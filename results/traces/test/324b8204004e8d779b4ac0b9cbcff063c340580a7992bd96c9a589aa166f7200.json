@@ -1,0 +1,61 @@
+{
+  "input_hash": "324b8204004e8d779b4ac0b9cbcff063c340580a7992bd96c9a589aa166f7200",
+  "sample_id": "ESC-CSV-04433",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f8f1bf97426749fef57b94348cd45b2b05b3bf5961b6971c0faec1232c6cc2a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f8f1bf97426749fef57b94348cd45b2b05b3bf5961b6971c0faec1232c6cc2a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "267ac948d72be31092932076b95cf800f57b21616a1cd76f2a89e22359868f5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3f8fc2ae355c58531343198ae5a3ce0907a71b914215c0c40bb27f2d438e9e9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "faf027d89452fbe67517cdb5a6ded9097d0aab1b4400a0139cf9e6548d0522fa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"jewellery store\",\"fleeing\",\"vehicle\",\"France\"],\"target_related\":[\"jewellery\",\"watches\",\"stolen\",\"Paris\",\"shop\",\"France\"],\"mediators\":[\"jewellery\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "455ac4e3394e549b6d6851d1207845e66061618ada1a48ae8027b810cfbd58f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing a car into the store is the means that enables the theft, so the smash causes/leads to the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f8f1bf97426749fef57b94348cd45b2b05b3bf5961b6971c0faec1232c6cc2a2",
+    "f8f1bf97426749fef57b94348cd45b2b05b3bf5961b6971c0faec1232c6cc2a2",
+    "267ac948d72be31092932076b95cf800f57b21616a1cd76f2a89e22359868f5b",
+    "3f8fc2ae355c58531343198ae5a3ce0907a71b914215c0c40bb27f2d438e9e9f",
+    "faf027d89452fbe67517cdb5a6ded9097d0aab1b4400a0139cf9e6548d0522fa",
+    "455ac4e3394e549b6d6851d1207845e66061618ada1a48ae8027b810cfbd58f6"
+  ],
+  "elapsed_s": 4.841491222381592
+}

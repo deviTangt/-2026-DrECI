@@ -1,0 +1,67 @@
+{
+  "input_hash": "fd3f65cb3cc6614f3c8e9baeb12eb87f710e640481f4a29f47ebd1f7c9cf1725",
+  "sample_id": "ESC-CSV-06661",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "victims",
+    "killed",
+    "injured",
+    "Lopez",
+    "Carrasquillo",
+    "gang",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2f611b86900e29b04121ac17ec6b67b42039ba8fa554253f34217c77cb044ab8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2f611b86900e29b04121ac17ec6b67b42039ba8fa554253f34217c77cb044ab8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d74e3cb2f4da9b2fb36c01176091bd818f1feea2ec3c04529d83b9d28a5427b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5120427b40f00dae7b688473e08444cac50713b37d34157258b509f783be96b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d76f925884e2994904927225642949254e6ca55e4d9f6b658f1f7bb7312c903f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"victims\",\"killed\",\"injured\",\"Lopez\",\"Carrasquillo\",\"gang\",\"murder\"],\"target_related\":[\"Horton\",\"victims\",\"killed\",\"injured\",\"Lopez\",\"Carrasquillo\",\"gang\",\"murder\"],\"mediators\":[\"Horton\",\"victims\",\"killed\",\"injured\",\"Lopez\",\"Carrasquillo\",\"gang\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "f526dbc23502283fc38a8cfe02c706928d7a9202280d87d69c44ecc9b51654ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: people killed and injured in the crossfire—the crossfire caused the injury.\"}"
+    }
+  },
+  "call_ids": [
+    "2f611b86900e29b04121ac17ec6b67b42039ba8fa554253f34217c77cb044ab8",
+    "2f611b86900e29b04121ac17ec6b67b42039ba8fa554253f34217c77cb044ab8",
+    "0d74e3cb2f4da9b2fb36c01176091bd818f1feea2ec3c04529d83b9d28a5427b",
+    "5120427b40f00dae7b688473e08444cac50713b37d34157258b509f783be96b5",
+    "d76f925884e2994904927225642949254e6ca55e4d9f6b658f1f7bb7312c903f",
+    "f526dbc23502283fc38a8cfe02c706928d7a9202280d87d69c44ecc9b51654ba"
+  ],
+  "elapsed_s": 5.200699806213379
+}

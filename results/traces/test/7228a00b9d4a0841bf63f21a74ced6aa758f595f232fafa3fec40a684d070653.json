@@ -1,0 +1,62 @@
+{
+  "input_hash": "7228a00b9d4a0841bf63f21a74ced6aa758f595f232fafa3fec40a684d070653",
+  "sample_id": "ESC-CSV-04398",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "thieves",
+    "jewelry",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "68b922f5178be33b54a4d4eb9f637a2a45aa6e81fc0e6326b241e37fdeecd985",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "68b922f5178be33b54a4d4eb9f637a2a45aa6e81fc0e6326b241e37fdeecd985",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "016cbb694e64cd42358c9d755c702b5638ea540ce2fdfc7a53a5842e971fecec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b7b449b9db53f9de9b2a738707ac7c71d6e0af1ae77ac7b845f7624b9f3550d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "f82056222858cfd7edfde8f7a5f8013c88e4950b8749acceff1de5b2af118b46",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jewelry\",\"watches\",\"thieves\",\"store\",\"car\",\"vehicle\"],\"target_related\":[\"thieves\",\"Paris\",\"jewelry\",\"store\",\"smash\",\"grab\"],\"mediators\":[\"thieves\",\"jewelry\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "a9f2a1ea3b838340d8ff800b8138181d2685794eb363561c96235b54523ff1da",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Scooping up jewelry is part of the raid, not a cause of it; no causation words or causal structure link the two events.\"}"
+    }
+  },
+  "call_ids": [
+    "68b922f5178be33b54a4d4eb9f637a2a45aa6e81fc0e6326b241e37fdeecd985",
+    "68b922f5178be33b54a4d4eb9f637a2a45aa6e81fc0e6326b241e37fdeecd985",
+    "016cbb694e64cd42358c9d755c702b5638ea540ce2fdfc7a53a5842e971fecec",
+    "b7b449b9db53f9de9b2a738707ac7c71d6e0af1ae77ac7b845f7624b9f3550d0",
+    "f82056222858cfd7edfde8f7a5f8013c88e4950b8749acceff1de5b2af118b46",
+    "a9f2a1ea3b838340d8ff800b8138181d2685794eb363561c96235b54523ff1da"
+  ],
+  "elapsed_s": 4.336784601211548
+}

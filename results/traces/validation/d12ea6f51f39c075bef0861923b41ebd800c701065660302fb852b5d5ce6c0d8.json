@@ -1,0 +1,65 @@
+{
+  "input_hash": "d12ea6f51f39c075bef0861923b41ebd800c701065660302fb852b5d5ce6c0d8",
+  "sample_id": "ESC-CSV-01897",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "jury",
+    "guilty",
+    "attempted murder",
+    "posession of a firearm by a felon",
+    "felon"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d5f7ca9cb6aae10f97b0472d320d112d296712bc68778bcf69e830a89e00a731",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d5f7ca9cb6aae10f97b0472d320d112d296712bc68778bcf69e830a89e00a731",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8a9fa8e1a79aea8d18c724673795f3456d2d6d00bac4cd5b103998ed2a9dd6c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a6792ada0780497304e4d88e2dfbafb2f0a0dfb9dabb0810ab287cb9a9a27836",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0d0541568b1e1afe7e7d935282c7346a7dd0ae455e948b054bc8287e8fbcfcb7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"jury\",\"guilty\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\",\"District Attorney's office\"],\"target_related\":[\"D . A .\",\"jury\",\"guilty\",\"Jose Luis Orozco\",\"murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\"],\"mediators\":[\"Jose Luis Orozco\",\"jury\",\"guilty\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\"]}"
+    },
+    "indirect": {
+      "call_id": "10e1af18a30a1d2dfcd6334d4a957775eaac8a65d43f37b2be93bb710f0c1fdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says jury found Orozco guilty of murder and DA will seek death penalty; no causal words or structure links murder to Death.\"}"
+    }
+  },
+  "call_ids": [
+    "d5f7ca9cb6aae10f97b0472d320d112d296712bc68778bcf69e830a89e00a731",
+    "d5f7ca9cb6aae10f97b0472d320d112d296712bc68778bcf69e830a89e00a731",
+    "8a9fa8e1a79aea8d18c724673795f3456d2d6d00bac4cd5b103998ed2a9dd6c0",
+    "a6792ada0780497304e4d88e2dfbafb2f0a0dfb9dabb0810ab287cb9a9a27836",
+    "0d0541568b1e1afe7e7d935282c7346a7dd0ae455e948b054bc8287e8fbcfcb7",
+    "10e1af18a30a1d2dfcd6334d4a957775eaac8a65d43f37b2be93bb710f0c1fdd"
+  ],
+  "elapsed_s": 5.729943513870239
+}

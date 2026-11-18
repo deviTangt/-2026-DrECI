@@ -1,0 +1,63 @@
+{
+  "input_hash": "861675be1c1fb034fb7dc2d71a69ef3094a96856130c94abd74235589af3df93",
+  "sample_id": "ESC-CSV-09553",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "killed",
+    "women",
+    "man",
+    "caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78606895406ac2a172cafbc5cedd0628e926c88f9b9ecd049996760f4ce4341f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78606895406ac2a172cafbc5cedd0628e926c88f9b9ecd049996760f4ce4341f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7ecd7393ac11d6a309aca6f3e633edb9ad049b9967f7246b6c4df06e65d76eaa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "09b3ccc8e6a2c0d757af813f162ad53d37cbad83f7bfbbed1b99d00b1975957a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9f31c6e6e6a5e2ea6386f940a73cf0036da7419c5c1a177ccb4a7c308c5c7a7d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"petrol\",\"bomb\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\",\"killed\",\"women\",\"man\",\"caught\"],\"target_related\":[\"killed\",\"women\",\"man\",\"caught\",\"resulting\"],\"mediators\":[\"killed\",\"women\",\"man\",\"caught\"]}"
+    },
+    "indirect": {
+      "call_id": "51252c85fd02b3a4391062f54ac9d5c089bac0fa86e09f7bbb8e5bf758d8a60c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A petrol bomb being hurled directly causes the resulting inferno; hurling precedes and produces the fire by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "78606895406ac2a172cafbc5cedd0628e926c88f9b9ecd049996760f4ce4341f",
+    "78606895406ac2a172cafbc5cedd0628e926c88f9b9ecd049996760f4ce4341f",
+    "7ecd7393ac11d6a309aca6f3e633edb9ad049b9967f7246b6c4df06e65d76eaa",
+    "09b3ccc8e6a2c0d757af813f162ad53d37cbad83f7bfbbed1b99d00b1975957a",
+    "9f31c6e6e6a5e2ea6386f940a73cf0036da7419c5c1a177ccb4a7c308c5c7a7d",
+    "51252c85fd02b3a4391062f54ac9d5c089bac0fa86e09f7bbb8e5bf758d8a60c"
+  ],
+  "elapsed_s": 4.765658855438232
+}

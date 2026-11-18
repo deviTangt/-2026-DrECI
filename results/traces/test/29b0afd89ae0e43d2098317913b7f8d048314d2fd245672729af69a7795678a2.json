@@ -1,0 +1,60 @@
+{
+  "input_hash": "29b0afd89ae0e43d2098317913b7f8d048314d2fd245672729af69a7795678a2",
+  "sample_id": "ESC-CSV-09674",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0242897a9a7426a8321640a1b0c2e570bc27cb1cc35903b1f6a09e3f40a29aa9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0242897a9a7426a8321640a1b0c2e570bc27cb1cc35903b1f6a09e3f40a29aa9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8bd8ed67ed02c2420648ca76d258a4d54005b3f614d11a52de4616a6df83b02e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "68400e1ee4d5d2a87320264a37cd164add3f0c042fc3ff0e1f82423bc7e68935",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f785abccf1890646f489080b7ba66c09e2550c4acace0a6358cb721ef812c82a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"protesters\",\"police\",\"Molotov cocktails\",\"Athens\"],\"target_related\":[\"bank workers\",\"bank\",\"Greek riots\",\"three\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "15c59dc86ce801701566a7895a47ea9797ab911d66ecaf5f3cee2858d0411b7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says protesters torched buildings and three bank workers died, but no explicit or implicit causal link between torching and the deaths is stated.\"}"
+    }
+  },
+  "call_ids": [
+    "0242897a9a7426a8321640a1b0c2e570bc27cb1cc35903b1f6a09e3f40a29aa9",
+    "0242897a9a7426a8321640a1b0c2e570bc27cb1cc35903b1f6a09e3f40a29aa9",
+    "8bd8ed67ed02c2420648ca76d258a4d54005b3f614d11a52de4616a6df83b02e",
+    "68400e1ee4d5d2a87320264a37cd164add3f0c042fc3ff0e1f82423bc7e68935",
+    "f785abccf1890646f489080b7ba66c09e2550c4acace0a6358cb721ef812c82a",
+    "15c59dc86ce801701566a7895a47ea9797ab911d66ecaf5f3cee2858d0411b7b"
+  ],
+  "elapsed_s": 4.8812196254730225
+}

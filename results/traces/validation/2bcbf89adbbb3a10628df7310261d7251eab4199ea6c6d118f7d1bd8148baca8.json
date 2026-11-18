@@ -1,0 +1,64 @@
+{
+  "input_hash": "2bcbf89adbbb3a10628df7310261d7251eab4199ea6c6d118f7d1bd8148baca8",
+  "sample_id": "ESC-CSV-02341",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Mich",
+    "office",
+    "police",
+    "suspect",
+    "worked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b18c1c225eff1c75d46c75d858fc14e6e419c82e03ec2066ef0f6a1d7a5ad1ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b18c1c225eff1c75d46c75d858fc14e6e419c82e03ec2066ef0f6a1d7a5ad1ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e35826b420b045b4a59a3548769fc4f4bfb400521be23b440960a428de1c59d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4797e6fe8d6fd320dbf90d1f8e0444bedb3e0bcbda807a0fd4950a3031f8e8d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "605e9abe57320b7d2f4371e7ac5006b8be431d779081ac59c3a01d4fc1c4528a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Mich\",\"office\",\"police\",\"suspect\",\"worked\"],\"target_related\":[\"hurt\",\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\"],\"mediators\":[\"Mich\",\"office\",\"police\",\"suspect\",\"worked\"]}"
+    },
+    "indirect": {
+      "call_id": "93dfbb2739071671899fd4e42ac3fc73c705536921b54b0ed45a2b0d5c384794",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting can cause death; the shooting occurred and resulted in one person dead, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "b18c1c225eff1c75d46c75d858fc14e6e419c82e03ec2066ef0f6a1d7a5ad1ab",
+    "b18c1c225eff1c75d46c75d858fc14e6e419c82e03ec2066ef0f6a1d7a5ad1ab",
+    "e35826b420b045b4a59a3548769fc4f4bfb400521be23b440960a428de1c59d4",
+    "4797e6fe8d6fd320dbf90d1f8e0444bedb3e0bcbda807a0fd4950a3031f8e8d3",
+    "605e9abe57320b7d2f4371e7ac5006b8be431d779081ac59c3a01d4fc1c4528a",
+    "93dfbb2739071671899fd4e42ac3fc73c705536921b54b0ed45a2b0d5c384794"
+  ],
+  "elapsed_s": 6.1058714389801025
+}

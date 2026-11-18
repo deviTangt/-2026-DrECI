@@ -1,0 +1,60 @@
+{
+  "input_hash": "0c26392bb1bffb2ee73224cc89551acd1e31cc06916f2a9d92b5492d8ad03be5",
+  "sample_id": "ESC-CSV-02995",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86252f87e206369de7487f5cfdb95dd89e58bd5f1e49a21b74b8140d5dabf48c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86252f87e206369de7487f5cfdb95dd89e58bd5f1e49a21b74b8140d5dabf48c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "33c9a2b588fa0da1b89b813be6f7e3bd6b8813bbb5a430e4e0859eceb5de8c51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ecdc74cef2a84aea9d39d5b0def49d70d59e8453e5a5ee1ff5ab55d89e88738d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "713db4a25d7a329d4e92d4ed357306e6fe2c64f89363c7edc969d58bc50365f1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"officers\",\"killed\",\"resident\"],\"target_related\":[\"gun\",\"officers\"],\"mediators\":[\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "e773c82802133db8891240ed8a7074b70e9ddac94170e16262f519db8115609b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'after police say he pointed a gun at officers' — 'after' indicates the pointing preceded and prompted the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "86252f87e206369de7487f5cfdb95dd89e58bd5f1e49a21b74b8140d5dabf48c",
+    "86252f87e206369de7487f5cfdb95dd89e58bd5f1e49a21b74b8140d5dabf48c",
+    "33c9a2b588fa0da1b89b813be6f7e3bd6b8813bbb5a430e4e0859eceb5de8c51",
+    "ecdc74cef2a84aea9d39d5b0def49d70d59e8453e5a5ee1ff5ab55d89e88738d",
+    "713db4a25d7a329d4e92d4ed357306e6fe2c64f89363c7edc969d58bc50365f1",
+    "e773c82802133db8891240ed8a7074b70e9ddac94170e16262f519db8115609b"
+  ],
+  "elapsed_s": 4.457702398300171
+}

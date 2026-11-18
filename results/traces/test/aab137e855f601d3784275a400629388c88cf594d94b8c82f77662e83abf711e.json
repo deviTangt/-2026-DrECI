@@ -1,0 +1,60 @@
+{
+  "input_hash": "aab137e855f601d3784275a400629388c88cf594d94b8c82f77662e83abf711e",
+  "sample_id": "ESC-CSV-06696",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gangbangers"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e3d046d9cb6cac0d638832372aea767ed93aa0d64e74e5be4b74344abd57086d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e3d046d9cb6cac0d638832372aea767ed93aa0d64e74e5be4b74344abd57086d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ecc8d0fd51a9b5936a85d257c7a68e1d0799d43fae328b5cbb3cad960d9bcadb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "618297925012d8794b4c395d503c32cd4e07daae220bf8c5138a36d3f735c68b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d449cb8b15564b271822cc326216df3784c62daa14297a2faefcdce067e1e423",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gangbangers\",\"mom\",\"12\",\"crossfire\"],\"target_related\":[\"Gangbangers\",\"begin\"],\"mediators\":[\"Gangbangers\"]}"
+    },
+    "indirect": {
+      "call_id": "619a2b2312319ab142d5a4afefb7e39928617716b3b88744d3f6b35b2a3fd7a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states gangbangers killed a mother and now begin trial; killing precedes trial but does not cause it. No explicit or implicit causal words link X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "e3d046d9cb6cac0d638832372aea767ed93aa0d64e74e5be4b74344abd57086d",
+    "e3d046d9cb6cac0d638832372aea767ed93aa0d64e74e5be4b74344abd57086d",
+    "ecc8d0fd51a9b5936a85d257c7a68e1d0799d43fae328b5cbb3cad960d9bcadb",
+    "618297925012d8794b4c395d503c32cd4e07daae220bf8c5138a36d3f735c68b",
+    "d449cb8b15564b271822cc326216df3784c62daa14297a2faefcdce067e1e423",
+    "619a2b2312319ab142d5a4afefb7e39928617716b3b88744d3f6b35b2a3fd7a1"
+  ],
+  "elapsed_s": 4.353709936141968
+}

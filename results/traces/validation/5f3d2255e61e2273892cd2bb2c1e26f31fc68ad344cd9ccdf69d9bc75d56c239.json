@@ -1,0 +1,66 @@
+{
+  "input_hash": "5f3d2255e61e2273892cd2bb2c1e26f31fc68ad344cd9ccdf69d9bc75d56c239",
+  "sample_id": "ESC-CSV-01543",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "death row",
+    "Judge Philip Hickok",
+    "courtroom",
+    "case",
+    "life without parole",
+    "San Quentin State Prison"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9b48e8b20324a12a432a2f3c8cc99be705a31ecc8a74456b3e71f6a381cbcc92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9b48e8b20324a12a432a2f3c8cc99be705a31ecc8a74456b3e71f6a381cbcc92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c0acf437e7994edc76ee5ec437c3c667306d0dd8ae7dd73b8b6b586b3799dec4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d9166efda4e6bb2aef7bc65495213381726178a70808d33e6582ccd764361ed0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2554d8017461502e2862630f5cabad1f0d48f9ebcfd6c649b629beb175374a7e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"death row\",\"Judge Philip Hickok\",\"courtroom\",\"case\",\"life without parole\"],\"target_related\":[\"Orozco\",\"death row\",\"Judge Philip Hickok\",\"courtroom\",\"case\",\"life without parole\",\"San Quentin State Prison\"],\"mediators\":[\"Orozco\",\"death row\",\"Judge Philip Hickok\",\"courtroom\",\"case\",\"life without parole\",\"San Quentin State Prison\"]}"
+    },
+    "indirect": {
+      "call_id": "02a7a040bda5b4c7e072f39008983083ca9b901af2d02f763554b7b0714ad1b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The judge imposed a death sentence, which by common sense causes the defendant to face death; the sentence precedes the resulting death penalty.\"}"
+    }
+  },
+  "call_ids": [
+    "9b48e8b20324a12a432a2f3c8cc99be705a31ecc8a74456b3e71f6a381cbcc92",
+    "9b48e8b20324a12a432a2f3c8cc99be705a31ecc8a74456b3e71f6a381cbcc92",
+    "c0acf437e7994edc76ee5ec437c3c667306d0dd8ae7dd73b8b6b586b3799dec4",
+    "d9166efda4e6bb2aef7bc65495213381726178a70808d33e6582ccd764361ed0",
+    "2554d8017461502e2862630f5cabad1f0d48f9ebcfd6c649b629beb175374a7e",
+    "02a7a040bda5b4c7e072f39008983083ca9b901af2d02f763554b7b0714ad1b7"
+  ],
+  "elapsed_s": 6.2531256675720215
+}

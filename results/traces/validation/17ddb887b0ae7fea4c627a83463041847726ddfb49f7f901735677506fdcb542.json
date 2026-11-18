@@ -1,0 +1,65 @@
+{
+  "input_hash": "17ddb887b0ae7fea4c627a83463041847726ddfb49f7f901735677506fdcb542",
+  "sample_id": "ESC-CSV-02352",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "dead",
+    "Mich",
+    "office",
+    "police",
+    "suspect",
+    "worked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0391a6509abfc8e00d6740ee04a508d02be3275ec9a02797cf14dba835852993",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0391a6509abfc8e00d6740ee04a508d02be3275ec9a02797cf14dba835852993",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bbcbdc9dbe3fd5b61c16cc93178c0358dfe9e8e7c7c3b93c7a00f3e9b6bf56cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9c07559e24fc7e8de37da965a97cf95e4336003bc5fc277f48d6105c59c678aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3b4386d764438e77c678dc637bec5f330bd7ba0cbb74ee35babf6014c3ba7c92",
+      "status": "ok",
+      "text": "{\"source_related\":[\"dead\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\"],\"target_related\":[\"dead\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\"],\"mediators\":[\"dead\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\"]}"
+    },
+    "indirect": {
+      "call_id": "7450f12949d975641e28e63baf954596cc426798cd21512680ff77d097ab2ba9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting is commonly understood to cause people to be hurt; the shooting occurred and resulted in 2 hurt.\"}"
+    }
+  },
+  "call_ids": [
+    "0391a6509abfc8e00d6740ee04a508d02be3275ec9a02797cf14dba835852993",
+    "0391a6509abfc8e00d6740ee04a508d02be3275ec9a02797cf14dba835852993",
+    "bbcbdc9dbe3fd5b61c16cc93178c0358dfe9e8e7c7c3b93c7a00f3e9b6bf56cd",
+    "9c07559e24fc7e8de37da965a97cf95e4336003bc5fc277f48d6105c59c678aa",
+    "3b4386d764438e77c678dc637bec5f330bd7ba0cbb74ee35babf6014c3ba7c92",
+    "7450f12949d975641e28e63baf954596cc426798cd21512680ff77d097ab2ba9"
+  ],
+  "elapsed_s": 8.132939577102661
+}

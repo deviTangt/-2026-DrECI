@@ -1,0 +1,61 @@
+{
+  "input_hash": "7d2bac70b1a3b57f426bb262a0a2d5d383c5f88e87e514f5547a85dba472b64b",
+  "sample_id": "ESC-CSV-07013",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "arrested",
+    "California Highway Patrol"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f4d6210f703160a35696254c6ef2092c1166ea42d84bba8cd75dee0edad1886c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f4d6210f703160a35696254c6ef2092c1166ea42d84bba8cd75dee0edad1886c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aae523c269434ba4793a0039920dd9135621b62c7e769b0c3a14ef5a6aa53811",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c03cb25198265ee8808217a3ee3e6ff7bdddb0d9a72c685fecda829a7b0961af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "60c19bcaed1fc48a070423f20c968fd26e292b7cb37758393cd98ccebeb41d60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"arrested\",\"probation\",\"DUI\",\"California Highway Patrol\"],\"target_related\":[\"arrested\",\"previous DUI arrest\",\"California Highway Patrol\"],\"mediators\":[\"arrested\",\"California Highway Patrol\"]}"
+    },
+    "indirect": {
+      "call_id": "1bc7d9f1bead15012588398a52250a63dacb10191d4500f80a58a9d7b7e623a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states he was on probation for a previous DUI arrest, but no causal word or structure shows the prior arrest caused the probation.\"}"
+    }
+  },
+  "call_ids": [
+    "f4d6210f703160a35696254c6ef2092c1166ea42d84bba8cd75dee0edad1886c",
+    "f4d6210f703160a35696254c6ef2092c1166ea42d84bba8cd75dee0edad1886c",
+    "aae523c269434ba4793a0039920dd9135621b62c7e769b0c3a14ef5a6aa53811",
+    "c03cb25198265ee8808217a3ee3e6ff7bdddb0d9a72c685fecda829a7b0961af",
+    "60c19bcaed1fc48a070423f20c968fd26e292b7cb37758393cd98ccebeb41d60",
+    "1bc7d9f1bead15012588398a52250a63dacb10191d4500f80a58a9d7b7e623a9"
+  ],
+  "elapsed_s": 4.515897035598755
+}

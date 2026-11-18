@@ -1,0 +1,60 @@
+{
+  "input_hash": "5c88845648d71b72b1c18e43ea46a47651f69ebe307f032db72146fa754b5f53",
+  "sample_id": "ESC-CSV-09503",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "09b1d303c8b969f429241e78dc070acf0190929141f20b0c6d23cbcc96eb361f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "09b1d303c8b969f429241e78dc070acf0190929141f20b0c6d23cbcc96eb361f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "87c59235c6e2abfe4c2f8adc3af46bbd8cfe515ee6014e89d9b01cc2101a22b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "626c65283b11b8625a16fd98d2c48185eb0909f4c41fa7b987cb59515d5dd300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "03037fb38761b723a4ed3f4832d91c1563ef7882f0f1e7f8dd4e09717a44ecd2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"rocks\",\"petrol bombs\",\"officers\"],\"target_related\":[\"officers\",\"stun grenades\",\"tear gas\",\"Syntagma Square\"],\"mediators\":[\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "ba2a43508b43ea7a6d7cc040c6edab42dba7edbd7f8ebdc0c128ae304942731e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'who responded' with 'by' explicitly links the officers' response to the protesters' launching of rocks and petrol bombs; launching preceded and caused the response.\"}"
+    }
+  },
+  "call_ids": [
+    "09b1d303c8b969f429241e78dc070acf0190929141f20b0c6d23cbcc96eb361f",
+    "09b1d303c8b969f429241e78dc070acf0190929141f20b0c6d23cbcc96eb361f",
+    "87c59235c6e2abfe4c2f8adc3af46bbd8cfe515ee6014e89d9b01cc2101a22b1",
+    "626c65283b11b8625a16fd98d2c48185eb0909f4c41fa7b987cb59515d5dd300",
+    "03037fb38761b723a4ed3f4832d91c1563ef7882f0f1e7f8dd4e09717a44ecd2",
+    "ba2a43508b43ea7a6d7cc040c6edab42dba7edbd7f8ebdc0c128ae304942731e"
+  ],
+  "elapsed_s": 4.843754529953003
+}

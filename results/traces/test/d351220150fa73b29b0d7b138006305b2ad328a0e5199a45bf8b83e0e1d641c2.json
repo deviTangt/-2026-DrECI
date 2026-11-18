@@ -1,0 +1,61 @@
+{
+  "input_hash": "d351220150fa73b29b0d7b138006305b2ad328a0e5199a45bf8b83e0e1d641c2",
+  "sample_id": "ESC-CSV-06872",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang",
+    "member"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9315b149e827d12ac630c0958eda4a4959f582931b106046fd07793ceb6e8390",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9315b149e827d12ac630c0958eda4a4959f582931b106046fd07793ceb6e8390",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e824f533b060e4dea4fe1246b9ee60730c82d283a2f1dc2765caf7e22989f351",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "755481ec161eb445c51ac9ef4b6b4169d5fe40b8af3334f33ad85291acbaf773",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3a1cfa5d434a692df23c194145f9fdf7c8fd7278579ac7006e5c226655e1d1e8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"gang\",\"members\",\"rival\"],\"target_related\":[\"Gang\",\"member\",\"guilty\",\"Brooklyn\",\"mom\"],\"mediators\":[\"gang\",\"member\"]}"
+    },
+    "indirect": {
+      "call_id": "1b3c69d5d22aa68633ffcd29fa425bdfe1a106cbeaad46f5c47db2dec65cb388",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link 'targeted' to 'slay'; the shooting and the slaying are separate events without a stated causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "9315b149e827d12ac630c0958eda4a4959f582931b106046fd07793ceb6e8390",
+    "9315b149e827d12ac630c0958eda4a4959f582931b106046fd07793ceb6e8390",
+    "e824f533b060e4dea4fe1246b9ee60730c82d283a2f1dc2765caf7e22989f351",
+    "755481ec161eb445c51ac9ef4b6b4169d5fe40b8af3334f33ad85291acbaf773",
+    "3a1cfa5d434a692df23c194145f9fdf7c8fd7278579ac7006e5c226655e1d1e8",
+    "1b3c69d5d22aa68633ffcd29fa425bdfe1a106cbeaad46f5c47db2dec65cb388"
+  ],
+  "elapsed_s": 5.353386878967285
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "033aa58636402570acb39f2398ff86774fbe9d7b6730b74a7f3790d5f892eb73",
+  "sample_id": "ESC-CSV-09310",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank workers",
+    "killed",
+    "building",
+    "protests",
+    "Athens",
+    "austerity measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "43b94fde88c03d8f28db9216c465a6ab50f404f51c5674d179f9ea1b78b3d24a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "43b94fde88c03d8f28db9216c465a6ab50f404f51c5674d179f9ea1b78b3d24a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7412c572c2f754d6c9849cb82807e3cfdec4d4f531b1833c9895a103426ba6d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e4c2236a5ecfbc4e4062cccdb24949bd354b319ee18896d4b2f1d9ad111a699a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dbc466757c66a4729457618bbd6b5baa2881f7d73db14b799e1a5fbf6d3381cb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank workers\",\"killed\",\"building\",\"protests\",\"Athens\",\"austerity measures\"],\"target_related\":[\"building\",\"bank workers\",\"killed\",\"protests\",\"Athens\",\"austerity measures\"],\"mediators\":[\"bank workers\",\"killed\",\"building\",\"protests\",\"Athens\",\"austerity measures\"]}"
+    },
+    "indirect": {
+      "call_id": "9806027911e59c80a3b45959a4e233dc4aa8f06b8c9b1ca7d60daa42bc261c14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The building 'was torched during protests' — 'during' links the riot/protests to the torching, indicating the riot caused it.\"}"
+    }
+  },
+  "call_ids": [
+    "43b94fde88c03d8f28db9216c465a6ab50f404f51c5674d179f9ea1b78b3d24a",
+    "43b94fde88c03d8f28db9216c465a6ab50f404f51c5674d179f9ea1b78b3d24a",
+    "7412c572c2f754d6c9849cb82807e3cfdec4d4f531b1833c9895a103426ba6d4",
+    "e4c2236a5ecfbc4e4062cccdb24949bd354b319ee18896d4b2f1d9ad111a699a",
+    "dbc466757c66a4729457618bbd6b5baa2881f7d73db14b799e1a5fbf6d3381cb",
+    "9806027911e59c80a3b45959a4e233dc4aa8f06b8c9b1ca7d60daa42bc261c14"
+  ],
+  "elapsed_s": 4.499612808227539
+}

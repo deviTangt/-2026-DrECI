@@ -1,0 +1,65 @@
+{
+  "input_hash": "a7e268793871427acf804221f4a28204e56a897b9a41771b7723b8c54458f87e",
+  "sample_id": "ESC-CSV-04435",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "jewellery",
+    "watches",
+    "jewellery store",
+    "vehicle",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "55678eb9570d982fcfcfc900630d83b33fe1b712c73c7588cbb70f11e9c1fefe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "55678eb9570d982fcfcfc900630d83b33fe1b712c73c7588cbb70f11e9c1fefe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "acea80a5f4bffa727274534fd9158c3af82a95436aa04d58ecd0ad078f2319cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c2fbd2efbc8f819de155316082e29339752ffd68a6abb127866b3147d4f924c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bb7f7144dc91d359482cf34c0b30c0583ad9c14d5823627ec7b68c372327d850",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"4x4\",\"window\",\"store\",\"Rue de Castiglione\",\"jewellery\",\"watches\",\"car\",\"jewellery store\",\"vehicle\",\"France\"],\"target_related\":[\"men\",\"jewellery\",\"watches\",\"jewellery store\",\"vehicle\",\"France\"],\"mediators\":[\"men\",\"jewellery\",\"watches\",\"jewellery store\",\"vehicle\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "ad9b18bef8380bfaf6e4a0987b2063f0d4fed099a5afb202401ec37536111deb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving a 4x4 through the store window enabled the men to steal jewellery and watches, constituting the heist; the driving precedes and causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "55678eb9570d982fcfcfc900630d83b33fe1b712c73c7588cbb70f11e9c1fefe",
+    "55678eb9570d982fcfcfc900630d83b33fe1b712c73c7588cbb70f11e9c1fefe",
+    "acea80a5f4bffa727274534fd9158c3af82a95436aa04d58ecd0ad078f2319cc",
+    "c2fbd2efbc8f819de155316082e29339752ffd68a6abb127866b3147d4f924c3",
+    "bb7f7144dc91d359482cf34c0b30c0583ad9c14d5823627ec7b68c372327d850",
+    "ad9b18bef8380bfaf6e4a0987b2063f0d4fed099a5afb202401ec37536111deb"
+  ],
+  "elapsed_s": 5.169260501861572
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "84bba176d1df14ac6911fe410397ee902be0991bef61f3b0c0c90b869bcad598",
+  "sample_id": "ESC-CSV-04359",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ff0b7543a7cdfdb1d096e6fc52b366988bbd2da361795322cf4a65e9015c222d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ff0b7543a7cdfdb1d096e6fc52b366988bbd2da361795322cf4a65e9015c222d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ce2c1bef0525e548764e7047f8786b0e8d5355a94570e092262b5993b637d52f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "36d37e3bdde4e7b65e54b4d75c136c2c6b9ec6ca28db42c1585377b6f3d19a57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "effa9a803a47105c41eb035987812a42375437c2e609d56c205bd5f14dc4c18e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\"],\"target_related\":[\"shop\",\"window\"],\"mediators\":[\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "7eb1771f3e8eabe4daa11647672d92e3fc57da401bcb9ee9e1b46efd60b3508f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Driving the car into the store caused the window to smash; the car (Z) was driven into the store and smashed the window, forming a chain.\"}"
+    }
+  },
+  "call_ids": [
+    "ff0b7543a7cdfdb1d096e6fc52b366988bbd2da361795322cf4a65e9015c222d",
+    "ff0b7543a7cdfdb1d096e6fc52b366988bbd2da361795322cf4a65e9015c222d",
+    "ce2c1bef0525e548764e7047f8786b0e8d5355a94570e092262b5993b637d52f",
+    "36d37e3bdde4e7b65e54b4d75c136c2c6b9ec6ca28db42c1585377b6f3d19a57",
+    "effa9a803a47105c41eb035987812a42375437c2e609d56c205bd5f14dc4c18e",
+    "7eb1771f3e8eabe4daa11647672d92e3fc57da401bcb9ee9e1b46efd60b3508f"
+  ],
+  "elapsed_s": 4.19346809387207
+}

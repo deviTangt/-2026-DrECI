@@ -1,0 +1,65 @@
+{
+  "input_hash": "b825ffcd997ffa527814416f200796d60ef6b3340a993f24161a5337a4fd148c",
+  "sample_id": "ESC-CSV-02248",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "Detroit",
+    "accounting",
+    "firm",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "58fa1ccb52cbd17a34c1d2002601256f9c2f6b34031431ca443cff5d43fbd65b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "58fa1ccb52cbd17a34c1d2002601256f9c2f6b34031431ca443cff5d43fbd65b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d03e316a4186efe6d3875c6c89a4c1fb5b8b6c29b72dd518b732db8195d5451d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7487598b518d7c8c905b958ea4c85806e66c591668537587637dc1e551500348",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "35d13cdcfe9c2fb154ec76f9bfe111bb88aa870c5d3054de4f910f3824f52a66",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"accounting\",\"firm\",\"Detroit\",\"police\"],\"target_related\":[\"Michigan\",\"man\",\"person\",\"others\",\"Detroit\",\"accounting\",\"firm\",\"shooting\",\"police\"],\"mediators\":[\"Michigan\",\"man\",\"Detroit\",\"accounting\",\"firm\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "278959c1956034388fbbacc6b8483b22a75b4ca2061874964d9d50dfaddc6372",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired last week preceded and motivated the shooting that injured two people, so X causes Y by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "58fa1ccb52cbd17a34c1d2002601256f9c2f6b34031431ca443cff5d43fbd65b",
+    "58fa1ccb52cbd17a34c1d2002601256f9c2f6b34031431ca443cff5d43fbd65b",
+    "d03e316a4186efe6d3875c6c89a4c1fb5b8b6c29b72dd518b732db8195d5451d",
+    "7487598b518d7c8c905b958ea4c85806e66c591668537587637dc1e551500348",
+    "35d13cdcfe9c2fb154ec76f9bfe111bb88aa870c5d3054de4f910f3824f52a66",
+    "278959c1956034388fbbacc6b8483b22a75b4ca2061874964d9d50dfaddc6372"
+  ],
+  "elapsed_s": 8.232103824615479
+}

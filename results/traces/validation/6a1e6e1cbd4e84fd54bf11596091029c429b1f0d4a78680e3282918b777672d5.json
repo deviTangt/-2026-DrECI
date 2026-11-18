@@ -1,0 +1,61 @@
+{
+  "input_hash": "6a1e6e1cbd4e84fd54bf11596091029c429b1f0d4a78680e3282918b777672d5",
+  "sample_id": "ESC-CSV-02179",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "38e7672934507ef0a46226a300624565a18ee99d2642b43ed0b5adfc53e91f33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "38e7672934507ef0a46226a300624565a18ee99d2642b43ed0b5adfc53e91f33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3b1fbcc3ae93f95b77c9ced71de304e8cd37b8f10c5f5de368acd6260fbcf538",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9eead24998fc370c405c4cfd55ee60bc925c3a876081ac53a568423d6a50bcad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "07d14783f2479d536c9535061d2a6e68cbf18ee329d2bd59aa03b1aeb157e850",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\"],\"target_related\":[\"Monday\",\"shot\",\"dead\",\"wounded\"],\"mediators\":[\"shot\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "0204e2e682fb52030449a9eb0d92d9b946006b9d4d97d74286aa03e27f6871cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Violence occurred first; being shot during the violence caused the managers to be wounded, so violence precedes and causes wounded.\"}"
+    }
+  },
+  "call_ids": [
+    "38e7672934507ef0a46226a300624565a18ee99d2642b43ed0b5adfc53e91f33",
+    "38e7672934507ef0a46226a300624565a18ee99d2642b43ed0b5adfc53e91f33",
+    "3b1fbcc3ae93f95b77c9ced71de304e8cd37b8f10c5f5de368acd6260fbcf538",
+    "9eead24998fc370c405c4cfd55ee60bc925c3a876081ac53a568423d6a50bcad",
+    "07d14783f2479d536c9535061d2a6e68cbf18ee329d2bd59aa03b1aeb157e850",
+    "0204e2e682fb52030449a9eb0d92d9b946006b9d4d97d74286aa03e27f6871cc"
+  ],
+  "elapsed_s": 6.145726919174194
+}

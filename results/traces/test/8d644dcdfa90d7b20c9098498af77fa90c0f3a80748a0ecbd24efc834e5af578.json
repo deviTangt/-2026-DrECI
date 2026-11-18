@@ -1,0 +1,62 @@
+{
+  "input_hash": "8d644dcdfa90d7b20c9098498af77fa90c0f3a80748a0ecbd24efc834e5af578",
+  "sample_id": "ESC-CSV-06822",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "face",
+    "chest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cde6018dd42eb30b7db315ff15321394368ed90dd5ccbd5de78f21bde8fff4c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cde6018dd42eb30b7db315ff15321394368ed90dd5ccbd5de78f21bde8fff4c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6427f3f714a925e96bec1d816d6ede42290e412efa8c83803e7f896ff12126dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e99aab04cf2e062e65e202fd4a8aafc88b3073516b37004bf748da7076517f9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9eeaebe635d9417e44f7d1d49ad394b0aa585b334e68e9cd7e1a32dfbf645922",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"face\",\"chest\",\"gunfire\",\"students\"],\"target_related\":[\"Horton\",\"instantly\",\"shot\",\"face\",\"chest\"],\"mediators\":[\"Horton\",\"face\",\"chest\"]}"
+    },
+    "indirect": {
+      "call_id": "a137bd1b8d4970d4aecdb14ab82f8189f77a0a7c12ba29a5085bb8d40814ec68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died instantly from a shot' — 'from' explicitly links the shot as cause of death; common sense also holds a shot to face/chest causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "cde6018dd42eb30b7db315ff15321394368ed90dd5ccbd5de78f21bde8fff4c6",
+    "cde6018dd42eb30b7db315ff15321394368ed90dd5ccbd5de78f21bde8fff4c6",
+    "6427f3f714a925e96bec1d816d6ede42290e412efa8c83803e7f896ff12126dc",
+    "e99aab04cf2e062e65e202fd4a8aafc88b3073516b37004bf748da7076517f9d",
+    "9eeaebe635d9417e44f7d1d49ad394b0aa585b334e68e9cd7e1a32dfbf645922",
+    "a137bd1b8d4970d4aecdb14ab82f8189f77a0a7c12ba29a5085bb8d40814ec68"
+  ],
+  "elapsed_s": 4.384705543518066
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "dd335fc235155d5520696fa24a48651abb03b5337a936f50d5fa1ad3e0b047e9",
+  "sample_id": "ESC-CSV-06936",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "City Attorney's Office",
+    "considering",
+    "file",
+    "Chargers",
+    "defensive lineman",
+    "Jamal Williams",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8b78dde3d076820e3b1e74c1aecd89edb69cc382aafbca1608d242b0255c4e40",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8b78dde3d076820e3b1e74c1aecd89edb69cc382aafbca1608d242b0255c4e40",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6a603c9b03b706f0d95e9b899170d0facde5cee9dd5a8d3cc99f9eac0f88432c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5693932be6d6fec5431684adcd410f4356be2dab31121efdbcb478b089f93096",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2a07b0b26d411b234da81d9b38988f9f181d72537d9a2fae92cbecca2d318ae2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"City Attorney's Office\",\"considering\",\"file\",\"Chargers\",\"defensive lineman\",\"Jamal Williams\",\"DUI\"],\"target_related\":[\"City Attorney's Office\",\"considering\",\"file\",\"Chargers\",\"defensive lineman\",\"Jamal Williams\",\"DUI\"],\"mediators\":[\"City Attorney's Office\",\"considering\",\"file\",\"Chargers\",\"defensive lineman\",\"Jamal Williams\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "a5043e520d22a930f5ceaf45cde55e07151c844e1a82a171a38f31e6be6d18b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Filing misdemeanor drunken-driving charges means the misdemeanor drunken driving is the basis for the charges; X precedes and causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8b78dde3d076820e3b1e74c1aecd89edb69cc382aafbca1608d242b0255c4e40",
+    "8b78dde3d076820e3b1e74c1aecd89edb69cc382aafbca1608d242b0255c4e40",
+    "6a603c9b03b706f0d95e9b899170d0facde5cee9dd5a8d3cc99f9eac0f88432c",
+    "5693932be6d6fec5431684adcd410f4356be2dab31121efdbcb478b089f93096",
+    "2a07b0b26d411b234da81d9b38988f9f181d72537d9a2fae92cbecca2d318ae2",
+    "a5043e520d22a930f5ceaf45cde55e07151c844e1a82a171a38f31e6be6d18b4"
+  ],
+  "elapsed_s": 4.746155500411987
+}

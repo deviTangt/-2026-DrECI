@@ -1,0 +1,61 @@
+{
+  "input_hash": "39e0faf00f6514fc51e73f8a673a79de7d2a1c5fd2177babd20eecd9a1e1900f",
+  "sample_id": "ESC-CSV-07136",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "suspicion",
+    "drunk driving"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "68569e12e193effb31ca9f19ffd1d6c79818cf1ab0de5fba77cf8da9a7c18cb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "68569e12e193effb31ca9f19ffd1d6c79818cf1ab0de5fba77cf8da9a7c18cb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7ebc3b6f7170ee1855cae05f592f42cff02f40666a7d10b618b17ddcc35a3e51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "05352487a1f84fff7755653e4c7361d303630949674bbbbb5ab05e608763d1eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9beae311fadeb502ad386947d0b217ea4f790ca2942cc6475425e6368a382567",
+      "status": "ok",
+      "text": "{\"source_related\":[\"drunk\",\"driving\",\"suspicion\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"suspicion\",\"drunk driving\"],\"mediators\":[\"suspicion\",\"drunk driving\"]}"
+    },
+    "indirect": {
+      "call_id": "4bb63524fd567bc38ebc7923d79a134caae9a87fe1b501850a57313bad0ea661",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drunk driving (DUI) commonly leads to arrest; the text states he was arrested on suspicion of drunk driving, implying DUI caused the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "68569e12e193effb31ca9f19ffd1d6c79818cf1ab0de5fba77cf8da9a7c18cb6",
+    "68569e12e193effb31ca9f19ffd1d6c79818cf1ab0de5fba77cf8da9a7c18cb6",
+    "7ebc3b6f7170ee1855cae05f592f42cff02f40666a7d10b618b17ddcc35a3e51",
+    "05352487a1f84fff7755653e4c7361d303630949674bbbbb5ab05e608763d1eb",
+    "9beae311fadeb502ad386947d0b217ea4f790ca2942cc6475425e6368a382567",
+    "4bb63524fd567bc38ebc7923d79a134caae9a87fe1b501850a57313bad0ea661"
+  ],
+  "elapsed_s": 5.05980920791626
+}

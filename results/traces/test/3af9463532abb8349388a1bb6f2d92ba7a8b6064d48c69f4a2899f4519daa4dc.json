@@ -1,0 +1,68 @@
+{
+  "input_hash": "3af9463532abb8349388a1bb6f2d92ba7a8b6064d48c69f4a2899f4519daa4dc",
+  "sample_id": "ESC-CSV-09221",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "storm",
+    "parliament",
+    "riot",
+    "police",
+    "austerity",
+    "bill",
+    "violence",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dda02d9a727066c3892d680359d51f9f50a114b1f4d49fb53bcf22092c1bcfe7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dda02d9a727066c3892d680359d51f9f50a114b1f4d49fb53bcf22092c1bcfe7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "509c115634a02e12a158fa49105b2be74a3814627bc018882920052c26e0b63d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "110a6e261b8ab30cdbd7fc51f65acdfd0a846ce2e2daaaafb1a3df616033e385",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e87e6a538c2d6fd1f916eb23d7bedb6f8c96f697caf1bd4d7837331d9cbe9aa2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"storm\",\"parliament\",\"riot\",\"police\",\"austerity\",\"bill\",\"violence\",\"dead\"],\"target_related\":[\"Protesters\",\"storm\",\"parliament\",\"riot\",\"police\",\"austerity\",\"bill\",\"violence\",\"dead\"],\"mediators\":[\"Protesters\",\"storm\",\"parliament\",\"riot\",\"police\",\"austerity\",\"bill\",\"violence\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "0eef66a0cc1ad6a309bcc6a4dfc494654faff559de8d4874883878a8fb84569b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The march and the pushing back of protesters are separate events; no explicit or implicit causal word links them, and common sense does not make the march cause the pushback.\"}"
+    }
+  },
+  "call_ids": [
+    "dda02d9a727066c3892d680359d51f9f50a114b1f4d49fb53bcf22092c1bcfe7",
+    "dda02d9a727066c3892d680359d51f9f50a114b1f4d49fb53bcf22092c1bcfe7",
+    "509c115634a02e12a158fa49105b2be74a3814627bc018882920052c26e0b63d",
+    "110a6e261b8ab30cdbd7fc51f65acdfd0a846ce2e2daaaafb1a3df616033e385",
+    "e87e6a538c2d6fd1f916eb23d7bedb6f8c96f697caf1bd4d7837331d9cbe9aa2",
+    "0eef66a0cc1ad6a309bcc6a4dfc494654faff559de8d4874883878a8fb84569b"
+  ],
+  "elapsed_s": 5.965874671936035
+}

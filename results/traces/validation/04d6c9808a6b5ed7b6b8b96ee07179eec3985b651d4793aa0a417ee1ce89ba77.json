@@ -1,0 +1,68 @@
+{
+  "input_hash": "04d6c9808a6b5ed7b6b8b96ee07179eec3985b651d4793aa0a417ee1ce89ba77",
+  "sample_id": "ESC-CSV-01705",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Hawaiian Gardens",
+    "gang",
+    "member",
+    "accused",
+    "gunning",
+    "Deputy",
+    "Luis Gerardo",
+    "Jerry",
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2f58ff9f579102ba199ec2f083661dab6123508a1ec664ef4b7925013873457b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2f58ff9f579102ba199ec2f083661dab6123508a1ec664ef4b7925013873457b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e81010db0a198d939e5bd030fa3eee0833206f26de63fddafdb23a92d781f47e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "adf14740933f4c7b2a34d74b0e46a621389e988b6a077a69c49e12e16fa9b902",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "670a1b77459d1fed9c9eb2d1bbd2e783510442e23adb01ab2bd117f04f6e963b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Sheriff\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"Ortiz\",\"gunning\",\"accused\",\"gang\",\"member\",\"Hawaiian Gardens\"],\"target_related\":[\"charges\",\"capital\",\"murder\",\"District Attorney\",\"Steve Cooley\",\"announced\",\"Hawaiian Gardens\",\"gang\",\"member\",\"accused\",\"gunning\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"Ortiz\"],\"mediators\":[\"Hawaiian Gardens\",\"gang\",\"member\",\"accused\",\"gunning\",\"Deputy\",\"Luis Gerardo\",\"Jerry\",\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "74573d6bbe2f82256a79103eb69ce44fd5418bb1890823cb9cf6efc508f659e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Charges were filed against a gang member accused of gunning down Deputy Ortiz; 'accused of' links the murdering to the filing.\"}"
+    }
+  },
+  "call_ids": [
+    "2f58ff9f579102ba199ec2f083661dab6123508a1ec664ef4b7925013873457b",
+    "2f58ff9f579102ba199ec2f083661dab6123508a1ec664ef4b7925013873457b",
+    "e81010db0a198d939e5bd030fa3eee0833206f26de63fddafdb23a92d781f47e",
+    "adf14740933f4c7b2a34d74b0e46a621389e988b6a077a69c49e12e16fa9b902",
+    "670a1b77459d1fed9c9eb2d1bbd2e783510442e23adb01ab2bd117f04f6e963b",
+    "74573d6bbe2f82256a79103eb69ce44fd5418bb1890823cb9cf6efc508f659e8"
+  ],
+  "elapsed_s": 5.446699857711792
+}

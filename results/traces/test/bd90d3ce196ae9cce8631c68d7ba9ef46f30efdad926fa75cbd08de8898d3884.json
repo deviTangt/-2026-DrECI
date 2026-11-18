@@ -1,0 +1,64 @@
+{
+  "input_hash": "bd90d3ce196ae9cce8631c68d7ba9ef46f30efdad926fa75cbd08de8898d3884",
+  "sample_id": "ESC-CSV-04386",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "thieves",
+    "car"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e81d62645b6c5d4c57f2f031be5e75515a6edfa0dcee7043d2fa51e3482a36fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e81d62645b6c5d4c57f2f031be5e75515a6edfa0dcee7043d2fa51e3482a36fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "47e455c5b5ced90363e28951384c57e5d39803c7599e39d303c9e7d52ab8ee62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "45f818f28959bd7f4e2531b69645a810f281e746982aad5ccc504de52143d3ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e3ccdde6c804eb5488334aeb0e3a1405e34220874b16a1795ced268e7b5a8bec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"store\",\"thieves\",\"car\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"car\",\"vehicle\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"car\"]}"
+    },
+    "indirect": {
+      "call_id": "a36653605c89eb07df2f6e2a704c8dd496ce543db3d125362523d7ca3009f4f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the store display enabled the robbers to take the jewelry and watches, after which they made off; the smash precedes and enables making off.\"}"
+    }
+  },
+  "call_ids": [
+    "e81d62645b6c5d4c57f2f031be5e75515a6edfa0dcee7043d2fa51e3482a36fd",
+    "e81d62645b6c5d4c57f2f031be5e75515a6edfa0dcee7043d2fa51e3482a36fd",
+    "47e455c5b5ced90363e28951384c57e5d39803c7599e39d303c9e7d52ab8ee62",
+    "45f818f28959bd7f4e2531b69645a810f281e746982aad5ccc504de52143d3ce",
+    "e3ccdde6c804eb5488334aeb0e3a1405e34220874b16a1795ced268e7b5a8bec",
+    "a36653605c89eb07df2f6e2a704c8dd496ce543db3d125362523d7ca3009f4f8"
+  ],
+  "elapsed_s": 3.7513620853424072
+}

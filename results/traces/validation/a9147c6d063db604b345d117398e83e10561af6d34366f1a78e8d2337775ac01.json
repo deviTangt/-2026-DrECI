@@ -1,0 +1,61 @@
+{
+  "input_hash": "a9147c6d063db604b345d117398e83e10561af6d34366f1a78e8d2337775ac01",
+  "sample_id": "ESC-CSV-01526",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "San Quentin State Prison",
+    "Orozco"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "76381ba5ca91f277826c66f7c5895e68298a032b05c802183956cbb381311124",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "76381ba5ca91f277826c66f7c5895e68298a032b05c802183956cbb381311124",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ff086c8b736ee7afe66b1ae30762c8b32306133b7ec913c1f3d29e027061c5d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1c7a63aa0ab5fda0e68e7d1395830709b2c5882aa8a51bb2db3b94dcd244f9d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "58b09cb335135c1b5aaacf764c07a6ad0610edb0bbd61c4483e35813d9410bd7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"county jail\",\"San Quentin State Prison\",\"10 days\",\"Orozco\"],\"target_related\":[\"death row\",\"appeal\",\"San Quentin State Prison\",\"Orozco\"],\"mediators\":[\"San Quentin State Prison\",\"Orozco\"]}"
+    },
+    "indirect": {
+      "call_id": "7165b2c71ef2760d901f48aacb7cb8060adb027fd108de7be94d1169b96162c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Transfer to San Quentin precedes awaiting appeal on death row, but the text does not state that being transferred causes him to await the appeal.\"}"
+    }
+  },
+  "call_ids": [
+    "76381ba5ca91f277826c66f7c5895e68298a032b05c802183956cbb381311124",
+    "76381ba5ca91f277826c66f7c5895e68298a032b05c802183956cbb381311124",
+    "ff086c8b736ee7afe66b1ae30762c8b32306133b7ec913c1f3d29e027061c5d4",
+    "1c7a63aa0ab5fda0e68e7d1395830709b2c5882aa8a51bb2db3b94dcd244f9d3",
+    "58b09cb335135c1b5aaacf764c07a6ad0610edb0bbd61c4483e35813d9410bd7",
+    "7165b2c71ef2760d901f48aacb7cb8060adb027fd108de7be94d1169b96162c5"
+  ],
+  "elapsed_s": 6.158576011657715
+}

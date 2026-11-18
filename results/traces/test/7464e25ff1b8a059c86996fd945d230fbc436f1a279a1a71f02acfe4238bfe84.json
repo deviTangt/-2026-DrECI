@@ -1,0 +1,65 @@
+{
+  "input_hash": "7464e25ff1b8a059c86996fd945d230fbc436f1a279a1a71f02acfe4238bfe84",
+  "sample_id": "ESC-CSV-09813",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Hooded youths",
+    "hurled",
+    "petrol bombs",
+    "stores",
+    "businesses",
+    "Greek capital"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "19c8c894f2391f635795e4f92cf7e7de5c80fa5e0046d41f513e18e246aa4e28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "19c8c894f2391f635795e4f92cf7e7de5c80fa5e0046d41f513e18e246aa4e28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "af9f5ebc97bde8d5fbe81758ed47bf1b6b2de8ff810bd5ea02e80f7cbe1d0735",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f0e688d87629859387f386552d26b3655a6c3ce5c20d4efafa5d57a660dae81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ac48c9fd9a1b6cfc065243606931ed7363d4c737d034758d67dce2378f7d44b4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"three people\",\"man\",\"two women\",\"killed\",\"fire-bomb\",\"Hooded youths\",\"hurled\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\"],\"target_related\":[\"Hooded youths\",\"hurled\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\",\"bank\",\"two government buildings\"],\"mediators\":[\"Hooded youths\",\"hurled\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\"]}"
+    },
+    "indirect": {
+      "call_id": "47e92053e178850b2848c786f078646fbbb087cdc616a4823b986e3538f0c76f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fire-bomb attack (X) occurred before and caused the setting ablaze (Y) of the bank and buildings; common sense supports attack causing fire.\"}"
+    }
+  },
+  "call_ids": [
+    "19c8c894f2391f635795e4f92cf7e7de5c80fa5e0046d41f513e18e246aa4e28",
+    "19c8c894f2391f635795e4f92cf7e7de5c80fa5e0046d41f513e18e246aa4e28",
+    "af9f5ebc97bde8d5fbe81758ed47bf1b6b2de8ff810bd5ea02e80f7cbe1d0735",
+    "0f0e688d87629859387f386552d26b3655a6c3ce5c20d4efafa5d57a660dae81",
+    "ac48c9fd9a1b6cfc065243606931ed7363d4c737d034758d67dce2378f7d44b4",
+    "47e92053e178850b2848c786f078646fbbb087cdc616a4823b986e3538f0c76f"
+  ],
+  "elapsed_s": 4.920116901397705
+}

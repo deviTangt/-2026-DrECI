@@ -1,0 +1,63 @@
+{
+  "input_hash": "f90f31c05f5921233c8002532baaf1f175237ffe46aada5512f394871b93a178",
+  "sample_id": "ESC-CSV-02657",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Kimani",
+    "Gray",
+    "Saturday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3c76302625a950d52e63e7292ae20eb2a7a7db249be1d0986d3da4883b46aa20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3c76302625a950d52e63e7292ae20eb2a7a7db249be1d0986d3da4883b46aa20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9c2ca2bbaf324aa3a71731aa640ae01db37d8e534fc7e07fa1a784d902686bef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d4a587d2f98b4eb4343e7c155484261f0dd0342b4adf47057a45f9e3eadc86be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "45cac227690061b8cbf03d20dc22844385fdb7672c925f58456ceae7ba964165",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"bullets\",\"Kimani\",\"Gray\",\"fatally\",\"wounded\",\"Saturday\",\"gun\"],\"target_related\":[\"mourners\",\"cops\",\"clashed\",\"tossing\",\"bottles\",\"angry\",\"protest\",\"vigil\"],\"mediators\":[\"police\",\"Kimani\",\"Gray\",\"Saturday\"]}"
+    },
+    "indirect": {
+      "call_id": "a0a6be13e12d783c13dcaa8a863fe6f32e4a0358965e8984dc8d7e640fe544a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Kimani Gray was killed by police; his vigil turned into a melee, forming chain: killing -> vigil/mourning -> melee.\"}"
+    }
+  },
+  "call_ids": [
+    "3c76302625a950d52e63e7292ae20eb2a7a7db249be1d0986d3da4883b46aa20",
+    "3c76302625a950d52e63e7292ae20eb2a7a7db249be1d0986d3da4883b46aa20",
+    "9c2ca2bbaf324aa3a71731aa640ae01db37d8e534fc7e07fa1a784d902686bef",
+    "d4a587d2f98b4eb4343e7c155484261f0dd0342b4adf47057a45f9e3eadc86be",
+    "45cac227690061b8cbf03d20dc22844385fdb7672c925f58456ceae7ba964165",
+    "a0a6be13e12d783c13dcaa8a863fe6f32e4a0358965e8984dc8d7e640fe544a8"
+  ],
+  "elapsed_s": 4.866615056991577
+}

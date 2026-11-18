@@ -1,0 +1,61 @@
+{
+  "input_hash": "4d32ac114d8ec4ce05d8c380d9dd24b9415f03ef9f159509304cab3b7f3f064d",
+  "sample_id": "ESC-CSV-02539",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a1dad279d263242717c082f907b36a3437e403d7e70fc563f5bdd28b7b304846",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a1dad279d263242717c082f907b36a3437e403d7e70fc563f5bdd28b7b304846",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a4fc7d5b90d51f2f0539b3cca7e8b92b1034eac3f47aaf436526f33b41282e3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "440d4e47053b472c6267bdd0f7eed42831825bdb64996ea5962d7ee3277c4514",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4c40604ae8f2c54d0e38e732d92008da195a23f04b8663a9b57c9033932d9ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"vigil\",\"Police\"],\"target_related\":[\"Police\",\"crowd\"],\"mediators\":[\"crowd\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "89354bb2fa2bc2fabbba87b45a30c1beab0ad1949ae480522b1fc08f2bf6116a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The crowd broke away from the vigil; police struggled to control it. No causal word or structure links 'broke away' to 'control'; they are separate descriptions.\"}"
+    }
+  },
+  "call_ids": [
+    "a1dad279d263242717c082f907b36a3437e403d7e70fc563f5bdd28b7b304846",
+    "a1dad279d263242717c082f907b36a3437e403d7e70fc563f5bdd28b7b304846",
+    "a4fc7d5b90d51f2f0539b3cca7e8b92b1034eac3f47aaf436526f33b41282e3a",
+    "440d4e47053b472c6267bdd0f7eed42831825bdb64996ea5962d7ee3277c4514",
+    "c4c40604ae8f2c54d0e38e732d92008da195a23f04b8663a9b57c9033932d9ae",
+    "89354bb2fa2bc2fabbba87b45a30c1beab0ad1949ae480522b1fc08f2bf6116a"
+  ],
+  "elapsed_s": 9.83167314529419
+}

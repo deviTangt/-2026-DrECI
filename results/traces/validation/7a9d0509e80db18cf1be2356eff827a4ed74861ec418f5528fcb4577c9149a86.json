@@ -1,0 +1,61 @@
+{
+  "input_hash": "7a9d0509e80db18cf1be2356eff827a4ed74861ec418f5528fcb4577c9149a86",
+  "sample_id": "ESC-CSV-02348",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "suspected"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d0e0eb735a03f61c3fb963dc77578377d85389108cecd37bb6ff036450b29f77",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d0e0eb735a03f61c3fb963dc77578377d85389108cecd37bb6ff036450b29f77",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3a9c6c4aa4dd00bdf207107ae0806c36d3e806d0eeb16745743c66624722b837",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "16ac23d8703beed22d67ba93c6deb3e036f30527ce5e9476f925372c72e70165",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "74d9829fd1e64fb87f511c7f648da911ef753545e452d805b43a990be41d7655",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"three\",\"people\",\"accounting\",\"firm\",\"worked\"],\"target_related\":[\"man\",\"suspected\",\"hours\",\"later\",\"high-speed\",\"chase\",\"authorities\"],\"mediators\":[\"man\",\"suspected\"]}"
+    },
+    "indirect": {
+      "call_id": "1979758c383a7d04e00996173b8674893be6b920d62f1b0e27d830fddc5e86b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the suspect was arrested a few hours later; the shooting led to the arrest after a chase.\"}"
+    }
+  },
+  "call_ids": [
+    "d0e0eb735a03f61c3fb963dc77578377d85389108cecd37bb6ff036450b29f77",
+    "d0e0eb735a03f61c3fb963dc77578377d85389108cecd37bb6ff036450b29f77",
+    "3a9c6c4aa4dd00bdf207107ae0806c36d3e806d0eeb16745743c66624722b837",
+    "16ac23d8703beed22d67ba93c6deb3e036f30527ce5e9476f925372c72e70165",
+    "74d9829fd1e64fb87f511c7f648da911ef753545e452d805b43a990be41d7655",
+    "1979758c383a7d04e00996173b8674893be6b920d62f1b0e27d830fddc5e86b6"
+  ],
+  "elapsed_s": 7.677699327468872
+}

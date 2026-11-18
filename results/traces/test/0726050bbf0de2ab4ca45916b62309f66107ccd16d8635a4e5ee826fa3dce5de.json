@@ -1,0 +1,61 @@
+{
+  "input_hash": "0726050bbf0de2ab4ca45916b62309f66107ccd16d8635a4e5ee826fa3dce5de",
+  "sample_id": "ESC-CSV-06931",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang member",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad291671299055fae9c9ff5bbb607f669f995e1ef9430d44cb1ee7ba34332648",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad291671299055fae9c9ff5bbb607f669f995e1ef9430d44cb1ee7ba34332648",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4546a94a547eb6562bffa3bf9a35be20ad0f89d18eeae41cf696c09adde804e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "15f6703d3b65227a68eb5abf30016c7b1d926e932126bf0ce3157b676b116333",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4031b386851fabf1d7ff18a2d7665bb47494ccfc0326f4655571caffa1cfb172",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"mother\",\"sprayed\",\"bullets\",\"Brooklyn\",\"rooftop\",\"shooting\"],\"target_related\":[\"gang member\",\"panel\",\"Lopez\",\"confessed\",\"shooting\"],\"mediators\":[\"gang member\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "d14c72d2fbe63001c9d8f638495928ba7eb5698c4bda268e30de1c27cfc5c524",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Claiming a life (killing) precedes and causes the conviction; common sense: the killing led to him being convicted.\"}"
+    }
+  },
+  "call_ids": [
+    "ad291671299055fae9c9ff5bbb607f669f995e1ef9430d44cb1ee7ba34332648",
+    "ad291671299055fae9c9ff5bbb607f669f995e1ef9430d44cb1ee7ba34332648",
+    "4546a94a547eb6562bffa3bf9a35be20ad0f89d18eeae41cf696c09adde804e0",
+    "15f6703d3b65227a68eb5abf30016c7b1d926e932126bf0ce3157b676b116333",
+    "4031b386851fabf1d7ff18a2d7665bb47494ccfc0326f4655571caffa1cfb172",
+    "d14c72d2fbe63001c9d8f638495928ba7eb5698c4bda268e30de1c27cfc5c524"
+  ],
+  "elapsed_s": 4.911149024963379
+}

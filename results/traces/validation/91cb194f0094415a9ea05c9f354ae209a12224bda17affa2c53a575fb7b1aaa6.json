@@ -1,0 +1,69 @@
+{
+  "input_hash": "91cb194f0094415a9ea05c9f354ae209a12224bda17affa2c53a575fb7b1aaa6",
+  "sample_id": "ESC-CSV-01524",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "die",
+    "crimes",
+    "death sentence",
+    "appealed",
+    "California Supreme Court",
+    "transferred",
+    "county jail",
+    "San Quentin State Prison",
+    "death row"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4adb4aa1033877ff65e88a7833fcb6cd625942639adf3f3a5f90dec1d89eff7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4adb4aa1033877ff65e88a7833fcb6cd625942639adf3f3a5f90dec1d89eff7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5136b614f120de1f9bee4ec9de5e041ef9e604fff8621b028d54eff5aeceb40b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d8c4d665ce4b93616f0d7737c30838a86d2b3b5f7379c96717918b0e835e575f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "01c33f0bcc91020e5bde65b983760463299a6c12b794c024c2bac948ae86ce65",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"Jose Luis Orozco\",\"die\",\"crimes\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"death row\"],\"target_related\":[\"Jose Luis Orozco\",\"die\",\"crimes\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"death row\"],\"mediators\":[\"Jose Luis Orozco\",\"die\",\"crimes\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"death row\"]}"
+    },
+    "indirect": {
+      "call_id": "4f3193b5c7a55ca77059b81172db3958dbcf6116bb20999897dddf15146d8ca8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The jury's recommendation that Orozco die; the recommendation directly leads to the death sentence, expressed by 'recommendation that ... die'.\"}"
+    }
+  },
+  "call_ids": [
+    "4adb4aa1033877ff65e88a7833fcb6cd625942639adf3f3a5f90dec1d89eff7b",
+    "4adb4aa1033877ff65e88a7833fcb6cd625942639adf3f3a5f90dec1d89eff7b",
+    "5136b614f120de1f9bee4ec9de5e041ef9e604fff8621b028d54eff5aeceb40b",
+    "d8c4d665ce4b93616f0d7737c30838a86d2b3b5f7379c96717918b0e835e575f",
+    "01c33f0bcc91020e5bde65b983760463299a6c12b794c024c2bac948ae86ce65",
+    "4f3193b5c7a55ca77059b81172db3958dbcf6116bb20999897dddf15146d8ca8"
+  ],
+  "elapsed_s": 5.6031880378723145
+}

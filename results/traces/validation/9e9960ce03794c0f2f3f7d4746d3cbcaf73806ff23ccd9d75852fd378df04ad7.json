@@ -1,0 +1,62 @@
+{
+  "input_hash": "9e9960ce03794c0f2f3f7d4746d3cbcaf73806ff23ccd9d75852fd378df04ad7",
+  "sample_id": "ESC-CSV-02737",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "neighborhood",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0b72bb0c77a37b197eb21eb96276da29ed671e550ce9bc9b1817612b4c93c1ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0b72bb0c77a37b197eb21eb96276da29ed671e550ce9bc9b1817612b4c93c1ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "438b48f3fa6568d78072453911c9cfdd1887643b3f3aa87537fcaf707646b3ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "56739492e4d62724a45c0601524bb3e615c6ac50c8e6771989cb7f14a6e0d703",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9ff85cc74ccf2e73e811ea9819ff9f386fc5cbb5ddf01988340ada623466ef25",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"neighborhood\",\"police\"],\"target_related\":[\"Brooklyn\",\"neighborhood\",\"police\"],\"mediators\":[\"Brooklyn\",\"neighborhood\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "63e724be8c47d94b4b831fc340a7b046c607537f4d8ea91ace288aa17f6fe01a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'following protest' uses 'following' to indicate the lockdown came after and because of the protest, expressing explicit causation.\"}"
+    }
+  },
+  "call_ids": [
+    "0b72bb0c77a37b197eb21eb96276da29ed671e550ce9bc9b1817612b4c93c1ab",
+    "0b72bb0c77a37b197eb21eb96276da29ed671e550ce9bc9b1817612b4c93c1ab",
+    "438b48f3fa6568d78072453911c9cfdd1887643b3f3aa87537fcaf707646b3ef",
+    "56739492e4d62724a45c0601524bb3e615c6ac50c8e6771989cb7f14a6e0d703",
+    "9ff85cc74ccf2e73e811ea9819ff9f386fc5cbb5ddf01988340ada623466ef25",
+    "63e724be8c47d94b4b831fc340a7b046c607537f4d8ea91ace288aa17f6fe01a"
+  ],
+  "elapsed_s": 3.633702516555786
+}

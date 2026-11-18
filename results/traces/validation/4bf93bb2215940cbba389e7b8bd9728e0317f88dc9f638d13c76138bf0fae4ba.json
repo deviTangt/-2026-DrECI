@@ -1,0 +1,65 @@
+{
+  "input_hash": "4bf93bb2215940cbba389e7b8bd9728e0317f88dc9f638d13c76138bf0fae4ba",
+  "sample_id": "ESC-CSV-02671",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "police",
+    "teenager",
+    "Brooklyn",
+    "death",
+    "anger"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a76de0d2ad3b5ccc5f993c6bd63ac8f53cd2a03bd5783bf3dd4e94e9e808a10f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a76de0d2ad3b5ccc5f993c6bd63ac8f53cd2a03bd5783bf3dd4e94e9e808a10f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b76ec0c933a01927f4a558852576cb7eddd1ed0311af22b8c4bc590b63c1fd1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "57d156dece6805e42e53cc73053b2ab65ca0c1d2196b1d5c331f22911f2c0cea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f431c14a779e120b384c265d4cfc27710e213ac7a9e2c815f84d970fa0554750",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"16-year-old\",\"death\",\"anger\",\"vigil\"],\"target_related\":[\"Brooklyn\",\"East Flatbush\",\"cops\",\"police\",\"anger\",\"death\",\"teenager\",\"projectiles\",\"car windows\",\"pharmacy customer\",\"bottle\"],\"mediators\":[\"cops\",\"police\",\"teenager\",\"Brooklyn\",\"death\",\"anger\"]}"
+    },
+    "indirect": {
+      "call_id": "0f1d1d31f61a5d34be245d8ad2b1fb8d31c3576cf6d3f53189106f20176510dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Anger over the death of a teenager shot by police 'fueled a riot'; chain: shot -> death -> anger -> riot.\"}"
+    }
+  },
+  "call_ids": [
+    "a76de0d2ad3b5ccc5f993c6bd63ac8f53cd2a03bd5783bf3dd4e94e9e808a10f",
+    "a76de0d2ad3b5ccc5f993c6bd63ac8f53cd2a03bd5783bf3dd4e94e9e808a10f",
+    "4b76ec0c933a01927f4a558852576cb7eddd1ed0311af22b8c4bc590b63c1fd1",
+    "57d156dece6805e42e53cc73053b2ab65ca0c1d2196b1d5c331f22911f2c0cea",
+    "f431c14a779e120b384c265d4cfc27710e213ac7a9e2c815f84d970fa0554750",
+    "0f1d1d31f61a5d34be245d8ad2b1fb8d31c3576cf6d3f53189106f20176510dd"
+  ],
+  "elapsed_s": 5.153868913650513
+}

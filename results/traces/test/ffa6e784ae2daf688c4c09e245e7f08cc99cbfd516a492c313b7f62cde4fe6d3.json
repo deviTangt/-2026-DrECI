@@ -1,0 +1,65 @@
+{
+  "input_hash": "ffa6e784ae2daf688c4c09e245e7f08cc99cbfd516a492c313b7f62cde4fe6d3",
+  "sample_id": "ESC-CSV-04024",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British man",
+    "Duncan Raite",
+    "slipped",
+    "fell",
+    "ridge",
+    "national park"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "22c5cb7f5ffb00b8bf61a0432ee685c436f5c9a73a2b6f5765f6e0579d0e58df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "22c5cb7f5ffb00b8bf61a0432ee685c436f5c9a73a2b6f5765f6e0579d0e58df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8ce120a96805e26eea61b701d5485629610727b0568e448285d56913d887bddd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "72dd20f4494a9cd55994ac767ec12f50ee578d0760e5d156236e5457beb980d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1d065846db9704a7247fc24433c371ea99893f9085b6abf2632871b0de4231eb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British man\",\"climbing\",\"New Zealand\",\"slipped\",\"fell\",\"ridge\",\"national park\",\"Duncan Raite\"],\"target_related\":[\"British man\",\"killed\",\"Mr Buckley\",\"Duncan Raite\",\"died\",\"slipped\",\"fell\",\"ridge\",\"national park\"],\"mediators\":[\"British man\",\"Duncan Raite\",\"slipped\",\"fell\",\"ridge\",\"national park\"]}"
+    },
+    "indirect": {
+      "call_id": "37cc74e34b77cef5fea022f6a8f160826fd12f1eef52152977796560d7bf1580",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed after falling' uses 'after' as explicit causal link; common sense: a 2,000ft fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "22c5cb7f5ffb00b8bf61a0432ee685c436f5c9a73a2b6f5765f6e0579d0e58df",
+    "22c5cb7f5ffb00b8bf61a0432ee685c436f5c9a73a2b6f5765f6e0579d0e58df",
+    "8ce120a96805e26eea61b701d5485629610727b0568e448285d56913d887bddd",
+    "72dd20f4494a9cd55994ac767ec12f50ee578d0760e5d156236e5457beb980d5",
+    "1d065846db9704a7247fc24433c371ea99893f9085b6abf2632871b0de4231eb",
+    "37cc74e34b77cef5fea022f6a8f160826fd12f1eef52152977796560d7bf1580"
+  ],
+  "elapsed_s": 4.160409212112427
+}

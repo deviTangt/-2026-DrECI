@@ -1,0 +1,65 @@
+{
+  "input_hash": "3f8a5d8b980632127d08f5a2d5d6aef76f5d4eef0d84036a771c17fe2a09db2d",
+  "sample_id": "ESC-CSV-09343",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Marfin",
+    "bank",
+    "rioters",
+    "window",
+    "Molotov",
+    "cocktails"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f227adceb78349d7cb91fe0330f1258cfdbf80dc320b3cb891960dcece3923e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f227adceb78349d7cb91fe0330f1258cfdbf80dc320b3cb891960dcece3923e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "019fb4ef3d3a0661e27367be2b2eeaeef636c1f45e6649748f5fae7a9a88ab52",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "388fcfbeeb25f289ddfa875c3c0f249011d235999eb23d50bb924e72e3f39680",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "131d9db13dd1fd6f3c1b1f8534234e1b2cabae318c6e77379e000959a65053ed",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"tax\",\"officials\",\"fire-bomb\",\"attacks\",\"protests\",\"Marfin\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"target_related\":[\"women\",\"man\",\"Marfin\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"mediators\":[\"Marfin\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"]}"
+    },
+    "indirect": {
+      "call_id": "4e0b7d18644cc54e2506efb21f1fe652eeff5eaa8a5a2be94ca2be879085f178",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says women and man died at bank 'which caught fire after rioters...threw Molotov cocktails'; 'after' plus common sense links fire to deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "f227adceb78349d7cb91fe0330f1258cfdbf80dc320b3cb891960dcece3923e1",
+    "f227adceb78349d7cb91fe0330f1258cfdbf80dc320b3cb891960dcece3923e1",
+    "019fb4ef3d3a0661e27367be2b2eeaeef636c1f45e6649748f5fae7a9a88ab52",
+    "388fcfbeeb25f289ddfa875c3c0f249011d235999eb23d50bb924e72e3f39680",
+    "131d9db13dd1fd6f3c1b1f8534234e1b2cabae318c6e77379e000959a65053ed",
+    "4e0b7d18644cc54e2506efb21f1fe652eeff5eaa8a5a2be94ca2be879085f178"
+  ],
+  "elapsed_s": 4.51650071144104
+}

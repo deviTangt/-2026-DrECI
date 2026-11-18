@@ -1,0 +1,61 @@
+{
+  "input_hash": "4e5835c1758aa03b9b3d26d571a8d147d261deae64da2fa4917204e6bbf05aac",
+  "sample_id": "ESC-CSV-09560",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "burning"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8186e13e810b75b4c557b9da08d7e8083a99a4cd647d86c8de8f81055f581e1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8186e13e810b75b4c557b9da08d7e8083a99a4cd647d86c8de8f81055f581e1f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1101252e3d9ca55cf3d4c89c9444d4c84698376e5fb6256724beb87c91de8c65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b9867acc96e68f8a5b4e7a6dafd6cff9435f50a550efdb94c1508ec8bd803062",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2637e81257368a06b1ad11c221623b44ac4461b1c0985d35fedc1f9c62ba6d55",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"bank\",\"burning\",\"Greek\"],\"target_related\":[\"dead\",\"people\",\"burning\",\"bank\"],\"mediators\":[\"bank\",\"burning\"]}"
+    },
+    "indirect": {
+      "call_id": "82970a7471b4d47113b7aa5665e6d8b0923d62c9f1aa284f3db35138588eb17d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters torched the bank; the burning bank caused three people to die, forming a chain: torch -> bank burning -> died.\"}"
+    }
+  },
+  "call_ids": [
+    "8186e13e810b75b4c557b9da08d7e8083a99a4cd647d86c8de8f81055f581e1f",
+    "8186e13e810b75b4c557b9da08d7e8083a99a4cd647d86c8de8f81055f581e1f",
+    "1101252e3d9ca55cf3d4c89c9444d4c84698376e5fb6256724beb87c91de8c65",
+    "b9867acc96e68f8a5b4e7a6dafd6cff9435f50a550efdb94c1508ec8bd803062",
+    "2637e81257368a06b1ad11c221623b44ac4461b1c0985d35fedc1f9c62ba6d55",
+    "82970a7471b4d47113b7aa5665e6d8b0923d62c9f1aa284f3db35138588eb17d"
+  ],
+  "elapsed_s": 4.125402450561523
+}

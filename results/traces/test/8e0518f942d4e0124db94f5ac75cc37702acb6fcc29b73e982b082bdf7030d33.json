@@ -1,0 +1,62 @@
+{
+  "input_hash": "8e0518f942d4e0124db94f5ac75cc37702acb6fcc29b73e982b082bdf7030d33",
+  "sample_id": "ESC-CSV-06460",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Lopez",
+    "arrested",
+    "half-brothers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15aeec653e6297f3cb8ee34da97b0be19dda1ee54dfa4de97274ca71bac3ffbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15aeec653e6297f3cb8ee34da97b0be19dda1ee54dfa4de97274ca71bac3ffbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "15640ab7d6e0b0b12a09b635b05ca719a9e11c76cc530865f7e5abfc4ae86f61",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "179e4f3bde8b12de3a0be71ae97d2d7bfd6bf4f4d8fe0ca7742635c18ef0ce4e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5a79f48d2787307f988552fe84345fa8043e577f28adba69eea577f0130dff7a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"arrested\",\"half-brothers\"],\"target_related\":[\"Lopez\",\"murder\",\"arrested\",\"half-brothers\"],\"mediators\":[\"Lopez\",\"arrested\",\"half-brothers\"]}"
+    },
+    "indirect": {
+      "call_id": "9611c4e86ba6ea4b18993fe78f46dc990505d57a5729a26dbff251fd9308d3df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'charged with murder' uses 'with' as an explicit causal connector linking the murder to the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "15aeec653e6297f3cb8ee34da97b0be19dda1ee54dfa4de97274ca71bac3ffbf",
+    "15aeec653e6297f3cb8ee34da97b0be19dda1ee54dfa4de97274ca71bac3ffbf",
+    "15640ab7d6e0b0b12a09b635b05ca719a9e11c76cc530865f7e5abfc4ae86f61",
+    "179e4f3bde8b12de3a0be71ae97d2d7bfd6bf4f4d8fe0ca7742635c18ef0ce4e",
+    "5a79f48d2787307f988552fe84345fa8043e577f28adba69eea577f0130dff7a",
+    "9611c4e86ba6ea4b18993fe78f46dc990505d57a5729a26dbff251fd9308d3df"
+  ],
+  "elapsed_s": 4.809808969497681
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "6a14b825cf9ae4a24c61a7322c0efed5651f59a287e8fa49d4684486acc9f2c3",
+  "sample_id": "ESC-CSV-07284",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "booked",
+    "county jail"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ca595ccb833954e8188d27d253ea78f6e751b4c72b2bc60c8a5133163d0f84d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ca595ccb833954e8188d27d253ea78f6e751b4c72b2bc60c8a5133163d0f84d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "654b42d919210cdb2e880069397dadcea91f8fa393f8d638332ff223c13610fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e1e543a5f6d22dc23111d5b8ed617204e526928ca6b022a3a7e1a9ed3ff484dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4c96927cab39d9606866a9c7be9c41bfa769d26af17cfca6929e2a85c683f615",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"DUI\",\"Chargers\",\"CHP\",\"drunken driving\",\"booked\",\"county jail\"],\"target_related\":[\"booked\",\"county jail\",\"bond\"],\"mediators\":[\"booked\",\"county jail\"]}"
+    },
+    "indirect": {
+      "call_id": "4a0178d8f8f55494f6066f35896ec16c3d026eae245416b0d0d8b75c0a79e265",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Arrest led to being booked into county jail, and booking led to later release on bond; chain: arrest -> booked -> released.\"}"
+    }
+  },
+  "call_ids": [
+    "ca595ccb833954e8188d27d253ea78f6e751b4c72b2bc60c8a5133163d0f84d4",
+    "ca595ccb833954e8188d27d253ea78f6e751b4c72b2bc60c8a5133163d0f84d4",
+    "654b42d919210cdb2e880069397dadcea91f8fa393f8d638332ff223c13610fe",
+    "e1e543a5f6d22dc23111d5b8ed617204e526928ca6b022a3a7e1a9ed3ff484dc",
+    "4c96927cab39d9606866a9c7be9c41bfa769d26af17cfca6929e2a85c683f615",
+    "4a0178d8f8f55494f6066f35896ec16c3d026eae245416b0d0d8b75c0a79e265"
+  ],
+  "elapsed_s": 5.286666631698608
+}

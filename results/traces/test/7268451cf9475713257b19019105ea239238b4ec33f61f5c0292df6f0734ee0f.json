@@ -1,0 +1,60 @@
+{
+  "input_hash": "7268451cf9475713257b19019105ea239238b4ec33f61f5c0292df6f0734ee0f",
+  "sample_id": "ESC-CSV-09709",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "60e71ab47a0b7c50513cba8c48e7e3ed02f03e06b9cc8c22e0d63d04cb342988",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "60e71ab47a0b7c50513cba8c48e7e3ed02f03e06b9cc8c22e0d63d04cb342988",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0525a873016f25855e1bec188a32fb616b02ca469bc315973c72c48b63c57f30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "adb1b0360591a9a6af53f3de8ef59dcc7c778e9db6c8443b00e10cecdd516e57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9a2d6788946b19c1400b2fc8f865ddf184748062b71f0c245d98efa57d9204bb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"bank\"],\"target_related\":[\"bank workers\",\"man\",\"women\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "59f7fad442c5fbb29195d4d8906e53ae4ddf2072efdd72a11aa93b20fc0cd234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died after demonstrators set their bank on fire' — 'after' plus sequence shows setting fire caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "60e71ab47a0b7c50513cba8c48e7e3ed02f03e06b9cc8c22e0d63d04cb342988",
+    "60e71ab47a0b7c50513cba8c48e7e3ed02f03e06b9cc8c22e0d63d04cb342988",
+    "0525a873016f25855e1bec188a32fb616b02ca469bc315973c72c48b63c57f30",
+    "adb1b0360591a9a6af53f3de8ef59dcc7c778e9db6c8443b00e10cecdd516e57",
+    "9a2d6788946b19c1400b2fc8f865ddf184748062b71f0c245d98efa57d9204bb",
+    "59f7fad442c5fbb29195d4d8906e53ae4ddf2072efdd72a11aa93b20fc0cd234"
+  ],
+  "elapsed_s": 4.763798475265503
+}

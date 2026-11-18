@@ -1,0 +1,61 @@
+{
+  "input_hash": "62c2c402837e2e2096638f94ea24cd4d59c8a23de3022ec3b845b2710e177ae7",
+  "sample_id": "ESC-CSV-02912",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teen",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9590400231e6dbfa5418b48ae55e670c9f50a9abcdee05f841e995785d2b7be3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9590400231e6dbfa5418b48ae55e670c9f50a9abcdee05f841e995785d2b7be3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3ddf319cdb8de7fc908d47fe771cfd27580f2423c69b4165114bccf7dc6b594a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7202ea5d6fcdb9f5fb702249e502c27da65cd90026c36da7b1fc9126c702601d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5b4e4ceded31f4297aa9c867b60aaa1bdc17e942f6632b7b2ea3de5de4fd0984",
+      "status": "ok",
+      "text": "{\"source_related\":[\"teen\",\"shot\",\"cops\",\"gun\",\"witness\"],\"target_related\":[\"Brooklyn\",\"teen\",\"cops\"],\"mediators\":[\"teen\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "6ae3d5440d6ce1e0f2a0d148cd7cf08e87d6e56f23c4de0dc3a70d767bbca060",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A teen's death at the hands of cops precedes and commonly provokes a riot, as the headline 'riot over teen's death' indicates.\"}"
+    }
+  },
+  "call_ids": [
+    "9590400231e6dbfa5418b48ae55e670c9f50a9abcdee05f841e995785d2b7be3",
+    "9590400231e6dbfa5418b48ae55e670c9f50a9abcdee05f841e995785d2b7be3",
+    "3ddf319cdb8de7fc908d47fe771cfd27580f2423c69b4165114bccf7dc6b594a",
+    "7202ea5d6fcdb9f5fb702249e502c27da65cd90026c36da7b1fc9126c702601d",
+    "5b4e4ceded31f4297aa9c867b60aaa1bdc17e942f6632b7b2ea3de5de4fd0984",
+    "6ae3d5440d6ce1e0f2a0d148cd7cf08e87d6e56f23c4de0dc3a70d767bbca060"
+  ],
+  "elapsed_s": 3.7980096340179443
+}

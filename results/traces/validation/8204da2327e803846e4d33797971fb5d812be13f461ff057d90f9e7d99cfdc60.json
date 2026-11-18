@@ -1,0 +1,68 @@
+{
+  "input_hash": "8204da2327e803846e4d33797971fb5d812be13f461ff057d90f9e7d99cfdc60",
+  "sample_id": "ESC-CSV-01971",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jerry Ortiz",
+    "Deputy",
+    "investigation",
+    "door",
+    "apartment",
+    "woman",
+    "suspect",
+    "shooting",
+    "head"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8bcc388f27a78b4da2819c04491a2261f194fe36b94ad8e6f0d4ccc54733b817",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8bcc388f27a78b4da2819c04491a2261f194fe36b94ad8e6f0d4ccc54733b817",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "019b7dac8aae39ad22f7c04d344cdf558c7854d053c9ee755ff6c0e0bbf3f725",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "87d3771081a5ef9f47d77da73ebf1184ea71779e27e65337107ac50ce54fe0b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b86a0a7197ffaeb188d4b8a347d0c52ba7e3a402371619c0892219c3b0184240",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jerry Ortiz\",\"Deputy\",\"investigation\",\"door\",\"apartment\",\"woman\",\"suspect\",\"shooting\",\"head\"],\"target_related\":[\"Jerry Ortiz\",\"Deputy\",\"investigation\",\"door\",\"apartment\",\"woman\",\"suspect\",\"shooting\",\"head\"],\"mediators\":[\"Jerry Ortiz\",\"Deputy\",\"investigation\",\"door\",\"apartment\",\"woman\",\"suspect\",\"shooting\",\"head\"]}"
+    },
+    "indirect": {
+      "call_id": "567303c7e6f4080b55f6cb6ff8e7331cece3623635af12d1c50e0b5d67bcaf6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"X and Y both refer to 'shot'; the suspect's shot (Y) is the same event as the shooting of Ortiz (X), not a cause of it.\"}"
+    }
+  },
+  "call_ids": [
+    "8bcc388f27a78b4da2819c04491a2261f194fe36b94ad8e6f0d4ccc54733b817",
+    "8bcc388f27a78b4da2819c04491a2261f194fe36b94ad8e6f0d4ccc54733b817",
+    "019b7dac8aae39ad22f7c04d344cdf558c7854d053c9ee755ff6c0e0bbf3f725",
+    "87d3771081a5ef9f47d77da73ebf1184ea71779e27e65337107ac50ce54fe0b5",
+    "b86a0a7197ffaeb188d4b8a347d0c52ba7e3a402371619c0892219c3b0184240",
+    "567303c7e6f4080b55f6cb6ff8e7331cece3623635af12d1c50e0b5d67bcaf6b"
+  ],
+  "elapsed_s": 5.11182975769043
+}

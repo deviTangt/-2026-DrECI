@@ -1,0 +1,71 @@
+{
+  "input_hash": "41742ff55d98eda89876789a70357a6989ec089a1da147131449f85e032317de",
+  "sample_id": "ESC-CSV-04570",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "stealing",
+    "$2.6 million",
+    "two million Euros",
+    "jewelry",
+    "AFP"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7f5e5fed275102e6cfbaebfde566fa84c341ccc241885d42683d7e361362963b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7f5e5fed275102e6cfbaebfde566fa84c341ccc241885d42683d7e361362963b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cef80f14010d2d2b8aa4f1dd3b1e45dd4489ea7ace919540314cbee3ce68ca3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2eb938defecc2e6c5d7bcbb05395317c1595c8e9d82046f580646c4d871928f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b8fca642317367a1a729ce7313dbd5a0b6e7fd361e784744761b583ad9fb60a1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"stealing\",\"$2.6 million\",\"two million Euros\",\"jewelry\",\"AFP\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"stealing\",\"$2.6 million\",\"two million Euros\",\"jewelry\",\"AFP\",\"Paris Store\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"stealing\",\"$2.6 million\",\"two million Euros\",\"jewelry\",\"AFP\"]}"
+    },
+    "indirect": {
+      "call_id": "8bd11fdbfcd7b47a0bb2a8392b6c7aa62cb4a5312c93feb8137f1a8c44527aa6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window enabled the men to steal jewelry, so the smashing caused the heist by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "7f5e5fed275102e6cfbaebfde566fa84c341ccc241885d42683d7e361362963b",
+    "7f5e5fed275102e6cfbaebfde566fa84c341ccc241885d42683d7e361362963b",
+    "cef80f14010d2d2b8aa4f1dd3b1e45dd4489ea7ace919540314cbee3ce68ca3b",
+    "2eb938defecc2e6c5d7bcbb05395317c1595c8e9d82046f580646c4d871928f3",
+    "b8fca642317367a1a729ce7313dbd5a0b6e7fd361e784744761b583ad9fb60a1",
+    "8bd11fdbfcd7b47a0bb2a8392b6c7aa62cb4a5312c93feb8137f1a8c44527aa6"
+  ],
+  "elapsed_s": 5.094553232192993
+}

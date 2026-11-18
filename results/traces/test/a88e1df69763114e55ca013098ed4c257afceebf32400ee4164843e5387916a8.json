@@ -1,0 +1,65 @@
+{
+  "input_hash": "a88e1df69763114e55ca013098ed4c257afceebf32400ee4164843e5387916a8",
+  "sample_id": "ESC-CSV-04502",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store",
+    "Paris",
+    "robbers",
+    "jewelry",
+    "watches",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2649e68f4d91d24f21462a46f32bf316f784b5cef1871a6893548f10f834cd7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2649e68f4d91d24f21462a46f32bf316f784b5cef1871a6893548f10f834cd7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7fa947a7a30dac19bb6e0ce3f0ff3d46b5f70f37fbe8c58969b4e0f39b2d7d7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "822f56dfdf5ebc398d09a9c4c46e884a8b13eff8adcb671fc35246cfc9450ce9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fd2062eb24047b21683e0e521e90350c52320a95edd01f1874806bb99afde4a4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"store\",\"Paris\",\"robbers\",\"jewelry\",\"watches\",\"Monday\"],\"target_related\":[\"store\",\"Paris\",\"robbers\",\"jewelry\",\"watches\",\"Monday\"],\"mediators\":[\"store\",\"Paris\",\"robbers\",\"jewelry\",\"watches\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "2191b8703b66cafb82af95284267c562244aebf1ed5365909392ab1acf698777",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'smash-and-grab' is a compound noun describing the robbery; no causation word links smash to grab, and neither causes the other by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "2649e68f4d91d24f21462a46f32bf316f784b5cef1871a6893548f10f834cd7e",
+    "2649e68f4d91d24f21462a46f32bf316f784b5cef1871a6893548f10f834cd7e",
+    "7fa947a7a30dac19bb6e0ce3f0ff3d46b5f70f37fbe8c58969b4e0f39b2d7d7a",
+    "822f56dfdf5ebc398d09a9c4c46e884a8b13eff8adcb671fc35246cfc9450ce9",
+    "fd2062eb24047b21683e0e521e90350c52320a95edd01f1874806bb99afde4a4",
+    "2191b8703b66cafb82af95284267c562244aebf1ed5365909392ab1acf698777"
+  ],
+  "elapsed_s": 4.936763525009155
+}

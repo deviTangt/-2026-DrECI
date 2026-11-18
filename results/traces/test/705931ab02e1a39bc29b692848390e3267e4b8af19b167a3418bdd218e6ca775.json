@@ -1,0 +1,75 @@
+{
+  "input_hash": "705931ab02e1a39bc29b692848390e3267e4b8af19b167a3418bdd218e6ca775",
+  "sample_id": "ESC-CSV-09609",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "austerity",
+    "measures",
+    "bank",
+    "workers",
+    "Athens",
+    "protesters",
+    "parliament",
+    "police",
+    "buildings",
+    "strike",
+    "taxes",
+    "government",
+    "spending",
+    "cuts",
+    "Greece",
+    "loan"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ed79796b03a967dc7cba2b1b63f3bc18ad9b39e06f122d71b6178672865596e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ed79796b03a967dc7cba2b1b63f3bc18ad9b39e06f122d71b6178672865596e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "53c689c7a6e107b4510129cea04750c29c9aa2409c15201ad75981e40231d016",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "98d8dd63a1cf14c2c4b4b8c47c2f1005fbfdfb8a678bc257d5dbbc4269146967",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "96efc9024ca2a3b893a80f6de81bc107f06776cc0784ce6e111cc3babedccf0b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"Athens\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"Greece\",\"loan\"],\"target_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"Athens\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"Greece\",\"loan\"],\"mediators\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"Athens\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"Greece\",\"loan\"]}"
+    },
+    "indirect": {
+      "call_id": "0cb5bac6b11962aceee31a286107997a34739a25265c9064eecfd64e6b574e59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Riots over austerity measures; protesters took to streets in strike to protest taxes/cuts. Riots and protest share austerity as cause, forming chain.\"}"
+    }
+  },
+  "call_ids": [
+    "ed79796b03a967dc7cba2b1b63f3bc18ad9b39e06f122d71b6178672865596e7",
+    "ed79796b03a967dc7cba2b1b63f3bc18ad9b39e06f122d71b6178672865596e7",
+    "53c689c7a6e107b4510129cea04750c29c9aa2409c15201ad75981e40231d016",
+    "98d8dd63a1cf14c2c4b4b8c47c2f1005fbfdfb8a678bc257d5dbbc4269146967",
+    "96efc9024ca2a3b893a80f6de81bc107f06776cc0784ce6e111cc3babedccf0b",
+    "0cb5bac6b11962aceee31a286107997a34739a25265c9064eecfd64e6b574e59"
+  ],
+  "elapsed_s": 5.450726270675659
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "08bbf027fa42eeab90bc06ac541ea31b3a61777f76613554b551ead836cd0f82",
+  "sample_id": "ESC-CSV-04581",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "440ad24759389d723b05037c98884ed35631d810f650a214202bbdce79a7ef97",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "440ad24759389d723b05037c98884ed35631d810f650a214202bbdce79a7ef97",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dfc8dae0c6bf0ef631cae1afb226c4752e31829a7a82e40c841c7a53aa01d676",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4b06250048e908043dbdb03ea84f0845fb99dd583914d4f1a6fcadd808159cf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b797428c26b1d520cd55e0f08bd6777b1f2e0752faceb82e5f9a3bd14ae3ab27",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\"],\"target_related\":[\"shop window\",\"stealing\",\"$2 . 6 million\",\"two million Euros\",\"jewelry\"],\"mediators\":[\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\"]}"
+    },
+    "indirect": {
+      "call_id": "f2b0bb9f77d15f129f844af592edadcc1ea8626d8d98598450532b04a1722931",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store directly causes the smashing of the shop window; the impact precedes and produces the breaking.\"}"
+    }
+  },
+  "call_ids": [
+    "440ad24759389d723b05037c98884ed35631d810f650a214202bbdce79a7ef97",
+    "440ad24759389d723b05037c98884ed35631d810f650a214202bbdce79a7ef97",
+    "dfc8dae0c6bf0ef631cae1afb226c4752e31829a7a82e40c841c7a53aa01d676",
+    "4b06250048e908043dbdb03ea84f0845fb99dd583914d4f1a6fcadd808159cf4",
+    "b797428c26b1d520cd55e0f08bd6777b1f2e0752faceb82e5f9a3bd14ae3ab27",
+    "f2b0bb9f77d15f129f844af592edadcc1ea8626d8d98598450532b04a1722931"
+  ],
+  "elapsed_s": 4.230916976928711
+}

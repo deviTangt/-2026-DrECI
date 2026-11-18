@@ -1,0 +1,62 @@
+{
+  "input_hash": "6e9d550b4ce6208c81e86c6f95540424ddb3e1ac200748db4e6bea3957a17973",
+  "sample_id": "ESC-CSV-09603",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "12",
+    "people",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8b7b00b69e3487d79a09f042469317e6adc32e23ed3a333425b8b01ac9fdc8a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8b7b00b69e3487d79a09f042469317e6adc32e23ed3a333425b8b01ac9fdc8a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9ef2b499f48cc613111dcb6f0a66eb89f86fddd693a3dfcf65f5f83d5f2be215",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a73a4fad06a98bafb6f5fea83cf4f7755dd248846633d615399f81cb9d7ea47f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "081dd81429be423d92c458d18a3e16d3b0a4ea5fd87b306cc612e94ec251c8f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"dead\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"Molotov\",\"cocktails\",\"police\",\"buildings\",\"12\",\"people\"],\"target_related\":[\"12\",\"people\",\"police\",\"riots\"],\"mediators\":[\"12\",\"people\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "32171e461d4d4c753c457baa4a20511b5c9fa40a2a9f75da956f6ce19a0eae19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'12 people were injured in the riots' — 'in' links riots to injuries; riots occurred before injuries, so riots caused injuries.\"}"
+    }
+  },
+  "call_ids": [
+    "8b7b00b69e3487d79a09f042469317e6adc32e23ed3a333425b8b01ac9fdc8a9",
+    "8b7b00b69e3487d79a09f042469317e6adc32e23ed3a333425b8b01ac9fdc8a9",
+    "9ef2b499f48cc613111dcb6f0a66eb89f86fddd693a3dfcf65f5f83d5f2be215",
+    "a73a4fad06a98bafb6f5fea83cf4f7755dd248846633d615399f81cb9d7ea47f",
+    "081dd81429be423d92c458d18a3e16d3b0a4ea5fd87b306cc612e94ec251c8f6",
+    "32171e461d4d4c753c457baa4a20511b5c9fa40a2a9f75da956f6ce19a0eae19"
+  ],
+  "elapsed_s": 4.551761627197266
+}

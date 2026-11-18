@@ -1,0 +1,62 @@
+{
+  "input_hash": "ed0b8e95d0dc04c99e2d44098162c2cd5e532b14102134a751813254e0933846",
+  "sample_id": "ESC-CSV-06493",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang members",
+    "gunfire",
+    "rooftop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "187dea98fe8bb738b36a57d1ab3d774bad366e776600eccdb567cab4eb4d72b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "187dea98fe8bb738b36a57d1ab3d774bad366e776600eccdb567cab4eb4d72b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "079fd8229b7fe2dd140fb04efa7279341ea747d042effe2ac35a83bbecfca6ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b21161ef1be54f151bb2ecdc56d63584fdbbadbe1ea2a1388e28cdfabaea1a27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "99f2c9b2b07ef8c024b94069adc2361b003445d79456f51905888b4994b560c7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"gang member\",\"shots\",\"rival gang members\",\"Howard Projects\",\"Jonathan Carrasquillo\",\"orders\",\"gunfire\",\"rooftop\"],\"target_related\":[\"mother\",\"son\",\"wall\",\"gang members\",\"gunfire\",\"rooftop\"],\"mediators\":[\"gang members\",\"gunfire\",\"rooftop\"]}"
+    },
+    "indirect": {
+      "call_id": "ee6c43d13684d6379d743071dfe179f631a2056359b56deac5943393c4a2a92e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shots fired at the scene caused the mother to try to hide her son from the stray gunfire, a plausible causal sequence.\"}"
+    }
+  },
+  "call_ids": [
+    "187dea98fe8bb738b36a57d1ab3d774bad366e776600eccdb567cab4eb4d72b8",
+    "187dea98fe8bb738b36a57d1ab3d774bad366e776600eccdb567cab4eb4d72b8",
+    "079fd8229b7fe2dd140fb04efa7279341ea747d042effe2ac35a83bbecfca6ad",
+    "b21161ef1be54f151bb2ecdc56d63584fdbbadbe1ea2a1388e28cdfabaea1a27",
+    "99f2c9b2b07ef8c024b94069adc2361b003445d79456f51905888b4994b560c7",
+    "ee6c43d13684d6379d743071dfe179f631a2056359b56deac5943393c4a2a92e"
+  ],
+  "elapsed_s": 5.237419605255127
+}

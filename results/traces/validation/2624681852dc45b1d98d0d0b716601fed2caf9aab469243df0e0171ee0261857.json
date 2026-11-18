@@ -1,0 +1,62 @@
+{
+  "input_hash": "2624681852dc45b1d98d0d0b716601fed2caf9aab469243df0e0171ee0261857",
+  "sample_id": "ESC-CSV-01926",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "murder",
+    "Jerry Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6bf06e4ca15f77de31b7627d6e54371a9a31fb939b1f07309e904a9dfed910cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6bf06e4ca15f77de31b7627d6e54371a9a31fb939b1f07309e904a9dfed910cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8437d7e45ea15473d5d3dbc98b6443a81d84cdae0bcd0e79672999a3696947b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a3d35a9c15b9fa0b2771273e8885c63b9b96cf37bed705942367a3def0d5d60",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e3a7b935ae31ce320807a25d23dbe2a9a4f360d022854d9f4f7e1257aeb73151",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"murder\",\"Orozco\",\"handgun\",\"attempted murder\",\"Jerry Ortiz\"],\"target_related\":[\"Orozco\",\"murder\",\"Hawaiian Gardens Gangmember\",\"Lakewood Stn\",\"Sheriff's Deputy Jerry Ortiz\"],\"mediators\":[\"Orozco\",\"murder\",\"Jerry Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "dd1bec2f31f6635bbbb11327c82827faf39d1c434f8f04e969031a2a4630c817",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing a police officer leads to murder charges and conviction; the killing precedes and causes the conviction under common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "6bf06e4ca15f77de31b7627d6e54371a9a31fb939b1f07309e904a9dfed910cd",
+    "6bf06e4ca15f77de31b7627d6e54371a9a31fb939b1f07309e904a9dfed910cd",
+    "8437d7e45ea15473d5d3dbc98b6443a81d84cdae0bcd0e79672999a3696947b5",
+    "3a3d35a9c15b9fa0b2771273e8885c63b9b96cf37bed705942367a3def0d5d60",
+    "e3a7b935ae31ce320807a25d23dbe2a9a4f360d022854d9f4f7e1257aeb73151",
+    "dd1bec2f31f6635bbbb11327c82827faf39d1c434f8f04e969031a2a4630c817"
+  ],
+  "elapsed_s": 6.518464088439941
+}

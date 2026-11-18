@@ -1,0 +1,73 @@
+{
+  "input_hash": "603665829f8be40d14c0cebd63129a6fe04ed8ef7b1a9510e112f710edf42621",
+  "sample_id": "ESC-CSV-06458",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "18-year-old",
+    "gang member",
+    "confessed",
+    "pregnant mom",
+    "died",
+    "Friday",
+    "shielded",
+    "children",
+    "bullets",
+    "shoot",
+    "ladies",
+    "charged",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "534c113010355f5f8be3a3b59c26a37d8911f64cf0251e92db7a6e84a2464ad6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "534c113010355f5f8be3a3b59c26a37d8911f64cf0251e92db7a6e84a2464ad6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3195eac85beaa53cb1096ef89119f1771e8b85bd7d0888a894863034dcf77e64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "284f0429956cdd6b9ae8aa6a10f8ac1103a7c640257e8351a448e674539245da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ce985910125df69da1be91104a4db526931855ed14c1faa2cc215d38b972e9aa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"shoot\",\"ladies\",\"Lopez\",\"charged\",\"arrested\"],\"target_related\":[\"Lopez\",\"charged\",\"arrested\",\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"shoot\",\"ladies\"],\"mediators\":[\"Lopez\",\"18-year-old\",\"gang member\",\"confessed\",\"pregnant mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"shoot\",\"ladies\",\"charged\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "15b0f5c5a1b031cd60357fa666fe1831d2c3ffd0ba766da0d4cc66c3cc75fafc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing (causing death) precedes and leads to murder charge; common sense: the killing is the act that constitutes the murder.\"}"
+    }
+  },
+  "call_ids": [
+    "534c113010355f5f8be3a3b59c26a37d8911f64cf0251e92db7a6e84a2464ad6",
+    "534c113010355f5f8be3a3b59c26a37d8911f64cf0251e92db7a6e84a2464ad6",
+    "3195eac85beaa53cb1096ef89119f1771e8b85bd7d0888a894863034dcf77e64",
+    "284f0429956cdd6b9ae8aa6a10f8ac1103a7c640257e8351a448e674539245da",
+    "ce985910125df69da1be91104a4db526931855ed14c1faa2cc215d38b972e9aa",
+    "15b0f5c5a1b031cd60357fa666fe1831d2c3ffd0ba766da0d4cc66c3cc75fafc"
+  ],
+  "elapsed_s": 5.619831085205078
+}

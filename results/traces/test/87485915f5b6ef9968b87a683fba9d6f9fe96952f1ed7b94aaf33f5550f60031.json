@@ -1,0 +1,65 @@
+{
+  "input_hash": "87485915f5b6ef9968b87a683fba9d6f9fe96952f1ed7b94aaf33f5550f60031",
+  "sample_id": "ESC-CSV-09295",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank workers",
+    "killed",
+    "building",
+    "torched",
+    "protests",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "549419e6e09c633ee337afdbb88ed3891753e3283772387f2a8af27aa76a96fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "549419e6e09c633ee337afdbb88ed3891753e3283772387f2a8af27aa76a96fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "84dbee81cd01e6d45adf4ee3253c2785f187e49d75882abd044da2a16bb8339b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bd262897db3dbbc464d9adc51d3dc7bdd9eca069d9feb17c1db9044ba1bd47e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b71df61dc6e3ecad385c64e715a5722d91625150159575c08867f51519e57581",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"killed\",\"tens of thousands\",\"marched\",\"Athens\",\"bank workers\",\"building\",\"torched\",\"protests\",\"austerity measures\"],\"target_related\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\",\"Greek prime minister\",\"denounced\"],\"mediators\":[\"bank workers\",\"killed\",\"building\",\"torched\",\"protests\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "b09fff51c7f611278b23e5a542dc1a2e477399471488ac4428f441713c14bd9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Demonstrations led to protests where a building was torched, killing bank workers—the murder; chain: demonstrations->protests/torching->murder.\"}"
+    }
+  },
+  "call_ids": [
+    "549419e6e09c633ee337afdbb88ed3891753e3283772387f2a8af27aa76a96fe",
+    "549419e6e09c633ee337afdbb88ed3891753e3283772387f2a8af27aa76a96fe",
+    "84dbee81cd01e6d45adf4ee3253c2785f187e49d75882abd044da2a16bb8339b",
+    "bd262897db3dbbc464d9adc51d3dc7bdd9eca069d9feb17c1db9044ba1bd47e8",
+    "b71df61dc6e3ecad385c64e715a5722d91625150159575c08867f51519e57581",
+    "b09fff51c7f611278b23e5a542dc1a2e477399471488ac4428f441713c14bd9b"
+  ],
+  "elapsed_s": 4.73003888130188
+}

@@ -1,0 +1,70 @@
+{
+  "input_hash": "204dbaa0af6800979c5b81d419aba0c67c97c04289bfbc0537da91a3956829a7",
+  "sample_id": "ESC-CSV-06918",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gang",
+    "member",
+    "guilty",
+    "Brooklyn",
+    "mom",
+    "12",
+    "death",
+    "Brownsville",
+    "street",
+    "surveillance",
+    "tape"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "76a0c4d77df1b81c36ed26559de7c9bfd0b227e6068141c66ec36f0c3b48ea7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "76a0c4d77df1b81c36ed26559de7c9bfd0b227e6068141c66ec36f0c3b48ea7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1af846ec2d0525842f9082fcd6bd8b0ea0f43a0726dc096cb412f590b8ce4adf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "16a4c7e2206b136a109e17cc66dfae4cf1728c9586850da6a1e2b3052e0fe3a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "67bf9b7b6681e1852b0a399479a6b6d2041f41ac37d3498ce14c62b2cc0c3753",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gang\",\"member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\",\"death\",\"Brownsville\",\"street\",\"surveillance\",\"tape\"],\"target_related\":[\"Gang\",\"member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\",\"death\",\"Brownsville\",\"street\",\"surveillance\",\"tape\",\"played\"],\"mediators\":[\"Gang\",\"member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\",\"death\",\"Brownsville\",\"street\",\"surveillance\",\"tape\"]}"
+    },
+    "indirect": {
+      "call_id": "377062f6eb3b8d5da8cb77d06240a47a05c5e1a462c691b50985062ae94ffbdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The slay (killing) occurred before the trial, and the trial was held because of the slay; common sense supports slay causes trial.\"}"
+    }
+  },
+  "call_ids": [
+    "76a0c4d77df1b81c36ed26559de7c9bfd0b227e6068141c66ec36f0c3b48ea7a",
+    "76a0c4d77df1b81c36ed26559de7c9bfd0b227e6068141c66ec36f0c3b48ea7a",
+    "1af846ec2d0525842f9082fcd6bd8b0ea0f43a0726dc096cb412f590b8ce4adf",
+    "16a4c7e2206b136a109e17cc66dfae4cf1728c9586850da6a1e2b3052e0fe3a2",
+    "67bf9b7b6681e1852b0a399479a6b6d2041f41ac37d3498ce14c62b2cc0c3753",
+    "377062f6eb3b8d5da8cb77d06240a47a05c5e1a462c691b50985062ae94ffbdd"
+  ],
+  "elapsed_s": 4.057264804840088
+}

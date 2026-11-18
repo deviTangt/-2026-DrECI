@@ -1,0 +1,61 @@
+{
+  "input_hash": "0a99496c18bd3654e23986ef7153ba233e9e166488d0cde170d24de817ff423d",
+  "sample_id": "ESC-CSV-06652",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "him"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fcb3b176c136490a0aacf544976623789d292770c1e39ff03bbcb65f6b051bb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fcb3b176c136490a0aacf544976623789d292770c1e39ff03bbcb65f6b051bb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4e7930cc3e5593e7dfa8b6ecbf90630fbda074ec1db25400814a251d63446350",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d0e4fedad00552adbaa13a2889c15aa291363b0fa04cd070d6444528ea3fe184",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a09d0b324db1ab3362a7dee366fccafec749b38827cece81676da0e6fd84e206",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"brother\",\"threatened\",\"him\",\"man\"],\"target_related\":[\"man\",\"him\",\"testimony\",\"stand\",\"reportedly\"],\"mediators\":[\"man\",\"him\"]}"
+    },
+    "indirect": {
+      "call_id": "9d1b038d3faa95fba57c23f5e2509723b3995cd1c5faf920e2cc4171a8509012",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Threat to kill him causes the man to be scared to testify; killing threat precedes and produces fear by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "fcb3b176c136490a0aacf544976623789d292770c1e39ff03bbcb65f6b051bb5",
+    "fcb3b176c136490a0aacf544976623789d292770c1e39ff03bbcb65f6b051bb5",
+    "4e7930cc3e5593e7dfa8b6ecbf90630fbda074ec1db25400814a251d63446350",
+    "d0e4fedad00552adbaa13a2889c15aa291363b0fa04cd070d6444528ea3fe184",
+    "a09d0b324db1ab3362a7dee366fccafec749b38827cece81676da0e6fd84e206",
+    "9d1b038d3faa95fba57c23f5e2509723b3995cd1c5faf920e2cc4171a8509012"
+  ],
+  "elapsed_s": 4.391040086746216
+}

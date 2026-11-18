@@ -1,0 +1,64 @@
+{
+  "input_hash": "c7c32c75d2dbcc41acac62089892159bbaaa692905cb07e65db5c5d213179aeb",
+  "sample_id": "ESC-CSV-07239",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers",
+    "defensive tackle",
+    "suspicion",
+    "drunken driving"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4dca605f8b3ddae231bb3c14750a04d61454a3efe7deb1e7bdb848f6762bb20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4dca605f8b3ddae231bb3c14750a04d61454a3efe7deb1e7bdb848f6762bb20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6e3233c8476953043e0b6c6230c9b248be6cb693794ff1f53cdca7e2112bf949",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bd5279baf09eb605177e3d84be4aa962bb2a8466122a8c07f95ffbd8ff763cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e31cb26fb83620c6c233555c3a587dcd3edf32bbe51aeb3dbf59852de348118a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"drunken driving\",\"suspicion\"],\"target_related\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"suspicion\",\"drunken driving\"],\"mediators\":[\"Jamal Williams\",\"Chargers\",\"defensive tackle\",\"suspicion\",\"drunken driving\"]}"
+    },
+    "indirect": {
+      "call_id": "4ef83cc4e9826d6117e788b88b89d2edd4418f8dbf59ab2af7e2e95b11b8f3c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunken driving' — 'on suspicion of' links DUI as the reason for the arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "c4dca605f8b3ddae231bb3c14750a04d61454a3efe7deb1e7bdb848f6762bb20",
+    "c4dca605f8b3ddae231bb3c14750a04d61454a3efe7deb1e7bdb848f6762bb20",
+    "6e3233c8476953043e0b6c6230c9b248be6cb693794ff1f53cdca7e2112bf949",
+    "4bd5279baf09eb605177e3d84be4aa962bb2a8466122a8c07f95ffbd8ff763cc",
+    "e31cb26fb83620c6c233555c3a587dcd3edf32bbe51aeb3dbf59852de348118a",
+    "4ef83cc4e9826d6117e788b88b89d2edd4418f8dbf59ab2af7e2e95b11b8f3c4"
+  ],
+  "elapsed_s": 5.100196599960327
+}

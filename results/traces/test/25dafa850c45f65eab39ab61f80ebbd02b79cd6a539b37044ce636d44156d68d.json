@@ -1,0 +1,65 @@
+{
+  "input_hash": "25dafa850c45f65eab39ab61f80ebbd02b79cd6a539b37044ce636d44156d68d",
+  "sample_id": "ESC-CSV-09641",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "buildings",
+    "bank",
+    "Finance Ministry",
+    "cars",
+    "fire truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0888b6a7c50e712a4804a6e5209b61049cb44ba624d51f01c628d3777d8a4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0888b6a7c50e712a4804a6e5209b61049cb44ba624d51f01c628d3777d8a4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3665f9375717a6f1df9300fb08ae2e9da2f4fb0793e25548daeebcb7a41f4298",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5e4d22a242a70975a807defdf288b2a1798b6cb28f7ebc034db35afd2c42bf9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f63f9afcb18ba8d843db5ea32858890acce3366cb9131625d5dab4b659732e82",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"police\",\"parliament\",\"buildings\",\"bank\",\"Finance Ministry\",\"cars\",\"fire truck\",\"Athens\"],\"target_related\":[\"protesters\",\"barricades\",\"cars\",\"fire truck\",\"buildings\",\"bank\",\"Finance Ministry\"],\"mediators\":[\"protesters\",\"buildings\",\"bank\",\"Finance Ministry\",\"cars\",\"fire truck\"]}"
+    },
+    "indirect": {
+      "call_id": "4c4a4960183d5ce89992a234f19ed42526db2c9c39870f6b562ca29b016a4162",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Riots led protesters to hurl Molotov cocktails and torch buildings, cars, and a fire truck, causing burning; protesters (Z) link riots to burning.\"}"
+    }
+  },
+  "call_ids": [
+    "c0888b6a7c50e712a4804a6e5209b61049cb44ba624d51f01c628d3777d8a4b3",
+    "c0888b6a7c50e712a4804a6e5209b61049cb44ba624d51f01c628d3777d8a4b3",
+    "3665f9375717a6f1df9300fb08ae2e9da2f4fb0793e25548daeebcb7a41f4298",
+    "5e4d22a242a70975a807defdf288b2a1798b6cb28f7ebc034db35afd2c42bf9e",
+    "f63f9afcb18ba8d843db5ea32858890acce3366cb9131625d5dab4b659732e82",
+    "4c4a4960183d5ce89992a234f19ed42526db2c9c39870f6b562ca29b016a4162"
+  ],
+  "elapsed_s": 4.429951906204224
+}

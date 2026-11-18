@@ -1,0 +1,63 @@
+{
+  "input_hash": "6a67ff582f3fc075e67c712c0999a1b0b16f32ce07b349bf94ba19fb7487a8e7",
+  "sample_id": "ESC-CSV-06574",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "men",
+    "accused",
+    "murdering"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "786948544854b8f16bdab33c2e1a01dfb38d012150e711d3e5b8b855e66917b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "786948544854b8f16bdab33c2e1a01dfb38d012150e711d3e5b8b855e66917b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "21faf914b47060c289725e86b5ee4f8ba34eb9f9cd8212beaa2ecb1c0994fb3c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "935049fdebdcb7cee809164ca1bdf869617f36a28f2fa2273b536585e9fe2e82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d3ee762a5dceffd8fb9001b4c585a39af764fb5aa66bc43d11840ff8b4fe1fd4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"Zurana Horton\",\"Brownsville\",\"mother\",\"12\",\"men\",\"accused\",\"murdering\"],\"target_related\":[\"Jury\",\"Andrew Lopez\",\"verdict\",\"men\",\"accused\",\"murdering\"],\"mediators\":[\"Andrew Lopez\",\"men\",\"accused\",\"murdering\"]}"
+    },
+    "indirect": {
+      "call_id": "ec07ad6606757ed99b4ff02bae29148584b3604477adf3791e8d82d31c4c3f7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Jury finds Andrew Lopez guilty in murder of Zurana Horton; 'in' links the murder to the guilty verdict, expressing causation.\"}"
+    }
+  },
+  "call_ids": [
+    "786948544854b8f16bdab33c2e1a01dfb38d012150e711d3e5b8b855e66917b0",
+    "786948544854b8f16bdab33c2e1a01dfb38d012150e711d3e5b8b855e66917b0",
+    "21faf914b47060c289725e86b5ee4f8ba34eb9f9cd8212beaa2ecb1c0994fb3c",
+    "935049fdebdcb7cee809164ca1bdf869617f36a28f2fa2273b536585e9fe2e82",
+    "d3ee762a5dceffd8fb9001b4c585a39af764fb5aa66bc43d11840ff8b4fe1fd4",
+    "ec07ad6606757ed99b4ff02bae29148584b3604477adf3791e8d82d31c4c3f7b"
+  ],
+  "elapsed_s": 5.15240478515625
+}

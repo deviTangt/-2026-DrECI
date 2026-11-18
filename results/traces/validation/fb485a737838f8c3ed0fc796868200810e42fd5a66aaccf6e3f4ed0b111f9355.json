@@ -1,0 +1,63 @@
+{
+  "input_hash": "fb485a737838f8c3ed0fc796868200810e42fd5a66aaccf6e3f4ed0b111f9355",
+  "sample_id": "ESC-CSV-02095",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jury",
+    "suspect",
+    "Troy",
+    "office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1d224ac3cfc70ffad10f1c2834a900163ecf3d7ef5e3958077f8cef4bb24d52e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1d224ac3cfc70ffad10f1c2834a900163ecf3d7ef5e3958077f8cef4bb24d52e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c1b5837e40c6d95e6cfd3230577d57dac5c5975a4ad7351ead70e1c6c3237def",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2a8e863bb49209e81fb677bd7d770ac034c988eed030b6bf4f3ea05d8aa7c0a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1f2fecf65ea034d301d611972857f936be316092e5a1568bb7efaf449230eceb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jury\",\"suspect\",\"Troy\",\"office\"],\"target_related\":[\"Jury\",\"suspect\",\"Troy\",\"office\"],\"mediators\":[\"Jury\",\"suspect\",\"Troy\",\"office\"]}"
+    },
+    "indirect": {
+      "call_id": "ae7b807d07e1d31afc14f0ccae65e06c07db660d7bef859c99420186aefc8d2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the jury found the suspect guilty; common sense holds that the shooting led to the guilty verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "1d224ac3cfc70ffad10f1c2834a900163ecf3d7ef5e3958077f8cef4bb24d52e",
+    "1d224ac3cfc70ffad10f1c2834a900163ecf3d7ef5e3958077f8cef4bb24d52e",
+    "c1b5837e40c6d95e6cfd3230577d57dac5c5975a4ad7351ead70e1c6c3237def",
+    "2a8e863bb49209e81fb677bd7d770ac034c988eed030b6bf4f3ea05d8aa7c0a0",
+    "1f2fecf65ea034d301d611972857f936be316092e5a1568bb7efaf449230eceb",
+    "ae7b807d07e1d31afc14f0ccae65e06c07db660d7bef859c99420186aefc8d2a"
+  ],
+  "elapsed_s": 5.447606325149536
+}

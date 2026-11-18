@@ -1,0 +1,60 @@
+{
+  "input_hash": "ce55a2b4e21b9680af2b29528752b16d1c166f6da14c5a45b98f8defd1e834d5",
+  "sample_id": "ESC-CSV-02487",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7bbf619afbdfd245cfc5bf21540a688aea5f632509960dada38a493402d4e2e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7bbf619afbdfd245cfc5bf21540a688aea5f632509960dada38a493402d4e2e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a764821ba3a95c0a83a4cf9f36fff7cbe4ad34ad0f5f82aed05ba891d1493818",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c2af511d523b81b98d1dc6780228013b3ff561315237a307eb4f7e233b0d5634",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "0f7ff70f64edcfca0f3149baca25a0621217c0f584ffccd0dde98b6de7e31684",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\"],\"target_related\":[\"Gray\",\"police\",\"Mourad\",\"Cordova\"],\"mediators\":[\"Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "11c6e3a95aa9846c5d3ff4d08dc5f69374d7ed8471ed669f4595860cca25fb72",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Gray was killed on March 9 by police; 'by' explicitly links the killing (Y) as caused by police, and death (X) results from being killed.\"}"
+    }
+  },
+  "call_ids": [
+    "7bbf619afbdfd245cfc5bf21540a688aea5f632509960dada38a493402d4e2e4",
+    "7bbf619afbdfd245cfc5bf21540a688aea5f632509960dada38a493402d4e2e4",
+    "a764821ba3a95c0a83a4cf9f36fff7cbe4ad34ad0f5f82aed05ba891d1493818",
+    "c2af511d523b81b98d1dc6780228013b3ff561315237a307eb4f7e233b0d5634",
+    "0f7ff70f64edcfca0f3149baca25a0621217c0f584ffccd0dde98b6de7e31684",
+    "11c6e3a95aa9846c5d3ff4d08dc5f69374d7ed8471ed669f4595860cca25fb72"
+  ],
+  "elapsed_s": 15.300846338272095
+}

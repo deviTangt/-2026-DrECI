@@ -1,0 +1,65 @@
+{
+  "input_hash": "b03e5c7226db03e094cb32a6a7c8d84a642ee82154eb283ee8d4b4bbfbe3d93f",
+  "sample_id": "ESC-CSV-09505",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "Greece",
+    "bank",
+    "Athens",
+    "strike",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ea04b74af686c06de5f2f7c135d0b0d7ecd4fbdd283e5f8c7ea9c1a7991f7b5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ea04b74af686c06de5f2f7c135d0b0d7ecd4fbdd283e5f8c7ea9c1a7991f7b5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "83507d4ba26f3b9a004cd225122dacd33176d83d5dc11b154e665924000514a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2efc6277038e865285063abae1b38f369075551ebec18b8211d8cf8c7d4e7b28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "275e6a6eb196cae573d800457aa1d1d86ab77ea3612e4955fec9b9e8c6392ebc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"fire\"],\"target_related\":[\"Three\",\"people\",\"died\",\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"fire\"],\"mediators\":[\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "97a16c58cca27f0b9cec61d9e5e070d414d42b5d21035463087fe4e9b6c6e2c4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'rioters ... set fire to a bank' and 'Three people have died' — setting fire caused the deaths; common sense confirms fire leads to death.\"}"
+    }
+  },
+  "call_ids": [
+    "ea04b74af686c06de5f2f7c135d0b0d7ecd4fbdd283e5f8c7ea9c1a7991f7b5e",
+    "ea04b74af686c06de5f2f7c135d0b0d7ecd4fbdd283e5f8c7ea9c1a7991f7b5e",
+    "83507d4ba26f3b9a004cd225122dacd33176d83d5dc11b154e665924000514a6",
+    "2efc6277038e865285063abae1b38f369075551ebec18b8211d8cf8c7d4e7b28",
+    "275e6a6eb196cae573d800457aa1d1d86ab77ea3612e4955fec9b9e8c6392ebc",
+    "97a16c58cca27f0b9cec61d9e5e070d414d42b5d21035463087fe4e9b6c6e2c4"
+  ],
+  "elapsed_s": 4.320508241653442
+}

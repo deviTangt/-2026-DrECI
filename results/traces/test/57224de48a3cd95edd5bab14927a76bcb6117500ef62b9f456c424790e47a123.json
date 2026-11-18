@@ -1,0 +1,62 @@
+{
+  "input_hash": "57224de48a3cd95edd5bab14927a76bcb6117500ef62b9f456c424790e47a123",
+  "sample_id": "ESC-CSV-04440",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "Casty",
+    "Shop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "68c6e580dd441651f51ebe1073df8b87512af418b4e5c06766eaccf257c8bed4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "68c6e580dd441651f51ebe1073df8b87512af418b4e5c06766eaccf257c8bed4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c1c845806a66d93d957f9b0bfb10126ff8ed713f3860c974459b931dbdec5b28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cac505eba4aa0b8f3d07df7a36c8d078cac5f3c51637613bdda23f3117672b69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f10cfaa4787de3629c62f3cfa76cf42c539b368dd4e8225653ae7a56cfef1746",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"Casty\",\"Shop\"],\"target_related\":[\"Casty\",\"Shop\",\"Jewellery\"],\"mediators\":[\"Jewellery\",\"Casty\",\"Shop\"]}"
+    },
+    "indirect": {
+      "call_id": "89debdb36a485deb52f9de25450d1b59b341fa1a4ab1f772c1d7ab9804fc2f72",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The headline uses 'by' in 'Jewellery Stolen In Casty Shop Raid,' linking the raid as the explicit cause of the theft.\"}"
+    }
+  },
+  "call_ids": [
+    "68c6e580dd441651f51ebe1073df8b87512af418b4e5c06766eaccf257c8bed4",
+    "68c6e580dd441651f51ebe1073df8b87512af418b4e5c06766eaccf257c8bed4",
+    "c1c845806a66d93d957f9b0bfb10126ff8ed713f3860c974459b931dbdec5b28",
+    "cac505eba4aa0b8f3d07df7a36c8d078cac5f3c51637613bdda23f3117672b69",
+    "f10cfaa4787de3629c62f3cfa76cf42c539b368dd4e8225653ae7a56cfef1746",
+    "89debdb36a485deb52f9de25450d1b59b341fa1a4ab1f772c1d7ab9804fc2f72"
+  ],
+  "elapsed_s": 4.203873872756958
+}

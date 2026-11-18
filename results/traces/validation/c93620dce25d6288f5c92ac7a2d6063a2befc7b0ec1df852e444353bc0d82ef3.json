@@ -1,0 +1,61 @@
+{
+  "input_hash": "c93620dce25d6288f5c92ac7a2d6063a2befc7b0ec1df852e444353bc0d82ef3",
+  "sample_id": "ESC-CSV-02090",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Suspect",
+    "Gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dcf33a086b370122198807b5ebb484e2fb00134860857675502d4c59f4204424",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dcf33a086b370122198807b5ebb484e2fb00134860857675502d4c59f4204424",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a0778062ef1689fc28c40004a34e886b4ea3be40beeb26dfdf79e438708d8284",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4386cc0bf73f4867f527e36d8066947dcc568132bebdbefc5b5b51aabeeb309a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "99c352044dc03143ba9a0f85079a88f2aaad3e538312d339bdd1578441600bd6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Suspect\",\"Troy\",\"Mich\",\"company\",\"Gunman\"],\"target_related\":[\"Suspect\",\"Gunman\",\"wounds\",\"accounting\",\"office\"],\"mediators\":[\"Suspect\",\"Gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "5c60b933a238e3766ef75caabea92a0f2b104cb296fc0881930a8247a0889b9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired last week could motivate the suspect's later attack; firing precedes and plausibly causes the killing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "dcf33a086b370122198807b5ebb484e2fb00134860857675502d4c59f4204424",
+    "dcf33a086b370122198807b5ebb484e2fb00134860857675502d4c59f4204424",
+    "a0778062ef1689fc28c40004a34e886b4ea3be40beeb26dfdf79e438708d8284",
+    "4386cc0bf73f4867f527e36d8066947dcc568132bebdbefc5b5b51aabeeb309a",
+    "99c352044dc03143ba9a0f85079a88f2aaad3e538312d339bdd1578441600bd6",
+    "5c60b933a238e3766ef75caabea92a0f2b104cb296fc0881930a8247a0889b9e"
+  ],
+  "elapsed_s": 5.410297632217407
+}

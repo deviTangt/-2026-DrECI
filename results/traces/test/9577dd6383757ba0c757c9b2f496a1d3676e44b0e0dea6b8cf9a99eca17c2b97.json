@@ -1,0 +1,62 @@
+{
+  "input_hash": "9577dd6383757ba0c757c9b2f496a1d3676e44b0e0dea6b8cf9a99eca17c2b97",
+  "sample_id": "ESC-CSV-06444",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pregnant mom",
+    "died",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e7de12be136cb55c35da53d4f5e6ca46fd2e00ccaa274706ad09cd485b61f973",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e7de12be136cb55c35da53d4f5e6ca46fd2e00ccaa274706ad09cd485b61f973",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "14eec15d768ed69723aff4680a40df7d3646a2891aaae7fb59eafbe6b4036178",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8c4c18db62b129fc8d308ebfa3f21c15147d15900ba22ee64883aacbf9662e56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b5c839b32d32f11f0bc99ca2286a577bba1f1c5f5565c38374ade776626a06d8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"confessed\",\"killing\",\"pregnant mom\",\"died\",\"bullets\",\"ladies\",\"sources\",\"New York Daily News\"],\"target_related\":[\"pregnant mom\",\"died\",\"children\",\"bullets\"],\"mediators\":[\"pregnant mom\",\"died\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "2f51bb866ee94664c53e87db29d9ff2fcf56bef402b1032e6b012a4605e51511",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting (X) occurred before and caused the mom to shield children (Y); common sense: gunfire prompts shielding.\"}"
+    }
+  },
+  "call_ids": [
+    "e7de12be136cb55c35da53d4f5e6ca46fd2e00ccaa274706ad09cd485b61f973",
+    "e7de12be136cb55c35da53d4f5e6ca46fd2e00ccaa274706ad09cd485b61f973",
+    "14eec15d768ed69723aff4680a40df7d3646a2891aaae7fb59eafbe6b4036178",
+    "8c4c18db62b129fc8d308ebfa3f21c15147d15900ba22ee64883aacbf9662e56",
+    "b5c839b32d32f11f0bc99ca2286a577bba1f1c5f5565c38374ade776626a06d8",
+    "2f51bb866ee94664c53e87db29d9ff2fcf56bef402b1032e6b012a4605e51511"
+  ],
+  "elapsed_s": 5.622128486633301
+}

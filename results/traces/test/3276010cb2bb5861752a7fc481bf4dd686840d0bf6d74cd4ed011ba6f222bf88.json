@@ -1,0 +1,62 @@
+{
+  "input_hash": "3276010cb2bb5861752a7fc481bf4dd686840d0bf6d74cd4ed011ba6f222bf88",
+  "sample_id": "ESC-CSV-06647",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Lopez",
+    "Jonathan Carrasquillo",
+    "enemies"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f40fdbb326bed5b7a3fbba0ea9e645d8b9105e08a313a8419631e1d71f6cd9df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f40fdbb326bed5b7a3fbba0ea9e645d8b9105e08a313a8419631e1d71f6cd9df",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c213d254556a5800d19532b15086fd036782612a275abe54bfc5caee063b6600",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0257bceeb689ce75beeacbddd0350c67b441aef004e31512488722d3ccd77558",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "71b3a67711948c6d31a251f43c795f26c2937dc2ce9888b0a006768604741be2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"brother\",\"threatened\",\"enemies\",\"Jonathan Carrasquillo\",\"him\"],\"target_related\":[\"Lopez\",\"Jonathan Carrasquillo\",\"suspected\",\"kill\",\"enemies\"],\"mediators\":[\"Lopez\",\"Jonathan Carrasquillo\",\"enemies\"]}"
+    },
+    "indirect": {
+      "call_id": "872fde50501d8ccb28143905557062f32c193e73e33ac563d509c1c8e1be5635",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Jonathan Carrasquillo directed Lopez to kill their enemies; Lopez is the intermediary linking the directing to the killing, forming a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "f40fdbb326bed5b7a3fbba0ea9e645d8b9105e08a313a8419631e1d71f6cd9df",
+    "f40fdbb326bed5b7a3fbba0ea9e645d8b9105e08a313a8419631e1d71f6cd9df",
+    "c213d254556a5800d19532b15086fd036782612a275abe54bfc5caee063b6600",
+    "0257bceeb689ce75beeacbddd0350c67b441aef004e31512488722d3ccd77558",
+    "71b3a67711948c6d31a251f43c795f26c2937dc2ce9888b0a006768604741be2",
+    "872fde50501d8ccb28143905557062f32c193e73e33ac563d509c1c8e1be5635"
+  ],
+  "elapsed_s": 4.485180854797363
+}

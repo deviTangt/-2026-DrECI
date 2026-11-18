@@ -1,0 +1,67 @@
+{
+  "input_hash": "41ccc626478fe4b99b6c2fba53f29c5b01cc4225edc2e98e5a4b90ef9d9f8603",
+  "sample_id": "ESC-CSV-09559",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "petrol",
+    "bomb",
+    "hurled",
+    "Athens",
+    "branch",
+    "Marfin",
+    "Investment",
+    "Bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "83fd2ef446c3a4de55cedddca7097d7386880318f964019fe379833e330a9b98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "83fd2ef446c3a4de55cedddca7097d7386880318f964019fe379833e330a9b98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3db3969c69aba3235579fc9aa2c06c1e895fed025e464bae2865dadfa3eaca6a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "370f571b31d0f4bf9ee45e1b459ee3339ac3b0770dfe51dd18740d9c7294a976",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "297e5cbcf1af4d718b6f900b53844f02490af1a23b3e1dfac6cef95b9409c878",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"Greek\",\"bank\",\"petrol\",\"bomb\",\"hurled\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\"],\"target_related\":[\"dead\",\"two\",\"women\",\"man\",\"caught\",\"inferno\",\"petrol\",\"bomb\",\"hurled\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\"],\"mediators\":[\"petrol\",\"bomb\",\"hurled\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\"]}"
+    },
+    "indirect": {
+      "call_id": "c8f89c9db2d6c19166753089271acaa03d0e61e8914773dc4a845fc01704df19",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"A petrol bomb hurled at the bank killed people; the torching/bomb attack caused the deaths, with bomb as intermediary.\"}"
+    }
+  },
+  "call_ids": [
+    "83fd2ef446c3a4de55cedddca7097d7386880318f964019fe379833e330a9b98",
+    "83fd2ef446c3a4de55cedddca7097d7386880318f964019fe379833e330a9b98",
+    "3db3969c69aba3235579fc9aa2c06c1e895fed025e464bae2865dadfa3eaca6a",
+    "370f571b31d0f4bf9ee45e1b459ee3339ac3b0770dfe51dd18740d9c7294a976",
+    "297e5cbcf1af4d718b6f900b53844f02490af1a23b3e1dfac6cef95b9409c878",
+    "c8f89c9db2d6c19166753089271acaa03d0e61e8914773dc4a845fc01704df19"
+  ],
+  "elapsed_s": 4.333645820617676
+}

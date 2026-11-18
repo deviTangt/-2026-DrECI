@@ -1,0 +1,60 @@
+{
+  "input_hash": "1ff1878709a72e62c1e893c79bbc5981a774d7404bcabea81df2a93618cf1aba",
+  "sample_id": "ESC-CSV-09706",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ac04eb5f57e94d28db363dfffa905982ee41fe13ffb80723839f3c70e4e23c05",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ac04eb5f57e94d28db363dfffa905982ee41fe13ffb80723839f3c70e4e23c05",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "33146a2ef9dd2d058eaf7de112486173184ab804b2a38ffd6051808e0da50ba8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "86dc6538a6404c78e0a1b37fc74adea93885f6c4ee52d17014fba507fa7d4483",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fffc5d3b45df4d2239266a00369ef3d00168c64b444b146a1311adba05378d30",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"parliament\",\"angry\"],\"target_related\":[\"Police\",\"tear gas\",\"barrages\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "d62acb06f1f0c285df743b6fd746e55f640faa725b4ab6951d2ab33b7d413889",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No causal link between 'storm' and 'responded'; police responded to protesters, not a storm.\"}"
+    }
+  },
+  "call_ids": [
+    "ac04eb5f57e94d28db363dfffa905982ee41fe13ffb80723839f3c70e4e23c05",
+    "ac04eb5f57e94d28db363dfffa905982ee41fe13ffb80723839f3c70e4e23c05",
+    "33146a2ef9dd2d058eaf7de112486173184ab804b2a38ffd6051808e0da50ba8",
+    "86dc6538a6404c78e0a1b37fc74adea93885f6c4ee52d17014fba507fa7d4483",
+    "fffc5d3b45df4d2239266a00369ef3d00168c64b444b146a1311adba05378d30",
+    "d62acb06f1f0c285df743b6fd746e55f640faa725b4ab6951d2ab33b7d413889"
+  ],
+  "elapsed_s": 4.380555152893066
+}

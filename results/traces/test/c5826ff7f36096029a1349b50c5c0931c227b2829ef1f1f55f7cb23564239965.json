@@ -1,0 +1,64 @@
+{
+  "input_hash": "c5826ff7f36096029a1349b50c5c0931c227b2829ef1f1f55f7cb23564239965",
+  "sample_id": "ESC-CSV-04020",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "man",
+    "climber",
+    "mountain",
+    "New Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0cb0201cbd2e959db360e6d0a1ff9ed729cc17e2a685446c088c6b1cd5e4fec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0cb0201cbd2e959db360e6d0a1ff9ed729cc17e2a685446c088c6b1cd5e4fec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "672300735eae25debe6c03d2c1d862d768639143c09a2669b39017d6508c3616",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "da37d4be11939707c815a6a07d7922aea2165cb94f91371844317f5b3374b889",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3ac7461e06643cf3255ec7aef77d288a8f78857c2defcf8a6daa94f1ed4fe3d1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climber\",\"mountain\",\"New Zealand\",\"British\",\"man\",\"climbing\"],\"target_related\":[\"British\",\"man\",\"climber\",\"mountain\",\"New Zealand\",\"falling\"],\"mediators\":[\"British\",\"man\",\"climber\",\"mountain\",\"New Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "4b8d18f2cbea48eba322c8be6910d0dda23fb6f4635c328ccf21d7f273cf37cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed after falling' uses 'after' as explicit causal link; common sense: falling from 2,000ft causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "c0cb0201cbd2e959db360e6d0a1ff9ed729cc17e2a685446c088c6b1cd5e4fec",
+    "c0cb0201cbd2e959db360e6d0a1ff9ed729cc17e2a685446c088c6b1cd5e4fec",
+    "672300735eae25debe6c03d2c1d862d768639143c09a2669b39017d6508c3616",
+    "da37d4be11939707c815a6a07d7922aea2165cb94f91371844317f5b3374b889",
+    "3ac7461e06643cf3255ec7aef77d288a8f78857c2defcf8a6daa94f1ed4fe3d1",
+    "4b8d18f2cbea48eba322c8be6910d0dda23fb6f4635c328ccf21d7f273cf37cb"
+  ],
+  "elapsed_s": 3.8604843616485596
+}

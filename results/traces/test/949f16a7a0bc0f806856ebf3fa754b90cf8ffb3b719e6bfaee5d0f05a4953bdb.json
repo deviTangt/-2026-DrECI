@@ -1,0 +1,65 @@
+{
+  "input_hash": "949f16a7a0bc0f806856ebf3fa754b90cf8ffb3b719e6bfaee5d0f05a4953bdb",
+  "sample_id": "ESC-CSV-06630",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "footage",
+    "youths",
+    "murdering",
+    "Horton",
+    "Brooklyn",
+    "Mother"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4149c019dd95522485db86d6adb0ca3f756edc79481671a1a78aaf20b195ccbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4149c019dd95522485db86d6adb0ca3f756edc79481671a1a78aaf20b195ccbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d86178ef695246753308135edd8e6c36fcde2f136baea69ca12616868c15b481",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b57c6771dac12a1bdc4e58f4598cdf7c7c796fc6108e4b45e8d73f673d13b6f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "670b31e33e54bf8e92621bca245c56a7ef7c41730afb5bb00d6b60ea463660af",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Mother\",\"Horton\",\"murdering\",\"youths\",\"footage\"],\"target_related\":[\"Prosecutors\",\"footage\",\"youths\",\"murdering\",\"Horton\",\"Brooklyn\",\"Mother\"],\"mediators\":[\"footage\",\"youths\",\"murdering\",\"Horton\",\"Brooklyn\",\"Mother\"]}"
+    },
+    "indirect": {
+      "call_id": "a55bc15028d3ef52f654ea9291813b8ff9f26ec859c722a8371e8c2129198dbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fatal shooting occurred before the trial; the shooting is the crime being tried, so it leads to the trial by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4149c019dd95522485db86d6adb0ca3f756edc79481671a1a78aaf20b195ccbf",
+    "4149c019dd95522485db86d6adb0ca3f756edc79481671a1a78aaf20b195ccbf",
+    "d86178ef695246753308135edd8e6c36fcde2f136baea69ca12616868c15b481",
+    "b57c6771dac12a1bdc4e58f4598cdf7c7c796fc6108e4b45e8d73f673d13b6f7",
+    "670b31e33e54bf8e92621bca245c56a7ef7c41730afb5bb00d6b60ea463660af",
+    "a55bc15028d3ef52f654ea9291813b8ff9f26ec859c722a8371e8c2129198dbe"
+  ],
+  "elapsed_s": 4.588804244995117
+}

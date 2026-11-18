@@ -1,0 +1,60 @@
+{
+  "input_hash": "0654aec110765ddd04dc3a669a74401f96a17686e974f3effee0037ee3662dc9",
+  "sample_id": "ESC-CSV-02707",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0ffdcf3c7c758b2bccb449f6473d623dc12373ab7264829c1e30d7561cd783dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0ffdcf3c7c758b2bccb449f6473d623dc12373ab7264829c1e30d7561cd783dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "014cf6b669800e2f9dd8f3cc51f180bcae9d4de828ad4f59cbab431a598c8ff6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8da19a5937c5f40b6ddf24ddf728a170cd092efa73b7df9c5ea121a8e4856103",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "53ab6e903b1452cd9a61435dbd1f3aa3fbf8f41c3671819f4a86e26d2d6efacb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\"],\"target_related\":[\"East Flatbush\",\"Monday\",\"projectiles\",\"hurled\",\"cops\",\"car\",\"windows\",\"smashed\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "30c74ec1165cf242d213f8a1f1041fbac84b7caccc9037b83aff1740a92eff9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger ... fueled a riot — 'fueled' is an implicit causation word linking Anger to the riot.\"}"
+    }
+  },
+  "call_ids": [
+    "0ffdcf3c7c758b2bccb449f6473d623dc12373ab7264829c1e30d7561cd783dc",
+    "0ffdcf3c7c758b2bccb449f6473d623dc12373ab7264829c1e30d7561cd783dc",
+    "014cf6b669800e2f9dd8f3cc51f180bcae9d4de828ad4f59cbab431a598c8ff6",
+    "8da19a5937c5f40b6ddf24ddf728a170cd092efa73b7df9c5ea121a8e4856103",
+    "53ab6e903b1452cd9a61435dbd1f3aa3fbf8f41c3671819f4a86e26d2d6efacb",
+    "30c74ec1165cf242d213f8a1f1041fbac84b7caccc9037b83aff1740a92eff9b"
+  ],
+  "elapsed_s": 4.849478006362915
+}

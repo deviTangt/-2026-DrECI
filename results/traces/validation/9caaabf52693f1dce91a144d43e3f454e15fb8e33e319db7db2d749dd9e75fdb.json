@@ -1,0 +1,63 @@
+{
+  "input_hash": "9caaabf52693f1dce91a144d43e3f454e15fb8e33e319db7db2d749dd9e75fdb",
+  "sample_id": "ESC-CSV-01795",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Orozco",
+    "jury",
+    "gang member",
+    "Los Angeles County Sheriff's deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4e9a8460bf15cbe3f640a444fb529d7b333a0e70055ddca776016082016aea78",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4e9a8460bf15cbe3f640a444fb529d7b333a0e70055ddca776016082016aea78",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "43eda8a7b2c41c75a1e5e96b4bd6ab99b4e2e27322079ae0ced74b835fdcb421",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b75e2303d6a8c7a56e88352d74906eeaaf20957ecf50b0a4bb17bc07dfd23039",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cb51251c1182dbc0dc3321ac43a3402d69cb4a1134f7655914aa61c2b2def45b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"jury\",\"police officer\",\"gang member\",\"Los Angeles County Sheriff's deputy\"],\"target_related\":[\"Orozco\",\"jury\",\"gang member\",\"Los Angeles County Sheriff's deputy\"],\"mediators\":[\"Orozco\",\"jury\",\"gang member\",\"Los Angeles County Sheriff's deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "19aed3ed9e14ba2836b98751b7d5cb12b6c7f3efabb31de942757ef21cdcc1a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: being convicted of murder follows from committing murder; the jury found him guilty of murder, so murder led to conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "4e9a8460bf15cbe3f640a444fb529d7b333a0e70055ddca776016082016aea78",
+    "4e9a8460bf15cbe3f640a444fb529d7b333a0e70055ddca776016082016aea78",
+    "43eda8a7b2c41c75a1e5e96b4bd6ab99b4e2e27322079ae0ced74b835fdcb421",
+    "b75e2303d6a8c7a56e88352d74906eeaaf20957ecf50b0a4bb17bc07dfd23039",
+    "cb51251c1182dbc0dc3321ac43a3402d69cb4a1134f7655914aa61c2b2def45b",
+    "19aed3ed9e14ba2836b98751b7d5cb12b6c7f3efabb31de942757ef21cdcc1a0"
+  ],
+  "elapsed_s": 5.712860345840454
+}

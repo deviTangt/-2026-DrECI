@@ -1,0 +1,69 @@
+{
+  "input_hash": "8c1c03c8c285d7589a54bb1b988ee74e842382b7332a0149dcb289bd950545e9",
+  "sample_id": "ESC-CSV-02290",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "accountant",
+    "bought",
+    "shotgun",
+    "day",
+    "lost",
+    "job",
+    "returned",
+    "office",
+    "following",
+    "week"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b848fe146521dcb42f0ceca6816400a46a663ae5b418055b502829b6544e875d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b848fe146521dcb42f0ceca6816400a46a663ae5b418055b502829b6544e875d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "40669f083d4e38211b587c2ed6f7272c4670207301ff8e6258db1b188c44bed7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d468d84bd0905347426607d3bde26d6e8e4b079dabb09b183db1ec842546a687",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "7c952873f1563d505a384b1830c2be23e58d75d5e90c77606272310bcca838db",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Steinberg\",\"partner\",\"firm\",\"told\",\"police\",\"LaCalamita\",\"loaded\",\"shell\",\"shotgun\",\"chamber\",\"him\",\"hitting\",\"hip\",\"area\",\"accountant\",\"bought\",\"day\",\"lost\",\"job\",\"returned\",\"office\",\"following\",\"week\"],\"target_related\":[\"accountant\",\"bought\",\"shotgun\",\"day\",\"lost\",\"job\",\"returned\",\"office\",\"following\",\"week\",\"bosses\",\"wounding\",\"killing\",\"receptionist\",\"Associated\",\"Press\",\"reported\"],\"mediators\":[\"accountant\",\"bought\",\"shotgun\",\"day\",\"lost\",\"job\",\"returned\",\"office\",\"following\",\"week\"]}"
+    },
+    "indirect": {
+      "call_id": "84b0846f036c04701ba8888f593c536dc66f208c0d51efdb8583d940114467e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Firing at him (X) precedes and causes the wounding described as opening fire (Y); common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "b848fe146521dcb42f0ceca6816400a46a663ae5b418055b502829b6544e875d",
+    "b848fe146521dcb42f0ceca6816400a46a663ae5b418055b502829b6544e875d",
+    "40669f083d4e38211b587c2ed6f7272c4670207301ff8e6258db1b188c44bed7",
+    "d468d84bd0905347426607d3bde26d6e8e4b079dabb09b183db1ec842546a687",
+    "7c952873f1563d505a384b1830c2be23e58d75d5e90c77606272310bcca838db",
+    "84b0846f036c04701ba8888f593c536dc66f208c0d51efdb8583d940114467e4"
+  ],
+  "elapsed_s": 9.435327053070068
+}

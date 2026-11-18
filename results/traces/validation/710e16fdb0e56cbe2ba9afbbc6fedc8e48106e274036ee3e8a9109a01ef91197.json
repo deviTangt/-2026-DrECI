@@ -1,0 +1,66 @@
+{
+  "input_hash": "710e16fdb0e56cbe2ba9afbbc6fedc8e48106e274036ee3e8a9109a01ef91197",
+  "sample_id": "ESC-CSV-02575",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "poured",
+    "pitching",
+    "bricks",
+    "bottles",
+    "garbage",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "091bedb3b06eda52e6e06d34aab0963fe53260509a172a38fd057c9450389be5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "091bedb3b06eda52e6e06d34aab0963fe53260509a172a38fd057c9450389be5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c3626951019b8679bfd9929c797d5d0ce832125c0f88fda4df4bbadc4e5b4c77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "81a0b1d33ff20f0a1f709c68884511f5e80a4c8a7ae1986594ae4ec1ab8539fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d9b6f89398bc8e8eced2aaf15a20d58c0031a3f5fb5f9e017149134f76b9f718",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"Protesters\",\"poured\",\"pitching\",\"bricks\",\"bottles\",\"garbage\",\"cops\"],\"target_related\":[\"Protesters\",\"poured\",\"pitching\",\"bricks\",\"bottles\",\"garbage\",\"cops\"],\"mediators\":[\"Protesters\",\"poured\",\"pitching\",\"bricks\",\"bottles\",\"garbage\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "df45ee19f4b17034055f0ee96188f524953523639ef1a3ce056d66dc52a7ae43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Furious (enraged) protesters pitched bricks and bottles, causing furious clashes with cops; anger precedes and drives the clashes.\"}"
+    }
+  },
+  "call_ids": [
+    "091bedb3b06eda52e6e06d34aab0963fe53260509a172a38fd057c9450389be5",
+    "091bedb3b06eda52e6e06d34aab0963fe53260509a172a38fd057c9450389be5",
+    "c3626951019b8679bfd9929c797d5d0ce832125c0f88fda4df4bbadc4e5b4c77",
+    "81a0b1d33ff20f0a1f709c68884511f5e80a4c8a7ae1986594ae4ec1ab8539fa",
+    "d9b6f89398bc8e8eced2aaf15a20d58c0031a3f5fb5f9e017149134f76b9f718",
+    "df45ee19f4b17034055f0ee96188f524953523639ef1a3ce056d66dc52a7ae43"
+  ],
+  "elapsed_s": 9.980082988739014
+}

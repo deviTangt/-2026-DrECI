@@ -1,0 +1,63 @@
+{
+  "input_hash": "2b12fdba4daaa2dd15f14a71c65d4cf9dd6e8f04726948c50bcbd82a44f0cb19",
+  "sample_id": "ESC-CSV-09380",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protestors",
+    "striking",
+    "budget",
+    "brutal"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d2b33addeb0aa05eb5eecfa4984bf2dced02f1414324b8fc1ee2b3f079f75f66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d2b33addeb0aa05eb5eecfa4984bf2dced02f1414324b8fc1ee2b3f079f75f66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5a969d87e03957a3ea9e502aef5df33ad75a8a77865e980a1a2c433799128c20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "642683c70d746e7be26fabe3737cfad0a3c7f89dfefa5315338f6ca091f8feb4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b6e68783c315591d21c8ec073503e23f2034f85a5d3585246ceaf1796b70baf1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"budget\",\"brutal\",\"bankruptcy\",\"avert\",\"protestors\",\"striking\"],\"target_related\":[\"protestors\",\"striking\",\"police\",\"battles\",\"budget\",\"brutal\",\"cuts\"],\"mediators\":[\"protestors\",\"striking\",\"budget\",\"brutal\"]}"
+    },
+    "indirect": {
+      "call_id": "2ddaf0be5ea134afdda302eba9773d6e4125d82b6a7b5e7867725c139b1d71eb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Brutal budget cuts provoke public anger; people are furious at the cuts, so cuts cause fury by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "d2b33addeb0aa05eb5eecfa4984bf2dced02f1414324b8fc1ee2b3f079f75f66",
+    "d2b33addeb0aa05eb5eecfa4984bf2dced02f1414324b8fc1ee2b3f079f75f66",
+    "5a969d87e03957a3ea9e502aef5df33ad75a8a77865e980a1a2c433799128c20",
+    "642683c70d746e7be26fabe3737cfad0a3c7f89dfefa5315338f6ca091f8feb4",
+    "b6e68783c315591d21c8ec073503e23f2034f85a5d3585246ceaf1796b70baf1",
+    "2ddaf0be5ea134afdda302eba9773d6e4125d82b6a7b5e7867725c139b1d71eb"
+  ],
+  "elapsed_s": 5.108884572982788
+}

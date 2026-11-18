@@ -1,0 +1,66 @@
+{
+  "input_hash": "5fae4b12ffd6b1422f8c5f4295c494594e1b3d9074de011064c99ebcf95868db",
+  "sample_id": "ESC-CSV-07096",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "defensive tackle",
+    "Charger",
+    "California Highway Patrol",
+    "last weekend",
+    "freeway",
+    "downtown"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ba1d22df52ff1f7a8c814ec98527af4c3d01c80a5345f5a99bb3fd7537149e3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ba1d22df52ff1f7a8c814ec98527af4c3d01c80a5345f5a99bb3fd7537149e3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4227eb1918a3f75030e894a09b382649f70565f39a9e1deb078a7b0b990111f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "93d2fc340bed87935c06f6ed88cc9fb34a509673f4c75a0a50b875658e323cb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "60d0d709f042f46e2db6f50f00f6120b41557e9c9522529359610d5c1c48b5c3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"defensive tackle\",\"Charger\",\"California Highway Patrol\",\"last weekend\",\"freeway\",\"downtown\"],\"target_related\":[\"Jamal Williams\",\"defensive tackle\",\"Charger\",\"California Highway Patrol\",\"last weekend\",\"freeway\",\"downtown\"],\"mediators\":[\"Jamal Williams\",\"defensive tackle\",\"Charger\",\"California Highway Patrol\",\"last weekend\",\"freeway\",\"downtown\"]}"
+    },
+    "indirect": {
+      "call_id": "b86c939b3d4567a66c8745aacf6f51d229106acfe8ac5a1cbf2ac3d0e92ca185",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Williams was arrested on suspicion of drunken driving; the arrest follows the suspected DUI, not caused by it, and no explicit or implicit causal words link them.\"}"
+    }
+  },
+  "call_ids": [
+    "ba1d22df52ff1f7a8c814ec98527af4c3d01c80a5345f5a99bb3fd7537149e3d",
+    "ba1d22df52ff1f7a8c814ec98527af4c3d01c80a5345f5a99bb3fd7537149e3d",
+    "4227eb1918a3f75030e894a09b382649f70565f39a9e1deb078a7b0b990111f0",
+    "93d2fc340bed87935c06f6ed88cc9fb34a509673f4c75a0a50b875658e323cb3",
+    "60d0d709f042f46e2db6f50f00f6120b41557e9c9522529359610d5c1c48b5c3",
+    "b86c939b3d4567a66c8745aacf6f51d229106acfe8ac5a1cbf2ac3d0e92ca185"
+  ],
+  "elapsed_s": 4.0247204303741455
+}

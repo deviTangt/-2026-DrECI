@@ -1,0 +1,64 @@
+{
+  "input_hash": "27261ce81179a2fb2188bdfc14039223b8346a583283aabfe556629bc9e9a298",
+  "sample_id": "ESC-CSV-06812",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "investigation",
+    "identified",
+    "Mr . Lopez",
+    "statements",
+    "full"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5ef6d8161882a3fe6c6d17481e13b72ade54c7246b4021f916110d8bd114882c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5ef6d8161882a3fe6c6d17481e13b72ade54c7246b4021f916110d8bd114882c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aff45abdd87a5018f9c61e2d3846e2503d5ffe48cc186f43b645cb6c6224c454",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2a8a1d999d2c2a2bf90a518900bfeaf847ec40befcfb3331628a9b55a4df7517",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7f32174fa3beed0eecd10c211653629d9f78f7337762bfab73debc7eb4e63c12",
+      "status": "ok",
+      "text": "{\"source_related\":[\"investigation\",\"identified\",\"Mr . Lopez\",\"statements\",\"full\"],\"target_related\":[\"fact\",\"investigation\",\"identified\",\"Mr . Lopez\",\"statements\",\"full confession\"],\"mediators\":[\"investigation\",\"identified\",\"Mr . Lopez\",\"statements\",\"full\"]}"
+    },
+    "indirect": {
+      "call_id": "6dc40650b631f2aa2317fee3aa9039f466e05f6cdfc47ea0619b0e1e70a1a823",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A full confession logically causes the speakers to be pleased; confession precedes and explains their stated pleasure.\"}"
+    }
+  },
+  "call_ids": [
+    "5ef6d8161882a3fe6c6d17481e13b72ade54c7246b4021f916110d8bd114882c",
+    "5ef6d8161882a3fe6c6d17481e13b72ade54c7246b4021f916110d8bd114882c",
+    "aff45abdd87a5018f9c61e2d3846e2503d5ffe48cc186f43b645cb6c6224c454",
+    "2a8a1d999d2c2a2bf90a518900bfeaf847ec40befcfb3331628a9b55a4df7517",
+    "7f32174fa3beed0eecd10c211653629d9f78f7337762bfab73debc7eb4e63c12",
+    "6dc40650b631f2aa2317fee3aa9039f466e05f6cdfc47ea0619b0e1e70a1a823"
+  ],
+  "elapsed_s": 5.119182109832764
+}

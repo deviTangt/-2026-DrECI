@@ -1,0 +1,77 @@
+{
+  "input_hash": "1db6d2af94a5e94afa39c048c14f488ca0fe8242c83e1e8652a0d84aeddfea86",
+  "sample_id": "ESC-CSV-02394",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "suspected",
+    "shooting",
+    "three",
+    "people",
+    "killing",
+    "one",
+    "accounting",
+    "firm",
+    "fired",
+    "last",
+    "week",
+    "high-speed",
+    "chase",
+    "Monday",
+    "morning",
+    "attack",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "edd8b7a11297d76f850202537ac0b446e045e37f7becb79a3dff97f0632801a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "edd8b7a11297d76f850202537ac0b446e045e37f7becb79a3dff97f0632801a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b5b4a20118991ce98e854cc43875801286948341abd16b7b0ff9899be562860e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b55d33eebe35dc8ffbfefb00e71919b6557422e837de1b786dd2e98699af19f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "19eff661b3b88f98d86d5e1837309f603c49390e0694b5f86772b99a378a5323",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"shooting\",\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"high-speed\",\"chase\",\"Monday\",\"morning\",\"attack\",\"authorities\"],\"target_related\":[\"man\",\"suspected\",\"shooting\",\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"high-speed\",\"chase\",\"Monday\",\"morning\",\"attack\",\"authorities\"],\"mediators\":[\"man\",\"suspected\",\"shooting\",\"three\",\"people\",\"killing\",\"one\",\"accounting\",\"firm\",\"fired\",\"last\",\"week\",\"high-speed\",\"chase\",\"Monday\",\"morning\",\"attack\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "5da8a63d2a6535f6464b42d6421977ff60769c7eba9baf2abdb6539a4e7e70aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The text says the suspect 'was arrested after a high-speed chase,' where 'after' explicitly links the catching to the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "edd8b7a11297d76f850202537ac0b446e045e37f7becb79a3dff97f0632801a5",
+    "edd8b7a11297d76f850202537ac0b446e045e37f7becb79a3dff97f0632801a5",
+    "b5b4a20118991ce98e854cc43875801286948341abd16b7b0ff9899be562860e",
+    "b55d33eebe35dc8ffbfefb00e71919b6557422e837de1b786dd2e98699af19f8",
+    "19eff661b3b88f98d86d5e1837309f603c49390e0694b5f86772b99a378a5323",
+    "5da8a63d2a6535f6464b42d6421977ff60769c7eba9baf2abdb6539a4e7e70aa"
+  ],
+  "elapsed_s": 19.20931100845337
+}

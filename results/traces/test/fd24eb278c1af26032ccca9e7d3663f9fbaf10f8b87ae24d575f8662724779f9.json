@@ -1,0 +1,62 @@
+{
+  "input_hash": "fd24eb278c1af26032ccca9e7d3663f9fbaf10f8b87ae24d575f8662724779f9",
+  "sample_id": "ESC-CSV-04586",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "store",
+    "jewelry",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dfb605faca2db15d2e7a8abbe6e9adf17a9d61be9e055873e747dfc48d43a1c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dfb605faca2db15d2e7a8abbe6e9adf17a9d61be9e055873e747dfc48d43a1c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "348804b7eb2b713edd3a0535e759c5ff7374261161e57c0411b000a78170dcc8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "727cf8ac939d849adb023939312b67356f4b4c83d3a5a68afdefc77590d4f67c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "dd61d72b1bc5a66bf0b511ffcee4d66f692205266ac48244c86f68bddda54c77",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewelry\",\"watches\",\"vehicle\"],\"target_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[\"store\",\"jewelry\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "4bbdb56a86002cbc92997b4984e83cb18923f39b84be3ff1751b1d496fb6997a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving the car into the store enabled the robbers to grab jewelry and watches, constituting the heist; the act precedes and causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "dfb605faca2db15d2e7a8abbe6e9adf17a9d61be9e055873e747dfc48d43a1c5",
+    "dfb605faca2db15d2e7a8abbe6e9adf17a9d61be9e055873e747dfc48d43a1c5",
+    "348804b7eb2b713edd3a0535e759c5ff7374261161e57c0411b000a78170dcc8",
+    "727cf8ac939d849adb023939312b67356f4b4c83d3a5a68afdefc77590d4f67c",
+    "dd61d72b1bc5a66bf0b511ffcee4d66f692205266ac48244c86f68bddda54c77",
+    "4bbdb56a86002cbc92997b4984e83cb18923f39b84be3ff1751b1d496fb6997a"
+  ],
+  "elapsed_s": 4.897450685501099
+}

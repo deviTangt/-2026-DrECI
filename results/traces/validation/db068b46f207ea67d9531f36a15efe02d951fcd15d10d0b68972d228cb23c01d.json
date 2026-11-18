@@ -1,0 +1,61 @@
+{
+  "input_hash": "db068b46f207ea67d9531f36a15efe02d951fcd15d10d0b68972d228cb23c01d",
+  "sample_id": "ESC-CSV-02804",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "children",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "70c16e12951ac1933586f82a3d2acb572cd9dcf78f184ce6bedd4f8313b95d17",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "70c16e12951ac1933586f82a3d2acb572cd9dcf78f184ce6bedd4f8313b95d17",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d67e541ec2e149fe88d5111f0874b485177c9af38a9acce83f2bb30899f5680b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eac6aadc0413cb458ae44fcb9776563d678dc44fa94044f55f2e4092bc22557f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4e97c1f7004f274d0c1fa33980cd3cebf0d1837ad2625ff88578a7c3154a15c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"children\",\"throwing\",\"bottles\",\"police\",\"rooftops\"],\"target_related\":[\"police\",\"children\",\"searched\",\"apartment\",\"buildings\"],\"mediators\":[\"children\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "49ddf2a119ac5aef8ca51c4a7d5910417fd15b01c54f43cf37853634bc64cbf0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links 'seen' to 'looking'; police looking for children was not caused by their being seen, and no Z chain/fork/collider establishes causation.\"}"
+    }
+  },
+  "call_ids": [
+    "70c16e12951ac1933586f82a3d2acb572cd9dcf78f184ce6bedd4f8313b95d17",
+    "70c16e12951ac1933586f82a3d2acb572cd9dcf78f184ce6bedd4f8313b95d17",
+    "d67e541ec2e149fe88d5111f0874b485177c9af38a9acce83f2bb30899f5680b",
+    "eac6aadc0413cb458ae44fcb9776563d678dc44fa94044f55f2e4092bc22557f",
+    "c4e97c1f7004f274d0c1fa33980cd3cebf0d1837ad2625ff88578a7c3154a15c",
+    "49ddf2a119ac5aef8ca51c4a7d5910417fd15b01c54f43cf37853634bc64cbf0"
+  ],
+  "elapsed_s": 4.163588762283325
+}

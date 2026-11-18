@@ -1,0 +1,71 @@
+{
+  "input_hash": "22862869359a41c6e6f8da26ced2aba8ca731c0270dd5fcd934d64530b58241a",
+  "sample_id": "ESC-CSV-02442",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "East Flatbush",
+    "Teenager",
+    "Killing",
+    "Police",
+    "vigil",
+    "mob",
+    "businesses",
+    "officer",
+    "brick",
+    "van",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "efc98f971d58d344fdc917edec3fd4a32a893c312ea6f8aed954c121992735f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "efc98f971d58d344fdc917edec3fd4a32a893c312ea6f8aed954c121992735f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aa3a99888d1db9f69e68943e252d680c686719482c17194891853af069c825e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "38e905495dd036dfdeaf3bd1ddf76525e6fd15db644b287c366e33ba7dc0ffa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f808b7984e05398ceb08e2c594dadaf44bbd64881ad15d871e16e997bf884866",
+      "status": "ok",
+      "text": "{\"source_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"businesses\",\"protest\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"businesses\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"businesses\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "224b626882bd585c086468970c2ea395a35cd3e0b2d193d142c16ce2d436cb54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Anger is described as preceding and driving the protests: 'Then came the anger: a Monday evening vigil... a second protest the next night.'\",\"analysis\":\"The text states 'Then came the anger' followed by protests, implying anger led to protest. No explicit causation word links them, but 'came' and sequence imply causation; common sense supports anger causing protest.\"}"
+    }
+  },
+  "call_ids": [
+    "efc98f971d58d344fdc917edec3fd4a32a893c312ea6f8aed954c121992735f6",
+    "efc98f971d58d344fdc917edec3fd4a32a893c312ea6f8aed954c121992735f6",
+    "aa3a99888d1db9f69e68943e252d680c686719482c17194891853af069c825e0",
+    "38e905495dd036dfdeaf3bd1ddf76525e6fd15db644b287c366e33ba7dc0ffa5",
+    "f808b7984e05398ceb08e2c594dadaf44bbd64881ad15d871e16e997bf884866",
+    "224b626882bd585c086468970c2ea395a35cd3e0b2d193d142c16ce2d436cb54"
+  ],
+  "elapsed_s": 19.26698112487793
+}

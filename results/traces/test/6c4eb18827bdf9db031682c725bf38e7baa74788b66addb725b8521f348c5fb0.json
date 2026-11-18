@@ -1,0 +1,65 @@
+{
+  "input_hash": "6c4eb18827bdf9db031682c725bf38e7baa74788b66addb725b8521f348c5fb0",
+  "sample_id": "ESC-CSV-06459",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "charged",
+    "half-brothers",
+    "Shooting",
+    "Hero",
+    "Mom"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "be7739e68b84fa0dc2e7ce069bfc81406a5f325d9aa345437885bcb867443787",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "be7739e68b84fa0dc2e7ce069bfc81406a5f325d9aa345437885bcb867443787",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "17bac55226035de83e942c82f5c82f1429d1e248374bdf1e1474182fcb5e29aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e4ca0304eee97a1ad7ddb59efafaaaac6a37136c7a40e905451832a271c177e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "af3182f785761e51d5e9e724d88dc8d0109c384dbfb97b7b88a343a6fbe7042a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"charged\",\"half-brothers\",\"Shooting\",\"Hero\",\"Mom\"],\"target_related\":[\"Lopez\",\"charged\",\"half-brothers\",\"Teen\",\"Shooting\",\"Hero\",\"Brooklyn\",\"Mom\"],\"mediators\":[\"Lopez\",\"charged\",\"half-brothers\",\"Shooting\",\"Hero\",\"Mom\"]}"
+    },
+    "indirect": {
+      "call_id": "fbabb14e0e6abb8c0121163fbd12b28c00c0c9a5a876ff3fd1ee9709f4f470cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being charged with murder commonly leads to arrest; murder precedes and causes arrest under common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "be7739e68b84fa0dc2e7ce069bfc81406a5f325d9aa345437885bcb867443787",
+    "be7739e68b84fa0dc2e7ce069bfc81406a5f325d9aa345437885bcb867443787",
+    "17bac55226035de83e942c82f5c82f1429d1e248374bdf1e1474182fcb5e29aa",
+    "e4ca0304eee97a1ad7ddb59efafaaaac6a37136c7a40e905451832a271c177e4",
+    "af3182f785761e51d5e9e724d88dc8d0109c384dbfb97b7b88a343a6fbe7042a",
+    "fbabb14e0e6abb8c0121163fbd12b28c00c0c9a5a876ff3fd1ee9709f4f470cb"
+  ],
+  "elapsed_s": 4.410785675048828
+}

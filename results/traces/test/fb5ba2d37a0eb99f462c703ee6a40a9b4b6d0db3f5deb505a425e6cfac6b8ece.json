@@ -1,0 +1,69 @@
+{
+  "input_hash": "fb5ba2d37a0eb99f462c703ee6a40a9b4b6d0db3f5deb505a425e6cfac6b8ece",
+  "sample_id": "ESC-CSV-04615",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "jewellery store",
+    "central Paris",
+    "smashing",
+    "shop window",
+    "€2 million",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d95b151a9b5e7a0ff85db8daa0315cf9d47f0e93de8ce3103edf175c208ca0f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d95b151a9b5e7a0ff85db8daa0315cf9d47f0e93de8ce3103edf175c208ca0f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "be5266f4708f97874f73dc7510d2c7e0404d3217d0ef686b7d4ddff6c28c09b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6d65f7c0acf02e35455fe9734e30dfe289fdf1592524dbe3eb3a8980b180895b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a4bc570db070d5dd9f18b7db9e724da2ef37c1c8f293c5fb15873e232cb3c833",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"central Paris\",\"smashing\",\"shop window\",\"€2 million\",\"booty\",\"police source\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"central Paris\",\"smashing\",\"shop window\",\"€2 million\",\"booty\",\"police source\",\"France\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"jewellery store\",\"central Paris\",\"smashing\",\"shop window\",\"€2 million\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "4b235295b47387667aee4b696b2613490b7467a7a956e2aa84ddf1c0c72322d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Making off with the booty is the culmination of the heist; the theft event causes the getaway, so X follows from and is caused by Y.\"}"
+    }
+  },
+  "call_ids": [
+    "d95b151a9b5e7a0ff85db8daa0315cf9d47f0e93de8ce3103edf175c208ca0f5",
+    "d95b151a9b5e7a0ff85db8daa0315cf9d47f0e93de8ce3103edf175c208ca0f5",
+    "be5266f4708f97874f73dc7510d2c7e0404d3217d0ef686b7d4ddff6c28c09b9",
+    "6d65f7c0acf02e35455fe9734e30dfe289fdf1592524dbe3eb3a8980b180895b",
+    "a4bc570db070d5dd9f18b7db9e724da2ef37c1c8f293c5fb15873e232cb3c833",
+    "4b235295b47387667aee4b696b2613490b7467a7a956e2aa84ddf1c0c72322d9"
+  ],
+  "elapsed_s": 3.925844192504883
+}

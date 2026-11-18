@@ -1,0 +1,77 @@
+{
+  "input_hash": "403f9fb14d58e948cceaa77f311838b32cd7e6f8108c5b0967c07c78b1089cbb",
+  "sample_id": "ESC-CSV-06879",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "gang",
+    "member",
+    "convicted",
+    "Tuesday",
+    "mother",
+    "12",
+    "sprayed",
+    "13",
+    "bullets",
+    "Brooklyn",
+    "rooftop",
+    "daylight",
+    "Andrew",
+    "Lopez",
+    "20",
+    "murder",
+    "Zurana",
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ff24eb593c74eb8245f313d26e95f544da8b8d2c3ff160ab3e4827b9a251073",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ff24eb593c74eb8245f313d26e95f544da8b8d2c3ff160ab3e4827b9a251073",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "31eee05f05bb4d7b9337ea2f27177d61740813f0924cad498c6e2a07b30d2765",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "82fc89394d851dd013cf1254e628be1869daf730fae2a98177538accfd75bcbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "32a3f8e0733c2861a8c193de6cf8ca1927026de6730d7646e7e74cb2674c8d37",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"member\",\"convicted\",\"Tuesday\",\"mother\",\"12\",\"sprayed\",\"13\",\"bullets\",\"Brooklyn\",\"rooftop\",\"daylight\",\"Andrew\",\"Lopez\",\"20\",\"murder\",\"Zurana\",\"Horton\"],\"target_related\":[\"gang\",\"member\",\"convicted\",\"Tuesday\",\"mother\",\"12\",\"sprayed\",\"13\",\"bullets\",\"Brooklyn\",\"rooftop\",\"daylight\",\"Andrew\",\"Lopez\",\"20\",\"murder\",\"Zurana\",\"Horton\"],\"mediators\":[\"gang\",\"member\",\"convicted\",\"Tuesday\",\"mother\",\"12\",\"sprayed\",\"13\",\"bullets\",\"Brooklyn\",\"rooftop\",\"daylight\",\"Andrew\",\"Lopez\",\"20\",\"murder\",\"Zurana\",\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "d5ee8450c439b9286150e5e0c9b2c5b9eeb08c14b439a3ad7f39253cc061c34a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Claiming the life (murder) precedes and causes the guilty verdict; common sense: being found guilty follows from committing the murder.\"}"
+    }
+  },
+  "call_ids": [
+    "6ff24eb593c74eb8245f313d26e95f544da8b8d2c3ff160ab3e4827b9a251073",
+    "6ff24eb593c74eb8245f313d26e95f544da8b8d2c3ff160ab3e4827b9a251073",
+    "31eee05f05bb4d7b9337ea2f27177d61740813f0924cad498c6e2a07b30d2765",
+    "82fc89394d851dd013cf1254e628be1869daf730fae2a98177538accfd75bcbf",
+    "32a3f8e0733c2861a8c193de6cf8ca1927026de6730d7646e7e74cb2674c8d37",
+    "d5ee8450c439b9286150e5e0c9b2c5b9eeb08c14b439a3ad7f39253cc061c34a"
+  ],
+  "elapsed_s": 5.302832365036011
+}

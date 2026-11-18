@@ -1,0 +1,60 @@
+{
+  "input_hash": "23cecb960bdf6cf105db5fdf9f21a5abaa5d819961148a058e1b1b56e9ca4f60",
+  "sample_id": "ESC-CSV-01736",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "defendant"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1c6ea5355868e6f53ee3d6b54cca9458d8ca5a3fc29772858dddd48e0e613028",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1c6ea5355868e6f53ee3d6b54cca9458d8ca5a3fc29772858dddd48e0e613028",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7ac10934830cbced4a0f97ae4452a2acce7be75fd02d69a480bc9953adb8fe16",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aab6208ac6fa843ede8749a4e1533447528600313d94e788584d8eb57f319a7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7f701ea44cf6a0bd31d3df3f6ab59d15cb80e53a41451fc236e8b2ca546957b7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"defendant\"],\"target_related\":[\"defendant\",\"charges\"],\"mediators\":[\"defendant\"]}"
+    },
+    "indirect": {
+      "call_id": "94602be3a583ffc5a4d5c486f37d8cdc142301710e70ab2f5ee08c4ecdb32794",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The defendant's custody status gave detectives and prosecutors additional time to investigate, enabling charges to be filed.\"}"
+    }
+  },
+  "call_ids": [
+    "1c6ea5355868e6f53ee3d6b54cca9458d8ca5a3fc29772858dddd48e0e613028",
+    "1c6ea5355868e6f53ee3d6b54cca9458d8ca5a3fc29772858dddd48e0e613028",
+    "7ac10934830cbced4a0f97ae4452a2acce7be75fd02d69a480bc9953adb8fe16",
+    "aab6208ac6fa843ede8749a4e1533447528600313d94e788584d8eb57f319a7b",
+    "7f701ea44cf6a0bd31d3df3f6ab59d15cb80e53a41451fc236e8b2ca546957b7",
+    "94602be3a583ffc5a4d5c486f37d8cdc142301710e70ab2f5ee08c4ecdb32794"
+  ],
+  "elapsed_s": 5.412294149398804
+}

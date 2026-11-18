@@ -1,0 +1,63 @@
+{
+  "input_hash": "01b1a6d4bf9880e3d9b16cb2d5d9b727ecc9f586af64415b749b2852407620d1",
+  "sample_id": "ESC-CSV-02020",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fleeing",
+    "police officers",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f76dfbdf2d6e41ad9a17bc7f7c02c3e0c51ed9659add2334d86b11fe5eb5b54b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f76dfbdf2d6e41ad9a17bc7f7c02c3e0c51ed9659add2334d86b11fe5eb5b54b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df75db102d67213458e88b5f887196b91508513e2d42443b1d25d7b12a3ff53c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d5288ecef141fa8d03ae073e3dc11e37b726517c5237f8f020d772aac588412c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fb03d147439d4f86e5504c2df3e05cb15cccc56bae20450f37c9b3f07e0f8b63",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"job\",\"accounting firm\",\"suburban Detroit\",\"office\",\"Monday\",\"shot\",\"people\",\"killing\",\"fleeing\",\"police officers\",\"authorities\"],\"target_related\":[\"man\",\"fleeing\",\"police officers\",\"high-speed\",\"authorities\"],\"mediators\":[\"man\",\"fleeing\",\"police officers\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "7314d9bf0b33939e02d78d909b08473af72f6e6ed619c286fb0e118526af357e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Being fired led the man to shoot and flee, and fleeing led police on the chase: fired -> man/fleeing -> chase.\"}"
+    }
+  },
+  "call_ids": [
+    "f76dfbdf2d6e41ad9a17bc7f7c02c3e0c51ed9659add2334d86b11fe5eb5b54b",
+    "f76dfbdf2d6e41ad9a17bc7f7c02c3e0c51ed9659add2334d86b11fe5eb5b54b",
+    "df75db102d67213458e88b5f887196b91508513e2d42443b1d25d7b12a3ff53c",
+    "d5288ecef141fa8d03ae073e3dc11e37b726517c5237f8f020d772aac588412c",
+    "fb03d147439d4f86e5504c2df3e05cb15cccc56bae20450f37c9b3f07e0f8b63",
+    "7314d9bf0b33939e02d78d909b08473af72f6e6ed619c286fb0e118526af357e"
+  ],
+  "elapsed_s": 4.550591945648193
+}

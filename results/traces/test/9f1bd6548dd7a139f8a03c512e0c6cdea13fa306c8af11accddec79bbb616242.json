@@ -1,0 +1,62 @@
+{
+  "input_hash": "9f1bd6548dd7a139f8a03c512e0c6cdea13fa306c8af11accddec79bbb616242",
+  "sample_id": "ESC-CSV-04175",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "climber",
+    "New Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "db081f9fbb487af561eaff0ab93b8a8f93f69538544aa9bd09161b67a54d5ac7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "db081f9fbb487af561eaff0ab93b8a8f93f69538544aa9bd09161b67a54d5ac7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "52c0a63d001716296f7f093d6538159098768464c6197aba6e96d0c918818630",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "25f881a2faf53fe2ad97ae38a43eea5dce34dd218bd55d09a7f1e16fbb8eaecf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cd6550d4b9f9f0324ac12573b6266f62ad4285cf60eadb6db6dce2b17409e39c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"climber\",\"fallen\",\"New Zealand\"],\"target_related\":[\"British\",\"climber\",\"dies\",\"New Zealand\"],\"mediators\":[\"British\",\"climber\",\"New Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "dd20b32b010b6763f9321f257cec898d5a3fae834d282cba71fcabff044d7650",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'has fallen to his death' links the fall directly to death; common sense also holds that a fatal fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "db081f9fbb487af561eaff0ab93b8a8f93f69538544aa9bd09161b67a54d5ac7",
+    "db081f9fbb487af561eaff0ab93b8a8f93f69538544aa9bd09161b67a54d5ac7",
+    "52c0a63d001716296f7f093d6538159098768464c6197aba6e96d0c918818630",
+    "25f881a2faf53fe2ad97ae38a43eea5dce34dd218bd55d09a7f1e16fbb8eaecf",
+    "cd6550d4b9f9f0324ac12573b6266f62ad4285cf60eadb6db6dce2b17409e39c",
+    "dd20b32b010b6763f9321f257cec898d5a3fae834d282cba71fcabff044d7650"
+  ],
+  "elapsed_s": 5.616716384887695
+}

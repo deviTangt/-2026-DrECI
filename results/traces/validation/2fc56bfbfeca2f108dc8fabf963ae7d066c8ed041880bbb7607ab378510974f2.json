@@ -1,0 +1,65 @@
+{
+  "input_hash": "2fc56bfbfeca2f108dc8fabf963ae7d066c8ed041880bbb7607ab378510974f2",
+  "sample_id": "ESC-CSV-07278",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "CHP",
+    "booked",
+    "county jail",
+    "released",
+    "bond"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "29f16976365a88ab8c461c9b5281f47d919a8a33d612a6c7740cfba23e50e85d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "29f16976365a88ab8c461c9b5281f47d919a8a33d612a6c7740cfba23e50e85d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8c524edcbddd18de834de5bbfef52ad197213531a1108d5d5f18a52740bfc40b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2f5327a71f936a177ecf794038f7b29872e736fb4c00922dcc7e9766c19b71f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3bf161597e3922288d706aab6ee113d61f34c60c9994ca3a5311a595ac15b362",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"CHP\",\"booked\",\"county jail\",\"released\",\"bond\"],\"target_related\":[\"Williams\",\"CHP\",\"booked\",\"county jail\",\"released\",\"bond\"],\"mediators\":[\"Williams\",\"CHP\",\"booked\",\"county jail\",\"released\",\"bond\"]}"
+    },
+    "indirect": {
+      "call_id": "c0159b6143af44190048c07f942dbcdde3af3dc546d8ce25648e97ac430c5360",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Arrested 'by the CHP on suspicion of drunken driving' — 'by' explicitly links the arrest to drunken driving as its cause.\"}"
+    }
+  },
+  "call_ids": [
+    "29f16976365a88ab8c461c9b5281f47d919a8a33d612a6c7740cfba23e50e85d",
+    "29f16976365a88ab8c461c9b5281f47d919a8a33d612a6c7740cfba23e50e85d",
+    "8c524edcbddd18de834de5bbfef52ad197213531a1108d5d5f18a52740bfc40b",
+    "2f5327a71f936a177ecf794038f7b29872e736fb4c00922dcc7e9766c19b71f1",
+    "3bf161597e3922288d706aab6ee113d61f34c60c9994ca3a5311a595ac15b362",
+    "c0159b6143af44190048c07f942dbcdde3af3dc546d8ce25648e97ac430c5360"
+  ],
+  "elapsed_s": 4.321089506149292
+}

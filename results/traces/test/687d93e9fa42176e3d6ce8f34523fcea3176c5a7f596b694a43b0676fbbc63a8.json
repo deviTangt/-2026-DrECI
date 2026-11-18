@@ -1,0 +1,63 @@
+{
+  "input_hash": "687d93e9fa42176e3d6ce8f34523fcea3176c5a7f596b694a43b0676fbbc63a8",
+  "sample_id": "ESC-CSV-06613",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Footage",
+    "Released",
+    "Brooklyn",
+    "Mother"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "792d5c201168fa1df5dbe2378a1c5760e49fbb0a0c6fa96cb2ae71f2152983d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "966272e4ec615d9086085ed992d85310a887ba4ae24198d3c92fc7c69d3c9033",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b1b15df46e063e01c6afd1eee59816de1a00a656abaac9274ebc55a81874860f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"],\"target_related\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"],\"mediators\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"]}"
+    },
+    "indirect": {
+      "call_id": "3fa9089b9b0c439955307a4c225f07b77279e3dfef269afc977bbb567d7c40c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Footage of the fatal shooting was released during the trial; the shooting does not cause the trial, and no causal word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+    "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+    "792d5c201168fa1df5dbe2378a1c5760e49fbb0a0c6fa96cb2ae71f2152983d5",
+    "966272e4ec615d9086085ed992d85310a887ba4ae24198d3c92fc7c69d3c9033",
+    "b1b15df46e063e01c6afd1eee59816de1a00a656abaac9274ebc55a81874860f",
+    "3fa9089b9b0c439955307a4c225f07b77279e3dfef269afc977bbb567d7c40c6"
+  ],
+  "elapsed_s": 5.386058568954468
+}

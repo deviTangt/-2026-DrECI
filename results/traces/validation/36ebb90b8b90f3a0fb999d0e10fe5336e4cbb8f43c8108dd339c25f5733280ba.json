@@ -1,0 +1,60 @@
+{
+  "input_hash": "36ebb90b8b90f3a0fb999d0e10fe5336e4cbb8f43c8108dd339c25f5733280ba",
+  "sample_id": "ESC-CSV-07213",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78f4a6bec2edf887f7153823cee2b251f98562f4a819eed50f0a71678cb68dfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78f4a6bec2edf887f7153823cee2b251f98562f4a819eed50f0a71678cb68dfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7f176dff5a8e1c27dd5745883378aaed24c372f8fed2957a25d3c69e8f2f99bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d10499cc60602e728a34f81c0f51dde8f070b32265ac7ca093cfcbcc7c7aee34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9adaa284934d92f45e88306244ae754c4b7aeb8d42c8319fc15cd922ce969bc7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"Bentley\",\"speeding\",\"State Route 94\",\"February 1\"],\"target_related\":[\"Williams\",\"drunk driving\",\"suspicion\"],\"mediators\":[\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "47e59264180b53ca792718c7b1d5c8502d56ac53fa0c2f4b19d22e8965a05e86",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being pulled over for speeding preceded and enabled the drunk-driving arrest; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "78f4a6bec2edf887f7153823cee2b251f98562f4a819eed50f0a71678cb68dfe",
+    "78f4a6bec2edf887f7153823cee2b251f98562f4a819eed50f0a71678cb68dfe",
+    "7f176dff5a8e1c27dd5745883378aaed24c372f8fed2957a25d3c69e8f2f99bc",
+    "d10499cc60602e728a34f81c0f51dde8f070b32265ac7ca093cfcbcc7c7aee34",
+    "9adaa284934d92f45e88306244ae754c4b7aeb8d42c8319fc15cd922ce969bc7",
+    "47e59264180b53ca792718c7b1d5c8502d56ac53fa0c2f4b19d22e8965a05e86"
+  ],
+  "elapsed_s": 4.418306827545166
+}

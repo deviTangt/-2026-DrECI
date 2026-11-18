@@ -1,0 +1,61 @@
+{
+  "input_hash": "8b6a295139e712531aa95dc3c9e053c5de0fa9350614619b2576edb435fafaa2",
+  "sample_id": "ESC-CSV-06428",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "child",
+    "children"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "843f35bb51fa67ee0015d91029d8467ee5d104e886c921a018ec7e0effa72f93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "843f35bb51fa67ee0015d91029d8467ee5d104e886c921a018ec7e0effa72f93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4342b101d3ea14a5dd49db38d3fffa13fb3d370836ed08066dd3b3ef1bbe3971",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a907f88b7b228b890ce1bca2ed06d34c119172ded28b06f2067898261261b2dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "36d7dd3418e79de785860fb7920f48806be2d61ff1df1e30473f3346713ecb20",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"way\"],\"target_related\":[\"three mothers\",\"two children\",\"storefront\",\"safety\"],\"mediators\":[\"child\",\"children\"]}"
+    },
+    "indirect": {
+      "call_id": "e4b8a68a1a25c790ce8fe838a354c1816874a163b9692d91a76331c7e9223175",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Horton pushes a child, then mothers and children press up against a storefront. No causal words or common-sense causal link connects the pushing to the pressing up.\"}"
+    }
+  },
+  "call_ids": [
+    "843f35bb51fa67ee0015d91029d8467ee5d104e886c921a018ec7e0effa72f93",
+    "843f35bb51fa67ee0015d91029d8467ee5d104e886c921a018ec7e0effa72f93",
+    "4342b101d3ea14a5dd49db38d3fffa13fb3d370836ed08066dd3b3ef1bbe3971",
+    "a907f88b7b228b890ce1bca2ed06d34c119172ded28b06f2067898261261b2dc",
+    "36d7dd3418e79de785860fb7920f48806be2d61ff1df1e30473f3346713ecb20",
+    "e4b8a68a1a25c790ce8fe838a354c1816874a163b9692d91a76331c7e9223175"
+  ],
+  "elapsed_s": 5.512644052505493
+}

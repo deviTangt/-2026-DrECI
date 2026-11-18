@@ -1,0 +1,64 @@
+{
+  "input_hash": "8d5c2273c40b660da5c34be1373a76e620bb6080ea19ccbf7b9fbd5629b06342",
+  "sample_id": "ESC-CSV-09268",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank",
+    "workers",
+    "building",
+    "torched"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ed70436cfb6ae88d405a89d8547e22805443d5736cf68b455cac0a63e65576e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ed70436cfb6ae88d405a89d8547e22805443d5736cf68b455cac0a63e65576e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3059ab3d17b01951081af2f232629dfae197d81dc737a63857cd042f902a5e73",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1548c023e5a82b6c3f9a343a91d8059e9a2f27375e5a66abac215b72ef66c284",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b4d625250847bb0ca96dd056a36000745cdd5a79462bc143a689675ae75d32c3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"streets\",\"Athens\",\"austerity\",\"measures\",\"spending\",\"cuts\"],\"target_related\":[\"bank\",\"workers\",\"building\",\"torched\",\"murder\",\"three\"],\"mediators\":[\"Athens\",\"bank\",\"workers\",\"building\",\"torched\"]}"
+    },
+    "indirect": {
+      "call_id": "da7319de126bee2cab21519aec3d61ee659cdbd924e9cb8b42cefb3365adcfb4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"Bank 'was torched during protests'; 'by' links protest to deaths; torching of building during protest caused workers' deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "6ed70436cfb6ae88d405a89d8547e22805443d5736cf68b455cac0a63e65576e",
+    "6ed70436cfb6ae88d405a89d8547e22805443d5736cf68b455cac0a63e65576e",
+    "3059ab3d17b01951081af2f232629dfae197d81dc737a63857cd042f902a5e73",
+    "1548c023e5a82b6c3f9a343a91d8059e9a2f27375e5a66abac215b72ef66c284",
+    "b4d625250847bb0ca96dd056a36000745cdd5a79462bc143a689675ae75d32c3",
+    "da7319de126bee2cab21519aec3d61ee659cdbd924e9cb8b42cefb3365adcfb4"
+  ],
+  "elapsed_s": 5.16689920425415
+}

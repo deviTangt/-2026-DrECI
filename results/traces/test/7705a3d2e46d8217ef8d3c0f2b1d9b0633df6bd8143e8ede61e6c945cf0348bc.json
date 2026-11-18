@@ -1,0 +1,61 @@
+{
+  "input_hash": "7705a3d2e46d8217ef8d3c0f2b1d9b0633df6bd8143e8ede61e6c945cf0348bc",
+  "sample_id": "ESC-CSV-06553",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "men",
+    "accused"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "74eb364213ffecd009febe5528338da8a0ef5323c614a25bd0b45735c48b9fdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "74eb364213ffecd009febe5528338da8a0ef5323c614a25bd0b45735c48b9fdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "635e63dd1e1908b3eac6b1c03aab90b20e4c53d06cb6ac1883c2d548ec032e57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "61dd29b26333b0c98c302f1e6e07b67c0c8f3d17cbc031543837b659e5172b59",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "edca643436c92c4b7b960ed7fb9b5a6b75bf61e807177328751153ec2d7b440b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"accused\",\"Brownsville\",\"mother\"],\"target_related\":[\"jury\",\"verdict\",\"men\",\"accused\"],\"mediators\":[\"men\",\"accused\"]}"
+    },
+    "indirect": {
+      "call_id": "2cb4aed116fc59c19547adf09d20ca01c668fa25374f0237d3ece22ef984c5ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: murdering (committing the murder) leads to being found guilty; the verdict follows the act.\"}"
+    }
+  },
+  "call_ids": [
+    "74eb364213ffecd009febe5528338da8a0ef5323c614a25bd0b45735c48b9fdf",
+    "74eb364213ffecd009febe5528338da8a0ef5323c614a25bd0b45735c48b9fdf",
+    "635e63dd1e1908b3eac6b1c03aab90b20e4c53d06cb6ac1883c2d548ec032e57",
+    "61dd29b26333b0c98c302f1e6e07b67c0c8f3d17cbc031543837b659e5172b59",
+    "edca643436c92c4b7b960ed7fb9b5a6b75bf61e807177328751153ec2d7b440b",
+    "2cb4aed116fc59c19547adf09d20ca01c668fa25374f0237d3ece22ef984c5ef"
+  ],
+  "elapsed_s": 4.199229001998901
+}

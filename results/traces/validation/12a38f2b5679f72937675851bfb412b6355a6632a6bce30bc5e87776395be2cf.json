@@ -1,0 +1,63 @@
+{
+  "input_hash": "12a38f2b5679f72937675851bfb412b6355a6632a6bce30bc5e87776395be2cf",
+  "sample_id": "ESC-CSV-01796",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang member",
+    "murdering",
+    "Los Angeles County Sheriff's deputy",
+    "June 2005"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6f4c3fe6ab25fa1acddd56a73f16a877c51a8feb52c22e6ee6c8ccf0fb7435d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6f4c3fe6ab25fa1acddd56a73f16a877c51a8feb52c22e6ee6c8ccf0fb7435d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cc872041c9ff10614db0be09e056a1ea0af8bd874065d5a473507bcbeb921dbb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "25f355b89165c8eed949b4025591120fe98d8ed3e9d671e5fe49d45a0e670b1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fc69c4f528ffa3e180cd42ae9cd28131ad5d8e54731bf2760557d10dd8661f04",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"murdering\",\"Los Angeles County Sheriff's deputy\",\"June 2005\"],\"target_related\":[\"Norwalk jury\",\"Tuesday\",\"gang member\",\"murdering\",\"Los Angeles County Sheriff's deputy\",\"June 2005\"],\"mediators\":[\"gang member\",\"murdering\",\"Los Angeles County Sheriff's deputy\",\"June 2005\"]}"
+    },
+    "indirect": {
+      "call_id": "82eb1d79692f88303f156052cca1f41fcb50205d64ba945179eb291abc32fd35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murder precedes and legally causes the ordered execution; common sense supports conviction leading to execution.\"}"
+    }
+  },
+  "call_ids": [
+    "6f4c3fe6ab25fa1acddd56a73f16a877c51a8feb52c22e6ee6c8ccf0fb7435d8",
+    "6f4c3fe6ab25fa1acddd56a73f16a877c51a8feb52c22e6ee6c8ccf0fb7435d8",
+    "cc872041c9ff10614db0be09e056a1ea0af8bd874065d5a473507bcbeb921dbb",
+    "25f355b89165c8eed949b4025591120fe98d8ed3e9d671e5fe49d45a0e670b1d",
+    "fc69c4f528ffa3e180cd42ae9cd28131ad5d8e54731bf2760557d10dd8661f04",
+    "82eb1d79692f88303f156052cca1f41fcb50205d64ba945179eb291abc32fd35"
+  ],
+  "elapsed_s": 5.337119102478027
+}

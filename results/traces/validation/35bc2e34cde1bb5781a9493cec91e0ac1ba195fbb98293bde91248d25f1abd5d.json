@@ -1,0 +1,68 @@
+{
+  "input_hash": "35bc2e34cde1bb5781a9493cec91e0ac1ba195fbb98293bde91248d25f1abd5d",
+  "sample_id": "ESC-CSV-02448",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "brick",
+    "van",
+    "window",
+    "arrests",
+    "mob",
+    "protest",
+    "vigil"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aec26d660c432a02b2ede932c339b452f6de0e25b822417dc44119bc8ca50a36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aec26d660c432a02b2ede932c339b452f6de0e25b822417dc44119bc8ca50a36",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5691fe85a9bab8d5602c624555fd8dd861a5fb427bf113158f5be0c42dfd34dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "df45725e302d1acd2cfd866f646400e5118b026e7df6945b3093de164a424290",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8f35ea424193fbe714e88dd917fc6710ff24db7660586047f11bd3b7f9d43f8f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"protest\",\"police\",\"brick\",\"arrests\",\"officer\",\"van\",\"window\",\"businesses\"],\"target_related\":[\"arrests\",\"police\",\"officer\",\"brick\",\"van\",\"window\",\"mob\",\"protest\",\"vigil\"],\"mediators\":[\"police\",\"officer\",\"brick\",\"van\",\"window\",\"arrests\",\"mob\",\"protest\",\"vigil\"]}"
+    },
+    "indirect": {
+      "call_id": "59d2e0173b035e2fa9737b40f40a4152b295ae35f2e7925b8acc87bee06ec2d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Anger led to an unruly mob thrashing businesses, protests, brick-throwing, and 46 arrests for disorderly conduct; anger precedes and causes conduct.\"}"
+    }
+  },
+  "call_ids": [
+    "aec26d660c432a02b2ede932c339b452f6de0e25b822417dc44119bc8ca50a36",
+    "aec26d660c432a02b2ede932c339b452f6de0e25b822417dc44119bc8ca50a36",
+    "5691fe85a9bab8d5602c624555fd8dd861a5fb427bf113158f5be0c42dfd34dd",
+    "df45725e302d1acd2cfd866f646400e5118b026e7df6945b3093de164a424290",
+    "8f35ea424193fbe714e88dd917fc6710ff24db7660586047f11bd3b7f9d43f8f",
+    "59d2e0173b035e2fa9737b40f40a4152b295ae35f2e7925b8acc87bee06ec2d0"
+  ],
+  "elapsed_s": 12.219454050064087
+}

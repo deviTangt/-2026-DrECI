@@ -1,0 +1,70 @@
+{
+  "input_hash": "49586ba53e72b0b17bb1034a1fc465d2ebfb1a895b3a9979967ad5df5e58b968",
+  "sample_id": "ESC-CSV-04325",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "smashing",
+    "shop window",
+    "two-million-euro",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "818671332b966c4494ebe93a0e49cde0a9500920c293d683c54659b11dec8ed2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "818671332b966c4494ebe93a0e49cde0a9500920c293d683c54659b11dec8ed2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c314878c619ee12726fdb72c4d6109a330ecdf27caa34fff01781805d529e9d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ee3af7b24387d09198f5d6dfd7a882ff28f9f8d3625e4dada7ebb69c09d5f44e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d41d34c86a9197602ec918cb7181685099720afa5c409591ea58bdedac2a6d6d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"smashing\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"smashing\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"smashing\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "32b22142fa030824fc2f03ad0b06c118770d9ab235e601345325eddba02aa302",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Making off with the booty is the culmination of the heist; the theft (heist) enables and precedes making off with the loot.\"}"
+    }
+  },
+  "call_ids": [
+    "818671332b966c4494ebe93a0e49cde0a9500920c293d683c54659b11dec8ed2",
+    "818671332b966c4494ebe93a0e49cde0a9500920c293d683c54659b11dec8ed2",
+    "c314878c619ee12726fdb72c4d6109a330ecdf27caa34fff01781805d529e9d6",
+    "ee3af7b24387d09198f5d6dfd7a882ff28f9f8d3625e4dada7ebb69c09d5f44e",
+    "d41d34c86a9197602ec918cb7181685099720afa5c409591ea58bdedac2a6d6d",
+    "32b22142fa030824fc2f03ad0b06c118770d9ab235e601345325eddba02aa302"
+  ],
+  "elapsed_s": 5.4356842041015625
+}

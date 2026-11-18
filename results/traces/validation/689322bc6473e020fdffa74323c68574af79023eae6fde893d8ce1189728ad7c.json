@@ -1,0 +1,65 @@
+{
+  "input_hash": "689322bc6473e020fdffa74323c68574af79023eae6fde893d8ce1189728ad7c",
+  "sample_id": "ESC-CSV-02867",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "teen",
+    "killed",
+    "Brooklyn",
+    "vigil",
+    "slain"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1a4094bfdef2e3ca360d8e7e0f439a6de58914dbb43189b820be0fac91ccf166",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1a4094bfdef2e3ca360d8e7e0f439a6de58914dbb43189b820be0fac91ccf166",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e403dedc4c90d69bbc9ac90ad3293fd5ffe4d4f599a2dfa351eb9b89396ce519",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a5156ac8acea6e3730dabddef500dbe04c3a9b36442e4f7c19a7c45b428e368",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0508cdec60453445954ddef8a28b7fa3c021a5aa915f1feb55dbee07a0158793",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"teen\",\"killed\",\"Saturday\",\"night\",\"Brooklyn\",\"vigil\",\"slain\"],\"target_related\":[\"Brooklyn\",\"vigil\",\"slain\",\"teen\",\"killed\",\"NYPD\",\"snowballs\",\"full\",\"blown\"],\"mediators\":[\"NYPD\",\"teen\",\"killed\",\"Brooklyn\",\"vigil\",\"slain\"]}"
+    },
+    "indirect": {
+      "call_id": "ddcf1c1786664b2dca64d98a3b2625f933fb31d05fa60e4586abfbc6b52e877b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The vigil for the teen killed by NYPD 'snowballs into full blown riot,' implying the shooting provoked the riot; shooting precedes riot by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "1a4094bfdef2e3ca360d8e7e0f439a6de58914dbb43189b820be0fac91ccf166",
+    "1a4094bfdef2e3ca360d8e7e0f439a6de58914dbb43189b820be0fac91ccf166",
+    "e403dedc4c90d69bbc9ac90ad3293fd5ffe4d4f599a2dfa351eb9b89396ce519",
+    "9a5156ac8acea6e3730dabddef500dbe04c3a9b36442e4f7c19a7c45b428e368",
+    "0508cdec60453445954ddef8a28b7fa3c021a5aa915f1feb55dbee07a0158793",
+    "ddcf1c1786664b2dca64d98a3b2625f933fb31d05fa60e4586abfbc6b52e877b"
+  ],
+  "elapsed_s": 4.00953483581543
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "684f8e57fd985668e47c818aa2075d53f8d3aa862668b1d7e6908be46cff36c9",
+  "sample_id": "ESC-CSV-09925",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Marfin Bank",
+    "Stadiou street branch"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6a90d912601c513ebd5e071bfef2fa38e0c10fd5a3b12c5d324026539e71d4d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6a90d912601c513ebd5e071bfef2fa38e0c10fd5a3b12c5d324026539e71d4d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e1a14bf9c3591b45b2c186dab77d7fd770ea825cf5789e5eb774b8fb8820cc6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "870599c93f281ba13040881f9dc9e560c7d29499d803e48f2077eac7e803bd58",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bcfce5b8c2140cc7efc9105fbcde30d92d8fbec614ca9ebdd9b81e1c1454515d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin Bank\",\"Stadiou street branch\",\"protesters\"],\"target_related\":[\"three workers\",\"pregnant woman\"],\"mediators\":[\"Marfin Bank\",\"Stadiou street branch\"]}"
+    },
+    "indirect": {
+      "call_id": "4b62556555b289a1dfa6f149394e240fc48fc20189b30de67de252c7b4ebb29a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The fire ... has led to the death of three workers — 'led to' explicitly expresses causation between fire and death.\"}"
+    }
+  },
+  "call_ids": [
+    "6a90d912601c513ebd5e071bfef2fa38e0c10fd5a3b12c5d324026539e71d4d4",
+    "6a90d912601c513ebd5e071bfef2fa38e0c10fd5a3b12c5d324026539e71d4d4",
+    "9e1a14bf9c3591b45b2c186dab77d7fd770ea825cf5789e5eb774b8fb8820cc6",
+    "870599c93f281ba13040881f9dc9e560c7d29499d803e48f2077eac7e803bd58",
+    "bcfce5b8c2140cc7efc9105fbcde30d92d8fbec614ca9ebdd9b81e1c1454515d",
+    "4b62556555b289a1dfa6f149394e240fc48fc20189b30de67de252c7b4ebb29a"
+  ],
+  "elapsed_s": 5.252974033355713
+}

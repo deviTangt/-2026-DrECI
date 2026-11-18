@@ -1,0 +1,72 @@
+{
+  "input_hash": "29a5fc06badd8a80bf917a1c8be0eef565b6b78ceb8ffc84a94b30a7b4127b92",
+  "sample_id": "ESC-CSV-02639",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "car",
+    "windows",
+    "pharmacy",
+    "customer",
+    "bottle",
+    "bashed",
+    "head",
+    "projectiles",
+    "hurled",
+    "cops",
+    "streets",
+    "East Flatbush",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45f30d3686e00aa18bc1b4dec7a1ff051121fcd590df92638ed19af798000370",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45f30d3686e00aa18bc1b4dec7a1ff051121fcd590df92638ed19af798000370",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "09780b7bf229fd9aebd8a231716fca4eb7b2d57d81b733fc8408c52326d7d847",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "341d84336cb287c40611332e374290e51b9e760f0829469027ef4b9d47db0460",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "94d1f1549ea72a9b9b149035059df11058d0f1c0c4d6e2a68609d196442edc60",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anger\",\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\",\"streets\",\"East Flatbush\",\"Monday\",\"projectiles\",\"hurled\",\"cops\",\"car\",\"windows\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\"],\"target_related\":[\"car\",\"windows\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\",\"projectiles\",\"hurled\",\"cops\",\"riot\",\"streets\",\"East Flatbush\",\"Monday\"],\"mediators\":[\"car\",\"windows\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\",\"projectiles\",\"hurled\",\"cops\",\"streets\",\"East Flatbush\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "19afea7c5c6c476d5a4d4e335a7455375990d84aa05948fa7513f3daa6490b64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Riot fueled by anger; rioters smashed car windows, so the riot caused the smashing (fuel implies causation; common sense order).\"}"
+    }
+  },
+  "call_ids": [
+    "45f30d3686e00aa18bc1b4dec7a1ff051121fcd590df92638ed19af798000370",
+    "45f30d3686e00aa18bc1b4dec7a1ff051121fcd590df92638ed19af798000370",
+    "09780b7bf229fd9aebd8a231716fca4eb7b2d57d81b733fc8408c52326d7d847",
+    "341d84336cb287c40611332e374290e51b9e760f0829469027ef4b9d47db0460",
+    "94d1f1549ea72a9b9b149035059df11058d0f1c0c4d6e2a68609d196442edc60",
+    "19afea7c5c6c476d5a4d4e335a7455375990d84aa05948fa7513f3daa6490b64"
+  ],
+  "elapsed_s": 4.761195659637451
+}

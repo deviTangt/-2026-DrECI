@@ -1,0 +1,68 @@
+{
+  "input_hash": "fe234dad6651ff16d1ee79f06c41682f14490b85bb2a4c6edcf5c857e4d168ab",
+  "sample_id": "ESC-CSV-04419",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jewellery",
+    "Casty",
+    "Shop",
+    "Raid",
+    "men",
+    "car",
+    "store",
+    "vehicle",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "058ced3751cc7d3ff1c8737d700bdf89bd3c26f9719c30fe29eaf227c85f4e39",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "058ced3751cc7d3ff1c8737d700bdf89bd3c26f9719c30fe29eaf227c85f4e39",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cc11319b745ffb519d5b890abfc9de0292d20cc02b3888dbd4493c35c13353be",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "389a25913e93b782b01906692235b0ac3054389ab37a174c81c63e79de16c393",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7910e6d49314dfc09c66816afdb51efd763f00bd5404ce9f4243b432531fec4b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"Casty\",\"Shop\",\"Raid\",\"men\",\"car\",\"store\",\"vehicle\",\"France\"],\"target_related\":[\"Jewellery\",\"Casty\",\"Shop\",\"Raid\",\"men\",\"car\",\"store\",\"vehicle\",\"France\"],\"mediators\":[\"Jewellery\",\"Casty\",\"Shop\",\"Raid\",\"men\",\"car\",\"store\",\"vehicle\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "ac620e3d37f490d643b56a474f027bda55ea4e13130cd35cb67514e1565e15bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The jewellery was stolen during the shop raid/heist; the theft is the outcome of the heist, so Stolen follows from and is caused by the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "058ced3751cc7d3ff1c8737d700bdf89bd3c26f9719c30fe29eaf227c85f4e39",
+    "058ced3751cc7d3ff1c8737d700bdf89bd3c26f9719c30fe29eaf227c85f4e39",
+    "cc11319b745ffb519d5b890abfc9de0292d20cc02b3888dbd4493c35c13353be",
+    "389a25913e93b782b01906692235b0ac3054389ab37a174c81c63e79de16c393",
+    "7910e6d49314dfc09c66816afdb51efd763f00bd5404ce9f4243b432531fec4b",
+    "ac620e3d37f490d643b56a474f027bda55ea4e13130cd35cb67514e1565e15bf"
+  ],
+  "elapsed_s": 5.06727147102356
+}

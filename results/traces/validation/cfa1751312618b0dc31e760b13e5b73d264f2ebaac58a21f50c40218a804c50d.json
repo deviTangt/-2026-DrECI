@@ -1,0 +1,63 @@
+{
+  "input_hash": "cfa1751312618b0dc31e760b13e5b73d264f2ebaac58a21f50c40218a804c50d",
+  "sample_id": "ESC-CSV-02223",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "death",
+    "person",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "46575c0ec7a61039b38a0e1d0b66869e05e17758b46b1891f39357f48b4d7f84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "46575c0ec7a61039b38a0e1d0b66869e05e17758b46b1891f39357f48b4d7f84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8fe59c5ef50900392e47d5feee0d795c044de35670150fa36c60b3ef052aaf02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e440bd35b22bab83e0f4a9a8e0e4d7568f972ca3ec12cb01e373931766bf2ab1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2859858d4ad151556ed4acc7b764507c2e27109ce974e67b3d7ab06ceffc1952",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"shot\",\"death\",\"person\",\"police\"],\"target_related\":[\"shot\",\"death\",\"person\",\"police\"],\"mediators\":[\"shot\",\"death\",\"person\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "4e1cdb1939709d111b01e2cb23708e9f678a6f2519514d1481de0c0a29114c9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before and directly caused the injuries; common sense: shooting someone injures them.\"}"
+    }
+  },
+  "call_ids": [
+    "46575c0ec7a61039b38a0e1d0b66869e05e17758b46b1891f39357f48b4d7f84",
+    "46575c0ec7a61039b38a0e1d0b66869e05e17758b46b1891f39357f48b4d7f84",
+    "8fe59c5ef50900392e47d5feee0d795c044de35670150fa36c60b3ef052aaf02",
+    "e440bd35b22bab83e0f4a9a8e0e4d7568f972ca3ec12cb01e373931766bf2ab1",
+    "2859858d4ad151556ed4acc7b764507c2e27109ce974e67b3d7ab06ceffc1952",
+    "4e1cdb1939709d111b01e2cb23708e9f678a6f2519514d1481de0c0a29114c9f"
+  ],
+  "elapsed_s": 7.984049081802368
+}

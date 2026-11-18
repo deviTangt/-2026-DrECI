@@ -1,0 +1,72 @@
+{
+  "input_hash": "9c3ddeca5cb5a620d6007268404d545c5f0b2585ed9c12b0e4d44f6b0eb600fe",
+  "sample_id": "ESC-CSV-06882",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gang member",
+    "guilty",
+    "Brooklyn",
+    "mom",
+    "12",
+    "claiming",
+    "life",
+    "mother",
+    "sprayed",
+    "13",
+    "bullets",
+    "rooftop",
+    "daylight"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d0db57b4de881a765d1427409a7d916d1c051436c857260503e560f964cf4dfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d0db57b4de881a765d1427409a7d916d1c051436c857260503e560f964cf4dfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "916e731f3fcbb044425cd62150002d19dbc6a49a6c1d3b7d7ac82e194334cbe6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c9169d9531b628452fd1a7677d0ae4da731d9435c6ecc2d04ca9ae1c7d028be4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8919ab3d930ca7aa1824f3b41625870d99706e5124872ca65e0b6deacbdcede1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gang member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\",\"claiming\",\"life\",\"mother\",\"sprayed\",\"13\",\"bullets\",\"rooftop\",\"daylight\"],\"target_related\":[\"Gang member\",\"guilty\",\"Tuesday\",\"claiming\",\"life\",\"mother\",\"12\",\"sprayed\",\"13\",\"bullets\",\"Brooklyn\",\"rooftop\",\"daylight\"],\"mediators\":[\"Gang member\",\"guilty\",\"Brooklyn\",\"mom\",\"12\",\"claiming\",\"life\",\"mother\",\"sprayed\",\"13\",\"bullets\",\"rooftop\",\"daylight\"]}"
+    },
+    "indirect": {
+      "call_id": "b38ad81fd4407d8508ecb200fe5437339b1364316a0c5e67c08b3f6d4aec3dfa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The slay (killing of the mother) occurred before the gang member was convicted for it; common sense: the killing is the crime for which he was convicted.\"}"
+    }
+  },
+  "call_ids": [
+    "d0db57b4de881a765d1427409a7d916d1c051436c857260503e560f964cf4dfd",
+    "d0db57b4de881a765d1427409a7d916d1c051436c857260503e560f964cf4dfd",
+    "916e731f3fcbb044425cd62150002d19dbc6a49a6c1d3b7d7ac82e194334cbe6",
+    "c9169d9531b628452fd1a7677d0ae4da731d9435c6ecc2d04ca9ae1c7d028be4",
+    "8919ab3d930ca7aa1824f3b41625870d99706e5124872ca65e0b6deacbdcede1",
+    "b38ad81fd4407d8508ecb200fe5437339b1364316a0c5e67c08b3f6d4aec3dfa"
+  ],
+  "elapsed_s": 4.262864351272583
+}

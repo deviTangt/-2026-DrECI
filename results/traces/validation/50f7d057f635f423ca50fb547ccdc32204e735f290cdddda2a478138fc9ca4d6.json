@@ -1,0 +1,75 @@
+{
+  "input_hash": "50f7d057f635f423ca50fb547ccdc32204e735f290cdddda2a478138fc9ca4d6",
+  "sample_id": "ESC-CSV-02156",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "receptionist",
+    "Madeline Kafoury",
+    "shot dead",
+    "managers",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded",
+    "man",
+    "accused",
+    "three former co-workers",
+    "Anthony LaCalamita III",
+    "38-year-old",
+    "Troy resident",
+    "fired",
+    "Gordon Advisors",
+    "Thursday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fd90aa841f7c2cb46d26a0428cbb6ed9036d0647e0d73116163f819191c229cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fd90aa841f7c2cb46d26a0428cbb6ed9036d0647e0d73116163f819191c229cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4578e12d6c09969c9fee9835ea314a963087d0322f8520139898402c761947a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2856a1f0f36343ce81fa40ab5adee4bc4cca1980abe07a33489f23127c5bbbc7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "df85d795acd101c23e478d7346bef9040cc4bf1adceb9b2eab748a6a4926cd54",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"receptionist\",\"Madeline Kafoury\",\"shot dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\",\"man\",\"accused\",\"shooting\",\"three former co-workers\",\"Anthony LaCalamita III\",\"38-year-old\",\"Troy resident\",\"fired\",\"Gordon Advisors\",\"Thursday\"],\"target_related\":[\"man\",\"accused\",\"Anthony LaCalamita III\",\"three former co-workers\",\"receptionist\",\"Madeline Kafoury\",\"shot dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\",\"38-year-old\",\"Troy resident\",\"fired\",\"Gordon Advisors\",\"Thursday\"],\"mediators\":[\"receptionist\",\"Madeline Kafoury\",\"shot dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\",\"man\",\"accused\",\"three former co-workers\",\"Anthony LaCalamita III\",\"38-year-old\",\"Troy resident\",\"fired\",\"Gordon Advisors\",\"Thursday\"]}"
+    },
+    "indirect": {
+      "call_id": "3be54225167329976a9ffeb13a492163a96f94974a690effdb5e2dc846c19e1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: the violence (shooting spree) occurred before and caused the receptionist being shot dead and managers wounded.\"}"
+    }
+  },
+  "call_ids": [
+    "fd90aa841f7c2cb46d26a0428cbb6ed9036d0647e0d73116163f819191c229cd",
+    "fd90aa841f7c2cb46d26a0428cbb6ed9036d0647e0d73116163f819191c229cd",
+    "4578e12d6c09969c9fee9835ea314a963087d0322f8520139898402c761947a8",
+    "2856a1f0f36343ce81fa40ab5adee4bc4cca1980abe07a33489f23127c5bbbc7",
+    "df85d795acd101c23e478d7346bef9040cc4bf1adceb9b2eab748a6a4926cd54",
+    "3be54225167329976a9ffeb13a492163a96f94974a690effdb5e2dc846c19e1e"
+  ],
+  "elapsed_s": 5.839368581771851
+}

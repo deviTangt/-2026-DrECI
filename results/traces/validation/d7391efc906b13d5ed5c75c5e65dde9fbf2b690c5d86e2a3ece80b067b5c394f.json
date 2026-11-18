@@ -1,0 +1,66 @@
+{
+  "input_hash": "d7391efc906b13d5ed5c75c5e65dde9fbf2b690c5d86e2a3ece80b067b5c394f",
+  "sample_id": "ESC-CSV-02477",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "brick",
+    "van",
+    "disorderly conduct",
+    "mob",
+    "protest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "66ce3437335118a491f56b65fe752f37b5a6d67f5783b037702c2f44284fa7a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "66ce3437335118a491f56b65fe752f37b5a6d67f5783b037702c2f44284fa7a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f40b3d4a4d236a7bb03b03dc9b802e3f028c62dd7170934c4ecad1a84b6dac91",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "21294849dbed7c866d9984ded69985bc55d75a3fb0cfbe1589e127fe3448deda",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fb9be55b7c0fa36027fa60cf8b2cb4934dcb1bc8af542f1c110025f79e1c86ee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"thrashing\",\"businesses\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"police\",\"officer\",\"brick\",\"van\",\"disorderly conduct\",\"mob\",\"protest\"],\"mediators\":[\"police\",\"officer\",\"brick\",\"van\",\"disorderly conduct\",\"mob\",\"protest\"]}"
+    },
+    "indirect": {
+      "call_id": "043f7f162ee5b88dad1d4b7a31fe2d25895a83a29ad18a61f8b3e03ce609c8d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Anger led to protests/mob violence; someone hit an officer with a brick and threw a brick through a police van, resulting in 46 arrests.\"}"
+    }
+  },
+  "call_ids": [
+    "66ce3437335118a491f56b65fe752f37b5a6d67f5783b037702c2f44284fa7a1",
+    "66ce3437335118a491f56b65fe752f37b5a6d67f5783b037702c2f44284fa7a1",
+    "f40b3d4a4d236a7bb03b03dc9b802e3f028c62dd7170934c4ecad1a84b6dac91",
+    "21294849dbed7c866d9984ded69985bc55d75a3fb0cfbe1589e127fe3448deda",
+    "fb9be55b7c0fa36027fa60cf8b2cb4934dcb1bc8af542f1c110025f79e1c86ee",
+    "043f7f162ee5b88dad1d4b7a31fe2d25895a83a29ad18a61f8b3e03ce609c8d2"
+  ],
+  "elapsed_s": 11.432231426239014
+}

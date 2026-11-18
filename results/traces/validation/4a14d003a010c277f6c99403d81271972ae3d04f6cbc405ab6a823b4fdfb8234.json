@@ -1,0 +1,58 @@
+{
+  "input_hash": "4a14d003a010c277f6c99403d81271972ae3d04f6cbc405ab6a823b4fdfb8234",
+  "sample_id": "ESC-CSV-01610",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [],
+  "route": "direct",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2e27c1d9559d2106a88335d1236922593561f0b327bf161a3126c5f630725e8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2e27c1d9559d2106a88335d1236922593561f0b327bf161a3126c5f630725e8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2d993d2572761089db3be7d7b858cea61e92f5b54ebc2a025dae2c53347f67b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c7da0356a72d2db26e2a9ad10ba881e8968eba3a4314a854160c72034b041b03",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "c50f1c65266351734c903d411e5ac70fb27f865f0459aebb45315b3eab96e235",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Someone\",\"residence\",\"Waldie\"],\"target_related\":[\"Deputy\",\"Killed\",\"Sheriff\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "1c3798345c60facff7a3419af22839ac47d6a94512fc6f9cb93b523a087f19e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Someone came out and put a bullet through his head; coming out precedes and enables the shooting, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "2e27c1d9559d2106a88335d1236922593561f0b327bf161a3126c5f630725e8c",
+    "2e27c1d9559d2106a88335d1236922593561f0b327bf161a3126c5f630725e8c",
+    "2d993d2572761089db3be7d7b858cea61e92f5b54ebc2a025dae2c53347f67b5",
+    "c7da0356a72d2db26e2a9ad10ba881e8968eba3a4314a854160c72034b041b03",
+    "c50f1c65266351734c903d411e5ac70fb27f865f0459aebb45315b3eab96e235",
+    "1c3798345c60facff7a3419af22839ac47d6a94512fc6f9cb93b523a087f19e4"
+  ],
+  "elapsed_s": 5.403722286224365
+}

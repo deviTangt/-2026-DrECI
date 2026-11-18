@@ -1,0 +1,63 @@
+{
+  "input_hash": "1be5c3b8cf4580b4d735afe7737708b3b37a34a7f59527091784e81f3a075c17",
+  "sample_id": "ESC-CSV-09520",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "branch",
+    "bank workers",
+    "petrol bomb",
+    "protester"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "10a5ff572373928deaddf1a624216ebfb651d9c659d68570eed66c243a9e9d20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "10a5ff572373928deaddf1a624216ebfb651d9c659d68570eed66c243a9e9d20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ffd71f5ff5da38522fc24e7b2bfa5427418bd577463a639e2fb378acc115634c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2481db5846606c7f153e02a40895a245c591c083dcbe281c1c2cb4d98c71886c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6fd70c5b4e9b023098f5613bd12b4dcb9ae3d2b6e830d02b8ab8e7595c607642",
+      "status": "ok",
+      "text": "{\"source_related\":[\"branch\",\"bank\",\"workers\",\"petrol bomb\",\"protester\"],\"target_related\":[\"bank workers\",\"women\",\"man\",\"branch\",\"petrol bomb\",\"protester\"],\"mediators\":[\"branch\",\"bank workers\",\"petrol bomb\",\"protester\"]}"
+    },
+    "indirect": {
+      "call_id": "4488600783aa3ac1f57046075f995f364a8097305fa3b28a5cfa17c5e580cdad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'were killed when their branch went up in flames' — 'when' links the fire to the deaths; common sense: fire caused the workers' deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "10a5ff572373928deaddf1a624216ebfb651d9c659d68570eed66c243a9e9d20",
+    "10a5ff572373928deaddf1a624216ebfb651d9c659d68570eed66c243a9e9d20",
+    "ffd71f5ff5da38522fc24e7b2bfa5427418bd577463a639e2fb378acc115634c",
+    "2481db5846606c7f153e02a40895a245c591c083dcbe281c1c2cb4d98c71886c",
+    "6fd70c5b4e9b023098f5613bd12b4dcb9ae3d2b6e830d02b8ab8e7595c607642",
+    "4488600783aa3ac1f57046075f995f364a8097305fa3b28a5cfa17c5e580cdad"
+  ],
+  "elapsed_s": 4.8180670738220215
+}

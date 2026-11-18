@@ -1,0 +1,61 @@
+{
+  "input_hash": "4f8c0173187c30e80314cf370e068801457f3579d3698acc5e3c17ce2a8b48df",
+  "sample_id": "ESC-CSV-02175",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shot",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6804f6287cc1c30838f3991f3ce397af623e47e2bd905e6f96e9afb71f9f2b88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6804f6287cc1c30838f3991f3ce397af623e47e2bd905e6f96e9afb71f9f2b88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b88d6d632da7bbe5081e02f3ea75c30f3ec802026c2f0dd9f5817ac7f873e028",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7d67449155f8bb67ffd424d1813fa52029d77c21e7f45ed04354336316e458dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1e02c8ebde2ff34420a74f58825264213e02207717359f84ed4e1d95238cd2a6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"wounded\",\"violence\",\"Shooter\",\"Charged\",\"Attempted\"],\"target_related\":[\"shot\",\"wounded\",\"receptionist\",\"Madeline Kafoury\",\"managers\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"shot\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "3cd620b5fd849011fd75d55409666b8e4d0c93078dd3ade1f4d11eedcaf572ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Murder is a charge; being shot dead is the cause of death. No explicit or implicit causal word links Murder to dead, and no Z chain/fork/collider applies.\"}"
+    }
+  },
+  "call_ids": [
+    "6804f6287cc1c30838f3991f3ce397af623e47e2bd905e6f96e9afb71f9f2b88",
+    "6804f6287cc1c30838f3991f3ce397af623e47e2bd905e6f96e9afb71f9f2b88",
+    "b88d6d632da7bbe5081e02f3ea75c30f3ec802026c2f0dd9f5817ac7f873e028",
+    "7d67449155f8bb67ffd424d1813fa52029d77c21e7f45ed04354336316e458dd",
+    "1e02c8ebde2ff34420a74f58825264213e02207717359f84ed4e1d95238cd2a6",
+    "3cd620b5fd849011fd75d55409666b8e4d0c93078dd3ade1f4d11eedcaf572ce"
+  ],
+  "elapsed_s": 5.704288005828857
+}

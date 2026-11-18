@@ -1,0 +1,62 @@
+{
+  "input_hash": "7988423cf30ee238ddb09ba66a42e039a4e66ba618e15dbed686c00b91b9778a",
+  "sample_id": "ESC-CSV-02463",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "vigil",
+    "mob",
+    "businesses"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6e45cfea295cddaf87a107ef8bb635b0a8c0967db1c9b097ce45fcf0227d93d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6e45cfea295cddaf87a107ef8bb635b0a8c0967db1c9b097ce45fcf0227d93d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "741c0cf0538484ae5275bf6361915b8e8717764e2665940878aa88f90065bd4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3b71f6d62bb02ce0a542b98893cefb0dce50dd8ca3a71a24456648f3a5afe7e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "dc77ad0bfafd3c3cd599ae97d263d03556b0ba6c49907648d3a61876e5eb9b97",
+      "status": "ok",
+      "text": "{\"source_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\",\"vigil\",\"mob\",\"businesses\",\"protest\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"vigil\",\"mob\",\"businesses\"],\"mediators\":[\"vigil\",\"mob\",\"businesses\"]}"
+    },
+    "indirect": {
+      "call_id": "f4257fb1d203add55bbf69ea76d7f19b1a0dd9c5eca0ab7e50c4df36d740ae92",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Anger is the subject; 'marred' describes the vigil, not a result of anger. No causal word or chain links Anger to marred.\"}"
+    }
+  },
+  "call_ids": [
+    "6e45cfea295cddaf87a107ef8bb635b0a8c0967db1c9b097ce45fcf0227d93d0",
+    "6e45cfea295cddaf87a107ef8bb635b0a8c0967db1c9b097ce45fcf0227d93d0",
+    "741c0cf0538484ae5275bf6361915b8e8717764e2665940878aa88f90065bd4f",
+    "3b71f6d62bb02ce0a542b98893cefb0dce50dd8ca3a71a24456648f3a5afe7e1",
+    "dc77ad0bfafd3c3cd599ae97d263d03556b0ba6c49907648d3a61876e5eb9b97",
+    "f4257fb1d203add55bbf69ea76d7f19b1a0dd9c5eca0ab7e50c4df36d740ae92"
+  ],
+  "elapsed_s": 7.966447591781616
+}

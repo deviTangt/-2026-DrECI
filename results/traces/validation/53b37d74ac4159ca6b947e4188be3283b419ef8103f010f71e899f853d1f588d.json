@@ -1,0 +1,63 @@
+{
+  "input_hash": "53b37d74ac4159ca6b947e4188be3283b419ef8103f010f71e899f853d1f588d",
+  "sample_id": "ESC-CSV-01702",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "shooting",
+    "defendant",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2e4b6905b1c4917512e83d6114e655ac0419b336e8c8744d37a63888d52fbae2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2e4b6905b1c4917512e83d6114e655ac0419b336e8c8744d37a63888d52fbae2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "26af6639a67dd165bc00b0285f23b1faed529a6d6a07f03370e579f481320b82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "424045b5e788d929247f9d3a8a2af14be7aacc4dfa0f39306f96c82a1f27221c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0cc9a04599958ba36fb81b9a7776f262858098b15a49637237a9320637d73bce",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"shooting\",\"defendant\",\"suspect\"],\"target_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\",\"Cooley\",\"news conference\",\"Bellflower courthouse\"],\"mediators\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "990d32f6babb5310dd335e716f542e9c1557231e97569779fc5738dc76d9c667",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot to death' explicitly links shot to killed; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "2e4b6905b1c4917512e83d6114e655ac0419b336e8c8744d37a63888d52fbae2",
+    "2e4b6905b1c4917512e83d6114e655ac0419b336e8c8744d37a63888d52fbae2",
+    "26af6639a67dd165bc00b0285f23b1faed529a6d6a07f03370e579f481320b82",
+    "424045b5e788d929247f9d3a8a2af14be7aacc4dfa0f39306f96c82a1f27221c",
+    "0cc9a04599958ba36fb81b9a7776f262858098b15a49637237a9320637d73bce",
+    "990d32f6babb5310dd335e716f542e9c1557231e97569779fc5738dc76d9c667"
+  ],
+  "elapsed_s": 5.204186201095581
+}

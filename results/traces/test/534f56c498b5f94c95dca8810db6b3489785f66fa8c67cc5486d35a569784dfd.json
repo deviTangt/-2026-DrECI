@@ -1,0 +1,61 @@
+{
+  "input_hash": "534f56c498b5f94c95dca8810db6b3489785f66fa8c67cc5486d35a569784dfd",
+  "sample_id": "ESC-CSV-09267",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Bank",
+    "Workers"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "babbcc3c23bba43cd3602a252bdf6dd27ff8980eea9b886cf09101b08cbb7126",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "babbcc3c23bba43cd3602a252bdf6dd27ff8980eea9b886cf09101b08cbb7126",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "95540940b08c4bde05235f09304a42187523985c2d954a58bb6165c45d28d839",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c9ef5129682a41ed1ea9f3ce5132b85a2182c7b36db671f2564761c72ce74936",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b21291162e90f164e013963c2e26cf61773ace0afd8f140b3c5ee0ecfc3f815c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"Prime\",\"Minister\",\"Calls\",\"Bank\",\"Workers\"],\"target_related\":[\"Bank\",\"Workers\",\"Murder\"],\"mediators\":[\"Bank\",\"Workers\"]}"
+    },
+    "indirect": {
+      "call_id": "65f207f374b35374972c862a79ca20ec20f3bf29f4528cbc62be449c6c548044",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The headline mentions 'Riot Deaths' but no verb or phrase links Riot as causing Deaths; 'Bank Workers' are victims, not a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "babbcc3c23bba43cd3602a252bdf6dd27ff8980eea9b886cf09101b08cbb7126",
+    "babbcc3c23bba43cd3602a252bdf6dd27ff8980eea9b886cf09101b08cbb7126",
+    "95540940b08c4bde05235f09304a42187523985c2d954a58bb6165c45d28d839",
+    "c9ef5129682a41ed1ea9f3ce5132b85a2182c7b36db671f2564761c72ce74936",
+    "b21291162e90f164e013963c2e26cf61773ace0afd8f140b3c5ee0ecfc3f815c",
+    "65f207f374b35374972c862a79ca20ec20f3bf29f4528cbc62be449c6c548044"
+  ],
+  "elapsed_s": 4.179909944534302
+}

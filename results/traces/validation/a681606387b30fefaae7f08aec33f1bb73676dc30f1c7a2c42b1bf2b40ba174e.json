@@ -1,0 +1,62 @@
+{
+  "input_hash": "a681606387b30fefaae7f08aec33f1bb73676dc30f1c7a2c42b1bf2b40ba174e",
+  "sample_id": "ESC-CSV-02370",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "Monday morning attack",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f6fda61e96616b19ec1a3ebff1e8767ca287ebc4382453d18b6485d58c64ffdb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f6fda61e96616b19ec1a3ebff1e8767ca287ebc4382453d18b6485d58c64ffdb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c7b939e73d6f030abdd589a0201fe8f50e1d06f918dd2f17fbecc3cfadbe64d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "863b0ded767c8a21bcd688417c2da7df2bc751cdeb7ba22883dc9ae4fdd5cd28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8cda05c8874bfcd5f956bd54ab4685fa1bd19483b5b3b241fd8391d8c847428e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"three people\",\"accounting firm\",\"fired\",\"Monday morning attack\",\"authorities\"],\"target_related\":[\"man\",\"high-speed chase\",\"Monday morning attack\",\"authorities\"],\"mediators\":[\"man\",\"Monday morning attack\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "acbcddcbdb62229ee219db4aed87ed6f54acd2ef0c4d488a29488760b86fe0f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the suspect was arrested after a chase, so the shooting led to the arrest by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f6fda61e96616b19ec1a3ebff1e8767ca287ebc4382453d18b6485d58c64ffdb",
+    "f6fda61e96616b19ec1a3ebff1e8767ca287ebc4382453d18b6485d58c64ffdb",
+    "2c7b939e73d6f030abdd589a0201fe8f50e1d06f918dd2f17fbecc3cfadbe64d",
+    "863b0ded767c8a21bcd688417c2da7df2bc751cdeb7ba22883dc9ae4fdd5cd28",
+    "8cda05c8874bfcd5f956bd54ab4685fa1bd19483b5b3b241fd8391d8c847428e",
+    "acbcddcbdb62229ee219db4aed87ed6f54acd2ef0c4d488a29488760b86fe0f5"
+  ],
+  "elapsed_s": 12.293000221252441
+}

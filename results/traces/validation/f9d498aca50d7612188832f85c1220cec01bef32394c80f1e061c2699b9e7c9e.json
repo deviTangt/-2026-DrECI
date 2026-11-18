@@ -1,0 +1,65 @@
+{
+  "input_hash": "f9d498aca50d7612188832f85c1220cec01bef32394c80f1e061c2699b9e7c9e",
+  "sample_id": "ESC-CSV-02375",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Troy",
+    "Michigan",
+    "Office",
+    "Injured",
+    "Suspect",
+    "Caught"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "616aededd928e96c475df4b58f8b29eb76fa62e5c4aa6347c480a9c2d735803b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "616aededd928e96c475df4b58f8b29eb76fa62e5c4aa6347c480a9c2d735803b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "99a6ca12d8c1dce303d408a8d0bd7b7e9f4319a1aca25c1b03a1ffeec3e0b098",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f928be08cfc04aa57d89081aae4f5a010ca61113a637e8fee04498d7a41cf641",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ffcaadd95ac32d5d5afb10cb1a264561a008d85b72c44ef43c8f350ac45f74a8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"Michigan\",\"Office\",\"Suspect\",\"Caught\",\"Injured\"],\"target_related\":[\"Troy\",\"Michigan\",\"Office\",\"Shooting\",\"Injured\",\"Suspect\",\"Caught\"],\"mediators\":[\"Troy\",\"Michigan\",\"Office\",\"Injured\",\"Suspect\",\"Caught\"]}"
+    },
+    "indirect": {
+      "call_id": "1b1779903fe880453ccbf3f38d8ed8fdcc23fadcf0878b2dbc20e6d8ddefd926",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting commonly causes death; the office shooting occurred and resulted in 1 dead, so X precedes and causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "616aededd928e96c475df4b58f8b29eb76fa62e5c4aa6347c480a9c2d735803b",
+    "616aededd928e96c475df4b58f8b29eb76fa62e5c4aa6347c480a9c2d735803b",
+    "99a6ca12d8c1dce303d408a8d0bd7b7e9f4319a1aca25c1b03a1ffeec3e0b098",
+    "f928be08cfc04aa57d89081aae4f5a010ca61113a637e8fee04498d7a41cf641",
+    "ffcaadd95ac32d5d5afb10cb1a264561a008d85b72c44ef43c8f350ac45f74a8",
+    "1b1779903fe880453ccbf3f38d8ed8fdcc23fadcf0878b2dbc20e6d8ddefd926"
+  ],
+  "elapsed_s": 10.772603034973145
+}

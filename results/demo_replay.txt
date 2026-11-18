@@ -1,0 +1,31 @@
+=== 真实实验记录重放（无新增费用） ===
+样本: ESC-CSV-04255
+原文: One Australian and one English climber have fallen to their deaths in New Zealand .
+事件: deaths / fallen
+
+--- E0 ---
+记录ID: 949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f
+{"Answer":"No"}
+
+--- explorer_causal ---
+记录ID: 949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f
+{"Answer":"No"}
+
+--- explorer_causation ---
+记录ID: 54703b01ae7eab308e66ba873e6aa1d3c8bcbd05659a10fcadc05bf8d4a7d856
+{"Answer":"No"}
+
+--- explorer_causality ---
+记录ID: 5be1eb938b6d006c67330f4d14ed7dd45fae5545595a8fe2c318ec6b0b72ab83
+{"Answer":"Yes"}
+
+--- mediator ---
+记录ID: c6deaef3dd33475ee0dbb5b2dea31d428a180766bd3e1e0d6b3aaf4d50184f47
+{"source_related":["climber","Australian","English","New Zealand"],"target_related":["climber","Australian","English","New Zealand"],"mediators":["climber","Australian","English","New Zealand"]}
+
+--- indirect ---
+记录ID: 44a7aed2021ae7602437b7a1a63a803e00e1543f05e934dfc81b15c382f1a75e
+{"Answer":"Yes","matched_rules":[3],"evidence":"Falling is the physical event that causes the climbers' deaths; deaths result from the fall, consistent with causal order."}
+
+探索票数: 1 路径: indirect 最终预测: 1 标注: 1
+注：Yes/No为因果存在性；本实验不输出因果方向或概率。

@@ -1,0 +1,62 @@
+{
+  "input_hash": "47099c11c4ff34166e8a8bbb6f1a5274ec09c2f47f3c743f82aff924781ffd3a",
+  "sample_id": "ESC-CSV-09975",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "demonstrations",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9791f3c5f7f704ee6ef29daffb725b16157bbefcad10581b6d40640548825eea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9791f3c5f7f704ee6ef29daffb725b16157bbefcad10581b6d40640548825eea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "01577cbd2c110d7e65d21d27764c5ee2589abbfeca3fa51e88d977a36d7a11f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f2bf50bf5f7529e94d408b58ac44930f241559aacebbd0baf1e6d2365fd292e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1a0c6808cba48a3f3955919be4eb0532d6d1e31353ce4e773b6d2dbbf8f6f619",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greece\",\"parliament\",\"vote\",\"cuts\",\"reforms\",\"government\",\"financial\"],\"target_related\":[\"demonstrations\",\"austerity\",\"measures\",\"petrol\",\"bomb\",\"attack\",\"died\",\"bank\",\"workers\"],\"mediators\":[\"demonstrations\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "daa62937f64b2502b96fe28c52d9f98ab131578f347afdab5d6a9796622ad140",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Financial crisis prompted demonstrations over austerity measures, which turned violent; crisis->demonstrations->violent forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "9791f3c5f7f704ee6ef29daffb725b16157bbefcad10581b6d40640548825eea",
+    "9791f3c5f7f704ee6ef29daffb725b16157bbefcad10581b6d40640548825eea",
+    "01577cbd2c110d7e65d21d27764c5ee2589abbfeca3fa51e88d977a36d7a11f6",
+    "f2bf50bf5f7529e94d408b58ac44930f241559aacebbd0baf1e6d2365fd292e5",
+    "1a0c6808cba48a3f3955919be4eb0532d6d1e31353ce4e773b6d2dbbf8f6f619",
+    "daa62937f64b2502b96fe28c52d9f98ab131578f347afdab5d6a9796622ad140"
+  ],
+  "elapsed_s": 5.311837911605835
+}

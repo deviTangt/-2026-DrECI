@@ -1,0 +1,62 @@
+{
+  "input_hash": "5cee8671a93bb12855340931017a94199455b4b7ca457340426165c50e5d4c61",
+  "sample_id": "ESC-CSV-02991",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioted",
+    "people",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "39ffadaa8e77e560988bdc6842f9348fea4b5aff2053fd96e07d01dd11583ee3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "39ffadaa8e77e560988bdc6842f9348fea4b5aff2053fd96e07d01dd11583ee3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6b7db068004592dab46d70b40bf6dc155947fe75e2843643c3b37973c462c148",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "549399dfcfa11cd93ad6e27ac5b820a3914d64b36d5798f4f9857a4f3e80ac23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "55578b0aeacfdd527d1ca72ec7d49de8b0c63a9b9d5a36871d0a0ae568ee85a1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioted\",\"bottles\",\"officers\",\"100\",\"people\"],\"target_related\":[\"protest\",\"rioted\",\"100\",\"people\",\"officers\"],\"mediators\":[\"rioted\",\"people\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "603d3a974bab72a680151dd9617ef39deb29021c130c80faa9fdc32ddb7d2402",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Throwing bottles at officers is part of the rioting that made the protest turn chaotic; the throwing contributes to the chaos.\"}"
+    }
+  },
+  "call_ids": [
+    "39ffadaa8e77e560988bdc6842f9348fea4b5aff2053fd96e07d01dd11583ee3",
+    "39ffadaa8e77e560988bdc6842f9348fea4b5aff2053fd96e07d01dd11583ee3",
+    "6b7db068004592dab46d70b40bf6dc155947fe75e2843643c3b37973c462c148",
+    "549399dfcfa11cd93ad6e27ac5b820a3914d64b36d5798f4f9857a4f3e80ac23",
+    "55578b0aeacfdd527d1ca72ec7d49de8b0c63a9b9d5a36871d0a0ae568ee85a1",
+    "603d3a974bab72a680151dd9617ef39deb29021c130c80faa9fdc32ddb7d2402"
+  ],
+  "elapsed_s": 5.0395426750183105
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "9654557fa67d33bafc483171253aba7a67f963b144d19870ce13f4f687ea7bb5",
+  "sample_id": "ESC-CSV-02819",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Neighborhood",
+    "Teen",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "943e1bcf22a43b4fddb03c02a00a0d0ff0aaed2327104f22c3fba26b014e12fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "943e1bcf22a43b4fddb03c02a00a0d0ff0aaed2327104f22c3fba26b014e12fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2b7c9abd392ac524ed2cd135c9edb148857abb709797960cb0014dc69fea1734",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a9a9c6371eec99ef95ca1014a67700b8fcd673236b23068e6837933831b3af5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0166d13771f06acc529a7effa0743c3d3274c1de9cf238b81a14195f53a0eaa2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Police\",\"Brooklyn\",\"Neighborhood\"],\"target_related\":[\"Brooklyn\",\"Neighborhood\",\"Teen\",\"Police\"],\"mediators\":[\"Brooklyn\",\"Neighborhood\",\"Teen\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "05dbf376aba267bda043b16329ee9596b32627c9a3d292d5698728f631e967b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A teen being killed by police causes outrage, making the neighborhood a powder keg; the killing precedes and provokes the powder-keg tension.\"}"
+    }
+  },
+  "call_ids": [
+    "943e1bcf22a43b4fddb03c02a00a0d0ff0aaed2327104f22c3fba26b014e12fb",
+    "943e1bcf22a43b4fddb03c02a00a0d0ff0aaed2327104f22c3fba26b014e12fb",
+    "2b7c9abd392ac524ed2cd135c9edb148857abb709797960cb0014dc69fea1734",
+    "9a9a9c6371eec99ef95ca1014a67700b8fcd673236b23068e6837933831b3af5",
+    "0166d13771f06acc529a7effa0743c3d3274c1de9cf238b81a14195f53a0eaa2",
+    "05dbf376aba267bda043b16329ee9596b32627c9a3d292d5698728f631e967b0"
+  ],
+  "elapsed_s": 4.490900993347168
+}

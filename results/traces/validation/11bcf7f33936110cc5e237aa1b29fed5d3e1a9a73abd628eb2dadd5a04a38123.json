@@ -1,0 +1,61 @@
+{
+  "input_hash": "11bcf7f33936110cc5e237aa1b29fed5d3e1a9a73abd628eb2dadd5a04a38123",
+  "sample_id": "ESC-CSV-01583",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Ortiz",
+    "Deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5f3c749b468c2125ca676d878b466fc03fe411c63bfc4522f41cf25124fc202d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5f3c749b468c2125ca676d878b466fc03fe411c63bfc4522f41cf25124fc202d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fdb8afc01346c8a02b51c812f4843f2e827f1acb1b499220598c884cdc100c38",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f80259969e97c884c9c0927c182bdaf1341565f0e9d1d23d907a6b79d775156d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1ff8bbdc1e9b709b3c9b66243c026fabc001cd3dd96c95a1c86ffaacd8b7f867",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gunman\",\"Deputy\",\"Ortiz\"],\"target_related\":[\"Ortiz\",\"Deputy\"],\"mediators\":[\"Ortiz\",\"Deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "ac3db4b861325c14ffc1acdd6f936ab5f977f3ee26e5617b982a60b32468f07d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing (shooting) occurs before and causes the deputy's death; 'died instantly' follows the kill, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "5f3c749b468c2125ca676d878b466fc03fe411c63bfc4522f41cf25124fc202d",
+    "5f3c749b468c2125ca676d878b466fc03fe411c63bfc4522f41cf25124fc202d",
+    "fdb8afc01346c8a02b51c812f4843f2e827f1acb1b499220598c884cdc100c38",
+    "f80259969e97c884c9c0927c182bdaf1341565f0e9d1d23d907a6b79d775156d",
+    "1ff8bbdc1e9b709b3c9b66243c026fabc001cd3dd96c95a1c86ffaacd8b7f867",
+    "ac3db4b861325c14ffc1acdd6f936ab5f977f3ee26e5617b982a60b32468f07d"
+  ],
+  "elapsed_s": 5.788607358932495
+}

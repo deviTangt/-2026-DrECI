@@ -1,0 +1,61 @@
+{
+  "input_hash": "288da8b99bc9803dbadfb17438ebe99a876aacebb4b2832bc1c11cd2a75b68e4",
+  "sample_id": "ESC-CSV-02473",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "teenager",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8f15f505a6cd3eb80c4034801e5582ceb5293fe66c4ce47cbc376430e89cc38d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8f15f505a6cd3eb80c4034801e5582ceb5293fe66c4ce47cbc376430e89cc38d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9136a6897011080620daf397b5fe3858eaaced56678fabf290a7d1025f9e93b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cc69fe6257cd952f72ee4b16a6e3d4b2ec72ad1e5d2c055f57d93eb55dfb56f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "6e9b0a7314d72215dc4ac1f5f752bdf095a5218cfe391369881f270b83ee03d9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"plainclothes officers\",\"fatally shot\",\"teenager\",\"Kimani Gray\",\"revolver\",\"pointed\"],\"target_related\":[\"East Flatbush\",\"Teenager\",\"Killing\",\"Police\"],\"mediators\":[\"teenager\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "2bb78e678571d95e5d1dee2c033c26da116feb59c5ba6530e6ff30fcc721bb61",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Brandishing and pointing a revolver at officers led to the fatal shooting, which in turn caused anger in East Flatbush; the provocative act precedes and causes the anger.\"}"
+    }
+  },
+  "call_ids": [
+    "8f15f505a6cd3eb80c4034801e5582ceb5293fe66c4ce47cbc376430e89cc38d",
+    "8f15f505a6cd3eb80c4034801e5582ceb5293fe66c4ce47cbc376430e89cc38d",
+    "9136a6897011080620daf397b5fe3858eaaced56678fabf290a7d1025f9e93b7",
+    "cc69fe6257cd952f72ee4b16a6e3d4b2ec72ad1e5d2c055f57d93eb55dfb56f0",
+    "6e9b0a7314d72215dc4ac1f5f752bdf095a5218cfe391369881f270b83ee03d9",
+    "2bb78e678571d95e5d1dee2c033c26da116feb59c5ba6530e6ff30fcc721bb61"
+  ],
+  "elapsed_s": 7.594729661941528
+}

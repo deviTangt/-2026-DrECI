@@ -1,0 +1,60 @@
+{
+  "input_hash": "05661e3ffdcf6c595fb653f7deaab3e9827aefe956be9a6517d561dd1a6229c6",
+  "sample_id": "ESC-CSV-09705",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8dbd1227d99ed8fae5126a653f3019c7573c56079e463dc71dfdb27569ce026d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8dbd1227d99ed8fae5126a653f3019c7573c56079e463dc71dfdb27569ce026d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "860d9744e161bed82c9c8c1f197e4700c50e595dab933cbb348a1ec6b8f8e897",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8265f1df7ab7a2446b6431370bf7fea23e522dc5d90913c2f88de5864540fa8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "18642c4c8331de22e267b534142f7ce83ba876fb4e1c988fa43bbe0485d15bf4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"cars\",\"fire truck\",\"buildings\"],\"target_related\":[\"barricades\",\"protesters\"],\"mediators\":[\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "6e9287db1a390304e60cdba55573c4bf4c94ee657d7abc42474000cff7206c55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Torching (setting fire to) buildings/cars causes them to be burning; setting fire precedes and produces burning by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8dbd1227d99ed8fae5126a653f3019c7573c56079e463dc71dfdb27569ce026d",
+    "8dbd1227d99ed8fae5126a653f3019c7573c56079e463dc71dfdb27569ce026d",
+    "860d9744e161bed82c9c8c1f197e4700c50e595dab933cbb348a1ec6b8f8e897",
+    "8265f1df7ab7a2446b6431370bf7fea23e522dc5d90913c2f88de5864540fa8b",
+    "18642c4c8331de22e267b534142f7ce83ba876fb4e1c988fa43bbe0485d15bf4",
+    "6e9287db1a390304e60cdba55573c4bf4c94ee657d7abc42474000cff7206c55"
+  ],
+  "elapsed_s": 4.65467643737793
+}

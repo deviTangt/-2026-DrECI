@@ -1,0 +1,73 @@
+{
+  "input_hash": "95b783e1ffecec15acd12eed259cf24f8127575f2504c9cf8efb910eb12a3162",
+  "sample_id": "ESC-CSV-02157",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LaCalamita",
+    "charged",
+    "first-degree",
+    "Kafoury",
+    "death",
+    "Warren",
+    "violence",
+    "receptionist",
+    "Madeline Kafoury",
+    "shot",
+    "managers",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "833f1024b453e443c1c636b1f2e407eb50de9f618c64d4dfd44c1d41b804a847",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "833f1024b453e443c1c636b1f2e407eb50de9f618c64d4dfd44c1d41b804a847",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "752a172bfd63f53a7dd8e70633fded3157be875d18e153453c3c7180b1a2b0dc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fe8673bb31aa3fcbcc1787d4f240336ca3904dbe0b49e6a073bbc7c230bc1247",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c4b6a6d7265d180ff16845584bd7be3300811c126f51327ddf4085f616445d70",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"charged\",\"first-degree\",\"Kafoury\",\"death\",\"Warren\",\"violence\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"target_related\":[\"LaCalamita\",\"charged\",\"first-degree\",\"murder\",\"Kafoury\",\"death\",\"Warren\",\"violence\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"mediators\":[\"LaCalamita\",\"charged\",\"first-degree\",\"Kafoury\",\"death\",\"Warren\",\"violence\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "e8652e9923967e087e25b224eeaf69ec0afbaec8e6a6d095b466f95a5b97e6ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Murder is charged in the death; being shot dead is the death, and murder causes death by common sense.\",\"analysis\":\"X=murder, Y=dead. Rule 1: no explicit causal word directly linking murder and dead. Rule 2: no implicit causation word. Rule 3: common sense—murder causes death, so X causes Y. Rule 4: 'shot dead' is a coreference event of murder/dead and is causally linked. Rules 5-8: no clear coreference or Z structure needed.\"}"
+    }
+  },
+  "call_ids": [
+    "833f1024b453e443c1c636b1f2e407eb50de9f618c64d4dfd44c1d41b804a847",
+    "833f1024b453e443c1c636b1f2e407eb50de9f618c64d4dfd44c1d41b804a847",
+    "752a172bfd63f53a7dd8e70633fded3157be875d18e153453c3c7180b1a2b0dc",
+    "fe8673bb31aa3fcbcc1787d4f240336ca3904dbe0b49e6a073bbc7c230bc1247",
+    "c4b6a6d7265d180ff16845584bd7be3300811c126f51327ddf4085f616445d70",
+    "e8652e9923967e087e25b224eeaf69ec0afbaec8e6a6d095b466f95a5b97e6ca"
+  ],
+  "elapsed_s": 6.665588617324829
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "5eecfa893d025eb3c0fddb3cace1001f3f0e97f17c5fbef1f2987dc54e838a63",
+  "sample_id": "ESC-CSV-09782",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "222584ab7fca3c65fe40207b317aee2485e3956def8dec4848b0b0744f1fba87",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "222584ab7fca3c65fe40207b317aee2485e3956def8dec4848b0b0744f1fba87",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bc766a77fbed3da6c570622a7e72ee02d119221b0e9d4cabcfd5b23d879e563b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e7cc8894c7fd0b0e19a03e9528d8a6a88f128a1880bd04d49a4457e32e966f4d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c65cc300c38f4122899794084ec674b52629f0ed5a18bc2584c47818bf07a73d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"man\",\"women\",\"killed\",\"fire\",\"bomb\"],\"target_related\":[\"buildings\",\"tax\",\"officials\",\"regional\",\"authorities\"],\"mediators\":[\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "37d6af8a05e62a47ca07e453692ea2fc917f296f16d1854a43d60e4e65bac1c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The fire-bomb attack (X) caused fire (Z), and the fire caused the two buildings to catch fire (Y), forming a chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "222584ab7fca3c65fe40207b317aee2485e3956def8dec4848b0b0744f1fba87",
+    "222584ab7fca3c65fe40207b317aee2485e3956def8dec4848b0b0744f1fba87",
+    "bc766a77fbed3da6c570622a7e72ee02d119221b0e9d4cabcfd5b23d879e563b",
+    "e7cc8894c7fd0b0e19a03e9528d8a6a88f128a1880bd04d49a4457e32e966f4d",
+    "c65cc300c38f4122899794084ec674b52629f0ed5a18bc2584c47818bf07a73d",
+    "37d6af8a05e62a47ca07e453692ea2fc917f296f16d1854a43d60e4e65bac1c7"
+  ],
+  "elapsed_s": 4.656933069229126
+}

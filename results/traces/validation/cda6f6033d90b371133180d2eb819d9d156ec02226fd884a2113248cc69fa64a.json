@@ -1,0 +1,65 @@
+{
+  "input_hash": "cda6f6033d90b371133180d2eb819d9d156ec02226fd884a2113248cc69fa64a",
+  "sample_id": "ESC-CSV-02550",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "cops",
+    "fights",
+    "teens",
+    "East Flatbush",
+    "arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6e32c9885e1216ec703568f00c054b455d5a73713a95a03493966492612c6656",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6e32c9885e1216ec703568f00c054b455d5a73713a95a03493966492612c6656",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c3349520d47d5bde22f482c54403dd9d1f73ce469b4fc5915f6dc5f063d1f719",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bb1103297931b147a4492fd5304168f580d641eafc72740d2fe90595e9dd2a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bf157a871b2d278d93808168c9a0e4df05c9725cae2e002c698925ea3112fc9e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"teenager\",\"police\",\"Protesters\",\"fatal\",\"Brooklyn\",\"streets\",\"Wednesday\",\"bricks\",\"bottles\",\"garbage\",\"cops\",\"fights\",\"teens\",\"East Flatbush\",\"arrested\"],\"target_related\":[\"Protesters\",\"enraged\",\"furious\",\"clashes\",\"cops\",\"fights\",\"teens\",\"erupted\",\"East Flatbush\",\"arrested\"],\"mediators\":[\"Protesters\",\"cops\",\"fights\",\"teens\",\"East Flatbush\",\"arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "5306e69942250872933efcc03cf7875368068a35f71500074797a345130948d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2],\"evidence\":\"\\\"enraged over the fatal shooting\\\" and \\\"angry teens\\\" show the shooting caused anger; \\\"enraged over\\\" explicitly links shooting to anger.\"}"
+    }
+  },
+  "call_ids": [
+    "6e32c9885e1216ec703568f00c054b455d5a73713a95a03493966492612c6656",
+    "6e32c9885e1216ec703568f00c054b455d5a73713a95a03493966492612c6656",
+    "c3349520d47d5bde22f482c54403dd9d1f73ce469b4fc5915f6dc5f063d1f719",
+    "4bb1103297931b147a4492fd5304168f580d641eafc72740d2fe90595e9dd2a2",
+    "bf157a871b2d278d93808168c9a0e4df05c9725cae2e002c698925ea3112fc9e",
+    "5306e69942250872933efcc03cf7875368068a35f71500074797a345130948d2"
+  ],
+  "elapsed_s": 6.17719578742981
+}

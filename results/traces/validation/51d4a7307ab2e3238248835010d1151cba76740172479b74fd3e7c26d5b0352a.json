@@ -1,0 +1,66 @@
+{
+  "input_hash": "51d4a7307ab2e3238248835010d1151cba76740172479b74fd3e7c26d5b0352a",
+  "sample_id": "ESC-CSV-02185",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "shotgun",
+    "receptionist",
+    "Madeline Kafoury",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0f35f3dfeabd7b2995a32362b9970da9e88934793cdd962e3f6be0eaaa7061cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0f35f3dfeabd7b2995a32362b9970da9e88934793cdd962e3f6be0eaaa7061cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ac45bdd23a8f1191ec85424efc81da7d3a9f0b8427f7b04a4f9ac0cd749f06b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "27d80f6603380578d564b2ee5b6f9990d52eecbcd0013e4a091682e906152197",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a2a268a9db59a2c581cf6acc91713eaebd64850a626ad7c0c30502cb8f376bae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shotgun\",\"manager\",\"office\",\"receptionist\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\",\"shot dead\"],\"target_related\":[\"receptionist\",\"Madeline Kafoury\",\"man\",\"shotgun\",\"dead\",\"wounded\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"man\",\"shotgun\",\"receptionist\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "64e2d380e2db4318f1de36995112955803c2489451a02761fb68ab0f99e19f86",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The man's purpose of killing the manager with a shotgun led to the receptionist being shot dead; intent to kill precedes and causes the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "0f35f3dfeabd7b2995a32362b9970da9e88934793cdd962e3f6be0eaaa7061cd",
+    "0f35f3dfeabd7b2995a32362b9970da9e88934793cdd962e3f6be0eaaa7061cd",
+    "ac45bdd23a8f1191ec85424efc81da7d3a9f0b8427f7b04a4f9ac0cd749f06b0",
+    "27d80f6603380578d564b2ee5b6f9990d52eecbcd0013e4a091682e906152197",
+    "a2a268a9db59a2c581cf6acc91713eaebd64850a626ad7c0c30502cb8f376bae",
+    "64e2d380e2db4318f1de36995112955803c2489451a02761fb68ab0f99e19f86"
+  ],
+  "elapsed_s": 12.592746496200562
+}

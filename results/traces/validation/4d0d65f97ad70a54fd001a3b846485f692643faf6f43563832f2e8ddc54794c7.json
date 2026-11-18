@@ -1,0 +1,68 @@
+{
+  "input_hash": "4d0d65f97ad70a54fd001a3b846485f692643faf6f43563832f2e8ddc54794c7",
+  "sample_id": "ESC-CSV-01931",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "jury",
+    "guilty",
+    "attempted murder",
+    "posession of a firearm by a felon",
+    "felon",
+    "District Attorney's office",
+    "release",
+    "found"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c37e32c54e48e6dd6ff0b6efac767ca1751e15ecfc6ac789182670b443c9e489",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c37e32c54e48e6dd6ff0b6efac767ca1751e15ecfc6ac789182670b443c9e489",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9eb775f6ea60aa5641d82248f004cf5f1b1f7013e369b6415ade1f97a41ff6b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "70686c666acbbdf502b74e5de1e8e879de5b6f2fb280a23c0229c861d4170b94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c73a16ce075a4e6f6cc6126ea0587403e045e4640642ed38cb7764777f54585",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"jury\",\"guilty\",\"1st degree\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\",\"District Attorney's office\",\"release\",\"found\"],\"target_related\":[\"Jose Luis Orozco\",\"jury\",\"guilty\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\",\"District Attorney's office\",\"release\",\"found\",\"D . A .\",\"Death Penalty\"],\"mediators\":[\"Jose Luis Orozco\",\"jury\",\"guilty\",\"attempted murder\",\"posession of a firearm by a felon\",\"felon\",\"District Attorney's office\",\"release\",\"found\"]}"
+    },
+    "indirect": {
+      "call_id": "274ce9df93b1459dae56dc9574fc43935805cbdf732eda18a7c354bf6674368c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of murder leads to additional charges and the DA seeking the death penalty; murder precedes and causes charges.\"}"
+    }
+  },
+  "call_ids": [
+    "c37e32c54e48e6dd6ff0b6efac767ca1751e15ecfc6ac789182670b443c9e489",
+    "c37e32c54e48e6dd6ff0b6efac767ca1751e15ecfc6ac789182670b443c9e489",
+    "9eb775f6ea60aa5641d82248f004cf5f1b1f7013e369b6415ade1f97a41ff6b0",
+    "70686c666acbbdf502b74e5de1e8e879de5b6f2fb280a23c0229c861d4170b94",
+    "7c73a16ce075a4e6f6cc6126ea0587403e045e4640642ed38cb7764777f54585",
+    "274ce9df93b1459dae56dc9574fc43935805cbdf732eda18a7c354bf6674368c"
+  ],
+  "elapsed_s": 5.987302303314209
+}

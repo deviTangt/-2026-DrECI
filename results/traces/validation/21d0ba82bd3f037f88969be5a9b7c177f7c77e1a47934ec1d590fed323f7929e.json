@@ -1,0 +1,71 @@
+{
+  "input_hash": "21d0ba82bd3f037f88969be5a9b7c177f7c77e1a47934ec1d590fed323f7929e",
+  "sample_id": "ESC-CSV-02764",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "neighborhood",
+    "police",
+    "lockdown",
+    "people",
+    "candlelit",
+    "vigil",
+    "East Flatbush",
+    "New York",
+    "Kimani Gray",
+    "shot",
+    "Saturday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e7aed0e73b9effb02de66a57ecbdc20b359fbb02bf17f5ff24d117dcdfd8e1da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e7aed0e73b9effb02de66a57ecbdc20b359fbb02bf17f5ff24d117dcdfd8e1da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e1c32723d28a8e89f438e8e6493c2faef9dcfb3b21c0af2b2ad16c29353cf40b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9b83c36ba2f120a98411eb16270f19fe32e234b3625aed5dafb223b3fde169ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fb288edb884ccd94bc50b69650df232c7637a37bc8e9419069878d09a1f2441a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"neighborhood\",\"police\",\"lockdown\",\"people\",\"candlelit\",\"vigil\",\"East Flatbush\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\"],\"target_related\":[\"police\",\"Brooklyn\",\"neighborhood\",\"lockdown\",\"people\",\"candlelit\",\"vigil\",\"East Flatbush\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\"],\"mediators\":[\"Brooklyn\",\"neighborhood\",\"police\",\"lockdown\",\"people\",\"candlelit\",\"vigil\",\"East Flatbush\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\"]}"
+    },
+    "indirect": {
+      "call_id": "0ab05bd8e9d0deae95ea767220855a9ceb706e6eaea9ef92cdd0d64af34a735c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Police intervened after more than 100 people joined together for a vigil; 'after' and 'following' link the protest to the intervention.\"}"
+    }
+  },
+  "call_ids": [
+    "e7aed0e73b9effb02de66a57ecbdc20b359fbb02bf17f5ff24d117dcdfd8e1da",
+    "e7aed0e73b9effb02de66a57ecbdc20b359fbb02bf17f5ff24d117dcdfd8e1da",
+    "e1c32723d28a8e89f438e8e6493c2faef9dcfb3b21c0af2b2ad16c29353cf40b",
+    "9b83c36ba2f120a98411eb16270f19fe32e234b3625aed5dafb223b3fde169ed",
+    "fb288edb884ccd94bc50b69650df232c7637a37bc8e9419069878d09a1f2441a",
+    "0ab05bd8e9d0deae95ea767220855a9ceb706e6eaea9ef92cdd0d64af34a735c"
+  ],
+  "elapsed_s": 4.663681268692017
+}

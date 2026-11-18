@@ -1,0 +1,72 @@
+{
+  "input_hash": "5af77eafdb9b5f476590740272d9f8dbf9da4993dcf8df47db3dea0eefa166f5",
+  "sample_id": "ESC-CSV-02228",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "shot",
+    "person",
+    "injured",
+    "others",
+    "Monday",
+    "suburban",
+    "Detroit",
+    "accounting",
+    "firm",
+    "fired",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9bfdef83ea80cf6cecc79a49f46fd4d764feabc64fbc322182298c0ad292a943",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9bfdef83ea80cf6cecc79a49f46fd4d764feabc64fbc322182298c0ad292a943",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "55223026a7deb9a927c921369362a5ba51cf1fdbd7e09760dade1db33d638db2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "98eacbd904f28a190a9ccdac42773a8378053d846efacc0c8389c1df9d35e0ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e42c21d784b8b195b4118e3ba097f6dea839218c39ad70121f6b95e2fddd68a6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"shot\",\"person\",\"injured\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"],\"target_related\":[\"Michigan\",\"man\",\"shot\",\"person\",\"injured\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"],\"mediators\":[\"Michigan\",\"man\",\"shot\",\"person\",\"injured\",\"others\",\"Monday\",\"suburban\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "1d55c8fdb15a08955a9662f3baec8be65d868fd52217dcd4e36cfabea7d68c4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting that kills a person causes that person's death; the shooting precedes and produces the death.\"}"
+    }
+  },
+  "call_ids": [
+    "9bfdef83ea80cf6cecc79a49f46fd4d764feabc64fbc322182298c0ad292a943",
+    "9bfdef83ea80cf6cecc79a49f46fd4d764feabc64fbc322182298c0ad292a943",
+    "55223026a7deb9a927c921369362a5ba51cf1fdbd7e09760dade1db33d638db2",
+    "98eacbd904f28a190a9ccdac42773a8378053d846efacc0c8389c1df9d35e0ad",
+    "e42c21d784b8b195b4118e3ba097f6dea839218c39ad70121f6b95e2fddd68a6",
+    "1d55c8fdb15a08955a9662f3baec8be65d868fd52217dcd4e36cfabea7d68c4f"
+  ],
+  "elapsed_s": 9.545833110809326
+}

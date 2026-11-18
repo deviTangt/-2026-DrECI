@@ -1,0 +1,61 @@
+{
+  "input_hash": "0fa0ffb836d3f53c18cd4761f092c2819bdb356cd30d8d6523be52214e717048",
+  "sample_id": "ESC-CSV-02902",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "death",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4c2309aef627c072ff392dce3cb3258f53552ce70eb9ef5299bc474aaf28b85a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4c2309aef627c072ff392dce3cb3258f53552ce70eb9ef5299bc474aaf28b85a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c913327405fdb2397941116ef1cf917e0ea6a8e6b8cec097004ede26531cbfba",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f5cd7ed92ccbb9e8760b61690fd5449ce3df8d8f99ec3424e4f38f1a1bf18f6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "68b4f967d612bfc9b5c4d9c11bc221f3f32fcc65be10e12734d9fcebd3f418b7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"Brooklyn\",\"Teen\",\"police\",\"death\"],\"target_related\":[\"crowd\",\"mourn\",\"death\",\"protest\",\"police\"],\"mediators\":[\"death\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "8032ab5e4b9c7ff11f8b1a49a84fb8d63d446a726fb29fb61596d986ee2b45d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fatal shooting of the teen occurred before the crowd gathered to mourn his death, so the shooting caused the gathering by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4c2309aef627c072ff392dce3cb3258f53552ce70eb9ef5299bc474aaf28b85a",
+    "4c2309aef627c072ff392dce3cb3258f53552ce70eb9ef5299bc474aaf28b85a",
+    "c913327405fdb2397941116ef1cf917e0ea6a8e6b8cec097004ede26531cbfba",
+    "f5cd7ed92ccbb9e8760b61690fd5449ce3df8d8f99ec3424e4f38f1a1bf18f6f",
+    "68b4f967d612bfc9b5c4d9c11bc221f3f32fcc65be10e12734d9fcebd3f418b7",
+    "8032ab5e4b9c7ff11f8b1a49a84fb8d63d446a726fb29fb61596d986ee2b45d0"
+  ],
+  "elapsed_s": 3.8071131706237793
+}

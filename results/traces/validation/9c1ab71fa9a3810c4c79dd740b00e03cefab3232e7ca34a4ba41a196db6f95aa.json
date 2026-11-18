@@ -1,0 +1,63 @@
+{
+  "input_hash": "9c1ab71fa9a3810c4c79dd740b00e03cefab3232e7ca34a4ba41a196db6f95aa",
+  "sample_id": "ESC-CSV-01696",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "shooting",
+    "defendant",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ba1ceba0dceeaaf4db9191eb50414d9e6275a069bd1cca000702838e1c1df437",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ba1ceba0dceeaaf4db9191eb50414d9e6275a069bd1cca000702838e1c1df437",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "781ac6f2ac1e2e2f54e92c9004d1eb0035883c476b197cdea7aab764a0dd1525",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8a21ac4d982605c6cd74816e82c0fcee41600ce35b9c1280821f94e54df9c8fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13fa560362e5b63989c81223652b9da7d9e840314923d2b87af07b3a199088b6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\"],\"target_related\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\"],\"mediators\":[\"Deputy Ortiz\",\"shooting\",\"defendant\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "0e4a3b8c6ebf849049d9fe137b237c7ee358c1211eb5ae21c14761a971dd46ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed while investigating' — 'while' links the killing to the investigation; common sense: investigating the shooting led to Deputy Ortiz being killed.\"}"
+    }
+  },
+  "call_ids": [
+    "ba1ceba0dceeaaf4db9191eb50414d9e6275a069bd1cca000702838e1c1df437",
+    "ba1ceba0dceeaaf4db9191eb50414d9e6275a069bd1cca000702838e1c1df437",
+    "781ac6f2ac1e2e2f54e92c9004d1eb0035883c476b197cdea7aab764a0dd1525",
+    "8a21ac4d982605c6cd74816e82c0fcee41600ce35b9c1280821f94e54df9c8fb",
+    "13fa560362e5b63989c81223652b9da7d9e840314923d2b87af07b3a199088b6",
+    "0e4a3b8c6ebf849049d9fe137b237c7ee358c1211eb5ae21c14761a971dd46ea"
+  ],
+  "elapsed_s": 5.483261823654175
+}

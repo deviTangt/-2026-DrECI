@@ -1,0 +1,61 @@
+{
+  "input_hash": "0f0d5a446da9fc89736431bdc609c69a9aa30011b1f3e0f6c575f71affe8d033",
+  "sample_id": "ESC-CSV-06681",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bullets",
+    "body"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a062795b62b2505155b5ad1adc4d7dfffafadd96ae5949af3e9531beecae9918",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a062795b62b2505155b5ad1adc4d7dfffafadd96ae5949af3e9531beecae9918",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df9bd52d4c06c852193e6344c353fac7d988299873b386c603391c1dbc09281c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "76a9dea4345dae1c942aa688ca1417f537f35a53c05c2893c8ec782af572a6c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "03607c3916057e0ab301c88ad4deea8752b1e701ccc1628077bea6a934f993e0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"body\",\"sidewalk\",\"fatally\"],\"target_related\":[\"bullets\",\"shield\"],\"mediators\":[\"bullets\",\"body\"]}"
+    },
+    "indirect": {
+      "call_id": "b0efef0e1c4c833c0ae8d12bb103c27b42b20004602cb7b454bd39b9ebf80869",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Bullets (Z) are the spray; being struck by bullets causes the wounded body, forming chain: spray -> bullets -> wounded.\"}"
+    }
+  },
+  "call_ids": [
+    "a062795b62b2505155b5ad1adc4d7dfffafadd96ae5949af3e9531beecae9918",
+    "a062795b62b2505155b5ad1adc4d7dfffafadd96ae5949af3e9531beecae9918",
+    "df9bd52d4c06c852193e6344c353fac7d988299873b386c603391c1dbc09281c",
+    "76a9dea4345dae1c942aa688ca1417f537f35a53c05c2893c8ec782af572a6c8",
+    "03607c3916057e0ab301c88ad4deea8752b1e701ccc1628077bea6a934f993e0",
+    "b0efef0e1c4c833c0ae8d12bb103c27b42b20004602cb7b454bd39b9ebf80869"
+  ],
+  "elapsed_s": 4.467176675796509
+}

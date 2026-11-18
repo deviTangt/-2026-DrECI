@@ -1,0 +1,66 @@
+{
+  "input_hash": "4d3611303aab8ff03bd34f515edcf29318e67e8b6c4f29f539e36ad3dfd00b02",
+  "sample_id": "ESC-CSV-06759",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "woman",
+    "fatal",
+    "shooting",
+    "men",
+    "charged",
+    "rooftop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b34b203f0c3cd084c75b69650fa06338726aa91c9b06109acd311a181c36372b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b34b203f0c3cd084c75b69650fa06338726aa91c9b06109acd311a181c36372b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d27c5331139365a253825d94ed44acd5744c4446ddaa432dd750e546124aed0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "04599c6e5cc430a74995c8d65eed5ea1eb2254dc3f39ebf8fe8ef0bdc8c4d1d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bc78efe94a6d2c4ebe3be1f5b3536ebcd9ffa56a773355a64649435a6f7e1554",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"men\",\"charged\"],\"target_related\":[\"Video\",\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"played\",\"two\",\"men\",\"charged\",\"rooftop\"],\"mediators\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"men\",\"charged\",\"rooftop\"]}"
+    },
+    "indirect": {
+      "call_id": "8364a3a8a5a57329e8b5ddd6c05d53b9a58b43efeb3889f8b57763140b698ecb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The rooftop gunplay preceded and led to the fatal shooting, which is the subject of the men's trial; common sense links the gunplay to the trial.\"}"
+    }
+  },
+  "call_ids": [
+    "b34b203f0c3cd084c75b69650fa06338726aa91c9b06109acd311a181c36372b",
+    "b34b203f0c3cd084c75b69650fa06338726aa91c9b06109acd311a181c36372b",
+    "0d27c5331139365a253825d94ed44acd5744c4446ddaa432dd750e546124aed0",
+    "04599c6e5cc430a74995c8d65eed5ea1eb2254dc3f39ebf8fe8ef0bdc8c4d1d0",
+    "bc78efe94a6d2c4ebe3be1f5b3536ebcd9ffa56a773355a64649435a6f7e1554",
+    "8364a3a8a5a57329e8b5ddd6c05d53b9a58b43efeb3889f8b57763140b698ecb"
+  ],
+  "elapsed_s": 5.2641761302948
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "41a698ec62abc469cc26206856492dd39413ad3f9f3e44f347014f3549d05eb4",
+  "sample_id": "ESC-CSV-04484",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "smashing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6bd4e61c01c6426e195fc72c10951e6a3012cd95601bf7c3af8f8e2bc822adf2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6bd4e61c01c6426e195fc72c10951e6a3012cd95601bf7c3af8f8e2bc822adf2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b6b39690c32b3f2151e074f8d68da94d02e537a7fb400b4f762222a260d1a08e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c5844f324ac50bcec3f848e22a44e6881e6725dec2907cd5ba58411049fb0550",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "149b41c56f5f2f9f826f7e9153d03d6b878793ae2cf83b5d482d8891a2e2e6be",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewellery\",\"watches\",\"smashing\"],\"target_related\":[\"Thieves\",\"heist\",\"Paris\",\"smashing\"],\"mediators\":[\"smashing\"]}"
+    },
+    "indirect": {
+      "call_id": "c487b9b9a5c2eaf88bdb18b00beb21b753607e2bdfd248db10ee2c10e7818895",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The men drove the car into the store (X), smashing the front window (Z), after which they pulled off the heist (Y); chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "6bd4e61c01c6426e195fc72c10951e6a3012cd95601bf7c3af8f8e2bc822adf2",
+    "6bd4e61c01c6426e195fc72c10951e6a3012cd95601bf7c3af8f8e2bc822adf2",
+    "b6b39690c32b3f2151e074f8d68da94d02e537a7fb400b4f762222a260d1a08e",
+    "c5844f324ac50bcec3f848e22a44e6881e6725dec2907cd5ba58411049fb0550",
+    "149b41c56f5f2f9f826f7e9153d03d6b878793ae2cf83b5d482d8891a2e2e6be",
+    "c487b9b9a5c2eaf88bdb18b00beb21b753607e2bdfd248db10ee2c10e7818895"
+  ],
+  "elapsed_s": 4.305073261260986
+}

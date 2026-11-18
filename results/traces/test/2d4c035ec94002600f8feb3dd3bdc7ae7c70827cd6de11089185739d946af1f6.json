@@ -1,0 +1,60 @@
+{
+  "input_hash": "2d4c035ec94002600f8feb3dd3bdc7ae7c70827cd6de11089185739d946af1f6",
+  "sample_id": "ESC-CSV-09388",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e0e58429861dae1cf9b035e9c2e11c7a7e02e0d9c5087c34454ec7a9aa37bc2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e0e58429861dae1cf9b035e9c2e11c7a7e02e0d9c5087c34454ec7a9aa37bc2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1bc02d2dd9ada02c5a5e8ede62adca87fa415efee7dcdc4b86d1cb2471d12ba2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "82cb5a73c0372c16d83e4587ea495bbf72d986fdecf259349ecead13e64ac1e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1a74f19bb566881be76789a0a81791d3a47b8edc97b965a0b8f905281fc53698",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bomb\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"target_related\":[\"women\",\"man\",\"branch\",\"Marfin\",\"bank\",\"fire\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "5b54c8ef806c47c5cded6374ad4a40d6b68ec358acbab46c93eeb76412d7c5ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Molotov cocktail hits bank, bank catches fire, fire kills people; hits precede and cause deaths via bank fire chain.\"}"
+    }
+  },
+  "call_ids": [
+    "e0e58429861dae1cf9b035e9c2e11c7a7e02e0d9c5087c34454ec7a9aa37bc2e",
+    "e0e58429861dae1cf9b035e9c2e11c7a7e02e0d9c5087c34454ec7a9aa37bc2e",
+    "1bc02d2dd9ada02c5a5e8ede62adca87fa415efee7dcdc4b86d1cb2471d12ba2",
+    "82cb5a73c0372c16d83e4587ea495bbf72d986fdecf259349ecead13e64ac1e2",
+    "1a74f19bb566881be76789a0a81791d3a47b8edc97b965a0b8f905281fc53698",
+    "5b54c8ef806c47c5cded6374ad4a40d6b68ec358acbab46c93eeb76412d7c5ac"
+  ],
+  "elapsed_s": 5.37624454498291
+}

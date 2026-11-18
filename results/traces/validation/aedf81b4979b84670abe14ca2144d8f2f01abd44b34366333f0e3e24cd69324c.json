@@ -1,0 +1,68 @@
+{
+  "input_hash": "aedf81b4979b84670abe14ca2144d8f2f01abd44b34366333f0e3e24cd69324c",
+  "sample_id": "ESC-CSV-02440",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "vigil",
+    "mob",
+    "protest",
+    "police",
+    "officer",
+    "brick",
+    "van",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "db182e95c236ab44382f301f2c06f99f4d40722bb46a67d8e92cde7e86051242",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "db182e95c236ab44382f301f2c06f99f4d40722bb46a67d8e92cde7e86051242",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "41a3b09854258765dfbef30663ca53e0cfede4e469fb05a4d7803df91edb61ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e9b1297e3c7f92fe5721b1ac3193c800e4d213e86002fa1f9b63fec3e89a1510",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e4dbd90ec589457054f7eac4b72f6c951859e9e9a31fc648b424e8fb8bae56bc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"vigil\",\"mob\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"vigil\",\"mob\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "6bf4e4d51b5b42f77ec37094d801c3b2c5467867abe30a5c335e2caaaae1d651",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links anger to marred; the vigil is marred by a mob, not caused by anger, and no Z chain/fork/collider connects them.\"}"
+    }
+  },
+  "call_ids": [
+    "db182e95c236ab44382f301f2c06f99f4d40722bb46a67d8e92cde7e86051242",
+    "db182e95c236ab44382f301f2c06f99f4d40722bb46a67d8e92cde7e86051242",
+    "41a3b09854258765dfbef30663ca53e0cfede4e469fb05a4d7803df91edb61ee",
+    "e9b1297e3c7f92fe5721b1ac3193c800e4d213e86002fa1f9b63fec3e89a1510",
+    "e4dbd90ec589457054f7eac4b72f6c951859e9e9a31fc648b424e8fb8bae56bc",
+    "6bf4e4d51b5b42f77ec37094d801c3b2c5467867abe30a5c335e2caaaae1d651"
+  ],
+  "elapsed_s": 21.014015674591064
+}

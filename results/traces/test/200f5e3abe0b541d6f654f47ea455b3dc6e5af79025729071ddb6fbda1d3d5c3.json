@@ -1,0 +1,60 @@
+{
+  "input_hash": "200f5e3abe0b541d6f654f47ea455b3dc6e5af79025729071ddb6fbda1d3d5c3",
+  "sample_id": "ESC-CSV-09679",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "64c94d35fd0ed67bd3d89cbb21ba1154b29cb0d09be51bab54defae9d14e523b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "64c94d35fd0ed67bd3d89cbb21ba1154b29cb0d09be51bab54defae9d14e523b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "82254f1f632f3923aef51eb253f56124b88514e63da3bee7512d9128b32901f4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "510218cd07f5464bb9b4ffcba3e7d31065ce7327bf3f7dee52709d7450ed0a84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "40252d5bd15d41a2d3923a18ea48a1c9915f692017599b1b1f7990ced39453b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Police\"],\"target_related\":[\"Police\",\"barrages\",\"tear\",\"gas\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "b797bac972cf741c0bedfee5fc50ec2382bcc8067b950cc45501ea5391e92faf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occurred, then police responded with tear gas; common sense indicates riots prompted the police response.\"}"
+    }
+  },
+  "call_ids": [
+    "64c94d35fd0ed67bd3d89cbb21ba1154b29cb0d09be51bab54defae9d14e523b",
+    "64c94d35fd0ed67bd3d89cbb21ba1154b29cb0d09be51bab54defae9d14e523b",
+    "82254f1f632f3923aef51eb253f56124b88514e63da3bee7512d9128b32901f4",
+    "510218cd07f5464bb9b4ffcba3e7d31065ce7327bf3f7dee52709d7450ed0a84",
+    "40252d5bd15d41a2d3923a18ea48a1c9915f692017599b1b1f7990ced39453b5",
+    "b797bac972cf741c0bedfee5fc50ec2382bcc8067b950cc45501ea5391e92faf"
+  ],
+  "elapsed_s": 4.274962425231934
+}

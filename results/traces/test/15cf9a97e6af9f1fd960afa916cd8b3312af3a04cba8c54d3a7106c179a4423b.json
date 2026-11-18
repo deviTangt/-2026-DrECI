@@ -1,0 +1,64 @@
+{
+  "input_hash": "15cf9a97e6af9f1fd960afa916cd8b3312af3a04cba8c54d3a7106c179a4423b",
+  "sample_id": "ESC-CSV-06817",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "investigation",
+    "identified",
+    "Mr . Lopez",
+    "made",
+    "full confession"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "69822e6da922ad4d282ae7bb8c886271d69c32f5f2defe1004dd461f209fc50a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "69822e6da922ad4d282ae7bb8c886271d69c32f5f2defe1004dd461f209fc50a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "520b8fb622356bcdbd1d67f1a26119109959b93236bf0c264982e9abfe6226be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3216bbcb1de3228745a3ddb63115c8d43e147008265db9b4be160901ca6af604",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4415510c4535c83659c2b1af0ffb5456a743c20c0f9aa7fda79b7654e6b4477e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"investigation\",\"identified\",\"Mr . Lopez\",\"made\",\"full confession\"],\"target_related\":[\"fact\",\"investigation\",\"identified\",\"Mr . Lopez\",\"made\",\"full confession\"],\"mediators\":[\"investigation\",\"identified\",\"Mr . Lopez\",\"made\",\"full confession\"]}"
+    },
+    "indirect": {
+      "call_id": "a3b6099ab6ff4d817dc5ba6db58ad38d5b21f8ae9dc53de16a976f4f65878d2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The investigation identified Mr. Lopez and he made statements/full confession; these statements led to the speaker being pleased.\"}"
+    }
+  },
+  "call_ids": [
+    "69822e6da922ad4d282ae7bb8c886271d69c32f5f2defe1004dd461f209fc50a",
+    "69822e6da922ad4d282ae7bb8c886271d69c32f5f2defe1004dd461f209fc50a",
+    "520b8fb622356bcdbd1d67f1a26119109959b93236bf0c264982e9abfe6226be",
+    "3216bbcb1de3228745a3ddb63115c8d43e147008265db9b4be160901ca6af604",
+    "4415510c4535c83659c2b1af0ffb5456a743c20c0f9aa7fda79b7654e6b4477e",
+    "a3b6099ab6ff4d817dc5ba6db58ad38d5b21f8ae9dc53de16a976f4f65878d2c"
+  ],
+  "elapsed_s": 4.897566556930542
+}

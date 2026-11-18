@@ -1,0 +1,62 @@
+{
+  "input_hash": "ecc63e73f143767cd576d6bf3019cb9e1d83bc70e445fcd26201b27b5d337fd3",
+  "sample_id": "ESC-CSV-02498",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Teen",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b12fcac90258ae8484f6ad42f213644c8a89ca84bae0ae14978023bbeed0597b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b12fcac90258ae8484f6ad42f213644c8a89ca84bae0ae14978023bbeed0597b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "941078b66ee0c4693b7566faac9a8c4fc719d6e7cdd33b3f43e61ccf47d00261",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a3e59a440840fcfd9a7eca7452aacaaf0e46648e6eb5e2924a8ea0e9a632141e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4a8deb9ba6b1a34330bc483a7bbaab1b1a5cf9396780f73be489fb211350a71b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Teen\",\"Police\"],\"target_related\":[\"Brooklyn\",\"Teen\",\"Police\"],\"mediators\":[\"Brooklyn\",\"Teen\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "3f03802aadb5736e184caaeaaf9b1126e7a4a7145900a0beb3a72ad264a9a5fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'Teen Killed By Police' — 'by' explicitly links the killing (X) as cause of the teen's death (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "b12fcac90258ae8484f6ad42f213644c8a89ca84bae0ae14978023bbeed0597b",
+    "b12fcac90258ae8484f6ad42f213644c8a89ca84bae0ae14978023bbeed0597b",
+    "941078b66ee0c4693b7566faac9a8c4fc719d6e7cdd33b3f43e61ccf47d00261",
+    "a3e59a440840fcfd9a7eca7452aacaaf0e46648e6eb5e2924a8ea0e9a632141e",
+    "4a8deb9ba6b1a34330bc483a7bbaab1b1a5cf9396780f73be489fb211350a71b",
+    "3f03802aadb5736e184caaeaaf9b1126e7a4a7145900a0beb3a72ad264a9a5fb"
+  ],
+  "elapsed_s": 7.464199542999268
+}

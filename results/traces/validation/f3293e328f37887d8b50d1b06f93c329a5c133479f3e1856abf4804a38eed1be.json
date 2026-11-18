@@ -1,0 +1,62 @@
+{
+  "input_hash": "f3293e328f37887d8b50d1b06f93c329a5c133479f3e1856abf4804a38eed1be",
+  "sample_id": "ESC-CSV-02776",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Shot",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8107fa6e3c560554e83ccafeb677aac3c1210a2b08303fd8475304ed28186ba7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8107fa6e3c560554e83ccafeb677aac3c1210a2b08303fd8475304ed28186ba7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5ad4ae40a54b727e7168108ec9ab0676dbc401f01d84909fdc4e3e3ff73b21ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ba469c94e6f6a25659160cc2f68bffacf62b4c358f362506c380600cdcf860d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3fc60cccdebbc9423146c50489aebeb78ab78373256b88ce45f8cafa8a784b04",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"hospital\",\"dead\",\"Teen\",\"Shot\",\"Police\"],\"target_related\":[\"Brooklyn\",\"Vigil\",\"Teen\",\"Shot\",\"Police\"],\"mediators\":[\"Teen\",\"Shot\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "d972cb60ee990b80c617c6452252cf9e1331bb15bbd0a379087201b2a9dcc831",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of the teen precedes and provokes the large riot that breaks out during the vigil, fitting common-sense cause and effect.\"}"
+    }
+  },
+  "call_ids": [
+    "8107fa6e3c560554e83ccafeb677aac3c1210a2b08303fd8475304ed28186ba7",
+    "8107fa6e3c560554e83ccafeb677aac3c1210a2b08303fd8475304ed28186ba7",
+    "5ad4ae40a54b727e7168108ec9ab0676dbc401f01d84909fdc4e3e3ff73b21ac",
+    "ba469c94e6f6a25659160cc2f68bffacf62b4c358f362506c380600cdcf860d3",
+    "3fc60cccdebbc9423146c50489aebeb78ab78373256b88ce45f8cafa8a784b04",
+    "d972cb60ee990b80c617c6452252cf9e1331bb15bbd0a379087201b2a9dcc831"
+  ],
+  "elapsed_s": 4.778818368911743
+}

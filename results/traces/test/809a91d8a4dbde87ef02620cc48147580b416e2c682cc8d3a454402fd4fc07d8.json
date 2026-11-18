@@ -1,0 +1,61 @@
+{
+  "input_hash": "809a91d8a4dbde87ef02620cc48147580b416e2c682cc8d3a454402fd4fc07d8",
+  "sample_id": "ESC-CSV-04282",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "climber"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ffa4e0b3e7439f996e0bf668f6d06dcf8922d12102d8c9d804639b65e5eabe8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ffa4e0b3e7439f996e0bf668f6d06dcf8922d12102d8c9d804639b65e5eabe8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "51302748f1d932841471a2f423b17f2f5c97736ffc862b0db0404490f698329a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f13818790af2b547621d446018196e737bacc6b211a84b72d27a2e194b173cff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "add0ffccc39de995227008be91179708aa2938bdbeebdb7ccdf9b90c82a2c8b8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"ridge\",\"meters\",\"climber\",\"ice\",\"fell\"],\"target_related\":[\"man\",\"Rait\",\"climber\",\"Robert Buckley\",\"died\"],\"mediators\":[\"man\",\"climber\"]}"
+    },
+    "indirect": {
+      "call_id": "5d6a70cbc894479b2d1aa8eaeaae7d5e6dd454e1769291ed1d01c429ee5d71b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says the man 'died ... after falling 150 meters' and the climber 'fell 700 meters to his own death,' explicitly linking falling to death.\"}"
+    }
+  },
+  "call_ids": [
+    "ffa4e0b3e7439f996e0bf668f6d06dcf8922d12102d8c9d804639b65e5eabe8d",
+    "ffa4e0b3e7439f996e0bf668f6d06dcf8922d12102d8c9d804639b65e5eabe8d",
+    "51302748f1d932841471a2f423b17f2f5c97736ffc862b0db0404490f698329a",
+    "f13818790af2b547621d446018196e737bacc6b211a84b72d27a2e194b173cff",
+    "add0ffccc39de995227008be91179708aa2938bdbeebdb7ccdf9b90c82a2c8b8",
+    "5d6a70cbc894479b2d1aa8eaeaae7d5e6dd454e1769291ed1d01c429ee5d71b3"
+  ],
+  "elapsed_s": 4.958991765975952
+}

@@ -1,0 +1,68 @@
+{
+  "input_hash": "abb3d1770890350210e109eca62b90106e47d7c3496ff36d1e0fa3e484d5c24e",
+  "sample_id": "ESC-CSV-09868",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Athens",
+    "people",
+    "fire",
+    "bomb",
+    "attack",
+    "police",
+    "protesters",
+    "riots"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "843efc6bce1d9a1164f90a13e32730e0f5202b83b148ccc0c3f56f070114aa7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "843efc6bce1d9a1164f90a13e32730e0f5202b83b148ccc0c3f56f070114aa7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e9ed657cb03d10b26b604492b78c3c2421b7553725137e448e771a358e279a8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ef997a62caf99e6d1844aecbcfd3ef86d3b308ac86c112349702dd980924b5b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4e6183f7dbe46367c2ae789f89b16f5e8c2141af6f2c93bcd4bc0ad447e271d9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank\",\"Athens\",\"people\",\"fire\",\"bomb\",\"attack\",\"police\",\"protesters\",\"riots\"],\"target_related\":[\"people\",\"three\",\"bank\",\"fire\",\"bomb\",\"riots\"],\"mediators\":[\"bank\",\"Athens\",\"people\",\"fire\",\"bomb\",\"attack\",\"police\",\"protesters\",\"riots\"]}"
+    },
+    "indirect": {
+      "call_id": "e0d336b033580de5c94a3d9e653f120d360aa6afe539e51a430fa5ade9fdb5af",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'left dead' is the result phrase describing the attack; 'dead' is the state, not a separate caused event. No causal relation between X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "843efc6bce1d9a1164f90a13e32730e0f5202b83b148ccc0c3f56f070114aa7d",
+    "843efc6bce1d9a1164f90a13e32730e0f5202b83b148ccc0c3f56f070114aa7d",
+    "e9ed657cb03d10b26b604492b78c3c2421b7553725137e448e771a358e279a8a",
+    "ef997a62caf99e6d1844aecbcfd3ef86d3b308ac86c112349702dd980924b5b1",
+    "4e6183f7dbe46367c2ae789f89b16f5e8c2141af6f2c93bcd4bc0ad447e271d9",
+    "e0d336b033580de5c94a3d9e653f120d360aa6afe539e51a430fa5ade9fdb5af"
+  ],
+  "elapsed_s": 5.199730634689331
+}

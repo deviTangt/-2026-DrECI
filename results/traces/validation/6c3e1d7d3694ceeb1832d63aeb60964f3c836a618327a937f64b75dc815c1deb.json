@@ -1,0 +1,68 @@
+{
+  "input_hash": "6c3e1d7d3694ceeb1832d63aeb60964f3c836a618327a937f64b75dc815c1deb",
+  "sample_id": "ESC-CSV-01991",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "witness",
+    "called 911",
+    "Ortiz",
+    "knocked",
+    "residence's door",
+    "sheriff's department",
+    "reported",
+    "3 p . m .",
+    "Hawaiian Gardens area"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6ecf27716ce31970daf4f61626a7d50fc4bfab3aac4c63e13608c1919bdefe68",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6ecf27716ce31970daf4f61626a7d50fc4bfab3aac4c63e13608c1919bdefe68",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "301ff70dd572c8989b81df76d6eb17b101c56e3762530ab9d751e1848bc39eb8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8d2418e470566fd46dc97560d8c377a0f14c5e519f8a72b2a5ecb75946c5f48d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9a52e281fc7fbe7e80ff7a9e0e5f9eb6718460e28ddf55e058bbf7cf50724c3d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"reported\",\"3 p . m .\",\"Hawaiian Gardens area\",\"operation\",\"uniformed gang enforcement deputy\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"sheriff's officials\",\"witness\",\"called 911\",\"Ortiz\",\"knocked\",\"residence's door\",\"sheriff's department\"],\"target_related\":[\"witness\",\"called 911\",\"Ortiz\",\"knocked\",\"residence's door\",\"sheriff's department\",\"Gunfire\",\"reported\",\"3 p . m .\",\"Hawaiian Gardens area\"],\"mediators\":[\"witness\",\"called 911\",\"Ortiz\",\"knocked\",\"residence's door\",\"sheriff's department\",\"reported\",\"3 p . m .\",\"Hawaiian Gardens area\"]}"
+    },
+    "indirect": {
+      "call_id": "a436d1e478612cc7718294effbaeb8eefe6f55a45338c7742154d5a695482f77",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"Gunfire was reported... a witness called 911 to report the shooting; gunfire is the coreference of the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "6ecf27716ce31970daf4f61626a7d50fc4bfab3aac4c63e13608c1919bdefe68",
+    "6ecf27716ce31970daf4f61626a7d50fc4bfab3aac4c63e13608c1919bdefe68",
+    "301ff70dd572c8989b81df76d6eb17b101c56e3762530ab9d751e1848bc39eb8",
+    "8d2418e470566fd46dc97560d8c377a0f14c5e519f8a72b2a5ecb75946c5f48d",
+    "9a52e281fc7fbe7e80ff7a9e0e5f9eb6718460e28ddf55e058bbf7cf50724c3d",
+    "a436d1e478612cc7718294effbaeb8eefe6f55a45338c7742154d5a695482f77"
+  ],
+  "elapsed_s": 5.826603651046753
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "312f74e76a13ea8f59452242d67612ed384ecac914b3266c414e74e4a43c1c39",
+  "sample_id": "ESC-CSV-01721",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "suspect",
+    "defendant"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a23e6498523bce6906bf47246286508741cb76340f63ab0262831a3a215b282a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a23e6498523bce6906bf47246286508741cb76340f63ab0262831a3a215b282a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dd975964601733051e11bb61e769aeb37f6df32e76f16e69f94d149a034d6c47",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f963c478b97bca0ae2c3bd67ec004d6bc08a57ad13d01a190e16cdc50ae150d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d84989c2d307608eefb8a679872329504fd276f07cff9461ea841726c1ca2e12",
+      "status": "ok",
+      "text": "{\"source_related\":[\"head\",\"dying\",\"ground\",\"killer\",\"ran\",\"hide\",\"shooting\",\"suspect\",\"defendant\"],\"target_related\":[\"Deputy Ortiz\",\"investigating\",\"shooting\",\"suspect\",\"defendant\",\"Cooley\"],\"mediators\":[\"shooting\",\"suspect\",\"defendant\"]}"
+    },
+    "indirect": {
+      "call_id": "4b861178ffbb0081be407fb007ac0b074013000a28ec6deff26a1b169d6d86c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text does not state that being shot caused the killing; 'shot' and 'killed' refer to different events without explicit or implicit causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "a23e6498523bce6906bf47246286508741cb76340f63ab0262831a3a215b282a",
+    "a23e6498523bce6906bf47246286508741cb76340f63ab0262831a3a215b282a",
+    "dd975964601733051e11bb61e769aeb37f6df32e76f16e69f94d149a034d6c47",
+    "f963c478b97bca0ae2c3bd67ec004d6bc08a57ad13d01a190e16cdc50ae150d2",
+    "d84989c2d307608eefb8a679872329504fd276f07cff9461ea841726c1ca2e12",
+    "4b861178ffbb0081be407fb007ac0b074013000a28ec6deff26a1b169d6d86c6"
+  ],
+  "elapsed_s": 5.432265996932983
+}

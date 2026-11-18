@@ -1,0 +1,60 @@
+{
+  "input_hash": "314a6d7c0b9a62726a4fe562cf3c4bdd133d68e0331e08941e06f4339f55aafa",
+  "sample_id": "ESC-CSV-00046",
+  "scope": "intra",
+  "split": "train",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "She"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c035cff99904a0944b2441dab145753dca0664d5cae93b0adcd29fa4e943f996",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c035cff99904a0944b2441dab145753dca0664d5cae93b0adcd29fa4e943f996",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5c13d8002277df095b055e266f79290aabf8549d30f29bbe2b0f1933087318ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3f2bfb513ffab6eb77d01403a3c1b79efebe8f7c474e2e1134a11e03fb82c1e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d7cc0445850fec259d21f93d2505c7339b17aab2b96bc31ed1ffc4b020ee96d9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"She\",\"everyone\",\"there\"],\"target_related\":[\"She\",\"Betty Ford\",\"interested\"],\"mediators\":[\"She\"]}"
+    },
+    "indirect": {
+      "call_id": "066d35ec0d6d65b92734fbe7665df749cf6072353ec69bb786c8268cedcf22ad",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The text uses 'because' to explicitly link her knowing everyone there to her interest in going back.\"}"
+    }
+  },
+  "call_ids": [
+    "c035cff99904a0944b2441dab145753dca0664d5cae93b0adcd29fa4e943f996",
+    "c035cff99904a0944b2441dab145753dca0664d5cae93b0adcd29fa4e943f996",
+    "5c13d8002277df095b055e266f79290aabf8549d30f29bbe2b0f1933087318ee",
+    "3f2bfb513ffab6eb77d01403a3c1b79efebe8f7c474e2e1134a11e03fb82c1e1",
+    "d7cc0445850fec259d21f93d2505c7339b17aab2b96bc31ed1ffc4b020ee96d9",
+    "066d35ec0d6d65b92734fbe7665df749cf6072353ec69bb786c8268cedcf22ad"
+  ],
+  "elapsed_s": 4.193435430526733
+}

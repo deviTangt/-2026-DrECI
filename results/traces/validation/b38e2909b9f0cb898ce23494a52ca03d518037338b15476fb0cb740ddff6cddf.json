@@ -1,0 +1,62 @@
+{
+  "input_hash": "b38e2909b9f0cb898ce23494a52ca03d518037338b15476fb0cb740ddff6cddf",
+  "sample_id": "ESC-CSV-07160",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "California Highway Patrol",
+    "San Diego freeway"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ab9b515475edbcce61baa2ff84a0a1b47e0acc4e68e465928bb6c8bcd7498313",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ab9b515475edbcce61baa2ff84a0a1b47e0acc4e68e465928bb6c8bcd7498313",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6d0e984f6949421d674621b8b821e6ba714c90c9cf77f71b114e26169bf6aa1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9021fac32175fcd41d30f301632825386288f0d98b9f9918c2c063554eedf5c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bcf92dcfdebb4edbc6bac87beeb7d91786b5fcc5dbf9e68a1d99fea117097f24",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"California Highway Patrol\",\"San Diego freeway\"],\"target_related\":[\"Williams\",\"California Highway Patrol\",\"San Diego freeway\"],\"mediators\":[\"Williams\",\"California Highway Patrol\",\"San Diego freeway\"]}"
+    },
+    "indirect": {
+      "call_id": "24ac7a91d68da77d5d5f169c9c2b206e4814fd8dddabf0cd1069162c1ecedd0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'pulled over ... for speeding' — 'for' explicitly marks speeding as the reason; common sense: speeding leads to being pulled over.\"}"
+    }
+  },
+  "call_ids": [
+    "ab9b515475edbcce61baa2ff84a0a1b47e0acc4e68e465928bb6c8bcd7498313",
+    "ab9b515475edbcce61baa2ff84a0a1b47e0acc4e68e465928bb6c8bcd7498313",
+    "6d0e984f6949421d674621b8b821e6ba714c90c9cf77f71b114e26169bf6aa1a",
+    "9021fac32175fcd41d30f301632825386288f0d98b9f9918c2c063554eedf5c1",
+    "bcf92dcfdebb4edbc6bac87beeb7d91786b5fcc5dbf9e68a1d99fea117097f24",
+    "24ac7a91d68da77d5d5f169c9c2b206e4814fd8dddabf0cd1069162c1ecedd0b"
+  ],
+  "elapsed_s": 3.8573718070983887
+}

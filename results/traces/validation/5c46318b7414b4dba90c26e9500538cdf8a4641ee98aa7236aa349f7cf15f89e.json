@@ -1,0 +1,60 @@
+{
+  "input_hash": "5c46318b7414b4dba90c26e9500538cdf8a4641ee98aa7236aa349f7cf15f89e",
+  "sample_id": "ESC-CSV-01509",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c43b08379a9103cf5a36fbe1d0865f5c1713955fde55cbe00106b5dd0d379eb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c43b08379a9103cf5a36fbe1d0865f5c1713955fde55cbe00106b5dd0d379eb5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b5782d884b276d78ec2410c4e460a7ab3d3cc8a98be609e1636aba1df59b5484",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5e9003398bf21a600ef165d142ddc69345af7bb89847837a283da5d70858b107",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a2f0d66dae098b765b0f5f0112375df0e3bbf6728edbca3ec65aa658d9ed95c1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Judge Philip Hickok\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"death\",\"life without parole\"],\"target_related\":[\"Jose Luis Orozco\",\"convicted cop killer\",\"crimes\",\"jury's recommendation\",\"Norwalk Superior Court judge\",\"death\"],\"mediators\":[\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "84730218fbea0bd790d89bf4d474d0572a88cb9b52363e92d63c6f4bc10860e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Judge weighed factors and concluded the case warrants death; this weighing led to the death sentence, forming X->death->die chain.\"}"
+    }
+  },
+  "call_ids": [
+    "c43b08379a9103cf5a36fbe1d0865f5c1713955fde55cbe00106b5dd0d379eb5",
+    "c43b08379a9103cf5a36fbe1d0865f5c1713955fde55cbe00106b5dd0d379eb5",
+    "b5782d884b276d78ec2410c4e460a7ab3d3cc8a98be609e1636aba1df59b5484",
+    "5e9003398bf21a600ef165d142ddc69345af7bb89847837a283da5d70858b107",
+    "a2f0d66dae098b765b0f5f0112375df0e3bbf6728edbca3ec65aa658d9ed95c1",
+    "84730218fbea0bd790d89bf4d474d0572a88cb9b52363e92d63c6f4bc10860e5"
+  ],
+  "elapsed_s": 5.620205879211426
+}

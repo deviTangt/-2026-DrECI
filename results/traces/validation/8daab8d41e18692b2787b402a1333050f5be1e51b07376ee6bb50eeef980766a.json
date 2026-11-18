@@ -1,0 +1,63 @@
+{
+  "input_hash": "8daab8d41e18692b2787b402a1333050f5be1e51b07376ee6bb50eeef980766a",
+  "sample_id": "ESC-CSV-02105",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paul Riva",
+    "Alan Steinberg",
+    "Jury",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c9c6cc54dced25b9e7ed0ba57b4c866a3682cd31ea6b3c0fc9b9c0ef5114f5b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c9c6cc54dced25b9e7ed0ba57b4c866a3682cd31ea6b3c0fc9b9c0ef5114f5b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "521f07b14c36f7066b683f9436fda74c524cb9ca7ff141bc729597c372704263",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "19f4fa9f1e477e5b6d23674ef388f47deb91b3433ca440049327cf1591f92a3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0f26b72969c5f964d3004280f7c45562c55a0bfc6c54248ef6e8338378511c20",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"Troy office\",\"suspect\",\"Jury\"],\"target_related\":[\"Anthony LaCalamita III\",\"first-degree murder\",\"assault with intent to murder\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\",\"Jury\",\"suspect\"],\"mediators\":[\"Paul Riva\",\"Alan Steinberg\",\"Jury\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "24ef7a9a018d038fadac57587a71814343536b9505bcea02477e6da3abaee302",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shootings occurred before the jury found the suspect guilty; common sense holds that the shootings led to the guilty verdict.\"}"
+    }
+  },
+  "call_ids": [
+    "c9c6cc54dced25b9e7ed0ba57b4c866a3682cd31ea6b3c0fc9b9c0ef5114f5b9",
+    "c9c6cc54dced25b9e7ed0ba57b4c866a3682cd31ea6b3c0fc9b9c0ef5114f5b9",
+    "521f07b14c36f7066b683f9436fda74c524cb9ca7ff141bc729597c372704263",
+    "19f4fa9f1e477e5b6d23674ef388f47deb91b3433ca440049327cf1591f92a3f",
+    "0f26b72969c5f964d3004280f7c45562c55a0bfc6c54248ef6e8338378511c20",
+    "24ef7a9a018d038fadac57587a71814343536b9505bcea02477e6da3abaee302"
+  ],
+  "elapsed_s": 5.109168529510498
+}

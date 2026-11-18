@@ -1,0 +1,64 @@
+{
+  "input_hash": "896f5081a863d64654bce8c644697eea759376ac3ce475ec1fe471e03d9f622d",
+  "sample_id": "ESC-CSV-01934",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "jury",
+    "Jose Luis Orozco",
+    "1st degree murder",
+    "attempted murder",
+    "posession of a firearm by a felon"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e06f677e7b882d96a9a196dc45f4d0c04d584fb3da6fdb350b80d7e01c4c750d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e06f677e7b882d96a9a196dc45f4d0c04d584fb3da6fdb350b80d7e01c4c750d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d80a4c24a7f03e7532e06e3405eb0f1f0833f1782bb495d6f8e4c7f0f6036810",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "48344b90840617f79df4eff7c1e7407b51b09a710b980da367f57a19b47ad9fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "6fbaeb0e4677404b02f6c13f4c73c93604bec2da291636a9160fda121a5a87bc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"arrest\",\"street gang\",\"handgun\",\"attempted murder\",\"Jose Luis Orozco\",\"jury\",\"1st degree murder\",\"posession of a firearm by a felon\"],\"target_related\":[\"jury\",\"Jose Luis Orozco\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\"],\"mediators\":[\"jury\",\"Jose Luis Orozco\",\"1st degree murder\",\"attempted murder\",\"posession of a firearm by a felon\"]}"
+    },
+    "indirect": {
+      "call_id": "06c00e436f84b63af55d31e7e539191d73651b890465900f084b02fb4c83e08b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of murder follows from the murder being committed; the jury's guilty verdict is a consequence of the murder charge.\"}"
+    }
+  },
+  "call_ids": [
+    "e06f677e7b882d96a9a196dc45f4d0c04d584fb3da6fdb350b80d7e01c4c750d",
+    "e06f677e7b882d96a9a196dc45f4d0c04d584fb3da6fdb350b80d7e01c4c750d",
+    "d80a4c24a7f03e7532e06e3405eb0f1f0833f1782bb495d6f8e4c7f0f6036810",
+    "48344b90840617f79df4eff7c1e7407b51b09a710b980da367f57a19b47ad9fd",
+    "6fbaeb0e4677404b02f6c13f4c73c93604bec2da291636a9160fda121a5a87bc",
+    "06c00e436f84b63af55d31e7e539191d73651b890465900f084b02fb4c83e08b"
+  ],
+  "elapsed_s": 6.584333896636963
+}

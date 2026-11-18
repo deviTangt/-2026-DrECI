@@ -1,0 +1,68 @@
+{
+  "input_hash": "367f223869fc30cad76731e19a22f9899b439d4f32887a95331cf9baf20228d0",
+  "sample_id": "ESC-CSV-09752",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Riots",
+    "austerity",
+    "measures",
+    "Athens",
+    "Wednesday",
+    "protesters",
+    "parliament",
+    "police",
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dd7ab185fd0992aeb568f5c28b7f2fab2063dba5407225b44fe68bc713925b64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dd7ab185fd0992aeb568f5c28b7f2fab2063dba5407225b44fe68bc713925b64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "314287c82e996dfac9041a679ecf2ea5137a104606e5853fee1eba9aaaa5714e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b6a71a70f91f1ea9e2debf95ae755d5a36e3b67cc7dc9de2156eb4e2b703f6b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2a25e3ea5cd7d6b68f9bff396b9f54a3914e5e4a7ff39744c949050b118ba440",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"Riots\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"target_related\":[\"Riots\",\"austerity\",\"measures\",\"bank\",\"workers\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"mediators\":[\"Riots\",\"austerity\",\"measures\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "3ad2858ff62373f66fbbaa7211f4c3283624ae4f99d9f011fb216e83d5f7bf69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Protesters' riots over austerity measures led to three bank workers dead; riots (Z) link protest to deaths via chain.\"}"
+    }
+  },
+  "call_ids": [
+    "dd7ab185fd0992aeb568f5c28b7f2fab2063dba5407225b44fe68bc713925b64",
+    "dd7ab185fd0992aeb568f5c28b7f2fab2063dba5407225b44fe68bc713925b64",
+    "314287c82e996dfac9041a679ecf2ea5137a104606e5853fee1eba9aaaa5714e",
+    "b6a71a70f91f1ea9e2debf95ae755d5a36e3b67cc7dc9de2156eb4e2b703f6b2",
+    "2a25e3ea5cd7d6b68f9bff396b9f54a3914e5e4a7ff39744c949050b118ba440",
+    "3ad2858ff62373f66fbbaa7211f4c3283624ae4f99d9f011fb216e83d5f7bf69"
+  ],
+  "elapsed_s": 4.806154489517212
+}

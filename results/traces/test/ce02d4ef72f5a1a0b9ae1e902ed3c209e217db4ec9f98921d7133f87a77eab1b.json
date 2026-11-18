@@ -1,0 +1,69 @@
+{
+  "input_hash": "ce02d4ef72f5a1a0b9ae1e902ed3c209e217db4ec9f98921d7133f87a77eab1b",
+  "sample_id": "ESC-CSV-09456",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "BLAZE",
+    "broke",
+    "out",
+    "MARFIN",
+    "EGNATIA",
+    "BANK",
+    "Stadiou",
+    "Street",
+    "downtown",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f10afd14c6c1a2eef124e976e919a24d60f31995a892e7ac11df156fd044d377",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f10afd14c6c1a2eef124e976e919a24d60f31995a892e7ac11df156fd044d377",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d930e6419286c5c0588cc4c51aae34ee81d9717945b40702aabd4b669ab121b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4116c89e0dbdf8c96deb1afc8024d3b6dde55b81c05a5be0cfb4a030801082c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8a3549f569bbfa525d8ea123b6b543a8a66ce103b4be8b5f45e1f9987a969cf2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"hurled\",\"Molotov\",\"cocktail\",\"fire\",\"bombs\",\"Bank\",\"BLAZE\",\"broke\",\"out\",\"MARFIN\",\"EGNATIA\",\"BANK\",\"Stadiou\",\"Street\",\"downtown\",\"Athens\"],\"target_related\":[\"THREE\",\"PEOPLE\",\"BLAZE\",\"broke\",\"out\",\"MARFIN\",\"EGNATIA\",\"BANK\",\"Stadiou\",\"Street\",\"downtown\",\"Athens\"],\"mediators\":[\"BLAZE\",\"broke\",\"out\",\"MARFIN\",\"EGNATIA\",\"BANK\",\"Stadiou\",\"Street\",\"downtown\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "2a5a8bdcba800d7d7311a5d25d3a68373cf62f11f449a9609e6d768fa3d28852",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"The blaze (fire) broke out and three people died in it; fire occurring before deaths implies causation by common sense, and 'blaze' corefers with fire.\"}"
+    }
+  },
+  "call_ids": [
+    "f10afd14c6c1a2eef124e976e919a24d60f31995a892e7ac11df156fd044d377",
+    "f10afd14c6c1a2eef124e976e919a24d60f31995a892e7ac11df156fd044d377",
+    "0d930e6419286c5c0588cc4c51aae34ee81d9717945b40702aabd4b669ab121b",
+    "4116c89e0dbdf8c96deb1afc8024d3b6dde55b81c05a5be0cfb4a030801082c8",
+    "8a3549f569bbfa525d8ea123b6b543a8a66ce103b4be8b5f45e1f9987a969cf2",
+    "2a5a8bdcba800d7d7311a5d25d3a68373cf62f11f449a9609e6d768fa3d28852"
+  ],
+  "elapsed_s": 4.731209754943848
+}

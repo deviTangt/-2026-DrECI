@@ -1,0 +1,63 @@
+{
+  "input_hash": "1f2670ff7be0bf6df7466db48ed963fdf9bf264fb58b351964589698b3fd3a6f",
+  "sample_id": "ESC-CSV-04580",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paris",
+    "Store",
+    "jewelry",
+    "$2.6 million"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ac7b0f8701fbe2c942814c5e9ce96c0a0d7cf80d5668f40ac0c28284527721b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ac7b0f8701fbe2c942814c5e9ce96c0a0d7cf80d5668f40ac0c28284527721b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d7f1394215c584297582aa73ec3034e17a68d6baea56a6897344bfbd7d0a2b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4163f10c5562a3142f45cffd755e3e446e7282e7bae834f00dd3aa9ec28ec81f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "81f6cfba9c097b67eac5c91e48f493ef395d1466953faacf6ddcb70f8baf0db5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"rammed\",\"car\",\"jewelry\",\"store\",\"Paris\",\"Monday\",\"smashing\",\"shop\",\"window\",\"$2.6 million\",\"two million Euros\",\"jewelry\",\"AFP\"],\"target_related\":[\"Paris\",\"Store\",\"$2.6 Million\",\"Jewelry\",\"Heist\"],\"mediators\":[\"Paris\",\"Store\",\"jewelry\",\"$2.6 million\"]}"
+    },
+    "indirect": {
+      "call_id": "56170faad389e5a9965177116d101741c46c3ee61b319bb760ba288036faaea2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Stealing the jewelry (X) is the act that constitutes and causes the jewelry heist (Y); the theft precedes and defines the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "ac7b0f8701fbe2c942814c5e9ce96c0a0d7cf80d5668f40ac0c28284527721b6",
+    "ac7b0f8701fbe2c942814c5e9ce96c0a0d7cf80d5668f40ac0c28284527721b6",
+    "0d7f1394215c584297582aa73ec3034e17a68d6baea56a6897344bfbd7d0a2b6",
+    "4163f10c5562a3142f45cffd755e3e446e7282e7bae834f00dd3aa9ec28ec81f",
+    "81f6cfba9c097b67eac5c91e48f493ef395d1466953faacf6ddcb70f8baf0db5",
+    "56170faad389e5a9965177116d101741c46c3ee61b319bb760ba288036faaea2"
+  ],
+  "elapsed_s": 4.560133695602417
+}

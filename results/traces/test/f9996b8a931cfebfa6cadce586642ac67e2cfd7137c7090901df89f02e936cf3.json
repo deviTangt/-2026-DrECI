@@ -1,0 +1,62 @@
+{
+  "input_hash": "f9996b8a931cfebfa6cadce586642ac67e2cfd7137c7090901df89f02e936cf3",
+  "sample_id": "ESC-CSV-04500",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry",
+    "thieves",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b2def771ee2ee270f500b6fe19973cc41fd5ab280bf686485eae03043bf4eee8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b2def771ee2ee270f500b6fe19973cc41fd5ab280bf686485eae03043bf4eee8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2533c4ce7abb9753b55aa7d52d803917f57f3c0be1972964151c9f99e6782493",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fb5aaa1254855527313e14d5181497ada2f0ad024945f9e5f886e53ae5c96d49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "481c29bfd6c68fc93c11dbb9d2ac495ac4e363cbbae1dfcc25ddae6451e30410",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jewelry\",\"watches\",\"thieves\",\"store\",\"car\"],\"target_related\":[\"thieves\",\"jewelry\",\"store\",\"Crooks\",\"Paris\"],\"mediators\":[\"jewelry\",\"thieves\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "b38401397e59a39a1f801f6891a330d9b76124010cab7a1a031415e4597c79ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Scooping up the jewelry is the act that constitutes and precedes the heist; common sense says taking the valuables causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "b2def771ee2ee270f500b6fe19973cc41fd5ab280bf686485eae03043bf4eee8",
+    "b2def771ee2ee270f500b6fe19973cc41fd5ab280bf686485eae03043bf4eee8",
+    "2533c4ce7abb9753b55aa7d52d803917f57f3c0be1972964151c9f99e6782493",
+    "fb5aaa1254855527313e14d5181497ada2f0ad024945f9e5f886e53ae5c96d49",
+    "481c29bfd6c68fc93c11dbb9d2ac495ac4e363cbbae1dfcc25ddae6451e30410",
+    "b38401397e59a39a1f801f6891a330d9b76124010cab7a1a031415e4597c79ea"
+  ],
+  "elapsed_s": 5.054843187332153
+}

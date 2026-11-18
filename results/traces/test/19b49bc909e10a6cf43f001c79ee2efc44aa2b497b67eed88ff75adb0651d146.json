@@ -1,0 +1,61 @@
+{
+  "input_hash": "19b49bc909e10a6cf43f001c79ee2efc44aa2b497b67eed88ff75adb0651d146",
+  "sample_id": "ESC-CSV-04527",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "men",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "95e4ed3fd924f28ca035ac5cfa0e8c3e750fc93084946d1387f08362280f3297",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "95e4ed3fd924f28ca035ac5cfa0e8c3e750fc93084946d1387f08362280f3297",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "94d8f6d6411fe25ddd5bddde0a5947911b212b4c349cb6e2b8734b7ea6df4e94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "52bd35ad9f01c0142d1fb06ac40b270fdc93bfa9633883229d41af49185a74c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "128fb77816df3e17fd3d255a1928419e3665de6040e5f3b34d5c5cb1e54fa564",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vehicle\",\"boutique\",\"Paris\",\"Monday\",\"robbery\",\"men\",\"car\",\"store\"],\"target_related\":[\"jewellery\",\"luxury watches\",\"men\",\"store\",\"loot\"],\"mediators\":[\"men\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "49e4e7e16d55725dae70037983343dce1fb6fa69587e5da9e149ae9b65d53dfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ploughing the vehicle into the store enabled the men to grab jewellery; the crash precedes and causes the grabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "95e4ed3fd924f28ca035ac5cfa0e8c3e750fc93084946d1387f08362280f3297",
+    "95e4ed3fd924f28ca035ac5cfa0e8c3e750fc93084946d1387f08362280f3297",
+    "94d8f6d6411fe25ddd5bddde0a5947911b212b4c349cb6e2b8734b7ea6df4e94",
+    "52bd35ad9f01c0142d1fb06ac40b270fdc93bfa9633883229d41af49185a74c5",
+    "128fb77816df3e17fd3d255a1928419e3665de6040e5f3b34d5c5cb1e54fa564",
+    "49e4e7e16d55725dae70037983343dce1fb6fa69587e5da9e149ae9b65d53dfd"
+  ],
+  "elapsed_s": 5.244759559631348
+}

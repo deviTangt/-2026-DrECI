@@ -1,0 +1,61 @@
+{
+  "input_hash": "d6a0057848641dbb26e179667491167e3c4459b6732ca264fbc15e059982b7ca",
+  "sample_id": "ESC-CSV-02009",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police officers",
+    "high - speed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c5f9e549f7c738047e280e538ba832d2e7542149bd95ca0ff0cc3860a21adf50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c5f9e549f7c738047e280e538ba832d2e7542149bd95ca0ff0cc3860a21adf50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "821bbee542493cfffe698ecc1d0865391534bcd871b5098891a19f4969e3fe71",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "571d142ef46b033d7a69d4ff012b4c05bb0ecf2dda40cc519fe97ba3c4d0ea7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dd23b0a90f4f25f20929f9d38bf2b1caf7b906a1596f2c7dd0e943685ef17b85",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"police officers\",\"high - speed\"],\"target_related\":[\"police officers\",\"high - speed\",\"fleeing\"],\"mediators\":[\"police officers\",\"high - speed\"]}"
+    },
+    "indirect": {
+      "call_id": "d4cd9bfdeeeb4d5462e13ca4d8c9fe36b4767e26f813fbd5883806e1c935b580",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says 'before fleeing and leading police officers on a high-speed chase'; 'leading' explicitly links fleeing to the chase.\"}"
+    }
+  },
+  "call_ids": [
+    "c5f9e549f7c738047e280e538ba832d2e7542149bd95ca0ff0cc3860a21adf50",
+    "c5f9e549f7c738047e280e538ba832d2e7542149bd95ca0ff0cc3860a21adf50",
+    "821bbee542493cfffe698ecc1d0865391534bcd871b5098891a19f4969e3fe71",
+    "571d142ef46b033d7a69d4ff012b4c05bb0ecf2dda40cc519fe97ba3c4d0ea7a",
+    "dd23b0a90f4f25f20929f9d38bf2b1caf7b906a1596f2c7dd0e943685ef17b85",
+    "d4cd9bfdeeeb4d5462e13ca4d8c9fe36b4767e26f813fbd5883806e1c935b580"
+  ],
+  "elapsed_s": 5.3463239669799805
+}

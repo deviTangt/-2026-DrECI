@@ -1,0 +1,61 @@
+{
+  "input_hash": "6014c67645632afa422457285b8065f5ab9728ad5392df33ded53e36b5cac231",
+  "sample_id": "ESC-CSV-09363",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "police",
+    "protestors"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5dfd6af12711c53c882777cad5bf378fb4101155d14c9eca1be8d5d65a4740f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5dfd6af12711c53c882777cad5bf378fb4101155d14c9eca1be8d5d65a4740f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "52456a43ad817a715afbc05db35cf46fa9440acafd8b0c42522e6833d1ed439e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1d05cf87cada15192c1e38514136ebdf972407ccb8fa5ad1ee9a118248c5d729",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "b8b1107c5d77cc0da7855278320dd466c271fbfa9a37377406b01ad4942663fb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"protestors\",\"furious\",\"budget\",\"cuts\"],\"target_related\":[\"police\",\"protestors\",\"fought\",\"pitched\"],\"mediators\":[\"police\",\"protestors\"]}"
+    },
+    "indirect": {
+      "call_id": "a53c0bba68fa0139c2d0fbda998fe4ff1e84479c236d96fd75b465e55193e79e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Striking protestors fought battles with police; no causal word or structure links the strike to the battles.\"}"
+    }
+  },
+  "call_ids": [
+    "5dfd6af12711c53c882777cad5bf378fb4101155d14c9eca1be8d5d65a4740f0",
+    "5dfd6af12711c53c882777cad5bf378fb4101155d14c9eca1be8d5d65a4740f0",
+    "52456a43ad817a715afbc05db35cf46fa9440acafd8b0c42522e6833d1ed439e",
+    "1d05cf87cada15192c1e38514136ebdf972407ccb8fa5ad1ee9a118248c5d729",
+    "b8b1107c5d77cc0da7855278320dd466c271fbfa9a37377406b01ad4942663fb",
+    "a53c0bba68fa0139c2d0fbda998fe4ff1e84479c236d96fd75b465e55193e79e"
+  ],
+  "elapsed_s": 5.04884147644043
+}

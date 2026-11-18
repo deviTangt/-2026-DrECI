@@ -1,0 +1,66 @@
+{
+  "input_hash": "1fad6c9ddcb8ddfac2c02e83775aaa25cf122f183c35cffc3ee5024c16f8e5a6",
+  "sample_id": "ESC-CSV-06597",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "Lopez",
+    "shots",
+    "murder",
+    "charged",
+    "accused",
+    "bullet"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "68376670a3f7f8ee44a5dccffb28fc388e350a5ee9a362413d3c87bc13b424ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "68376670a3f7f8ee44a5dccffb28fc388e350a5ee9a362413d3c87bc13b424ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "67db93a2d95994200cd97cab84423174e3baa1974c5a9d45bbe9c21b7c41d6f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c060368c548374fcd69566267e31b2f75ac38c966209d10cb3aa3ccc22a7972d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "77d9a77230d4f5c32c4d1e6784b185630369db9b79ce495c1f3ad5a9e0c85060",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"child\",\"bullet\",\"Lopez\",\"shots\",\"murder\",\"charged\",\"accused\"],\"target_related\":[\"Horton\",\"Lopez\",\"shots\",\"murder\",\"charged\",\"accused\",\"bullet\"],\"mediators\":[\"Horton\",\"Lopez\",\"shots\",\"murder\",\"charged\",\"accused\",\"bullet\"]}"
+    },
+    "indirect": {
+      "call_id": "b4b36aaaaaaa8498c406ac94d110972ed820d3680eb17e79ef885b030a18f1de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: the shooting (Lopez letting off 13 shots) caused Horton's death; shots fired before death.\"}"
+    }
+  },
+  "call_ids": [
+    "68376670a3f7f8ee44a5dccffb28fc388e350a5ee9a362413d3c87bc13b424ca",
+    "68376670a3f7f8ee44a5dccffb28fc388e350a5ee9a362413d3c87bc13b424ca",
+    "67db93a2d95994200cd97cab84423174e3baa1974c5a9d45bbe9c21b7c41d6f6",
+    "c060368c548374fcd69566267e31b2f75ac38c966209d10cb3aa3ccc22a7972d",
+    "77d9a77230d4f5c32c4d1e6784b185630369db9b79ce495c1f3ad5a9e0c85060",
+    "b4b36aaaaaaa8498c406ac94d110972ed820d3680eb17e79ef885b030a18f1de"
+  ],
+  "elapsed_s": 4.77202844619751
+}

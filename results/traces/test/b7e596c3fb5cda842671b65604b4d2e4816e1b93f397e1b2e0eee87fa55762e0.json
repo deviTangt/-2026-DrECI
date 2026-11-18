@@ -1,0 +1,62 @@
+{
+  "input_hash": "b7e596c3fb5cda842671b65604b4d2e4816e1b93f397e1b2e0eee87fa55762e0",
+  "sample_id": "ESC-CSV-09545",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "Greek",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4807695f6e0f953c28e92aae6e13ea6cb348ef9b8c3e991587108ff30f35aff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4807695f6e0f953c28e92aae6e13ea6cb348ef9b8c3e991587108ff30f35aff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9be349ee290fb8abf59bcfcdac5f23c86741ab7a85a4cdd7de6c587ea21e4012",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5245c3215b8c4c758d42c7d80720167d81fbd6357b88a34109fc8b33fc85638e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6eadd9713745cb24d4bda55befffaebe35c6764eb976f491d2ecdd95501e4960",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"Greek\",\"bank\"],\"target_related\":[\"3\",\"protesters\",\"Greek\",\"bank\"],\"mediators\":[\"protesters\",\"Greek\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "db62d28d092db337d6364f8bb6217173c04b557dafe540b1505202775c9aa063",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Torching the bank (setting fire) directly causes deaths; common sense: fire leads to people dying, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "4807695f6e0f953c28e92aae6e13ea6cb348ef9b8c3e991587108ff30f35aff5",
+    "4807695f6e0f953c28e92aae6e13ea6cb348ef9b8c3e991587108ff30f35aff5",
+    "9be349ee290fb8abf59bcfcdac5f23c86741ab7a85a4cdd7de6c587ea21e4012",
+    "5245c3215b8c4c758d42c7d80720167d81fbd6357b88a34109fc8b33fc85638e",
+    "6eadd9713745cb24d4bda55befffaebe35c6764eb976f491d2ecdd95501e4960",
+    "db62d28d092db337d6364f8bb6217173c04b557dafe540b1505202775c9aa063"
+  ],
+  "elapsed_s": 4.441169023513794
+}

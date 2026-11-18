@@ -1,0 +1,67 @@
+{
+  "input_hash": "d01345c4eecf153343f187b481ad3d62773329e109496236635bfa0dece33566",
+  "sample_id": "ESC-CSV-09309",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "bank",
+    "building",
+    "torched",
+    "flames",
+    "Wednesday",
+    "Greeks",
+    "streets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2429627bce09d2081639e1b9df489090d106c178708bd0b4591142c55a623e23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2429627bce09d2081639e1b9df489090d106c178708bd0b4591142c55a623e23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "db1e8399cf68d4afc714e934de47d9624665ff4ea2803be76c01324896692b29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f1a9f4e7273ff82eda7769d1ea757829765fc0dcd8ae7016326f75c35e4ad41e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d097efcf4ffd69c7f52d4fd23ae3e203ce22723f97aa363efeb737dc962e5500",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"Greeks\",\"austerity\",\"spending cuts\",\"bank\",\"building\",\"torched\",\"flames\",\"Wednesday\",\"streets\",\"country\",\"bankruptcy\"],\"target_related\":[\"three bank workers\",\"three people\",\"Athens bank\",\"flames\",\"Wednesday\",\"building\",\"torched\",\"protests\",\"Greeks\",\"streets\"],\"mediators\":[\"Athens\",\"bank\",\"building\",\"torched\",\"flames\",\"Wednesday\",\"Greeks\",\"streets\"]}"
+    },
+    "indirect": {
+      "call_id": "2b704e50fae8bc1dbd69b2d410a2df8f9af1f5315c7f1d2a9d7ae3b2f3b857d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'Three people died when an Athens bank went up in flames Wednesday as tens of thousands of Greeks took to the streets to protest' — 'when/as' links protests to deaths; bank/building torched is the chain.\"}"
+    }
+  },
+  "call_ids": [
+    "2429627bce09d2081639e1b9df489090d106c178708bd0b4591142c55a623e23",
+    "2429627bce09d2081639e1b9df489090d106c178708bd0b4591142c55a623e23",
+    "db1e8399cf68d4afc714e934de47d9624665ff4ea2803be76c01324896692b29",
+    "f1a9f4e7273ff82eda7769d1ea757829765fc0dcd8ae7016326f75c35e4ad41e",
+    "d097efcf4ffd69c7f52d4fd23ae3e203ce22723f97aa363efeb737dc962e5500",
+    "2b704e50fae8bc1dbd69b2d410a2df8f9af1f5315c7f1d2a9d7ae3b2f3b857d5"
+  ],
+  "elapsed_s": 4.910538196563721
+}

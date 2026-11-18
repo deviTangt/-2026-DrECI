@@ -1,0 +1,61 @@
+{
+  "input_hash": "95716a3578144c7c497dd9047ad7022727d5a65b62e65ef7c8682199a8384ce4",
+  "sample_id": "ESC-CSV-02810",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "hospital"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e92d94ba53f17b94e8a947990006f179c2c076501f4495bdb499d0496be7d225",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e92d94ba53f17b94e8a947990006f179c2c076501f4495bdb499d0496be7d225",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6c797165e12e515aa13d2298ef7c5931b9ee11d25c585c1c9db8ad8716df92d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f9588092440de8d85c97040b66efc21e082047fb8c103f98612d5e7f9043e2a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3ba5002e0ea01210e759ec267ec65e63738632836e3c8455cb0ad33bd27d8a63",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"Police\",\"shooting\",\"hospital\"],\"target_related\":[\"Gray\",\"hospital\",\"dead\",\"arrival\"],\"mediators\":[\"Gray\",\"hospital\"]}"
+    },
+    "indirect": {
+      "call_id": "51c63e3843b229c1b2cea2e23238927133b0d7fac769f02d4c5895eed50e9726",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot 11 times causes death; Gray was declared dead on arrival after the shooting, so the shooting caused the declaration of death.\"}"
+    }
+  },
+  "call_ids": [
+    "e92d94ba53f17b94e8a947990006f179c2c076501f4495bdb499d0496be7d225",
+    "e92d94ba53f17b94e8a947990006f179c2c076501f4495bdb499d0496be7d225",
+    "6c797165e12e515aa13d2298ef7c5931b9ee11d25c585c1c9db8ad8716df92d6",
+    "f9588092440de8d85c97040b66efc21e082047fb8c103f98612d5e7f9043e2a8",
+    "3ba5002e0ea01210e759ec267ec65e63738632836e3c8455cb0ad33bd27d8a63",
+    "51c63e3843b229c1b2cea2e23238927133b0d7fac769f02d4c5895eed50e9726"
+  ],
+  "elapsed_s": 3.8598153591156006
+}

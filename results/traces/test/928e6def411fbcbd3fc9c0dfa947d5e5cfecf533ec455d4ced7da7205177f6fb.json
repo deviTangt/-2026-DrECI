@@ -1,0 +1,60 @@
+{
+  "input_hash": "928e6def411fbcbd3fc9c0dfa947d5e5cfecf533ec455d4ced7da7205177f6fb",
+  "sample_id": "ESC-CSV-09711",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "people"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9c9e7f5d4c00127e8763741f368d31f733673614f57184eed07cb6fa59c4f07f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9c9e7f5d4c00127e8763741f368d31f733673614f57184eed07cb6fa59c4f07f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e897902d91aad219b1b94db17c91ef979c00a416f6211df15de5e9e999c3c1b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d1cd089cce6b62bb7f99e66f796ac46e03b922936fd559731179b499767ed177",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ad8bc578598bd9cc7e8e0fb4b9518cfcd2718043e3d287f63401fa78577e9154",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"protest\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"defaulting\"],\"target_related\":[\"Police\",\"people\",\"injured\"],\"mediators\":[\"people\"]}"
+    },
+    "indirect": {
+      "call_id": "f280594fc6fd40eba13c50f16eb2edfd62b2a338a3a515efc409870ad14379d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Strike and riots are both protests; text says 12 injured in riots but gives no causal link between the strike and the riots.\"}"
+    }
+  },
+  "call_ids": [
+    "9c9e7f5d4c00127e8763741f368d31f733673614f57184eed07cb6fa59c4f07f",
+    "9c9e7f5d4c00127e8763741f368d31f733673614f57184eed07cb6fa59c4f07f",
+    "e897902d91aad219b1b94db17c91ef979c00a416f6211df15de5e9e999c3c1b5",
+    "d1cd089cce6b62bb7f99e66f796ac46e03b922936fd559731179b499767ed177",
+    "ad8bc578598bd9cc7e8e0fb4b9518cfcd2718043e3d287f63401fa78577e9154",
+    "f280594fc6fd40eba13c50f16eb2edfd62b2a338a3a515efc409870ad14379d5"
+  ],
+  "elapsed_s": 4.443493604660034
+}

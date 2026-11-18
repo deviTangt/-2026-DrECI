@@ -1,0 +1,63 @@
+{
+  "input_hash": "305232429193c484698a92fc70b0417fdbf845c3febbc3d0162346fca7fbe0fd",
+  "sample_id": "ESC-CSV-01615",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "shot",
+    "killed",
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aeceaaf4e88fbef7e579135bc61590bb23edda15fb3ee39d60f876c2379fc1d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aeceaaf4e88fbef7e579135bc61590bb23edda15fb3ee39d60f876c2379fc1d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "af64f1ecec9d2d4803d94718d979d864627102e7bfaa564a87d065c2e86bcf15",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fb426f6eacc93cb4ac90590254fb6bc6423c05cf7d915a94f317f65581b32a1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6757afc159ba7a417aada6f203b60b53c878428f26edcb35cd7828f7da8e6287",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"door\",\"home\",\"shot\",\"killed\",\"Ortiz\"],\"target_related\":[\"deputy\",\"shot\",\"killed\",\"Ortiz\",\"Waldie\"],\"mediators\":[\"deputy\",\"shot\",\"killed\",\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "a690987a61d8b7a94952ad755411ce7f12831751858619b6e9cb2dd35fe4ea5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Knocking on the door prompted the shooting; the deputy was killed/died as a result, so knocking preceded and caused his death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "aeceaaf4e88fbef7e579135bc61590bb23edda15fb3ee39d60f876c2379fc1d0",
+    "aeceaaf4e88fbef7e579135bc61590bb23edda15fb3ee39d60f876c2379fc1d0",
+    "af64f1ecec9d2d4803d94718d979d864627102e7bfaa564a87d065c2e86bcf15",
+    "fb426f6eacc93cb4ac90590254fb6bc6423c05cf7d915a94f317f65581b32a1e",
+    "6757afc159ba7a417aada6f203b60b53c878428f26edcb35cd7828f7da8e6287",
+    "a690987a61d8b7a94952ad755411ce7f12831751858619b6e9cb2dd35fe4ea5d"
+  ],
+  "elapsed_s": 5.147562742233276
+}

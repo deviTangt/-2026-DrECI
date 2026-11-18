@@ -1,0 +1,66 @@
+{
+  "input_hash": "4cc6d9ceaeaaa9cd14086adb3d0c05549ef9eed39bbe0fec5a0f718e9d42d385",
+  "sample_id": "ESC-CSV-02015",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "shotgun",
+    "Monday",
+    "office",
+    "accounting firm",
+    "shot",
+    "three people"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2af91a535420eb41cf9be924969fe09e2f1dfb7d981165e4f1414f7c4f5fc6cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2af91a535420eb41cf9be924969fe09e2f1dfb7d981165e4f1414f7c4f5fc6cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "81b41b138dfb34c57339ca1843b283a455b1f91ee50ad7dbb33f28d99a6becb7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e619d793d6f231a8c19db4655ef327f80c172dd6a56bf13df14e7f4f4b0c56fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae2615d391442e8ceff658292b4fde520ed48394014963a027d006d0fda13985",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"accounting firm\",\"suburban Detroit\",\"office\",\"shotgun\",\"Monday\",\"shot\",\"three people\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"],\"target_related\":[\"shot\",\"three people\",\"woman\",\"Dead\",\"Hurt\",\"man\",\"shotgun\",\"Monday\",\"office\",\"accounting firm\"],\"mediators\":[\"man\",\"shotgun\",\"Monday\",\"office\",\"accounting firm\",\"shot\",\"three people\"]}"
+    },
+    "indirect": {
+      "call_id": "8c8b45e5298ce57ec1559eaf65a039a906070ff7cc69dce6e5e21f5a62d1b77a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Shooting three people caused one to be killed; the shooting (X) acts on the three people (Z), and Z's being shot leads to the killing (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "2af91a535420eb41cf9be924969fe09e2f1dfb7d981165e4f1414f7c4f5fc6cd",
+    "2af91a535420eb41cf9be924969fe09e2f1dfb7d981165e4f1414f7c4f5fc6cd",
+    "81b41b138dfb34c57339ca1843b283a455b1f91ee50ad7dbb33f28d99a6becb7",
+    "e619d793d6f231a8c19db4655ef327f80c172dd6a56bf13df14e7f4f4b0c56fc",
+    "ae2615d391442e8ceff658292b4fde520ed48394014963a027d006d0fda13985",
+    "8c8b45e5298ce57ec1559eaf65a039a906070ff7cc69dce6e5e21f5a62d1b77a"
+  ],
+  "elapsed_s": 5.78664755821228
+}

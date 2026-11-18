@@ -1,0 +1,61 @@
+{
+  "input_hash": "7bec456372caf13f4c79e940f4b1cf8bb873c5814ed2d188d589cc8763819fb5",
+  "sample_id": "ESC-CSV-09222",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "storm parliament"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ef72eba9e7d7b1d1fad18df3ad81caae50bc806e02279c3caa604b831aa2a28b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ef72eba9e7d7b1d1fad18df3ad81caae50bc806e02279c3caa604b831aa2a28b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2c005db5178735c0d94be919351ddd572b48c672b4ad52735f3040b2f15c889f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dd03f86b1243161d80df12b64dd75ff5f706b7dbac3e552dd33dd93ffb376a2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8fac80a01c48b78d07abeca4cee4cdb73fbda4cf65b2fbae448182d32a5de260",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"Protesters\",\"threw\",\"petrol bombs\",\"bank\",\"Athens\",\"storm parliament\"],\"target_related\":[\"Protesters\",\"riot police\",\"storm parliament\"],\"mediators\":[\"Protesters\",\"storm parliament\"]}"
+    },
+    "indirect": {
+      "call_id": "87345d670116c883a0493e7975cca0aeda37ddb661a7da21e73f4b7a114d5c8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters tried to storm parliament; riot police pushed them back. Protesting (X) led to storming parliament (Z), which led to being pushed back (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "ef72eba9e7d7b1d1fad18df3ad81caae50bc806e02279c3caa604b831aa2a28b",
+    "ef72eba9e7d7b1d1fad18df3ad81caae50bc806e02279c3caa604b831aa2a28b",
+    "2c005db5178735c0d94be919351ddd572b48c672b4ad52735f3040b2f15c889f",
+    "dd03f86b1243161d80df12b64dd75ff5f706b7dbac3e552dd33dd93ffb376a2f",
+    "8fac80a01c48b78d07abeca4cee4cdb73fbda4cf65b2fbae448182d32a5de260",
+    "87345d670116c883a0493e7975cca0aeda37ddb661a7da21e73f4b7a114d5c8b"
+  ],
+  "elapsed_s": 5.35050106048584
+}

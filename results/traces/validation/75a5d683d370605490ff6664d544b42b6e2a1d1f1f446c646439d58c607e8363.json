@@ -1,0 +1,60 @@
+{
+  "input_hash": "75a5d683d370605490ff6664d544b42b6e2a1d1f1f446c646439d58c607e8363",
+  "sample_id": "ESC-CSV-02430",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dfd985a3543de95e147df087ea5ff31d8a4d03149d07eee552f968a72ec69692",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dfd985a3543de95e147df087ea5ff31d8a4d03149d07eee552f968a72ec69692",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c6ed3da0ec7362207cb94d0eb327c1ddc1c40953c910741547e8218b271280f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eb7b6a291c29f14cc80ee722242a68ef69640a167d4f578da26d0e0cd774e5a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a09b6a145c5215720ffa60e3b2a3aa975508d85c64288261363b4a4f6f191bdd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\"],\"target_related\":[\"Monday\",\"evening\",\"mob\",\"businesses\",\"protest\",\"night\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "b71f485dc8cd0ae720e47bf16e4b14cd5b145cbe005ea1766444c02d19eaf589",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting and killing of the teenager by police came first, then the anger and the Monday evening vigil followed, so the killing caused the vigil.\"}"
+    }
+  },
+  "call_ids": [
+    "dfd985a3543de95e147df087ea5ff31d8a4d03149d07eee552f968a72ec69692",
+    "dfd985a3543de95e147df087ea5ff31d8a4d03149d07eee552f968a72ec69692",
+    "c6ed3da0ec7362207cb94d0eb327c1ddc1c40953c910741547e8218b271280f0",
+    "eb7b6a291c29f14cc80ee722242a68ef69640a167d4f578da26d0e0cd774e5a6",
+    "a09b6a145c5215720ffa60e3b2a3aa975508d85c64288261363b4a4f6f191bdd",
+    "b71f485dc8cd0ae720e47bf16e4b14cd5b145cbe005ea1766444c02d19eaf589"
+  ],
+  "elapsed_s": 21.707848072052002
+}

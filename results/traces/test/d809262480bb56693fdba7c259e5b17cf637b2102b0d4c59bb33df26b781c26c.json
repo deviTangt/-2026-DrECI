@@ -1,0 +1,60 @@
+{
+  "input_hash": "d809262480bb56693fdba7c259e5b17cf637b2102b0d4c59bb33df26b781c26c",
+  "sample_id": "ESC-CSV-09900",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4676201b7725fe7240eec035a274d315900d2f8cde77cb01619c911f4cdab00c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4676201b7725fe7240eec035a274d315900d2f8cde77cb01619c911f4cdab00c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b76fc79e40be6f817a6c54d397a0be48ca4c2779cb3416dd1a54555351cef454",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "69ade55bae33fa66a4bde5a5d79e31dc0840845c34fb496c7cb391d6b61f05da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "25ef82eff3e27392f3df52b8ecf78396d52362137d99139f7bd26fcc3e65517a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"police\",\"Athens\",\"march\",\"battle\"],\"target_related\":[\"fire\",\"Marfin Bank\",\"buildings\",\"Athens\"],\"mediators\":[\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "e915c40711c3ea1aec04ec852e432e5fc58c212fdfa16df49dc06f5e95c09799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Battles between protesters and police occurred before and during the fire; common sense holds that unrest/battles can lead to buildings burning.\"}"
+    }
+  },
+  "call_ids": [
+    "4676201b7725fe7240eec035a274d315900d2f8cde77cb01619c911f4cdab00c",
+    "4676201b7725fe7240eec035a274d315900d2f8cde77cb01619c911f4cdab00c",
+    "b76fc79e40be6f817a6c54d397a0be48ca4c2779cb3416dd1a54555351cef454",
+    "69ade55bae33fa66a4bde5a5d79e31dc0840845c34fb496c7cb391d6b61f05da",
+    "25ef82eff3e27392f3df52b8ecf78396d52362137d99139f7bd26fcc3e65517a",
+    "e915c40711c3ea1aec04ec852e432e5fc58c212fdfa16df49dc06f5e95c09799"
+  ],
+  "elapsed_s": 5.481354713439941
+}

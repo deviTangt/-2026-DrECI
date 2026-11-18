@@ -1,0 +1,60 @@
+{
+  "input_hash": "03ca3af78f4af7c24bb35238f77a0eed57d1b452955a7cd62e333923a5ee9a8d",
+  "sample_id": "ESC-CSV-07014",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "61f5fce8c57e689364db1745d93af6484c8e64df0a6a7c2ef394bcb58f1bd0a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "61f5fce8c57e689364db1745d93af6484c8e64df0a6a7c2ef394bcb58f1bd0a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e62cfa40a41138e3c8eab4335320a1f86b54c4662c52ec07d8a2047f8eaf9ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b45df15617e602bdd732873b27f81c0c54ff393cbda96226a0ce4b866b97ded2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0c97ae0b878f894e3583caea94135ae8c4ccd97f9d28ad14d711831a4c0bc9c1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"DUI\",\"player\",\"Chargers\"],\"target_related\":[\"DUI\",\"San Diego Chargers\",\"Defensive Tackle\"],\"mediators\":[\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "ab0ef0292255f5e9c1307040aa8b12d79b8b6007e0d62562e81c0ab90bb9d048",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested for DUI commonly leads to DUI charges being filed; arrest precedes charges.\"}"
+    }
+  },
+  "call_ids": [
+    "61f5fce8c57e689364db1745d93af6484c8e64df0a6a7c2ef394bcb58f1bd0a1",
+    "61f5fce8c57e689364db1745d93af6484c8e64df0a6a7c2ef394bcb58f1bd0a1",
+    "9e62cfa40a41138e3c8eab4335320a1f86b54c4662c52ec07d8a2047f8eaf9ed",
+    "b45df15617e602bdd732873b27f81c0c54ff393cbda96226a0ce4b866b97ded2",
+    "0c97ae0b878f894e3583caea94135ae8c4ccd97f9d28ad14d711831a4c0bc9c1",
+    "ab0ef0292255f5e9c1307040aa8b12d79b8b6007e0d62562e81c0ab90bb9d048"
+  ],
+  "elapsed_s": 4.468069076538086
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "08e266d8ab67e8069a3f705650a6921ad95486564cfcc82442288251c9a69736",
+  "sample_id": "ESC-CSV-01709",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Luis Gerardo ( Jerry ) Ortiz",
+    "gunning down"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8415533a0910373f6b5a82ff26161c5f803447322242a24701afbe31525d25b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8415533a0910373f6b5a82ff26161c5f803447322242a24701afbe31525d25b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "63b631cccc30787a828f609726a51564a373110b73b7a91c3b3872d0072ba6bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fdcb1f34ee2d118dc1e0ce44f9478c0de9959d7a3391ac8feff43f82f28a2f9d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1f8655d202bf0bec0442fdb2bb6a6c042aa1891ab792071d50fec73a4d5ffbcd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"gunning down\"],\"target_related\":[\"District Attorney Steve Cooley\",\"capital murder charges\",\"Hawaiian Gardens gang member\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"gunning down\"],\"mediators\":[\"Deputy Luis Gerardo ( Jerry ) Ortiz\",\"gunning down\"]}"
+    },
+    "indirect": {
+      "call_id": "258bde1e770afff2d75b8aa06a2dd0e47e17c580891df5349eba3cdcc3b60771",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Being shot to death (X) causes the murder (Y); 'gunning down' is a coreference of shot causing the capital murder charge.\",\"analysis\":\"X=shot, Y=murder. Rule 1: no explicit causation word directly linking shot and murder. Rule 2: no implicit causation word. Rule 3: common sense—shooting to death causes murder. Rule 4: 'gunning down' is a coreference of shot and causes the murder charge. Rules 5-8: no coreference of murder or chain/fork/collider structure with Z.\"}"
+    }
+  },
+  "call_ids": [
+    "8415533a0910373f6b5a82ff26161c5f803447322242a24701afbe31525d25b5",
+    "8415533a0910373f6b5a82ff26161c5f803447322242a24701afbe31525d25b5",
+    "63b631cccc30787a828f609726a51564a373110b73b7a91c3b3872d0072ba6bb",
+    "fdcb1f34ee2d118dc1e0ce44f9478c0de9959d7a3391ac8feff43f82f28a2f9d",
+    "1f8655d202bf0bec0442fdb2bb6a6c042aa1891ab792071d50fec73a4d5ffbcd",
+    "258bde1e770afff2d75b8aa06a2dd0e47e17c580891df5349eba3cdcc3b60771"
+  ],
+  "elapsed_s": 5.4558000564575195
+}

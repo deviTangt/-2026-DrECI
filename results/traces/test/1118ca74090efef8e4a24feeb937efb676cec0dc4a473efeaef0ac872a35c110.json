@@ -1,0 +1,63 @@
+{
+  "input_hash": "1118ca74090efef8e4a24feeb937efb676cec0dc4a473efeaef0ac872a35c110",
+  "sample_id": "ESC-CSV-09316",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man",
+    "killed",
+    "Riot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "26704f7c3b3b4875eeb29a26ede24df1aaa84aa229f32d57f78243d8f0a9e330",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "26704f7c3b3b4875eeb29a26ede24df1aaa84aa229f32d57f78243d8f0a9e330",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e36151cc230e12a11c8402d1ab20a084ad5438eeac3b7f84150fa2e06249c85a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bea025be954734c244f773a65410086949f8226d52385659bdef85722054779",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a5d129f43e9a8648cd209829d53d8215f2bca7a9830fa9e3eddea3a49449c80f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"killed\",\"marched\",\"Athens\",\"Riot\"],\"target_related\":[\"women\",\"man\",\"killed\",\"Bank\",\"Workers\",\"Riot\",\"Murder\"],\"mediators\":[\"women\",\"man\",\"killed\",\"Riot\"]}"
+    },
+    "indirect": {
+      "call_id": "87cd4c03f05b7568877476d8372d7b13cc806bcc2f5df11d2aca5d4c5ebd24a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The text says the two women and a man 'were killed during demonstrations,' where 'during' links the demonstrations to the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "26704f7c3b3b4875eeb29a26ede24df1aaa84aa229f32d57f78243d8f0a9e330",
+    "26704f7c3b3b4875eeb29a26ede24df1aaa84aa229f32d57f78243d8f0a9e330",
+    "e36151cc230e12a11c8402d1ab20a084ad5438eeac3b7f84150fa2e06249c85a",
+    "4bea025be954734c244f773a65410086949f8226d52385659bdef85722054779",
+    "a5d129f43e9a8648cd209829d53d8215f2bca7a9830fa9e3eddea3a49449c80f",
+    "87cd4c03f05b7568877476d8372d7b13cc806bcc2f5df11d2aca5d4c5ebd24a6"
+  ],
+  "elapsed_s": 4.5231921672821045
+}

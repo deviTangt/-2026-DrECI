@@ -1,0 +1,61 @@
+{
+  "input_hash": "df07a4e5d8f82a3d34431fced1036e70de7a170176c61b0260e3c35e7c8757c4",
+  "sample_id": "ESC-CSV-06945",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "drunken-driving",
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "95462c419283dc80d2d80515ab145d4472ea661ad1e2a30a1dd02e6600f813b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "95462c419283dc80d2d80515ab145d4472ea661ad1e2a30a1dd02e6600f813b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ac5417b6019540c26f00ebfc7883261af40bb385eedeedaa699fd4695d8806ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d226b39835ceb4ffd00e3dcd38ee92c4fd4316d4d83ce3491919b695fb4a0ff3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "62d30af255bc32cfe322d2b7163d204475af5645b25fc1826e6fd91b833a6bfe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"arrested\",\"suspicion\",\"drunken-driving\"],\"target_related\":[\"City Attorney's Office\",\"file\",\"misdemeanor\",\"drunken-driving\",\"Chargers defensive lineman Jamal Williams\"],\"mediators\":[\"drunken-driving\",\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "1a2efbb428765caae68bc85e06befeae16ddfeb897096c2f87ada525da467aa7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drunken driving is the offense that leads to misdemeanor drunken-driving charges being considered; common sense: the suspected offense causes charges to be filed.\"}"
+    }
+  },
+  "call_ids": [
+    "95462c419283dc80d2d80515ab145d4472ea661ad1e2a30a1dd02e6600f813b6",
+    "95462c419283dc80d2d80515ab145d4472ea661ad1e2a30a1dd02e6600f813b6",
+    "ac5417b6019540c26f00ebfc7883261af40bb385eedeedaa699fd4695d8806ff",
+    "d226b39835ceb4ffd00e3dcd38ee92c4fd4316d4d83ce3491919b695fb4a0ff3",
+    "62d30af255bc32cfe322d2b7163d204475af5645b25fc1826e6fd91b833a6bfe",
+    "1a2efbb428765caae68bc85e06befeae16ddfeb897096c2f87ada525da467aa7"
+  ],
+  "elapsed_s": 4.877572774887085
+}

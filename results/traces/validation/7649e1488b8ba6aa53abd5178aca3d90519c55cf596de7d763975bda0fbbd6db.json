@@ -1,0 +1,61 @@
+{
+  "input_hash": "7649e1488b8ba6aa53abd5178aca3d90519c55cf596de7d763975bda0fbbd6db",
+  "sample_id": "ESC-CSV-02612",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1c462aff3d3433521a63032ab11981544bffec90e8741bbc02bdc5c9c17ed98d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1c462aff3d3433521a63032ab11981544bffec90e8741bbc02bdc5c9c17ed98d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3550ab2bc2830251b967e20e50907932ba9ba2b1573b2b5d6bc40953fff934a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "210e0f26f3438b387970b13bb6b5fae7fd62b3e2f71edc57a03a5f2f9f18c7d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8d7c50beb924c28514eddefa43cd16881823093638407efa5fe0e78ee412b3f4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"vigil\",\"police\"],\"target_related\":[\"crowd\",\"police\"],\"mediators\":[\"crowd\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "f5b22cd21e1c601602b31931e53a56ab126e26ec94ede56537ddfcfd094f7e5e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link 'broke away' and 'struggled'; the crowd breaking away does not cause police to struggle per common sense or coreference.\"}"
+    }
+  },
+  "call_ids": [
+    "1c462aff3d3433521a63032ab11981544bffec90e8741bbc02bdc5c9c17ed98d",
+    "1c462aff3d3433521a63032ab11981544bffec90e8741bbc02bdc5c9c17ed98d",
+    "3550ab2bc2830251b967e20e50907932ba9ba2b1573b2b5d6bc40953fff934a4",
+    "210e0f26f3438b387970b13bb6b5fae7fd62b3e2f71edc57a03a5f2f9f18c7d5",
+    "8d7c50beb924c28514eddefa43cd16881823093638407efa5fe0e78ee412b3f4",
+    "f5b22cd21e1c601602b31931e53a56ab126e26ec94ede56537ddfcfd094f7e5e"
+  ],
+  "elapsed_s": 4.467650890350342
+}

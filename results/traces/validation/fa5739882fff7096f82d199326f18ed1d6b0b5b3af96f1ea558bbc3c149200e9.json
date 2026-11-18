@@ -1,0 +1,68 @@
+{
+  "input_hash": "fa5739882fff7096f82d199326f18ed1d6b0b5b3af96f1ea558bbc3c149200e9",
+  "sample_id": "ESC-CSV-01909",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "attempted murder",
+    "man",
+    "shot",
+    "yard work",
+    "home",
+    "Joliet Avenue",
+    "Hawaiian Gardens",
+    "shooting",
+    "street crime"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "08d81fb83f6c58133f18340562fb5dbd54ab5f4663aad86fdcf0352ccf1e782e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "08d81fb83f6c58133f18340562fb5dbd54ab5f4663aad86fdcf0352ccf1e782e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7084d5fce8a360cf10ca257924e6c300b908d3b29ae3480af57a47e63c54ade8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c562bc7f7ddf8a1032a231d1f3a4de13c6c2c150fb8d7a989b40dad4958c056f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4d08da8589bbe37eb23dc685d6ea3a80159ff10abadea5413afe7064bc46f3e7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"arrest\",\"street gang\",\"handgun\",\"attempted murder\",\"man\",\"shot\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"street crime\"],\"target_related\":[\"Orozco\",\"June 20, 2005\",\"attempted murder\",\"man\",\"shot\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street crime\"],\"mediators\":[\"attempted murder\",\"man\",\"shot\",\"yard work\",\"home\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"street crime\"]}"
+    },
+    "indirect": {
+      "call_id": "d9d8ec5a93c82b93bb0cd8c9727b693d821791c6a4abb7d88564eb0e8f211792",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murder follows from committing murder under common sense; the text states Orozco was convicted after the jury found true murder circumstances.\"}"
+    }
+  },
+  "call_ids": [
+    "08d81fb83f6c58133f18340562fb5dbd54ab5f4663aad86fdcf0352ccf1e782e",
+    "08d81fb83f6c58133f18340562fb5dbd54ab5f4663aad86fdcf0352ccf1e782e",
+    "7084d5fce8a360cf10ca257924e6c300b908d3b29ae3480af57a47e63c54ade8",
+    "c562bc7f7ddf8a1032a231d1f3a4de13c6c2c150fb8d7a989b40dad4958c056f",
+    "4d08da8589bbe37eb23dc685d6ea3a80159ff10abadea5413afe7064bc46f3e7",
+    "d9d8ec5a93c82b93bb0cd8c9727b693d821791c6a4abb7d88564eb0e8f211792"
+  ],
+  "elapsed_s": 4.8764002323150635
+}

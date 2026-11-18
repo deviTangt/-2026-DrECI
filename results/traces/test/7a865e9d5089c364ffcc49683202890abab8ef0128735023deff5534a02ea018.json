@@ -1,0 +1,65 @@
+{
+  "input_hash": "7a865e9d5089c364ffcc49683202890abab8ef0128735023deff5534a02ea018",
+  "sample_id": "ESC-CSV-06482",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mother",
+    "son",
+    "gunfire",
+    "rooftop",
+    "gang",
+    "members"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5290b88386e3e30803d96ded4ab820813fc599cc06045f2439def07dc1b5ef7c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5290b88386e3e30803d96ded4ab820813fc599cc06045f2439def07dc1b5ef7c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "eb585e9df0fa0672f71181d423e2b8a3776198c15dc89db4c6e4d79d529bf85f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ce4111ce47188caf23d320c089abf9477f908f5d2873451ae1a02a7fa36fbabd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bb0203d537a24b5ecb716b9311a25ac9f17b709b3b2003356ccddb86eb719feb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mother\",\"arm\",\"son\",\"gunfire\",\"rooftop\",\"gang\",\"members\"],\"target_related\":[\"mother\",\"wall\",\"son\",\"hide\",\"gunfire\",\"rooftop\",\"gang\",\"members\"],\"mediators\":[\"mother\",\"son\",\"gunfire\",\"rooftop\",\"gang\",\"members\"]}"
+    },
+    "indirect": {
+      "call_id": "486d59dc1e971dc3f535927b067f482755e95d1af140e82a43d281d333ce2f07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot in the arm would cause a person to stagger against a wall; the wound precedes and produces the staggering.\"}"
+    }
+  },
+  "call_ids": [
+    "5290b88386e3e30803d96ded4ab820813fc599cc06045f2439def07dc1b5ef7c",
+    "5290b88386e3e30803d96ded4ab820813fc599cc06045f2439def07dc1b5ef7c",
+    "eb585e9df0fa0672f71181d423e2b8a3776198c15dc89db4c6e4d79d529bf85f",
+    "ce4111ce47188caf23d320c089abf9477f908f5d2873451ae1a02a7fa36fbabd",
+    "bb0203d537a24b5ecb716b9311a25ac9f17b709b3b2003356ccddb86eb719feb",
+    "486d59dc1e971dc3f535927b067f482755e95d1af140e82a43d281d333ce2f07"
+  ],
+  "elapsed_s": 5.951054811477661
+}

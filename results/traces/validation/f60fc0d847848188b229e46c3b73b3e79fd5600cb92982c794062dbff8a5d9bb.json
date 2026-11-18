@@ -1,0 +1,61 @@
+{
+  "input_hash": "f60fc0d847848188b229e46c3b73b3e79fd5600cb92982c794062dbff8a5d9bb",
+  "sample_id": "ESC-CSV-07226",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "He",
+    "CHP"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "970ca9f25e6cf16cf4a164983958f1e60f1421e6ccefc401ad4f7c84c0975a66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "970ca9f25e6cf16cf4a164983958f1e60f1421e6ccefc401ad4f7c84c0975a66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a00d33f317a908e16166521028a858c7498bbe25bd7f549d40577a4c6c760f14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c3b2facb5511c5de35d29950251ddccadc510dfee562a5d09e8fbaea5386261d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7c5b49449bbc60aeaa00ff87aa9adc8e903ad861b1ca6117baa36e3051abce24",
+      "status": "ok",
+      "text": "{\"source_related\":[\"He\",\"DUI\",\"arrest\",\"CHP\"],\"target_related\":[\"He\",\"probation\",\"CHP\"],\"mediators\":[\"He\",\"CHP\"]}"
+    },
+    "indirect": {
+      "call_id": "fc302a9e1f21fe323c999cfb5b7cd16be2bf5447620806e4945d75d3fb272adc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A previous DUI arrest leads to being placed on probation; the arrest precedes and causes the probation status.\"}"
+    }
+  },
+  "call_ids": [
+    "970ca9f25e6cf16cf4a164983958f1e60f1421e6ccefc401ad4f7c84c0975a66",
+    "970ca9f25e6cf16cf4a164983958f1e60f1421e6ccefc401ad4f7c84c0975a66",
+    "a00d33f317a908e16166521028a858c7498bbe25bd7f549d40577a4c6c760f14",
+    "c3b2facb5511c5de35d29950251ddccadc510dfee562a5d09e8fbaea5386261d",
+    "7c5b49449bbc60aeaa00ff87aa9adc8e903ad861b1ca6117baa36e3051abce24",
+    "fc302a9e1f21fe323c999cfb5b7cd16be2bf5447620806e4945d75d3fb272adc"
+  ],
+  "elapsed_s": 3.9732606410980225
+}

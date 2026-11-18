@@ -1,0 +1,64 @@
+{
+  "input_hash": "32100dc2d268798cd08ea53e65ecabd0faaf34aa8e95b187db058242d8e1e371",
+  "sample_id": "ESC-CSV-09895",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "radio",
+    "TV",
+    "stations",
+    "decided",
+    "strike"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "80dd7cc82c71e1cf53891d904ba537818f053830877e14419e08272fe8a1b0ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "80dd7cc82c71e1cf53891d904ba537818f053830877e14419e08272fe8a1b0ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "87655ee4fda474ecc0062b148c814d4118e4563152cbf0f5d653f8f3b0aa300b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cc893bf885c731be423fa30e9f414e97f89039b325c35573c91c434c64a19cdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fcb7813179a8294badb190e61961ae67012fb3843e1579343deeaeecea18e435",
+      "status": "ok",
+      "text": "{\"source_related\":[\"events\",\"radio\",\"TV\",\"stations\",\"decided\",\"strike\"],\"target_related\":[\"radio\",\"TV\",\"stations\",\"decided\",\"strike\"],\"mediators\":[\"radio\",\"TV\",\"stations\",\"decided\",\"strike\"]}"
+    },
+    "indirect": {
+      "call_id": "bf7fc5c29f9abdff9acb8d55f062b2f281df2f05ee0bb7c382748fc14394326b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'under pressure by the events, most radio and TV stations decided to break their strike' — 'by' explicitly marks pressure as cause of breaking strike.\"}"
+    }
+  },
+  "call_ids": [
+    "80dd7cc82c71e1cf53891d904ba537818f053830877e14419e08272fe8a1b0ce",
+    "80dd7cc82c71e1cf53891d904ba537818f053830877e14419e08272fe8a1b0ce",
+    "87655ee4fda474ecc0062b148c814d4118e4563152cbf0f5d653f8f3b0aa300b",
+    "cc893bf885c731be423fa30e9f414e97f89039b325c35573c91c434c64a19cdf",
+    "fcb7813179a8294badb190e61961ae67012fb3843e1579343deeaeecea18e435",
+    "bf7fc5c29f9abdff9acb8d55f062b2f281df2f05ee0bb7c382748fc14394326b"
+  ],
+  "elapsed_s": 5.071321964263916
+}

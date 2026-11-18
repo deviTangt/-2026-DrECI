@@ -1,0 +1,62 @@
+{
+  "input_hash": "7ccb21cd5558b08233a6b3c4cc8ede0dd3f91bd37abd68b168422dd2984a8793",
+  "sample_id": "ESC-CSV-01571",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "handgun",
+    "officer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1d1fb5747a5f755132a0f2cb51e7f7060e079bf9019eadc4aa9f6a8e85db0446",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1d1fb5747a5f755132a0f2cb51e7f7060e079bf9019eadc4aa9f6a8e85db0446",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "164988ef7f7f0b3d1293e5e512ab02c0ada1dca04855f0a011ff6a72342bb5a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8792114bf1ed3b60c59bba6f4842552985ec45be14b1f574fc1f9760429c6a86",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "06e5b1efd2a95a791a8b4790e2b5354e531117c8d793c44a0737abde087e34b1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"handgun\",\"officer\"],\"target_related\":[\"gunman\",\"handgun\",\"officer\"],\"mediators\":[\"gunman\",\"handgun\",\"officer\"]}"
+    },
+    "indirect": {
+      "call_id": "0fa7872d7db60239c2b2620a5346414c112e86354cc3b186fc3b54cc2907ce82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Putting a handgun to the officer's face and firing are sequential actions; common sense holds that pulling the trigger (put/fire) causes the shot to be fired.\"}"
+    }
+  },
+  "call_ids": [
+    "1d1fb5747a5f755132a0f2cb51e7f7060e079bf9019eadc4aa9f6a8e85db0446",
+    "1d1fb5747a5f755132a0f2cb51e7f7060e079bf9019eadc4aa9f6a8e85db0446",
+    "164988ef7f7f0b3d1293e5e512ab02c0ada1dca04855f0a011ff6a72342bb5a5",
+    "8792114bf1ed3b60c59bba6f4842552985ec45be14b1f574fc1f9760429c6a86",
+    "06e5b1efd2a95a791a8b4790e2b5354e531117c8d793c44a0737abde087e34b1",
+    "0fa7872d7db60239c2b2620a5346414c112e86354cc3b186fc3b54cc2907ce82"
+  ],
+  "elapsed_s": 4.678670406341553
+}

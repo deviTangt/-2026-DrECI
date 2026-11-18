@@ -1,0 +1,64 @@
+{
+  "input_hash": "c65e8b0262d63db04663d09ac49963dab082e4cde33556e9278e28c4aa2c75a0",
+  "sample_id": "ESC-CSV-09676",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "buildings",
+    "cars",
+    "fire",
+    "truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a29577b7e3a921f4370aeaaebfcf2ef6e753c81298382780748cfb1f153d0129",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a29577b7e3a921f4370aeaaebfcf2ef6e753c81298382780748cfb1f153d0129",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c460a0ed9e00204ca90b3a28c55a5a6c51173f5a5ed3a211bc4d81389423dbd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "83e0bfcac354725301da9770500684bebe64b5fbaccd07da76c7815a7979a1e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13df7806d759c5e5ccc87e06bb9558c46d975dae6e33aea5bffa95b5bc7165ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"Firefighters\",\"blazes\",\"Finance\",\"Ministry\",\"barricades\",\"cars\",\"fire\",\"truck\"],\"target_related\":[\"protesters\",\"buildings\",\"cars\",\"fire\",\"truck\"],\"mediators\":[\"protesters\",\"buildings\",\"cars\",\"fire\",\"truck\"]}"
+    },
+    "indirect": {
+      "call_id": "27fb0263fcedd76643407652de5601e1906679d09ae00649410fa7e9223cbef4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Riots provoked angry protesters, who torched buildings and cars; protesters form the chain from riots to torching.\"}"
+    }
+  },
+  "call_ids": [
+    "a29577b7e3a921f4370aeaaebfcf2ef6e753c81298382780748cfb1f153d0129",
+    "a29577b7e3a921f4370aeaaebfcf2ef6e753c81298382780748cfb1f153d0129",
+    "c460a0ed9e00204ca90b3a28c55a5a6c51173f5a5ed3a211bc4d81389423dbd9",
+    "83e0bfcac354725301da9770500684bebe64b5fbaccd07da76c7815a7979a1e5",
+    "13df7806d759c5e5ccc87e06bb9558c46d975dae6e33aea5bffa95b5bc7165ba",
+    "27fb0263fcedd76643407652de5601e1906679d09ae00649410fa7e9223cbef4"
+  ],
+  "elapsed_s": 4.255910873413086
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "a15810462de4f7044c7c92e3c95786e3cbf90c8f9eda68e4a65b64e60b3390ce",
+  "sample_id": "ESC-CSV-04585",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "upmarket jewelry store",
+    "shop window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d16eb19b9770e5383938a4d416a610f9f6f454f9f3a7672f750abb439e303408",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d16eb19b9770e5383938a4d416a610f9f6f454f9f3a7672f750abb439e303408",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f823f4afa57a40617f48788116d853e19f065321a2a3ade3a2d22482208208e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8bb045f6fc490c66f5f55f896ad0bc840d76eaf2db23ab1c3384fb219d6f23b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8e3a83e1dfa74258a473a5530c1a05c4844dbb4ab25ae991b4a8e78591a0cc67",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\"],\"target_related\":[\"Four men\",\"upmarket jewelry store\",\"shop window\",\"$2.6 million\",\"two million Euros\",\"jewelry\"],\"mediators\":[\"Four men\",\"upmarket jewelry store\",\"shop window\"]}"
+    },
+    "indirect": {
+      "call_id": "d4bab2a0c7621cffd2097cc13ccce4f899728d0917d87e569e2efaa5b21da7e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window, enabling the men to steal the jewelry; the ramming precedes and causes the stealing.\"}"
+    }
+  },
+  "call_ids": [
+    "d16eb19b9770e5383938a4d416a610f9f6f454f9f3a7672f750abb439e303408",
+    "d16eb19b9770e5383938a4d416a610f9f6f454f9f3a7672f750abb439e303408",
+    "f823f4afa57a40617f48788116d853e19f065321a2a3ade3a2d22482208208e6",
+    "8bb045f6fc490c66f5f55f896ad0bc840d76eaf2db23ab1c3384fb219d6f23b0",
+    "8e3a83e1dfa74258a473a5530c1a05c4844dbb4ab25ae991b4a8e78591a0cc67",
+    "d4bab2a0c7621cffd2097cc13ccce4f899728d0917d87e569e2efaa5b21da7e6"
+  ],
+  "elapsed_s": 4.2975451946258545
+}

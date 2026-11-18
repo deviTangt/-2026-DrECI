@@ -1,0 +1,65 @@
+{
+  "input_hash": "e7418e5c914fc395b30823e3f8d9c5a9284a7c162315a3516717ec2e82c639ac",
+  "sample_id": "ESC-CSV-09384",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "buildings",
+    "tax",
+    "officials",
+    "rioters",
+    "Molotov",
+    "cocktails"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4071a24ffaffe6387dc0a5523bf664841dfbd6e293ac2310639069d80be48efe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4071a24ffaffe6387dc0a5523bf664841dfbd6e293ac2310639069d80be48efe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c7d58558e2f76d4757aa8c6cc21b65ffa1151d356f6ffc9361ccc410a8a61e3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e06e98895ce97539d2618c8ca9cb04455439dd34838730739624ff4f16dd1725",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "65b6357e4d518e8d0204f75646b38f9c827ed104d584595df98a3bc73ca57ad8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"tax\",\"officials\",\"fire\",\"bomb\",\"protests\",\"rioters\",\"Molotov\",\"cocktails\"],\"target_related\":[\"buildings\",\"tax\",\"officials\",\"Marfin\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"mediators\":[\"buildings\",\"tax\",\"officials\",\"rioters\",\"Molotov\",\"cocktails\"]}"
+    },
+    "indirect": {
+      "call_id": "77bdd0fd709d48a86990589cff09f09a5d01a75d7c03ca5bf52bfb667d01a683",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Bank 'caught fire after rioters broke a window and threw Molotov cocktails'; 'after' plus common sense shows attacks caused the fire.\"}"
+    }
+  },
+  "call_ids": [
+    "4071a24ffaffe6387dc0a5523bf664841dfbd6e293ac2310639069d80be48efe",
+    "4071a24ffaffe6387dc0a5523bf664841dfbd6e293ac2310639069d80be48efe",
+    "c7d58558e2f76d4757aa8c6cc21b65ffa1151d356f6ffc9361ccc410a8a61e3e",
+    "e06e98895ce97539d2618c8ca9cb04455439dd34838730739624ff4f16dd1725",
+    "65b6357e4d518e8d0204f75646b38f9c827ed104d584595df98a3bc73ca57ad8",
+    "77bdd0fd709d48a86990589cff09f09a5d01a75d7c03ca5bf52bfb667d01a683"
+  ],
+  "elapsed_s": 5.0040528774261475
+}

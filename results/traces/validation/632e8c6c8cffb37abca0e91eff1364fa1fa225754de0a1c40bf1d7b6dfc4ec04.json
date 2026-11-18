@@ -1,0 +1,64 @@
+{
+  "input_hash": "632e8c6c8cffb37abca0e91eff1364fa1fa225754de0a1c40bf1d7b6dfc4ec04",
+  "sample_id": "ESC-CSV-02772",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Kimani Gray",
+    "East Flatbush",
+    "Brooklyn",
+    "New York"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bfe4b1d8ffe706c9cbadea717dc57a8b95aebdaf8d9caa72b13f81e4af78edfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bfe4b1d8ffe706c9cbadea717dc57a8b95aebdaf8d9caa72b13f81e4af78edfe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ef76a3740f14ef66b88b908226559c1033b7c79777a2be2e1318a162342551e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "38195c789bb06e693c2a03e785b19e84ff5de12e6f0663b87b1481fba63a9a1b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b3b7e327001e9a2d3b8cea5fcbbfedb667c88abe5f38f89a878b88a303b60921",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Kimani Gray\",\"16-year-old\",\"Saturday\",\"Brooklyn\",\"New York\",\"East Flatbush\"],\"target_related\":[\"police\",\"people\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\"],\"mediators\":[\"police\",\"Kimani Gray\",\"East Flatbush\",\"Brooklyn\",\"New York\"]}"
+    },
+    "indirect": {
+      "call_id": "bc030ea44bc091bf09196a60a8257b03fbf91ca587996bf5e9c942c9383ce1fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Kimani Gray was shot by police, and the shooting prompted a candlelit vigil; the shooting precedes and causes the vigil by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "bfe4b1d8ffe706c9cbadea717dc57a8b95aebdaf8d9caa72b13f81e4af78edfe",
+    "bfe4b1d8ffe706c9cbadea717dc57a8b95aebdaf8d9caa72b13f81e4af78edfe",
+    "ef76a3740f14ef66b88b908226559c1033b7c79777a2be2e1318a162342551e6",
+    "38195c789bb06e693c2a03e785b19e84ff5de12e6f0663b87b1481fba63a9a1b",
+    "b3b7e327001e9a2d3b8cea5fcbbfedb667c88abe5f38f89a878b88a303b60921",
+    "bc030ea44bc091bf09196a60a8257b03fbf91ca587996bf5e9c942c9383ce1fc"
+  ],
+  "elapsed_s": 4.549652338027954
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "46cc1752dfc589fc46474143568673457be2440335eb220a5a0c791ba4cda652",
+  "sample_id": "ESC-CSV-07011",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "defensive tackle",
+    "San Diego Chargers",
+    "suspicion",
+    "early morning",
+    "Sunday",
+    "February 1, 2009"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7a1dc759b0969d7cb23d51fa8a3884800c757edb584287fa097f04787e9b2ccd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7a1dc759b0969d7cb23d51fa8a3884800c757edb584287fa097f04787e9b2ccd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e5e9c80e622ee57b91cd5e818ba9a892e39c0cf4a7ac3e8e02ebe2feaf415d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "171c551e7fcd9f597be044bb95521043e8a7f30ecee34ed082bcea74b82f5feb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a4c7ef13dc8d9ae1f608665119fd3eb72593e1dd4d8de06248baa0f057c6c738",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"arrested\",\"suspicion\",\"early morning\",\"Sunday\",\"February 1, 2009\"],\"target_related\":[\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"drunk driving\",\"suspicion\",\"early morning\",\"Sunday\",\"February 1, 2009\"],\"mediators\":[\"Jamal Williams\",\"defensive tackle\",\"San Diego Chargers\",\"suspicion\",\"early morning\",\"Sunday\",\"February 1, 2009\"]}"
+    },
+    "indirect": {
+      "call_id": "66225f4bf4bb4615797fcb6ff2292a58815353753a61a903cb5c25f56ef9d0ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested on suspicion of drunk driving' — 'on suspicion of' links drunk driving as the reason for the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "7a1dc759b0969d7cb23d51fa8a3884800c757edb584287fa097f04787e9b2ccd",
+    "7a1dc759b0969d7cb23d51fa8a3884800c757edb584287fa097f04787e9b2ccd",
+    "9e5e9c80e622ee57b91cd5e818ba9a892e39c0cf4a7ac3e8e02ebe2feaf415d6",
+    "171c551e7fcd9f597be044bb95521043e8a7f30ecee34ed082bcea74b82f5feb",
+    "a4c7ef13dc8d9ae1f608665119fd3eb72593e1dd4d8de06248baa0f057c6c738",
+    "66225f4bf4bb4615797fcb6ff2292a58815353753a61a903cb5c25f56ef9d0ca"
+  ],
+  "elapsed_s": 4.376145839691162
+}

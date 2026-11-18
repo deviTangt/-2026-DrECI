@@ -1,0 +1,63 @@
+{
+  "input_hash": "387c844628f335ebb12c3b3f7ffbaf2746d14bb1d51c795e12675e14699a7e36",
+  "sample_id": "ESC-CSV-01608",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Ortiz",
+    "deputy",
+    "killed",
+    "head"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6c1510bf00356c24777d38dc6d701bab47b0c41f358c91fa8709c1bd979796f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6c1510bf00356c24777d38dc6d701bab47b0c41f358c91fa8709c1bd979796f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a8febeaeccbf77c2cb7754d2ea2c88e07dda1f01820411d8037e7fc2dfdb976",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3908910035826a80d6e05f7ad8abc7ae856489912903b6eec9b054c0beafeb38",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e7eda75506440e1287efa7fa2d4c076896dd9e32399be5d10ed4371f2fb54fc1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"knocked\",\"door\",\"home\",\"someone\",\"head\",\"Ortiz\",\"killed\"],\"target_related\":[\"Ortiz\",\"killed\",\"shot\",\"head\",\"deputy\"],\"mediators\":[\"Ortiz\",\"deputy\",\"killed\",\"head\"]}"
+    },
+    "indirect": {
+      "call_id": "78a1914d6ae5969357eaf6f63168013a75cc58d5914499f8e331f811f0d61b1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed Friday when he knocked on the door of a home and someone shot him in the head' — 'when' links the shooting to death; shooting causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "6c1510bf00356c24777d38dc6d701bab47b0c41f358c91fa8709c1bd979796f8",
+    "6c1510bf00356c24777d38dc6d701bab47b0c41f358c91fa8709c1bd979796f8",
+    "4a8febeaeccbf77c2cb7754d2ea2c88e07dda1f01820411d8037e7fc2dfdb976",
+    "3908910035826a80d6e05f7ad8abc7ae856489912903b6eec9b054c0beafeb38",
+    "e7eda75506440e1287efa7fa2d4c076896dd9e32399be5d10ed4371f2fb54fc1",
+    "78a1914d6ae5969357eaf6f63168013a75cc58d5914499f8e331f811f0d61b1e"
+  ],
+  "elapsed_s": 6.000408887863159
+}

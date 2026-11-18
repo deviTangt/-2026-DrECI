@@ -1,0 +1,61 @@
+{
+  "input_hash": "42ff65c87600c0c678683d5fbad3de4de487e73a5960978905862354905394d2",
+  "sample_id": "ESC-CSV-02119",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Troy",
+    "accounting firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dc9f0cf08ecc0beeadc992b83125ee1caae8ed1ac52a147ca9a196e2d0723ae5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dc9f0cf08ecc0beeadc992b83125ee1caae8ed1ac52a147ca9a196e2d0723ae5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "19f6e79fe1360c38eabdf694bd2a5107e9c6b586a303e081002344147143dc2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ec061f1c25354ee5016918ef4ccbc355aa2062af777d0968a16fcd68e6112f57",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "312aac5e9e77a8a3318c5e2ed865fdd46b22771689ed3911cf9ee29ef99e56b7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Paul Riva\",\"Alan Steinberg\",\"accounting firm\",\"Troy\",\"receptionist\",\"managing partners\",\"Madeline Kafoury\"],\"target_related\":[\"Anthony LaCalamita III\",\"man\",\"jury\",\"convicted\",\"April 2007\",\"Troy accounting firm\"],\"mediators\":[\"Troy\",\"accounting firm\"]}"
+    },
+    "indirect": {
+      "call_id": "c3b4429e0cf596035d4e2c5022aa2defb7813bad8c1c851361827cb5e10db24c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shootings occurred in April 2007; the man was later charged and convicted, so the shootings precede and cause the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "dc9f0cf08ecc0beeadc992b83125ee1caae8ed1ac52a147ca9a196e2d0723ae5",
+    "dc9f0cf08ecc0beeadc992b83125ee1caae8ed1ac52a147ca9a196e2d0723ae5",
+    "19f6e79fe1360c38eabdf694bd2a5107e9c6b586a303e081002344147143dc2c",
+    "ec061f1c25354ee5016918ef4ccbc355aa2062af777d0968a16fcd68e6112f57",
+    "312aac5e9e77a8a3318c5e2ed865fdd46b22771689ed3911cf9ee29ef99e56b7",
+    "c3b4429e0cf596035d4e2c5022aa2defb7813bad8c1c851361827cb5e10db24c"
+  ],
+  "elapsed_s": 6.971668004989624
+}

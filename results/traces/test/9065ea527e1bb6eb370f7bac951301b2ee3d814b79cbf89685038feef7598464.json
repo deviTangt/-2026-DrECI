@@ -1,0 +1,62 @@
+{
+  "input_hash": "9065ea527e1bb6eb370f7bac951301b2ee3d814b79cbf89685038feef7598464",
+  "sample_id": "ESC-CSV-04098",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "fell",
+    "Saturday afternoon"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5816371d67ae8e5465e4157949995f35f93a84b0a572600e26292cbc94ae094f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5816371d67ae8e5465e4157949995f35f93a84b0a572600e26292cbc94ae094f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5a6861d5a0e4a390d458f1505a2ba7b0bd1592c4ade810a2a2b47018fcb26ef8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6a8f93c996572aa2009102570b66b646cb6dbaeaa1d3b8bd0dcb7878e4c67eb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3b7374745721700318d74fe59621692c9c7635195a2f6dcd4990feb805a8a7a8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fell\",\"Saturday afternoon\",\"Mt Cook National Park\"],\"target_related\":[\"man\",\"fell\",\"Mount Sefton Bivvy\",\"Saturday afternoon\"],\"mediators\":[\"man\",\"fell\",\"Saturday afternoon\"]}"
+    },
+    "indirect": {
+      "call_id": "8f65e10e16bb16b775aa322787cf1d7580f23f817f3b12bcfe1426e831865385",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling about 600m while climbing caused the man's death; climbing preceded and led to dying, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "5816371d67ae8e5465e4157949995f35f93a84b0a572600e26292cbc94ae094f",
+    "5816371d67ae8e5465e4157949995f35f93a84b0a572600e26292cbc94ae094f",
+    "5a6861d5a0e4a390d458f1505a2ba7b0bd1592c4ade810a2a2b47018fcb26ef8",
+    "6a8f93c996572aa2009102570b66b646cb6dbaeaa1d3b8bd0dcb7878e4c67eb0",
+    "3b7374745721700318d74fe59621692c9c7635195a2f6dcd4990feb805a8a7a8",
+    "8f65e10e16bb16b775aa322787cf1d7580f23f817f3b12bcfe1426e831865385"
+  ],
+  "elapsed_s": 5.12818717956543
+}

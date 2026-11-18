@@ -1,0 +1,61 @@
+{
+  "input_hash": "fa4d6dd2f9633c25997ce91fb0cdf3f7e50fb574eab28030bcb48beabc11b88c",
+  "sample_id": "ESC-CSV-06941",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Jamal Williams",
+    "drunken driving"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "91bea8a6b3ba5b656806ba2e77d0e93338285a89d2cdaaea08bd656d35a635f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "91bea8a6b3ba5b656806ba2e77d0e93338285a89d2cdaaea08bd656d35a635f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "798a98d631e9f3963c31590c2473475f8c1786c88ddee0548faf51109b29cf50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f3e0cf2c89207ae1d18c3929e6bd1a64b55d1d3079917383abd2718ad72289d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ac090bbfc988a62c1385e365505e3d4a7a4d15f0ec21ffa60c35cb37274425b9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"City Attorney's Office\",\"file\",\"charges\",\"Jamal Williams\",\"drunken driving\"],\"target_related\":[\"Jamal Williams\",\"32\",\"1:30 a.m.\",\"Feb. 1\",\"state Route 94\",\"drunken driving\"],\"mediators\":[\"Jamal Williams\",\"drunken driving\"]}"
+    },
+    "indirect": {
+      "call_id": "f963c14e5a8a0f102f221e0dd8f2e28e008c702903c8d9142342e01bd70f5a89",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Williams was arrested on suspicion of drunken driving; the arrest precedes and is based on suspicion of the offense, not caused by misdemeanor charges.\"}"
+    }
+  },
+  "call_ids": [
+    "91bea8a6b3ba5b656806ba2e77d0e93338285a89d2cdaaea08bd656d35a635f0",
+    "91bea8a6b3ba5b656806ba2e77d0e93338285a89d2cdaaea08bd656d35a635f0",
+    "798a98d631e9f3963c31590c2473475f8c1786c88ddee0548faf51109b29cf50",
+    "f3e0cf2c89207ae1d18c3929e6bd1a64b55d1d3079917383abd2718ad72289d6",
+    "ac090bbfc988a62c1385e365505e3d4a7a4d15f0ec21ffa60c35cb37274425b9",
+    "f963c14e5a8a0f102f221e0dd8f2e28e008c702903c8d9142342e01bd70f5a89"
+  ],
+  "elapsed_s": 4.331502199172974
+}

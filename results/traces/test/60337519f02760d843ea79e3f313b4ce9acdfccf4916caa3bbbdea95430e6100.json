@@ -1,0 +1,61 @@
+{
+  "input_hash": "60337519f02760d843ea79e3f313b4ce9acdfccf4916caa3bbbdea95430e6100",
+  "sample_id": "ESC-CSV-06393",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "threatened",
+    "brother"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "94575497791d57fdf55dd76ee3de493fec893108b6c3034d1a2f9ac2e79ab1ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "94575497791d57fdf55dd76ee3de493fec893108b6c3034d1a2f9ac2e79ab1ff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b895ffc39858473b8708dfd24ee7978becd8877cbc5371f399283d2663e5ec4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6b2d139bfcb53986a530c05817e012f0afdc22154dd584584fad05eb5c83bff1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "970a7db3978f7c24c24457989b730cd413a7c7ba3828049a12a3bdc26f0a7cfd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"threatened\",\"prosecutors\",\"brother\",\"Lopez\"],\"target_related\":[\"man\",\"threatened\",\"death\",\"brother\"],\"mediators\":[\"threatened\",\"brother\"]}"
+    },
+    "indirect": {
+      "call_id": "bacebf27c5902dd8b2f4d5398e9ee088d31866be1be06891b2c7e3b084bfca68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Lopez's brother threatened the man with death, and the man is petrified; threat of death (X) acts through brother (Z) to cause petrification (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "94575497791d57fdf55dd76ee3de493fec893108b6c3034d1a2f9ac2e79ab1ff",
+    "94575497791d57fdf55dd76ee3de493fec893108b6c3034d1a2f9ac2e79ab1ff",
+    "b895ffc39858473b8708dfd24ee7978becd8877cbc5371f399283d2663e5ec4f",
+    "6b2d139bfcb53986a530c05817e012f0afdc22154dd584584fad05eb5c83bff1",
+    "970a7db3978f7c24c24457989b730cd413a7c7ba3828049a12a3bdc26f0a7cfd",
+    "bacebf27c5902dd8b2f4d5398e9ee088d31866be1be06891b2c7e3b084bfca68"
+  ],
+  "elapsed_s": 4.579833507537842
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "d3da50557aafdf1031a624b2a5f816f6bd9c493f6b20bf359dddd9ffcf57ada6",
+  "sample_id": "ESC-CSV-09464",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "stairwell",
+    "3rd floors",
+    "fire",
+    "two floors below"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ea19566863756fb94755f40a09a060f0046e4373931a8493dc16e66b15dca456",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ea19566863756fb94755f40a09a060f0046e4373931a8493dc16e66b15dca456",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d3e69e13e3fe95169b30c66515c5270fd430187207b24b14b8ae1ac968413f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ac3fff53ec56fd37fbb3008bc661cf97a2dd38a85b25af79a5532b75aa184cdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1d169c50aa1fbaf30243bd2a5626102fcb8bcddce084c9943d5a34d434086b0b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"],\"target_related\":[\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"],\"mediators\":[\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"]}"
+    },
+    "indirect": {
+      "call_id": "8200eee3079e679c0d33317e9ddac6e766b0061e7257601aa04d23f500a79db1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Trying to flee the fire led them into the stairwell, where they became trapped; fleeing preceded and caused the trapping.\"}"
+    }
+  },
+  "call_ids": [
+    "ea19566863756fb94755f40a09a060f0046e4373931a8493dc16e66b15dca456",
+    "ea19566863756fb94755f40a09a060f0046e4373931a8493dc16e66b15dca456",
+    "0d3e69e13e3fe95169b30c66515c5270fd430187207b24b14b8ae1ac968413f5",
+    "ac3fff53ec56fd37fbb3008bc661cf97a2dd38a85b25af79a5532b75aa184cdf",
+    "1d169c50aa1fbaf30243bd2a5626102fcb8bcddce084c9943d5a34d434086b0b",
+    "8200eee3079e679c0d33317e9ddac6e766b0061e7257601aa04d23f500a79db1"
+  ],
+  "elapsed_s": 5.0146448612213135
+}

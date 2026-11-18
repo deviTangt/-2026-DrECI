@@ -1,0 +1,61 @@
+{
+  "input_hash": "6b82a74fe3c8e58fe5404b0c3124ec970413c7d3e6d2132f9539687719170625",
+  "sample_id": "ESC-CSV-09554",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "women",
+    "man"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b16e18d7f3eb5ee2d5bb8d1354cc19691db3b8fef678b62af31cf17426895109",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b16e18d7f3eb5ee2d5bb8d1354cc19691db3b8fef678b62af31cf17426895109",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "74be0c25adca5f65cc11846d30bb3503f5faed6deb7a79bcd9c723eeb30460e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2484976f923bacda6ea44865ec8aa027a989647a88364a0140e4e46a3658c5cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1a6f3d3e6aa42c5e76bae0f16decc6612e8dc5cbca5e5b5247d06d2b0f742bfe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"women\",\"man\",\"inferno\"],\"target_related\":[\"killed\",\"women\",\"man\",\"protesters\",\"torch\",\"Greek\",\"bank\"],\"mediators\":[\"women\",\"man\"]}"
+    },
+    "indirect": {
+      "call_id": "faf55d31e49e8587dfc63b5dbef3e92ead5b97ac886e17af22b2b4cd72724a18",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being caught in the inferno (X) precedes and causes the deaths (Y); common sense: those trapped in a fire die.\"}"
+    }
+  },
+  "call_ids": [
+    "b16e18d7f3eb5ee2d5bb8d1354cc19691db3b8fef678b62af31cf17426895109",
+    "b16e18d7f3eb5ee2d5bb8d1354cc19691db3b8fef678b62af31cf17426895109",
+    "74be0c25adca5f65cc11846d30bb3503f5faed6deb7a79bcd9c723eeb30460e4",
+    "2484976f923bacda6ea44865ec8aa027a989647a88364a0140e4e46a3658c5cd",
+    "1a6f3d3e6aa42c5e76bae0f16decc6612e8dc5cbca5e5b5247d06d2b0f742bfe",
+    "faf55d31e49e8587dfc63b5dbef3e92ead5b97ac886e17af22b2b4cd72724a18"
+  ],
+  "elapsed_s": 4.259553909301758
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "88795ed28f9b5ae3f474aa55b53aee1cae1e9b70cbe725b2c01ea48582cdc56b",
+  "sample_id": "ESC-CSV-06976",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "San Diego Chargers",
+    "defensive tackle",
+    "San Diego lineman",
+    "drunken driving"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4724d5e660ea9466fcf5f6ff324f4b21e8977984df5ff91aac0c496829c0a01f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4724d5e660ea9466fcf5f6ff324f4b21e8977984df5ff91aac0c496829c0a01f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b06442441557010c6d429245bfecd864759ed91d04d76851fe57eacfac43472c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eb420a90a3ee91918f04e08be152cf93518e097198c217fa79cebe9c5f791377",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2b43a2182748dda50a583370d737b59d9637a75710c9e889c82a3089800b86e5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"drunken driving\",\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\"],\"target_related\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\",\"drunken driving\"],\"mediators\":[\"Jamal Williams\",\"San Diego Chargers\",\"defensive tackle\",\"San Diego lineman\",\"drunken driving\"]}"
+    },
+    "indirect": {
+      "call_id": "545e5a25746ff53f1baa8e1fb5506c186f112bb00e509f12f8517a90a4828657",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"DUI (drunken driving) precedes and causes the arrest; common sense: being suspected of drunken driving leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "4724d5e660ea9466fcf5f6ff324f4b21e8977984df5ff91aac0c496829c0a01f",
+    "4724d5e660ea9466fcf5f6ff324f4b21e8977984df5ff91aac0c496829c0a01f",
+    "b06442441557010c6d429245bfecd864759ed91d04d76851fe57eacfac43472c",
+    "eb420a90a3ee91918f04e08be152cf93518e097198c217fa79cebe9c5f791377",
+    "2b43a2182748dda50a583370d737b59d9637a75710c9e889c82a3089800b86e5",
+    "545e5a25746ff53f1baa8e1fb5506c186f112bb00e509f12f8517a90a4828657"
+  ],
+  "elapsed_s": 5.01676869392395
+}

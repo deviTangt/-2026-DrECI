@@ -1,0 +1,75 @@
+{
+  "input_hash": "993bd5b6f42376e57597db9fa9f475c53504163c4cdc379a68e5d50c0729dc4a",
+  "sample_id": "ESC-CSV-01519",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Judge Philip Hickok",
+    "courtroom",
+    "aggravating factors",
+    "mitigating circumstances",
+    "ambush slaying",
+    "Los Angeles County Sheriff's Deputy Jerry Ortiz",
+    "June 2005",
+    "Orozco",
+    "death sentence",
+    "appealed",
+    "California Supreme Court",
+    "transferred",
+    "county jail",
+    "San Quentin State Prison",
+    "appeal",
+    "death row"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "71c9b361f93a1d47d103568d1102c68a02c7b36c13328c4cd8ce2e16d349ff0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "71c9b361f93a1d47d103568d1102c68a02c7b36c13328c4cd8ce2e16d349ff0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2356a172e93abe3282f6652b9b5ea6e995b683888fd9f47590fce9358accf853",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1c9c734da31162baf5064bb26ca8d83f736e3739284b8015995f5dde3a97dbcd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ce3c23bdd84728de1653703c8f7ae8037509d167ecee54bde6c4a63636cdc079",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Judge Philip Hickok\",\"courtroom\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"Orozco\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"appeal\",\"death row\"],\"target_related\":[\"Judge Philip Hickok\",\"courtroom\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"Orozco\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"appeal\",\"death row\"],\"mediators\":[\"Judge Philip Hickok\",\"courtroom\",\"aggravating factors\",\"mitigating circumstances\",\"ambush slaying\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"June 2005\",\"Orozco\",\"death sentence\",\"appealed\",\"California Supreme Court\",\"transferred\",\"county jail\",\"San Quentin State Prison\",\"appeal\",\"death row\"]}"
+    },
+    "indirect": {
+      "call_id": "6495c79a5f5cf750c9e39954d0a986353d5ce6de743c7a2fcf58555a55e88211",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The case (ambush slaying) occurred before and led the judge to conclude it warrants death, so the case causes the death sentence by causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "71c9b361f93a1d47d103568d1102c68a02c7b36c13328c4cd8ce2e16d349ff0a",
+    "71c9b361f93a1d47d103568d1102c68a02c7b36c13328c4cd8ce2e16d349ff0a",
+    "2356a172e93abe3282f6652b9b5ea6e995b683888fd9f47590fce9358accf853",
+    "1c9c734da31162baf5064bb26ca8d83f736e3739284b8015995f5dde3a97dbcd",
+    "ce3c23bdd84728de1653703c8f7ae8037509d167ecee54bde6c4a63636cdc079",
+    "6495c79a5f5cf750c9e39954d0a986353d5ce6de743c7a2fcf58555a55e88211"
+  ],
+  "elapsed_s": 6.198555946350098
+}

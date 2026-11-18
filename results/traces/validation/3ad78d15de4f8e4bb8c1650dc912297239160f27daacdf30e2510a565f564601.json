@@ -1,0 +1,70 @@
+{
+  "input_hash": "3ad78d15de4f8e4bb8c1650dc912297239160f27daacdf30e2510a565f564601",
+  "sample_id": "ESC-CSV-02070",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "employee",
+    "fired",
+    "killed",
+    "woman",
+    "men",
+    "building",
+    "worked",
+    "officers",
+    "chase",
+    "police",
+    "Gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "721e5d8e714a07f4f6ef9ee11ef859dd3c46dd2c137e690d3f3476bd78b794a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "721e5d8e714a07f4f6ef9ee11ef859dd3c46dd2c137e690d3f3476bd78b794a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1d76e8c5be6f927d1fb5bd47cc9b017362c43e9c174f09bd00f3b6f673b3a8d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c5a2441c723f50ca9f6e23c0725380a45fdd668914a03a6b21d014a68125bd2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fd5d9b5580a24582fb1ba2bd474adb3f68d7c82b6b56763d684ee62fa37adca1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"building\",\"worked\",\"officers\",\"chase\",\"police\",\"Gunman\"],\"target_related\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"building\",\"worked\",\"officers\",\"chase\",\"police\",\"Gunman\"],\"mediators\":[\"employee\",\"fired\",\"killed\",\"woman\",\"men\",\"building\",\"worked\",\"officers\",\"chase\",\"police\",\"Gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "80001732cefc6ef9caf6736543fb9ae951cb14661fe62e18a2701683c2eca319",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone causes wounds; the gunman shot people, and the result was that two men were wounded.\"}"
+    }
+  },
+  "call_ids": [
+    "721e5d8e714a07f4f6ef9ee11ef859dd3c46dd2c137e690d3f3476bd78b794a8",
+    "721e5d8e714a07f4f6ef9ee11ef859dd3c46dd2c137e690d3f3476bd78b794a8",
+    "1d76e8c5be6f927d1fb5bd47cc9b017362c43e9c174f09bd00f3b6f673b3a8d1",
+    "c5a2441c723f50ca9f6e23c0725380a45fdd668914a03a6b21d014a68125bd2c",
+    "fd5d9b5580a24582fb1ba2bd474adb3f68d7c82b6b56763d684ee62fa37adca1",
+    "80001732cefc6ef9caf6736543fb9ae951cb14661fe62e18a2701683c2eca319"
+  ],
+  "elapsed_s": 4.718104362487793
+}

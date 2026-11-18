@@ -1,0 +1,64 @@
+{
+  "input_hash": "13826ea783fe3ca8e747af4576352ec16e2bacb204839e84549af701ddb623c0",
+  "sample_id": "ESC-CSV-02224",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sheriff",
+    "Michigan",
+    "office",
+    "kills",
+    "1"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "626678fa6501d19a7c8781894fb89c6b8ffc01eeadf35a5e5a6330a5b8e7d6b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "626678fa6501d19a7c8781894fb89c6b8ffc01eeadf35a5e5a6330a5b8e7d6b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f9b324ce939f2f2698ef0ac01e5b3bd6ca51fab033870138e2250202cf8deac4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "742899db9397d989e5ac9aaba4253facd94323475463bb448709ef60da34325c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "37b92cf7a3d5996ea5e2a1bdcffd96d5381a81bdb84ceb8d2b67d1ca5c2deeb9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"last week\",\"public places\",\"Atlanta\",\"Georgia\",\"Seattle\",\"Washington\",\"Sheriff\",\"Michigan\",\"office\",\"kills\",\"1\"],\"target_related\":[\"Sheriff\",\"Michigan\",\"office\",\"shooting\",\"kills\",\"1\",\"2\"],\"mediators\":[\"Sheriff\",\"Michigan\",\"office\",\"kills\",\"1\"]}"
+    },
+    "indirect": {
+      "call_id": "74433fd830672a9d4979c604738a8744347d2249902cf0ab9ceb3bebc41b919b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting causes injuries; the office shooting kills 1 and injures 2, so shooting precedes and causes injures.\"}"
+    }
+  },
+  "call_ids": [
+    "626678fa6501d19a7c8781894fb89c6b8ffc01eeadf35a5e5a6330a5b8e7d6b4",
+    "626678fa6501d19a7c8781894fb89c6b8ffc01eeadf35a5e5a6330a5b8e7d6b4",
+    "f9b324ce939f2f2698ef0ac01e5b3bd6ca51fab033870138e2250202cf8deac4",
+    "742899db9397d989e5ac9aaba4253facd94323475463bb448709ef60da34325c",
+    "37b92cf7a3d5996ea5e2a1bdcffd96d5381a81bdb84ceb8d2b67d1ca5c2deeb9",
+    "74433fd830672a9d4979c604738a8744347d2249902cf0ab9ceb3bebc41b919b"
+  ],
+  "elapsed_s": 6.916288614273071
+}

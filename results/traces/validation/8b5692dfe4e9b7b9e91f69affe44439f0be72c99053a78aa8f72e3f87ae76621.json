@@ -1,0 +1,64 @@
+{
+  "input_hash": "8b5692dfe4e9b7b9e91f69affe44439f0be72c99053a78aa8f72e3f87ae76621",
+  "sample_id": "ESC-CSV-02571",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "police",
+    "cops",
+    "teens",
+    "East Flatbush"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "057b65cee203170e002fd3650de0f114a83330384f9fcd3c5b079a65443baf2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "057b65cee203170e002fd3650de0f114a83330384f9fcd3c5b079a65443baf2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "726064ffc963f5acc5310890ac418c33535736590e499b6289adc8724640ad9b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "343398c6a4a79c9a30e5525057b5302af22c78cd6ed8281cec6734c01d96d65a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0c18df185c171bfcf5c56671f53cbc1ea00557f3c896bebb9633c008460fa07f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"police\",\"Brooklyn\",\"streets\",\"bricks\",\"bottles\",\"garbage\",\"cops\",\"fights\",\"teens\",\"East Flatbush\"],\"target_related\":[\"Protesters\",\"police\",\"cops\",\"teens\",\"East Flatbush\",\"46\",\"Wednesday night\"],\"mediators\":[\"Protesters\",\"police\",\"cops\",\"teens\",\"East Flatbush\"]}"
+    },
+    "indirect": {
+      "call_id": "c30477016f4c400042342fe48a7ff4d2a42c839b0ebccb8d3cf06fd61aaa822b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Clashes with cops occurred, and 46 were arrested that night; common sense holds that clashes lead to arrests.\"}"
+    }
+  },
+  "call_ids": [
+    "057b65cee203170e002fd3650de0f114a83330384f9fcd3c5b079a65443baf2a",
+    "057b65cee203170e002fd3650de0f114a83330384f9fcd3c5b079a65443baf2a",
+    "726064ffc963f5acc5310890ac418c33535736590e499b6289adc8724640ad9b",
+    "343398c6a4a79c9a30e5525057b5302af22c78cd6ed8281cec6734c01d96d65a",
+    "0c18df185c171bfcf5c56671f53cbc1ea00557f3c896bebb9633c008460fa07f",
+    "c30477016f4c400042342fe48a7ff4d2a42c839b0ebccb8d3cf06fd61aaa822b"
+  ],
+  "elapsed_s": 14.488255262374878
+}

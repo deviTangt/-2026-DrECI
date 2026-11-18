@@ -1,0 +1,62 @@
+{
+  "input_hash": "5891cd0e928e42eaee53275cb1e724e745d2671f1e849950ff6a36897fff16fe",
+  "sample_id": "ESC-CSV-04090",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "slipped",
+    "gully"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3f1842ce468eb6fbd57ec90bfa1bf6d31164844b5060359ba44f0b3ea8e6b19e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3f1842ce468eb6fbd57ec90bfa1bf6d31164844b5060359ba44f0b3ea8e6b19e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "535f2cbd25a777736449027cc44974b4a9f33f422a2b80bb9c8561e6cee2e2ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0bfc661a49e70e17cfaaef38398781e2273bd9b9112ba33a20f764ac0122a714",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "99ea2ae31be97ed8d642f01b6f5ac7bc9e60e4bf1589a1791546758548f74b98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"died\",\"slipped\",\"fell\",\"gully\"],\"target_related\":[\"man\",\"slipped\",\"died\",\"gully\"],\"mediators\":[\"man\",\"slipped\",\"gully\"]}"
+    },
+    "indirect": {
+      "call_id": "6cb6f1af7ac878ecd2f092f2d33ed9ea6dd93c1a8144ce7153850ffe29f8d41c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died ... after he slipped and fell' — 'after' plus the fall causing the death shows explicit and common-sense causation between fell and death.\"}"
+    }
+  },
+  "call_ids": [
+    "3f1842ce468eb6fbd57ec90bfa1bf6d31164844b5060359ba44f0b3ea8e6b19e",
+    "3f1842ce468eb6fbd57ec90bfa1bf6d31164844b5060359ba44f0b3ea8e6b19e",
+    "535f2cbd25a777736449027cc44974b4a9f33f422a2b80bb9c8561e6cee2e2ca",
+    "0bfc661a49e70e17cfaaef38398781e2273bd9b9112ba33a20f764ac0122a714",
+    "99ea2ae31be97ed8d642f01b6f5ac7bc9e60e4bf1589a1791546758548f74b98",
+    "6cb6f1af7ac878ecd2f092f2d33ed9ea6dd93c1a8144ce7153850ffe29f8d41c"
+  ],
+  "elapsed_s": 4.322264671325684
+}

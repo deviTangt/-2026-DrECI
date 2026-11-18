@@ -1,0 +1,62 @@
+{
+  "input_hash": "d7d567242a37a7f2ddf1ee95a371e265d9dc9f6d70aa869d13025a630f491b2e",
+  "sample_id": "ESC-CSV-07083",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "drunken driving",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1dba83d40112cab0e49a5fc1c870e773dd7db9885e67985a6f34c1088f0240b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1dba83d40112cab0e49a5fc1c870e773dd7db9885e67985a6f34c1088f0240b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "aab6068f114d6d3991538eed1cf94ae9d6cae86313314c8cbfc85366ac328d0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fd164bdf748a31be2f72d59f1e9054777465ecf400f8d1685a8bfd746415018b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ccd64814d9d0291726c1b528207886e79fe4f201bf8d610b3bfd293283956659",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"defensive tackle\",\"drunken driving\",\"suspicion\",\"California Highway Patrol\",\"freeway\",\"downtown\",\"last weekend\"],\"target_related\":[\"Jamal Williams\",\"Charger\",\"drunken driving\",\"suspicion\",\"arrested\"],\"mediators\":[\"Jamal Williams\",\"drunken driving\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "da8e384236078c8313ad524bf1d50fc6cff94662a31fc7da62634e4ba777f9fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested on suspicion of drunken driving' — 'on suspicion of' links the arrest to DUI, indicating the arrest was because of suspected DUI.\"}"
+    }
+  },
+  "call_ids": [
+    "1dba83d40112cab0e49a5fc1c870e773dd7db9885e67985a6f34c1088f0240b2",
+    "1dba83d40112cab0e49a5fc1c870e773dd7db9885e67985a6f34c1088f0240b2",
+    "aab6068f114d6d3991538eed1cf94ae9d6cae86313314c8cbfc85366ac328d0f",
+    "fd164bdf748a31be2f72d59f1e9054777465ecf400f8d1685a8bfd746415018b",
+    "ccd64814d9d0291726c1b528207886e79fe4f201bf8d610b3bfd293283956659",
+    "da8e384236078c8313ad524bf1d50fc6cff94662a31fc7da62634e4ba777f9fa"
+  ],
+  "elapsed_s": 5.262261152267456
+}

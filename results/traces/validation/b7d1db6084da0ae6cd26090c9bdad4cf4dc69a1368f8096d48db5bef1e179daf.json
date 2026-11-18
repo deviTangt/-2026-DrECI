@@ -1,0 +1,60 @@
+{
+  "input_hash": "b7d1db6084da0ae6cd26090c9bdad4cf4dc69a1368f8096d48db5bef1e179daf",
+  "sample_id": "ESC-CSV-01493",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "peace officer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9d79c2be9d396146247eeca625a71c52fc3bf4e0b4115424e8cb7edd7a180f89",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9d79c2be9d396146247eeca625a71c52fc3bf4e0b4115424e8cb7edd7a180f89",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4adbaed2da1fe35b24306538d9c1c660e81002b580d54cf1e1e0cf37bded0158",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d44d81d349e53baf1f74d70633f3b24b37a9a87c5e9d7698e6334077660b195b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "05791353c0aff7707a84c8d28df9886fdf15fad2c200a4eeed02036b2cd85092",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Officer Ortiz\",\"Hawaiian Gardens\",\"gang members\",\"head\",\"Jose Luis Orozco\",\"peace officer\"],\"target_related\":[\"peace officer\",\"cold blood\"],\"mediators\":[\"peace officer\"]}"
+    },
+    "indirect": {
+      "call_id": "86f0f97093920130d142932cf2345c8e46de5cb7566ea145e1934a01a973ac7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[4],\"evidence\":\"'shot point blank range in the head' is the coreference of X (shot); this shooting caused the officer to be 'gunned down' (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "9d79c2be9d396146247eeca625a71c52fc3bf4e0b4115424e8cb7edd7a180f89",
+    "9d79c2be9d396146247eeca625a71c52fc3bf4e0b4115424e8cb7edd7a180f89",
+    "4adbaed2da1fe35b24306538d9c1c660e81002b580d54cf1e1e0cf37bded0158",
+    "d44d81d349e53baf1f74d70633f3b24b37a9a87c5e9d7698e6334077660b195b",
+    "05791353c0aff7707a84c8d28df9886fdf15fad2c200a4eeed02036b2cd85092",
+    "86f0f97093920130d142932cf2345c8e46de5cb7566ea145e1934a01a973ac7f"
+  ],
+  "elapsed_s": 6.760843992233276
+}

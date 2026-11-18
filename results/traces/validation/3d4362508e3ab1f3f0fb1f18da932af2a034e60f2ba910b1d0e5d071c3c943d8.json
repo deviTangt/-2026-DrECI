@@ -1,0 +1,64 @@
+{
+  "input_hash": "3d4362508e3ab1f3f0fb1f18da932af2a034e60f2ba910b1d0e5d071c3c943d8",
+  "sample_id": "ESC-CSV-02578",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "crowd",
+    "Police",
+    "protesters",
+    "cops",
+    "rioting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dce9a8b08dd793abf67e64e1d2d84831e689608a4e66940ab37a96aff3008d51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dce9a8b08dd793abf67e64e1d2d84831e689608a4e66940ab37a96aff3008d51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "22b66275aad334c935f81807e33581cad5bd91afd28dc3fc9025853f15eab260",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "55e1d21b40fe112446603fbb4884219fbdc59bbbb5c28e166e2c173d38c3b021",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3fbe760908f6b4f0c8a25f3bd696852b3721e3fd46d1401cce0b08d047fca5e7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"16 - year - old\",\"back\",\"Police\",\"crowd\",\"protesters\",\"cops\",\"rioting\"],\"target_related\":[\"peaceful\",\"planned\",\"crowd\",\"Police\",\"protesters\",\"cops\",\"rioting\"],\"mediators\":[\"crowd\",\"Police\",\"protesters\",\"cops\",\"rioting\"]}"
+    },
+    "indirect": {
+      "call_id": "6f7a302b3ad55dcebe55c23672220641397e1a27e594fd84fbca0b549f1567cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of Kimani Gray prompted the rioting and the planned peaceful vigil; the shooting precedes and causes the vigil/protest response.\"}"
+    }
+  },
+  "call_ids": [
+    "dce9a8b08dd793abf67e64e1d2d84831e689608a4e66940ab37a96aff3008d51",
+    "dce9a8b08dd793abf67e64e1d2d84831e689608a4e66940ab37a96aff3008d51",
+    "22b66275aad334c935f81807e33581cad5bd91afd28dc3fc9025853f15eab260",
+    "55e1d21b40fe112446603fbb4884219fbdc59bbbb5c28e166e2c173d38c3b021",
+    "3fbe760908f6b4f0c8a25f3bd696852b3721e3fd46d1401cce0b08d047fca5e7",
+    "6f7a302b3ad55dcebe55c23672220641397e1a27e594fd84fbca0b549f1567cc"
+  ],
+  "elapsed_s": 14.524498224258423
+}

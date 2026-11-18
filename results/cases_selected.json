@@ -1,0 +1,639 @@
+[
+  {
+    "sample_id": "ESC-CSV-04255",
+    "original_row": 4255,
+    "context": "One Australian and one English climber have fallen to their deaths in New Zealand .",
+    "source_event": "deaths",
+    "target_event": "fallen",
+    "label": 1,
+    "original_label": "Cause-Effect",
+    "scope": "intra",
+    "document_candidates": [
+      {
+        "doc": "23_3ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "2"
+          ]
+        ]
+      },
+      {
+        "doc": "23_4ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "3"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "23"
+    ],
+    "input_hash": "94ca46d01b7b259559f59d40ace9eeb35b8cf399764192b401a724b6c4fcf4d7",
+    "split": "test",
+    "prediction_E0": 0,
+    "prediction_E1": 1,
+    "prediction_E2": 0,
+    "error_type": "TP",
+    "trace": {
+      "input_hash": "94ca46d01b7b259559f59d40ace9eeb35b8cf399764192b401a724b6c4fcf4d7",
+      "sample_id": "ESC-CSV-04255",
+      "scope": "intra",
+      "split": "test",
+      "e0": 0,
+      "votes": [
+        0,
+        0,
+        1
+      ],
+      "yes_count": 1,
+      "mediators": [
+        "climber",
+        "Australian",
+        "English",
+        "New Zealand"
+      ],
+      "route": "indirect",
+      "e1": 1,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causal": {
+          "call_id": "949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causation": {
+          "call_id": "54703b01ae7eab308e66ba873e6aa1d3c8bcbd05659a10fcadc05bf8d4a7d856",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causality": {
+          "call_id": "5be1eb938b6d006c67330f4d14ed7dd45fae5545595a8fe2c318ec6b0b72ab83",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "mediator": {
+          "call_id": "c6deaef3dd33475ee0dbb5b2dea31d428a180766bd3e1e0d6b3aaf4d50184f47",
+          "status": "ok",
+          "text": "{\"source_related\":[\"climber\",\"Australian\",\"English\",\"New Zealand\"],\"target_related\":[\"climber\",\"Australian\",\"English\",\"New Zealand\"],\"mediators\":[\"climber\",\"Australian\",\"English\",\"New Zealand\"]}"
+        },
+        "indirect": {
+          "call_id": "44a7aed2021ae7602437b7a1a63a803e00e1543f05e934dfc81b15c382f1a75e",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling is the physical event that causes the climbers' deaths; deaths result from the fall, consistent with causal order.\"}"
+        }
+      },
+      "call_ids": [
+        "949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f",
+        "949d82e256c9e32d98894f466ebbcf56ee7d035ad24887839d4bba35b73a476f",
+        "54703b01ae7eab308e66ba873e6aa1d3c8bcbd05659a10fcadc05bf8d4a7d856",
+        "5be1eb938b6d006c67330f4d14ed7dd45fae5545595a8fe2c318ec6b0b72ab83",
+        "c6deaef3dd33475ee0dbb5b2dea31d428a180766bd3e1e0d6b3aaf4d50184f47",
+        "44a7aed2021ae7602437b7a1a63a803e00e1543f05e934dfc81b15c382f1a75e"
+      ],
+      "elapsed_s": 4.808348178863525
+    },
+    "matched_rules": [
+      3
+    ]
+  },
+  {
+    "sample_id": "ESC-CSV-04668",
+    "original_row": 4668,
+    "context": "They made off with 2m euros ( £1 . 7m ; $2 . 6m ) in gems and watches . France jewels thefts : Robbers ram 4x4 into Paris shop",
+    "source_event": "made off",
+    "target_event": "thefts",
+    "label": 0,
+    "original_label": "NONE",
+    "scope": "inter",
+    "document_candidates": [
+      {
+        "doc": "24_4ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "5",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "24"
+    ],
+    "input_hash": "0cb35982130d82e2c07bcd337e6157a2521439257975e926ccb572cb29024ed3",
+    "split": "test",
+    "prediction_E0": 1,
+    "prediction_E1": 0,
+    "prediction_E2": 0,
+    "error_type": "TN",
+    "trace": {
+      "input_hash": "0cb35982130d82e2c07bcd337e6157a2521439257975e926ccb572cb29024ed3",
+      "sample_id": "ESC-CSV-04668",
+      "scope": "inter",
+      "split": "test",
+      "e0": 1,
+      "votes": [
+        1,
+        1,
+        1
+      ],
+      "yes_count": 3,
+      "mediators": [
+        "Robbers",
+        "ram",
+        "4x4",
+        "Paris",
+        "shop",
+        "gems",
+        "watches"
+      ],
+      "route": "indirect",
+      "e1": 0,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causal": {
+          "call_id": "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causation": {
+          "call_id": "1a7ba1164d60e05288ceaffb06686ba2aa1f2af6c468dc88a1b693eb07d08689",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causality": {
+          "call_id": "3ae21353bb78b329538b0e65d8baf8b3f884bcbba14f30572c48f613c1dcd18c",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "mediator": {
+          "call_id": "8e416732018c62ab55e814470e7c7c9badaa6dd88fee1fcb8b15c5788335d8a1",
+          "status": "ok",
+          "text": "{\"source_related\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\",\"euros\"],\"target_related\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\",\"France\",\"jewels\"],\"mediators\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\"]}"
+        },
+        "indirect": {
+          "call_id": "5f54f6419693f7aa0f1d3ae5e734592187b19e909e6bbadbeb501cedae911078",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Made off' and 'thefts' describe the same robbery event; no causation word or causal structure links them.\"}"
+        }
+      },
+      "call_ids": [
+        "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+        "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+        "1a7ba1164d60e05288ceaffb06686ba2aa1f2af6c468dc88a1b693eb07d08689",
+        "3ae21353bb78b329538b0e65d8baf8b3f884bcbba14f30572c48f613c1dcd18c",
+        "8e416732018c62ab55e814470e7c7c9badaa6dd88fee1fcb8b15c5788335d8a1",
+        "5f54f6419693f7aa0f1d3ae5e734592187b19e909e6bbadbeb501cedae911078"
+      ],
+      "elapsed_s": 6.290366172790527
+    },
+    "matched_rules": []
+  },
+  {
+    "sample_id": "ESC-CSV-09499",
+    "original_row": 9499,
+    "context": "Three Killed In Athens Bank Fire Amid Strike",
+    "source_event": "Strike",
+    "target_event": "Fire",
+    "label": 1,
+    "original_label": "Cause-Effect",
+    "scope": "intra",
+    "document_candidates": [
+      {
+        "doc": "8_5ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "1"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "8"
+    ],
+    "input_hash": "c15c9399fb10d337892459c13658486faf0f4a1bc9fcacac39b70b6dcb9aff50",
+    "split": "test",
+    "prediction_E0": 0,
+    "prediction_E1": 0,
+    "prediction_E2": 0,
+    "error_type": "FN",
+    "trace": {
+      "input_hash": "c15c9399fb10d337892459c13658486faf0f4a1bc9fcacac39b70b6dcb9aff50",
+      "sample_id": "ESC-CSV-09499",
+      "scope": "intra",
+      "split": "test",
+      "e0": 0,
+      "votes": [
+        0,
+        0,
+        0
+      ],
+      "yes_count": 0,
+      "mediators": null,
+      "route": "filtered",
+      "e1": 0,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "6a09d67cc753532c05c1e83399fa57d168525208f479e07f76dfd5a50f568c6d",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causal": {
+          "call_id": "6a09d67cc753532c05c1e83399fa57d168525208f479e07f76dfd5a50f568c6d",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causation": {
+          "call_id": "09987287d02e08065460352cd1e51ad530e16ff8e389356beeb4d3b8711edd5e",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causality": {
+          "call_id": "4ae755907bdb513295a6cb722cd749c6f48175e20dfd70107e9af321164f2f86",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        }
+      },
+      "call_ids": [
+        "6a09d67cc753532c05c1e83399fa57d168525208f479e07f76dfd5a50f568c6d",
+        "6a09d67cc753532c05c1e83399fa57d168525208f479e07f76dfd5a50f568c6d",
+        "09987287d02e08065460352cd1e51ad530e16ff8e389356beeb4d3b8711edd5e",
+        "4ae755907bdb513295a6cb722cd749c6f48175e20dfd70107e9af321164f2f86"
+      ],
+      "elapsed_s": 2.6361758708953857
+    },
+    "matched_rules": []
+  },
+  {
+    "sample_id": "ESC-CSV-09587",
+    "original_row": 9587,
+    "context": "Three die in bank during Greek riots Police said 12 people were injured in the riots .",
+    "source_event": "riots",
+    "target_event": "riots",
+    "label": 1,
+    "original_label": "Cause-Effect",
+    "scope": "inter",
+    "document_candidates": [
+      {
+        "doc": "8_3ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "1",
+            "27"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "8"
+    ],
+    "input_hash": "9df03cbae07353c1f2b81059339a5b0c35f17c38a50355230c91f7016be5f8b2",
+    "split": "test",
+    "prediction_E0": 0,
+    "prediction_E1": 0,
+    "prediction_E2": 0,
+    "error_type": "FN",
+    "trace": {
+      "input_hash": "9df03cbae07353c1f2b81059339a5b0c35f17c38a50355230c91f7016be5f8b2",
+      "sample_id": "ESC-CSV-09587",
+      "scope": "inter",
+      "split": "test",
+      "e0": 0,
+      "votes": [
+        0,
+        0,
+        0
+      ],
+      "yes_count": 0,
+      "mediators": null,
+      "route": "filtered",
+      "e1": 0,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "cb297c2ae48c2aa35619f0749c9d6ffcfaaca654b628573d405df19cc683dd40",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causal": {
+          "call_id": "cb297c2ae48c2aa35619f0749c9d6ffcfaaca654b628573d405df19cc683dd40",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causation": {
+          "call_id": "1d01e6bcecd939f13896d26546b7659959ba9c7468ceba1116eea770a38a3073",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        },
+        "explorer_causality": {
+          "call_id": "d3094c4f6132a8ad7f69b1c5f3081cff923e11f4bc0ed62e2106bd8833779517",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\"}"
+        }
+      },
+      "call_ids": [
+        "cb297c2ae48c2aa35619f0749c9d6ffcfaaca654b628573d405df19cc683dd40",
+        "cb297c2ae48c2aa35619f0749c9d6ffcfaaca654b628573d405df19cc683dd40",
+        "1d01e6bcecd939f13896d26546b7659959ba9c7468ceba1116eea770a38a3073",
+        "d3094c4f6132a8ad7f69b1c5f3081cff923e11f4bc0ed62e2106bd8833779517"
+      ],
+      "elapsed_s": 3.164863348007202
+    },
+    "matched_rules": []
+  },
+  {
+    "sample_id": "ESC-CSV-04069",
+    "original_row": 4069,
+    "context": "Two men have died in separate climbing accidents at Mt Cook this weekend .",
+    "source_event": "died",
+    "target_event": "climbing",
+    "label": 0,
+    "original_label": "NONE",
+    "scope": "intra",
+    "document_candidates": [
+      {
+        "doc": "23_7ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "3"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "23"
+    ],
+    "input_hash": "92bd32a6f8c0315ad0b067604af39c9970ffeef85fe4c59e6c3f66cdf8d27571",
+    "split": "test",
+    "prediction_E0": 1,
+    "prediction_E1": 1,
+    "prediction_E2": 1,
+    "error_type": "FP",
+    "trace": {
+      "input_hash": "92bd32a6f8c0315ad0b067604af39c9970ffeef85fe4c59e6c3f66cdf8d27571",
+      "sample_id": "ESC-CSV-04069",
+      "scope": "intra",
+      "split": "test",
+      "e0": 1,
+      "votes": [
+        1,
+        1,
+        1
+      ],
+      "yes_count": 3,
+      "mediators": [
+        "men",
+        "accidents",
+        "Mt Cook",
+        "weekend"
+      ],
+      "route": "indirect",
+      "e1": 1,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causal": {
+          "call_id": "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causation": {
+          "call_id": "881b59a65db338e10253ad110a58d125cea66325c671a823081809a2e8b452f9",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causality": {
+          "call_id": "26e7a6e6b1cdd05b058c4e1c0fc2364f398a4636ec47dd03b87a4cd32ca59612",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "mediator": {
+          "call_id": "c4a1647d430bf476edfbd1187255c890172b0c0fee0362eb7ddfd943589bf4e6",
+          "status": "ok",
+          "text": "{\"source_related\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"],\"target_related\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"],\"mediators\":[\"men\",\"accidents\",\"Mt Cook\",\"weekend\"]}"
+        },
+        "indirect": {
+          "call_id": "0288f95f530b953bb0f6a42cc5ad88807d549cfdd666dc556823fa219048cadb",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Climbing accidents caused the men's deaths; the fatal outcome resulted from climbing, consistent with common-sense causal order.\"}"
+        }
+      },
+      "call_ids": [
+        "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+        "e5f16357ac1481ea808abfe24ae5f57ba009ee9ffe0b3a695192116f258d3406",
+        "881b59a65db338e10253ad110a58d125cea66325c671a823081809a2e8b452f9",
+        "26e7a6e6b1cdd05b058c4e1c0fc2364f398a4636ec47dd03b87a4cd32ca59612",
+        "c4a1647d430bf476edfbd1187255c890172b0c0fee0362eb7ddfd943589bf4e6",
+        "0288f95f530b953bb0f6a42cc5ad88807d549cfdd666dc556823fa219048cadb"
+      ],
+      "elapsed_s": 3.94116473197937
+    },
+    "matched_rules": [
+      3
+    ]
+  },
+  {
+    "sample_id": "ESC-CSV-09472",
+    "original_row": 9472,
+    "context": "BREAKING NEWS - 3 DEAD due to Molotov cocktail at Bank SKY - TV reports that the 3 bank employees were burnt to death .",
+    "source_event": "DEAD",
+    "target_event": "burnt",
+    "label": 0,
+    "original_label": "NONE",
+    "scope": "inter",
+    "document_candidates": [
+      {
+        "doc": "8_10ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "1",
+            "5"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "8"
+    ],
+    "input_hash": "241330a94ae32ca8be5df3f41f4969c1064d3f48a3c1dcb4ca836fd86ebbd888",
+    "split": "test",
+    "prediction_E0": 1,
+    "prediction_E1": 1,
+    "prediction_E2": 1,
+    "error_type": "FP",
+    "trace": {
+      "input_hash": "241330a94ae32ca8be5df3f41f4969c1064d3f48a3c1dcb4ca836fd86ebbd888",
+      "sample_id": "ESC-CSV-09472",
+      "scope": "inter",
+      "split": "test",
+      "e0": 1,
+      "votes": [
+        1,
+        1,
+        1
+      ],
+      "yes_count": 3,
+      "mediators": [
+        "3",
+        "bank employees",
+        "Molotov cocktail",
+        "Bank SKY"
+      ],
+      "route": "indirect",
+      "e1": 1,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causal": {
+          "call_id": "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causation": {
+          "call_id": "25c001d63e63ea458a03dfd70ae66d0496d32b8dfcf1ef48cfefdad6b9b49062",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causality": {
+          "call_id": "8c352b9aefd676a3ad7d1fadaa0af3ee5f3dcdfcac4592aa2ae31d598be13af9",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "mediator": {
+          "call_id": "ef0868edbc9506c64b8ff29ff82c0b1a953881fc0899a94589fc25c341a9714f",
+          "status": "ok",
+          "text": "{\"source_related\":[\"3\",\"bank employees\",\"burnt\",\"Molotov cocktail\",\"Bank SKY\"],\"target_related\":[\"3\",\"bank employees\",\"death\",\"Molotov cocktail\",\"Bank SKY\"],\"mediators\":[\"3\",\"bank employees\",\"Molotov cocktail\",\"Bank SKY\"]}"
+        },
+        "indirect": {
+          "call_id": "7d9a8166a2541b62ccabc2a2d9b1f2cd509dd3399c3d0d3f150dc3d127d80a6c",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says the 3 bank employees were 'burnt to death,' and headline says '3 DEAD due to Molotov cocktail'; 'due to' explicitly links death to burning.\"}"
+        }
+      },
+      "call_ids": [
+        "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+        "f3a017613591253b4041f5cf6209f9a80c7195c0ecf58e51e03d2ff6d22f6bf7",
+        "25c001d63e63ea458a03dfd70ae66d0496d32b8dfcf1ef48cfefdad6b9b49062",
+        "8c352b9aefd676a3ad7d1fadaa0af3ee5f3dcdfcac4592aa2ae31d598be13af9",
+        "ef0868edbc9506c64b8ff29ff82c0b1a953881fc0899a94589fc25c341a9714f",
+        "7d9a8166a2541b62ccabc2a2d9b1f2cd509dd3399c3d0d3f150dc3d127d80a6c"
+      ],
+      "elapsed_s": 4.985845327377319
+    },
+    "matched_rules": [
+      1
+    ]
+  },
+  {
+    "sample_id": "ESC-CSV-06613",
+    "original_row": 6613,
+    "context": "Footage Of Brooklyn Mother's Fatal Shooting Released During Trial",
+    "source_event": "Fatal Shooting",
+    "target_event": "Trial",
+    "label": 1,
+    "original_label": "Cause-Effect",
+    "scope": "intra",
+    "document_candidates": [
+      {
+        "doc": "33_1ecbplus.xml.xml",
+        "sentence_ids": [
+          [
+            "1"
+          ]
+        ]
+      }
+    ],
+    "topics": [
+      "33"
+    ],
+    "input_hash": "687d93e9fa42176e3d6ce8f34523fcea3176c5a7f596b694a43b0676fbbc63a8",
+    "split": "test",
+    "prediction_E0": 1,
+    "prediction_E1": 0,
+    "prediction_E2": 0,
+    "error_type": "FN",
+    "trace": {
+      "input_hash": "687d93e9fa42176e3d6ce8f34523fcea3176c5a7f596b694a43b0676fbbc63a8",
+      "sample_id": "ESC-CSV-06613",
+      "scope": "intra",
+      "split": "test",
+      "e0": 1,
+      "votes": [
+        1,
+        1,
+        1
+      ],
+      "yes_count": 3,
+      "mediators": [
+        "Footage",
+        "Released",
+        "Brooklyn",
+        "Mother"
+      ],
+      "route": "indirect",
+      "e1": 0,
+      "pipeline_status": "ok",
+      "stages": {
+        "E0": {
+          "call_id": "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causal": {
+          "call_id": "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causation": {
+          "call_id": "792d5c201168fa1df5dbe2378a1c5760e49fbb0a0c6fa96cb2ae71f2152983d5",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "explorer_causality": {
+          "call_id": "966272e4ec615d9086085ed992d85310a887ba4ae24198d3c92fc7c69d3c9033",
+          "status": "ok",
+          "text": "{\"Answer\":\"Yes\"}"
+        },
+        "mediator": {
+          "call_id": "b1b15df46e063e01c6afd1eee59816de1a00a656abaac9274ebc55a81874860f",
+          "status": "ok",
+          "text": "{\"source_related\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"],\"target_related\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"],\"mediators\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\"]}"
+        },
+        "indirect": {
+          "call_id": "3fa9089b9b0c439955307a4c225f07b77279e3dfef269afc977bbb567d7c40c6",
+          "status": "ok",
+          "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Footage of the fatal shooting was released during the trial; the shooting does not cause the trial, and no causal word links them.\"}"
+        }
+      },
+      "call_ids": [
+        "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+        "bd530791ca180bc9858dbcb5229847101c0db50672ff8c70c267dbf9ca6ebe82",
+        "792d5c201168fa1df5dbe2378a1c5760e49fbb0a0c6fa96cb2ae71f2152983d5",
+        "966272e4ec615d9086085ed992d85310a887ba4ae24198d3c92fc7c69d3c9033",
+        "b1b15df46e063e01c6afd1eee59816de1a00a656abaac9274ebc55a81874860f",
+        "3fa9089b9b0c439955307a4c225f07b77279e3dfef269afc977bbb567d7c40c6"
+      ],
+      "elapsed_s": 5.386058568954468
+    },
+    "matched_rules": []
+  }
+]

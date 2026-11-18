@@ -1,0 +1,63 @@
+{
+  "input_hash": "b55ce3529ccaed6d333f34fec972cb0a205c4f529f2fa6776ee138d73e4fc923",
+  "sample_id": "ESC-CSV-02637",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "teenager",
+    "police",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "92979221a0eb7c2ea3a507880f004b9b64dac30e04e431cb830626c07434eada",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "92979221a0eb7c2ea3a507880f004b9b64dac30e04e431cb830626c07434eada",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "09dfc5090dd8a4807f454395f901702e1d07af6250b6a6fff69ccc7cdb336a28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "90f9cc9b8872615544790ba388a39066408166894dabc7cc490ce350f66549f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "01bbf6f5e4964c60dbca8037a26fcfe0dbbd93bd31f9b669c0375b12f6859d73",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenager\",\"police\",\"killed\"],\"target_related\":[\"Brooklyn\",\"teenager\",\"police\",\"killed\"],\"mediators\":[\"Brooklyn\",\"teenager\",\"police\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "03cc97a053b564139c2421570bf8d05f72c0287d5d3381b0d8de6c5f8f7ff2fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed by police' — 'by' explicitly links shot to death; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "92979221a0eb7c2ea3a507880f004b9b64dac30e04e431cb830626c07434eada",
+    "92979221a0eb7c2ea3a507880f004b9b64dac30e04e431cb830626c07434eada",
+    "09dfc5090dd8a4807f454395f901702e1d07af6250b6a6fff69ccc7cdb336a28",
+    "90f9cc9b8872615544790ba388a39066408166894dabc7cc490ce350f66549f9",
+    "01bbf6f5e4964c60dbca8037a26fcfe0dbbd93bd31f9b669c0375b12f6859d73",
+    "03cc97a053b564139c2421570bf8d05f72c0287d5d3381b0d8de6c5f8f7ff2fc"
+  ],
+  "elapsed_s": 3.9445583820343018
+}

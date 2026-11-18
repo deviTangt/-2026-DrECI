@@ -1,0 +1,64 @@
+{
+  "input_hash": "ea46dded1b8cd2948ef0bf13ab853d609cdbee8f48d36e56a8fc3fe7f0b4dfa1",
+  "sample_id": "ESC-CSV-02616",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "bullets",
+    "Brooklyn",
+    "teenager",
+    "Kimani ( Kiki ) Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d39facb91c06a472415b213dd488c1029871e6b33700fc8c0e0e926e9ec3f2d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d39facb91c06a472415b213dd488c1029871e6b33700fc8c0e0e926e9ec3f2d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3142c0719da9126e3267401b31e344e76e013dbabfeaa74fc7aa9c2f43a0131b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0c089603817b40c3f9e1bf7d3b23907c362f51757dc34f91800a8f1179d43a7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b1b96eaf0b3bb3d003263edac721263c397415fc2be49bc68cdf60652bd01a69",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"bullets\",\"Brooklyn\",\"teenager\",\"Kimani ( Kiki ) Gray\"],\"target_related\":[\"police\",\"bullets\",\"Brooklyn\",\"teenager\",\"Kimani ( Kiki ) Gray\"],\"mediators\":[\"police\",\"bullets\",\"Brooklyn\",\"teenager\",\"Kimani ( Kiki ) Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "a42c76d19d6f9c6ebd9719295832a0d13937b355ad4f5bbb080b1872abeabbc0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed by police bullets' — 'by' explicitly links shot to killed; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "d39facb91c06a472415b213dd488c1029871e6b33700fc8c0e0e926e9ec3f2d5",
+    "d39facb91c06a472415b213dd488c1029871e6b33700fc8c0e0e926e9ec3f2d5",
+    "3142c0719da9126e3267401b31e344e76e013dbabfeaa74fc7aa9c2f43a0131b",
+    "0c089603817b40c3f9e1bf7d3b23907c362f51757dc34f91800a8f1179d43a7e",
+    "b1b96eaf0b3bb3d003263edac721263c397415fc2be49bc68cdf60652bd01a69",
+    "a42c76d19d6f9c6ebd9719295832a0d13937b355ad4f5bbb080b1872abeabbc0"
+  ],
+  "elapsed_s": 4.291055917739868
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "825bd51dcf6ea756e9bb7f6e62dfef36a79fc6d79af84912cbd05a75114a6408",
+  "sample_id": "ESC-CSV-04460",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "Casty store",
+    "Paris",
+    "Place Vendôme",
+    "France",
+    "Riviera"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c182385a1bf49eeda3e55891d7f1a8e45fd9b233b8794afb3dd41570b0f7f8f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c182385a1bf49eeda3e55891d7f1a8e45fd9b233b8794afb3dd41570b0f7f8f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6e8dbbd892e8a8061f53754460af7b950c4b431d3479d32bf715f0076270f648",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2d90ca52003e290238b110a01851bdd1aee9c352f3075fa438778909d45d1d27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "636af9a9a2f5267fb4bc4f8cfa22bc5e34de3f8157e7830e72400340c100ee26",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"Casty store\",\"Paris\",\"Place Vendôme\",\"France\",\"Riviera\"],\"target_related\":[\"Four men\",\"Casty store\",\"Paris\",\"Place Vendôme\",\"France\",\"Riviera\",\"minutes\"],\"mediators\":[\"Four men\",\"Casty store\",\"Paris\",\"Place Vendôme\",\"France\",\"Riviera\"]}"
+    },
+    "indirect": {
+      "call_id": "acb5fa660c4288595c16d403e6290ef2dd4e5a659a6ec581c0ddd3be17d438a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store enabled the men to carry out the robbery; the ramming precedes and causes the robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "c182385a1bf49eeda3e55891d7f1a8e45fd9b233b8794afb3dd41570b0f7f8f5",
+    "c182385a1bf49eeda3e55891d7f1a8e45fd9b233b8794afb3dd41570b0f7f8f5",
+    "6e8dbbd892e8a8061f53754460af7b950c4b431d3479d32bf715f0076270f648",
+    "2d90ca52003e290238b110a01851bdd1aee9c352f3075fa438778909d45d1d27",
+    "636af9a9a2f5267fb4bc4f8cfa22bc5e34de3f8157e7830e72400340c100ee26",
+    "acb5fa660c4288595c16d403e6290ef2dd4e5a659a6ec581c0ddd3be17d438a6"
+  ],
+  "elapsed_s": 3.9148905277252197
+}

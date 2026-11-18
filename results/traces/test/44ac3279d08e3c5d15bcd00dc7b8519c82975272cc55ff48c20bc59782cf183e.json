@@ -1,0 +1,63 @@
+{
+  "input_hash": "44ac3279d08e3c5d15bcd00dc7b8519c82975272cc55ff48c20bc59782cf183e",
+  "sample_id": "ESC-CSV-06715",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gangbangers",
+    "mom",
+    "12",
+    "trial"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "33edfeed5d0a379145b99fbdbb4dd90c3b7a513cedf64832256f4ff5f38bca02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "33edfeed5d0a379145b99fbdbb4dd90c3b7a513cedf64832256f4ff5f38bca02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8d29f71d7bdbf31b3674d47ba4a288b5c97ec8834c653f5a5d1ea3325e4ad1e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b3ec156bb6e68a7f08ab788fa7d2643e1acd3410a66e8b487bd2207e2d8bf988",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "12918807071f102df3ac1677fe1a0b1e068ce32dcb95c5388f04a075ef471329",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gangbangers\",\"mom\",\"12\",\"trial\"],\"target_related\":[\"Gangbangers\",\"mom\",\"12\",\"trial\"],\"mediators\":[\"Gangbangers\",\"mom\",\"12\",\"trial\"]}"
+    },
+    "indirect": {
+      "call_id": "c52318be0741f975a69eb8a086ceb63ea3da1369e9cebda3a47738c9291ff6fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed mom of 12 in crossfire' — 'in' marks crossfire as the causal circumstance; common sense: being caught in crossfire causes being killed.\"}"
+    }
+  },
+  "call_ids": [
+    "33edfeed5d0a379145b99fbdbb4dd90c3b7a513cedf64832256f4ff5f38bca02",
+    "33edfeed5d0a379145b99fbdbb4dd90c3b7a513cedf64832256f4ff5f38bca02",
+    "8d29f71d7bdbf31b3674d47ba4a288b5c97ec8834c653f5a5d1ea3325e4ad1e9",
+    "b3ec156bb6e68a7f08ab788fa7d2643e1acd3410a66e8b487bd2207e2d8bf988",
+    "12918807071f102df3ac1677fe1a0b1e068ce32dcb95c5388f04a075ef471329",
+    "c52318be0741f975a69eb8a086ceb63ea3da1369e9cebda3a47738c9291ff6fd"
+  ],
+  "elapsed_s": 5.4783406257629395
+}

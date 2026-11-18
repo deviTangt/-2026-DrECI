@@ -1,0 +1,64 @@
+{
+  "input_hash": "61dd7cb0ca49711b991f748fa45e0ce0694c908c3965787823d725daac4c5595",
+  "sample_id": "ESC-CSV-04637",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "Casty",
+    "Shop",
+    "Raid",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a0aa705b15c9bd21f28fd800aa8bcd01f69edeb242b1a63f599de1ff5d361745",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a0aa705b15c9bd21f28fd800aa8bcd01f69edeb242b1a63f599de1ff5d361745",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e9a5a0d0018c3fd1618491ca356e8e0a2d2bb3da8c755f1d541e7e1931cccee4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eda639de03f6b76eafeaefba7b2638907b45f2f663463919fbcc3cf17312b234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "87bd9582e303c6c2fe2c66f31c1077c779de0e84e31818e5674a7f7f4b3617a8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\",\"Paris\",\"Jewellery\",\"Casty\",\"Shop\",\"Raid\"],\"target_related\":[\"Jewellery\",\"Casty\",\"Shop\",\"Raid\",\"Paris\"],\"mediators\":[\"Jewellery\",\"Casty\",\"Shop\",\"Raid\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "39f13c3224e7d1302bbe17c020bdce870dec6bf9886caca64647235456d99710",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A heist is a robbery; robbery causes jewellery to be stolen, so the heist precedes and causes the Stolen event by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "a0aa705b15c9bd21f28fd800aa8bcd01f69edeb242b1a63f599de1ff5d361745",
+    "a0aa705b15c9bd21f28fd800aa8bcd01f69edeb242b1a63f599de1ff5d361745",
+    "e9a5a0d0018c3fd1618491ca356e8e0a2d2bb3da8c755f1d541e7e1931cccee4",
+    "eda639de03f6b76eafeaefba7b2638907b45f2f663463919fbcc3cf17312b234",
+    "87bd9582e303c6c2fe2c66f31c1077c779de0e84e31818e5674a7f7f4b3617a8",
+    "39f13c3224e7d1302bbe17c020bdce870dec6bf9886caca64647235456d99710"
+  ],
+  "elapsed_s": 5.288355350494385
+}

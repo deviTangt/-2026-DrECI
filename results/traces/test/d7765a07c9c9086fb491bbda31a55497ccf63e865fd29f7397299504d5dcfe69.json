@@ -1,0 +1,61 @@
+{
+  "input_hash": "d7765a07c9c9086fb491bbda31a55497ccf63e865fd29f7397299504d5dcfe69",
+  "sample_id": "ESC-CSV-06862",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "face",
+    "girl"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "809b028e1115e3ab3ad1e95b93e40c4401389dbf39e9e110592364d024ae60a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "809b028e1115e3ab3ad1e95b93e40c4401389dbf39e9e110592364d024ae60a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "553aa5c6215718e770ab890c69f7dab405f1b8ea861017ae25597f9efae6389a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1302127e5fe0c520ab2a3cb5d417cf959596a3d557fa15102dd92995982cdc62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "931abc9ef8e0879be301372ee91d775d6290d794843490a32b50df3ecb2f1913",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"face\",\"chest\",\"gunfire\",\"students\",\"girl\"],\"target_related\":[\"girl\",\"arm\",\"face\",\"injury\"],\"mediators\":[\"face\",\"girl\"]}"
+    },
+    "indirect": {
+      "call_id": "a2b0f738b110fe02c77697eed208c14138b3ce177cd95b98fe04c8504a2ef704",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shot killed Horton; the girl's graze wound is a separate injury, not caused by the shot. No causal link between X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "809b028e1115e3ab3ad1e95b93e40c4401389dbf39e9e110592364d024ae60a3",
+    "809b028e1115e3ab3ad1e95b93e40c4401389dbf39e9e110592364d024ae60a3",
+    "553aa5c6215718e770ab890c69f7dab405f1b8ea861017ae25597f9efae6389a",
+    "1302127e5fe0c520ab2a3cb5d417cf959596a3d557fa15102dd92995982cdc62",
+    "931abc9ef8e0879be301372ee91d775d6290d794843490a32b50df3ecb2f1913",
+    "a2b0f738b110fe02c77697eed208c14138b3ce177cd95b98fe04c8504a2ef704"
+  ],
+  "elapsed_s": 4.801710844039917
+}

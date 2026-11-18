@@ -1,0 +1,60 @@
+{
+  "input_hash": "aa989500d37d8752e2521d4ebd34ef148a49079795b14f6af73e170be2e85fae",
+  "sample_id": "ESC-CSV-01800",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "gang member"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3894485d1afa36fd5a29b5089b97260333f56f698ed1377bc56cb34b979b956b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3894485d1afa36fd5a29b5089b97260333f56f698ed1377bc56cb34b979b956b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2f4e5c20c208005de4ee70a13b8ff9ffd706293e4db6c5d11b4a4522494fd4b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "728097a2f419593712e50c5e4d8fa86a15919cf604d8ed90a04f80c836009f81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a81fb57cabc804a7a3b65984ef48857d95d0812c62a7a645dd81bd3a2e73738b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang member\",\"Los Angeles County Sheriff's deputy\",\"June 2005\"],\"target_related\":[\"Norwalk jury\",\"Tuesday\",\"ordered execution\",\"gang member\"],\"mediators\":[\"gang member\"]}"
+    },
+    "indirect": {
+      "call_id": "04d37b44d377b13a27f358843e817403092269e600d6a258a01bea944532981f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being convicted of murdering follows from the murder; the murder precedes and causes the conviction, matching common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "3894485d1afa36fd5a29b5089b97260333f56f698ed1377bc56cb34b979b956b",
+    "3894485d1afa36fd5a29b5089b97260333f56f698ed1377bc56cb34b979b956b",
+    "2f4e5c20c208005de4ee70a13b8ff9ffd706293e4db6c5d11b4a4522494fd4b5",
+    "728097a2f419593712e50c5e4d8fa86a15919cf604d8ed90a04f80c836009f81",
+    "a81fb57cabc804a7a3b65984ef48857d95d0812c62a7a645dd81bd3a2e73738b",
+    "04d37b44d377b13a27f358843e817403092269e600d6a258a01bea944532981f"
+  ],
+  "elapsed_s": 5.108580112457275
+}

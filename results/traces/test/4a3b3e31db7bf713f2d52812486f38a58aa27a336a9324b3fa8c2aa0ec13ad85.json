@@ -1,0 +1,64 @@
+{
+  "input_hash": "4a3b3e31db7bf713f2d52812486f38a58aa27a336a9324b3fa8c2aa0ec13ad85",
+  "sample_id": "ESC-CSV-04113",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "climbers",
+    "man",
+    "Hampton East",
+    "Tasman Glacier",
+    "Mt Cook"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bc34d943e43ac29f98a390d6e396b3c6c8433999c02fc86bd9337ef89e3f4aa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bc34d943e43ac29f98a390d6e396b3c6c8433999c02fc86bd9337ef89e3f4aa5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ff4cbacad7f62c45aa37b16af68665a5c566ce248372fe058aed1fc42db819d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5465abf372e88165f710ec085cd47723308d8141cf6ea7a6a72df2a232ef4b13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1d74f9d5fc61a45efd92339232d9e181c2023fd9c46f671d267dcb04a8c56708",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climbers\",\"man\",\"Hampton East\",\"Tasman Glacier\",\"Mt Cook\"],\"target_related\":[\"man\",\"Hampton East\",\"Tasman Glacier\",\"Mt Cook\",\"climbers\"],\"mediators\":[\"climbers\",\"man\",\"Hampton East\",\"Tasman Glacier\",\"Mt Cook\"]}"
+    },
+    "indirect": {
+      "call_id": "5c1528caeb788344db4b26ac55925e5c106165f83e664f78411c15682e0fef81",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says the man fell and climbers were killed in falls; no explicit or implicit causal word links 'killed' to 'fell', and common sense does not make being killed cause falling.\"}"
+    }
+  },
+  "call_ids": [
+    "bc34d943e43ac29f98a390d6e396b3c6c8433999c02fc86bd9337ef89e3f4aa5",
+    "bc34d943e43ac29f98a390d6e396b3c6c8433999c02fc86bd9337ef89e3f4aa5",
+    "ff4cbacad7f62c45aa37b16af68665a5c566ce248372fe058aed1fc42db819d1",
+    "5465abf372e88165f710ec085cd47723308d8141cf6ea7a6a72df2a232ef4b13",
+    "1d74f9d5fc61a45efd92339232d9e181c2023fd9c46f671d267dcb04a8c56708",
+    "5c1528caeb788344db4b26ac55925e5c106165f83e664f78411c15682e0fef81"
+  ],
+  "elapsed_s": 4.28034234046936
+}

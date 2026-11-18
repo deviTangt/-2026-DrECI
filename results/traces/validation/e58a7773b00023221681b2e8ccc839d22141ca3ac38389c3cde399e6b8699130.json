@@ -1,0 +1,61 @@
+{
+  "input_hash": "e58a7773b00023221681b2e8ccc839d22141ca3ac38389c3cde399e6b8699130",
+  "sample_id": "ESC-CSV-02258",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LaCalamita",
+    "bosses"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f8ea4f8aa0fad27dfa1c70484244bab28ed26c8ba8934647c6f6e1aeb94731d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f8ea4f8aa0fad27dfa1c70484244bab28ed26c8ba8934647c6f6e1aeb94731d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8f6f82b6058483cd58f5fe873bdbde199a2d64842595e61e7590b7c6f4420d50",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bb06c3598a8f2db7fe9c68d0d96836d3ebf6f8857344f9f7fc1378129ba0d176",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2e3ec4add0a81caf809a116ca3c9891b6e782a8f05e54414f4b3a2e235534acc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"lost\",\"job\",\"bosses\",\"LaCalamita\"],\"target_related\":[\"LaCalamita\",\"Riva\",\"bosses\",\"receptionist\",\"wounding\",\"killing\"],\"mediators\":[\"LaCalamita\",\"bosses\"]}"
+    },
+    "indirect": {
+      "call_id": "c036a04250b438d849cb7ba26a2ad7b77a29210a7bbc42dae0b918a4f1f5285a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being fired (losing his job) prompted the accountant to buy a shotgun and later shoot his bosses, so the firing causally precedes the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "f8ea4f8aa0fad27dfa1c70484244bab28ed26c8ba8934647c6f6e1aeb94731d0",
+    "f8ea4f8aa0fad27dfa1c70484244bab28ed26c8ba8934647c6f6e1aeb94731d0",
+    "8f6f82b6058483cd58f5fe873bdbde199a2d64842595e61e7590b7c6f4420d50",
+    "bb06c3598a8f2db7fe9c68d0d96836d3ebf6f8857344f9f7fc1378129ba0d176",
+    "2e3ec4add0a81caf809a116ca3c9891b6e782a8f05e54414f4b3a2e235534acc",
+    "c036a04250b438d849cb7ba26a2ad7b77a29210a7bbc42dae0b918a4f1f5285a"
+  ],
+  "elapsed_s": 10.305908441543579
+}

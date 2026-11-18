@@ -1,0 +1,60 @@
+{
+  "input_hash": "c6e635422f1ae9336a55cc456a2fe78a4a4cc679963d30d1fbdc6384735f9071",
+  "sample_id": "ESC-CSV-04305",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ffa18d8a8ffbba7e2475d8072f28881fd9d594e1f65ceba4ef776fda4d42f257",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ffa18d8a8ffbba7e2475d8072f28881fd9d594e1f65ceba4ef776fda4d42f257",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c9b94d4972e7b2eb71fe58c434893b797534ea642119ad9f90d76d6c7323a325",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e8dd64d6e8b3b32e751effc50202aa26f308bef7725570b245b643cbe20ac4e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a3b925f5c681cb4b799c39370412807be4f42a787df6640c979abd53bef071c8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Australian\",\"Ski\",\"Mountaineer\",\"Fall\",\"New Zealand\",\"death\"],\"target_related\":[\"ridgeline\",\"fell\",\"death\"],\"mediators\":[\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "9ce387c313cec1f1e3dee37a99fa0a4e2769a86bdbcbec3016472d6d11221e3c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping from the ridgeline caused the fall, which led to his death; slipping precedes and causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "ffa18d8a8ffbba7e2475d8072f28881fd9d594e1f65ceba4ef776fda4d42f257",
+    "ffa18d8a8ffbba7e2475d8072f28881fd9d594e1f65ceba4ef776fda4d42f257",
+    "c9b94d4972e7b2eb71fe58c434893b797534ea642119ad9f90d76d6c7323a325",
+    "e8dd64d6e8b3b32e751effc50202aa26f308bef7725570b245b643cbe20ac4e6",
+    "a3b925f5c681cb4b799c39370412807be4f42a787df6640c979abd53bef071c8",
+    "9ce387c313cec1f1e3dee37a99fa0a4e2769a86bdbcbec3016472d6d11221e3c"
+  ],
+  "elapsed_s": 5.07071590423584
+}

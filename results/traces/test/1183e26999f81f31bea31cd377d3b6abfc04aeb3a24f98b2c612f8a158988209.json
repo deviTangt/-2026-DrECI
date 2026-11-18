@@ -1,0 +1,70 @@
+{
+  "input_hash": "1183e26999f81f31bea31cd377d3b6abfc04aeb3a24f98b2c612f8a158988209",
+  "sample_id": "ESC-CSV-09593",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "cars",
+    "fire truck",
+    "burning",
+    "barricades",
+    "Firefighters",
+    "blazes",
+    "buildings",
+    "bank",
+    "branch",
+    "Finance Ministry"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "23e2e9ff7243cc30712448e6ecc5638d7f0d672f99478b117bfa1a802e52b792",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "23e2e9ff7243cc30712448e6ecc5638d7f0d672f99478b117bfa1a802e52b792",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5d07463cf4d042b7a039040491bbfc8e64a48498afabe552fb5e15225320fb4e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a4d570e841a77f4596153390ce559ca05bdf67ca974254346eadbe1b457a4044",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1890ee75b1432711637e1fe48eba85fbe99d65e5962b0553a57794a0b6dda6bd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"injured\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"burning\",\"barricades\",\"cars\",\"fire truck\"],\"target_related\":[\"protesters\",\"cars\",\"fire truck\",\"burning\",\"barricades\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\"],\"mediators\":[\"protesters\",\"cars\",\"fire truck\",\"burning\",\"barricades\",\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\"]}"
+    },
+    "indirect": {
+      "call_id": "7ca9809b4d6408d9ac2c323e591613de0c20c61d3a664aa82b23e6def70c3edf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots (unrest) precede and plausibly cause protesters to torch cars and a fire truck; common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "23e2e9ff7243cc30712448e6ecc5638d7f0d672f99478b117bfa1a802e52b792",
+    "23e2e9ff7243cc30712448e6ecc5638d7f0d672f99478b117bfa1a802e52b792",
+    "5d07463cf4d042b7a039040491bbfc8e64a48498afabe552fb5e15225320fb4e",
+    "a4d570e841a77f4596153390ce559ca05bdf67ca974254346eadbe1b457a4044",
+    "1890ee75b1432711637e1fe48eba85fbe99d65e5962b0553a57794a0b6dda6bd",
+    "7ca9809b4d6408d9ac2c323e591613de0c20c61d3a664aa82b23e6def70c3edf"
+  ],
+  "elapsed_s": 5.461313009262085
+}

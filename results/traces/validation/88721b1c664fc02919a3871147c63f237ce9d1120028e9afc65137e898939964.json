@@ -1,0 +1,62 @@
+{
+  "input_hash": "88721b1c664fc02919a3871147c63f237ce9d1120028e9afc65137e898939964",
+  "sample_id": "ESC-CSV-02633",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "pharmacy customer",
+    "bottle",
+    "head"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4824a7dc1fd6791573b454d5507ed8caeaa927925fbacbab4c207271eda1ec0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4824a7dc1fd6791573b454d5507ed8caeaa927925fbacbab4c207271eda1ec0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ee67b9a4e9e98ea3d05e4f83d8cccd16be5f81d7285f3487dd3d4a3ea0ef0627",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c281ab8f15945150537d0df92c31c2943eb00d736082437fde70074433be6d28",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "f7ef46f285d7edb9236c622314c315de51855c586bebd96bdfe28d0e19ca5722",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anger\",\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"killed\",\"police\",\"streets\",\"East Flatbush\",\"Monday\",\"projectiles\",\"hurled\",\"cops\",\"car windows\",\"smashed\",\"pharmacy customer\",\"bottle\",\"head\"],\"target_related\":[\"pharmacy customer\",\"bottle\",\"head\",\"riot\",\"projectiles\",\"hurled\",\"cops\",\"car windows\",\"smashed\"],\"mediators\":[\"pharmacy customer\",\"bottle\",\"head\"]}"
+    },
+    "indirect": {
+      "call_id": "6c0e57651d21d39978485e06e66f512d4b649056eb5e0945d613bbc7e491061d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The riot led to projectiles and violence; a bottle (thrown during the riot) bashed a pharmacy customer's head, forming chain riot->bottle->bashed.\"}"
+    }
+  },
+  "call_ids": [
+    "4824a7dc1fd6791573b454d5507ed8caeaa927925fbacbab4c207271eda1ec0e",
+    "4824a7dc1fd6791573b454d5507ed8caeaa927925fbacbab4c207271eda1ec0e",
+    "ee67b9a4e9e98ea3d05e4f83d8cccd16be5f81d7285f3487dd3d4a3ea0ef0627",
+    "c281ab8f15945150537d0df92c31c2943eb00d736082437fde70074433be6d28",
+    "f7ef46f285d7edb9236c622314c315de51855c586bebd96bdfe28d0e19ca5722",
+    "6c0e57651d21d39978485e06e66f512d4b649056eb5e0945d613bbc7e491061d"
+  ],
+  "elapsed_s": 4.325201749801636
+}

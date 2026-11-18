@@ -1,0 +1,63 @@
+{
+  "input_hash": "eb9a0c6109e1a5fdef4f3adab5e66fd46153d743fd6526dce1e581aed9e980ce",
+  "sample_id": "ESC-CSV-09697",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "rioters",
+    "paving stones",
+    "fire bombs",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0ddc43239564efc5b78062d14cde92be7a457a626fb4b1d9e3d819e888bc707",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0ddc43239564efc5b78062d14cde92be7a457a626fb4b1d9e3d819e888bc707",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3fac8f6b304cac68a6daae01e279263347eb3e58291271960835c578c97e0469",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "547843ad665476ff9713877d0b3437c9a331d20a741a5ae1458ef1886b449838",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "4e384d8895fd0d2c31a3364d1fe0c7cb3fb1c62970f3af7b7ff3bc74490bd5bd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"injured\",\"people\",\"Tear gas\",\"city center\",\"rioters\",\"paving stones\",\"fire bombs\"],\"target_related\":[\"rioters\",\"paving stones\",\"fire bombs\",\"police\",\"city center\"],\"mediators\":[\"rioters\",\"paving stones\",\"fire bombs\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "98c9603b27a20f4207af3aee2a4fdf787fcab6848f9384e0f2f064537163d5e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Riots are the setting; rioters (not riots) hurled stones. No explicit/implicit causal word links riots to hurled, and no causal chain or coreference applies.\"}"
+    }
+  },
+  "call_ids": [
+    "c0ddc43239564efc5b78062d14cde92be7a457a626fb4b1d9e3d819e888bc707",
+    "c0ddc43239564efc5b78062d14cde92be7a457a626fb4b1d9e3d819e888bc707",
+    "3fac8f6b304cac68a6daae01e279263347eb3e58291271960835c578c97e0469",
+    "547843ad665476ff9713877d0b3437c9a331d20a741a5ae1458ef1886b449838",
+    "4e384d8895fd0d2c31a3364d1fe0c7cb3fb1c62970f3af7b7ff3bc74490bd5bd",
+    "98c9603b27a20f4207af3aee2a4fdf787fcab6848f9384e0f2f064537163d5e7"
+  ],
+  "elapsed_s": 4.52290940284729
+}

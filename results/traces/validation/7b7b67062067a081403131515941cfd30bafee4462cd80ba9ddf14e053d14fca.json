@@ -1,0 +1,72 @@
+{
+  "input_hash": "7b7b67062067a081403131515941cfd30bafee4462cd80ba9ddf14e053d14fca",
+  "sample_id": "ESC-CSV-02097",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "jury",
+    "convicted",
+    "man",
+    "April",
+    "2007",
+    "Troy",
+    "accounting",
+    "firm",
+    "receptionist",
+    "dead",
+    "managing",
+    "partners",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "28ccbf8bc011c7fdbc930c7d3df3d7c0006266aa7a014bc2c5aad8046f174ffe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "28ccbf8bc011c7fdbc930c7d3df3d7c0006266aa7a014bc2c5aad8046f174ffe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bfe3532fa22dd080543a58be7f7000088e6779f726de0def47d1e3b9a8552de2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "380676bb438438f8cd72ea06f839d377ca1762d4bc2e587ba70d1e9a88e6f17b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bedbd9cd9da663c940812c44f356b33df6bcd59c17df175c10747fe164943e63",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"convicted\",\"man\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"dead\",\"managing\",\"partners\",\"wounded\"],\"target_related\":[\"jury\",\"convicted\",\"man\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"dead\",\"managing\",\"partners\",\"wounded\"],\"mediators\":[\"jury\",\"convicted\",\"man\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\",\"receptionist\",\"dead\",\"managing\",\"partners\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "a9428e36b221298474e772ed59501dc4139303cf9b3f589e916cc3d1bdeb7985",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred in April 2007; the man was charged and later convicted for it, so the shooting precedes and causes the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "28ccbf8bc011c7fdbc930c7d3df3d7c0006266aa7a014bc2c5aad8046f174ffe",
+    "28ccbf8bc011c7fdbc930c7d3df3d7c0006266aa7a014bc2c5aad8046f174ffe",
+    "bfe3532fa22dd080543a58be7f7000088e6779f726de0def47d1e3b9a8552de2",
+    "380676bb438438f8cd72ea06f839d377ca1762d4bc2e587ba70d1e9a88e6f17b",
+    "bedbd9cd9da663c940812c44f356b33df6bcd59c17df175c10747fe164943e63",
+    "a9428e36b221298474e772ed59501dc4139303cf9b3f589e916cc3d1bdeb7985"
+  ],
+  "elapsed_s": 5.798476934432983
+}

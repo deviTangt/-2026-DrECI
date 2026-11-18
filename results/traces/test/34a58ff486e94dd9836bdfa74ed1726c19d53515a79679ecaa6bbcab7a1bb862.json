@@ -1,0 +1,64 @@
+{
+  "input_hash": "34a58ff486e94dd9836bdfa74ed1726c19d53515a79679ecaa6bbcab7a1bb862",
+  "sample_id": "ESC-CSV-04639",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "heist",
+    "shop",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8b06d241647435f35b53c9f516bf0d4e280444a54374d00148135c5b67c0d85f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8b06d241647435f35b53c9f516bf0d4e280444a54374d00148135c5b67c0d85f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7620bbf5dd0e4b4fe5290de6fa23e12c0e276f0b92d3bf960ee5743b41222a78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c9d1eaf7e993fb3a0bb78696ec50e562a3408a4c3729e20864b457610e2684bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "80cbbdb1a176c51485c123d46060e65fb1816ab6f4ccddc14b1f827ac04ebae4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"heist\",\"shop\",\"Paris\"],\"target_related\":[\"Jewellery\",\"watches\",\"heist\",\"shop\",\"Paris\"],\"mediators\":[\"Jewellery\",\"watches\",\"heist\",\"shop\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "5b563f5b05e2f6c86a8fa862d1f321dcdae0dde89ba1cd89c82e835fe45b7b4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'have been stolen during a heist' — 'during' links the raid/heist to the theft; the raid precedes and causes the jewellery being stolen.\"}"
+    }
+  },
+  "call_ids": [
+    "8b06d241647435f35b53c9f516bf0d4e280444a54374d00148135c5b67c0d85f",
+    "8b06d241647435f35b53c9f516bf0d4e280444a54374d00148135c5b67c0d85f",
+    "7620bbf5dd0e4b4fe5290de6fa23e12c0e276f0b92d3bf960ee5743b41222a78",
+    "c9d1eaf7e993fb3a0bb78696ec50e562a3408a4c3729e20864b457610e2684bc",
+    "80cbbdb1a176c51485c123d46060e65fb1816ab6f4ccddc14b1f827ac04ebae4",
+    "5b563f5b05e2f6c86a8fa862d1f321dcdae0dde89ba1cd89c82e835fe45b7b4c"
+  ],
+  "elapsed_s": 4.935338735580444
+}

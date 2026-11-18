@@ -1,0 +1,64 @@
+{
+  "input_hash": "d656e07ac556738a325408addcbd89f7f22fee13d099050b5ebbc8dd8dac58c1",
+  "sample_id": "ESC-CSV-01683",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Deputy",
+    "Ortiz",
+    "killed",
+    "defendant",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b5e292e84b277a33189ac723012e528c6898be9ec6d2252fd70c5c0c8036abfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b5e292e84b277a33189ac723012e528c6898be9ec6d2252fd70c5c0c8036abfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "264f515512980fcf271f5d2f031960ef1b0310efc4c6e107140b2a5c4eb39fae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "991cbbd2d4d27cbf558e33859e6c474e8782a82a232ae41d55282c881756e131",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "dd8a2525c1dd7b6a7fdb784fdcd4e9bda71b485e4b22c34bc6f6222813e20dd7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy\",\"Ortiz\",\"killed\",\"shooting\",\"defendant\",\"suspect\",\"Cooley\",\"news\",\"conference\",\"Bellflower\",\"courthouse\"],\"target_related\":[\"Charged\",\"Sheriff\",\"Deputy\",\"Ortiz\",\"killed\",\"defendant\",\"suspect\"],\"mediators\":[\"Deputy\",\"Ortiz\",\"killed\",\"defendant\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "3a0bb1ca2319259ae29b717e3b64e911f03d1d50402113890b2cf7676c265832",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Deputy Ortiz was killed while investigating a shooting; investigating the shooting led to the killing, so investigating causes Murdering by common sense order.\"}"
+    }
+  },
+  "call_ids": [
+    "b5e292e84b277a33189ac723012e528c6898be9ec6d2252fd70c5c0c8036abfd",
+    "b5e292e84b277a33189ac723012e528c6898be9ec6d2252fd70c5c0c8036abfd",
+    "264f515512980fcf271f5d2f031960ef1b0310efc4c6e107140b2a5c4eb39fae",
+    "991cbbd2d4d27cbf558e33859e6c474e8782a82a232ae41d55282c881756e131",
+    "dd8a2525c1dd7b6a7fdb784fdcd4e9bda71b485e4b22c34bc6f6222813e20dd7",
+    "3a0bb1ca2319259ae29b717e3b64e911f03d1d50402113890b2cf7676c265832"
+  ],
+  "elapsed_s": 4.906332969665527
+}

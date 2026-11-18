@@ -1,0 +1,62 @@
+{
+  "input_hash": "12000fda861572f175b285e8be6cf5d185a21b9d4b667b0cc885a5af6439449f",
+  "sample_id": "ESC-CSV-02213",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shooting",
+    "Murder",
+    "Attempted Murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4cd15a6f47b307ac2747d11955964a2e7fd9df0ef007542d1db59d97fc721a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4cd15a6f47b307ac2747d11955964a2e7fd9df0ef007542d1db59d97fc721a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "904a44422ff70037729a13ee91529b932b785097e7d6c864047cda19df791b8f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d13a579cb188d079de854a4ae6264aea4a5895eb277e81d291d66f03bf63e10c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "69a14b10902234223c8b6a8de5b3cf8f8c6c8dbacf9b01e46e1f11c613706944",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"co-workers\",\"fired\",\"Gordon Advisors\",\"Thursday\"],\"target_related\":[\"Murder\",\"Attempted Murder\",\"Detroit Office Shooter\"],\"mediators\":[\"shooting\",\"Murder\",\"Attempted Murder\"]}"
+    },
+    "indirect": {
+      "call_id": "9e3d0befa2aa203fefceb9f026c14d4f206cea396e169db8e0a6afebf8055d33",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Accused of shooting former co-workers; shooting (Z) leads to murder/attempted murder charges, forming chain accused->shooting->charged.\"}"
+    }
+  },
+  "call_ids": [
+    "c4cd15a6f47b307ac2747d11955964a2e7fd9df0ef007542d1db59d97fc721a5",
+    "c4cd15a6f47b307ac2747d11955964a2e7fd9df0ef007542d1db59d97fc721a5",
+    "904a44422ff70037729a13ee91529b932b785097e7d6c864047cda19df791b8f",
+    "d13a579cb188d079de854a4ae6264aea4a5895eb277e81d291d66f03bf63e10c",
+    "69a14b10902234223c8b6a8de5b3cf8f8c6c8dbacf9b01e46e1f11c613706944",
+    "9e3d0befa2aa203fefceb9f026c14d4f206cea396e169db8e0a6afebf8055d33"
+  ],
+  "elapsed_s": 8.333818197250366
+}

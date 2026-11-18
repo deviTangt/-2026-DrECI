@@ -1,0 +1,68 @@
+{
+  "input_hash": "0bb2342dbd546794c0c703bfcbdd03460b678880c442cd2fe9eb06a6569a2ddc",
+  "sample_id": "ESC-CSV-02594",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "protesters",
+    "fights",
+    "teens",
+    "East Flatbush",
+    "rioting",
+    "Brooklyn streets",
+    "arrested",
+    "Wednesday night"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a69ccf2f57ead123dbb271e01799e91af41edc60499471faa555b8454b226a95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a69ccf2f57ead123dbb271e01799e91af41edc60499471faa555b8454b226a95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a1d9ff622a8669e2326d1e5dbc4c2c872402b33c7858e19fddb3707ba406cf23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0b37f4e851c2782e60132d1fd7584d019751483e55f2337250e5c7958994c5ed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "02e8af0ef123368c9abb6fe018a1d779549cd00a6e31e74a54af43d0192739db",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani Gray\",\"16 - year - old\",\"back\",\"revealed\",\"rioting\",\"protesters\",\"cops\",\"Brooklyn streets\",\"fights\",\"teens\",\"East Flatbush\",\"arrested\",\"Wednesday night\"],\"target_related\":[\"teens\",\"fights\",\"cops\",\"protesters\",\"Enraged\",\"erupted\",\"East Flatbush\",\"rioting\",\"Brooklyn streets\",\"arrested\",\"Wednesday night\"],\"mediators\":[\"cops\",\"protesters\",\"fights\",\"teens\",\"East Flatbush\",\"rioting\",\"Brooklyn streets\",\"arrested\",\"Wednesday night\"]}"
+    },
+    "indirect": {
+      "call_id": "f0c0deefc1d1cd1c988c15757c3bd30d0414437c283d91efe8e5b1a4ad2818c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot in the back (X) precedes and plausibly causes the angry reaction of protesters/teens (Y), consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "a69ccf2f57ead123dbb271e01799e91af41edc60499471faa555b8454b226a95",
+    "a69ccf2f57ead123dbb271e01799e91af41edc60499471faa555b8454b226a95",
+    "a1d9ff622a8669e2326d1e5dbc4c2c872402b33c7858e19fddb3707ba406cf23",
+    "0b37f4e851c2782e60132d1fd7584d019751483e55f2337250e5c7958994c5ed",
+    "02e8af0ef123368c9abb6fe018a1d779549cd00a6e31e74a54af43d0192739db",
+    "f0c0deefc1d1cd1c988c15757c3bd30d0414437c283d91efe8e5b1a4ad2818c5"
+  ],
+  "elapsed_s": 11.46010160446167
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "4447d964142661da67c0351a2c03948157b3d2a8a8145aeba6305eff2dbd9f3f",
+  "sample_id": "ESC-CSV-01558",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b9129ba1c089eb0420d0874b7f53a29c5485c51187bcc61cc073ef2cfb6bb5b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b9129ba1c089eb0420d0874b7f53a29c5485c51187bcc61cc073ef2cfb6bb5b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "34ab922756575bfcc804a64e79faf4d53b2dc480eab43fe60a26f34d8a19bc8e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4af24b866cd34b07930c8f0de543b52f1c5bc165047a09eee6247832be861b97",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d3e05ac0dc599a8cc139c9b5202deaf7fad64178ba69b3a693dc7fc34c1bebd8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"sudden\",\"deputy\",\"chance\"],\"target_related\":[\"assassination\",\"deputy\",\"Sheriff\",\"Lee\",\"Baca\"],\"mediators\":[\"deputy\"]}"
+    },
+    "indirect": {
+      "call_id": "df994d802b3a1030dad3cd6369bcda4d1b8751276b37954c6fe935eeb96a47c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'gave the deputy no chance' expresses that the attack caused the deputy's inability to react, linking X (attack) to Y (This assassination).\"}"
+    }
+  },
+  "call_ids": [
+    "b9129ba1c089eb0420d0874b7f53a29c5485c51187bcc61cc073ef2cfb6bb5b8",
+    "b9129ba1c089eb0420d0874b7f53a29c5485c51187bcc61cc073ef2cfb6bb5b8",
+    "34ab922756575bfcc804a64e79faf4d53b2dc480eab43fe60a26f34d8a19bc8e",
+    "4af24b866cd34b07930c8f0de543b52f1c5bc165047a09eee6247832be861b97",
+    "d3e05ac0dc599a8cc139c9b5202deaf7fad64178ba69b3a693dc7fc34c1bebd8",
+    "df994d802b3a1030dad3cd6369bcda4d1b8751276b37954c6fe935eeb96a47c2"
+  ],
+  "elapsed_s": 5.602150917053223
+}

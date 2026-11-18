@@ -1,0 +1,65 @@
+{
+  "input_hash": "8abee810999fc911453c1e02d9555354fb5bbeaea60fd88af954f01e2a1d9723",
+  "sample_id": "ESC-CSV-01687",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Deputy Ortiz",
+    "killed",
+    "shooting",
+    "defendant",
+    "suspect",
+    "Cooley"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fb9ea3da46b5833b4f88cb79efa482b1acf3541d3260c30eba205494b608ed62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fb9ea3da46b5833b4f88cb79efa482b1acf3541d3260c30eba205494b608ed62",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "da007f91c37daab4009889de8a64da598a046ed70c8b4e92b0918c17da8a90ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cec2df3332783d9c7c60d5d02b9f895ba677ccc652b883f6ea5e5bff5cfd47d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "7794ba9f6ebb13925e10b96bbfdd34b9c68438aefc1fa204db5e40c5a2b5708d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"killed\",\"shooting\",\"defendant\",\"suspect\",\"Cooley\",\"news conference\",\"Bellflower courthouse\"],\"target_related\":[\"Deputy Ortiz\",\"killed\",\"shooting\",\"defendant\",\"suspect\",\"Cooley\",\"District Attorney Steve Cooley\",\"capital murder charges\",\"Hawaiian Gardens gang member\",\"gunning down\",\"Deputy Luis Gerardo ( Jerry ) Ortiz\"],\"mediators\":[\"Deputy Ortiz\",\"killed\",\"shooting\",\"defendant\",\"suspect\",\"Cooley\"]}"
+    },
+    "indirect": {
+      "call_id": "f8be54cc47314e454e7b309e99481018e551e5996818dba5c4366412974f898d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Investigating the shooting (X) led to Deputy Ortiz being killed (Y); the investigation preceded and caused the murder, consistent with causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "fb9ea3da46b5833b4f88cb79efa482b1acf3541d3260c30eba205494b608ed62",
+    "fb9ea3da46b5833b4f88cb79efa482b1acf3541d3260c30eba205494b608ed62",
+    "da007f91c37daab4009889de8a64da598a046ed70c8b4e92b0918c17da8a90ec",
+    "cec2df3332783d9c7c60d5d02b9f895ba677ccc652b883f6ea5e5bff5cfd47d5",
+    "7794ba9f6ebb13925e10b96bbfdd34b9c68438aefc1fa204db5e40c5a2b5708d",
+    "f8be54cc47314e454e7b309e99481018e551e5996818dba5c4366412974f898d"
+  ],
+  "elapsed_s": 5.0883753299713135
+}

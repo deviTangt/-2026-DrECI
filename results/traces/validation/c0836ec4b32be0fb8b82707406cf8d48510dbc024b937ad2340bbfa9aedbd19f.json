@@ -1,0 +1,63 @@
+{
+  "input_hash": "c0836ec4b32be0fb8b82707406cf8d48510dbc024b937ad2340bbfa9aedbd19f",
+  "sample_id": "ESC-CSV-02786",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Police",
+    "shot",
+    "RussiaToday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2bc983bc0a04615634d4eea7acca6ccf0fce118dfa4a294927bd615cd3fcc8af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2bc983bc0a04615634d4eea7acca6ccf0fce118dfa4a294927bd615cd3fcc8af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4b3c444f28a56961556158a8c9c682d86b821c81a0f670865f8dd59bf585f1f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2d890cc7997f8b5af22f74e422183302288b4bdf5aabaff0d7554a2de3a7cf27",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e76a8fb73ba799abd4c95a82cc26e0ae5025091f53ef0d34350562edc1ac2d8d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\",\"RussiaToday\"],\"target_related\":[\"Brooklyn\",\"Vigil\",\"Teen\",\"Police\",\"shot\",\"RussiaToday\"],\"mediators\":[\"Brooklyn\",\"Police\",\"shot\",\"RussiaToday\"]}"
+    },
+    "indirect": {
+      "call_id": "9c4194489ad4b78f6ee9c74351b8839c7b6d5a4225c0b479503c8b6912f7671d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A vigil for a teen shot by police precedes and, by common sense, provokes the large riot that breaks out during it.\"}"
+    }
+  },
+  "call_ids": [
+    "2bc983bc0a04615634d4eea7acca6ccf0fce118dfa4a294927bd615cd3fcc8af",
+    "2bc983bc0a04615634d4eea7acca6ccf0fce118dfa4a294927bd615cd3fcc8af",
+    "4b3c444f28a56961556158a8c9c682d86b821c81a0f670865f8dd59bf585f1f9",
+    "2d890cc7997f8b5af22f74e422183302288b4bdf5aabaff0d7554a2de3a7cf27",
+    "e76a8fb73ba799abd4c95a82cc26e0ae5025091f53ef0d34350562edc1ac2d8d",
+    "9c4194489ad4b78f6ee9c74351b8839c7b6d5a4225c0b479503c8b6912f7671d"
+  ],
+  "elapsed_s": 5.162597417831421
+}

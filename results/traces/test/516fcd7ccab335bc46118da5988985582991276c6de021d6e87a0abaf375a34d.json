@@ -1,0 +1,61 @@
+{
+  "input_hash": "516fcd7ccab335bc46118da5988985582991276c6de021d6e87a0abaf375a34d",
+  "sample_id": "ESC-CSV-09792",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "fire",
+    "bomb"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8d733f21768f72ce4569a945cf75fa3148e9b3312325dad5d8562f3fc5ff900a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8d733f21768f72ce4569a945cf75fa3148e9b3312325dad5d8562f3fc5ff900a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "acac50f33efc1c81abf5c3428d4b2075570b2e56a09959cc3cad3ed6f9ea28bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "04d91875c4c836bb2327a75f0f34b391854abe1da631a39b69fff2dd894d9008",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "3f96bfd00320fe989f03b79d1271a5bb847569f8643c847061b113fd28b1b7ad",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"people\",\"man\",\"women\",\"killed\",\"fire\",\"bomb\"],\"target_related\":[\"dead\",\"fire\",\"bomb\",\"bank\",\"Greek\",\"riots\"],\"mediators\":[\"fire\",\"bomb\"]}"
+    },
+    "indirect": {
+      "call_id": "d27c59be2cd9ada6e5fa5385201dbd9a165ff6c42fe361124f77462924ec8518",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Fire-bomb attack causes fire; fire hits bank, so attack->fire->hits forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "8d733f21768f72ce4569a945cf75fa3148e9b3312325dad5d8562f3fc5ff900a",
+    "8d733f21768f72ce4569a945cf75fa3148e9b3312325dad5d8562f3fc5ff900a",
+    "acac50f33efc1c81abf5c3428d4b2075570b2e56a09959cc3cad3ed6f9ea28bb",
+    "04d91875c4c836bb2327a75f0f34b391854abe1da631a39b69fff2dd894d9008",
+    "3f96bfd00320fe989f03b79d1271a5bb847569f8643c847061b113fd28b1b7ad",
+    "d27c59be2cd9ada6e5fa5385201dbd9a165ff6c42fe361124f77462924ec8518"
+  ],
+  "elapsed_s": 4.150848865509033
+}

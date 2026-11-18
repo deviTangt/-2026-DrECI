@@ -1,0 +1,61 @@
+{
+  "input_hash": "63226154b8428b47f200277a8700fa93cb1a506a6fc7064698cdf410f4af7e0a",
+  "sample_id": "ESC-CSV-02146",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LaCalamita",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8b1e3797292c2bb86e7d98b878403cd51ee7e9b51d8f0dd5ac10eb14c48d8b78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8b1e3797292c2bb86e7d98b878403cd51ee7e9b51d8f0dd5ac10eb14c48d8b78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "44a7caeac9ea0af87c22697530b3f63b8c31e6ad7721e9d4842c54edcbf4a93d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "effb8d9f468b0fbf7ca38524f39674de3b639437d54f3b49dafc9fd755432f2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7e214c881ba0099af643b44d06cf2c68f264076ad03a9e45c3a10d1c7eea32a7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shotgun\",\"LaCalamita\",\"murder\"],\"target_related\":[\"Kafoury\",\"LaCalamita\",\"murder\"],\"mediators\":[\"LaCalamita\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "b9c2cc28b0b7f98a0845392f1a0ea4f3ab619d98f76b05742e1c64c4c624fffe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing someone with a shotgun causes their death; the murder charge in Kafoury's death reflects this causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "8b1e3797292c2bb86e7d98b878403cd51ee7e9b51d8f0dd5ac10eb14c48d8b78",
+    "8b1e3797292c2bb86e7d98b878403cd51ee7e9b51d8f0dd5ac10eb14c48d8b78",
+    "44a7caeac9ea0af87c22697530b3f63b8c31e6ad7721e9d4842c54edcbf4a93d",
+    "effb8d9f468b0fbf7ca38524f39674de3b639437d54f3b49dafc9fd755432f2f",
+    "7e214c881ba0099af643b44d06cf2c68f264076ad03a9e45c3a10d1c7eea32a7",
+    "b9c2cc28b0b7f98a0845392f1a0ea4f3ab619d98f76b05742e1c64c4c624fffe"
+  ],
+  "elapsed_s": 5.559181213378906
+}

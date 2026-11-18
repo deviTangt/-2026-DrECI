@@ -1,0 +1,67 @@
+{
+  "input_hash": "73d4e375a6736852e674ee3e5607432a5a8b0ab273a62a523200239144a28841",
+  "sample_id": "ESC-CSV-09616",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "taxes",
+    "government",
+    "spending",
+    "International Monetary Fund",
+    "European nations",
+    "Greece",
+    "loan",
+    "defaulting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8ef4b0e796c91131eeac2b61aadb953a645febb4ec34a835d08555f8d71fd8b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8ef4b0e796c91131eeac2b61aadb953a645febb4ec34a835d08555f8d71fd8b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fc284b99a16e503bda208d3de80edf4d4ea4cffc1fdf6468e035e4f232eeba04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b183a46ccd8ca6da663c875774e279128a8ffa6f5befb4fa276810d55bd1b481",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3c585cc71dec52c09321061f9932b00e39afbc2ad4e59bc9ac0ce9182aae3b4b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"government\",\"spending\",\"taxes\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\"],\"target_related\":[\"strike\",\"streets\",\"people\",\"taxes\",\"government\",\"spending\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\"],\"mediators\":[\"taxes\",\"government\",\"spending\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\"]}"
+    },
+    "indirect": {
+      "call_id": "fa88e9c5e5f5d5a5824f5b44d4861ec6b23d28407a934264c8378c94d8ef0fb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Spending cuts demanded by IMF/European nations prompted the nationwide strike to protest them; cuts precede and cause the protest by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8ef4b0e796c91131eeac2b61aadb953a645febb4ec34a835d08555f8d71fd8b4",
+    "8ef4b0e796c91131eeac2b61aadb953a645febb4ec34a835d08555f8d71fd8b4",
+    "fc284b99a16e503bda208d3de80edf4d4ea4cffc1fdf6468e035e4f232eeba04",
+    "b183a46ccd8ca6da663c875774e279128a8ffa6f5befb4fa276810d55bd1b481",
+    "3c585cc71dec52c09321061f9932b00e39afbc2ad4e59bc9ac0ce9182aae3b4b",
+    "fa88e9c5e5f5d5a5824f5b44d4861ec6b23d28407a934264c8378c94d8ef0fb2"
+  ],
+  "elapsed_s": 4.809814214706421
+}

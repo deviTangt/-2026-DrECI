@@ -1,0 +1,71 @@
+{
+  "input_hash": "77e4d775bc2b180ca9c9856332fe4075244f9d2fdb5c2c42c4f926376fcb865b",
+  "sample_id": "ESC-CSV-02217",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "person",
+    "Monday",
+    "Detroit",
+    "accounting",
+    "firm",
+    "police",
+    "Sheriff",
+    "office",
+    "shooting",
+    "kills"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "80f57977894e97475857bf163340e0b3c141ddc3641ea89ee3f0a34f92361887",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "80f57977894e97475857bf163340e0b3c141ddc3641ea89ee3f0a34f92361887",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "23cf5ce099a18d3065999cdb1bd61803d209fd55a4c1c5c1fde772fb511f7300",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "73e47d049fb66b4f7e59c96eac7a05ebd68ce545a57f121e4a35d454fb73d3d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6aa4426a1111105ca83c6ae7e4a21d3517718f09e8e06549af8bfb674976d5dc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"person\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"police\",\"Sheriff\",\"office\",\"shooting\",\"kills\"],\"target_related\":[\"Michigan\",\"man\",\"person\",\"others\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"police\",\"Sheriff\",\"office\",\"shooting\",\"kills\"],\"mediators\":[\"Michigan\",\"man\",\"person\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"police\",\"Sheriff\",\"office\",\"shooting\",\"kills\"]}"
+    },
+    "indirect": {
+      "call_id": "26c05c2287c6f8cf9fe98ea05f346689e2b8ee13de578d3b06f8118ff58c3f2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone before they are injured follows common sense: the shooting causes the injuries.\"}"
+    }
+  },
+  "call_ids": [
+    "80f57977894e97475857bf163340e0b3c141ddc3641ea89ee3f0a34f92361887",
+    "80f57977894e97475857bf163340e0b3c141ddc3641ea89ee3f0a34f92361887",
+    "23cf5ce099a18d3065999cdb1bd61803d209fd55a4c1c5c1fde772fb511f7300",
+    "73e47d049fb66b4f7e59c96eac7a05ebd68ce545a57f121e4a35d454fb73d3d8",
+    "6aa4426a1111105ca83c6ae7e4a21d3517718f09e8e06549af8bfb674976d5dc",
+    "26c05c2287c6f8cf9fe98ea05f346689e2b8ee13de578d3b06f8118ff58c3f2f"
+  ],
+  "elapsed_s": 7.616374492645264
+}

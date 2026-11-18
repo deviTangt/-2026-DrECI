@@ -1,0 +1,63 @@
+{
+  "input_hash": "e33e582a5a812550b811ac2467f080e5b7e7cfaea78beb86448e3d6a6e4e8e1b",
+  "sample_id": "ESC-CSV-04471",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Thieves",
+    "jewellery",
+    "store",
+    "car"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f8d9985a2dfb300d2c8be12afe08bc9119b2c78df828c16ec48c8be17790f796",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f8d9985a2dfb300d2c8be12afe08bc9119b2c78df828c16ec48c8be17790f796",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a6e3c626c51f8af63ae1cd800c7f309a169746b92293ece9c1d30c9fd35f7df9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fda44e9fb6f4bc9cd3e261a43663318c087a48bd13617389817b244955946601",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a378749929d36b2d1a9d5dee64dd8b8d41feffa082867118f881524c47b76f8c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewellery\",\"watches\",\"Thieves\"],\"target_related\":[\"Thieves\",\"jewellery\",\"Paris\",\"store\",\"car\"],\"mediators\":[\"Thieves\",\"jewellery\",\"store\",\"car\"]}"
+    },
+    "indirect": {
+      "call_id": "90938bd8bd465a6e01a9ef72e30b4672ecd19f4b74a488ded83d4e29df2b8004",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drove the car into the store, enabling the thieves to grab jewellery and watches; the driving occurred before and caused the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "f8d9985a2dfb300d2c8be12afe08bc9119b2c78df828c16ec48c8be17790f796",
+    "f8d9985a2dfb300d2c8be12afe08bc9119b2c78df828c16ec48c8be17790f796",
+    "a6e3c626c51f8af63ae1cd800c7f309a169746b92293ece9c1d30c9fd35f7df9",
+    "fda44e9fb6f4bc9cd3e261a43663318c087a48bd13617389817b244955946601",
+    "a378749929d36b2d1a9d5dee64dd8b8d41feffa082867118f881524c47b76f8c",
+    "90938bd8bd465a6e01a9ef72e30b4672ecd19f4b74a488ded83d4e29df2b8004"
+  ],
+  "elapsed_s": 4.542643308639526
+}

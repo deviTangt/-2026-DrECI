@@ -1,0 +1,73 @@
+{
+  "input_hash": "a6682a19453240877215d81d39a2d99b7f00bed03090fe3a59a4dbfa7ec7d7bb",
+  "sample_id": "ESC-CSV-09723",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "demonstrators",
+    "Athens",
+    "streets",
+    "Thieves",
+    "riot",
+    "police",
+    "cordon",
+    "Parliament",
+    "ceremonial",
+    "guards",
+    "Tomb",
+    "Unknown",
+    "Soldier",
+    "building"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "10af5d7fe077fcb2374b2ed10d328ed83f7086de1ac885b252d5b2e6361392ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "10af5d7fe077fcb2374b2ed10d328ed83f7086de1ac885b252d5b2e6361392ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "26cf8aeb3d92ad56de22c9207810ab2dfc65d1a24d85b0bb91d1864e00b03bb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fe11c4d60c2211b9bca1265cb9e4ff09082aed7d7bee422cd68be81f7ca70be0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8b4ca5852291452505939ceef8a32f719e03544c0e637d38823a6701c358caa0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"ceremonial\",\"guards\",\"Tomb\",\"Unknown\",\"Soldier\",\"building\"],\"target_related\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"ceremonial\",\"guards\",\"Tomb\",\"Unknown\",\"Soldier\",\"building\"],\"mediators\":[\"demonstrators\",\"Athens\",\"streets\",\"Thieves\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"ceremonial\",\"guards\",\"Tomb\",\"Unknown\",\"Soldier\",\"building\"]}"
+    },
+    "indirect": {
+      "call_id": "60efaa3b4eb60e95bf908fa143159cfc6f48bb5cf083928c4480b2d5e1ce6a2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Demonstrators attempted to break through a police cordon; the riots are the context, not a stated cause of the break-through attempt.\"}"
+    }
+  },
+  "call_ids": [
+    "10af5d7fe077fcb2374b2ed10d328ed83f7086de1ac885b252d5b2e6361392ec",
+    "10af5d7fe077fcb2374b2ed10d328ed83f7086de1ac885b252d5b2e6361392ec",
+    "26cf8aeb3d92ad56de22c9207810ab2dfc65d1a24d85b0bb91d1864e00b03bb1",
+    "fe11c4d60c2211b9bca1265cb9e4ff09082aed7d7bee422cd68be81f7ca70be0",
+    "8b4ca5852291452505939ceef8a32f719e03544c0e637d38823a6701c358caa0",
+    "60efaa3b4eb60e95bf908fa143159cfc6f48bb5cf083928c4480b2d5e1ce6a2f"
+  ],
+  "elapsed_s": 5.8834617137908936
+}

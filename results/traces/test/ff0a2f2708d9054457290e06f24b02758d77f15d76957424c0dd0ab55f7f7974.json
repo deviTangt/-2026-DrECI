@@ -1,0 +1,66 @@
+{
+  "input_hash": "ff0a2f2708d9054457290e06f24b02758d77f15d76957424c0dd0ab55f7f7974",
+  "sample_id": "ESC-CSV-09509",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "Greece",
+    "bank",
+    "Athens",
+    "strike",
+    "spending cuts",
+    "economy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6cecf96747a41eb9e446c664cbf38358f3cb6e93de29d6d2e6e7ef1a7dacca8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6cecf96747a41eb9e446c664cbf38358f3cb6e93de29d6d2e6e7ef1a7dacca8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f4e662b847bc58ab5f1161d41c6190d9f3df15d33c6023ba7ad3e90eb94216c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "596519015b498e018195845bfd05f3ce63b9a198177a462e08b4c3ff3e4528cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6f5b9877f5d8f0e2197c02d62847efaba6337d80deb03beea159db16059d5cb3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"spending cuts\",\"economy\"],\"target_related\":[\"people\",\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"spending cuts\",\"economy\"],\"mediators\":[\"rioters\",\"Greece\",\"bank\",\"Athens\",\"strike\",\"spending cuts\",\"economy\"]}"
+    },
+    "indirect": {
+      "call_id": "12100b4aac2f4f10e0ae466305b2dcce68fdab06e95cff7bdcce3c8b752d478a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died after rioters ... set fire to a bank' — 'after' plus common sense that setting fire caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "6cecf96747a41eb9e446c664cbf38358f3cb6e93de29d6d2e6e7ef1a7dacca8d",
+    "6cecf96747a41eb9e446c664cbf38358f3cb6e93de29d6d2e6e7ef1a7dacca8d",
+    "f4e662b847bc58ab5f1161d41c6190d9f3df15d33c6023ba7ad3e90eb94216c7",
+    "596519015b498e018195845bfd05f3ce63b9a198177a462e08b4c3ff3e4528cb",
+    "6f5b9877f5d8f0e2197c02d62847efaba6337d80deb03beea159db16059d5cb3",
+    "12100b4aac2f4f10e0ae466305b2dcce68fdab06e95cff7bdcce3c8b752d478a"
+  ],
+  "elapsed_s": 4.277355194091797
+}

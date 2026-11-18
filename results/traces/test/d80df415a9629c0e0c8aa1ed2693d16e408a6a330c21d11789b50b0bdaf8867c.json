@@ -1,0 +1,62 @@
+{
+  "input_hash": "d80df415a9629c0e0c8aa1ed2693d16e408a6a330c21d11789b50b0bdaf8867c",
+  "sample_id": "ESC-CSV-09714",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "angry",
+    "protesters",
+    "parliament"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e67dd29be295d8ec5f023bac1795d2dbcab1c9906ba3ea3c0ce301763ca1789f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e67dd29be295d8ec5f023bac1795d2dbcab1c9906ba3ea3c0ce301763ca1789f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3d53de79a726a369bccba9f7138d2d8c5242c55f41f2dcfdcecb6469be4e1fe7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d58f720cb04c1e32dc2ef486bce07b6a07904b1d5afe8296ece7517efe96fefd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f9079e89d3fe3d44cf59f25605ed132a689b774a77b86730e1d94ba9a24c9a1f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"dead\",\"streets\",\"Athens\",\"Wednesday\",\"angry\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"target_related\":[\"angry\",\"protesters\",\"parliament\"],\"mediators\":[\"angry\",\"protesters\",\"parliament\"]}"
+    },
+    "indirect": {
+      "call_id": "411368a71a223f6ad67f93fb8dcdfed72d3c5bd9d39af994599da87c65fd820c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Riots and storm are unrelated; no causal words, coreference, or Z chain/fork/collider links them in the text.\"}"
+    }
+  },
+  "call_ids": [
+    "e67dd29be295d8ec5f023bac1795d2dbcab1c9906ba3ea3c0ce301763ca1789f",
+    "e67dd29be295d8ec5f023bac1795d2dbcab1c9906ba3ea3c0ce301763ca1789f",
+    "3d53de79a726a369bccba9f7138d2d8c5242c55f41f2dcfdcecb6469be4e1fe7",
+    "d58f720cb04c1e32dc2ef486bce07b6a07904b1d5afe8296ece7517efe96fefd",
+    "f9079e89d3fe3d44cf59f25605ed132a689b774a77b86730e1d94ba9a24c9a1f",
+    "411368a71a223f6ad67f93fb8dcdfed72d3c5bd9d39af994599da87c65fd820c"
+  ],
+  "elapsed_s": 4.240470886230469
+}

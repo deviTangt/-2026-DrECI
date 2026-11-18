@@ -1,0 +1,65 @@
+{
+  "input_hash": "f0863b6925b16cd1bb0432604c82378214141fed991591d35a7170ab0896feca",
+  "sample_id": "ESC-CSV-02969",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "protest",
+    "people",
+    "threw",
+    "bottles",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8708242ad8bae8ae0025d20a8641a76120a369763d6209943088221dd1b8f883",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8708242ad8bae8ae0025d20a8641a76120a369763d6209943088221dd1b8f883",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5f2df5b69d4e11851cd9fee6bf85317f772c9c0ceba9f396862fc82836f162c7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "64675f7a99460dc600a4f719f6de73318d1f66c1432500edcaf57a40ac8154fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "64b883cda79af522452b3c8c86318040f2edd0fcf202bf71e591d9df072fb151",
+      "status": "ok",
+      "text": "{\"source_related\":[\"teenagers\",\"streets\",\"vigil\",\"protest\",\"people\",\"threw\",\"bottles\",\"officers\",\"Brooklyn\"],\"target_related\":[\"Brooklyn\",\"protest\",\"people\",\"threw\",\"bottles\",\"officers\",\"tonight\"],\"mediators\":[\"Brooklyn\",\"protest\",\"people\",\"threw\",\"bottles\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "bca9d63520383d076f0e89b8b70a684c899eae6cb3e8df9280170fd6ba38a4e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A peaceful protest turned chaotic as 100 people rioted; the riot occurring explains the chaos, matching common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "8708242ad8bae8ae0025d20a8641a76120a369763d6209943088221dd1b8f883",
+    "8708242ad8bae8ae0025d20a8641a76120a369763d6209943088221dd1b8f883",
+    "5f2df5b69d4e11851cd9fee6bf85317f772c9c0ceba9f396862fc82836f162c7",
+    "64675f7a99460dc600a4f719f6de73318d1f66c1432500edcaf57a40ac8154fc",
+    "64b883cda79af522452b3c8c86318040f2edd0fcf202bf71e591d9df072fb151",
+    "bca9d63520383d076f0e89b8b70a684c899eae6cb3e8df9280170fd6ba38a4e9"
+  ],
+  "elapsed_s": 4.532113790512085
+}

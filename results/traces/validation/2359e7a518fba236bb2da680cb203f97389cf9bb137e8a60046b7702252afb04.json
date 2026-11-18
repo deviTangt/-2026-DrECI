@@ -1,0 +1,61 @@
+{
+  "input_hash": "2359e7a518fba236bb2da680cb203f97389cf9bb137e8a60046b7702252afb04",
+  "sample_id": "ESC-CSV-07065",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Chargers",
+    "Jamal Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e7b018bacd31f458a6e519a685e196ec31eeb9f722a1da9b044fea7cc891dea1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e7b018bacd31f458a6e519a685e196ec31eeb9f722a1da9b044fea7cc891dea1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9349744ec124e2508d42e04eb28010f5c8c959c35efd93cab73235b880cfdbac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "46d1925959974bd8977eebadb2f3a7a0cf50c386967b7bbe052a1d62d8888060",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "834315237172e858c3f859691d3ddaef55d89555188d0a6da2950579b1cf8405",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chargers\",\"Jamal Williams\"],\"target_related\":[\"Chargers\",\"Jamal Williams\"],\"mediators\":[\"Chargers\",\"Jamal Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "246a8e12b611f032bd07e31b73096f11c8b9bbc414930429c567a6f32f4724f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The word 'for' in 'arrested for DUI' explicitly links the arrest to the DUI as its cause.\"}"
+    }
+  },
+  "call_ids": [
+    "e7b018bacd31f458a6e519a685e196ec31eeb9f722a1da9b044fea7cc891dea1",
+    "e7b018bacd31f458a6e519a685e196ec31eeb9f722a1da9b044fea7cc891dea1",
+    "9349744ec124e2508d42e04eb28010f5c8c959c35efd93cab73235b880cfdbac",
+    "46d1925959974bd8977eebadb2f3a7a0cf50c386967b7bbe052a1d62d8888060",
+    "834315237172e858c3f859691d3ddaef55d89555188d0a6da2950579b1cf8405",
+    "246a8e12b611f032bd07e31b73096f11c8b9bbc414930429c567a6f32f4724f0"
+  ],
+  "elapsed_s": 4.177870750427246
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "7168c333c5eed7bed71a0f239f46170288eb93c0354888ce31995262294ffa88",
+  "sample_id": "ESC-CSV-02049",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accused"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "aa7621121b3e4c493f2478ae6f073355f20c1892154565f48243f2bbe8114f53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "aa7621121b3e4c493f2478ae6f073355f20c1892154565f48243f2bbe8114f53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b3077827f2235a7c470fcfa04bfdcf57c8795c5efef40aa0ff7727bfdb72892f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "52f9969185b98194d87e8a8a3a98351cf04dc328ddfc15779ff6ba14123c17d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3c794040f7c2e41c805218e606f2e22ed68c1480aa77b3d0660698bf83ed9a18",
+      "status": "ok",
+      "text": "{\"source_related\":[\"killing\",\"receptionist\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"accountant\"],\"target_related\":[\"arraigned\",\"Wednesday\",\"accused\",\"murder\"],\"mediators\":[\"accused\"]}"
+    },
+    "indirect": {
+      "call_id": "9777e6bb13e1424437e3c12c7b8b704a101c65ac2936db232a8e4ff971023b9c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Murder and other charges' is a list of charges; murder does not cause charges, and 'accused' is not a causal connector between them.\"}"
+    }
+  },
+  "call_ids": [
+    "aa7621121b3e4c493f2478ae6f073355f20c1892154565f48243f2bbe8114f53",
+    "aa7621121b3e4c493f2478ae6f073355f20c1892154565f48243f2bbe8114f53",
+    "b3077827f2235a7c470fcfa04bfdcf57c8795c5efef40aa0ff7727bfdb72892f",
+    "52f9969185b98194d87e8a8a3a98351cf04dc328ddfc15779ff6ba14123c17d4",
+    "3c794040f7c2e41c805218e606f2e22ed68c1480aa77b3d0660698bf83ed9a18",
+    "9777e6bb13e1424437e3c12c7b8b704a101c65ac2936db232a8e4ff971023b9c"
+  ],
+  "elapsed_s": 4.302596569061279
+}

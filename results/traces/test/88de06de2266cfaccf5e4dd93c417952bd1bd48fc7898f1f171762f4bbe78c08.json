@@ -1,0 +1,60 @@
+{
+  "input_hash": "88de06de2266cfaccf5e4dd93c417952bd1bd48fc7898f1f171762f4bbe78c08",
+  "sample_id": "ESC-CSV-09610",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "buildings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "327db2bc8a97d7fe7c16c2dbd9062d8e2d38f04a544bf1f27e3a315d4836bc0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "327db2bc8a97d7fe7c16c2dbd9062d8e2d38f04a544bf1f27e3a315d4836bc0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0bad0e7650bd88b60c4298d5b017d1160370b4e3ce5c0a229fcb4e92729e901f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "301d02846e6ec3127ad25bd3a1cae60238e925b8d484df99f3aff908b4bfb3e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2c2d0715be1e2dac07a751173b6ce4635eaf87b4fcac5a06aea9294bfafb4325",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"cars\",\"fire truck\",\"protesters\"],\"target_related\":[\"Firefighters\",\"extinguished\",\"buildings\",\"bank\",\"Finance Ministry\"],\"mediators\":[\"buildings\"]}"
+    },
+    "indirect": {
+      "call_id": "8b7788b229e8d392e5af6fceabb60049e44f1277d920e076952b902b70fb5cd3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters torched buildings, which caused blazes; firefighters extinguished blazes at the buildings, forming chain torched->buildings->blazes.\"}"
+    }
+  },
+  "call_ids": [
+    "327db2bc8a97d7fe7c16c2dbd9062d8e2d38f04a544bf1f27e3a315d4836bc0b",
+    "327db2bc8a97d7fe7c16c2dbd9062d8e2d38f04a544bf1f27e3a315d4836bc0b",
+    "0bad0e7650bd88b60c4298d5b017d1160370b4e3ce5c0a229fcb4e92729e901f",
+    "301d02846e6ec3127ad25bd3a1cae60238e925b8d484df99f3aff908b4bfb3e5",
+    "2c2d0715be1e2dac07a751173b6ce4635eaf87b4fcac5a06aea9294bfafb4325",
+    "8b7788b229e8d392e5af6fceabb60049e44f1277d920e076952b902b70fb5cd3"
+  ],
+  "elapsed_s": 3.696225881576538
+}

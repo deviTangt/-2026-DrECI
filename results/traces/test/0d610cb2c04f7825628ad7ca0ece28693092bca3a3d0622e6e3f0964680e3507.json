@@ -1,0 +1,62 @@
+{
+  "input_hash": "0d610cb2c04f7825628ad7ca0ece28693092bca3a3d0622e6e3f0964680e3507",
+  "sample_id": "ESC-CSV-04022",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "climber",
+    "mountain",
+    "falling"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e3e27ba3ef025befd3d7a23634d5158f8553cf32922e295d78e92efcfd49b566",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e3e27ba3ef025befd3d7a23634d5158f8553cf32922e295d78e92efcfd49b566",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b931707dd3da28c551c5399f33b9a551aac9a923d0bf9e0b5e363023193d308d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b091a93f38d19060b719c2c472bd1a2baf94007dd9a3260f252f2ece4fe7890f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "603d533d8ce0fbdbb346c38229f54e80171f5f757d6a5b2590b8bf0274a51f21",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climber\",\"mountain\",\"falling\"],\"target_related\":[\"climber\",\"falling\",\"mountain\"],\"mediators\":[\"climber\",\"mountain\",\"falling\"]}"
+    },
+    "indirect": {
+      "call_id": "2cb35c4a1ebdd68af05fd721bca1ba0c010b62bea1b81c3c4af72b47354f4c47",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says climber 'dies after falling from a mountain,' where 'after' links the fall to death; common sense: a fatal fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "e3e27ba3ef025befd3d7a23634d5158f8553cf32922e295d78e92efcfd49b566",
+    "e3e27ba3ef025befd3d7a23634d5158f8553cf32922e295d78e92efcfd49b566",
+    "b931707dd3da28c551c5399f33b9a551aac9a923d0bf9e0b5e363023193d308d",
+    "b091a93f38d19060b719c2c472bd1a2baf94007dd9a3260f252f2ece4fe7890f",
+    "603d533d8ce0fbdbb346c38229f54e80171f5f757d6a5b2590b8bf0274a51f21",
+    "2cb35c4a1ebdd68af05fd721bca1ba0c010b62bea1b81c3c4af72b47354f4c47"
+  ],
+  "elapsed_s": 3.9650328159332275
+}

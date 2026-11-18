@@ -1,0 +1,65 @@
+{
+  "input_hash": "efcb5fcd9eea859e815eaa6094ac9164116994608cb235e9badc6432dec3456f",
+  "sample_id": "ESC-CSV-02003",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "three people",
+    "fleeing",
+    "police officers",
+    "high-speed chase",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7d201386884ef5ab4bc94704d80fb5f0f0d55d3a3f4d6c77122ef9e0c20ea683",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7d201386884ef5ab4bc94704d80fb5f0f0d55d3a3f4d6c77122ef9e0c20ea683",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3c9ae89f6fefc342f3edb05a123785011ba458cce1b05d7e23b2a67bf8a7bbfa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "42069dadfc5c3bf5f5ee201157b00940ef7a6bd70a02fd1e1581a0d08545aea5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fdb7df26316974408075b5c72ebfb415cd9a4d3db6bf541374328b3cbebb0d66",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"three people\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"],\"target_related\":[\"man\",\"shot\",\"three people\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"],\"mediators\":[\"man\",\"three people\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "5aa5bb0b6e95d72907df43c74e35c1b4da5e5d334516389dfcdb40128cac6da1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people occurred before and directly caused the killing of one; common sense: shooting can cause death.\"}"
+    }
+  },
+  "call_ids": [
+    "7d201386884ef5ab4bc94704d80fb5f0f0d55d3a3f4d6c77122ef9e0c20ea683",
+    "7d201386884ef5ab4bc94704d80fb5f0f0d55d3a3f4d6c77122ef9e0c20ea683",
+    "3c9ae89f6fefc342f3edb05a123785011ba458cce1b05d7e23b2a67bf8a7bbfa",
+    "42069dadfc5c3bf5f5ee201157b00940ef7a6bd70a02fd1e1581a0d08545aea5",
+    "fdb7df26316974408075b5c72ebfb415cd9a4d3db6bf541374328b3cbebb0d66",
+    "5aa5bb0b6e95d72907df43c74e35c1b4da5e5d334516389dfcdb40128cac6da1"
+  ],
+  "elapsed_s": 5.909903049468994
+}

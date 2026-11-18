@@ -1,0 +1,64 @@
+{
+  "input_hash": "37be258fe96a0ed30ee07efb788a26ff78fb21b6eb05e345c840b3f06b71c6ed",
+  "sample_id": "ESC-CSV-04571",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry",
+    "store",
+    "shop",
+    "window",
+    "car"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "42de30f0d43dffbf7daefc8bf6524c7f2423c40789f94e46b64aa6db5b54fafa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "42de30f0d43dffbf7daefc8bf6524c7f2423c40789f94e46b64aa6db5b54fafa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4659a8873cff3627337698628088b7b0a769f68d3607c7d374584aef52c8de81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "63e22c654c1950bde1fa77cbc151533306f9a7afeac7cb2420de37b9360b1e7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6a8d934312f42d03e0690d1513f0f8aa27a3b0c5e0c705da327d7a61dea23985",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"vehicle\"],\"target_related\":[\"jewelry\",\"shop\",\"window\",\"$2.6 million\",\"two million Euros\"],\"mediators\":[\"jewelry\",\"store\",\"shop\",\"window\",\"car\"]}"
+    },
+    "indirect": {
+      "call_id": "02de833f5af118ef6024467087af3caab4213f523f17c836f35b9107eb0c6041",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove a car into the store, smashing the window, then grabbed jewelry and watches; driving preceded and enabled the stealing.\"}"
+    }
+  },
+  "call_ids": [
+    "42de30f0d43dffbf7daefc8bf6524c7f2423c40789f94e46b64aa6db5b54fafa",
+    "42de30f0d43dffbf7daefc8bf6524c7f2423c40789f94e46b64aa6db5b54fafa",
+    "4659a8873cff3627337698628088b7b0a769f68d3607c7d374584aef52c8de81",
+    "63e22c654c1950bde1fa77cbc151533306f9a7afeac7cb2420de37b9360b1e7b",
+    "6a8d934312f42d03e0690d1513f0f8aa27a3b0c5e0c705da327d7a61dea23985",
+    "02de833f5af118ef6024467087af3caab4213f523f17c836f35b9107eb0c6041"
+  ],
+  "elapsed_s": 4.817354440689087
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "31e6cb0d505ea2b394b4e0b8a600cc9d62385236ca6c4e6a26d12946b1ad1014",
+  "sample_id": "ESC-CSV-04678",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "79680d87a0ba7f7dbc43fc3c7da53944ad2fc1ff8ff041c9e95aa8edf527bdbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "79680d87a0ba7f7dbc43fc3c7da53944ad2fc1ff8ff041c9e95aa8edf527bdbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ab6903df3bd24f495ad90df3f958d5f567a001bfb12152a3b8f0b24f99ea3e30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b3cb566b6d748d28783c2275e73164610756e7c8cc9ba97929953e6c20f9b77c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "38bc6ef6181d7e829e9528f2646b409fcb98f736f3cd803847d4e970bc2b1e39",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"4x4\",\"Paris\",\"shop\"],\"target_related\":[\"French police\",\"jewellery robbery\",\"Paris\"],\"mediators\":[\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "d2d7787540b524ff4fe217da93f6e2df03bd5059adadec1d3eba6c247fe22794",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Robbers ramming a 4x4 into the shop is the crime that prompts police to investigate it; the ramming precedes and causes the investigation.\"}"
+    }
+  },
+  "call_ids": [
+    "79680d87a0ba7f7dbc43fc3c7da53944ad2fc1ff8ff041c9e95aa8edf527bdbd",
+    "79680d87a0ba7f7dbc43fc3c7da53944ad2fc1ff8ff041c9e95aa8edf527bdbd",
+    "ab6903df3bd24f495ad90df3f958d5f567a001bfb12152a3b8f0b24f99ea3e30",
+    "b3cb566b6d748d28783c2275e73164610756e7c8cc9ba97929953e6c20f9b77c",
+    "38bc6ef6181d7e829e9528f2646b409fcb98f736f3cd803847d4e970bc2b1e39",
+    "d2d7787540b524ff4fe217da93f6e2df03bd5059adadec1d3eba6c247fe22794"
+  ],
+  "elapsed_s": 5.320150136947632
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "655daaeb370670a859ed74694f1d35affd688e8a8d53eba46dd7e2acff336324",
+  "sample_id": "ESC-CSV-06964",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Williams",
+    "officers",
+    "speeding",
+    "Bentley",
+    "intoxicated"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "193e428cbbd1ad60700a0cdb749c08c6b6febfb0ef20d65e8acaf2e7784bcb10",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "193e428cbbd1ad60700a0cdb749c08c6b6febfb0ef20d65e8acaf2e7784bcb10",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f602d42c3f5a71531a8905e35b6eff886077fef761cf868f531555321d6012cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d197e7a3ced22e90eb8c0077b86da624cfce46a8b14d29266e7cbf50bc9d98b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ac4ea3caebc299ae96915bcafc066d556d1684ec6012d8c28bc84f12d06a3554",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"drunken driving\",\"blood\",\"intoxicated\",\"officers\",\"speeding\",\"Bentley\"],\"target_related\":[\"officers\",\"speeding\",\"Bentley\",\"Williams\",\"intoxicated\"],\"mediators\":[\"Williams\",\"officers\",\"speeding\",\"Bentley\",\"intoxicated\"]}"
+    },
+    "indirect": {
+      "call_id": "2e57d460f8366fb799b8cb42451c78e10c83f97fde04b009548faaa7cd683123",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Arrest occurred after being pulled over; text says blood drawn after arrest, not that arrest caused the stop. No causal rule links X to Y.\"}"
+    }
+  },
+  "call_ids": [
+    "193e428cbbd1ad60700a0cdb749c08c6b6febfb0ef20d65e8acaf2e7784bcb10",
+    "193e428cbbd1ad60700a0cdb749c08c6b6febfb0ef20d65e8acaf2e7784bcb10",
+    "f602d42c3f5a71531a8905e35b6eff886077fef761cf868f531555321d6012cd",
+    "d197e7a3ced22e90eb8c0077b86da624cfce46a8b14d29266e7cbf50bc9d98b0",
+    "ac4ea3caebc299ae96915bcafc066d556d1684ec6012d8c28bc84f12d06a3554",
+    "2e57d460f8366fb799b8cb42451c78e10c83f97fde04b009548faaa7cd683123"
+  ],
+  "elapsed_s": 4.407320976257324
+}

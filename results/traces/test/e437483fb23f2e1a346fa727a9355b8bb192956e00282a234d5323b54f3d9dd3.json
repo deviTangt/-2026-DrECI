@@ -1,0 +1,60 @@
+{
+  "input_hash": "e437483fb23f2e1a346fa727a9355b8bb192956e00282a234d5323b54f3d9dd3",
+  "sample_id": "ESC-CSV-09623",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "riots"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7bd2ab3a85488b77e33ce70bfbec7df6ddf5c77e96b19a61e1cad26a56dd0b4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7bd2ab3a85488b77e33ce70bfbec7df6ddf5c77e96b19a61e1cad26a56dd0b4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "29da91b07be2d92d63c5f2c5c45ea74610fe2a8f300fb323d220e4d79e03debd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "de422bd78fc23beb2935e64c39cd9c39a2a839738a15fe278c06319a8c59e40e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8c4b064a406472538c3317c3d2019d5d402c05de9dc17c90e45d1809f67b20df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"riots\"],\"target_related\":[\"bank\",\"Greek\",\"riots\"],\"mediators\":[\"riots\"]}"
+    },
+    "indirect": {
+      "call_id": "f4c162a0ed69b10c9c500b28a38e4950262d0ac3335809d7af0a060f442c4903",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protest led to riots; riots are where three die in bank, forming chain protest->riots->die.\"}"
+    }
+  },
+  "call_ids": [
+    "7bd2ab3a85488b77e33ce70bfbec7df6ddf5c77e96b19a61e1cad26a56dd0b4c",
+    "7bd2ab3a85488b77e33ce70bfbec7df6ddf5c77e96b19a61e1cad26a56dd0b4c",
+    "29da91b07be2d92d63c5f2c5c45ea74610fe2a8f300fb323d220e4d79e03debd",
+    "de422bd78fc23beb2935e64c39cd9c39a2a839738a15fe278c06319a8c59e40e",
+    "8c4b064a406472538c3317c3d2019d5d402c05de9dc17c90e45d1809f67b20df",
+    "f4c162a0ed69b10c9c500b28a38e4950262d0ac3335809d7af0a060f442c4903"
+  ],
+  "elapsed_s": 4.9066925048828125
+}

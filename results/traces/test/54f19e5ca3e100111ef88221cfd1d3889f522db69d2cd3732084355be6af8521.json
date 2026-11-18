@@ -1,0 +1,63 @@
+{
+  "input_hash": "54f19e5ca3e100111ef88221cfd1d3889f522db69d2cd3732084355be6af8521",
+  "sample_id": "ESC-CSV-09828",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "striking",
+    "battles",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3b9aff10599111b50413668a88af418be828a250e5fa1790c9d7a312bf95c9ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3b9aff10599111b50413668a88af418be828a250e5fa1790c9d7a312bf95c9ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4987785a51354fdb150873df7ee48b2b08b1da37ce7a34694ea5f5e008ac4394",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b57fa0f7931b565182288e023e7625323569eb29ea9056305a84b9c11fe7d158",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "98932c3ebf26c682dcbcf12d09f0a2ecbbb81842d8d95d1372d463f50ac83f30",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"striking\",\"battles\",\"police\"],\"target_related\":[\"protesters\",\"striking\",\"battles\",\"police\",\"Athens\",\"Greek\"],\"mediators\":[\"protesters\",\"striking\",\"battles\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "d7a51820d9d66368eb724b02f8df9eb3cc6c9c07aa0c1971861e5e6236feadd5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Fury at brutal spending cuts provoked the striking protesters' riots; anger precedes and causes the unrest, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "3b9aff10599111b50413668a88af418be828a250e5fa1790c9d7a312bf95c9ea",
+    "3b9aff10599111b50413668a88af418be828a250e5fa1790c9d7a312bf95c9ea",
+    "4987785a51354fdb150873df7ee48b2b08b1da37ce7a34694ea5f5e008ac4394",
+    "b57fa0f7931b565182288e023e7625323569eb29ea9056305a84b9c11fe7d158",
+    "98932c3ebf26c682dcbcf12d09f0a2ecbbb81842d8d95d1372d463f50ac83f30",
+    "d7a51820d9d66368eb724b02f8df9eb3cc6c9c07aa0c1971861e5e6236feadd5"
+  ],
+  "elapsed_s": 3.995159387588501
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "ecd4954d039c235c5ad79ebf5ff33425d98e71ee7895619049d9ed6ba3a39286",
+  "sample_id": "ESC-CSV-09841",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "049f0d4890e51bd51f8066e6000c5593ad2f2ef46d25924510c44a7696a2fca8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "049f0d4890e51bd51f8066e6000c5593ad2f2ef46d25924510c44a7696a2fca8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "bba7d340b271b3fa9c1c177164d5735d06649d9cddd60504e28966351436454e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dcd51df9f8feebda2d8ab8cb4056acc158c7dfd753cd6209066bd207bbbc0d44",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "55732b42313706876d628408da96b7cbf827e2b619ce12ab2115c817e5673a02",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded youths\",\"hurled\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\",\"bank\",\"two government buildings\"],\"target_related\":[\"FIRE - BOMB\",\"bank\",\"Athens\",\"three people\",\"dead\",\"police\",\"striking protesters\",\"spending cuts\"],\"mediators\":[\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "8dd91a95ee117d8f5a11e5d66f75d1992b92cebdb2f94cdf6570228a41b58fbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Petrol bombs set the bank ablaze; the fire-bomb attack on the bank left three dead, forming chain: setting ablaze -> bank -> attack.\"}"
+    }
+  },
+  "call_ids": [
+    "049f0d4890e51bd51f8066e6000c5593ad2f2ef46d25924510c44a7696a2fca8",
+    "049f0d4890e51bd51f8066e6000c5593ad2f2ef46d25924510c44a7696a2fca8",
+    "bba7d340b271b3fa9c1c177164d5735d06649d9cddd60504e28966351436454e",
+    "dcd51df9f8feebda2d8ab8cb4056acc158c7dfd753cd6209066bd207bbbc0d44",
+    "55732b42313706876d628408da96b7cbf827e2b619ce12ab2115c817e5673a02",
+    "8dd91a95ee117d8f5a11e5d66f75d1992b92cebdb2f94cdf6570228a41b58fbd"
+  ],
+  "elapsed_s": 5.257113695144653
+}

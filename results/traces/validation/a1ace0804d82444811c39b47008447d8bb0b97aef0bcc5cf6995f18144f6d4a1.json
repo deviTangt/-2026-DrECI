@@ -1,0 +1,66 @@
+{
+  "input_hash": "a1ace0804d82444811c39b47008447d8bb0b97aef0bcc5cf6995f18144f6d4a1",
+  "sample_id": "ESC-CSV-02949",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16-year-old",
+    "NYPD",
+    "death",
+    "vigil",
+    "young",
+    "people",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "28a239debccb0cb98c2951830c5e5a440bad33b1aab55adf19d8b992cf28d456",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "28a239debccb0cb98c2951830c5e5a440bad33b1aab55adf19d8b992cf28d456",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b7e9239864fe2f07d35bac944666430b0e8194f705fcccc0a4b3df4b4019fddb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3b3321b5764b74237c4114bb624720afe39d413fff95c5c373014d3b29b87230",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8cbcdad03a59d1ecac85a1681fc9413c59a353840bcf6ca5c92fd7dd0129f713",
+      "status": "ok",
+      "text": "{\"source_related\":[\"16-year-old\",\"armed\",\"NYPD\",\"plainclothes\",\"cops\",\"death\",\"vigil\",\"young\",\"people\",\"officers\"],\"target_related\":[\"Brooklyn\",\"teenagers\",\"streets\",\"vigil\",\"protest\",\"death\",\"young\",\"people\",\"NYPD\",\"officers\"],\"mediators\":[\"16-year-old\",\"NYPD\",\"death\",\"vigil\",\"young\",\"people\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "bae48e06a3b594c55710a2985a9c245c51c3955467839ed5dcae68bae9ee5157",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The vigil for the teen shot dead by NYPD turned into a riot; the shooting death provoked the riot, matching implicit causation and causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "28a239debccb0cb98c2951830c5e5a440bad33b1aab55adf19d8b992cf28d456",
+    "28a239debccb0cb98c2951830c5e5a440bad33b1aab55adf19d8b992cf28d456",
+    "b7e9239864fe2f07d35bac944666430b0e8194f705fcccc0a4b3df4b4019fddb",
+    "3b3321b5764b74237c4114bb624720afe39d413fff95c5c373014d3b29b87230",
+    "8cbcdad03a59d1ecac85a1681fc9413c59a353840bcf6ca5c92fd7dd0129f713",
+    "bae48e06a3b594c55710a2985a9c245c51c3955467839ed5dcae68bae9ee5157"
+  ],
+  "elapsed_s": 4.74981951713562
+}

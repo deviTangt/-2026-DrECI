@@ -1,0 +1,61 @@
+{
+  "input_hash": "df3a12e8afd214f38bf5c971cb858cd05cfdcc9dee439799a39be052ea80a549",
+  "sample_id": "ESC-CSV-02724",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Brooklyn teenager",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0e60ec8bd33387b378e3d7e5ff1c794f099379dd43c099985d29f136c0b68644",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0e60ec8bd33387b378e3d7e5ff1c794f099379dd43c099985d29f136c0b68644",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df799cd3f93253cee8d7f956c2eeac3b60c16aad43c6b0bb488c36299e056ea4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e500d41872d4c1305657032b06fb9d4a19eb656e9c18862420898bc112610fc1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7f7ed08553e385f4e4ab5b1f5efef2b9d63cf73021ebd53cf91b13cc34341a71",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protest march\",\"candlelight vigil\",\"Kimani ( Kiki ) Gray\"],\"target_related\":[\"Anger\",\"death\",\"Brooklyn teenager\",\"East Flatbush\"],\"mediators\":[\"Brooklyn teenager\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "17ac0f921e00652d3dea874a563576472f37ded2144fcd385e9104801360c170",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Protest march 'grew out of' vigil; anger over death 'fueled a riot' — implicit causation. Chain: grew->anger/death->riot.\"}"
+    }
+  },
+  "call_ids": [
+    "0e60ec8bd33387b378e3d7e5ff1c794f099379dd43c099985d29f136c0b68644",
+    "0e60ec8bd33387b378e3d7e5ff1c794f099379dd43c099985d29f136c0b68644",
+    "df799cd3f93253cee8d7f956c2eeac3b60c16aad43c6b0bb488c36299e056ea4",
+    "e500d41872d4c1305657032b06fb9d4a19eb656e9c18862420898bc112610fc1",
+    "7f7ed08553e385f4e4ab5b1f5efef2b9d63cf73021ebd53cf91b13cc34341a71",
+    "17ac0f921e00652d3dea874a563576472f37ded2144fcd385e9104801360c170"
+  ],
+  "elapsed_s": 4.754935026168823
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "ccd81aeef513fdc741050c7815047bb05a5bc9ed9240ddd35458a134a3bd02d8",
+  "sample_id": "ESC-CSV-09518",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "Bank",
+    "Three"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c37d344ab3845541deb098f05279c28fdbbced44610e1d028f2ac124101fdf65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c37d344ab3845541deb098f05279c28fdbbced44610e1d028f2ac124101fdf65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6d6ee57d9a79d9ad65a6f3d332cd6d4f22e8924a0761d9846d7acfe4a2408121",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ba7c00295a23cdec25ad01bdca42f0da12427ada12b4626665eab3d35c601ccb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b5b2b65b77efbae18401f7c4454cce1e7604b7776342c043a3fd0ae932a138f0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"Bank\",\"Strike\",\"Three\"],\"target_related\":[\"Athens\",\"Bank\",\"Fire\",\"Three\"],\"mediators\":[\"Athens\",\"Bank\",\"Three\"]}"
+    },
+    "indirect": {
+      "call_id": "6b5f22034037fd5baaf3bc574493cc4282e0ae886ded8c6b10a1dd3d25f062aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A fire killing people follows common sense: the fire causes the deaths, so Fire causes Killed.\"}"
+    }
+  },
+  "call_ids": [
+    "c37d344ab3845541deb098f05279c28fdbbced44610e1d028f2ac124101fdf65",
+    "c37d344ab3845541deb098f05279c28fdbbced44610e1d028f2ac124101fdf65",
+    "6d6ee57d9a79d9ad65a6f3d332cd6d4f22e8924a0761d9846d7acfe4a2408121",
+    "ba7c00295a23cdec25ad01bdca42f0da12427ada12b4626665eab3d35c601ccb",
+    "b5b2b65b77efbae18401f7c4454cce1e7604b7776342c043a3fd0ae932a138f0",
+    "6b5f22034037fd5baaf3bc574493cc4282e0ae886ded8c6b10a1dd3d25f062aa"
+  ],
+  "elapsed_s": 3.9665048122406006
+}

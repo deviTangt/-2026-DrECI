@@ -1,0 +1,62 @@
+{
+  "input_hash": "2170cb5cab0518f0a80f550af56780bb8752027328fcb829687ba5dd307a128d",
+  "sample_id": "ESC-CSV-02509",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Teen",
+    "Death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f762b5d6977d422926eaef71cdadf1880d7dd285e3898ce39021f625264f451f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f762b5d6977d422926eaef71cdadf1880d7dd285e3898ce39021f625264f451f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e281140eed813fd63f9e2c2cabc7c105304462a841afa16dbef72613ca724de5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "62b354a57d7d045f37325c553338e2a81f09bccf49b8e8ba428464cd28cce3c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "365c384ca333928aaadcc198b4e2636acee9555e6f56dfdc2d51a53446a7771a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Teen\",\"Police\",\"Death\"],\"target_related\":[\"Erupt\",\"Death\",\"Brooklyn\",\"Teen\"],\"mediators\":[\"Brooklyn\",\"Teen\",\"Death\"]}"
+    },
+    "indirect": {
+      "call_id": "2a432f4344da0eb3e24e9b8c0295fbc529df90861aa2b81d56c7f0ff23ad8b21",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Headline says riots erupt following death of teen killed by police; 'following' and 'by' link the killing to the riots, and killing precedes riots by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "f762b5d6977d422926eaef71cdadf1880d7dd285e3898ce39021f625264f451f",
+    "f762b5d6977d422926eaef71cdadf1880d7dd285e3898ce39021f625264f451f",
+    "e281140eed813fd63f9e2c2cabc7c105304462a841afa16dbef72613ca724de5",
+    "62b354a57d7d045f37325c553338e2a81f09bccf49b8e8ba428464cd28cce3c5",
+    "365c384ca333928aaadcc198b4e2636acee9555e6f56dfdc2d51a53446a7771a",
+    "2a432f4344da0eb3e24e9b8c0295fbc529df90861aa2b81d56c7f0ff23ad8b21"
+  ],
+  "elapsed_s": 7.317077875137329
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "441a5cfddd99c0d6d5ec0d852e9fb8f75f11854be95d60357e42960638589fc9",
+  "sample_id": "ESC-CSV-09550",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "31ea135398e5d2ce856edb1e435ccc2023cdecfe12b0dc348bc9ef6b3255f96b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "31ea135398e5d2ce856edb1e435ccc2023cdecfe12b0dc348bc9ef6b3255f96b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "71f5a9f62421e6447af22134a0a96cb145f18aebe66172391ad06343b411c319",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ccddab9007d33568abe46cb32cc9e2eaef400bdd0fc32c116a2e122e8fa03562",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0dbfb24342e84a4ad600e35426dffc6b1081e61b0bb01c06424ad9fa37e8bc7e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"police\",\"buildings\",\"austerity\",\"taxes\",\"bailout\"],\"target_related\":[\"protesters\",\"parliament\"],\"mediators\":[\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "8e129ea9db52d3764907b7172f45d243a51cfdac55f888d8627aabbe967349be",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Protesters stormed parliament in protest against austerity; the protest is the motive for storming, not a cause of the storm event.\"}"
+    }
+  },
+  "call_ids": [
+    "31ea135398e5d2ce856edb1e435ccc2023cdecfe12b0dc348bc9ef6b3255f96b",
+    "31ea135398e5d2ce856edb1e435ccc2023cdecfe12b0dc348bc9ef6b3255f96b",
+    "71f5a9f62421e6447af22134a0a96cb145f18aebe66172391ad06343b411c319",
+    "ccddab9007d33568abe46cb32cc9e2eaef400bdd0fc32c116a2e122e8fa03562",
+    "0dbfb24342e84a4ad600e35426dffc6b1081e61b0bb01c06424ad9fa37e8bc7e",
+    "8e129ea9db52d3764907b7172f45d243a51cfdac55f888d8627aabbe967349be"
+  ],
+  "elapsed_s": 4.9037439823150635
+}

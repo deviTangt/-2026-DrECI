@@ -1,0 +1,70 @@
+{
+  "input_hash": "979bf561621408e27d8962ffe15a5e41719fae2565f7dad059b259277c8e94ef",
+  "sample_id": "ESC-CSV-04318",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "rammed",
+    "car",
+    "upmarket jewelry store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "making off",
+    "two-million-euro",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0e6ab06b50688fef66604fddd0779896c719bd3cfd6ccc45307d88912490aaec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0e6ab06b50688fef66604fddd0779896c719bd3cfd6ccc45307d88912490aaec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df056bf3705f37e0fad1409a2fe62351867c6e3f82b4d523a30ca03ae0e7780c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "aee30ac9e5662922220f1552a6c8cb69d0ff9d0e2ab900a3051af1d68db4b8fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3f977a6b7e966affaf5c6fbb77b124f982ef064e023ed4a4d72e8e3a63dd8055",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"two-million-euro\",\"booty\",\"police source\"],\"target_related\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"two-million-euro\",\"booty\",\"police source\",\"Paris\"],\"mediators\":[\"Four men\",\"rammed\",\"car\",\"upmarket jewelry store\",\"central Paris\",\"Monday\",\"shop window\",\"making off\",\"two-million-euro\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "ccd5e8defd6a797339943cc3a554e3c71cf1cd70c5028e48cfbee87009c2535f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window enabled the men to take the jewelry, so the smashing caused the heist by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0e6ab06b50688fef66604fddd0779896c719bd3cfd6ccc45307d88912490aaec",
+    "0e6ab06b50688fef66604fddd0779896c719bd3cfd6ccc45307d88912490aaec",
+    "df056bf3705f37e0fad1409a2fe62351867c6e3f82b4d523a30ca03ae0e7780c",
+    "aee30ac9e5662922220f1552a6c8cb69d0ff9d0e2ab900a3051af1d68db4b8fd",
+    "3f977a6b7e966affaf5c6fbb77b124f982ef064e023ed4a4d72e8e3a63dd8055",
+    "ccd5e8defd6a797339943cc3a554e3c71cf1cd70c5028e48cfbee87009c2535f"
+  ],
+  "elapsed_s": 5.2022154331207275
+}

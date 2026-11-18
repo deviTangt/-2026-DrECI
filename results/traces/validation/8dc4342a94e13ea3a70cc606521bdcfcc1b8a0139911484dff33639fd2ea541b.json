@@ -1,0 +1,70 @@
+{
+  "input_hash": "8dc4342a94e13ea3a70cc606521bdcfcc1b8a0139911484dff33639fd2ea541b",
+  "sample_id": "ESC-CSV-02347",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "dead",
+    "hurt",
+    "Mich",
+    "office",
+    "police",
+    "suspect",
+    "worked",
+    "victim",
+    "Monday",
+    "morning",
+    "attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "dd491412ef260ec378fc51190e7aef4368fc52ceb331aa451db9466c13903d48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "dd491412ef260ec378fc51190e7aef4368fc52ceb331aa451db9466c13903d48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e94ad54a24078b23ae3e90f0627a06d5556221c4035730ce39e90a5661933546",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5b46599684c396a950d810d030ce91ec9762644b47e8a2b0a6bd6ae613b4ae76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "66a5e9461a55d69e9abcb589d3da6e85d7a667105e584815357a95078f6cae8f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"dead\",\"hurt\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\",\"victim\",\"Monday\",\"morning\",\"attack\"],\"target_related\":[\"dead\",\"hurt\",\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\",\"victim\",\"Monday\",\"morning\",\"attack\"],\"mediators\":[\"dead\",\"hurt\",\"Mich\",\"office\",\"police\",\"suspect\",\"worked\",\"victim\",\"Monday\",\"morning\",\"attack\"]}"
+    },
+    "indirect": {
+      "call_id": "0dfca8002ea2c9fc2aea575a435b709902236fbbc4e8117ddea16c111bfe35ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred Monday morning and one victim died in the attack, so the shooting caused the death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "dd491412ef260ec378fc51190e7aef4368fc52ceb331aa451db9466c13903d48",
+    "dd491412ef260ec378fc51190e7aef4368fc52ceb331aa451db9466c13903d48",
+    "e94ad54a24078b23ae3e90f0627a06d5556221c4035730ce39e90a5661933546",
+    "5b46599684c396a950d810d030ce91ec9762644b47e8a2b0a6bd6ae613b4ae76",
+    "66a5e9461a55d69e9abcb589d3da6e85d7a667105e584815357a95078f6cae8f",
+    "0dfca8002ea2c9fc2aea575a435b709902236fbbc4e8117ddea16c111bfe35ca"
+  ],
+  "elapsed_s": 7.704294681549072
+}

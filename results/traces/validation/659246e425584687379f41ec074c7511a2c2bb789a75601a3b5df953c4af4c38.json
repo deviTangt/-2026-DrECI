@@ -1,0 +1,61 @@
+{
+  "input_hash": "659246e425584687379f41ec074c7511a2c2bb789a75601a3b5df953c4af4c38",
+  "sample_id": "ESC-CSV-07167",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "suspicions"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7a309d247eafa6c73ef36fcbd17735dd4c30027c64c5c5d59cb9ab597c1417c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7a309d247eafa6c73ef36fcbd17735dd4c30027c64c5c5d59cb9ab597c1417c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1ba2e11f4b2a46482c2adc304c0cd3c9a7a2ba7b9fb10e293f0e25020b336a0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c3c607f474c15a80338f70d706a7a7d607e2577730943f0ad8fc0240394db457",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1b90d09fbdb9b89902040c94c61408f329849012ef29f58144cce1d6ba4c55ff",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Sunday\",\"suspicions\"],\"target_related\":[\"Jamal Williams\",\"suspicions\",\"arrested\"],\"mediators\":[\"Jamal Williams\",\"suspicions\"]}"
+    },
+    "indirect": {
+      "call_id": "cd6526e82a036023ae9bfdeea8f2fa715b78a2cbd713945583ae85b9b8d6f9db",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text says Williams was arrested for suspicions of DUI; the arrest follows the suspected offense, not caused by it, and no causation word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "7a309d247eafa6c73ef36fcbd17735dd4c30027c64c5c5d59cb9ab597c1417c6",
+    "7a309d247eafa6c73ef36fcbd17735dd4c30027c64c5c5d59cb9ab597c1417c6",
+    "1ba2e11f4b2a46482c2adc304c0cd3c9a7a2ba7b9fb10e293f0e25020b336a0c",
+    "c3c607f474c15a80338f70d706a7a7d607e2577730943f0ad8fc0240394db457",
+    "1b90d09fbdb9b89902040c94c61408f329849012ef29f58144cce1d6ba4c55ff",
+    "cd6526e82a036023ae9bfdeea8f2fa715b78a2cbd713945583ae85b9b8d6f9db"
+  ],
+  "elapsed_s": 4.679011344909668
+}

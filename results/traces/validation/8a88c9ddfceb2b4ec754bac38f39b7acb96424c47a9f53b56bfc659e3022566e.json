@@ -1,0 +1,64 @@
+{
+  "input_hash": "8a88c9ddfceb2b4ec754bac38f39b7acb96424c47a9f53b56bfc659e3022566e",
+  "sample_id": "ESC-CSV-02323",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Three",
+    "People",
+    "Office",
+    "Suburban",
+    "Detroit"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "556b84f068422b742eee767e1add356a9c641a94f81a5260446351293802c3f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "556b84f068422b742eee767e1add356a9c641a94f81a5260446351293802c3f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a92f0b484a153a47bcb6104491206fe9117b56d3e0e15357e348c13ceb7a3e7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f432db8c9974164932a95915ff734f88e5de9a1089f5e02cd856d81acf44b627",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a24d3ee9737827e159958959682110c2f12d78e8f523da4f4d7335023e484d56",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\"],\"target_related\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\"],\"mediators\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\"]}"
+    },
+    "indirect": {
+      "call_id": "be3ddba7186d7ad9286ee01969fa8594d4961b813262a082aac2fa4af0ad2969",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting causes people to be shot; the shooting occurs before the victims are shot.\"}"
+    }
+  },
+  "call_ids": [
+    "556b84f068422b742eee767e1add356a9c641a94f81a5260446351293802c3f2",
+    "556b84f068422b742eee767e1add356a9c641a94f81a5260446351293802c3f2",
+    "a92f0b484a153a47bcb6104491206fe9117b56d3e0e15357e348c13ceb7a3e7d",
+    "f432db8c9974164932a95915ff734f88e5de9a1089f5e02cd856d81acf44b627",
+    "a24d3ee9737827e159958959682110c2f12d78e8f523da4f4d7335023e484d56",
+    "be3ddba7186d7ad9286ee01969fa8594d4961b813262a082aac2fa4af0ad2969"
+  ],
+  "elapsed_s": 7.35633397102356
+}

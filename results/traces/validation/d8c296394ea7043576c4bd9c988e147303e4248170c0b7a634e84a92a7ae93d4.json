@@ -1,0 +1,64 @@
+{
+  "input_hash": "d8c296394ea7043576c4bd9c988e147303e4248170c0b7a634e84a92a7ae93d4",
+  "sample_id": "ESC-CSV-02094",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "murder",
+    "kill",
+    "shootings",
+    "shotgun",
+    "slaying"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "44930349fa6631a230ababb26fe4e229dc0bc27e2835e7624f7e2492f29bb287",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "44930349fa6631a230ababb26fe4e229dc0bc27e2835e7624f7e2492f29bb287",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "efed0715d9ab2b53a1ed7e32ebba275c9758e6059e32e1cd0482e6bd3a870835",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "727015e6a1972eef3a1d8e05634a54d4ca09b3c72f0bc332a54ff59e3ce4878f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ff42e0262ed487d4a35468f87b8b8eeca12b840f8f6d077ec497af626e84f131",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"kill\",\"shootings\",\"shotgun\",\"slaying\"],\"target_related\":[\"murder\",\"kill\",\"shootings\",\"shotgun\",\"slaying\"],\"mediators\":[\"murder\",\"kill\",\"shootings\",\"shotgun\",\"slaying\"]}"
+    },
+    "indirect": {
+      "call_id": "805d51bbd2c9bc15adb697f942f1d3a4150fa1bd1c9ca74e74ea123332a661c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Intent to murder/kill is the mental state that precedes and causes the assault; common sense supports intent causing assault.\"}"
+    }
+  },
+  "call_ids": [
+    "44930349fa6631a230ababb26fe4e229dc0bc27e2835e7624f7e2492f29bb287",
+    "44930349fa6631a230ababb26fe4e229dc0bc27e2835e7624f7e2492f29bb287",
+    "efed0715d9ab2b53a1ed7e32ebba275c9758e6059e32e1cd0482e6bd3a870835",
+    "727015e6a1972eef3a1d8e05634a54d4ca09b3c72f0bc332a54ff59e3ce4878f",
+    "ff42e0262ed487d4a35468f87b8b8eeca12b840f8f6d077ec497af626e84f131",
+    "805d51bbd2c9bc15adb697f942f1d3a4150fa1bd1c9ca74e74ea123332a661c9"
+  ],
+  "elapsed_s": 5.559084892272949
+}

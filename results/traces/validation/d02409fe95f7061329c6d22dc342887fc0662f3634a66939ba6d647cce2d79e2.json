@@ -1,0 +1,61 @@
+{
+  "input_hash": "d02409fe95f7061329c6d22dc342887fc0662f3634a66939ba6d647cce2d79e2",
+  "sample_id": "ESC-CSV-02894",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "officers",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0dc95be34c76f0b84641325724ad78e218710381056ed807a144e59c0584123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0dc95be34c76f0b84641325724ad78e218710381056ed807a144e59c0584123",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5697771e832946b447e1ed93fea413482c76a9ca3ba31612ae1bbef7dc79259a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7e73aab12a3e8d7ac66c61ea5eb224cc091dd9825eee79455e5091d188d41b9c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "964cf97b8e3327630f7a5c9645dd5d33673abe01f679c46381c571f5c5ee42d5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gun\",\"cops\",\"officers\",\"police\"],\"target_related\":[\"officers\",\"police\",\"Kimani Gray\",\"brother\"],\"mediators\":[\"officers\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "a468372f4c0c17622b2e77141969a03b9dc716e133da8b89ac75bc82686ab8e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text says officers killed Gray 'because he allegedly pointed a gun at the cops,' explicitly linking pointed to killed via 'because.'\"}"
+    }
+  },
+  "call_ids": [
+    "c0dc95be34c76f0b84641325724ad78e218710381056ed807a144e59c0584123",
+    "c0dc95be34c76f0b84641325724ad78e218710381056ed807a144e59c0584123",
+    "5697771e832946b447e1ed93fea413482c76a9ca3ba31612ae1bbef7dc79259a",
+    "7e73aab12a3e8d7ac66c61ea5eb224cc091dd9825eee79455e5091d188d41b9c",
+    "964cf97b8e3327630f7a5c9645dd5d33673abe01f679c46381c571f5c5ee42d5",
+    "a468372f4c0c17622b2e77141969a03b9dc716e133da8b89ac75bc82686ab8e7"
+  ],
+  "elapsed_s": 4.761605739593506
+}

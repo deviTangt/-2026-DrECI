@@ -1,0 +1,63 @@
+{
+  "input_hash": "16d956d9b58cecaf8cb592c07a972a83c9f84c2ff298587359099b890ba25b66",
+  "sample_id": "ESC-CSV-01791",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang",
+    "member",
+    "Deputy",
+    "killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e026e1cfabefb4dfcead799f2f889673997401680464ec5bf164d8b8b2c7a79b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e026e1cfabefb4dfcead799f2f889673997401680464ec5bf164d8b8b2c7a79b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "46b47ca8109548a266f2459f433d220ddc7694b5009d6c06ae71dc3433e5dbb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "64dbe15e1382096a4dd52a7077e923e52146b1af34cc9e877f8f45c549b74ae5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "418c75fc8613fa91cd71992c97bde3e83d952e08892815b91c67422b19b68a41",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"member\",\"Jerry Ortiz\",\"Hawaiian Gardens\",\"building\",\"2005\",\"Deputy\",\"killer\"],\"target_related\":[\"Deputy\",\"killer\",\"death\",\"gang\",\"member\"],\"mediators\":[\"gang\",\"member\",\"Deputy\",\"killer\"]}"
+    },
+    "indirect": {
+      "call_id": "926160aad88c4c7bee85361bc7088caaee8fecf044b8084428f5933fde6bbda9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of Jerry Ortiz led to the killer's death sentence; the crime precedes and causes the sentencing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "e026e1cfabefb4dfcead799f2f889673997401680464ec5bf164d8b8b2c7a79b",
+    "e026e1cfabefb4dfcead799f2f889673997401680464ec5bf164d8b8b2c7a79b",
+    "46b47ca8109548a266f2459f433d220ddc7694b5009d6c06ae71dc3433e5dbb6",
+    "64dbe15e1382096a4dd52a7077e923e52146b1af34cc9e877f8f45c549b74ae5",
+    "418c75fc8613fa91cd71992c97bde3e83d952e08892815b91c67422b19b68a41",
+    "926160aad88c4c7bee85361bc7088caaee8fecf044b8084428f5933fde6bbda9"
+  ],
+  "elapsed_s": 4.768321514129639
+}

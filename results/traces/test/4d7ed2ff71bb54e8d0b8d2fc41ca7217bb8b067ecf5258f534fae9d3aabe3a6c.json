@@ -1,0 +1,62 @@
+{
+  "input_hash": "4d7ed2ff71bb54e8d0b8d2fc41ca7217bb8b067ecf5258f534fae9d3aabe3a6c",
+  "sample_id": "ESC-CSV-04328",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry store",
+    "Paris",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "30bd8e50f6b4069fb722d802c73cb737826886168d1198777e39ec60452372f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "30bd8e50f6b4069fb722d802c73cb737826886168d1198777e39ec60452372f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e1f1eaf63f9d98a679617f5e88ce48f00fae32dd5ead52e782093c8dcd79ab5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "77181bf93f3eb0d8285c01783681d778ac81630d7c01230566944e60b461fe49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5110a9d3903c9c80b1a5b54783606a53845beee871c500fb6efd8122aeafaf38",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"jewelry store\",\"Paris\",\"Monday\"],\"target_related\":[\"shop window\",\"jewelry store\",\"Paris\",\"Monday\"],\"mediators\":[\"jewelry store\",\"Paris\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "18f782be6633bed81b1bfd1f81bee8081eb1ec635e4fc6e85f0c88202a203191",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store directly causes the window to be smashed; the impact precedes and produces the smashing.\"}"
+    }
+  },
+  "call_ids": [
+    "30bd8e50f6b4069fb722d802c73cb737826886168d1198777e39ec60452372f1",
+    "30bd8e50f6b4069fb722d802c73cb737826886168d1198777e39ec60452372f1",
+    "e1f1eaf63f9d98a679617f5e88ce48f00fae32dd5ead52e782093c8dcd79ab5c",
+    "77181bf93f3eb0d8285c01783681d778ac81630d7c01230566944e60b461fe49",
+    "5110a9d3903c9c80b1a5b54783606a53845beee871c500fb6efd8122aeafaf38",
+    "18f782be6633bed81b1bfd1f81bee8081eb1ec635e4fc6e85f0c88202a203191"
+  ],
+  "elapsed_s": 4.826876878738403
+}

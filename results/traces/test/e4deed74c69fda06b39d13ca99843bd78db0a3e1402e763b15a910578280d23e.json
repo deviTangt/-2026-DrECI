@@ -1,0 +1,66 @@
+{
+  "input_hash": "e4deed74c69fda06b39d13ca99843bd78db0a3e1402e763b15a910578280d23e",
+  "sample_id": "ESC-CSV-09958",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greece",
+    "parliament",
+    "vote",
+    "government",
+    "country",
+    "financial",
+    "crisis"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "48e7cea7bca053f301849c8993d9364fed109442c8b55511267c7642d6430054",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "48e7cea7bca053f301849c8993d9364fed109442c8b55511267c7642d6430054",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7191153ce232c7de1c9b43cb7bcde0f02488c9842a2d97c539ffd17da626819e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1b5fb51c8a5600ed5417add75b7d9108c62155138698291d4295235d4217c664",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f0a935d1104b37bd38937617da6ed868246eab6f8fa5c19d4df080c145590f79",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greece\",\"parliament\",\"vote\",\"government\",\"country\",\"financial\",\"crisis\"],\"target_related\":[\"Greece\",\"parliament\",\"vote\",\"hefty\",\"reforms\",\"government\",\"country\",\"financial\",\"crisis\"],\"mediators\":[\"Greece\",\"parliament\",\"vote\",\"government\",\"country\",\"financial\",\"crisis\"]}"
+    },
+    "indirect": {
+      "call_id": "ca65538b689b7de0a2ea15e92f89c194991e82fc8994924a8d694d5840660042",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'address' and 'cuts' are linked by purpose ('to address...crisis'), not causation; no explicit/implicit causal word, causal order, coreference, chain, collider, or fork applies.\"}"
+    }
+  },
+  "call_ids": [
+    "48e7cea7bca053f301849c8993d9364fed109442c8b55511267c7642d6430054",
+    "48e7cea7bca053f301849c8993d9364fed109442c8b55511267c7642d6430054",
+    "7191153ce232c7de1c9b43cb7bcde0f02488c9842a2d97c539ffd17da626819e",
+    "1b5fb51c8a5600ed5417add75b7d9108c62155138698291d4295235d4217c664",
+    "f0a935d1104b37bd38937617da6ed868246eab6f8fa5c19d4df080c145590f79",
+    "ca65538b689b7de0a2ea15e92f89c194991e82fc8994924a8d694d5840660042"
+  ],
+  "elapsed_s": 5.359056711196899
+}

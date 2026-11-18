@@ -1,0 +1,62 @@
+{
+  "input_hash": "6e68f33f0ab4f85a1a8a086caeb0f850ffac2a292f977d84e3aa726ead7706b4",
+  "sample_id": "ESC-CSV-06939",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "DUI",
+    "Jamal Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a6e542c217c6a05c9e4935e03a07b33d0dd0ed0544c440ddf7baa6ceb298a68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a6e542c217c6a05c9e4935e03a07b33d0dd0ed0544c440ddf7baa6ceb298a68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c8fe303cdcc4a755c411c7a214ce4edf45a387116d8a09e2bbfb29a76f738e8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "092bc46fa65b7631dc6f58095b0f1c3746497dbc72e1319c03e407f223726f1b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e4a0b2a91c4ae0d4a0f48def32f8d02e2a19d9122311379b3085a11b0f7a5947",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"arrested\",\"suspicion\",\"DUI\",\"Jamal Williams\"],\"target_related\":[\"City Attorney\",\"Filing\",\"DUI\",\"Jamal Williams\",\"Williams\"],\"mediators\":[\"Williams\",\"DUI\",\"Jamal Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "69230f2428f5e3b061b3d35a5aef7310c45df3183db4ec783de579917246b741",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Drunken driving (arrest on suspicion) precedes and leads to the city attorney weighing DUI charges; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "3a6e542c217c6a05c9e4935e03a07b33d0dd0ed0544c440ddf7baa6ceb298a68",
+    "3a6e542c217c6a05c9e4935e03a07b33d0dd0ed0544c440ddf7baa6ceb298a68",
+    "c8fe303cdcc4a755c411c7a214ce4edf45a387116d8a09e2bbfb29a76f738e8c",
+    "092bc46fa65b7631dc6f58095b0f1c3746497dbc72e1319c03e407f223726f1b",
+    "e4a0b2a91c4ae0d4a0f48def32f8d02e2a19d9122311379b3085a11b0f7a5947",
+    "69230f2428f5e3b061b3d35a5aef7310c45df3183db4ec783de579917246b741"
+  ],
+  "elapsed_s": 4.847463607788086
+}

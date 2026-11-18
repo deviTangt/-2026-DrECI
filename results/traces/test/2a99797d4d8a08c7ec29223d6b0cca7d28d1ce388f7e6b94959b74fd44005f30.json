@@ -1,0 +1,61 @@
+{
+  "input_hash": "2a99797d4d8a08c7ec29223d6b0cca7d28d1ce388f7e6b94959b74fd44005f30",
+  "sample_id": "ESC-CSV-09865",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "99a685fac853c584fbad77d8d8f4c88994176e60cecb01acb7b1e975fd95bd10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "99a685fac853c584fbad77d8d8f4c88994176e60cecb01acb7b1e975fd95bd10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2eab79a32b4532404ed1fa7b7f880fae9cfa1d359e40d2324fbfb7d56e4e7c13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e03b58a415aa29011bafb61c2550d0b0577cc821b2adb3ac910bf3258c9eab1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fee3465063fed5c246bed07952f0d1f1f4fd49d0e2893c674444545b389ffe52",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded\",\"youths\",\"petrol\",\"bombs\",\"stores\",\"businesses\",\"Greek\",\"capital\"],\"target_related\":[\"fire\",\"bomb\",\"bank\",\"Greek\",\"riots\"],\"mediators\":[\"bank\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "82536b07bf20823c835fe6e792ea3cbe9c834582ac1b8f26b4f189020ffe2b5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Hurling petrol bombs (X) precedes and causes the fire-bomb hitting the bank (Y), consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "99a685fac853c584fbad77d8d8f4c88994176e60cecb01acb7b1e975fd95bd10",
+    "99a685fac853c584fbad77d8d8f4c88994176e60cecb01acb7b1e975fd95bd10",
+    "2eab79a32b4532404ed1fa7b7f880fae9cfa1d359e40d2324fbfb7d56e4e7c13",
+    "e03b58a415aa29011bafb61c2550d0b0577cc821b2adb3ac910bf3258c9eab1d",
+    "fee3465063fed5c246bed07952f0d1f1f4fd49d0e2893c674444545b389ffe52",
+    "82536b07bf20823c835fe6e792ea3cbe9c834582ac1b8f26b4f189020ffe2b5d"
+  ],
+  "elapsed_s": 4.968567371368408
+}

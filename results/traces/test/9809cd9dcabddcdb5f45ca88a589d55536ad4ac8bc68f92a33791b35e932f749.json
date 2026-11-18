@@ -1,0 +1,65 @@
+{
+  "input_hash": "9809cd9dcabddcdb5f45ca88a589d55536ad4ac8bc68f92a33791b35e932f749",
+  "sample_id": "ESC-CSV-09458",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "THREE PEOPLE",
+    "trapped",
+    "stairwell",
+    "3rd floors",
+    "fire",
+    "two floors below"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ef6f7f3adaef599cb66a575cfc578c0e7d71d64fd1d22367cb6785adc6949971",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ef6f7f3adaef599cb66a575cfc578c0e7d71d64fd1d22367cb6785adc6949971",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "51150b476e31c1622c76d45ac6911dd88e0d68d781ef608071619fc72bdd63ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "de78fc31a70fe33acdba70e55334410c79d31b1c0140cf7e8d062d88b3b06a41",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5f361f89f6b2068911fb7fd7e6a21ed24807513842bebc6150278c066e9d338c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"THREE PEOPLE\",\"DIED\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\",\"trapped\",\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"],\"target_related\":[\"THREE PEOPLE\",\"trapped\",\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"],\"mediators\":[\"THREE PEOPLE\",\"trapped\",\"stairwell\",\"3rd floors\",\"fire\",\"two floors below\"]}"
+    },
+    "indirect": {
+      "call_id": "7e7030d17d9bd885cca4465eded079f0f88a7bb07fec2d5714bd754c60c1fe5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A blaze broke out and people were trying to flee the fire; common sense: the blaze caused them to flee.\"}"
+    }
+  },
+  "call_ids": [
+    "ef6f7f3adaef599cb66a575cfc578c0e7d71d64fd1d22367cb6785adc6949971",
+    "ef6f7f3adaef599cb66a575cfc578c0e7d71d64fd1d22367cb6785adc6949971",
+    "51150b476e31c1622c76d45ac6911dd88e0d68d781ef608071619fc72bdd63ea",
+    "de78fc31a70fe33acdba70e55334410c79d31b1c0140cf7e8d062d88b3b06a41",
+    "5f361f89f6b2068911fb7fd7e6a21ed24807513842bebc6150278c066e9d338c",
+    "7e7030d17d9bd885cca4465eded079f0f88a7bb07fec2d5714bd754c60c1fe5d"
+  ],
+  "elapsed_s": 4.955008029937744
+}

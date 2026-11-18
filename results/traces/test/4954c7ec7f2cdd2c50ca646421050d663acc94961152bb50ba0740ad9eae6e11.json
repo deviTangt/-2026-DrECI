@@ -1,0 +1,65 @@
+{
+  "input_hash": "4954c7ec7f2cdd2c50ca646421050d663acc94961152bb50ba0740ad9eae6e11",
+  "sample_id": "ESC-CSV-06801",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "shot",
+    "face",
+    "chest",
+    "protect",
+    "students"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "34ca9a9bb52e02b07cd9022b4f78e64aa8539818365735dae12aa6881c9bc247",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "34ca9a9bb52e02b07cd9022b4f78e64aa8539818365735dae12aa6881c9bc247",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "102ac87c59ef6d374c2015cd65fd6c57512cdc97daba7ba26d65c0eb2082615c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ac6e41b52d6aecada8fcb3a70c760edb0cc64c432249059ab1511d44377b59ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "028b1b492784c6074458d72dac531dc9472dde874e7d085e5f4a0c5019389bab",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shot\",\"face\",\"chest\",\"protect\",\"students\",\"Horton\"],\"target_related\":[\"Horton\",\"instantly\",\"shot\",\"face\",\"chest\",\"protect\",\"students\"],\"mediators\":[\"Horton\",\"shot\",\"face\",\"chest\",\"protect\",\"students\"]}"
+    },
+    "indirect": {
+      "call_id": "310f6c5dc3239d31ba86d3aa10ff6c9f82705abd005327a132cb78c96be73bde",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died instantly from a shot' — 'from' explicitly links the shot/gunfire to death; common sense also holds that gunfire causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "34ca9a9bb52e02b07cd9022b4f78e64aa8539818365735dae12aa6881c9bc247",
+    "34ca9a9bb52e02b07cd9022b4f78e64aa8539818365735dae12aa6881c9bc247",
+    "102ac87c59ef6d374c2015cd65fd6c57512cdc97daba7ba26d65c0eb2082615c",
+    "ac6e41b52d6aecada8fcb3a70c760edb0cc64c432249059ab1511d44377b59ab",
+    "028b1b492784c6074458d72dac531dc9472dde874e7d085e5f4a0c5019389bab",
+    "310f6c5dc3239d31ba86d3aa10ff6c9f82705abd005327a132cb78c96be73bde"
+  ],
+  "elapsed_s": 4.28758692741394
+}

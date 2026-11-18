@@ -1,0 +1,60 @@
+{
+  "input_hash": "48ca902240a713867e12a4d39356a176e082ba17064eddcc84c9957229b6b72e",
+  "sample_id": "ESC-CSV-02577",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d55fd6fce22738ca37bfa9a3d57a6b47f26d50d9fe44c6b82d6349a074bf4546",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d55fd6fce22738ca37bfa9a3d57a6b47f26d50d9fe44c6b82d6349a074bf4546",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d1d148ad8251b210dde53286ecf2ddde497aa884c756ff5f85e0077f71907438",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f1c931e847f631cf0b2566a88f5e997bd846b52d7893110c522c30b3755e2dcc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "388bc5793e1e9cfd0b3112ff5455fad6c831432ffea0b0d060ff827615508d62",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"protesters\",\"Enraged\"],\"target_related\":[\"protesters\",\"cops\",\"rioting\"],\"mediators\":[\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "2f959b2e457ee17a3a58a9f44518daaf0947dd78295692f2174447c794e64f58",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Furious crowd broke away; enraged protesters battle cops—anger/fury implicitly provokes the battle, and fury preceding battle fits common sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "d55fd6fce22738ca37bfa9a3d57a6b47f26d50d9fe44c6b82d6349a074bf4546",
+    "d55fd6fce22738ca37bfa9a3d57a6b47f26d50d9fe44c6b82d6349a074bf4546",
+    "d1d148ad8251b210dde53286ecf2ddde497aa884c756ff5f85e0077f71907438",
+    "f1c931e847f631cf0b2566a88f5e997bd846b52d7893110c522c30b3755e2dcc",
+    "388bc5793e1e9cfd0b3112ff5455fad6c831432ffea0b0d060ff827615508d62",
+    "2f959b2e457ee17a3a58a9f44518daaf0947dd78295692f2174447c794e64f58"
+  ],
+  "elapsed_s": 7.915855646133423
+}

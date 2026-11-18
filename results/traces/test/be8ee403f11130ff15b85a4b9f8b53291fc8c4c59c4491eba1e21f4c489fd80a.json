@@ -1,0 +1,60 @@
+{
+  "input_hash": "be8ee403f11130ff15b85a4b9f8b53291fc8c4c59c4491eba1e21f4c489fd80a",
+  "sample_id": "ESC-CSV-06672",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "254c69c811b36e8090d323fd8b83b9045d2d15937c3aaa0f6490aeba9d8d5dcb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "254c69c811b36e8090d323fd8b83b9045d2d15937c3aaa0f6490aeba9d8d5dcb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6cade343f812faae5ea12494d1301d347d6e7b332bcda1f1fe2d303d1645e23e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8576a5519025eb70c5a7ce8c38f4f15a3c4cd74a587063fe76a627d5cad5a8ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d0e3f1335b204ea49beaf0acac87aec2dfeeb608607d07dd3988149bbf302080",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Carrasquillo\",\"Lopez\"],\"target_related\":[\"Lopez\"],\"mediators\":[\"Lopez\"]}"
+    },
+    "indirect": {
+      "call_id": "e5245f491669f389ff136550415ea1c0b1800395fb54f736995c17ae977a0894",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ordering someone to shoot implies the order causes the shooting; X (ordered) precedes and brings about Y (shoot).\"}"
+    }
+  },
+  "call_ids": [
+    "254c69c811b36e8090d323fd8b83b9045d2d15937c3aaa0f6490aeba9d8d5dcb",
+    "254c69c811b36e8090d323fd8b83b9045d2d15937c3aaa0f6490aeba9d8d5dcb",
+    "6cade343f812faae5ea12494d1301d347d6e7b332bcda1f1fe2d303d1645e23e",
+    "8576a5519025eb70c5a7ce8c38f4f15a3c4cd74a587063fe76a627d5cad5a8ea",
+    "d0e3f1335b204ea49beaf0acac87aec2dfeeb608607d07dd3988149bbf302080",
+    "e5245f491669f389ff136550415ea1c0b1800395fb54f736995c17ae977a0894"
+  ],
+  "elapsed_s": 3.742293357849121
+}

@@ -1,0 +1,70 @@
+{
+  "input_hash": "0152bf326602915034615f6c62dcdc29514268fe314b44975bd3fa9ca55dd29c",
+  "sample_id": "ESC-CSV-09292",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "killed",
+    "building",
+    "torched",
+    "murder",
+    "Greek",
+    "prime",
+    "minister",
+    "Riot",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2a3a397d7cfed1f670a6c4e4ef96d22fc306786eb07bd3116b63d699985bd455",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2a3a397d7cfed1f670a6c4e4ef96d22fc306786eb07bd3116b63d699985bd455",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b31faa80c9a73b1964bfc09f40e2661c78839cd789d961a604e9d3ab62ab22dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2b1c741f48ae2c832a578cb4eff457e48e30d6f1ca05afb9f9f3647fe84dbd26",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "de5bff72a1ac9606eb884c9212cd79d311f99305d08bf524777b9e5b35cad507",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"austerity\",\"measures\",\"building\",\"torched\",\"bank\",\"workers\",\"killed\",\"murder\",\"Greek\",\"prime\",\"minister\",\"Riot\"],\"target_related\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"murder\",\"Greek\",\"prime\",\"minister\",\"Riot\",\"protests\",\"Athens\"],\"mediators\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"murder\",\"Greek\",\"prime\",\"minister\",\"Riot\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "a6a54885a5d95201408ff796a049c0c905b854210f65fe3aa5c8266af977815f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Building was torched during protests; deaths occurred when building was torched, so protests caused the deaths via 'torched' (by).\"}"
+    }
+  },
+  "call_ids": [
+    "2a3a397d7cfed1f670a6c4e4ef96d22fc306786eb07bd3116b63d699985bd455",
+    "2a3a397d7cfed1f670a6c4e4ef96d22fc306786eb07bd3116b63d699985bd455",
+    "b31faa80c9a73b1964bfc09f40e2661c78839cd789d961a604e9d3ab62ab22dd",
+    "2b1c741f48ae2c832a578cb4eff457e48e30d6f1ca05afb9f9f3647fe84dbd26",
+    "de5bff72a1ac9606eb884c9212cd79d311f99305d08bf524777b9e5b35cad507",
+    "a6a54885a5d95201408ff796a049c0c905b854210f65fe3aa5c8266af977815f"
+  ],
+  "elapsed_s": 4.959986209869385
+}

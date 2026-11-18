@@ -1,0 +1,60 @@
+{
+  "input_hash": "1d13aa8fc792b2b57807894db1f61126814ab6311bc1df3275b5a3a2ea954b91",
+  "sample_id": "ESC-CSV-02535",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a9e8f6266b1250c7a0da4a5cfce471fe7fab2c96410d113b975c7036448e3f16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a9e8f6266b1250c7a0da4a5cfce471fe7fab2c96410d113b975c7036448e3f16",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c754bc26b72d4564b05746fc391e97ed6c2b6cc65658f148d51b15b52e4f8492",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e1cd3086d6d044dc87ffefbccd0ecb42f693def980f020fc8f452276e45fc35c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "34144ad104ff37830318c851d0e8e31f3de1a83145b7ddedef36793ae138d45a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"enraged\",\"fatal\",\"teenager\",\"police\"],\"target_related\":[\"Protesters\",\"Brooklyn\",\"streets\",\"Wednesday\",\"pitching\",\"bricks\",\"bottles\",\"garbage\",\"clashes\",\"cops\"],\"mediators\":[\"Protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "af9306d2a1274a0b2d71a683b0ae1303500fb489820db1a991b36f60fd93f7ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"'enraged over the fatal shooting' implies the shooting provoked protesters to pour into streets; shooting precedes and causes the pouring.\"}"
+    }
+  },
+  "call_ids": [
+    "a9e8f6266b1250c7a0da4a5cfce471fe7fab2c96410d113b975c7036448e3f16",
+    "a9e8f6266b1250c7a0da4a5cfce471fe7fab2c96410d113b975c7036448e3f16",
+    "c754bc26b72d4564b05746fc391e97ed6c2b6cc65658f148d51b15b52e4f8492",
+    "e1cd3086d6d044dc87ffefbccd0ecb42f693def980f020fc8f452276e45fc35c",
+    "34144ad104ff37830318c851d0e8e31f3de1a83145b7ddedef36793ae138d45a",
+    "af9306d2a1274a0b2d71a683b0ae1303500fb489820db1a991b36f60fd93f7ae"
+  ],
+  "elapsed_s": 12.799362897872925
+}

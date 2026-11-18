@@ -1,0 +1,69 @@
+{
+  "input_hash": "36334a71ababa1df3a89b400f834e0a10a656d398a731b5a3fd4e6402f866db6",
+  "sample_id": "ESC-CSV-02112",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "suspect",
+    "jury",
+    "convicted",
+    "guilty",
+    "April",
+    "2007",
+    "Troy",
+    "accounting",
+    "firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a7d713c65229986a92c12bdd09fe91b60375372639b8c33cd6d8e330a2fedd23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a7d713c65229986a92c12bdd09fe91b60375372639b8c33cd6d8e330a2fedd23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cb0581c260d8742407f165fe284a33b3d477308b3b9df2d57f510e837a61bc6f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "19ccf9abaf43f34b6159d9626333187a62ee3494d965a23c1d6b300592eb6268",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6c96a025d3e3651076eae6bd98288e9c9522bd1b238abfbe66dd8a272aadab58",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Troy\",\"office\",\"accounting\",\"firm\",\"receptionist\",\"managing\",\"partners\",\"April\",\"2007\",\"suspect\",\"jury\",\"guilty\",\"convicted\",\"man\"],\"target_related\":[\"man\",\"suspect\",\"jury\",\"convicted\",\"guilty\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\"],\"mediators\":[\"man\",\"suspect\",\"jury\",\"convicted\",\"guilty\",\"April\",\"2007\",\"Troy\",\"accounting\",\"firm\"]}"
+    },
+    "indirect": {
+      "call_id": "ac42465080a79f47c46195a2fc910b7d80566f501a1674a08ec2e531804719ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred in April 2007, and the man was later charged for it; the shooting precedes and causes the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "a7d713c65229986a92c12bdd09fe91b60375372639b8c33cd6d8e330a2fedd23",
+    "a7d713c65229986a92c12bdd09fe91b60375372639b8c33cd6d8e330a2fedd23",
+    "cb0581c260d8742407f165fe284a33b3d477308b3b9df2d57f510e837a61bc6f",
+    "19ccf9abaf43f34b6159d9626333187a62ee3494d965a23c1d6b300592eb6268",
+    "6c96a025d3e3651076eae6bd98288e9c9522bd1b238abfbe66dd8a272aadab58",
+    "ac42465080a79f47c46195a2fc910b7d80566f501a1674a08ec2e531804719ca"
+  ],
+  "elapsed_s": 5.581897020339966
+}

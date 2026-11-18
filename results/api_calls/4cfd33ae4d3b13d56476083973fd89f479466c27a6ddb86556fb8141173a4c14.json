@@ -1,0 +1,100 @@
+{
+  "call_id": "4cfd33ae4d3b13d56476083973fd89f479466c27a6ddb86556fb8141173a4c14",
+  "stage": "E0",
+  "request": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert at identifying cause-effect relationships between events in a text. Please answer this question based on the context given to you."
+      },
+      {
+        "role": "user",
+        "content": "\"text\": The three bank workers - two women and a man - were killed when their branch went up in flames after a protester threw a petrol bomb inside .\n\"source event\": threw,\n\"target event\": went up in flames,\n\nQuestion: Is there a causal relationship between threw and went up in flames ? \n\n    Return only a valid JSON object. Use exactly {\"Answer\":\"Yes\"} or {\"Answer\":\"No\"}."
+      }
+    ],
+    "temperature": 0,
+    "thinking": {
+      "type": "disabled"
+    },
+    "max_tokens": 64,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false
+  },
+  "attempts": [
+    {
+      "time_utc": "2026-11-03T11:12:28.251480+00:00",
+      "elapsed_s": 1.2190539836883545,
+      "rates": {
+        "input_hit": 0.02,
+        "input_miss": 1.0,
+        "output": 4.0,
+        "unit": "CNY per million tokens",
+        "peak": false
+      },
+      "charge_upper_cny": 0.00016,
+      "error": null,
+      "response": {
+        "id": "22fc9119-5da0-45a1-983f-3179fc27a16d",
+        "object": "chat.completion",
+        "created": 1793704347,
+        "model": "deepseek-flash",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"Answer\":\"Yes\"}"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 5,
+          "total_tokens": 145,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 140
+        },
+        "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+      }
+    }
+  ],
+  "response": {
+    "id": "22fc9119-5da0-45a1-983f-3179fc27a16d",
+    "object": "chat.completion",
+    "created": 1793704347,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"Answer\":\"Yes\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 140,
+      "completion_tokens": 5,
+      "total_tokens": 145,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 140
+    },
+    "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+  },
+  "charged_upper_cny": 0.00016,
+  "elapsed_s": 1.2190790176391602,
+  "status": "ok"
+}

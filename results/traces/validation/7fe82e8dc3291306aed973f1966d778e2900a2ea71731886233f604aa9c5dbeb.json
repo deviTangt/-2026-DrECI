@@ -1,0 +1,70 @@
+{
+  "input_hash": "7fe82e8dc3291306aed973f1966d778e2900a2ea71731886233f604aa9c5dbeb",
+  "sample_id": "ESC-CSV-02241",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan man",
+    "person",
+    "two others",
+    "Monday",
+    "suburban Detroit accounting firm",
+    "fired",
+    "police",
+    "Sheriff",
+    "Michigan office",
+    "kills",
+    "injures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d1aeb602b70805c2b22acec9bda78689a4580fbb7dc7fe2f900956c6e9008100",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d1aeb602b70805c2b22acec9bda78689a4580fbb7dc7fe2f900956c6e9008100",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "528c315a510fcf46900991314a4148a1a8934a479619fd54cecedc9e6101125b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9082c4243132cf8a1209ac04795eaf93a32504e6573a005dc886eef5a0b9885c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "287d8be47691d1b9c1afae0ee45edc42df3a2a92b5d23715cb9fa701b26f2379",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan man\",\"person\",\"two others\",\"Monday\",\"suburban Detroit accounting firm\",\"fired\",\"police\",\"Sheriff\",\"Michigan office\",\"kills\",\"injures\"],\"target_related\":[\"Michigan man\",\"person\",\"two others\",\"Monday\",\"suburban Detroit accounting firm\",\"fired\",\"police\",\"Sheriff\",\"Michigan office\",\"kills\",\"injures\"],\"mediators\":[\"Michigan man\",\"person\",\"two others\",\"Monday\",\"suburban Detroit accounting firm\",\"fired\",\"police\",\"Sheriff\",\"Michigan office\",\"kills\",\"injures\"]}"
+    },
+    "indirect": {
+      "call_id": "6aa69dd4e9bb5bba809c94899af05cff1339ab8bc9f23122f37a42e0a849672a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The man shot people, which constitutes the shooting; the act of shooting precedes and causes the shooting event by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "d1aeb602b70805c2b22acec9bda78689a4580fbb7dc7fe2f900956c6e9008100",
+    "d1aeb602b70805c2b22acec9bda78689a4580fbb7dc7fe2f900956c6e9008100",
+    "528c315a510fcf46900991314a4148a1a8934a479619fd54cecedc9e6101125b",
+    "9082c4243132cf8a1209ac04795eaf93a32504e6573a005dc886eef5a0b9885c",
+    "287d8be47691d1b9c1afae0ee45edc42df3a2a92b5d23715cb9fa701b26f2379",
+    "6aa69dd4e9bb5bba809c94899af05cff1339ab8bc9f23122f37a42e0a849672a"
+  ],
+  "elapsed_s": 6.244523525238037
+}

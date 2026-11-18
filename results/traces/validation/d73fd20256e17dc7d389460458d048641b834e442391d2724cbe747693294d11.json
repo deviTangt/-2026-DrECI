@@ -1,0 +1,61 @@
+{
+  "input_hash": "d73fd20256e17dc7d389460458d048641b834e442391d2724cbe747693294d11",
+  "sample_id": "ESC-CSV-01678",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Deputy Ortiz",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "faefff23963aecfe248e7982cb8e9dc6d980c00c7a70872f7b88a5f3237b2739",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "faefff23963aecfe248e7982cb8e9dc6d980c00c7a70872f7b88a5f3237b2739",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8bdcd32e8f04869ebd3bb5c0cfb703dadfe20dd91684f1c8dc8f180f0abeadc3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fc55d1899fb1955297c045e0fd7ae5e3d1afb819580ea00cd087e2139bed8945",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "47e75a36d5900d93ccd12fb6e9b04d0aeb8a693dcff3b75f1b1f95064cfe8b99",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"deputy\",\"June 24\",\"Hawaiian Gardens\",\"apartment\",\"killed\",\"Deputy Ortiz\"],\"target_related\":[\"Sheriff\",\"detectives\",\"prosecutors\",\"Crimes Against Police Officers Section\",\"CAPOS\",\"murder\",\"case\",\"Deputy Ortiz\"],\"mediators\":[\"Deputy Ortiz\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "62e2276ac5b5306fec912ccb22cd1841fceeb30438814c5cceffdcc66a6d0d43",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says custody status gave additional time to investigate the murder; murdering does not cause investigating.\"}"
+    }
+  },
+  "call_ids": [
+    "faefff23963aecfe248e7982cb8e9dc6d980c00c7a70872f7b88a5f3237b2739",
+    "faefff23963aecfe248e7982cb8e9dc6d980c00c7a70872f7b88a5f3237b2739",
+    "8bdcd32e8f04869ebd3bb5c0cfb703dadfe20dd91684f1c8dc8f180f0abeadc3",
+    "fc55d1899fb1955297c045e0fd7ae5e3d1afb819580ea00cd087e2139bed8945",
+    "47e75a36d5900d93ccd12fb6e9b04d0aeb8a693dcff3b75f1b1f95064cfe8b99",
+    "62e2276ac5b5306fec912ccb22cd1841fceeb30438814c5cceffdcc66a6d0d43"
+  ],
+  "elapsed_s": 5.261682033538818
+}

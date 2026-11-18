@@ -1,0 +1,60 @@
+{
+  "input_hash": "7d280b38a075826ccf7be9e59fa4e5c0f8d97d88ac909f126f6bcf33f7d65c56",
+  "sample_id": "ESC-CSV-09688",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "da4297d4af9bc50a1319bf1b82866adf9599d8f648de233998c9a83cfaba9c8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "da4297d4af9bc50a1319bf1b82866adf9599d8f648de233998c9a83cfaba9c8a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9e9aff7ced2b7c59924778aa029c4ba8ed24d25a2f35b0b61c91d97a1e25e801",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "924ea06c7d0b3ae75a8d8470eba96c88ba3f57c1223ab577b9bcf72db75fee68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d6cc13e46256894664be096e4732a9a7b542793390b37b46b4d92545ef6e71f3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"riot police cordon\",\"Parliament\"],\"target_related\":[\"Police\",\"tear gas\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "00a0768b29c11f68476982a2cbda0e9364269b05386e5a55329c6a3f00790933",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Demonstrators attempting to break through the police cordon prompted police to respond with tear gas; the attempt precedes and causes the response.\"}"
+    }
+  },
+  "call_ids": [
+    "da4297d4af9bc50a1319bf1b82866adf9599d8f648de233998c9a83cfaba9c8a",
+    "da4297d4af9bc50a1319bf1b82866adf9599d8f648de233998c9a83cfaba9c8a",
+    "9e9aff7ced2b7c59924778aa029c4ba8ed24d25a2f35b0b61c91d97a1e25e801",
+    "924ea06c7d0b3ae75a8d8470eba96c88ba3f57c1223ab577b9bcf72db75fee68",
+    "d6cc13e46256894664be096e4732a9a7b542793390b37b46b4d92545ef6e71f3",
+    "00a0768b29c11f68476982a2cbda0e9364269b05386e5a55329c6a3f00790933"
+  ],
+  "elapsed_s": 4.512820243835449
+}

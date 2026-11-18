@@ -1,0 +1,64 @@
+{
+  "input_hash": "e06b6bae3554e4a65d2cd3b61f8ba848d8651f7cd0065b043a0c4987500a5a73",
+  "sample_id": "ESC-CSV-04442",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "£1",
+    "7m",
+    "shop"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a40f7f92260bc7d04af6b705de5ff61a5aac0dfef4964bdb83b24df1a5a011c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a40f7f92260bc7d04af6b705de5ff61a5aac0dfef4964bdb83b24df1a5a011c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fa52a6f3f46b5b73fd853f530d53393ca0633e1791fda431476b29ef1d865c8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "457035071a51b19e14bdff11983cfc31469b605a651d7ee188587c2d26c67b7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "596e1250353bf8f4227938e8f87f9cffce35865049917bba0f77ccc8ee9ba566",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"shop\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"shop\"],\"mediators\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"shop\"]}"
+    },
+    "indirect": {
+      "call_id": "728deff7a9287d2e20a31f6e5980462af9b7b8da59226aa5ecd49ecc2b4ed5e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The passive construction 'have been stolen during a heist' uses 'during' to link the theft to the heist, indicating the heist is the causal setting.\"}"
+    }
+  },
+  "call_ids": [
+    "3a40f7f92260bc7d04af6b705de5ff61a5aac0dfef4964bdb83b24df1a5a011c",
+    "3a40f7f92260bc7d04af6b705de5ff61a5aac0dfef4964bdb83b24df1a5a011c",
+    "fa52a6f3f46b5b73fd853f530d53393ca0633e1791fda431476b29ef1d865c8d",
+    "457035071a51b19e14bdff11983cfc31469b605a651d7ee188587c2d26c67b7f",
+    "596e1250353bf8f4227938e8f87f9cffce35865049917bba0f77ccc8ee9ba566",
+    "728deff7a9287d2e20a31f6e5980462af9b7b8da59226aa5ecd49ecc2b4ed5e3"
+  ],
+  "elapsed_s": 4.0232439041137695
+}

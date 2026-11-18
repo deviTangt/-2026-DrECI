@@ -1,0 +1,61 @@
+{
+  "input_hash": "7492ad524da58b147439a0924bcb59e7ee16280bc089d252d162a7e235db08e5",
+  "sample_id": "ESC-CSV-06744",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "baf07fc6dd2553b31451a56eb8128526673ef8c3500acb1c538b84befe5f0c73",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "baf07fc6dd2553b31451a56eb8128526673ef8c3500acb1c538b84befe5f0c73",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fb37f17589bd2627a9f49afc49c01f39aac8d56d0443f5dd3353107fe609281e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "336bc0129f6bbb83f30e1689a8ff43ceec7ecced9bc8150397100fe5835a02e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "559d063e43b21c6a01d049e67db349b5aeb95dfd9e0613546b00b72788678e11",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"gunplay\",\"shooting\"],\"target_related\":[\"men\",\"shooting\",\"Brooklyn\",\"woman\"],\"mediators\":[\"men\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "51da8233e50333776d84d07f6fe2a461cf31a45738519855285810c4cb8475d6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says the shooting video is played at the trial of men charged; being charged does not cause the trial, and no causal wording links them.\"}"
+    }
+  },
+  "call_ids": [
+    "baf07fc6dd2553b31451a56eb8128526673ef8c3500acb1c538b84befe5f0c73",
+    "baf07fc6dd2553b31451a56eb8128526673ef8c3500acb1c538b84befe5f0c73",
+    "fb37f17589bd2627a9f49afc49c01f39aac8d56d0443f5dd3353107fe609281e",
+    "336bc0129f6bbb83f30e1689a8ff43ceec7ecced9bc8150397100fe5835a02e6",
+    "559d063e43b21c6a01d049e67db349b5aeb95dfd9e0613546b00b72788678e11",
+    "51da8233e50333776d84d07f6fe2a461cf31a45738519855285810c4cb8475d6"
+  ],
+  "elapsed_s": 5.053884029388428
+}

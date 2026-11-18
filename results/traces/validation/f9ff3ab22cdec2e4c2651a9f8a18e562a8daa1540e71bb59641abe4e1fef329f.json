@@ -1,0 +1,61 @@
+{
+  "input_hash": "f9ff3ab22cdec2e4c2651a9f8a18e562a8daa1540e71bb59641abe4e1fef329f",
+  "sample_id": "ESC-CSV-01777",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jury",
+    "he"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5b277b636ba446a3df60060aa6be6c65ce54eb9444490687e7e87b91814c0535",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5b277b636ba446a3df60060aa6be6c65ce54eb9444490687e7e87b91814c0535",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c3ccc748e93fa29e40474d6dba2e673efda3e92fbfcf9affdb3049f0ed7cc878",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7dd04940cd7761aee5e790584cb60f62c615c62a3e1e5060a060c4b684ae7bcd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1f0f1a905fd8b19e67eefef994616eb9baae8f4d8e215ac80e5175c1953870e4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"hearing\",\"laughed\",\"convicted\",\"cop\",\"killer\"],\"target_related\":[\"death\",\"he\",\"jury\",\"ruling\"],\"mediators\":[\"jury\",\"he\"]}"
+    },
+    "indirect": {
+      "call_id": "b746c779ec62e84911d4d3d6a8b5a98e8ed0301f93dd33529932f31791c33c70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The jury's ruling that he be put to death precedes and causes the death sentence being imposed; ruling causes the putting to death.\"}"
+    }
+  },
+  "call_ids": [
+    "5b277b636ba446a3df60060aa6be6c65ce54eb9444490687e7e87b91814c0535",
+    "5b277b636ba446a3df60060aa6be6c65ce54eb9444490687e7e87b91814c0535",
+    "c3ccc748e93fa29e40474d6dba2e673efda3e92fbfcf9affdb3049f0ed7cc878",
+    "7dd04940cd7761aee5e790584cb60f62c615c62a3e1e5060a060c4b684ae7bcd",
+    "1f0f1a905fd8b19e67eefef994616eb9baae8f4d8e215ac80e5175c1953870e4",
+    "b746c779ec62e84911d4d3d6a8b5a98e8ed0301f93dd33529932f31791c33c70"
+  ],
+  "elapsed_s": 4.583547353744507
+}

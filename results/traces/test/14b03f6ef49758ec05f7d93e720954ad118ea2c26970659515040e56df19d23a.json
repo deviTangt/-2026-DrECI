@@ -1,0 +1,72 @@
+{
+  "input_hash": "14b03f6ef49758ec05f7d93e720954ad118ea2c26970659515040e56df19d23a",
+  "sample_id": "ESC-CSV-04561",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "drove",
+    "car",
+    "store",
+    "jewellery",
+    "luxury watches",
+    "€2 million",
+    "raiders",
+    "ploughed",
+    "vehicle",
+    "boutique",
+    "Paris",
+    "loot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad7d58c07cc36b89a6b4621fa280ba1772445d76ca6af1c3bfe2a35db8481c70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad7d58c07cc36b89a6b4621fa280ba1772445d76ca6af1c3bfe2a35db8481c70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e31a614aafa0a665f8512d961337c77030a4226ec521460243c46caf068690ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fce94a751a409322c4dcac6689d3f09c66e5c3f9183575e856dc23623e334c92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dbaa1a52ea85a6f37f4f4fee7dc44baef7b4d2fb939802f0f4cf964451dca368",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"drove\",\"car\",\"store\",\"jewellery\",\"luxury watches\",\"€2 million\",\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"loot\"],\"target_related\":[\"men\",\"drove\",\"car\",\"store\",\"jewellery\",\"luxury watches\",\"€2 million\",\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"loot\"],\"mediators\":[\"men\",\"drove\",\"car\",\"store\",\"jewellery\",\"luxury watches\",\"€2 million\",\"raiders\",\"ploughed\",\"vehicle\",\"boutique\",\"Paris\",\"loot\"]}"
+    },
+    "indirect": {
+      "call_id": "3de9b28961757bfa44e2530042d7070ddc7e0ab2b8d5a4914186265db5ac4346",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Grabbing jewellery and watches is the act that constitutes and completes the robbery; the grabbing occurs as part of the robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "ad7d58c07cc36b89a6b4621fa280ba1772445d76ca6af1c3bfe2a35db8481c70",
+    "ad7d58c07cc36b89a6b4621fa280ba1772445d76ca6af1c3bfe2a35db8481c70",
+    "e31a614aafa0a665f8512d961337c77030a4226ec521460243c46caf068690ee",
+    "fce94a751a409322c4dcac6689d3f09c66e5c3f9183575e856dc23623e334c92",
+    "dbaa1a52ea85a6f37f4f4fee7dc44baef7b4d2fb939802f0f4cf964451dca368",
+    "3de9b28961757bfa44e2530042d7070ddc7e0ab2b8d5a4914186265db5ac4346"
+  ],
+  "elapsed_s": 5.035322904586792
+}

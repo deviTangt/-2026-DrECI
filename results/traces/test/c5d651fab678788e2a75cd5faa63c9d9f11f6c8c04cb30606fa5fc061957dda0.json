@@ -1,0 +1,63 @@
+{
+  "input_hash": "c5d651fab678788e2a75cd5faa63c9d9f11f6c8c04cb30606fa5fc061957dda0",
+  "sample_id": "ESC-CSV-04496",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "thieves"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0a535c4988dc994871aee6b376f07b28da6693e6d477ee65c722f1e61e394785",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0a535c4988dc994871aee6b376f07b28da6693e6d477ee65c722f1e61e394785",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "13bb562defdefaa82543b76e1b30184583baa1da08da7e4a2e4b67b12de73cfd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f47fbb03a399a4368ced1a314a478a67154701791b060fd77fed40e3c944bc14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "333e1ab9d0446e6f1cf28f3406449268592b34b021decf8f6b92c9f3e01b3128",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\",\"vehicle\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"thieves\"]}"
+    },
+    "indirect": {
+      "call_id": "4da7be8e1cc6b02cd6b18097f512d89b17efb23ccc8ff9091d65009312c0deb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Grabbing the jewelry and watches enabled the robbers to make off with them; the grab precedes and causes the making off.\"}"
+    }
+  },
+  "call_ids": [
+    "0a535c4988dc994871aee6b376f07b28da6693e6d477ee65c722f1e61e394785",
+    "0a535c4988dc994871aee6b376f07b28da6693e6d477ee65c722f1e61e394785",
+    "13bb562defdefaa82543b76e1b30184583baa1da08da7e4a2e4b67b12de73cfd",
+    "f47fbb03a399a4368ced1a314a478a67154701791b060fd77fed40e3c944bc14",
+    "333e1ab9d0446e6f1cf28f3406449268592b34b021decf8f6b92c9f3e01b3128",
+    "4da7be8e1cc6b02cd6b18097f512d89b17efb23ccc8ff9091d65009312c0deb2"
+  ],
+  "elapsed_s": 4.457211494445801
+}

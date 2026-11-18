@@ -1,0 +1,62 @@
+{
+  "input_hash": "32523e5c52130554e1f0d88e3a049f88a1bb237fe5aaaac0755acd95bb5523e0",
+  "sample_id": "ESC-CSV-06448",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "pregnant mom",
+    "shoot",
+    "ladies"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1a57a9f43b62b05407adb2a9067bfa56e71a958fa5d77809b8aefc42adf87800",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1a57a9f43b62b05407adb2a9067bfa56e71a958fa5d77809b8aefc42adf87800",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c1946ec1f4fa01b57d44c315009d1962ee4569769bfff642b178f8f45c35111f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5606f3316b727fd74b95ca6c071d83bd53d18858793145886db4fda9c5dcaef7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "a3b250b45c9afca8a65c53c1458f600672e07f8afe79957acc72a5f6aabf03e4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"charged\",\"half-brothers\",\"arrested\",\"gang member\",\"confessed\",\"killing\",\"pregnant mom\",\"shoot\",\"ladies\"],\"target_related\":[\"pregnant mom\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"shoot\",\"ladies\"],\"mediators\":[\"pregnant mom\",\"shoot\",\"ladies\"]}"
+    },
+    "indirect": {
+      "call_id": "97c4802bd6677fb12317c7cc76cc2fb857f86508bdc6fe82e7115af1e0fdff5f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Murder (killing) of the pregnant mom caused her death; the shooting/murder acts on the mom, who then died, forming a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "1a57a9f43b62b05407adb2a9067bfa56e71a958fa5d77809b8aefc42adf87800",
+    "1a57a9f43b62b05407adb2a9067bfa56e71a958fa5d77809b8aefc42adf87800",
+    "c1946ec1f4fa01b57d44c315009d1962ee4569769bfff642b178f8f45c35111f",
+    "5606f3316b727fd74b95ca6c071d83bd53d18858793145886db4fda9c5dcaef7",
+    "a3b250b45c9afca8a65c53c1458f600672e07f8afe79957acc72a5f6aabf03e4",
+    "97c4802bd6677fb12317c7cc76cc2fb857f86508bdc6fe82e7115af1e0fdff5f"
+  ],
+  "elapsed_s": 4.76222825050354
+}

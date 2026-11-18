@@ -1,0 +1,60 @@
+{
+  "input_hash": "f8e31899806c9c5780b0b59efcc77c5cb4555af615390e1ed42402c2794bc3f9",
+  "sample_id": "ESC-CSV-04587",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "60be9d8f7e34b8d7eb855c0c7618a4af187a473a18c99aff5178fa531bd71528",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "60be9d8f7e34b8d7eb855c0c7618a4af187a473a18c99aff5178fa531bd71528",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c4a4c1c08439d0f588a46dac58f10d0b4a43b75f07096dfd3f7a417413bc2d0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ebd9818b5e1fa13b06596337ad35b813aedaad9fd69144f71eb90433b0142e7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2dc23e645f84280537d2cd561fa04a1622971732dfdc9c4793448114d92b28fe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"vehicle\"],\"target_related\":[\"shop\",\"window\",\"jewelry\",\"store\"],\"mediators\":[\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "49846223480dbc8065e9d2851eb286e2b9d70854e141c55853c77cd09681af43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove a car into the store, and this ramming action directly caused the shop window to be smashed.\"}"
+    }
+  },
+  "call_ids": [
+    "60be9d8f7e34b8d7eb855c0c7618a4af187a473a18c99aff5178fa531bd71528",
+    "60be9d8f7e34b8d7eb855c0c7618a4af187a473a18c99aff5178fa531bd71528",
+    "c4a4c1c08439d0f588a46dac58f10d0b4a43b75f07096dfd3f7a417413bc2d0d",
+    "ebd9818b5e1fa13b06596337ad35b813aedaad9fd69144f71eb90433b0142e7a",
+    "2dc23e645f84280537d2cd561fa04a1622971732dfdc9c4793448114d92b28fe",
+    "49846223480dbc8065e9d2851eb286e2b9d70854e141c55853c77cd09681af43"
+  ],
+  "elapsed_s": 4.706699848175049
+}

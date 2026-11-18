@@ -1,0 +1,64 @@
+{
+  "input_hash": "f0b678dc558e644188b742b0e13097125f6fae402b544282e5a4b2001ee38487",
+  "sample_id": "ESC-CSV-06438",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "pregnant",
+    "mom",
+    "died",
+    "Friday",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6b6b69047c82e4386802701604751ac87d29ab122ba6a9719b901b49699a023e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6b6b69047c82e4386802701604751ac87d29ab122ba6a9719b901b49699a023e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0bba9b52c2ed3bd7960d8a3de7c9b1e810f2e3bb65f14a792513086db3ef56b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cbd752fb8e60a2f1b06ccf1885a5eafb552a2c81ba4631f8f311087c43b99335",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "872f15bd55a5941125c9751e086c632d96b3f2083e6168b62cf59c8fdaf29482",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Arrested\",\"gang\",\"member\",\"confessed\",\"killing\",\"pregnant\",\"mom\",\"died\",\"Friday\",\"bullets\",\"shoot\",\"ladies\",\"sources\",\"New York Daily News\"],\"target_related\":[\"pregnant\",\"mom\",\"died\",\"Friday\",\"group\",\"children\",\"bullets\"],\"mediators\":[\"pregnant\",\"mom\",\"died\",\"Friday\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "8d5c02313c0f07f6b288dc598ec6131fe447071f96c75cf7c77ae21261bac2e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the mom shielded the children; common sense: gunfire caused her to shield them, so Shooting causes shielded.\"}"
+    }
+  },
+  "call_ids": [
+    "6b6b69047c82e4386802701604751ac87d29ab122ba6a9719b901b49699a023e",
+    "6b6b69047c82e4386802701604751ac87d29ab122ba6a9719b901b49699a023e",
+    "0bba9b52c2ed3bd7960d8a3de7c9b1e810f2e3bb65f14a792513086db3ef56b8",
+    "cbd752fb8e60a2f1b06ccf1885a5eafb552a2c81ba4631f8f311087c43b99335",
+    "872f15bd55a5941125c9751e086c632d96b3f2083e6168b62cf59c8fdaf29482",
+    "8d5c02313c0f07f6b288dc598ec6131fe447071f96c75cf7c77ae21261bac2e0"
+  ],
+  "elapsed_s": 4.612159967422485
+}

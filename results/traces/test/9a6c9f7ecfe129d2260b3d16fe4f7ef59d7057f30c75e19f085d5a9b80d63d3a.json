@@ -1,0 +1,62 @@
+{
+  "input_hash": "9a6c9f7ecfe129d2260b3d16fe4f7ef59d7057f30c75e19f085d5a9b80d63d3a",
+  "sample_id": "ESC-CSV-04096",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fell",
+    "gully"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0eaee983cd4f8f7a2a7aa56d7c95247d9e29c8b6bd4a61d8febfe3fe47f9a5a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0eaee983cd4f8f7a2a7aa56d7c95247d9e29c8b6bd4a61d8febfe3fe47f9a5a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "04bd1e5869ef34333263d8b70878f89ff383e836b2ebbbd394561a1125be47cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5e1037049f216217f34a05b48ae297fe8d64e8dddaffcc410f906cfd8c7d9fc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1f28ecd5aeaee75c5eb0c4f688b473b4ad8a6fd75f39b52d409fd554bff34b22",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"11am\",\"Friday\",\"slipped\",\"fell\",\"gully\"],\"target_related\":[\"man\",\"fell\",\"200m\",\"gully\",\"died\"],\"mediators\":[\"man\",\"fell\",\"gully\"]}"
+    },
+    "indirect": {
+      "call_id": "a19456949bf802880652d2249f02a5fd1e5a2a128916bab8d39be8c6f8926cfa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: slipping and falling down a steep icy gully causes death; the fall precedes and leads to the man's death.\"}"
+    }
+  },
+  "call_ids": [
+    "0eaee983cd4f8f7a2a7aa56d7c95247d9e29c8b6bd4a61d8febfe3fe47f9a5a0",
+    "0eaee983cd4f8f7a2a7aa56d7c95247d9e29c8b6bd4a61d8febfe3fe47f9a5a0",
+    "04bd1e5869ef34333263d8b70878f89ff383e836b2ebbbd394561a1125be47cb",
+    "5e1037049f216217f34a05b48ae297fe8d64e8dddaffcc410f906cfd8c7d9fc5",
+    "1f28ecd5aeaee75c5eb0c4f688b473b4ad8a6fd75f39b52d409fd554bff34b22",
+    "a19456949bf802880652d2249f02a5fd1e5a2a128916bab8d39be8c6f8926cfa"
+  ],
+  "elapsed_s": 4.3317694664001465
+}

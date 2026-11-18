@@ -1,0 +1,62 @@
+{
+  "input_hash": "9324d54cf0516eecca723e87c0b8d6b499375c0a9fb3d219e4e89e83e062396b",
+  "sample_id": "ESC-CSV-06452",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pregnant",
+    "mom",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8a3b881d558cff7f17d6b237e7d2d610d97e99f95fd10737072425448ecc26c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8a3b881d558cff7f17d6b237e7d2d610d97e99f95fd10737072425448ecc26c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b4b0f96fd9182f0b2aa20da229cd92af6a58255856e52669488d9c09862a46ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "300696a2b9fbc679aa1967c4cef96f5e39b3eed7d8231ee800d20119bc9f0744",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "69e555a852a3c6ef39c93a96f69aeda81fb5673e506edd59abf994bfc5393234",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"member\",\"confessed\",\"killing\",\"pregnant\",\"mom\",\"bullets\",\"ladies\"],\"target_related\":[\"pregnant\",\"mom\",\"Friday\",\"shielded\",\"children\",\"bullets\"],\"mediators\":[\"pregnant\",\"mom\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "e974aec82dc71a59793f4136204599b7800131eb74d9f99020d1ad8a94864241",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting the pregnant mom caused her death; the shooting occurred before she died, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "8a3b881d558cff7f17d6b237e7d2d610d97e99f95fd10737072425448ecc26c0",
+    "8a3b881d558cff7f17d6b237e7d2d610d97e99f95fd10737072425448ecc26c0",
+    "b4b0f96fd9182f0b2aa20da229cd92af6a58255856e52669488d9c09862a46ac",
+    "300696a2b9fbc679aa1967c4cef96f5e39b3eed7d8231ee800d20119bc9f0744",
+    "69e555a852a3c6ef39c93a96f69aeda81fb5673e506edd59abf994bfc5393234",
+    "e974aec82dc71a59793f4136204599b7800131eb74d9f99020d1ad8a94864241"
+  ],
+  "elapsed_s": 4.5981950759887695
+}

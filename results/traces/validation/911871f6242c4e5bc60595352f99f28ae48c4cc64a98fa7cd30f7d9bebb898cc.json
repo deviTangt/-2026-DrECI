@@ -1,0 +1,58 @@
+{
+  "input_hash": "911871f6242c4e5bc60595352f99f28ae48c4cc64a98fa7cd30f7d9bebb898cc",
+  "sample_id": "ESC-CSV-01924",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [],
+  "route": "direct",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15b2bde38921ba7557ea98b42d436c7fd6f4999e40550b98d55798b353124b13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15b2bde38921ba7557ea98b42d436c7fd6f4999e40550b98d55798b353124b13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0ac5a7afef9979463630d2a34127c809b1a7116ad607fa4eab0882a8a0228180",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "28d80445069ee2603f3d41f82525cf933af52612adc1e520c39df5e0d7b6a473",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ecdb74b29c8e20d465a0d43a3fad39ea5ea2af732b47838b0f855d4198690366",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Orozco\",\"convicted\",\"June 20 , 2005\",\"attempted\",\"man\",\"shot\",\"back\",\"yard work\",\"home\",\"22000 block\",\"Joliet Avenue\",\"Hawaiian Gardens\",\"shooting\",\"jury\",\"street crime\"],\"target_related\":[\"D . A .\",\"seek\",\"Death Penalty\",\"Charges\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "3f6f398d1622752a93149279aa39c5e1db591ec65ebc8c7fcab3c4c49ea954f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text mentions attempted murder and seeking death penalty, but no causal link between murder and Death is stated or implied.\"}"
+    }
+  },
+  "call_ids": [
+    "15b2bde38921ba7557ea98b42d436c7fd6f4999e40550b98d55798b353124b13",
+    "15b2bde38921ba7557ea98b42d436c7fd6f4999e40550b98d55798b353124b13",
+    "0ac5a7afef9979463630d2a34127c809b1a7116ad607fa4eab0882a8a0228180",
+    "28d80445069ee2603f3d41f82525cf933af52612adc1e520c39df5e0d7b6a473",
+    "ecdb74b29c8e20d465a0d43a3fad39ea5ea2af732b47838b0f855d4198690366",
+    "3f6f398d1622752a93149279aa39c5e1db591ec65ebc8c7fcab3c4c49ea954f9"
+  ],
+  "elapsed_s": 5.416362762451172
+}

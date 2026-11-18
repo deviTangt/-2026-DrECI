@@ -1,0 +1,62 @@
+{
+  "input_hash": "4ba9edc5c1f284762849fa52ed673a133a1b5cf3b04c497ce9c8b6863068da9b",
+  "sample_id": "ESC-CSV-09658",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "Police",
+    "injured"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "544e022eed484170c575d6158d8c6843438395afb31c2a35938f78adbcc65460",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "544e022eed484170c575d6158d8c6843438395afb31c2a35938f78adbcc65460",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5f7201e8c2ceda3fe339f1032791dd1142a8b2c261eec7faeeed8ef4762ca4bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f6c6ca327c20c645d638d867f2efe39fa0989ca09223f8b699befac24b112989",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ca4fca6906ae673c7242c47f58e10c0f391eb972c5178bb331ecfb85b5a2ebf7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"strike\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"Police\",\"injured\"],\"target_related\":[\"Police\",\"injured\",\"people\"],\"mediators\":[\"people\",\"Police\",\"injured\"]}"
+    },
+    "indirect": {
+      "call_id": "cb36952dd3477bc5ddaad423a51dfe6821122da831f46c88632eb96c84c1589c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a protest (strike/march) can escalate into riots, with protest preceding riots; no explicit or implicit causal words link them.\"}"
+    }
+  },
+  "call_ids": [
+    "544e022eed484170c575d6158d8c6843438395afb31c2a35938f78adbcc65460",
+    "544e022eed484170c575d6158d8c6843438395afb31c2a35938f78adbcc65460",
+    "5f7201e8c2ceda3fe339f1032791dd1142a8b2c261eec7faeeed8ef4762ca4bb",
+    "f6c6ca327c20c645d638d867f2efe39fa0989ca09223f8b699befac24b112989",
+    "ca4fca6906ae673c7242c47f58e10c0f391eb972c5178bb331ecfb85b5a2ebf7",
+    "cb36952dd3477bc5ddaad423a51dfe6821122da831f46c88632eb96c84c1589c"
+  ],
+  "elapsed_s": 4.6829118728637695
+}

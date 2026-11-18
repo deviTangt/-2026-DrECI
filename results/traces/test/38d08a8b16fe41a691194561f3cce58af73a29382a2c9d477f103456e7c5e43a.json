@@ -1,0 +1,66 @@
+{
+  "input_hash": "38d08a8b16fe41a691194561f3cce58af73a29382a2c9d477f103456e7c5e43a",
+  "sample_id": "ESC-CSV-09459",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "THREE",
+    "PEOPLE",
+    "MARFIN EGNATIA BANK",
+    "Stadiou Street",
+    "downtown Athens",
+    "Molotov cocktail",
+    "Bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eab5f05568f7ac2220c12fb6ea6d2cba6471aac14425317c75419d88bced1548",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eab5f05568f7ac2220c12fb6ea6d2cba6471aac14425317c75419d88bced1548",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f183eb3553cf088f7bb6b831f563115e7670b63c2fadf021534e8d9170e0a666",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0da00fcef20628cd7bddb64382c9859d479763910b980907d2cec5d2a0c9229a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8dcf2e82eaf3d99915f08120196948153eedeaa3b87883b5ca420df8a1042929",
+      "status": "ok",
+      "text": "{\"source_related\":[\"THREE\",\"PEOPLE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\",\"Molotov cocktail\",\"Bank\"],\"target_related\":[\"THREE\",\"PEOPLE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\",\"Molotov cocktail\",\"Bank\"],\"mediators\":[\"THREE\",\"PEOPLE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\",\"Molotov cocktail\",\"Bank\"]}"
+    },
+    "indirect": {
+      "call_id": "f1c0e9276af6967abe4a258447d98cd3eea35736e2da9c7ddbf7234ad7b9b0a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'3 DEAD due to Molotov cocktail' and blaze caused deaths; 'due to' is explicit causation, and a blaze causing deaths follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "eab5f05568f7ac2220c12fb6ea6d2cba6471aac14425317c75419d88bced1548",
+    "eab5f05568f7ac2220c12fb6ea6d2cba6471aac14425317c75419d88bced1548",
+    "f183eb3553cf088f7bb6b831f563115e7670b63c2fadf021534e8d9170e0a666",
+    "0da00fcef20628cd7bddb64382c9859d479763910b980907d2cec5d2a0c9229a",
+    "8dcf2e82eaf3d99915f08120196948153eedeaa3b87883b5ca420df8a1042929",
+    "f1c0e9276af6967abe4a258447d98cd3eea35736e2da9c7ddbf7234ad7b9b0a3"
+  ],
+  "elapsed_s": 6.314250707626343
+}

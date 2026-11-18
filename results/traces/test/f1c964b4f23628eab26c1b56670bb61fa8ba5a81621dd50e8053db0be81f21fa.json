@@ -1,0 +1,64 @@
+{
+  "input_hash": "f1c964b4f23628eab26c1b56670bb61fa8ba5a81621dd50e8053db0be81f21fa",
+  "sample_id": "ESC-CSV-09786",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "bank",
+    "bomb",
+    "Greek",
+    "fire",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "63ff94dd6765facd7d3445f6c773f6afab42d6333be55cd56a6b1e2897cd0f0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "63ff94dd6765facd7d3445f6c773f6afab42d6333be55cd56a6b1e2897cd0f0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f066afb385cfa26b29656ef58d9a083b9c1bc74ad8564b3ea601d77135d87d13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "53e5e974deef5c85eddb58b299494b58e08a390320f049dad6109d9c6201ed37",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "94ed683c07cbe7d735c6f50ab28d306fbedc2ae3d9eccfb5c32473514b870b57",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greek\",\"bank\",\"bomb\",\"fire\",\"dead\"],\"target_related\":[\"bank\",\"bomb\",\"Greek\",\"riots\",\"fire\",\"dead\"],\"mediators\":[\"bank\",\"bomb\",\"Greek\",\"fire\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "394186a0567e2c79a00e1a3c9342ea6edd562460982e41998f0518f61324f449",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Bomb hits bank during riots: riots (X) involve bomb, bomb hits bank (Z), bank hit is Y; chain X->bomb->hit.\"}"
+    }
+  },
+  "call_ids": [
+    "63ff94dd6765facd7d3445f6c773f6afab42d6333be55cd56a6b1e2897cd0f0a",
+    "63ff94dd6765facd7d3445f6c773f6afab42d6333be55cd56a6b1e2897cd0f0a",
+    "f066afb385cfa26b29656ef58d9a083b9c1bc74ad8564b3ea601d77135d87d13",
+    "53e5e974deef5c85eddb58b299494b58e08a390320f049dad6109d9c6201ed37",
+    "94ed683c07cbe7d735c6f50ab28d306fbedc2ae3d9eccfb5c32473514b870b57",
+    "394186a0567e2c79a00e1a3c9342ea6edd562460982e41998f0518f61324f449"
+  ],
+  "elapsed_s": 4.610093832015991
+}

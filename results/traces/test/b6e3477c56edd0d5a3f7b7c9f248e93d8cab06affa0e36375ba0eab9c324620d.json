@@ -1,0 +1,64 @@
+{
+  "input_hash": "b6e3477c56edd0d5a3f7b7c9f248e93d8cab06affa0e36375ba0eab9c324620d",
+  "sample_id": "ESC-CSV-06760",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "men",
+    "killing",
+    "Zurana Horton",
+    "charged",
+    "gunplay"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8aa55121ee54fbcc261316767d9c0a114539e81403cf4b40a01d1fb80d68e840",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8aa55121ee54fbcc261316767d9c0a114539e81403cf4b40a01d1fb80d68e840",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "40cb9b30173712a6740c601fc135f62f182929af5540c848c5665cf6977bfdac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eb2bcb982a7ad37643502d4a225621fa45ca1fc4ba3f2fe147e554ab62ffaeed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7b866dc8ce633accb1c6973cb82019ddf3c09e98e24d555420b59ea945f962fb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"killing\",\"Zurana Horton\",\"charged\",\"gunplay\"],\"target_related\":[\"evidence\",\"public\",\"men\",\"killing\",\"Zurana Horton\",\"Video\",\"shooting\",\"charged\",\"gunplay\"],\"mediators\":[\"men\",\"killing\",\"Zurana Horton\",\"charged\",\"gunplay\"]}"
+    },
+    "indirect": {
+      "call_id": "3c19985d58e7da8f91ba0bcfa03ca00c988e486c3749feb8666bb8cbf98ab5cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The accused men are on trial for killing Zurana Horton; the trial follows the accusation, so the accused causes the trial by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8aa55121ee54fbcc261316767d9c0a114539e81403cf4b40a01d1fb80d68e840",
+    "8aa55121ee54fbcc261316767d9c0a114539e81403cf4b40a01d1fb80d68e840",
+    "40cb9b30173712a6740c601fc135f62f182929af5540c848c5665cf6977bfdac",
+    "eb2bcb982a7ad37643502d4a225621fa45ca1fc4ba3f2fe147e554ab62ffaeed",
+    "7b866dc8ce633accb1c6973cb82019ddf3c09e98e24d555420b59ea945f962fb",
+    "3c19985d58e7da8f91ba0bcfa03ca00c988e486c3749feb8666bb8cbf98ab5cd"
+  ],
+  "elapsed_s": 4.738286256790161
+}

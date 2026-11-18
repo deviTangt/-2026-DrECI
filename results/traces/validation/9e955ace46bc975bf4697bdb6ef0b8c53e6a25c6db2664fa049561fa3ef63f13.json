@@ -1,0 +1,58 @@
+{
+  "input_hash": "9e955ace46bc975bf4697bdb6ef0b8c53e6a25c6db2664fa049561fa3ef63f13",
+  "sample_id": "ESC-CSV-01910",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [],
+  "route": "direct",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78842e66c48dd8c4fcae086ed103538569d46f61596ff8788f939142bb8e1e0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78842e66c48dd8c4fcae086ed103538569d46f61596ff8788f939142bb8e1e0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d0cc8492c557c341097fb9b3dacb2492ce59deaaba38026603d6ad5e0241cce2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "758688ce871ed40c544e06eac528b413e41f3840435b51638e127929690ae56a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0b54174c7110424b55cbfe73059e41a5e957730695f73d452ac0c7040eee794c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\"],\"target_related\":[\"arrest\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "bd722b5eb936f3df273ccf1f25a10ebe78ec5267f29bc7022fa6e03448f231e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Text states 'murder to avoid arrest,' explicitly linking arrest as the reason for the murder.\"}"
+    }
+  },
+  "call_ids": [
+    "78842e66c48dd8c4fcae086ed103538569d46f61596ff8788f939142bb8e1e0a",
+    "78842e66c48dd8c4fcae086ed103538569d46f61596ff8788f939142bb8e1e0a",
+    "d0cc8492c557c341097fb9b3dacb2492ce59deaaba38026603d6ad5e0241cce2",
+    "758688ce871ed40c544e06eac528b413e41f3840435b51638e127929690ae56a",
+    "0b54174c7110424b55cbfe73059e41a5e957730695f73d452ac0c7040eee794c",
+    "bd722b5eb936f3df273ccf1f25a10ebe78ec5267f29bc7022fa6e03448f231e2"
+  ],
+  "elapsed_s": 5.411918878555298
+}

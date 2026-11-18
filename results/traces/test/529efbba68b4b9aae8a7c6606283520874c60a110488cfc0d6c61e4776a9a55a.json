@@ -1,0 +1,62 @@
+{
+  "input_hash": "529efbba68b4b9aae8a7c6606283520874c60a110488cfc0d6c61e4776a9a55a",
+  "sample_id": "ESC-CSV-06731",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bullet",
+    "struck",
+    "chest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "70abdbddfd2b0d8bf937c45a2f7fd794f35ec97f83cc4ae91870a64d2bf98069",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "70abdbddfd2b0d8bf937c45a2f7fd794f35ec97f83cc4ae91870a64d2bf98069",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4a6a11fa9b6e2921a2fd8cc0443c4ab62bcff56423ba9d746ca79ed4a40154b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6350f03bc5d08edc9f7c552f8dc0b4ff2fc27809bd9d788b002e7e49734d4cb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b173586f1ed1e8708b8adb76db42d8490e264f161dcf4e2b29914be92c8e5aa9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Zurana Horton\",\"mother\",\"struck\",\"chest\",\"bullet\"],\"target_related\":[\"bullet\",\"wall\",\"fence\",\"struck\",\"chest\"],\"mediators\":[\"bullet\",\"struck\",\"chest\"]}"
+    },
+    "indirect": {
+      "call_id": "6e7f55c042c83dd54a4db3d8d57a07736c744fb209b8d874cd94e12efe1108d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Bullet ricocheted off a wall/fence, then struck her chest, killing her: ricocheted -> bullet/struck -> killed chain.\"}"
+    }
+  },
+  "call_ids": [
+    "70abdbddfd2b0d8bf937c45a2f7fd794f35ec97f83cc4ae91870a64d2bf98069",
+    "70abdbddfd2b0d8bf937c45a2f7fd794f35ec97f83cc4ae91870a64d2bf98069",
+    "4a6a11fa9b6e2921a2fd8cc0443c4ab62bcff56423ba9d746ca79ed4a40154b3",
+    "6350f03bc5d08edc9f7c552f8dc0b4ff2fc27809bd9d788b002e7e49734d4cb2",
+    "b173586f1ed1e8708b8adb76db42d8490e264f161dcf4e2b29914be92c8e5aa9",
+    "6e7f55c042c83dd54a4db3d8d57a07736c744fb209b8d874cd94e12efe1108d1"
+  ],
+  "elapsed_s": 5.0833213329315186
+}

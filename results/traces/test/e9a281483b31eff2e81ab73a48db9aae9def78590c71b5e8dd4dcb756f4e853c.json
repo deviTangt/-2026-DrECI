@@ -1,0 +1,65 @@
+{
+  "input_hash": "e9a281483b31eff2e81ab73a48db9aae9def78590c71b5e8dd4dcb756f4e853c",
+  "sample_id": "ESC-CSV-06769",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "woman",
+    "fatal",
+    "shooting",
+    "rooftop",
+    "men"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "67571bd730027c67b51146451293674ffd35d5535aa7e8f7f889d8cddb0d900d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "67571bd730027c67b51146451293674ffd35d5535aa7e8f7f889d8cddb0d900d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fffd1ce3e165005fefcdaf7087f4f9b4431e1a56ff76c74e666cb3d61fef40fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6b5c1f20cf0d5e5146cb7ffef2b43ca6701a1f19db3a79b3a071794787a4f466",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4115387145da282b04a46a291e0e7bf9d3f8f132d7c5e1815862d856132a608c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"men\"],\"target_related\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"trial\",\"rooftop\",\"men\"],\"mediators\":[\"Brooklyn\",\"woman\",\"fatal\",\"shooting\",\"rooftop\",\"men\"]}"
+    },
+    "indirect": {
+      "call_id": "405c26258a8719df055f9f60b77b34c9e017be63aaca3e5f5be6e8a2785cb75f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The gunplay occurred before the men were charged; common sense holds that participating in gunplay leads to being charged.\"}"
+    }
+  },
+  "call_ids": [
+    "67571bd730027c67b51146451293674ffd35d5535aa7e8f7f889d8cddb0d900d",
+    "67571bd730027c67b51146451293674ffd35d5535aa7e8f7f889d8cddb0d900d",
+    "fffd1ce3e165005fefcdaf7087f4f9b4431e1a56ff76c74e666cb3d61fef40fa",
+    "6b5c1f20cf0d5e5146cb7ffef2b43ca6701a1f19db3a79b3a071794787a4f466",
+    "4115387145da282b04a46a291e0e7bf9d3f8f132d7c5e1815862d856132a608c",
+    "405c26258a8719df055f9f60b77b34c9e017be63aaca3e5f5be6e8a2785cb75f"
+  ],
+  "elapsed_s": 4.912288188934326
+}

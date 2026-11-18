@@ -1,0 +1,62 @@
+{
+  "input_hash": "b36bbf89dcbace38bf1ba938c5ab84a5e766cd9eec267454a139ce3be07ce311",
+  "sample_id": "ESC-CSV-01503",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "convicted",
+    "cop killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6286e1338f7605c75769b914e35c2448eef0e710bd7b18431b0e3d9f2686d674",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6286e1338f7605c75769b914e35c2448eef0e710bd7b18431b0e3d9f2686d674",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0ef4d76b018f6e995ef260c84cd91388c7c7f4bfb3b26ebae1aa04b94a0aca1c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "edae14a4d8ad3e09020661f62ca14bbadc4b9ffd9de8a101be0d7f409a403b05",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "57ef05d0087db107c3e1e4b78a46b1693b0979b65ccde57b2039cb0dbfb73c84",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cop\",\"killer\",\"Jose Luis Orozco\",\"convicted\"],\"target_related\":[\"Jose Luis Orozco\",\"convicted\",\"cop killer\",\"jury\",\"recommendation\"],\"mediators\":[\"Jose Luis Orozco\",\"convicted\",\"cop killer\"]}"
+    },
+    "indirect": {
+      "call_id": "7de204e48215a040f2f7cf5b7e43a040ab007bef4fa6aa24c43ccedde7bf0d3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: committing crimes (murder of a cop) leads to a death sentence; the judge upheld the jury's recommendation that he die for his crimes.\"}"
+    }
+  },
+  "call_ids": [
+    "6286e1338f7605c75769b914e35c2448eef0e710bd7b18431b0e3d9f2686d674",
+    "6286e1338f7605c75769b914e35c2448eef0e710bd7b18431b0e3d9f2686d674",
+    "0ef4d76b018f6e995ef260c84cd91388c7c7f4bfb3b26ebae1aa04b94a0aca1c",
+    "edae14a4d8ad3e09020661f62ca14bbadc4b9ffd9de8a101be0d7f409a403b05",
+    "57ef05d0087db107c3e1e4b78a46b1693b0979b65ccde57b2039cb0dbfb73c84",
+    "7de204e48215a040f2f7cf5b7e43a040ab007bef4fa6aa24c43ccedde7bf0d3f"
+  ],
+  "elapsed_s": 5.650263786315918
+}

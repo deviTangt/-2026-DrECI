@@ -1,0 +1,65 @@
+{
+  "input_hash": "c8537a683bfa51db66c9adecb62e4aa478a131ce8d2585a6c7770673d9b42fb4",
+  "sample_id": "ESC-CSV-02458",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "officer",
+    "brick",
+    "police",
+    "van",
+    "arrests",
+    "disorderly conduct"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "07da82b3eb228ba7cc7e4adf79155ef02e205900dd5056fd5d47178b6cb807ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "07da82b3eb228ba7cc7e4adf79155ef02e205900dd5056fd5d47178b6cb807ca",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b3772f844380f92eebc8585e32e0f1b63c1d39f6b0b83a15e9a0e20c55c4677b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4e71049ad6c6346aa7f073cd438f4f3dd9eb974bad3f62d00be3a6703c020b30",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ee08769075b0128cdb44e3a880592621753b2f3e1add4a08dfcde6e65b206ffb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"mob\",\"thrashing\",\"businesses\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"disorderly conduct\"],\"target_related\":[\"someone\",\"officer\",\"face\",\"brick\",\"police\",\"van\",\"arrests\",\"disorderly conduct\"],\"mediators\":[\"officer\",\"brick\",\"police\",\"van\",\"arrests\",\"disorderly conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "a35779537e348a3090d09bc30b5dbf8aa2fc47a4809f69c4358c40c6352091c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Anger is mentioned as preceding events, but no explicit or implicit causal word links anger to the hitting; the brick-throwing follows protests, not anger directly.\"}"
+    }
+  },
+  "call_ids": [
+    "07da82b3eb228ba7cc7e4adf79155ef02e205900dd5056fd5d47178b6cb807ca",
+    "07da82b3eb228ba7cc7e4adf79155ef02e205900dd5056fd5d47178b6cb807ca",
+    "b3772f844380f92eebc8585e32e0f1b63c1d39f6b0b83a15e9a0e20c55c4677b",
+    "4e71049ad6c6346aa7f073cd438f4f3dd9eb974bad3f62d00be3a6703c020b30",
+    "ee08769075b0128cdb44e3a880592621753b2f3e1add4a08dfcde6e65b206ffb",
+    "a35779537e348a3090d09bc30b5dbf8aa2fc47a4809f69c4358c40c6352091c1"
+  ],
+  "elapsed_s": 7.1188600063323975
+}

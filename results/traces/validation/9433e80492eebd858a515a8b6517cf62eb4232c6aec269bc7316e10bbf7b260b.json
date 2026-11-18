@@ -1,0 +1,61 @@
+{
+  "input_hash": "9433e80492eebd858a515a8b6517cf62eb4232c6aec269bc7316e10bbf7b260b",
+  "sample_id": "ESC-CSV-02822",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "crowd",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "441bd403b5edb316fed86fef5cced0549ae6a226f640e5ab4f27a927f725525a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "441bd403b5edb316fed86fef5cced0549ae6a226f640e5ab4f27a927f725525a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a678ea3793268b11dcf65d09a19e659680bf1d0701fe2d2372f7c84cee31245d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3cd42eaa19beeef5794a91984772ae9ee6a3551c05a692bf86d2390aab087cd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9d6264769a135de9f9cf07e0108b75ee36b5c0de2f2b9c58ef88f1c04e659708",
+      "status": "ok",
+      "text": "{\"source_related\":[\"crowd\",\"200 person crowd\",\"part\",\"Wednesday\",\"Gray\",\"autopsy\",\"shot seven times\"],\"target_related\":[\"two dozen young protesters\",\"splintered off\",\"riot police\",\"trashed\",\"Rite Aid\",\"67th Police Precinct station\",\"marching\"],\"mediators\":[\"crowd\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "fd96a9a8aff106fda7296e623e0d6f40babe5c9d66dcdf5cbaf672029af7cb47",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No causal link between 'unruly' and 'drawing'; the crowd becoming unruly and protesters drawing riot police are separate events without explicit or implicit causal wording.\"}"
+    }
+  },
+  "call_ids": [
+    "441bd403b5edb316fed86fef5cced0549ae6a226f640e5ab4f27a927f725525a",
+    "441bd403b5edb316fed86fef5cced0549ae6a226f640e5ab4f27a927f725525a",
+    "a678ea3793268b11dcf65d09a19e659680bf1d0701fe2d2372f7c84cee31245d",
+    "3cd42eaa19beeef5794a91984772ae9ee6a3551c05a692bf86d2390aab087cd9",
+    "9d6264769a135de9f9cf07e0108b75ee36b5c0de2f2b9c58ef88f1c04e659708",
+    "fd96a9a8aff106fda7296e623e0d6f40babe5c9d66dcdf5cbaf672029af7cb47"
+  ],
+  "elapsed_s": 4.737608432769775
+}

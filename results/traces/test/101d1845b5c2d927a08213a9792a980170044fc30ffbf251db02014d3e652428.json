@@ -1,0 +1,61 @@
+{
+  "input_hash": "101d1845b5c2d927a08213a9792a980170044fc30ffbf251db02014d3e652428",
+  "sample_id": "ESC-CSV-04088",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fallen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c67fcbdfb9a51e7566a6bf8cb1b09169fcfc6888462353ccc6a56aafe0e25ecc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c67fcbdfb9a51e7566a6bf8cb1b09169fcfc6888462353ccc6a56aafe0e25ecc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "35a5aa294422bf2b03e7e70be7d4837ca4bec6e67f69aff35b5beba5e6c20723",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c052db39a17896fcd563e35525cea44f6de0a98a69d33303fb7fdd714e034840",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0a440b59a0b151eb7becf5f769e17e79a62a158d9da2485c6457ead848594db9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"slipped\",\"gully\",\"fallen\"],\"target_related\":[\"man\",\"died\",\"fallen\"],\"mediators\":[\"man\",\"fallen\"]}"
+    },
+    "indirect": {
+      "call_id": "c08ac386d4cd9e2a75333ac18cdb9d1a455e9ee90cb5d7885aed1972afaf865e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died ... after he slipped and fell' — 'after' plus common sense that a 200m fall causes death; 'fallen to his death' links fall to death.\"}"
+    }
+  },
+  "call_ids": [
+    "c67fcbdfb9a51e7566a6bf8cb1b09169fcfc6888462353ccc6a56aafe0e25ecc",
+    "c67fcbdfb9a51e7566a6bf8cb1b09169fcfc6888462353ccc6a56aafe0e25ecc",
+    "35a5aa294422bf2b03e7e70be7d4837ca4bec6e67f69aff35b5beba5e6c20723",
+    "c052db39a17896fcd563e35525cea44f6de0a98a69d33303fb7fdd714e034840",
+    "0a440b59a0b151eb7becf5f769e17e79a62a158d9da2485c6457ead848594db9",
+    "c08ac386d4cd9e2a75333ac18cdb9d1a455e9ee90cb5d7885aed1972afaf865e"
+  ],
+  "elapsed_s": 4.171290636062622
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "dd756ec0611dd41ee7a87571b079f07bad0779898be1df9323f518623e7c62f1",
+  "sample_id": "ESC-CSV-06441",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "pregnant",
+    "mom",
+    "bullets",
+    "killing",
+    "confessed",
+    "gang",
+    "member"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "61e089c2cef57b80c4e4ca568f93b53215e07d7648a738a5111c66b1707f6f02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "61e089c2cef57b80c4e4ca568f93b53215e07d7648a738a5111c66b1707f6f02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "48217959c59e973e8ab692307e28e8281b502453116665964782011de44cce92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "23fded49a840cc1c98e8f2e592f050a3b9645cdfd7d2be2f5eeec012afbf174c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d2710ef9cc5098c006db2e3082e715c9c39b3b2c8a985dc0fe9785b028e2a40",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Arrested\",\"gang\",\"member\",\"confessed\",\"killing\",\"pregnant\",\"mom\",\"bullets\",\"shoot\",\"ladies\",\"sources\",\"New York Daily News\"],\"target_related\":[\"pregnant\",\"mom\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"killing\",\"confessed\",\"gang\",\"member\"],\"mediators\":[\"pregnant\",\"mom\",\"bullets\",\"killing\",\"confessed\",\"gang\",\"member\"]}"
+    },
+    "indirect": {
+      "call_id": "04a39689d6e0bc494f63df681631772deaf2ce7134cd0c71804b5741a3540c99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killing a pregnant mom, who died...as she shielded children from bullets' — 'killing' explicitly links the shooting to her death; shooting before dying fits common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "61e089c2cef57b80c4e4ca568f93b53215e07d7648a738a5111c66b1707f6f02",
+    "61e089c2cef57b80c4e4ca568f93b53215e07d7648a738a5111c66b1707f6f02",
+    "48217959c59e973e8ab692307e28e8281b502453116665964782011de44cce92",
+    "23fded49a840cc1c98e8f2e592f050a3b9645cdfd7d2be2f5eeec012afbf174c",
+    "6d2710ef9cc5098c006db2e3082e715c9c39b3b2c8a985dc0fe9785b028e2a40",
+    "04a39689d6e0bc494f63df681631772deaf2ce7134cd0c71804b5741a3540c99"
+  ],
+  "elapsed_s": 4.9472010135650635
+}

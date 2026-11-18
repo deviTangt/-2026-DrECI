@@ -1,0 +1,60 @@
+{
+  "input_hash": "70669abc08a470d80427fbb2e0982651211dd5d139bca7dc2729b5fd033232a3",
+  "sample_id": "ESC-CSV-01980",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "834cde9fac13355dad0e4dfd6c3e61d788b50c27785f99a30b2dbacb005f2fbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "834cde9fac13355dad0e4dfd6c3e61d788b50c27785f99a30b2dbacb005f2fbe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "67307814d5609afcce0feafbbeebeeb70a78bcbc121dfac69c2dd333541da801",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2796468c50081de665f8c9e85031e55548940dfabaade96ec79c46c443bdd3b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dd4429e2b00fa5a4cffa94313082e5be7852eeae2bb9b179cfd585b2a49d9e46",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"door\",\"residence\"],\"target_related\":[\"witness\",\"911\",\"Ortiz\"],\"mediators\":[\"Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "b4a10202770ef90e9eeb994415c6b7f17a8aea5b90e75e56b4c72b6b7b42edd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred after Ortiz knocked on the door; knocking preceded and led to the shooting per common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "834cde9fac13355dad0e4dfd6c3e61d788b50c27785f99a30b2dbacb005f2fbe",
+    "834cde9fac13355dad0e4dfd6c3e61d788b50c27785f99a30b2dbacb005f2fbe",
+    "67307814d5609afcce0feafbbeebeeb70a78bcbc121dfac69c2dd333541da801",
+    "2796468c50081de665f8c9e85031e55548940dfabaade96ec79c46c443bdd3b3",
+    "dd4429e2b00fa5a4cffa94313082e5be7852eeae2bb9b179cfd585b2a49d9e46",
+    "b4a10202770ef90e9eeb994415c6b7f17a8aea5b90e75e56b4c72b6b7b42edd9"
+  ],
+  "elapsed_s": 5.508454322814941
+}

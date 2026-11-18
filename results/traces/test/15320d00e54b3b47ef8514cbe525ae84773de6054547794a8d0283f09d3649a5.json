@@ -1,0 +1,65 @@
+{
+  "input_hash": "15320d00e54b3b47ef8514cbe525ae84773de6054547794a8d0283f09d3649a5",
+  "sample_id": "ESC-CSV-06598",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "Lopez",
+    "murder",
+    "shots",
+    "Brooklyn",
+    "Mother"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f2ec5a2043fa828eb8aad4eb1c896fbe29a5f808ab5e2e495f2230ccdf10d37c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f2ec5a2043fa828eb8aad4eb1c896fbe29a5f808ab5e2e495f2230ccdf10d37c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "41255ee8a07dc46eaa33673dea1085a286263c21f8b40340efc2267a4cd756e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cd7bb7359b28f34834c2e03462456dfda24dece5baaa0fc1b06acac27230e4be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b5c6fa7494d683646a0523dcb1a4a75438164561dc4e091a2687353c890f39b0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Mother\",\"Footage\",\"Trial\",\"murder\",\"Lopez\",\"shots\",\"Horton\"],\"target_related\":[\"Horton\",\"Lopez\",\"murder\",\"shots\",\"Brooklyn\",\"Mother\"],\"mediators\":[\"Horton\",\"Lopez\",\"murder\",\"shots\",\"Brooklyn\",\"Mother\"]}"
+    },
+    "indirect": {
+      "call_id": "e8687d524794f80263b586837ede58d6f67774f4f99bf908ee9fe0a8cd4d2163",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A fatal shooting by definition causes death; the shooting precedes and results in Horton's death, consistent with common sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "f2ec5a2043fa828eb8aad4eb1c896fbe29a5f808ab5e2e495f2230ccdf10d37c",
+    "f2ec5a2043fa828eb8aad4eb1c896fbe29a5f808ab5e2e495f2230ccdf10d37c",
+    "41255ee8a07dc46eaa33673dea1085a286263c21f8b40340efc2267a4cd756e9",
+    "cd7bb7359b28f34834c2e03462456dfda24dece5baaa0fc1b06acac27230e4be",
+    "b5c6fa7494d683646a0523dcb1a4a75438164561dc4e091a2687353c890f39b0",
+    "e8687d524794f80263b586837ede58d6f67774f4f99bf908ee9fe0a8cd4d2163"
+  ],
+  "elapsed_s": 4.267627716064453
+}

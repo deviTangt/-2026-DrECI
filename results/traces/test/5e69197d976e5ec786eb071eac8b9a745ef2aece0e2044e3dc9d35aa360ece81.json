@@ -1,0 +1,61 @@
+{
+  "input_hash": "5e69197d976e5ec786eb071eac8b9a745ef2aece0e2044e3dc9d35aa360ece81",
+  "sample_id": "ESC-CSV-09822",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0f38bf45efbd28f941f4142ee3f8858915ca766264d77798362206dadff262df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0f38bf45efbd28f941f4142ee3f8858915ca766264d77798362206dadff262df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5de46e05cce822997836908d69706339637502c3345f248497f198f58df94692",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "00a4c52653e2aed59162484a425e0038c4d09ce3e91f286227cf7bcce075c0ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f2dfe7bbf003523a740d00164d6c6bb32f1cf963f28a0ccebae7e6fb4c212646",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bank\",\"Athens\",\"people\",\"police\",\"protesters\",\"fire\"],\"target_related\":[\"people\",\"man\",\"women\",\"fire\"],\"mediators\":[\"people\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "3461582908200c536883988e17929187183fb1a0549f56ebf2b43469bedfabbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'fire-bomb attack ... left at least three people dead' — 'left' explicitly links the attack to the deaths; attack causing death also follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0f38bf45efbd28f941f4142ee3f8858915ca766264d77798362206dadff262df",
+    "0f38bf45efbd28f941f4142ee3f8858915ca766264d77798362206dadff262df",
+    "5de46e05cce822997836908d69706339637502c3345f248497f198f58df94692",
+    "00a4c52653e2aed59162484a425e0038c4d09ce3e91f286227cf7bcce075c0ab",
+    "f2dfe7bbf003523a740d00164d6c6bb32f1cf963f28a0ccebae7e6fb4c212646",
+    "3461582908200c536883988e17929187183fb1a0549f56ebf2b43469bedfabbc"
+  ],
+  "elapsed_s": 4.1531150341033936
+}

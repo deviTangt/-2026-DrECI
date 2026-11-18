@@ -1,0 +1,65 @@
+{
+  "input_hash": "d7879b7d2920ec0a2847c7d813ca7c4adab7bca905f8d1d67265729ded26a2af",
+  "sample_id": "ESC-CSV-01535",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jose Luis Orozco",
+    "die",
+    "Judge Philip Hickok",
+    "case",
+    "life without parole",
+    "jury"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5b4bee08a8fe6bcf70600c73aadcd85cb85d9d5f2f293b36dca5526e63085342",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5b4bee08a8fe6bcf70600c73aadcd85cb85d9d5f2f293b36dca5526e63085342",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8060e8a2e5401820faba518da12461af8639499a0feaab6c70bcbc9ceaa41f86",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e37b7526e748e5db7402d058b3d68dbe70aee71e8f1ba936947517ad2b054084",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "38d62ab0dc77e4423ca4746dff55c220a0dea3c3e12b531bb278dd21bd908e38",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"Jose Luis Orozco\",\"die\",\"Judge Philip Hickok\",\"courtroom\",\"case\",\"death\",\"life without parole\"],\"target_related\":[\"Jose Luis Orozco\",\"die\",\"Judge Philip Hickok\",\"case\",\"life without parole\",\"jury\",\"recommendation\"],\"mediators\":[\"Jose Luis Orozco\",\"die\",\"Judge Philip Hickok\",\"case\",\"life without parole\",\"jury\"]}"
+    },
+    "indirect": {
+      "call_id": "0260d11b15ce43dbbc3e428a78378a320a0294f5718b676d1c0a73f6111c5f21",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Judge upheld jury's recommendation that Orozco die; the recommendation leads to the death sentence.\"}"
+    }
+  },
+  "call_ids": [
+    "5b4bee08a8fe6bcf70600c73aadcd85cb85d9d5f2f293b36dca5526e63085342",
+    "5b4bee08a8fe6bcf70600c73aadcd85cb85d9d5f2f293b36dca5526e63085342",
+    "8060e8a2e5401820faba518da12461af8639499a0feaab6c70bcbc9ceaa41f86",
+    "e37b7526e748e5db7402d058b3d68dbe70aee71e8f1ba936947517ad2b054084",
+    "38d62ab0dc77e4423ca4746dff55c220a0dea3c3e12b531bb278dd21bd908e38",
+    "0260d11b15ce43dbbc3e428a78378a320a0294f5718b676d1c0a73f6111c5f21"
+  ],
+  "elapsed_s": 6.207654237747192
+}

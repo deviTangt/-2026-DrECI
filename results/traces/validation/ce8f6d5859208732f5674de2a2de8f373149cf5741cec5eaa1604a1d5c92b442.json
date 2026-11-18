@@ -1,0 +1,62 @@
+{
+  "input_hash": "ce8f6d5859208732f5674de2a2de8f373149cf5741cec5eaa1604a1d5c92b442",
+  "sample_id": "ESC-CSV-02792",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "hospital",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "59b65d4b6f916c4cd2306072bf457e4c13ef5c0019b89f9de63f83bf159d5f49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "59b65d4b6f916c4cd2306072bf457e4c13ef5c0019b89f9de63f83bf159d5f49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0a43b2c0891239a28795d06aa75a01db6d5684123a432724296a6a4bc6383021",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "14243d918a07cc2e970c218dea341bccef7be18cd1f5e8dc11068ae2c8ba7131",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cf3d5379f98889f1f043fa23f82fd1a754816c9d378f52ff1974568796188f52",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"Kimani Gray\",\"hospital\",\"shooting\"],\"target_related\":[\"Gray\",\"hospital\",\"shooting\"],\"mediators\":[\"Gray\",\"hospital\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "8e2186a52f8291ec4135f998ad088fa8f1bd3ab71e420c1905c88e051d1f948a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot 11 times would cause a person to be rushed to a hospital; the shooting precedes and causes the rushing.\"}"
+    }
+  },
+  "call_ids": [
+    "59b65d4b6f916c4cd2306072bf457e4c13ef5c0019b89f9de63f83bf159d5f49",
+    "59b65d4b6f916c4cd2306072bf457e4c13ef5c0019b89f9de63f83bf159d5f49",
+    "0a43b2c0891239a28795d06aa75a01db6d5684123a432724296a6a4bc6383021",
+    "14243d918a07cc2e970c218dea341bccef7be18cd1f5e8dc11068ae2c8ba7131",
+    "cf3d5379f98889f1f043fa23f82fd1a754816c9d378f52ff1974568796188f52",
+    "8e2186a52f8291ec4135f998ad088fa8f1bd3ab71e420c1905c88e051d1f948a"
+  ],
+  "elapsed_s": 4.047351360321045
+}

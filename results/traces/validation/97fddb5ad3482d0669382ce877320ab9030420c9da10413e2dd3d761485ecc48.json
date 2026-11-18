@@ -1,0 +1,64 @@
+{
+  "input_hash": "97fddb5ad3482d0669382ce877320ab9030420c9da10413e2dd3d761485ecc48",
+  "sample_id": "ESC-CSV-02551",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "Brooklyn",
+    "streets",
+    "Wednesday",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "006ee1b9c212f16c98586ea8c5e5c2f3fed526d64d1746821ce1bd08430edc37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "006ee1b9c212f16c98586ea8c5e5c2f3fed526d64d1746821ce1bd08430edc37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "39d43b3eef984ea2bf4026ca78a677c89e524f0815f10e0a0c4342731fc950d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "51e617a2bce2a69395f8da9619fa9223bba694ed57bf8e7cd52b7261168d2254",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9bbc24a29e943331cfa9e52fcbd1c0bcbf1974d43c6e1cece0834b236dbdc9e7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"enraged\",\"fatal\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"Wednesday\",\"cops\"],\"target_related\":[\"Protesters\",\"poured\",\"Brooklyn\",\"streets\",\"Wednesday\",\"bricks\",\"bottles\",\"garbage\",\"furious\",\"clashes\",\"cops\"],\"mediators\":[\"Protesters\",\"Brooklyn\",\"streets\",\"Wednesday\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "8a1934d813bf554fc9ffebf38e9f956fd3b948b6eddaadd66a97c457a11eb4d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The fatal police shooting enraged protesters, who then responded by pitching bricks and bottles; the shooting precedes and causes the pitching.\"}"
+    }
+  },
+  "call_ids": [
+    "006ee1b9c212f16c98586ea8c5e5c2f3fed526d64d1746821ce1bd08430edc37",
+    "006ee1b9c212f16c98586ea8c5e5c2f3fed526d64d1746821ce1bd08430edc37",
+    "39d43b3eef984ea2bf4026ca78a677c89e524f0815f10e0a0c4342731fc950d3",
+    "51e617a2bce2a69395f8da9619fa9223bba694ed57bf8e7cd52b7261168d2254",
+    "9bbc24a29e943331cfa9e52fcbd1c0bcbf1974d43c6e1cece0834b236dbdc9e7",
+    "8a1934d813bf554fc9ffebf38e9f956fd3b948b6eddaadd66a97c457a11eb4d3"
+  ],
+  "elapsed_s": 8.148552417755127
+}

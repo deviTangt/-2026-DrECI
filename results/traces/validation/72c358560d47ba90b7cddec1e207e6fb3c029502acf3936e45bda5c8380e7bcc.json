@@ -1,0 +1,62 @@
+{
+  "input_hash": "72c358560d47ba90b7cddec1e207e6fb3c029502acf3936e45bda5c8380e7bcc",
+  "sample_id": "ESC-CSV-02303",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bosses",
+    "office",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bae5d4b24bffd6457a9803b4a29d1627f06414e59bd8d9c2999e9212b31f7fcf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bae5d4b24bffd6457a9803b4a29d1627f06414e59bd8d9c2999e9212b31f7fcf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "70dd74311cfbf71a294a8f07d55227d10cd810e7bb1bcd112b5627641bcbab04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "344cf0d72d91021290c26c1996a6e392a30c9245a4b860ff1cb2549da6e4a913",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "207b572aa0e1619c8113fbcf92172263a73d79ab0abbfa3c81f848efceb20ebb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"job\",\"fired\",\"bosses\",\"office\"],\"target_related\":[\"gunman\",\"receptionist\",\"Madeline Kafoury\",\"midsection\",\"fatally\",\"Riva\"],\"mediators\":[\"bosses\",\"office\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "d18f4f8ce2bd93df29816272599e8aaba9420246f2300805445249be23e91dac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job preceded and motivated the accountant's return to the office and shooting; common sense supports job loss causing the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "bae5d4b24bffd6457a9803b4a29d1627f06414e59bd8d9c2999e9212b31f7fcf",
+    "bae5d4b24bffd6457a9803b4a29d1627f06414e59bd8d9c2999e9212b31f7fcf",
+    "70dd74311cfbf71a294a8f07d55227d10cd810e7bb1bcd112b5627641bcbab04",
+    "344cf0d72d91021290c26c1996a6e392a30c9245a4b860ff1cb2549da6e4a913",
+    "207b572aa0e1619c8113fbcf92172263a73d79ab0abbfa3c81f848efceb20ebb",
+    "d18f4f8ce2bd93df29816272599e8aaba9420246f2300805445249be23e91dac"
+  ],
+  "elapsed_s": 8.210154056549072
+}

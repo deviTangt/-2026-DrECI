@@ -1,0 +1,64 @@
+{
+  "input_hash": "1791ca259b93e31888502becce413bc3767dc1f89115962865fc30c07b130d61",
+  "sample_id": "ESC-CSV-02534",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "police",
+    "Brooklyn",
+    "cops",
+    "rioting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5e6c944645c2b9cc18096b01cdff18464f864a9b4c5b35306c1209f97d4aaf5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5e6c944645c2b9cc18096b01cdff18464f864a9b4c5b35306c1209f97d4aaf5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9691bfd88cc3dcef6b3d168f9f0b36f16d680d6072bd8ec06214bed278b28eb2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "82184826a68dda2d505c8b1052d8d46b6c30822005a0573a9e28a76effd1682d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b8e2fd87eb4d3239e0ef7f3c931c4f7ec59706ca274fb5db54816382be3fccdf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"police\",\"teenager\",\"Kimani Gray\",\"Brooklyn\",\"cops\",\"rioting\"],\"target_related\":[\"Protesters\",\"cops\",\"Brooklyn\",\"rioting\",\"police\"],\"mediators\":[\"Protesters\",\"police\",\"Brooklyn\",\"cops\",\"rioting\"]}"
+    },
+    "indirect": {
+      "call_id": "f58ff86941b8e29a579b18576d1d0828a8276329fcac75c7f4409c3082647d43",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Protesters enraged over the fatal shooting poured into streets and battled cops; the shooting provoked the battle, fitting implicit causation and causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "5e6c944645c2b9cc18096b01cdff18464f864a9b4c5b35306c1209f97d4aaf5b",
+    "5e6c944645c2b9cc18096b01cdff18464f864a9b4c5b35306c1209f97d4aaf5b",
+    "9691bfd88cc3dcef6b3d168f9f0b36f16d680d6072bd8ec06214bed278b28eb2",
+    "82184826a68dda2d505c8b1052d8d46b6c30822005a0573a9e28a76effd1682d",
+    "b8e2fd87eb4d3239e0ef7f3c931c4f7ec59706ca274fb5db54816382be3fccdf",
+    "f58ff86941b8e29a579b18576d1d0828a8276329fcac75c7f4409c3082647d43"
+  ],
+  "elapsed_s": 12.790013313293457
+}

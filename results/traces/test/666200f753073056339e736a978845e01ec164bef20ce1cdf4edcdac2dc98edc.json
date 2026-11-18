@@ -1,0 +1,63 @@
+{
+  "input_hash": "666200f753073056339e736a978845e01ec164bef20ce1cdf4edcdac2dc98edc",
+  "sample_id": "ESC-CSV-09373",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire",
+    "rioters",
+    "window",
+    "Molotov cocktails"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c5121e9ee7bacfd0bbb078e11253929839d6c30bd4f0b8a0dd034c0832ccc4ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c5121e9ee7bacfd0bbb078e11253929839d6c30bd4f0b8a0dd034c0832ccc4ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "db225370b777a3fe21b381b1729b43914ca37005f0a02ac5ba7f99ccabe6e009",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e1f693c3140eb9e2a8631960207a9216be7d9f66e2cfabcc1e2a5e1eadab6836",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4ab7b5539144ed9d102a6cf48db3a3988544a626e99f162f54db5346b8a9045a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"tax officials\",\"fire\",\"fire-bomb\",\"protests\",\"rioters\",\"window\",\"Molotov cocktails\"],\"target_related\":[\"women\",\"man\",\"branch\",\"Marfin bank\",\"fire\",\"rioters\",\"window\",\"Molotov cocktails\"],\"mediators\":[\"fire\",\"rioters\",\"window\",\"Molotov cocktails\"]}"
+    },
+    "indirect": {
+      "call_id": "785d7d5b3c582a5f459f845bc38570e77ccbe401e74e020e3acd7fc2fe504a5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Fire-bomb attacks caused a bank fire; the fire led to two women and one man dying, forming chain attacks->fire->died.\"}"
+    }
+  },
+  "call_ids": [
+    "c5121e9ee7bacfd0bbb078e11253929839d6c30bd4f0b8a0dd034c0832ccc4ee",
+    "c5121e9ee7bacfd0bbb078e11253929839d6c30bd4f0b8a0dd034c0832ccc4ee",
+    "db225370b777a3fe21b381b1729b43914ca37005f0a02ac5ba7f99ccabe6e009",
+    "e1f693c3140eb9e2a8631960207a9216be7d9f66e2cfabcc1e2a5e1eadab6836",
+    "4ab7b5539144ed9d102a6cf48db3a3988544a626e99f162f54db5346b8a9045a",
+    "785d7d5b3c582a5f459f845bc38570e77ccbe401e74e020e3acd7fc2fe504a5d"
+  ],
+  "elapsed_s": 5.652641534805298
+}

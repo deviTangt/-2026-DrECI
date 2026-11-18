@@ -1,0 +1,62 @@
+{
+  "input_hash": "eb72f269def8cdda086978128bdaede8b28f5ea6c2dce3bb28bd17def4d71bb3",
+  "sample_id": "ESC-CSV-02034",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "accountant",
+    "office",
+    "shootings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "454294147bd193b2a7cc598840a4a43f0f57307e5c2006c94d96c47619cec47a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "454294147bd193b2a7cc598840a4a43f0f57307e5c2006c94d96c47619cec47a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0f3d75d4c57f2bfe574271961448a231ab78ca7aff4fd3706d289cfe22db733c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2dcb6157aebb4db5d202a72926da61dd25317800724a387be30899d53a1fc14a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "48bc6b45c1537639af005559b9a415728f7308aaf07c49faa7ff53e3f77da2e4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"office\",\"shootings\"],\"target_related\":[\"accountant\",\"murder\",\"office\",\"shootings\"],\"mediators\":[\"accountant\",\"office\",\"shootings\"]}"
+    },
+    "indirect": {
+      "call_id": "3e38a6c24d8cdf50ebf326db748cd1a7878dda80a4f01d2ed1daa3a845925eb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'charged with murder' uses 'with' as an explicit causal connector linking the murder to the charge.\"}"
+    }
+  },
+  "call_ids": [
+    "454294147bd193b2a7cc598840a4a43f0f57307e5c2006c94d96c47619cec47a",
+    "454294147bd193b2a7cc598840a4a43f0f57307e5c2006c94d96c47619cec47a",
+    "0f3d75d4c57f2bfe574271961448a231ab78ca7aff4fd3706d289cfe22db733c",
+    "2dcb6157aebb4db5d202a72926da61dd25317800724a387be30899d53a1fc14a",
+    "48bc6b45c1537639af005559b9a415728f7308aaf07c49faa7ff53e3f77da2e4",
+    "3e38a6c24d8cdf50ebf326db748cd1a7878dda80a4f01d2ed1daa3a845925eb6"
+  ],
+  "elapsed_s": 4.30828857421875
+}

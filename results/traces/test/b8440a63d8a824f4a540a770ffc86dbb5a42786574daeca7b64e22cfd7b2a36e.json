@@ -1,0 +1,63 @@
+{
+  "input_hash": "b8440a63d8a824f4a540a770ffc86dbb5a42786574daeca7b64e22cfd7b2a36e",
+  "sample_id": "ESC-CSV-04286",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Australian",
+    "man",
+    "falling",
+    "ridge"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f18cc56a85a695d15ebfb154c649d6e6f3ee1a8f553a43921ce1d777e4e55fea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f18cc56a85a695d15ebfb154c649d6e6f3ee1a8f553a43921ce1d777e4e55fea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f53566f441edc0257c857ee5869b04e8debff78462a9a960374195e80cfb0035",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a47aeae550a69b99d2c1e9d18bc4804a12a761fbef3c6bf45154507756718c62",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9214a0b0e948b09e63c1dd2dc31bafc2e5ba16859fb6d3b31b793ebd659a4cb5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"slipped\",\"ridgeline\",\"falling\",\"ridge\",\"Australian\",\"man\"],\"target_related\":[\"Australian\",\"man\",\"falling\",\"ridge\",\"Aoraki\",\"Mt\",\"Cook\",\"National\",\"Park\",\"New\",\"Zealand\",\"South\",\"Island\"],\"mediators\":[\"Australian\",\"man\",\"falling\",\"ridge\"]}"
+    },
+    "indirect": {
+      "call_id": "62b98250f6c87c99c8148b2dce0bf263cc7400d0d814dbc9fcd0463a10f02c5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'slipped from the ridgeline and fell to his death' and 'died on Friday after falling 150 meters' show falling caused death; 'after' marks causal order.\",\"analysis\":\"Rule 1: 'fell to his death' and 'died after falling' explicitly link falling to death. Rule 3: common sense—a 150m fall causes death. Rules 2,4,5,6,7,8 not clearly satisfied.\"}"
+    }
+  },
+  "call_ids": [
+    "f18cc56a85a695d15ebfb154c649d6e6f3ee1a8f553a43921ce1d777e4e55fea",
+    "f18cc56a85a695d15ebfb154c649d6e6f3ee1a8f553a43921ce1d777e4e55fea",
+    "f53566f441edc0257c857ee5869b04e8debff78462a9a960374195e80cfb0035",
+    "a47aeae550a69b99d2c1e9d18bc4804a12a761fbef3c6bf45154507756718c62",
+    "9214a0b0e948b09e63c1dd2dc31bafc2e5ba16859fb6d3b31b793ebd659a4cb5",
+    "62b98250f6c87c99c8148b2dce0bf263cc7400d0d814dbc9fcd0463a10f02c5c"
+  ],
+  "elapsed_s": 5.124886751174927
+}

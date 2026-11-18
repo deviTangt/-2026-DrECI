@@ -1,0 +1,60 @@
+{
+  "input_hash": "6855e8deba5c870c89e1a8f9f77dd88fb0d6a3b763600ef70daaaa3e9db0c0aa",
+  "sample_id": "ESC-CSV-09669",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e214bf5ee609e25848927cce930b7a55384fade70778a017fb675a7cae7f6d68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e214bf5ee609e25848927cce930b7a55384fade70778a017fb675a7cae7f6d68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5c5f73929a0263f835026ae9b4ea9af575ecb870d3c7ad244b39a83aa93693d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fd8f53c0ffd03c28c26b461cddce2a4d6a4865ec98cd5f90bcdf1cb8e99bcd5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4dc9af3d2ec80b6e70a8ad33cefd5aa9fd056a69ec29e30f552c7f7773581017",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"police\",\"Molotov cocktails\",\"buildings\"],\"target_related\":[\"people\",\"riots\",\"Police\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "ed515fe5f4bca035ac9394ad189e330e347e3ad2c1df3ca64404ee4e8038a309",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters hurling Molotov cocktails at police during riots plausibly caused injuries; hurling precedes and leads to people being injured.\"}"
+    }
+  },
+  "call_ids": [
+    "e214bf5ee609e25848927cce930b7a55384fade70778a017fb675a7cae7f6d68",
+    "e214bf5ee609e25848927cce930b7a55384fade70778a017fb675a7cae7f6d68",
+    "5c5f73929a0263f835026ae9b4ea9af575ecb870d3c7ad244b39a83aa93693d4",
+    "fd8f53c0ffd03c28c26b461cddce2a4d6a4865ec98cd5f90bcdf1cb8e99bcd5d",
+    "4dc9af3d2ec80b6e70a8ad33cefd5aa9fd056a69ec29e30f552c7f7773581017",
+    "ed515fe5f4bca035ac9394ad189e330e347e3ad2c1df3ca64404ee4e8038a309"
+  ],
+  "elapsed_s": 3.7004101276397705
+}

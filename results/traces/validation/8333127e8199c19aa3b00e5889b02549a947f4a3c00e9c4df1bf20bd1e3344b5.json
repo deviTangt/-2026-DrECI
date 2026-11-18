@@ -1,0 +1,63 @@
+{
+  "input_hash": "8333127e8199c19aa3b00e5889b02549a947f4a3c00e9c4df1bf20bd1e3344b5",
+  "sample_id": "ESC-CSV-07097",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Vincent Jackson",
+    "pulled over",
+    "probation",
+    "previous"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1f868f86e9381647875f73f4ab626819ec4eb8f78efe12554e3afdbc39b3d5c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1f868f86e9381647875f73f4ab626819ec4eb8f78efe12554e3afdbc39b3d5c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5f33df31331a66cfb3946a634a8812361530e45fd696004a2339bff56be1613e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3ec36b92f86807584b076ad55342b35f167e0f00c98a8dc47d1e337d9f12c0b5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f33fbab1e7ec9d7fcf74d47229d8ecfa07abb3aa0ecebc7cfd6ae17094cfd1f3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"pulled over\",\"investigation\",\"probation\",\"previous\"],\"target_related\":[\"Vincent Jackson\",\"pulled over\",\"probation\",\"previous\",\"five days prior\",\"playoff loss\",\"Pittsburgh\"],\"mediators\":[\"Vincent Jackson\",\"pulled over\",\"probation\",\"previous\"]}"
+    },
+    "indirect": {
+      "call_id": "22847c4f49ca9c1ff34fff058d5d3a2f5fceb27bb2db20defc4186dc2e7a630d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A DUI (drunk driving) commonly leads to or results in an arrest, so DUI causes arrest by causal order/common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "1f868f86e9381647875f73f4ab626819ec4eb8f78efe12554e3afdbc39b3d5c2",
+    "1f868f86e9381647875f73f4ab626819ec4eb8f78efe12554e3afdbc39b3d5c2",
+    "5f33df31331a66cfb3946a634a8812361530e45fd696004a2339bff56be1613e",
+    "3ec36b92f86807584b076ad55342b35f167e0f00c98a8dc47d1e337d9f12c0b5",
+    "f33fbab1e7ec9d7fcf74d47229d8ecfa07abb3aa0ecebc7cfd6ae17094cfd1f3",
+    "22847c4f49ca9c1ff34fff058d5d3a2f5fceb27bb2db20defc4186dc2e7a630d"
+  ],
+  "elapsed_s": 4.227886199951172
+}

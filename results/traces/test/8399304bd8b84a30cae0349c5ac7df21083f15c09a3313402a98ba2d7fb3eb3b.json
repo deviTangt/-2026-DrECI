@@ -1,0 +1,62 @@
+{
+  "input_hash": "8399304bd8b84a30cae0349c5ac7df21083f15c09a3313402a98ba2d7fb3eb3b",
+  "sample_id": "ESC-CSV-04659",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "thieves",
+    "jewellery store",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d29bf0339d123883e25926b3838e6b32ad60d34d4ea884e9ec03137b1d443c0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d29bf0339d123883e25926b3838e6b32ad60d34d4ea884e9ec03137b1d443c0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b5327f41f3d5c33c427ba06f93ff6a8bf5da2a573a3f42c973eb31b5e289d377",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5b7b552e68564c0bd48e1ae9dc658daaeaaa1f0113eaeec303e77bca380e30cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "160bef8c7bd0a0584d07ef1f793fdb8c0a3dfc007275328e18298d0d0faf34ff",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"4x4 vehicle\",\"windows\",\"jewellery store\",\"Place Vendome\",\"Paris\"],\"target_related\":[\"thieves\",\"jewellery store\",\"Paris\",\"French police\",\"thefts\",\"France\"],\"mediators\":[\"thieves\",\"jewellery store\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "f52e737fcd6d04ea004ba41297d818d7c61abe2b382b6d98f020d9ec40a250ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Thieves rammed a vehicle through the store windows, enabling the jewellery robbery; the ramming occurred before and caused the theft.\"}"
+    }
+  },
+  "call_ids": [
+    "d29bf0339d123883e25926b3838e6b32ad60d34d4ea884e9ec03137b1d443c0c",
+    "d29bf0339d123883e25926b3838e6b32ad60d34d4ea884e9ec03137b1d443c0c",
+    "b5327f41f3d5c33c427ba06f93ff6a8bf5da2a573a3f42c973eb31b5e289d377",
+    "5b7b552e68564c0bd48e1ae9dc658daaeaaa1f0113eaeec303e77bca380e30cb",
+    "160bef8c7bd0a0584d07ef1f793fdb8c0a3dfc007275328e18298d0d0faf34ff",
+    "f52e737fcd6d04ea004ba41297d818d7c61abe2b382b6d98f020d9ec40a250ee"
+  ],
+  "elapsed_s": 5.5194361209869385
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "23ffe9edebd1d818005679b87e3fdffbdf9a7dcfb783d0c6bf6acfb09d16aec6",
+  "sample_id": "ESC-CSV-09953",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greece",
+    "government",
+    "cuts"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "039102ce9e14a7d32194e976da1d70c8bb1e49884907888f6843fae509be8e76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "039102ce9e14a7d32194e976da1d70c8bb1e49884907888f6843fae509be8e76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "280eda2da3cf76adc29a13c8156bc6cd309770439f6c8be738762f4594bac0d8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dbf3f00c81f854de2216631bf16184c13baa380f2c0a0f16162a2a93f418c7e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3ad4856543eb80013f4f2b8c39c7af5dc2dc20af0b6290642fb3ca15434cb5c3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"government\",\"cuts\",\"financial\",\"crisis\",\"Greece\"],\"target_related\":[\"parliament\",\"Greece\",\"government\",\"cuts\",\"reforms\"],\"mediators\":[\"Greece\",\"government\",\"cuts\"]}"
+    },
+    "indirect": {
+      "call_id": "032091b0ec26e020fdd8833c5b3369c44581cf39c4b0fb10eab3257a862a9394",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Parliament votes on reforms; no explicit or implicit causal word links reforms to vote, and no causal order or Z-chain/fork/collider applies.\"}"
+    }
+  },
+  "call_ids": [
+    "039102ce9e14a7d32194e976da1d70c8bb1e49884907888f6843fae509be8e76",
+    "039102ce9e14a7d32194e976da1d70c8bb1e49884907888f6843fae509be8e76",
+    "280eda2da3cf76adc29a13c8156bc6cd309770439f6c8be738762f4594bac0d8",
+    "dbf3f00c81f854de2216631bf16184c13baa380f2c0a0f16162a2a93f418c7e2",
+    "3ad4856543eb80013f4f2b8c39c7af5dc2dc20af0b6290642fb3ca15434cb5c3",
+    "032091b0ec26e020fdd8833c5b3369c44581cf39c4b0fb10eab3257a862a9394"
+  ],
+  "elapsed_s": 5.249722719192505
+}

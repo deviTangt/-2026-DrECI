@@ -1,0 +1,65 @@
+{
+  "input_hash": "56b5eeccefab75e490756cf69eaa900b1088015177295507be08417eaf689075",
+  "sample_id": "ESC-CSV-02647",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Brooklyn",
+    "teenager",
+    "shot",
+    "death",
+    "Anger"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5448b9e2e813c4082a2b42e58bbafe7e10d87b935f487d821e6007e14776b9b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5448b9e2e813c4082a2b42e58bbafe7e10d87b935f487d821e6007e14776b9b8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a650323dd0070d57b24af14115eba0b5c36d404be62f1aef881630ca80942e0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e68812a0776d0e195110f7d41009a66827856ae6553256a0039bd64181960b6d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "fad524c8f468c22d553d83613c2675545a719c47cafc73fcafc91949cbdbedac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"bullets\",\"Brooklyn\",\"teenager\",\"shot\",\"death\",\"Anger\"],\"target_related\":[\"Anger\",\"death\",\"Brooklyn\",\"teenager\",\"shot\",\"police\",\"East Flatbush\",\"streets\",\"violence\",\"protest\",\"march\",\"vigil\"],\"mediators\":[\"police\",\"Brooklyn\",\"teenager\",\"shot\",\"death\",\"Anger\"]}"
+    },
+    "indirect": {
+      "call_id": "650e8184e13828fb7fecd89850bf0bbd64d99f59855939996ad1a139b163e780",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Anger over the death of a Brooklyn teenager shot and killed by police fueled a riot; death (killed) -> Anger -> riot forms a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "5448b9e2e813c4082a2b42e58bbafe7e10d87b935f487d821e6007e14776b9b8",
+    "5448b9e2e813c4082a2b42e58bbafe7e10d87b935f487d821e6007e14776b9b8",
+    "a650323dd0070d57b24af14115eba0b5c36d404be62f1aef881630ca80942e0c",
+    "e68812a0776d0e195110f7d41009a66827856ae6553256a0039bd64181960b6d",
+    "fad524c8f468c22d553d83613c2675545a719c47cafc73fcafc91949cbdbedac",
+    "650e8184e13828fb7fecd89850bf0bbd64d99f59855939996ad1a139b163e780"
+  ],
+  "elapsed_s": 5.579502820968628
+}

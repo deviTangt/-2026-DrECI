@@ -1,0 +1,69 @@
+{
+  "input_hash": "72130329d866838f5657af7c8f58c0f52b3eeb60547a610941fbb7dcd9296116",
+  "sample_id": "ESC-CSV-02620",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "cops",
+    "projectiles",
+    "hurled",
+    "car",
+    "windows",
+    "pharmacy",
+    "customer",
+    "bottle",
+    "bashed",
+    "head"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0f1b569b2d8b73f584b809897b7b01fe61db3e6ca092a56a4d485b9d864ed53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0f1b569b2d8b73f584b809897b7b01fe61db3e6ca092a56a4d485b9d864ed53",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7a241df8a7f92262868034c7d7a0fd75e7188f30c6830d8a2a11006ade33ffea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9b3faa625ebe9d931938b90f2ad8cbe9f31066b615807376a0bd86271fce12c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e06688f65dbd4f906e83ea33ca1e8694ade887bb996cd8ce3379b096b85fc7d5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"anger\",\"Brooklyn\",\"vigil\",\"teenager\",\"shot\",\"cops\",\"police\",\"East Flatbush\",\"Monday\",\"projectiles\",\"hurled\",\"car\",\"windows\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\"],\"target_related\":[\"car\",\"windows\",\"projectiles\",\"hurled\",\"cops\",\"bottle\",\"bashed\",\"head\",\"pharmacy\",\"customer\"],\"mediators\":[\"cops\",\"projectiles\",\"hurled\",\"car\",\"windows\",\"pharmacy\",\"customer\",\"bottle\",\"bashed\",\"head\"]}"
+    },
+    "indirect": {
+      "call_id": "c03dd57b7f678cba944faa6c1fb8eba998c10c03dfbbe3df20d276b4434f7b85",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death ... fueled a riot; riot context includes car windows were smashed, implying riot provoked the smashing.\"}"
+    }
+  },
+  "call_ids": [
+    "c0f1b569b2d8b73f584b809897b7b01fe61db3e6ca092a56a4d485b9d864ed53",
+    "c0f1b569b2d8b73f584b809897b7b01fe61db3e6ca092a56a4d485b9d864ed53",
+    "7a241df8a7f92262868034c7d7a0fd75e7188f30c6830d8a2a11006ade33ffea",
+    "9b3faa625ebe9d931938b90f2ad8cbe9f31066b615807376a0bd86271fce12c0",
+    "e06688f65dbd4f906e83ea33ca1e8694ade887bb996cd8ce3379b096b85fc7d5",
+    "c03dd57b7f678cba944faa6c1fb8eba998c10c03dfbbe3df20d276b4434f7b85"
+  ],
+  "elapsed_s": 4.528994560241699
+}

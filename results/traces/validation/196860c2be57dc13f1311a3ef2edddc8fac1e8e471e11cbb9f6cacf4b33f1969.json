@@ -1,0 +1,67 @@
+{
+  "input_hash": "196860c2be57dc13f1311a3ef2edddc8fac1e8e471e11cbb9f6cacf4b33f1969",
+  "sample_id": "ESC-CSV-02159",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Monday",
+    "receptionist",
+    "Madeline Kafoury",
+    "dead",
+    "managers",
+    "Paul Riva",
+    "Alan Steinberg",
+    "wounded"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c895bd81ec4ac4e4db73ea50e86431919967479d6f27d82c65dba12db2bb0c74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c895bd81ec4ac4e4db73ea50e86431919967479d6f27d82c65dba12db2bb0c74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0af5459dfb50a4c91577ddf60778a1c0b8a6894085447074f027654fd504e790",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f7af6cdfbf6457db28a815ed85cfe2d2a65bcd2e7ebb42f753da5d7839415df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "425f9a929a2b1af5a66c142bf342fc040a0dd6dcf2213c79e943b023c46b9bd0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Steinberg\",\"hip\",\"police\",\"attack\",\"Riva\",\"consciousness\",\"ventilator\",\"Monday\",\"receptionist\",\"Madeline Kafoury\",\"dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"target_related\":[\"Monday\",\"receptionist\",\"Madeline Kafoury\",\"shot\",\"dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"],\"mediators\":[\"Monday\",\"receptionist\",\"Madeline Kafoury\",\"dead\",\"managers\",\"Paul Riva\",\"Alan Steinberg\",\"wounded\"]}"
+    },
+    "indirect": {
+      "call_id": "eed00e9743aee5ef6415d3ca38f9336a2460b56fdddacc65464ac5af149ad6e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: violence (the attack) occurred before and caused the shooting; the shooting is a result of the violence.\"}"
+    }
+  },
+  "call_ids": [
+    "c895bd81ec4ac4e4db73ea50e86431919967479d6f27d82c65dba12db2bb0c74",
+    "c895bd81ec4ac4e4db73ea50e86431919967479d6f27d82c65dba12db2bb0c74",
+    "0af5459dfb50a4c91577ddf60778a1c0b8a6894085447074f027654fd504e790",
+    "0f7af6cdfbf6457db28a815ed85cfe2d2a65bcd2e7ebb42f753da5d7839415df",
+    "425f9a929a2b1af5a66c142bf342fc040a0dd6dcf2213c79e943b023c46b9bd0",
+    "eed00e9743aee5ef6415d3ca38f9336a2460b56fdddacc65464ac5af149ad6e4"
+  ],
+  "elapsed_s": 6.067391395568848
+}

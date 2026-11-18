@@ -1,0 +1,62 @@
+{
+  "input_hash": "87a60fc34b7c5070a2011a2fc22724a408c697a9987bead03ce6c2c0e25b327a",
+  "sample_id": "ESC-CSV-02406",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "attack",
+    "firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e3bdad7257e40550e6c87f5c5259999491ea772cee1e23881a069a0183a657fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e3bdad7257e40550e6c87f5c5259999491ea772cee1e23881a069a0183a657fd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b3fd4efd287ff71a9d1e78a1db971e8a408639a71debea56a18b5d1246b5c889",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a36541538d7a4ffa2ee7e8068fa09335facef7f7805f0e5e680f3e30e05be09e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "5b6f60745a987b7110b9db55397e8ab06e145ac829e4aeffc962f04fec32ce38",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"people\",\"attack\",\"firm\",\"Detroit\",\"man\"],\"target_related\":[\"man\",\"chase\",\"attack\",\"authorities\",\"firm\"],\"mediators\":[\"man\",\"attack\",\"firm\"]}"
+    },
+    "indirect": {
+      "call_id": "70d97c2b4da2e055e01a517aae343fe2409c649c6d7c1c76504c7c9969da30e1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing one person during the shooting preceded and led to the suspect being arrested after a high-speed chase, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "e3bdad7257e40550e6c87f5c5259999491ea772cee1e23881a069a0183a657fd",
+    "e3bdad7257e40550e6c87f5c5259999491ea772cee1e23881a069a0183a657fd",
+    "b3fd4efd287ff71a9d1e78a1db971e8a408639a71debea56a18b5d1246b5c889",
+    "a36541538d7a4ffa2ee7e8068fa09335facef7f7805f0e5e680f3e30e05be09e",
+    "5b6f60745a987b7110b9db55397e8ab06e145ac829e4aeffc962f04fec32ce38",
+    "70d97c2b4da2e055e01a517aae343fe2409c649c6d7c1c76504c7c9969da30e1"
+  ],
+  "elapsed_s": 22.592153072357178
+}

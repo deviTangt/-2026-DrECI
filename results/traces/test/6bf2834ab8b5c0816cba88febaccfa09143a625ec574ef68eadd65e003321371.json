@@ -1,0 +1,64 @@
+{
+  "input_hash": "6bf2834ab8b5c0816cba88febaccfa09143a625ec574ef68eadd65e003321371",
+  "sample_id": "ESC-CSV-04008",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Duncan Raite",
+    "slipped",
+    "ridge",
+    "200ft",
+    "national park"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "51ccd6f94bdaccafba9f399d8e6339ff70f205016093d767898fd8da9dda190b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "51ccd6f94bdaccafba9f399d8e6339ff70f205016093d767898fd8da9dda190b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "460abee9ede3c93278dd109313a92253cad0e11697814befe501cd327fc9b84b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6b628eb25edd7eff1195f4e8feec5364f32d9997a9c41a66b4d24a53b6b6e4f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a83089f725e7fbf1c0fc3d74b03cbbb9de0580990778cdbd7aebf43360bdd951",
+      "status": "ok",
+      "text": "{\"source_related\":[\"slipped\",\"ridge\",\"200ft\",\"national park\",\"Duncan Raite\"],\"target_related\":[\"Duncan Raite\",\"slipped\",\"fell\",\"ridge\",\"200ft\",\"national park\"],\"mediators\":[\"Duncan Raite\",\"slipped\",\"ridge\",\"200ft\",\"national park\"]}"
+    },
+    "indirect": {
+      "call_id": "728fa6365d4269ce8e5b7d5d2897d9e4453def1085272430a668c5d056bdca8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling ~200ft from a ridge would cause death; the fall precedes and causes Duncan Raite's death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "51ccd6f94bdaccafba9f399d8e6339ff70f205016093d767898fd8da9dda190b",
+    "51ccd6f94bdaccafba9f399d8e6339ff70f205016093d767898fd8da9dda190b",
+    "460abee9ede3c93278dd109313a92253cad0e11697814befe501cd327fc9b84b",
+    "6b628eb25edd7eff1195f4e8feec5364f32d9997a9c41a66b4d24a53b6b6e4f0",
+    "a83089f725e7fbf1c0fc3d74b03cbbb9de0580990778cdbd7aebf43360bdd951",
+    "728fa6365d4269ce8e5b7d5d2897d9e4453def1085272430a668c5d056bdca8d"
+  ],
+  "elapsed_s": 4.5842673778533936
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "6e0a9bee4036f600a41ab5e5799882144dff3266f9c6061d5a940b8c76bbaee0",
+  "sample_id": "ESC-CSV-01644",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "parolee",
+    "Deputy",
+    "Killer"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "164406278cbb5c78d596d7ab825e7cfea19b0e2eb5ae468b74df898355935808",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "164406278cbb5c78d596d7ab825e7cfea19b0e2eb5ae468b74df898355935808",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "556d7618f11bc472e990373c334c1ad4c4cd2bb1ed09def22727148c7c23e1ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ae5a5ffc811f2da99de28f4c9356a48689095465b75a983f80c7358f25a80f45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7f8ed48b8a4467799ddc3a1f16ee111e821c81995edbb3017c43fef5761fba15",
+      "status": "ok",
+      "text": "{\"source_related\":[\"parolee\",\"bathtub\",\"house\",\"Jerry Ortiz\",\"head\",\"Deputy\",\"Killer\"],\"target_related\":[\"parolee\",\"Deputy\",\"Killer\"],\"mediators\":[\"parolee\",\"Deputy\",\"Killer\"]}"
+    },
+    "indirect": {
+      "call_id": "2c3d7b6d096738b727cda4ad32b12c8d0b1f7f65ea223c6f59f1b5a256d76d2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The text reports the shooting and the parolee being held as separate facts; no causal word or structure links 'shot' to 'Held'.\"}"
+    }
+  },
+  "call_ids": [
+    "164406278cbb5c78d596d7ab825e7cfea19b0e2eb5ae468b74df898355935808",
+    "164406278cbb5c78d596d7ab825e7cfea19b0e2eb5ae468b74df898355935808",
+    "556d7618f11bc472e990373c334c1ad4c4cd2bb1ed09def22727148c7c23e1ac",
+    "ae5a5ffc811f2da99de28f4c9356a48689095465b75a983f80c7358f25a80f45",
+    "7f8ed48b8a4467799ddc3a1f16ee111e821c81995edbb3017c43fef5761fba15",
+    "2c3d7b6d096738b727cda4ad32b12c8d0b1f7f65ea223c6f59f1b5a256d76d2e"
+  ],
+  "elapsed_s": 5.086588382720947
+}

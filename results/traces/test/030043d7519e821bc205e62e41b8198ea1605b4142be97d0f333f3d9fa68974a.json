@@ -1,0 +1,62 @@
+{
+  "input_hash": "030043d7519e821bc205e62e41b8198ea1605b4142be97d0f333f3d9fa68974a",
+  "sample_id": "ESC-CSV-09356",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "Molotov cocktails",
+    "window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3aea43ca3cfd15ccaa931e0f08e74bfee7179b8016a8bc9f51c0671405892a0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3aea43ca3cfd15ccaa931e0f08e74bfee7179b8016a8bc9f51c0671405892a0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f2a2b1881d73f46d3d49f9e871238f6f623401db01579ae792c3c9019c0d80bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d32a1057cfeeb5255f8206b847c773176473cead499d0e05dd435e531d2bbf82",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2c719d4baf82d8b597828acf90fa53589262df45045bd87c09bcc8eefe3ece66",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded youths\",\"petrol bombs\",\"stores\",\"businesses\",\"rioters\",\"Molotov cocktails\",\"window\"],\"target_related\":[\"Marfin bank\",\"branch\",\"rioters\",\"Molotov cocktails\",\"window\"],\"mediators\":[\"rioters\",\"Molotov cocktails\",\"window\"]}"
+    },
+    "indirect": {
+      "call_id": "f64ed2b28944c345dacbe9c9601133fbff6299d72d89dce56cf03b11acbb6c0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Hurling petrol bombs/Molotov cocktails caused the bank to catch fire; rioters threw Molotov cocktails, which ignited the fire (X->Z->Y).\"}"
+    }
+  },
+  "call_ids": [
+    "3aea43ca3cfd15ccaa931e0f08e74bfee7179b8016a8bc9f51c0671405892a0d",
+    "3aea43ca3cfd15ccaa931e0f08e74bfee7179b8016a8bc9f51c0671405892a0d",
+    "f2a2b1881d73f46d3d49f9e871238f6f623401db01579ae792c3c9019c0d80bd",
+    "d32a1057cfeeb5255f8206b847c773176473cead499d0e05dd435e531d2bbf82",
+    "2c719d4baf82d8b597828acf90fa53589262df45045bd87c09bcc8eefe3ece66",
+    "f64ed2b28944c345dacbe9c9601133fbff6299d72d89dce56cf03b11acbb6c0d"
+  ],
+  "elapsed_s": 4.230950593948364
+}

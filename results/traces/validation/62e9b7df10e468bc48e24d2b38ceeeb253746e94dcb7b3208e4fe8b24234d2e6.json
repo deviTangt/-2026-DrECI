@@ -1,0 +1,61 @@
+{
+  "input_hash": "62e9b7df10e468bc48e24d2b38ceeeb253746e94dcb7b3208e4fe8b24234d2e6",
+  "sample_id": "ESC-CSV-02242",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "gunshot",
+    "wounds"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "92dc28f16beda3f34486fc4f7714aac671134cce4604ee4da7d4e8d419f5c8ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "92dc28f16beda3f34486fc4f7714aac671134cce4604ee4da7d4e8d419f5c8ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "754aa055e7cc22e2ed4a7602d1174993473c4f73d4cf590e2196fce086d91afb",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "db729e3c6e59f50e1724ea7a708647c663c68e08de31210378765a24fecc5604",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "050a0181d960e1cd00d8f71dd735246a4b972c6d7b73cb8ab31fa01534dd3404",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"public\",\"places\",\"Atlanta\",\"Georgia\",\"Seattle\",\"Washington\",\"died\",\"gunshot\",\"wounds\"],\"target_related\":[\"men\",\"management\",\"level\",\"employees\",\"surgery\",\"gunshot\",\"wounds\",\"Royal\",\"Oak\",\"Beaumont\",\"Hospital\",\"Scherlinck\"],\"mediators\":[\"gunshot\",\"wounds\"]}"
+    },
+    "indirect": {
+      "call_id": "ce74af15b8e245910d4eda89d655c087bf0624a0393b2697202058485a156525",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Shooting caused gunshot wounds; wounds led to surgery (underwent). Chain: shooting -> gunshot wounds -> underwent surgery.\"}"
+    }
+  },
+  "call_ids": [
+    "92dc28f16beda3f34486fc4f7714aac671134cce4604ee4da7d4e8d419f5c8ef",
+    "92dc28f16beda3f34486fc4f7714aac671134cce4604ee4da7d4e8d419f5c8ef",
+    "754aa055e7cc22e2ed4a7602d1174993473c4f73d4cf590e2196fce086d91afb",
+    "db729e3c6e59f50e1724ea7a708647c663c68e08de31210378765a24fecc5604",
+    "050a0181d960e1cd00d8f71dd735246a4b972c6d7b73cb8ab31fa01534dd3404",
+    "ce74af15b8e245910d4eda89d655c087bf0624a0393b2697202058485a156525"
+  ],
+  "elapsed_s": 7.068329095840454
+}

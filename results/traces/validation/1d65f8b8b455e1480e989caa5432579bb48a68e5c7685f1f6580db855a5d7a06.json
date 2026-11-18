@@ -1,0 +1,64 @@
+{
+  "input_hash": "1d65f8b8b455e1480e989caa5432579bb48a68e5c7685f1f6580db855a5d7a06",
+  "sample_id": "ESC-CSV-07147",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Vincent Jackson",
+    "Chargers receiver",
+    "DUI",
+    "Jan . 6",
+    "San Diego"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e2061aa289f9034368849fecbee5f4005dcfd6f7fc0227ec8b051f89d4119086",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e2061aa289f9034368849fecbee5f4005dcfd6f7fc0227ec8b051f89d4119086",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7996b7face89e7b5c74a08d78d96732195073b9d7d55f81cf502237c0619a822",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ceda1049e3f629af10f8953d71afa402f51a0168137b5c971d3df64e8c454041",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b70cb162a6a3f8e573c0e1a40f4d0c1ffb0c459a5f04353159ce2bfbd120ffef",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"Chargers receiver\",\"DUI\",\"Jan . 6\",\"San Diego\"],\"target_related\":[\"DUI\",\"Vincent Jackson\",\"Chargers receiver\",\"Jan . 6\",\"San Diego\"],\"mediators\":[\"Vincent Jackson\",\"Chargers receiver\",\"DUI\",\"Jan . 6\",\"San Diego\"]}"
+    },
+    "indirect": {
+      "call_id": "1ba8986f17da70b806afd09bd61ac7baf687a88ec4d0b23ba3a7d1f9228c5234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'arrested for investigation of DUI' — the preposition 'for' explicitly links the arrest to the investigation, indicating causation.\"}"
+    }
+  },
+  "call_ids": [
+    "e2061aa289f9034368849fecbee5f4005dcfd6f7fc0227ec8b051f89d4119086",
+    "e2061aa289f9034368849fecbee5f4005dcfd6f7fc0227ec8b051f89d4119086",
+    "7996b7face89e7b5c74a08d78d96732195073b9d7d55f81cf502237c0619a822",
+    "ceda1049e3f629af10f8953d71afa402f51a0168137b5c971d3df64e8c454041",
+    "b70cb162a6a3f8e573c0e1a40f4d0c1ffb0c459a5f04353159ce2bfbd120ffef",
+    "1ba8986f17da70b806afd09bd61ac7baf687a88ec4d0b23ba3a7d1f9228c5234"
+  ],
+  "elapsed_s": 4.0737409591674805
+}

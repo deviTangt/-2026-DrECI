@@ -1,0 +1,62 @@
+{
+  "input_hash": "775fac7ead18877c9100ce3138ea4379e18127d5c3b94d02a8bb9363ce0620bf",
+  "sample_id": "ESC-CSV-09726",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "Police",
+    "riots"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4fb89765dcb74474e7f9df596c1876c8feae0b790f643a9620770611c6730f0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4fb89765dcb74474e7f9df596c1876c8feae0b790f643a9620770611c6730f0e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "34e58fe10452ae9b5483992f1eccfb8dca9b315cdfff6f19c3ac355a12004a8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "12ff2380c3612089ed1bca43a584cf7d915e32ac3e03b163552bd331dfa9e8bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2b783d27922fc229ae651368888436c196271ca16052e67b02ac34cade12c6e3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"protest\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"Police\",\"riots\"],\"target_related\":[\"Police\",\"people\",\"riots\"],\"mediators\":[\"people\",\"Police\",\"riots\"]}"
+    },
+    "indirect": {
+      "call_id": "7ebaea3bcce7b2adfb175ecb089e378873541d6530a49dfe16546b8e6235e560",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The strike led to riots, and the riots resulted in 12 people being injured, forming a causal chain: strike -> riots -> injured.\"}"
+    }
+  },
+  "call_ids": [
+    "4fb89765dcb74474e7f9df596c1876c8feae0b790f643a9620770611c6730f0e",
+    "4fb89765dcb74474e7f9df596c1876c8feae0b790f643a9620770611c6730f0e",
+    "34e58fe10452ae9b5483992f1eccfb8dca9b315cdfff6f19c3ac355a12004a8b",
+    "12ff2380c3612089ed1bca43a584cf7d915e32ac3e03b163552bd331dfa9e8bc",
+    "2b783d27922fc229ae651368888436c196271ca16052e67b02ac34cade12c6e3",
+    "7ebaea3bcce7b2adfb175ecb089e378873541d6530a49dfe16546b8e6235e560"
+  ],
+  "elapsed_s": 5.051019191741943
+}

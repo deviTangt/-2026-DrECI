@@ -1,0 +1,62 @@
+{
+  "input_hash": "543f863bcd85f2dcce5661f0e03475ccae94460c5f51a0efee96fa4477d493fe",
+  "sample_id": "ESC-CSV-04572",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "store",
+    "jewelry",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c60834367c622b52c965247ea18d4e49fce5771b14e26b647e131fab39289752",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c60834367c622b52c965247ea18d4e49fce5771b14e26b647e131fab39289752",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f5598df0838806c4f53b999284d21b50472c2c272620ce91b8a044acd0570e39",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "16bc674e93a52003a08136aa25dd5605f088e94bc858e6e03639ce31ce5c9ed2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "5cb47ce15e376d5cb6fbb55fb3353d47976e3c15659e925f234def751b090407",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewelry\",\"watches\",\"vehicle\"],\"target_related\":[\"store\",\"jewelry\",\"watches\",\"Paris\"],\"mediators\":[\"store\",\"jewelry\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "05c52b7dc09dc0599bf64b76c69d7783d1bb5eaa4e29f394ccdc4c96fb50aafc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving the car into the store enabled the men to grab jewelry and watches, constituting the heist; driving precedes and causes the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "c60834367c622b52c965247ea18d4e49fce5771b14e26b647e131fab39289752",
+    "c60834367c622b52c965247ea18d4e49fce5771b14e26b647e131fab39289752",
+    "f5598df0838806c4f53b999284d21b50472c2c272620ce91b8a044acd0570e39",
+    "16bc674e93a52003a08136aa25dd5605f088e94bc858e6e03639ce31ce5c9ed2",
+    "5cb47ce15e376d5cb6fbb55fb3353d47976e3c15659e925f234def751b090407",
+    "05c52b7dc09dc0599bf64b76c69d7783d1bb5eaa4e29f394ccdc4c96fb50aafc"
+  ],
+  "elapsed_s": 5.303515672683716
+}

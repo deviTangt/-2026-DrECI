@@ -1,0 +1,63 @@
+{
+  "input_hash": "c20d5b1315e665a5ebdd6ec106226215bdb4495f2be42096976d9a27118317b7",
+  "sample_id": "ESC-CSV-02036",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Mich",
+    "accountant",
+    "charged",
+    "office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ed714379af938bc0f1ac6dad24cd1498429e27e110d3c2707c0e432e92fefb0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ed714379af938bc0f1ac6dad24cd1498429e27e110d3c2707c0e432e92fefb0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "30d1c9973b80934d8cda35648788197e4668120afcf14e53fd4a1715d6aeb0cb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "489554e5a12ec8e04641fe7eedc69c803b3aab0c9ed35dfd2e282ac239157ecb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2702224e97f7a9fbacde7ab50c6ec1739a96685992f2771cdb9e931d2b6acadc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Mich\",\"accountant\",\"charged\",\"office\"],\"target_related\":[\"Mich\",\"accountant\",\"charged\",\"office\"],\"mediators\":[\"Mich\",\"accountant\",\"charged\",\"office\"]}"
+    },
+    "indirect": {
+      "call_id": "8548dc9799b311e72e61f001b223aff7968fb9bbc84420589434045270ad6336",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shootings occur before and cause the murder charge; common sense: the office shootings resulted in the murder charge.\"}"
+    }
+  },
+  "call_ids": [
+    "ed714379af938bc0f1ac6dad24cd1498429e27e110d3c2707c0e432e92fefb0c",
+    "ed714379af938bc0f1ac6dad24cd1498429e27e110d3c2707c0e432e92fefb0c",
+    "30d1c9973b80934d8cda35648788197e4668120afcf14e53fd4a1715d6aeb0cb",
+    "489554e5a12ec8e04641fe7eedc69c803b3aab0c9ed35dfd2e282ac239157ecb",
+    "2702224e97f7a9fbacde7ab50c6ec1739a96685992f2771cdb9e931d2b6acadc",
+    "8548dc9799b311e72e61f001b223aff7968fb9bbc84420589434045270ad6336"
+  ],
+  "elapsed_s": 4.688856363296509
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "2a448c01498622d8aac70c0350616b8057580e26eb8a709655c89ba164d78fe1",
+  "sample_id": "ESC-CSV-04634",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "shop",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "177ee1b911f20b7916b1e65521957e6cd63b06dc326fa985fde029b4d72cf0df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "177ee1b911f20b7916b1e65521957e6cd63b06dc326fa985fde029b4d72cf0df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "659515b9f03a2e96e4b61e3e0b331179871fe4467a73f56a19c149ae2118b082",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0ad962b83505db441960f06a597660f8af5daa8d087c5779a4c038c2ac1586ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2a1bc2bc368295b8da2f98b05519a7f028b72adc11ec089fb06a7142176cd0ee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\",\"shop\",\"Paris\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1.7m\",\"shop\",\"Paris\"],\"mediators\":[\"shop\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "46ead7fecb81d4042a2e31a766c890565602bce1540ef8a5c830477dfac2d502",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Passive construction 'have been stolen during a heist' uses 'during' linking the heist to the theft, indicating the heist caused the items to be stolen.\"}"
+    }
+  },
+  "call_ids": [
+    "177ee1b911f20b7916b1e65521957e6cd63b06dc326fa985fde029b4d72cf0df",
+    "177ee1b911f20b7916b1e65521957e6cd63b06dc326fa985fde029b4d72cf0df",
+    "659515b9f03a2e96e4b61e3e0b331179871fe4467a73f56a19c149ae2118b082",
+    "0ad962b83505db441960f06a597660f8af5daa8d087c5779a4c038c2ac1586ee",
+    "2a1bc2bc368295b8da2f98b05519a7f028b72adc11ec089fb06a7142176cd0ee",
+    "46ead7fecb81d4042a2e31a766c890565602bce1540ef8a5c830477dfac2d502"
+  ],
+  "elapsed_s": 4.265676498413086
+}

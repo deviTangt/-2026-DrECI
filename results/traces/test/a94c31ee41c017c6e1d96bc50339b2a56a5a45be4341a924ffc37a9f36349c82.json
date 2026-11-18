@@ -1,0 +1,60 @@
+{
+  "input_hash": "a94c31ee41c017c6e1d96bc50339b2a56a5a45be4341a924ffc37a9f36349c82",
+  "sample_id": "ESC-CSV-04317",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c10b1595332b65aeb5bfe8e3be05218008b0e3394fbc48098cf782a9bfa5d963",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c10b1595332b65aeb5bfe8e3be05218008b0e3394fbc48098cf782a9bfa5d963",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9c2d9e7d8f77775c32f15255c0218e7a6a499a048febacaf4c95852664ca91c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "33071b68b328aa33f19cf69ac7fb44a897b21e3f9af20404864d789824d3661b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b9bc5bb2231aea6c099f7271023e5899429d77bb3bd6e178bd3d315e066bde9e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\",\"jewelry\",\"watches\"],\"target_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "ca36f4c6ecac4efee1a334acab8e21a331dca4b38deaed81e3f2d65608e8e471",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Driving the car into the store enabled the men to grab jewelry, constituting the heist; the driving precedes and causes the robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "c10b1595332b65aeb5bfe8e3be05218008b0e3394fbc48098cf782a9bfa5d963",
+    "c10b1595332b65aeb5bfe8e3be05218008b0e3394fbc48098cf782a9bfa5d963",
+    "9c2d9e7d8f77775c32f15255c0218e7a6a499a048febacaf4c95852664ca91c3",
+    "33071b68b328aa33f19cf69ac7fb44a897b21e3f9af20404864d789824d3661b",
+    "b9bc5bb2231aea6c099f7271023e5899429d77bb3bd6e178bd3d315e066bde9e",
+    "ca36f4c6ecac4efee1a334acab8e21a331dca4b38deaed81e3f2d65608e8e471"
+  ],
+  "elapsed_s": 5.310420274734497
+}

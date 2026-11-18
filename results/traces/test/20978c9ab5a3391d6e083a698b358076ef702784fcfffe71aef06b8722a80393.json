@@ -1,0 +1,60 @@
+{
+  "input_hash": "20978c9ab5a3391d6e083a698b358076ef702784fcfffe71aef06b8722a80393",
+  "sample_id": "ESC-CSV-04135",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Rait"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ffe8125a95c189ccaf4dd77d6392ec436344b54bde375bbfa4ffd5d980391416",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ffe8125a95c189ccaf4dd77d6392ec436344b54bde375bbfa4ffd5d980391416",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "78c8a37d4e6ba3621cac024bb06c7bfe562acfec9bb278006c61a7156b27333e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "37d6519e47cfabddf46a97a09bede2297d498755976b52dd0277cba664fc5649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7a28085ba3adeca40085d610d928ea9d76193148e11d29e78c0db35cf1b49d21",
+      "status": "ok",
+      "text": "{\"source_related\":[\"helicopter\",\"group\",\"walking\",\"hut\",\"sliding\",\"slope\",\"cliff\"],\"target_related\":[\"climbers\",\"rescue\",\"Rait\",\"glacier\",\"way\"],\"mediators\":[\"Rait\"]}"
+    },
+    "indirect": {
+      "call_id": "ba2fc9e72ab05f5db1b1c665f8c61a3dc4e39905856caf31f9f08710133e4bc4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling down a steep slope and over a cliff caused fatal injuries; he died on the way down, so the fall led to death.\"}"
+    }
+  },
+  "call_ids": [
+    "ffe8125a95c189ccaf4dd77d6392ec436344b54bde375bbfa4ffd5d980391416",
+    "ffe8125a95c189ccaf4dd77d6392ec436344b54bde375bbfa4ffd5d980391416",
+    "78c8a37d4e6ba3621cac024bb06c7bfe562acfec9bb278006c61a7156b27333e",
+    "37d6519e47cfabddf46a97a09bede2297d498755976b52dd0277cba664fc5649",
+    "7a28085ba3adeca40085d610d928ea9d76193148e11d29e78c0db35cf1b49d21",
+    "ba2fc9e72ab05f5db1b1c665f8c61a3dc4e39905856caf31f9f08710133e4bc4"
+  ],
+  "elapsed_s": 4.6029052734375
+}

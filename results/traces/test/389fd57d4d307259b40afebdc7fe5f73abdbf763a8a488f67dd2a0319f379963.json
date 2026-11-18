@@ -1,0 +1,63 @@
+{
+  "input_hash": "389fd57d4d307259b40afebdc7fe5f73abdbf763a8a488f67dd2a0319f379963",
+  "sample_id": "ESC-CSV-06664",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "murder",
+    "injury"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a8109647f411c36883261937ea424133f88868a8dcaa5472fe66d68cbbbafd20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a8109647f411c36883261937ea424133f88868a8dcaa5472fe66d68cbbbafd20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2fe53c7070b441638ba57bf89bca3f45f0755e736f01d5662e006054af54ce80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6a6f6ed8690ab85f2128a05dce65b026d42c70679dad050af7dc596eb8f55320",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6dc66494af4824868f132e45cf866bdce3c484d679adb7f58bd7922778800ffe",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"victims\",\"crossfire\",\"injured\",\"murder\",\"Zurana Horton\",\"injury\"],\"target_related\":[\"Andrew Lopez\",\"verdict\",\"murder\",\"Zurana Horton\",\"injury\",\"Brooklyn jury\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"murder\",\"injury\"]}"
+    },
+    "indirect": {
+      "call_id": "5dedc89122f7eed568d7738a4005fa56e1fa141f34f57ca80982994069992f5c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Killing Zurana Horton (murder) is the act for which the jury returned a guilty verdict; the killing precedes and grounds the guilty verdict by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "a8109647f411c36883261937ea424133f88868a8dcaa5472fe66d68cbbbafd20",
+    "a8109647f411c36883261937ea424133f88868a8dcaa5472fe66d68cbbbafd20",
+    "2fe53c7070b441638ba57bf89bca3f45f0755e736f01d5662e006054af54ce80",
+    "6a6f6ed8690ab85f2128a05dce65b026d42c70679dad050af7dc596eb8f55320",
+    "6dc66494af4824868f132e45cf866bdce3c484d679adb7f58bd7922778800ffe",
+    "5dedc89122f7eed568d7738a4005fa56e1fa141f34f57ca80982994069992f5c"
+  ],
+  "elapsed_s": 4.158498764038086
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "e2babb060f69ad62eb264f87b8286195399ff42ab482717d7a606b9b9b5fee7a",
+  "sample_id": "ESC-CSV-02256",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "LaCalamita",
+    "shotgun",
+    "shell",
+    "chamber",
+    "hip"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fdc3c77529825fd43974b08c1beede3a139c2b24acc681de456729a88f960444",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fdc3c77529825fd43974b08c1beede3a139c2b24acc681de456729a88f960444",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "027898e9924dc7043585f7444d5ccdbe48ad989b81ce8781222e46cdf6f6388f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c138794962889d33537aeda221b9bc72717d78261bfbad25b22eeb76c5a5281b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "42828992f9cb54739a29885430c529aca7572cce932e0d2f4b762bebb4c57ba2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"LaCalamita\",\"shotgun\",\"shell\",\"chamber\",\"hip\"],\"target_related\":[\"LaCalamita\",\"shotgun\",\"shell\",\"chamber\",\"hip\"],\"mediators\":[\"LaCalamita\",\"shotgun\",\"shell\",\"chamber\",\"hip\"]}"
+    },
+    "indirect": {
+      "call_id": "dff694a0fa889aa384486b426096e9d1f3d7ba2d95a21096642ad052d231aaa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"LaCalamita 'fired at him, hitting him in the hip area'; firing the shotgun directly caused the shooting/hitting, explicit 'fired at' and common-sense order.\"}"
+    }
+  },
+  "call_ids": [
+    "fdc3c77529825fd43974b08c1beede3a139c2b24acc681de456729a88f960444",
+    "fdc3c77529825fd43974b08c1beede3a139c2b24acc681de456729a88f960444",
+    "027898e9924dc7043585f7444d5ccdbe48ad989b81ce8781222e46cdf6f6388f",
+    "c138794962889d33537aeda221b9bc72717d78261bfbad25b22eeb76c5a5281b",
+    "42828992f9cb54739a29885430c529aca7572cce932e0d2f4b762bebb4c57ba2",
+    "dff694a0fa889aa384486b426096e9d1f3d7ba2d95a21096642ad052d231aaa2"
+  ],
+  "elapsed_s": 8.916731119155884
+}

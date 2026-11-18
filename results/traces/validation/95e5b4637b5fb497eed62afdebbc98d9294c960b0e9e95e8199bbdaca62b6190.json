@@ -1,0 +1,60 @@
+{
+  "input_hash": "95e5b4637b5fb497eed62afdebbc98d9294c960b0e9e95e8199bbdaca62b6190",
+  "sample_id": "ESC-CSV-02160",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Shooter"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "39401fa79ed45554c92ad654863f011605562891a90579a4aaf37be7ecd5c5a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "39401fa79ed45554c92ad654863f011605562891a90579a4aaf37be7ecd5c5a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "719f749e536c6996bef47a1507cf8051bafe7ad520bf8698c593eb77be6ab203",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d049e3355abbb576e3ea0e0bfc969a28805fc2b6edda5fb810982e25c83eec51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "88ef5c2cfb8dc049430f7e42837d2f1a2c2911acbfbf98d1f58b55893cc14aca",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Shooter\",\"Attempted\"],\"target_related\":[\"Detroit\",\"Office\",\"Shooter\"],\"mediators\":[\"Shooter\"]}"
+    },
+    "indirect": {
+      "call_id": "c7781d51db5ebf31e1fa4f4b646fe54e5bc37945625ae3fe068a74f1b3dc86c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being charged with murder follows from the murder; common sense: the murder causes the shooter to be charged with murder.\"}"
+    }
+  },
+  "call_ids": [
+    "39401fa79ed45554c92ad654863f011605562891a90579a4aaf37be7ecd5c5a9",
+    "39401fa79ed45554c92ad654863f011605562891a90579a4aaf37be7ecd5c5a9",
+    "719f749e536c6996bef47a1507cf8051bafe7ad520bf8698c593eb77be6ab203",
+    "d049e3355abbb576e3ea0e0bfc969a28805fc2b6edda5fb810982e25c83eec51",
+    "88ef5c2cfb8dc049430f7e42837d2f1a2c2911acbfbf98d1f58b55893cc14aca",
+    "c7781d51db5ebf31e1fa4f4b646fe54e5bc37945625ae3fe068a74f1b3dc86c6"
+  ],
+  "elapsed_s": 7.337625741958618
+}

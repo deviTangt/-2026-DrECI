@@ -1,0 +1,68 @@
+{
+  "input_hash": "472e2760e9bc78adbee0ef6e5668c6069033a5cb2d5706a63bdd8a1ac7377d84",
+  "sample_id": "ESC-CSV-02043",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "murder",
+    "receptionist",
+    "shotgun",
+    "attack",
+    "wounding",
+    "bosses",
+    "arraigned",
+    "charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "79d4cf0dd344339649a422c0b066f55c984d16b5fc51da27654e7bb0150d2df7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "79d4cf0dd344339649a422c0b066f55c984d16b5fc51da27654e7bb0150d2df7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "41cf922b77880e986ba31a5fb77919435f2477416f4150246723ec0f5294c4fe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2497dd94854387cb0349382221b98284abe25fb4bb79ca07f57ba89c760a5704",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "101d1f52a9ed651012f0c737c3194adb1c6ba80aa11ef02d45b6acc9a37e51ef",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"murder\",\"office\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"receptionist\",\"arraigned\",\"charges\"],\"target_related\":[\"accountant\",\"murder\",\"receptionist\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"arraigned\",\"charges\"],\"mediators\":[\"accountant\",\"murder\",\"receptionist\",\"shotgun\",\"attack\",\"wounding\",\"bosses\",\"arraigned\",\"charges\"]}"
+    },
+    "indirect": {
+      "call_id": "617f5fa5826b9727f4b7655b778304dd9cf9f43a966363390e7b696a4d424b2c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shootings (shotgun attack) occurred before and caused the killing of the receptionist who tried to stop him; common sense supports X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "79d4cf0dd344339649a422c0b066f55c984d16b5fc51da27654e7bb0150d2df7",
+    "79d4cf0dd344339649a422c0b066f55c984d16b5fc51da27654e7bb0150d2df7",
+    "41cf922b77880e986ba31a5fb77919435f2477416f4150246723ec0f5294c4fe",
+    "2497dd94854387cb0349382221b98284abe25fb4bb79ca07f57ba89c760a5704",
+    "101d1f52a9ed651012f0c737c3194adb1c6ba80aa11ef02d45b6acc9a37e51ef",
+    "617f5fa5826b9727f4b7655b778304dd9cf9f43a966363390e7b696a4d424b2c"
+  ],
+  "elapsed_s": 5.180896282196045
+}

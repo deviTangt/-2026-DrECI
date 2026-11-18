@@ -1,0 +1,60 @@
+{
+  "input_hash": "bad0833c92846519008885c23890931849345012f2c14619cdb98ddf38e5a89c",
+  "sample_id": "ESC-CSV-02096",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b164f2b3eaae269755e27f5d859a5eb8a0e550d40d4faf039733a769df96eba7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b164f2b3eaae269755e27f5d859a5eb8a0e550d40d4faf039733a769df96eba7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2b739cde4456590d2128d70bca360465e8eb3e3a71fb967e291067cad58450ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a071ca5d0ad3d01f4c7b23ef17d927ad586669cbf9a6489085cdb276ea6eaf14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6d2069b7f310cdc324ad855474bb81ca9c98d4eeef4fbb58ca52dc556ae0fdd3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"assault\",\"kill\"],\"target_related\":[\"Madeline Kafoury\",\"shotgun\",\"murder\"],\"mediators\":[\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "9eb0b74d3c319bb92244c271b80f302c70d7aa694391de5a36a87da844bb266d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Intent to murder is a mental state that precedes and causes the act of slaying; common sense supports intent causing the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "b164f2b3eaae269755e27f5d859a5eb8a0e550d40d4faf039733a769df96eba7",
+    "b164f2b3eaae269755e27f5d859a5eb8a0e550d40d4faf039733a769df96eba7",
+    "2b739cde4456590d2128d70bca360465e8eb3e3a71fb967e291067cad58450ae",
+    "a071ca5d0ad3d01f4c7b23ef17d927ad586669cbf9a6489085cdb276ea6eaf14",
+    "6d2069b7f310cdc324ad855474bb81ca9c98d4eeef4fbb58ca52dc556ae0fdd3",
+    "9eb0b74d3c319bb92244c271b80f302c70d7aa694391de5a36a87da844bb266d"
+  ],
+  "elapsed_s": 4.8790998458862305
+}

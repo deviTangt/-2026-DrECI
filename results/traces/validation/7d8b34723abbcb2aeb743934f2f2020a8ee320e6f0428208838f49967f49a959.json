@@ -1,0 +1,61 @@
+{
+  "input_hash": "7d8b34723abbcb2aeb743934f2f2020a8ee320e6f0428208838f49967f49a959",
+  "sample_id": "ESC-CSV-01649",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "parolee",
+    "house"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "50ea3dd0e98f9bb4b2f578e37fa7573e0ff4bc28e858ae3b5976cb7abee9357d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "50ea3dd0e98f9bb4b2f578e37fa7573e0ff4bc28e858ae3b5976cb7abee9357d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "19b23140a4b470adc7daec1da56b57e321aa3b0b03f91e23c7ae2db1f97c49b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3cf69f0ef3e0cfa502eefec7fd7703d01318ad2ade6500db6c5d0acf58c9bf17",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "196d6693903f102ef9977b9cbd46e397d80d755b0e9d4b1975f3e32c8c7be3cc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jerry Ortiz\",\"head\",\"house\",\"parolee\"],\"target_related\":[\"parolee\",\"bathtub\",\"house\"],\"mediators\":[\"parolee\",\"house\"]}"
+    },
+    "indirect": {
+      "call_id": "11d8b47335e1fefe1f1ddf6fc42c5ca35f9c2b3f6bdf09510deb579570a0cb5d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link being shot to cowering; cowering is a reaction to the shooting, not caused by it in the text.\"}"
+    }
+  },
+  "call_ids": [
+    "50ea3dd0e98f9bb4b2f578e37fa7573e0ff4bc28e858ae3b5976cb7abee9357d",
+    "50ea3dd0e98f9bb4b2f578e37fa7573e0ff4bc28e858ae3b5976cb7abee9357d",
+    "19b23140a4b470adc7daec1da56b57e321aa3b0b03f91e23c7ae2db1f97c49b1",
+    "3cf69f0ef3e0cfa502eefec7fd7703d01318ad2ade6500db6c5d0acf58c9bf17",
+    "196d6693903f102ef9977b9cbd46e397d80d755b0e9d4b1975f3e32c8c7be3cc",
+    "11d8b47335e1fefe1f1ddf6fc42c5ca35f9c2b3f6bdf09510deb579570a0cb5d"
+  ],
+  "elapsed_s": 5.998947381973267
+}

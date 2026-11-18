@@ -1,0 +1,67 @@
+{
+  "input_hash": "df24d51cefbf626e2476521b0a2b01c857a0b0e7f716b81aaebce8b2ab6deec3",
+  "sample_id": "ESC-CSV-09253",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Athens",
+    "flames",
+    "died",
+    "Wednesday",
+    "protest",
+    "Greeks",
+    "streets"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "21d357e883e69d49e745df53493f0140882563d2af088f3c9b792549501ca6cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "21d357e883e69d49e745df53493f0140882563d2af088f3c9b792549501ca6cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "14f75418d927c1df628bd1199b7519a5e24ae489a361d1c46c114f03a5ee7302",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9f74eace55ca08601370b29d8d88247caa6f9a9dd2465a8ad7966ca23f8ccac6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6b7bd0c3ef227708f0099266101147216845febab03709b0123d2b1552558619",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"protest\",\"bankruptcy\",\"Greeks\",\"streets\",\"Athens\",\"bank\",\"flames\",\"died\",\"Wednesday\"],\"target_related\":[\"Deaths\",\"Murder\",\"bank\",\"Athens\",\"flames\",\"died\",\"Wednesday\",\"protest\",\"Greeks\",\"streets\"],\"mediators\":[\"bank\",\"Athens\",\"flames\",\"died\",\"Wednesday\",\"protest\",\"Greeks\",\"streets\"]}"
+    },
+    "indirect": {
+      "call_id": "ec0ff6fe786171768e42ec5390d0e3b178a9e13774850b36262b529135df52d5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Cuts provoked protest: Greeks took to streets to protest harsh spending cuts; protest is the riot, so cuts implicitly triggered the riot.\"}"
+    }
+  },
+  "call_ids": [
+    "21d357e883e69d49e745df53493f0140882563d2af088f3c9b792549501ca6cc",
+    "21d357e883e69d49e745df53493f0140882563d2af088f3c9b792549501ca6cc",
+    "14f75418d927c1df628bd1199b7519a5e24ae489a361d1c46c114f03a5ee7302",
+    "9f74eace55ca08601370b29d8d88247caa6f9a9dd2465a8ad7966ca23f8ccac6",
+    "6b7bd0c3ef227708f0099266101147216845febab03709b0123d2b1552558619",
+    "ec0ff6fe786171768e42ec5390d0e3b178a9e13774850b36262b529135df52d5"
+  ],
+  "elapsed_s": 4.7865588665008545
+}

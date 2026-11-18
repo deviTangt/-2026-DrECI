@@ -1,0 +1,67 @@
+{
+  "input_hash": "71d6e9ac0d42afb386c2565923df8935aafb5a4b806e821c5ed04c75370e9acc",
+  "sample_id": "ESC-CSV-09246",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greeks",
+    "protesting",
+    "austerity",
+    "killed",
+    "Three",
+    "people",
+    "pregnant",
+    "woman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c63997b078d08d78150ac92dc9ed668e57c1af58e70e0a68f9c39d5f2143669d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c63997b078d08d78150ac92dc9ed668e57c1af58e70e0a68f9c39d5f2143669d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "78d15c7cbbb32ea5acc955653fcc8b0200ce2eb8ddfd69e193386565a1f0e9d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ea89aae67bee968fed2660df63650d308cd1cfa160d057df7d15bb06ab368dc5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "049b2c7531c33ab1d225ebde6f9967292234da7560a901810b51ee0163667b88",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"protesting\",\"government\",\"austerity\",\"threw\",\"petrol\",\"bombs\",\"bank\",\"Athens\",\"Wednesday\",\"killed\",\"Three\",\"people\",\"pregnant\",\"woman\"],\"target_related\":[\"Greeks\",\"protesting\",\"anti\",\"austerity\",\"march\",\"erupts\",\"killed\",\"Three\",\"people\",\"pregnant\",\"woman\",\"dead\"],\"mediators\":[\"Greeks\",\"protesting\",\"austerity\",\"killed\",\"Three\",\"people\",\"pregnant\",\"woman\"]}"
+    },
+    "indirect": {
+      "call_id": "4bbbafb30497f4f312690f0792aae06300fdd1d585eb5e4a9930215232af4661",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Protesting against austerity measures threw petrol bombs, erupting in violence; 'against' links measures to the violence, and measures precede violence.\"}"
+    }
+  },
+  "call_ids": [
+    "c63997b078d08d78150ac92dc9ed668e57c1af58e70e0a68f9c39d5f2143669d",
+    "c63997b078d08d78150ac92dc9ed668e57c1af58e70e0a68f9c39d5f2143669d",
+    "78d15c7cbbb32ea5acc955653fcc8b0200ce2eb8ddfd69e193386565a1f0e9d1",
+    "ea89aae67bee968fed2660df63650d308cd1cfa160d057df7d15bb06ab368dc5",
+    "049b2c7531c33ab1d225ebde6f9967292234da7560a901810b51ee0163667b88",
+    "4bbbafb30497f4f312690f0792aae06300fdd1d585eb5e4a9930215232af4661"
+  ],
+  "elapsed_s": 4.627485036849976
+}

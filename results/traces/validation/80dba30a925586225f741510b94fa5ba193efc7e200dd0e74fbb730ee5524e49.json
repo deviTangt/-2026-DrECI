@@ -1,0 +1,62 @@
+{
+  "input_hash": "80dba30a925586225f741510b94fa5ba193efc7e200dd0e74fbb730ee5524e49",
+  "sample_id": "ESC-CSV-07070",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Vincent Jackson",
+    "Charger",
+    "last month"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c618b7db98578ec006a69fde62282412f33b611846cbfe08f01f5c282faa20a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c618b7db98578ec006a69fde62282412f33b611846cbfe08f01f5c282faa20a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c240ba2c4ab2fc38b919b6ac6c96069969f702c7f934db9417f1c2f5ba3cde4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0d32da8c93097eed44b67e96dbaec75b49dad2e7d2a66279b0f0bc10778570ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "adab731df94ec380c56d2ce148060d9e417766ff8264e3f1c7b3cf5ff8272a2e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Vincent Jackson\",\"Charger\",\"arrested\",\"last month\"],\"target_related\":[\"Vincent Jackson\",\"Charger\",\"DUI\",\"last month\"],\"mediators\":[\"Vincent Jackson\",\"Charger\",\"last month\"]}"
+    },
+    "indirect": {
+      "call_id": "23bcb0be2aae679b95be4e87b4f35d1e78cd89fb7ce374f19dcc6f216cbbeab1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being arrested for DUI follows from the DUI offense; common sense indicates the DUI caused the arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "c618b7db98578ec006a69fde62282412f33b611846cbfe08f01f5c282faa20a9",
+    "c618b7db98578ec006a69fde62282412f33b611846cbfe08f01f5c282faa20a9",
+    "c240ba2c4ab2fc38b919b6ac6c96069969f702c7f934db9417f1c2f5ba3cde4f",
+    "0d32da8c93097eed44b67e96dbaec75b49dad2e7d2a66279b0f0bc10778570ef",
+    "adab731df94ec380c56d2ce148060d9e417766ff8264e3f1c7b3cf5ff8272a2e",
+    "23bcb0be2aae679b95be4e87b4f35d1e78cd89fb7ce374f19dcc6f216cbbeab1"
+  ],
+  "elapsed_s": 4.500222682952881
+}

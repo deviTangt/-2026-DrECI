@@ -1,0 +1,62 @@
+{
+  "input_hash": "509cb359e1a139bce4d0072ac770d7ce6b4a5c4f0b18ffcc99c0e3b9ea860a84",
+  "sample_id": "ESC-CSV-09863",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire - bomb",
+    "bank",
+    "Greek riots"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a0cfe1bef998dd2718e7e33b47585dae46dd5282a47cf60746fa0b2811de9d66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a0cfe1bef998dd2718e7e33b47585dae46dd5282a47cf60746fa0b2811de9d66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5ae0d97f5146706d3efc8775586fc877a0bdf8d7a7684aab400ccd53b3edda0a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "496a307734c6318ccf011f2d004664f95db447a4574e4ee52de0f802dbb0d140",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f011135a2f1f2989610cdf64c235aa84b4def2308237ec5cea49847a297b4247",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded youths\",\"hurled\",\"petrol bombs\",\"stores\",\"businesses\",\"Greek capital\",\"bank\",\"two government buildings\",\"fire - bomb\",\"Greek riots\"],\"target_related\":[\"Three\",\"fire - bomb\",\"bank\",\"Greek riots\"],\"mediators\":[\"fire - bomb\",\"bank\",\"Greek riots\"]}"
+    },
+    "indirect": {
+      "call_id": "891314ba1714649dee38dc677a11a7bee9f290a440e5502073af0194fdcad61a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Setting the bank ablaze caused the fire-bomb fire that killed three people; common-sense order and chain via fire-bomb/bank fire.\"}"
+    }
+  },
+  "call_ids": [
+    "a0cfe1bef998dd2718e7e33b47585dae46dd5282a47cf60746fa0b2811de9d66",
+    "a0cfe1bef998dd2718e7e33b47585dae46dd5282a47cf60746fa0b2811de9d66",
+    "5ae0d97f5146706d3efc8775586fc877a0bdf8d7a7684aab400ccd53b3edda0a",
+    "496a307734c6318ccf011f2d004664f95db447a4574e4ee52de0f802dbb0d140",
+    "f011135a2f1f2989610cdf64c235aa84b4def2308237ec5cea49847a297b4247",
+    "891314ba1714649dee38dc677a11a7bee9f290a440e5502073af0194fdcad61a"
+  ],
+  "elapsed_s": 5.533807277679443
+}

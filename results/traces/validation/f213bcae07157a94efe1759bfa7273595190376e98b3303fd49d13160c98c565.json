@@ -1,0 +1,64 @@
+{
+  "input_hash": "f213bcae07157a94efe1759bfa7273595190376e98b3303fd49d13160c98c565",
+  "sample_id": "ESC-CSV-02660",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "projectiles",
+    "cops",
+    "riot",
+    "East Flatbush",
+    "Monday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "557e1018583ba1c5565f129393dbb41ceef9f870913d3aa655d1cd7d87361540",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "557e1018583ba1c5565f129393dbb41ceef9f870913d3aa655d1cd7d87361540",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "de0600c8918f45c0a619d9cd74ed257417b6219efb2302078eaff6bee8a711f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "70224330b85413df86abbf622770ce5b975d5ad41ccaa4541687d351ef6bf002",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "30a59dcabc8047db9f76c024b8974c5468f7d4c2168e613b3976174f181bf6df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"blocks\",\"NYPD\",\"67th Precinct stationhouse\",\"protest march\",\"candlelight vigil\",\"Kimani ( Kiki ) Gray\",\"police bullets\",\"Saturday\",\"Anger\",\"death\",\"Brooklyn teenager\",\"police\",\"riot\",\"streets\",\"East Flatbush\",\"Monday\",\"projectiles\",\"cops\",\"car windows\",\"pharmacy customer\",\"bottle\",\"head\"],\"target_related\":[\"projectiles\",\"cops\",\"riot\",\"East Flatbush\",\"Monday\",\"violence\"],\"mediators\":[\"projectiles\",\"cops\",\"riot\",\"East Flatbush\",\"Monday\"]}"
+    },
+    "indirect": {
+      "call_id": "426e0ebf39a18524f11c6c15be584d6e1837126e540cb312be41b3bcc67ea0ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"Anger over the death 'fueled a riot' in which 'projectiles were hurled at cops'; riot (Z) links violence to hurling.\"}"
+    }
+  },
+  "call_ids": [
+    "557e1018583ba1c5565f129393dbb41ceef9f870913d3aa655d1cd7d87361540",
+    "557e1018583ba1c5565f129393dbb41ceef9f870913d3aa655d1cd7d87361540",
+    "de0600c8918f45c0a619d9cd74ed257417b6219efb2302078eaff6bee8a711f0",
+    "70224330b85413df86abbf622770ce5b975d5ad41ccaa4541687d351ef6bf002",
+    "30a59dcabc8047db9f76c024b8974c5468f7d4c2168e613b3976174f181bf6df",
+    "426e0ebf39a18524f11c6c15be584d6e1837126e540cb312be41b3bcc67ea0ea"
+  ],
+  "elapsed_s": 4.944855213165283
+}

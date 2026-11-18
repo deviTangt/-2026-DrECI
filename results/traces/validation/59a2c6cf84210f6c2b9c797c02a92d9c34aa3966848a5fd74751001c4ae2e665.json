@@ -1,0 +1,62 @@
+{
+  "input_hash": "59a2c6cf84210f6c2b9c797c02a92d9c34aa3966848a5fd74751001c4ae2e665",
+  "sample_id": "ESC-CSV-02496",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Teen",
+    "Gray"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "40237673133b9877639827a373aea75535345b8d27a74c80b36186a1d21f1a64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "40237673133b9877639827a373aea75535345b8d27a74c80b36186a1d21f1a64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d0df7bd2d029d4b8e248b12147286e2f93d06acfb2ba0bb463e3eb2401f33839",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e4ae376216b8b7d42a70d42f44ef5daa2c3f7521f637197108155535f45e49af",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5d03d290351518e0baa5aa44a3052543078108e86f7595e8197632755d7147ee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Teen\",\"Police\",\"Gray\"],\"target_related\":[\"Brooklyn\",\"Teen\",\"Gray\",\"Riots\"],\"mediators\":[\"Brooklyn\",\"Teen\",\"Gray\"]}"
+    },
+    "indirect": {
+      "call_id": "ffc8c51d061fc90ee0fa7dd0ee3e4a4b529aff1135050f9eb60298cbb14c4196",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'Killed By Police' followed by 'death' implies the killing caused the death; 'by' is an explicit causation word linking X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "40237673133b9877639827a373aea75535345b8d27a74c80b36186a1d21f1a64",
+    "40237673133b9877639827a373aea75535345b8d27a74c80b36186a1d21f1a64",
+    "d0df7bd2d029d4b8e248b12147286e2f93d06acfb2ba0bb463e3eb2401f33839",
+    "e4ae376216b8b7d42a70d42f44ef5daa2c3f7521f637197108155535f45e49af",
+    "5d03d290351518e0baa5aa44a3052543078108e86f7595e8197632755d7147ee",
+    "ffc8c51d061fc90ee0fa7dd0ee3e4a4b529aff1135050f9eb60298cbb14c4196"
+  ],
+  "elapsed_s": 7.884408235549927
+}

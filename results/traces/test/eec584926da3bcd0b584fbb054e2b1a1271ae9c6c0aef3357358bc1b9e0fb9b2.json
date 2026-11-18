@@ -1,0 +1,62 @@
+{
+  "input_hash": "eec584926da3bcd0b584fbb054e2b1a1271ae9c6c0aef3357358bc1b9e0fb9b2",
+  "sample_id": "ESC-CSV-06908",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "gang member",
+    "sprayed",
+    "bullets"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2cedf03aa8e6281432a535cc0bf5b0cf91926dc283afe254b8dc4cf81ae6ac85",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2cedf03aa8e6281432a535cc0bf5b0cf91926dc283afe254b8dc4cf81ae6ac85",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d6d556f463306804dd0797741d64fd82bd408585669fbc293b33fcff6a4e2f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2aeb2f7a3cd1c6453f437ad16b35cca6d7868dd200224edd2af931388a1b5827",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0a151a3a689aa44b0b49fa62b5ecff280914b19663bb3d6bb454be0f58b336ec",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"rival gang members\",\"gang member\",\"sprayed\",\"bullets\"],\"target_related\":[\"gang member\",\"mother of 12\",\"sprayed\",\"bullets\",\"Brooklyn rooftop\"],\"mediators\":[\"gang member\",\"sprayed\",\"bullets\"]}"
+    },
+    "indirect": {
+      "call_id": "9097232b76c81cbcd7cbc264d58bd23c5b8d7ec13564698f5c5297128cc1062f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal words link 'targeted' to 'claiming the life'; the bullet striking Horton is the causal link, not the targeting.\"}"
+    }
+  },
+  "call_ids": [
+    "2cedf03aa8e6281432a535cc0bf5b0cf91926dc283afe254b8dc4cf81ae6ac85",
+    "2cedf03aa8e6281432a535cc0bf5b0cf91926dc283afe254b8dc4cf81ae6ac85",
+    "7d6d556f463306804dd0797741d64fd82bd408585669fbc293b33fcff6a4e2f8",
+    "2aeb2f7a3cd1c6453f437ad16b35cca6d7868dd200224edd2af931388a1b5827",
+    "0a151a3a689aa44b0b49fa62b5ecff280914b19663bb3d6bb454be0f58b336ec",
+    "9097232b76c81cbcd7cbc264d58bd23c5b8d7ec13564698f5c5297128cc1062f"
+  ],
+  "elapsed_s": 4.158386707305908
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "3f69252288bd553d85fb538582c0dc6afcb3e40650d5d14d5f0b02367dc13f6a",
+  "sample_id": "ESC-CSV-06595",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "murder",
+    "death",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "90ac5ded2838b42de033dea6021f93b502366ef08c02801f275c6dfc8581f926",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "90ac5ded2838b42de033dea6021f93b502366ef08c02801f275c6dfc8581f926",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "42f61c640d046368b76e5fd215b4937fbd193c85baba78518906075545e9f893",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d5dbb4aed21d2c30717e293309356df3d90ae12b3592212173feed01d37d69e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "316d2b34de272395d8b5c90e6343957735c2828dc0120247ffe34b00d1e51f56",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Lopez\",\"murder\",\"Horton\",\"death\",\"shooting\"],\"target_related\":[\"Horton\",\"murder\",\"death\",\"shooting\",\"shot\"],\"mediators\":[\"Horton\",\"murder\",\"death\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "0071a551e0da18167925a439034475012608579fe071393bc3b07e229879cd35",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'letting off 13 shots in Horton's death' — 'in' expresses causation; shots caused Horton's death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "90ac5ded2838b42de033dea6021f93b502366ef08c02801f275c6dfc8581f926",
+    "90ac5ded2838b42de033dea6021f93b502366ef08c02801f275c6dfc8581f926",
+    "42f61c640d046368b76e5fd215b4937fbd193c85baba78518906075545e9f893",
+    "d5dbb4aed21d2c30717e293309356df3d90ae12b3592212173feed01d37d69e7",
+    "316d2b34de272395d8b5c90e6343957735c2828dc0120247ffe34b00d1e51f56",
+    "0071a551e0da18167925a439034475012608579fe071393bc3b07e229879cd35"
+  ],
+  "elapsed_s": 4.88151216506958
+}

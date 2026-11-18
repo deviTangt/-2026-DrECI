@@ -1,0 +1,74 @@
+{
+  "input_hash": "44f05eadc38790d4cd499ab4c41338615763cf89034d04008a391fd3e6f33eb0",
+  "sample_id": "ESC-CSV-01918",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "officer",
+    "murder",
+    "Orozco",
+    "handgun",
+    "Sheriff",
+    "Deputy",
+    "Ortiz",
+    "LASD",
+    "Gang",
+    "Enforcement",
+    "Unit",
+    "investigating",
+    "shooting",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "70293398517f64902f540b41ab90c63de42baa5649e4ca882406dc9ef13dbecf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "70293398517f64902f540b41ab90c63de42baa5649e4ca882406dc9ef13dbecf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d2f5e224f3e410f43d0ee3efdf3aaac3083d7f82bdae28bdcdf6965aa50d7e2a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "53f3e3a9f0a07cec601bd7c3f2e5df5c12fa40d38139e729ff63aead39cd63de",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e29a5f1475415a88ed1ecd11c9c0d3e6cd499f7741d6d1dcee65cde4ea6b3591",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"officer\",\"murder\",\"Orozco\",\"handgun\",\"Sheriff\",\"Deputy\",\"Ortiz\",\"LASD\",\"Gang\",\"Enforcement\",\"Unit\",\"investigating\",\"shooting\",\"suspect\"],\"target_related\":[\"police\",\"officer\",\"murder\",\"Orozco\",\"handgun\",\"Sheriff\",\"Deputy\",\"Ortiz\",\"LASD\",\"Gang\",\"Enforcement\",\"Unit\",\"investigating\",\"shooting\",\"suspect\"],\"mediators\":[\"police\",\"officer\",\"murder\",\"Orozco\",\"handgun\",\"Sheriff\",\"Deputy\",\"Ortiz\",\"LASD\",\"Gang\",\"Enforcement\",\"Unit\",\"investigating\",\"shooting\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "8860697087cf9bdb73b58bf6af89c02f5275e3de6deabc821d7dfacc55caa234",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Deputy Ortiz was killed while performing his duties; 'killed while performing his duties' explicitly links duties to the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "70293398517f64902f540b41ab90c63de42baa5649e4ca882406dc9ef13dbecf",
+    "70293398517f64902f540b41ab90c63de42baa5649e4ca882406dc9ef13dbecf",
+    "d2f5e224f3e410f43d0ee3efdf3aaac3083d7f82bdae28bdcdf6965aa50d7e2a",
+    "53f3e3a9f0a07cec601bd7c3f2e5df5c12fa40d38139e729ff63aead39cd63de",
+    "e29a5f1475415a88ed1ecd11c9c0d3e6cd499f7741d6d1dcee65cde4ea6b3591",
+    "8860697087cf9bdb73b58bf6af89c02f5275e3de6deabc821d7dfacc55caa234"
+  ],
+  "elapsed_s": 6.157433271408081
+}

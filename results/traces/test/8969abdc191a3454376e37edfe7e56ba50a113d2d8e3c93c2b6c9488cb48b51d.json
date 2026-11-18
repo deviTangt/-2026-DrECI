@@ -1,0 +1,62 @@
+{
+  "input_hash": "8969abdc191a3454376e37edfe7e56ba50a113d2d8e3c93c2b6c9488cb48b51d",
+  "sample_id": "ESC-CSV-04665",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "robbery",
+    "Paris"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ad9b098127e46547150dc6267b7a83598a1b7815f8542cb8909b61e69daba2a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ad9b098127e46547150dc6267b7a83598a1b7815f8542cb8909b61e69daba2a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a8b73fb023dc3fdfa65878003dfc7319a912afaac569b1fefae4e109af9a94c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f27ab56999cdbf13bb843ddef19f671a9c8008b9065737336e3e29c9e2a21db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "13300e2bbaa7d90a3efb7835b0c8de5c9e98949be9374adbddd71fc60989088e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"4x4 vehicle\",\"windows\",\"jewellery store\",\"Place Vendome\",\"Paris\",\"robbery\"],\"target_related\":[\"jewellery\",\"robbery\",\"Paris\",\"France\",\"summer\"],\"mediators\":[\"jewellery\",\"robbery\",\"Paris\"]}"
+    },
+    "indirect": {
+      "call_id": "05fe3319fa8bf837bb64b56641b7a7a11549da7fda0753ecfe27609893a21504",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Thieves rammed a vehicle through the store windows to commit the robbery; the ramming is the means that causes the thefts.\"}"
+    }
+  },
+  "call_ids": [
+    "ad9b098127e46547150dc6267b7a83598a1b7815f8542cb8909b61e69daba2a0",
+    "ad9b098127e46547150dc6267b7a83598a1b7815f8542cb8909b61e69daba2a0",
+    "a8b73fb023dc3fdfa65878003dfc7319a912afaac569b1fefae4e109af9a94c2",
+    "0f27ab56999cdbf13bb843ddef19f671a9c8008b9065737336e3e29c9e2a21db",
+    "13300e2bbaa7d90a3efb7835b0c8de5c9e98949be9374adbddd71fc60989088e",
+    "05fe3319fa8bf837bb64b56641b7a7a11549da7fda0753ecfe27609893a21504"
+  ],
+  "elapsed_s": 5.227357864379883
+}

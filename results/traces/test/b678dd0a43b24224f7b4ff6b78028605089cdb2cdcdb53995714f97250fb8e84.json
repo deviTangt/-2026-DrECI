@@ -1,0 +1,62 @@
+{
+  "input_hash": "b678dd0a43b24224f7b4ff6b78028605089cdb2cdcdb53995714f97250fb8e84",
+  "sample_id": "ESC-CSV-09449",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "stairwell",
+    "3rd",
+    "floors"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "86d0080fd7c62b8fd22ddf073f2d83aa9cc47f604925f7978d4f957360dd46f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "86d0080fd7c62b8fd22ddf073f2d83aa9cc47f604925f7978d4f957360dd46f2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9d09da2fb29bacc2f31a998b0aa91568b78c93a1772c224fe4ab93cc5c39c68c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ad6e4a87c9f586e8a452d19ccca820ba7bb193662c07e5b0caa6218c3fc058b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b6079be620058217025925363b94c07ed052e7f1f07a70b0c3237b39ba3045f9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd\",\"floors\",\"two\",\"floors\",\"below\"],\"target_related\":[\"trapped\",\"stairwell\",\"3rd\",\"floors\"],\"mediators\":[\"stairwell\",\"3rd\",\"floors\"]}"
+    },
+    "indirect": {
+      "call_id": "43b151d99c9e9a968ec230f546cb6a399fa67ea291c3e7abe557b0133b2a486a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a fire breaking out causes people to flee; the fire occurred before and prompted their attempt to flee.\"}"
+    }
+  },
+  "call_ids": [
+    "86d0080fd7c62b8fd22ddf073f2d83aa9cc47f604925f7978d4f957360dd46f2",
+    "86d0080fd7c62b8fd22ddf073f2d83aa9cc47f604925f7978d4f957360dd46f2",
+    "9d09da2fb29bacc2f31a998b0aa91568b78c93a1772c224fe4ab93cc5c39c68c",
+    "ad6e4a87c9f586e8a452d19ccca820ba7bb193662c07e5b0caa6218c3fc058b1",
+    "b6079be620058217025925363b94c07ed052e7f1f07a70b0c3237b39ba3045f9",
+    "43b151d99c9e9a968ec230f546cb6a399fa67ea291c3e7abe557b0133b2a486a"
+  ],
+  "elapsed_s": 4.3079259395599365
+}

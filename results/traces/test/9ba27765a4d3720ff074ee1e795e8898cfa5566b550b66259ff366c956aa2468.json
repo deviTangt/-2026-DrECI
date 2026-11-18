@@ -1,0 +1,62 @@
+{
+  "input_hash": "9ba27765a4d3720ff074ee1e795e8898cfa5566b550b66259ff366c956aa2468",
+  "sample_id": "ESC-CSV-04103",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "climber",
+    "Mount Cook National Park"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "824d7a34f3dac145a654b7b659510728df635ec535208da3b0451e9249f750c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "824d7a34f3dac145a654b7b659510728df635ec535208da3b0451e9249f750c3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5701b58ccdb4da1544d8d09a29226f5e88b423ecf20bb4830c02e167fdf8c273",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1dde9173adfeab44eb3df6ee019575783a10cfccc108f73829e7e1ceb1b93f01",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1203e741d99d0bd6560ce1d3ec929efe39eda51592ecc82eb62866b113da8a9b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"climber\",\"Mount Sefton Bivvy\",\"Mueller Glacier\",\"Mount Cook National Park\"],\"target_related\":[\"man\",\"climber\",\"Mount Cook National Park\",\"body\"],\"mediators\":[\"man\",\"climber\",\"Mount Cook National Park\"]}"
+    },
+    "indirect": {
+      "call_id": "fc9a8a4c5642953c1a62ba32fe6b16c8e1176c93c7767feb80d0aead96d0a41b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling from a height causes death; the text says the climber fell to his death, so fell precedes and causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "824d7a34f3dac145a654b7b659510728df635ec535208da3b0451e9249f750c3",
+    "824d7a34f3dac145a654b7b659510728df635ec535208da3b0451e9249f750c3",
+    "5701b58ccdb4da1544d8d09a29226f5e88b423ecf20bb4830c02e167fdf8c273",
+    "1dde9173adfeab44eb3df6ee019575783a10cfccc108f73829e7e1ceb1b93f01",
+    "1203e741d99d0bd6560ce1d3ec929efe39eda51592ecc82eb62866b113da8a9b",
+    "fc9a8a4c5642953c1a62ba32fe6b16c8e1176c93c7767feb80d0aead96d0a41b"
+  ],
+  "elapsed_s": 4.759593486785889
+}

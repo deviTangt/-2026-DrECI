@@ -1,0 +1,61 @@
+{
+  "input_hash": "5725215fb6996e3d8a62604efd3913354c652d2e4f9bffc9ca93b916f75d0241",
+  "sample_id": "ESC-CSV-09385",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "25a85014b55a813fecc9861b69b0422770094359c8e48e1c638acbc0386ccaaa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "25a85014b55a813fecc9861b69b0422770094359c8e48e1c638acbc0386ccaaa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b95cb8d11a83fc386362327b73eed6f4999bb87944d95db7f7326d7de0faad7b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "864760f4a206a703c689af9f5c63162144d2a1a70912dd0c0ace8388d0ab747e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "07a777a2ebcc8595a4a38ec1587edb2f0cdcb795e64a71e7b6d78e4cfe247c98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire-bomb\",\"bank\",\"Greece\",\"police\",\"protestors\",\"rioters\",\"Molotov cocktails\"],\"target_related\":[\"people\",\"women\",\"man\",\"Marfin bank\",\"fire\"],\"mediators\":[\"bank\",\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "4ad35bfd64ad61f7f72e827c485a6434173d7cfb5468b46e44aabfb6395e2b0c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"Molotov cocktails thrown inside caused the bank fire; the fire-bomb attack led to deaths, and fire is the chain linking attack to died.\"}"
+    }
+  },
+  "call_ids": [
+    "25a85014b55a813fecc9861b69b0422770094359c8e48e1c638acbc0386ccaaa",
+    "25a85014b55a813fecc9861b69b0422770094359c8e48e1c638acbc0386ccaaa",
+    "b95cb8d11a83fc386362327b73eed6f4999bb87944d95db7f7326d7de0faad7b",
+    "864760f4a206a703c689af9f5c63162144d2a1a70912dd0c0ace8388d0ab747e",
+    "07a777a2ebcc8595a4a38ec1587edb2f0cdcb795e64a71e7b6d78e4cfe247c98",
+    "4ad35bfd64ad61f7f72e827c485a6434173d7cfb5468b46e44aabfb6395e2b0c"
+  ],
+  "elapsed_s": 5.659656286239624
+}

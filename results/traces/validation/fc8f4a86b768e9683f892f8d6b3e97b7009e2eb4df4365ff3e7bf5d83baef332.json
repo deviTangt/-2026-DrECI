@@ -1,0 +1,60 @@
+{
+  "input_hash": "fc8f4a86b768e9683f892f8d6b3e97b7009e2eb4df4365ff3e7bf5d83baef332",
+  "sample_id": "ESC-CSV-02790",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "82e0f5ee97487ebd3a4efa44b49c304b8f853fab8ee67db5e3c2f5fe0b6281d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "82e0f5ee97487ebd3a4efa44b49c304b8f853fab8ee67db5e3c2f5fe0b6281d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a3d319d6d9cee27226bc0b139d39f96472a362606aef36f3bd9ba44167da2552",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3a0c42c8ff01096941ac3df9b36410f4484bd00a87183073e66224bf90b25f7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7a04354980ac2f4ce6f2f59081dd2723a8b423cb2bc7d83a4c93dac90f84046d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"vigil\",\"candlelit\"],\"target_related\":[\"Police\"],\"mediators\":[\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "47f3d637915259022b71d9d92e552e6519fe3e985f2a062230da36658734cae9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Police intervened when people joined the vigil; the joining is a circumstance of the intervention, not a cause, and no causal word or chain links them.\"}"
+    }
+  },
+  "call_ids": [
+    "82e0f5ee97487ebd3a4efa44b49c304b8f853fab8ee67db5e3c2f5fe0b6281d7",
+    "82e0f5ee97487ebd3a4efa44b49c304b8f853fab8ee67db5e3c2f5fe0b6281d7",
+    "a3d319d6d9cee27226bc0b139d39f96472a362606aef36f3bd9ba44167da2552",
+    "3a0c42c8ff01096941ac3df9b36410f4484bd00a87183073e66224bf90b25f7d",
+    "7a04354980ac2f4ce6f2f59081dd2723a8b423cb2bc7d83a4c93dac90f84046d",
+    "47f3d637915259022b71d9d92e552e6519fe3e985f2a062230da36658734cae9"
+  ],
+  "elapsed_s": 4.857841968536377
+}

@@ -1,0 +1,71 @@
+{
+  "input_hash": "55aa09490be918f54218a9157327d37d8125a24155108b4a0f7d5f82aebea480",
+  "sample_id": "ESC-CSV-09642",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "streets",
+    "taxes",
+    "government",
+    "spending",
+    "cuts",
+    "International Monetary Fund",
+    "European nations",
+    "Greece",
+    "loan",
+    "package",
+    "defaulting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "be1c76759c146720eba9cc949468788579c75ce0ffc8a83f91200068c019998f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "be1c76759c146720eba9cc949468788579c75ce0ffc8a83f91200068c019998f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "65e4b4f363833d08e28fcb081f2704d8ffe5aa5840b52c3cb4023d652d0c4c4a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4d2189ba907d9b25c7488d020f39c31f5ce5743f281ff6b1f7eb7fb9f71e3713",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4bb67733bb6dd6d2be3121991fa220ff6a52728cf6f125911553b3e539313421",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"nationwide\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"defaulting\"],\"target_related\":[\"people\",\"streets\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"defaulting\"],\"mediators\":[\"people\",\"streets\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"package\",\"defaulting\"]}"
+    },
+    "indirect": {
+      "call_id": "c36923f80391cb0c3ef9cafb7894c3e2a104d541403decfe5e532542f93e447f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The strike is done 'to protest' new taxes and cuts, showing the strike's purpose is the protest; 'to' links them causally.\"}"
+    }
+  },
+  "call_ids": [
+    "be1c76759c146720eba9cc949468788579c75ce0ffc8a83f91200068c019998f",
+    "be1c76759c146720eba9cc949468788579c75ce0ffc8a83f91200068c019998f",
+    "65e4b4f363833d08e28fcb081f2704d8ffe5aa5840b52c3cb4023d652d0c4c4a",
+    "4d2189ba907d9b25c7488d020f39c31f5ce5743f281ff6b1f7eb7fb9f71e3713",
+    "4bb67733bb6dd6d2be3121991fa220ff6a52728cf6f125911553b3e539313421",
+    "c36923f80391cb0c3ef9cafb7894c3e2a104d541403decfe5e532542f93e447f"
+  ],
+  "elapsed_s": 4.427467346191406
+}

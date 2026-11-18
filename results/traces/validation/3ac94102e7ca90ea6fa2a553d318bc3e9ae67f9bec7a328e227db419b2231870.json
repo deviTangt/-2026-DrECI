@@ -1,0 +1,63 @@
+{
+  "input_hash": "3ac94102e7ca90ea6fa2a553d318bc3e9ae67f9bec7a328e227db419b2231870",
+  "sample_id": "ESC-CSV-02588",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "Brooklyn",
+    "streets",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d08272fa03a197e1522fd0bebe7a238558a8499d062beccb085f9a905fa0735a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d08272fa03a197e1522fd0bebe7a238558a8499d062beccb085f9a905fa0735a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "63d62662860e3e50deb9221191c24fb79b0c425107e27cdea02b61e633a336be",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "503dbae749f32d96bb9c5413586a02ce68dc0836ba6455fb57bde35809120ec5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ea18b4a09f25748d47870a9b16f9f8cc73c9c29557dc08c163d1f379eb5766ce",
+      "status": "ok",
+      "text": "{\"source_related\":[\"teenager\",\"police\",\"Kimani Gray\",\"shot\",\"fatal\"],\"target_related\":[\"Protesters\",\"Brooklyn\",\"streets\",\"cops\",\"bricks\",\"bottles\",\"garbage\",\"clashes\"],\"mediators\":[\"Protesters\",\"Brooklyn\",\"streets\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "b18ce2330b9cc7bc3aa82638059fbafef2025b43d4b91f3b569773cd94ff3b76",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3],\"evidence\":\"Text says protesters 'enraged over the fatal shooting' poured into streets 'during third night of rioting,' explicitly linking shooting as cause of rioting.\"}"
+    }
+  },
+  "call_ids": [
+    "d08272fa03a197e1522fd0bebe7a238558a8499d062beccb085f9a905fa0735a",
+    "d08272fa03a197e1522fd0bebe7a238558a8499d062beccb085f9a905fa0735a",
+    "63d62662860e3e50deb9221191c24fb79b0c425107e27cdea02b61e633a336be",
+    "503dbae749f32d96bb9c5413586a02ce68dc0836ba6455fb57bde35809120ec5",
+    "ea18b4a09f25748d47870a9b16f9f8cc73c9c29557dc08c163d1f379eb5766ce",
+    "b18ce2330b9cc7bc3aa82638059fbafef2025b43d4b91f3b569773cd94ff3b76"
+  ],
+  "elapsed_s": 11.101542472839355
+}

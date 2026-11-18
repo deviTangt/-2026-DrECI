@@ -1,0 +1,67 @@
+{
+  "input_hash": "5d5b866dd800fedfab874b881fd42ca92c3c3f6ed3fdaed627f3450d803ad034",
+  "sample_id": "ESC-CSV-02592",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "Brooklyn",
+    "streets",
+    "night",
+    "cops",
+    "rioting",
+    "Kimani Gray",
+    "shot"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fe7129b9395016b702ea42a9a31038d98d9fea3817b4ae117f746d2c23cf5d0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fe7129b9395016b702ea42a9a31038d98d9fea3817b4ae117f746d2c23cf5d0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7ad8f7ee3bdfba1e56006a59ce574868675774065cc566eddfbd00505fbca034",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "43d7568a81ba29ed6200abda8d316210f351c3ac9e51586bcef85203be93953c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6521fadb7ae9789a0b9933e4d2cca4df8d82e8822caba06162fd0a9e9a0af95f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"fatal shooting\",\"teenager\",\"police\",\"Brooklyn\",\"streets\",\"night\",\"bricks\",\"bottles\",\"garbage\",\"clashes\",\"cops\",\"rioting\",\"Kimani Gray\",\"shot\"],\"target_related\":[\"Enraged protesters\",\"cops\",\"Brooklyn\",\"streets\",\"night\",\"rioting\",\"Kimani Gray\",\"shot\"],\"mediators\":[\"Protesters\",\"Brooklyn\",\"streets\",\"night\",\"cops\",\"rioting\",\"Kimani Gray\",\"shot\"]}"
+    },
+    "indirect": {
+      "call_id": "127d45e120b95cb9d6a2ccdea5561e69a9568a3bd32d91b5eb0245df45bfd2c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Enraged protesters battle cops; enraged over shooting fueled clashes, so enraged leads to battle.\"}"
+    }
+  },
+  "call_ids": [
+    "fe7129b9395016b702ea42a9a31038d98d9fea3817b4ae117f746d2c23cf5d0d",
+    "fe7129b9395016b702ea42a9a31038d98d9fea3817b4ae117f746d2c23cf5d0d",
+    "7ad8f7ee3bdfba1e56006a59ce574868675774065cc566eddfbd00505fbca034",
+    "43d7568a81ba29ed6200abda8d316210f351c3ac9e51586bcef85203be93953c",
+    "6521fadb7ae9789a0b9933e4d2cca4df8d82e8822caba06162fd0a9e9a0af95f",
+    "127d45e120b95cb9d6a2ccdea5561e69a9568a3bd32d91b5eb0245df45bfd2c8"
+  ],
+  "elapsed_s": 10.179200410842896
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "1f8781d0d51c625cad994087f37d49c521815b6fa90e9d1043cdb295184d48d4",
+  "sample_id": "ESC-CSV-09807",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "storm",
+    "Greek Parliament"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a6cebf967f35c8edaef906a9b47b21b04eb37e6cf7119671873dba7a5d01b32f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a6cebf967f35c8edaef906a9b47b21b04eb37e6cf7119671873dba7a5d01b32f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b50ca4554c5835729bc57836ea88614f5b1daf44a606c46ed4af8eeea9a46337",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "16323b8152d455e6e6aa192606ae415c279560d8e0edfcbb58616aa4db6dca2d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c28ee50c1acb12bfb802b345d5bf25f62056a053fa56b09fda27fee02016db7b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"striking\",\"spending cuts\",\"bankruptcy\",\"storm\",\"Greek Parliament\"],\"target_related\":[\"protesters\",\"storm\",\"Greek Parliament\",\"Thessaloniki\",\"spread\"],\"mediators\":[\"protesters\",\"storm\",\"Greek Parliament\"]}"
+    },
+    "indirect": {
+      "call_id": "a439400d613a4c5251b598293a166c89833feaf6ebaa315065883ff298dbddcc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters furious at spending cuts fought police and tried to storm Parliament; their fury drove the rioting that spread to Thessaloniki.\"}"
+    }
+  },
+  "call_ids": [
+    "a6cebf967f35c8edaef906a9b47b21b04eb37e6cf7119671873dba7a5d01b32f",
+    "a6cebf967f35c8edaef906a9b47b21b04eb37e6cf7119671873dba7a5d01b32f",
+    "b50ca4554c5835729bc57836ea88614f5b1daf44a606c46ed4af8eeea9a46337",
+    "16323b8152d455e6e6aa192606ae415c279560d8e0edfcbb58616aa4db6dca2d",
+    "c28ee50c1acb12bfb802b345d5bf25f62056a053fa56b09fda27fee02016db7b",
+    "a439400d613a4c5251b598293a166c89833feaf6ebaa315065883ff298dbddcc"
+  ],
+  "elapsed_s": 4.455246686935425
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "88b62ec88690fceb2eba8ba3b857ad5cfacbd9643e4a6cd2e276b3cf4a73bd30",
+  "sample_id": "ESC-CSV-01706",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deputy Ortiz",
+    "killed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "29b11d8a3ec7c3d6d7039493e3b008605fa4a32224095ff6f0ea1f523d8a7ba0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "29b11d8a3ec7c3d6d7039493e3b008605fa4a32224095ff6f0ea1f523d8a7ba0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f499d4c3e1ce838edf798a057523fc5ffcd3491ea66bf90dc9cd5ef476e38a99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "186d0a3a4fe5daaa75b100a0b0ac75f76d4adb5c634dd7acc83a97489e90f337",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2bb4cfd45cdff7dfbf71cc156a9990cb7b9f46a1e21497e10a82eaf6c6cddd32",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deputy Ortiz\",\"apartment\",\"East 223rd Street\",\"killed\"],\"target_related\":[\"Deputy Ortiz\",\"defendant\",\"investigate\",\"killed\"],\"mediators\":[\"Deputy Ortiz\",\"killed\"]}"
+    },
+    "indirect": {
+      "call_id": "ec5bb2926aced791db581e1f13aa450d225917a1923c559677d18c4266f0bb0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Being shot to death (X) causes the death that constitutes the murder (Y); 'killed' restates the shooting as causing the murder.\"}"
+    }
+  },
+  "call_ids": [
+    "29b11d8a3ec7c3d6d7039493e3b008605fa4a32224095ff6f0ea1f523d8a7ba0",
+    "29b11d8a3ec7c3d6d7039493e3b008605fa4a32224095ff6f0ea1f523d8a7ba0",
+    "f499d4c3e1ce838edf798a057523fc5ffcd3491ea66bf90dc9cd5ef476e38a99",
+    "186d0a3a4fe5daaa75b100a0b0ac75f76d4adb5c634dd7acc83a97489e90f337",
+    "2bb4cfd45cdff7dfbf71cc156a9990cb7b9f46a1e21497e10a82eaf6c6cddd32",
+    "ec5bb2926aced791db581e1f13aa450d225917a1923c559677d18c4266f0bb0d"
+  ],
+  "elapsed_s": 6.0044941902160645
+}

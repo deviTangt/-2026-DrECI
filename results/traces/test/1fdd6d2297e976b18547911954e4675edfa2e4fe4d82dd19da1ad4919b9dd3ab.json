@@ -1,0 +1,71 @@
+{
+  "input_hash": "1fdd6d2297e976b18547911954e4675edfa2e4fe4d82dd19da1ad4919b9dd3ab",
+  "sample_id": "ESC-CSV-04356",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Robbers",
+    "store",
+    "car",
+    "Four men",
+    "rammed",
+    "jewellery store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "two-million-euro",
+    "booty",
+    "police source"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c799dd4fc8fa0b90a3b040e09622d5a0db5197b7768b233b176f8df1180a337e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c799dd4fc8fa0b90a3b040e09622d5a0db5197b7768b233b176f8df1180a337e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "943872942a5a767dbc4bc40ce0d081438e8f69c5eb7a5350a2ccb5a3bfc5ebf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b3d9e132a28e217bc997d42240252bffb63f98b2824662a2a681a90cff1a9a4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "92f03e6ee1f73c8205ce2b00f92cf98d635b2b3225a5803e8df5f92745873b71",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"4x4\",\"store\",\"car\",\"ablaze\",\"Four men\",\"rammed\",\"jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"],\"target_related\":[\"shop window\",\"jewellery store\",\"store\",\"Robbers\",\"Four men\",\"rammed\",\"car\",\"central Paris\",\"Monday\",\"two-million-euro\",\"booty\",\"police source\"],\"mediators\":[\"Robbers\",\"store\",\"car\",\"Four men\",\"rammed\",\"jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"two-million-euro\",\"booty\",\"police source\"]}"
+    },
+    "indirect": {
+      "call_id": "20977f241275881683c650666783e82f76f7d51b52e12703190e2b2e74538433",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Crashing the car into the store directly causes the shop window to be smashed; crash precedes smashing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c799dd4fc8fa0b90a3b040e09622d5a0db5197b7768b233b176f8df1180a337e",
+    "c799dd4fc8fa0b90a3b040e09622d5a0db5197b7768b233b176f8df1180a337e",
+    "943872942a5a767dbc4bc40ce0d081438e8f69c5eb7a5350a2ccb5a3bfc5ebf4",
+    "b3d9e132a28e217bc997d42240252bffb63f98b2824662a2a681a90cff1a9a4f",
+    "92f03e6ee1f73c8205ce2b00f92cf98d635b2b3225a5803e8df5f92745873b71",
+    "20977f241275881683c650666783e82f76f7d51b52e12703190e2b2e74538433"
+  ],
+  "elapsed_s": 4.8687989711761475
+}

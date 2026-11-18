@@ -1,0 +1,61 @@
+{
+  "input_hash": "d8920235e3a3ec62fbd6d2bdbe16e278d3b835aedd51b4a41a697e2e233a81d8",
+  "sample_id": "ESC-CSV-09358",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Greece"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8294b95c2b9c6898650e3d2d25b84ed51f3e6a49d55e3d6fe2e8f9629c755e12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8294b95c2b9c6898650e3d2d25b84ed51f3e6a49d55e3d6fe2e8f9629c755e12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "79fef895eff16ffc87bd2c104f7b2c8b798dcd250b73a08bb0065b3d0617559f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f3ef6157f3680a902266f42dcf4fa950844447ed93965be93a9f53d407464238",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "54bd8e6f9629eee7568b1203519de900a490c627ce7d003c892281a539abb3ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire-bomb\",\"bank\",\"Greece\"],\"target_related\":[\"people\",\"Wednesday\"],\"mediators\":[\"bank\",\"Greece\"]}"
+    },
+    "indirect": {
+      "call_id": "b940fb9e45fcd3452e9f948bc2a1d125a9a1735ddcc1ca603071eb398d8afa34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'attack ... killed' uses 'killed' as an explicit causal verb linking the attack to the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "8294b95c2b9c6898650e3d2d25b84ed51f3e6a49d55e3d6fe2e8f9629c755e12",
+    "8294b95c2b9c6898650e3d2d25b84ed51f3e6a49d55e3d6fe2e8f9629c755e12",
+    "79fef895eff16ffc87bd2c104f7b2c8b798dcd250b73a08bb0065b3d0617559f",
+    "f3ef6157f3680a902266f42dcf4fa950844447ed93965be93a9f53d407464238",
+    "54bd8e6f9629eee7568b1203519de900a490c627ce7d003c892281a539abb3ac",
+    "b940fb9e45fcd3452e9f948bc2a1d125a9a1735ddcc1ca603071eb398d8afa34"
+  ],
+  "elapsed_s": 5.388227462768555
+}

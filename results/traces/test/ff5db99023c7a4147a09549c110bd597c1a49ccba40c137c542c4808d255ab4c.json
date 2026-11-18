@@ -1,0 +1,60 @@
+{
+  "input_hash": "ff5db99023c7a4147a09549c110bd597c1a49ccba40c137c542c4808d255ab4c",
+  "sample_id": "ESC-CSV-04355",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0393806d5240b8733b328cb36065175b8ec6a33200889231bf34a7c8417ee9c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0393806d5240b8733b328cb36065175b8ec6a33200889231bf34a7c8417ee9c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "31125f71095ca8ff06b97b103ed489f9ba20087db7444ed12e9f285d24b3334d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d28c189a0d4bb39a0f8c7eb6526286fbd02a35fd0e2428344cacd29d861409a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e8a1f389681412a671b4c39d031a2f7fe4cb930ca7805a81347702f26638b6db",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"car\",\"store\"],\"target_related\":[\"jewellery\",\"watches\",\"store\"],\"mediators\":[\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "1bc475ca99456493ae5a5e0dab14f6fc9e776d5fe76e4c524bf11514932c8afa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The men drove the 4x4 into the store, then grabbed jewelry and watches; driving into the store enabled the grabbing.\"}"
+    }
+  },
+  "call_ids": [
+    "0393806d5240b8733b328cb36065175b8ec6a33200889231bf34a7c8417ee9c1",
+    "0393806d5240b8733b328cb36065175b8ec6a33200889231bf34a7c8417ee9c1",
+    "31125f71095ca8ff06b97b103ed489f9ba20087db7444ed12e9f285d24b3334d",
+    "d28c189a0d4bb39a0f8c7eb6526286fbd02a35fd0e2428344cacd29d861409a2",
+    "e8a1f389681412a671b4c39d031a2f7fe4cb930ca7805a81347702f26638b6db",
+    "1bc475ca99456493ae5a5e0dab14f6fc9e776d5fe76e4c524bf11514932c8afa"
+  ],
+  "elapsed_s": 4.376768112182617
+}

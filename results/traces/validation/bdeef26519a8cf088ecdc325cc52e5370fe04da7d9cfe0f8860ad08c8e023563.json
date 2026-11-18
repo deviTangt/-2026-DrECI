@@ -1,0 +1,64 @@
+{
+  "input_hash": "bdeef26519a8cf088ecdc325cc52e5370fe04da7d9cfe0f8860ad08c8e023563",
+  "sample_id": "ESC-CSV-07236",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jamal Williams",
+    "Chargers defensive tackle",
+    "suspicion",
+    "second such arrest",
+    "team"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1675976bdc4696086d6848ed3400070122b4c83d2d08365aa61077c42c8af018",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1675976bdc4696086d6848ed3400070122b4c83d2d08365aa61077c42c8af018",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "07e50299b07f57e944a254dfc75fc4ccab7d8694cf7a978f6d4755d44e161fbc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7285a8ea313bde976d983c6c7acfa77f49536d261ece5cefc2cd02a21c6c3b3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "63e2f99230c92407091cae8999e012a12c2bdbb572fc27ae068cfdf57165700b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jamal Williams\",\"Chargers defensive tackle\",\"suspicion\",\"arrest\",\"second such arrest\",\"team\"],\"target_related\":[\"Jamal Williams\",\"Chargers defensive tackle\",\"suspicion\",\"drunken driving\",\"second such arrest\",\"team\"],\"mediators\":[\"Jamal Williams\",\"Chargers defensive tackle\",\"suspicion\",\"second such arrest\",\"team\"]}"
+    },
+    "indirect": {
+      "call_id": "973876379b857ce58db9ace29aa581c0c1e7bd0337f0b2d506c20df384ca882b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunken driving' — 'on suspicion of' links the drunken driving to the arrest; common sense: drunken driving leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "1675976bdc4696086d6848ed3400070122b4c83d2d08365aa61077c42c8af018",
+    "1675976bdc4696086d6848ed3400070122b4c83d2d08365aa61077c42c8af018",
+    "07e50299b07f57e944a254dfc75fc4ccab7d8694cf7a978f6d4755d44e161fbc",
+    "7285a8ea313bde976d983c6c7acfa77f49536d261ece5cefc2cd02a21c6c3b3e",
+    "63e2f99230c92407091cae8999e012a12c2bdbb572fc27ae068cfdf57165700b",
+    "973876379b857ce58db9ace29aa581c0c1e7bd0337f0b2d506c20df384ca882b"
+  ],
+  "elapsed_s": 4.804250717163086
+}

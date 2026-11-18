@@ -1,0 +1,61 @@
+{
+  "input_hash": "c550105e3aeb2287fad134c7d0b0333bbd3813ae9e4fd7fcc86e59da7197420f",
+  "sample_id": "ESC-CSV-04333",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "shop",
+    "window"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "eb2a93b3c3135967205977535ce3c5fd2891ab16960df3801ed10c3b975f7e6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "eb2a93b3c3135967205977535ce3c5fd2891ab16960df3801ed10c3b975f7e6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a9344501de7b159039795b308e67ee3d6c19830da13eb074e5694acefb2eac03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "59c7271e147fe5a9f2a00f964495e4fb210da47b110e89f90db1a340593c481c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ffc760d58dc1e51eaa5b327865361a2969c469e7397a506e06fe45f7b1718716",
+      "status": "ok",
+      "text": "{\"source_related\":[\"France\",\"robberies\",\"Cannes\",\"Paris\"],\"target_related\":[\"shop\",\"window\",\"jewelry\",\"store\"],\"mediators\":[\"shop\",\"window\"]}"
+    },
+    "indirect": {
+      "call_id": "d88c16ba494e2d3c49b495d10145f8d1ae106a3441f77f20cd47fadd80fd8bd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The car rammed the store, smashing the window; 'hit' and 'smashing' are separate actions without explicit or implicit causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "eb2a93b3c3135967205977535ce3c5fd2891ab16960df3801ed10c3b975f7e6b",
+    "eb2a93b3c3135967205977535ce3c5fd2891ab16960df3801ed10c3b975f7e6b",
+    "a9344501de7b159039795b308e67ee3d6c19830da13eb074e5694acefb2eac03",
+    "59c7271e147fe5a9f2a00f964495e4fb210da47b110e89f90db1a340593c481c",
+    "ffc760d58dc1e51eaa5b327865361a2969c469e7397a506e06fe45f7b1718716",
+    "d88c16ba494e2d3c49b495d10145f8d1ae106a3441f77f20cd47fadd80fd8bd2"
+  ],
+  "elapsed_s": 3.9821479320526123
+}

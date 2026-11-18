@@ -1,0 +1,62 @@
+{
+  "input_hash": "f4a93f342a1cd6a092c00013491b613ce8bdf50507a4fdd888a582e07f54771d",
+  "sample_id": "ESC-CSV-09298",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "building",
+    "workers",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b9dea09b4d83e24fb4cff1d358b51a4c9907d62a8da3ec35a49bc6193bad0f54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b9dea09b4d83e24fb4cff1d358b51a4c9907d62a8da3ec35a49bc6193bad0f54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "87476e25fc1c209f68efc260d929f711149378d9f417faa802c59e3d96296f6e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eda518ea74d6c0af2beed1ba5028c148c3fe76bc948e7a52ea5280ed02ac6405",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "767e86b71a655ac592419c6e95492e778eab246053a673978b84b0bad374f999",
+      "status": "ok",
+      "text": "{\"source_related\":[\"building\",\"workers\",\"bank\",\"Athens\",\"protests\"],\"target_related\":[\"workers\",\"bank\",\"building\",\"murder\"],\"mediators\":[\"building\",\"workers\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "350574e297da43d96c86beb66177474e0a322be86606e0858a770c1935e4383b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"'killed when the building they were in was torched' — 'when' links torching to killing; common sense: fire caused deaths; chain: torched->building->workers killed.\"}"
+    }
+  },
+  "call_ids": [
+    "b9dea09b4d83e24fb4cff1d358b51a4c9907d62a8da3ec35a49bc6193bad0f54",
+    "b9dea09b4d83e24fb4cff1d358b51a4c9907d62a8da3ec35a49bc6193bad0f54",
+    "87476e25fc1c209f68efc260d929f711149378d9f417faa802c59e3d96296f6e",
+    "eda518ea74d6c0af2beed1ba5028c148c3fe76bc948e7a52ea5280ed02ac6405",
+    "767e86b71a655ac592419c6e95492e778eab246053a673978b84b0bad374f999",
+    "350574e297da43d96c86beb66177474e0a322be86606e0858a770c1935e4383b"
+  ],
+  "elapsed_s": 5.305875062942505
+}

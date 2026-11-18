@@ -1,0 +1,66 @@
+{
+  "input_hash": "0cb35982130d82e2c07bcd337e6157a2521439257975e926ccb572cb29024ed3",
+  "sample_id": "ESC-CSV-04668",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Robbers",
+    "ram",
+    "4x4",
+    "Paris",
+    "shop",
+    "gems",
+    "watches"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1a7ba1164d60e05288ceaffb06686ba2aa1f2af6c468dc88a1b693eb07d08689",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3ae21353bb78b329538b0e65d8baf8b3f884bcbba14f30572c48f613c1dcd18c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8e416732018c62ab55e814470e7c7c9badaa6dd88fee1fcb8b15c5788335d8a1",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\",\"euros\"],\"target_related\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\",\"France\",\"jewels\"],\"mediators\":[\"Robbers\",\"ram\",\"4x4\",\"Paris\",\"shop\",\"gems\",\"watches\"]}"
+    },
+    "indirect": {
+      "call_id": "5f54f6419693f7aa0f1d3ae5e734592187b19e909e6bbadbeb501cedae911078",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Made off' and 'thefts' describe the same robbery event; no causation word or causal structure links them.\"}"
+    }
+  },
+  "call_ids": [
+    "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+    "45a17447e77014306f8ba5e72a49c9b7bb5d80ff0bec1c1c8e4d00b1f122ad51",
+    "1a7ba1164d60e05288ceaffb06686ba2aa1f2af6c468dc88a1b693eb07d08689",
+    "3ae21353bb78b329538b0e65d8baf8b3f884bcbba14f30572c48f613c1dcd18c",
+    "8e416732018c62ab55e814470e7c7c9badaa6dd88fee1fcb8b15c5788335d8a1",
+    "5f54f6419693f7aa0f1d3ae5e734592187b19e909e6bbadbeb501cedae911078"
+  ],
+  "elapsed_s": 6.290366172790527
+}

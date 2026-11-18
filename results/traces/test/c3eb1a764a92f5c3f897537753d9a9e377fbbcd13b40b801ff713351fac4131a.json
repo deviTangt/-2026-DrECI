@@ -1,0 +1,61 @@
+{
+  "input_hash": "c3eb1a764a92f5c3f897537753d9a9e377fbbcd13b40b801ff713351fac4131a",
+  "sample_id": "ESC-CSV-09624",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "rioters",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1d487fcf2c531bfcb272e50196bd635c7a7de0b316dd40eb8d9b76f6b2a72796",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1d487fcf2c531bfcb272e50196bd635c7a7de0b316dd40eb8d9b76f6b2a72796",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "44e0d2e95b5b720e5949282c9a2d64d7a0896a4d02a840c4dc2bf22f1144eb80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ee6f7e357e62289331ef1fccfca77916ba48c4e47c9f7245840a3e4a4eb57a03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ad9e5fabbee868fe7288c6a3aeaf271866a1b6ee410695d8747437161e1b93ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"die\",\"bank\",\"Greek\",\"Tear gas\",\"city center\",\"rioters\",\"police\"],\"target_related\":[\"rioters\",\"paving stones\",\"fire bombs\",\"police\"],\"mediators\":[\"rioters\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "fe80f855f4c68c06fb5b4ee5edc197b23fe5bda744ed3e9dbccd9215b7df1ebd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Rioters (Z) hurl stones; riots are the context, not a stated cause of hurling. No explicit/implicit causal word links riots to hurled.\"}"
+    }
+  },
+  "call_ids": [
+    "1d487fcf2c531bfcb272e50196bd635c7a7de0b316dd40eb8d9b76f6b2a72796",
+    "1d487fcf2c531bfcb272e50196bd635c7a7de0b316dd40eb8d9b76f6b2a72796",
+    "44e0d2e95b5b720e5949282c9a2d64d7a0896a4d02a840c4dc2bf22f1144eb80",
+    "ee6f7e357e62289331ef1fccfca77916ba48c4e47c9f7245840a3e4a4eb57a03",
+    "ad9e5fabbee868fe7288c6a3aeaf271866a1b6ee410695d8747437161e1b93ac",
+    "fe80f855f4c68c06fb5b4ee5edc197b23fe5bda744ed3e9dbccd9215b7df1ebd"
+  ],
+  "elapsed_s": 5.8881988525390625
+}

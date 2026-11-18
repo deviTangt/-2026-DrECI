@@ -1,0 +1,64 @@
+{
+  "input_hash": "c047bbef8298b950f1e83454c9e7ac35724558a946c7f846ea568f9f7dcf1f04",
+  "sample_id": "ESC-CSV-04606",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewellery",
+    "store",
+    "Paris",
+    "booty",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8807c4d948fd0597781dcde40d4aaa8b2ff90958be6451c69da7e1fed78c9f54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8807c4d948fd0597781dcde40d4aaa8b2ff90958be6451c69da7e1fed78c9f54",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9b56c6da7546893a784a589e5c55626beff3f07f579d26841fa9bd9f896b5718",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "49ab950a74aa881f7fa6d5259077f58fbfc26aaafb7d63eeb7fd45fa82c065f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d528830a2abac5b0e61f418e51e06e67beb011dc3d82eba6869f7196fa76395b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"rammed\",\"car\",\"jewellery\",\"store\",\"Paris\",\"shop\",\"window\",\"making off\",\"booty\",\"police\"],\"target_related\":[\"France\",\"jewellery\",\"Paris\",\"store\",\"booty\",\"police\"],\"mediators\":[\"jewellery\",\"store\",\"Paris\",\"booty\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "09f7076b266389906c44035055df6befad6bcaea40a64e168e553773877e9fc7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window enabled the men to take the booty, so the smashing caused the heist by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "8807c4d948fd0597781dcde40d4aaa8b2ff90958be6451c69da7e1fed78c9f54",
+    "8807c4d948fd0597781dcde40d4aaa8b2ff90958be6451c69da7e1fed78c9f54",
+    "9b56c6da7546893a784a589e5c55626beff3f07f579d26841fa9bd9f896b5718",
+    "49ab950a74aa881f7fa6d5259077f58fbfc26aaafb7d63eeb7fd45fa82c065f0",
+    "d528830a2abac5b0e61f418e51e06e67beb011dc3d82eba6869f7196fa76395b",
+    "09f7076b266389906c44035055df6befad6bcaea40a64e168e553773877e9fc7"
+  ],
+  "elapsed_s": 4.7112884521484375
+}

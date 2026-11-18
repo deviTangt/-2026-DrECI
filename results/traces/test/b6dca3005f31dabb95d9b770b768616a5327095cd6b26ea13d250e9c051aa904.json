@@ -1,0 +1,63 @@
+{
+  "input_hash": "b6dca3005f31dabb95d9b770b768616a5327095cd6b26ea13d250e9c051aa904",
+  "sample_id": "ESC-CSV-09582",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "demonstrators",
+    "fire",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6692af972637d4fa1b71e2d455c17c33ddfa5c5015a2fe7766480799b3476897",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6692af972637d4fa1b71e2d455c17c33ddfa5c5015a2fe7766480799b3476897",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e659b42ed7e30f880e322dfe068615666f6aa0c12c20a909e2e336567b9c4447",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f223276af9c4eff37c87b7880fdc269f49ee2e81f99d4fe825a845d7bb44bd22",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "80087c21d1d990df5a8d74dd833928b14364366f2fa26ef04d1a14c8c07d307d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"bank\",\"fire\",\"Athens\",\"Greek\"],\"target_related\":[\"bank\",\"workers\",\"man\",\"women\",\"demonstrators\",\"fire\",\"Athens\"],\"mediators\":[\"bank\",\"demonstrators\",\"fire\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "2515bf4b47ac1373bf0d7752aae240556aee3cb436e714fe3deca86e1630fb8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Demonstrators set the bank on fire; the fire caused the three bank workers to die, forming chain riots->fire->died.\"}"
+    }
+  },
+  "call_ids": [
+    "6692af972637d4fa1b71e2d455c17c33ddfa5c5015a2fe7766480799b3476897",
+    "6692af972637d4fa1b71e2d455c17c33ddfa5c5015a2fe7766480799b3476897",
+    "e659b42ed7e30f880e322dfe068615666f6aa0c12c20a909e2e336567b9c4447",
+    "f223276af9c4eff37c87b7880fdc269f49ee2e81f99d4fe825a845d7bb44bd22",
+    "80087c21d1d990df5a8d74dd833928b14364366f2fa26ef04d1a14c8c07d307d",
+    "2515bf4b47ac1373bf0d7752aae240556aee3cb436e714fe3deca86e1630fb8d"
+  ],
+  "elapsed_s": 4.387572526931763
+}

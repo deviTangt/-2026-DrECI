@@ -1,0 +1,61 @@
+{
+  "input_hash": "b1fe63dd00ed68ceee0a72676dd55c1c3eaeb606909e7e9cc2c4fd83d8b2c023",
+  "sample_id": "ESC-CSV-09656",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "protesters",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "85c599e4168ce4aff0b79084916f2207ade71e9cc2e142cbd542aee576d9230b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "85c599e4168ce4aff0b79084916f2207ade71e9cc2e142cbd542aee576d9230b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2aca9197f1246520734eeefe4a38b0594694ad71ca91e74800102eed102b6649",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8bdfda31cb2be2347c78c344fd71e88c78c3b49c9786ca7fdde5127ad6341a50",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "8ba4806fc06acce5198387881c2e9e2aeafd420ef2adf41df664264290b5ddae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"streets\",\"protest\",\"taxes\",\"government\",\"spending\",\"cuts\",\"International Monetary Fund\",\"European nations\",\"Greece\",\"loan\",\"defaulting\",\"protesters\",\"police\"],\"target_related\":[\"austerity\",\"measures\",\"bank workers\",\"Athens\",\"protesters\",\"parliament\",\"police\",\"buildings\"],\"mediators\":[\"protesters\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "ea5aa04f8d506ee715f68ff2831664ec7826958a4bdcbc8e4691f46bef3a0c78",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A nationwide strike by protesters precedes and provokes riots over austerity measures, consistent with common-sense causation: strike causes riots.\"}"
+    }
+  },
+  "call_ids": [
+    "85c599e4168ce4aff0b79084916f2207ade71e9cc2e142cbd542aee576d9230b",
+    "85c599e4168ce4aff0b79084916f2207ade71e9cc2e142cbd542aee576d9230b",
+    "2aca9197f1246520734eeefe4a38b0594694ad71ca91e74800102eed102b6649",
+    "8bdfda31cb2be2347c78c344fd71e88c78c3b49c9786ca7fdde5127ad6341a50",
+    "8ba4806fc06acce5198387881c2e9e2aeafd420ef2adf41df664264290b5ddae",
+    "ea5aa04f8d506ee715f68ff2831664ec7826958a4bdcbc8e4691f46bef3a0c78"
+  ],
+  "elapsed_s": 4.084617376327515
+}

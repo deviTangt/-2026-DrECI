@@ -1,0 +1,65 @@
+{
+  "input_hash": "15ec780faafe545e99da6c1e51fb964f33d032f3c168d5ce44607c9a66e218e7",
+  "sample_id": "ESC-CSV-06404",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "mother",
+    "12",
+    "daughter",
+    "school",
+    "gang"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "07756a9eeaf2dea6eacbaabecdb43ddada32cbe23d8e644922113657d8d096f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "07756a9eeaf2dea6eacbaabecdb43ddada32cbe23d8e644922113657d8d096f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "28373efe32a27f2de2ef126e1a2d7f99d72f078dc10e35057791bee595d052e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eb636c1bc049185e3d0b08c6469f0adc7cf2838adc7b46d904a2fd6930e68759",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7560b03e23d3bcdea9e131afec6a8929a1d4d3d9fa8c93f6702cab1f9b9f77e3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"Brooklyn\",\"mother\",\"12\",\"daughter\",\"school\"],\"target_related\":[\"Brooklyn\",\"mother\",\"12\",\"daughter\",\"school\",\"gang\"],\"mediators\":[\"Brooklyn\",\"mother\",\"12\",\"daughter\",\"school\",\"gang\"]}"
+    },
+    "indirect": {
+      "call_id": "55e900efce3117d3b9a9157e1ca9cb6f8124944d7a61426789e98383db4b2fb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed in a gang shootout' uses 'in' as explicit causation linking shootout to being killed; common sense also supports shootout causing death.\"}"
+    }
+  },
+  "call_ids": [
+    "07756a9eeaf2dea6eacbaabecdb43ddada32cbe23d8e644922113657d8d096f9",
+    "07756a9eeaf2dea6eacbaabecdb43ddada32cbe23d8e644922113657d8d096f9",
+    "28373efe32a27f2de2ef126e1a2d7f99d72f078dc10e35057791bee595d052e4",
+    "eb636c1bc049185e3d0b08c6469f0adc7cf2838adc7b46d904a2fd6930e68759",
+    "7560b03e23d3bcdea9e131afec6a8929a1d4d3d9fa8c93f6702cab1f9b9f77e3",
+    "55e900efce3117d3b9a9157e1ca9cb6f8124944d7a61426789e98383db4b2fb1"
+  ],
+  "elapsed_s": 5.141091346740723
+}

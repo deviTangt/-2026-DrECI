@@ -1,0 +1,58 @@
+{
+  "input_hash": "330369715acc9c7fb585a430ee04e8e932fcf9540d730183954ff4d23be27b23",
+  "sample_id": "ESC-CSV-04574",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [],
+  "route": "direct",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6c9aa8ea83d46adfef1540ae3ac497f57e481af48027ece2a6a61d53089a58c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6c9aa8ea83d46adfef1540ae3ac497f57e481af48027ece2a6a61d53089a58c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4af1078a8ff32191c142450ff23423a461b9f846987d8e553bbd91cc1525fff9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "da9b5c3e5528f72168a74e35f8f87ebe1e31e0107d2ae273d83119268eca0289",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "16606c9655b45d585b9c38039e8d17e01e5fed11f02bcecfb89564acadb9a525",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four men\",\"car\",\"jewelry store\",\"shop window\",\"jewelry\"],\"target_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "ab7c255787cb2dfcd13284047f5f180e2eae8c8ee757de91ca84516bf9ea496a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Smashing the shop window enabled the men to steal the jewelry, so the smashing caused the heist by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "6c9aa8ea83d46adfef1540ae3ac497f57e481af48027ece2a6a61d53089a58c9",
+    "6c9aa8ea83d46adfef1540ae3ac497f57e481af48027ece2a6a61d53089a58c9",
+    "4af1078a8ff32191c142450ff23423a461b9f846987d8e553bbd91cc1525fff9",
+    "da9b5c3e5528f72168a74e35f8f87ebe1e31e0107d2ae273d83119268eca0289",
+    "16606c9655b45d585b9c38039e8d17e01e5fed11f02bcecfb89564acadb9a525",
+    "ab7c255787cb2dfcd13284047f5f180e2eae8c8ee757de91ca84516bf9ea496a"
+  ],
+  "elapsed_s": 4.797198295593262
+}

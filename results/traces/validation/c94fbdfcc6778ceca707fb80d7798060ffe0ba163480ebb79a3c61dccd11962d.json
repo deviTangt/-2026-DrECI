@@ -1,0 +1,62 @@
+{
+  "input_hash": "c94fbdfcc6778ceca707fb80d7798060ffe0ba163480ebb79a3c61dccd11962d",
+  "sample_id": "ESC-CSV-02135",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Madeline Kafoury",
+    "receptionist",
+    "dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e5d7440cebd95309208521a940247f8197fe7b4fe0afa43ae3df03b016f46699",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e5d7440cebd95309208521a940247f8197fe7b4fe0afa43ae3df03b016f46699",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "94211473f79f736d4d27c3e3824de122cb4df0aeeb8b5f1c9a419cb82624caaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "59ae6ca1b6f5a9936f26f598ca26fe14da567f432c97d3e4079b4d3f40159490",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "02a3d717be058571add8c1c5422bcdf2182b51ad40ec8a24a4eb6e7f1bc16e69",
+      "status": "ok",
+      "text": "{\"source_related\":[\"receptionist\",\"Madeline Kafoury\",\"dead\",\"wounded\",\"managing partners\"],\"target_related\":[\"Madeline Kafoury\",\"receptionist\",\"dead\",\"shotgun\",\"slaying\"],\"mediators\":[\"Madeline Kafoury\",\"receptionist\",\"dead\"]}"
+    },
+    "indirect": {
+      "call_id": "4b21945537af753f5a76a933aea6635338a94b8df9e81a66bec44b74a490fc88",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The shooting 'left a receptionist dead' explicitly links the shooting (X) to killing (Y); common sense also supports the shooting causing the death.\"}"
+    }
+  },
+  "call_ids": [
+    "e5d7440cebd95309208521a940247f8197fe7b4fe0afa43ae3df03b016f46699",
+    "e5d7440cebd95309208521a940247f8197fe7b4fe0afa43ae3df03b016f46699",
+    "94211473f79f736d4d27c3e3824de122cb4df0aeeb8b5f1c9a419cb82624caaf",
+    "59ae6ca1b6f5a9936f26f598ca26fe14da567f432c97d3e4079b4d3f40159490",
+    "02a3d717be058571add8c1c5422bcdf2182b51ad40ec8a24a4eb6e7f1bc16e69",
+    "4b21945537af753f5a76a933aea6635338a94b8df9e81a66bec44b74a490fc88"
+  ],
+  "elapsed_s": 5.805873870849609
+}

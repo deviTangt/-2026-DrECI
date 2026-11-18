@@ -1,0 +1,67 @@
+{
+  "input_hash": "a550fa248f3aafeb4a6ecd65ed282c160ddcfd928c5f6cb6ca93affab6c3c217",
+  "sample_id": "ESC-CSV-09558",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "threw",
+    "petrol bombs",
+    "police",
+    "buildings",
+    "austerity measures",
+    "raise taxes",
+    "bailout"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d9ba74710d7d0adceefee25b893bf4b512f0ff4732839353bc013fb03f7e8588",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d9ba74710d7d0adceefee25b893bf4b512f0ff4732839353bc013fb03f7e8588",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1ff987ea36bc9912133d107e24b2f3aff52548d7be42b1a7d3fae94278b22fc0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "79977a165b38e0863acc688834aac799f20bc9b77df4d2393b7b41ec132580a7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ff335aff5633f0c47b1bdaa724087406e6516beac11ffb51f7610cc3693e9f7d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"storm\",\"parliament\",\"threw\",\"petrol bombs\",\"police\",\"buildings\",\"austerity measures\",\"raise taxes\",\"bailout\"],\"target_related\":[\"protesters\",\"threw\",\"petrol bombs\",\"police\",\"buildings\",\"protest\",\"austerity measures\",\"raise taxes\",\"bailout\"],\"mediators\":[\"protesters\",\"threw\",\"petrol bombs\",\"police\",\"buildings\",\"austerity measures\",\"raise taxes\",\"bailout\"]}"
+    },
+    "indirect": {
+      "call_id": "52746ebbb3dfa3e40469d868c75b77d2b86ff4f591b87a1d95699d83522ff02a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters acted in protest against austerity measures, and their protest actions included torching buildings; the protest precedes and motivates the torching.\"}"
+    }
+  },
+  "call_ids": [
+    "d9ba74710d7d0adceefee25b893bf4b512f0ff4732839353bc013fb03f7e8588",
+    "d9ba74710d7d0adceefee25b893bf4b512f0ff4732839353bc013fb03f7e8588",
+    "1ff987ea36bc9912133d107e24b2f3aff52548d7be42b1a7d3fae94278b22fc0",
+    "79977a165b38e0863acc688834aac799f20bc9b77df4d2393b7b41ec132580a7",
+    "ff335aff5633f0c47b1bdaa724087406e6516beac11ffb51f7610cc3693e9f7d",
+    "52746ebbb3dfa3e40469d868c75b77d2b86ff4f591b87a1d95699d83522ff02a"
+  ],
+  "elapsed_s": 4.752083778381348
+}

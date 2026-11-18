@@ -1,0 +1,64 @@
+{
+  "input_hash": "ae5498eb85dafc24e1ef00b47201fab19081384eac182edafa0cdf451817bc78",
+  "sample_id": "ESC-CSV-06660",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Lopez",
+    "assault",
+    "sentenced",
+    "Justice Vincent Del Giudice",
+    "life in prison"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cc2cb944147406d0228312804cf07fdaa1654dcdc399d5589497997a8b762b4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cc2cb944147406d0228312804cf07fdaa1654dcdc399d5589497997a8b762b4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "de9010c99d01a4eca8362dcec9bac64fc8ed1564827dc730015985badedf25b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5ad38f087040ef193f52abec384b0007a4bc9190231d2001d4bbbc5fbe3de0ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cd3495885e8b02efccc66975eb6cb607a2cf54dfd969bbaf6739a16a8c2d813f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"assault\",\"Lopez\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\"],\"target_related\":[\"Lopez\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\",\"assault\"],\"mediators\":[\"Lopez\",\"assault\",\"sentenced\",\"Justice Vincent Del Giudice\",\"life in prison\"]}"
+    },
+    "indirect": {
+      "call_id": "d4ba501837e8f55d84507ee81dbcee7de6829575df9a1aa9dfe816103d267a2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Passive construction 'Convicted of second-degree murder' uses 'of' as causal link: the second-degree murder is the reason for the conviction.\"}"
+    }
+  },
+  "call_ids": [
+    "cc2cb944147406d0228312804cf07fdaa1654dcdc399d5589497997a8b762b4b",
+    "cc2cb944147406d0228312804cf07fdaa1654dcdc399d5589497997a8b762b4b",
+    "de9010c99d01a4eca8362dcec9bac64fc8ed1564827dc730015985badedf25b0",
+    "5ad38f087040ef193f52abec384b0007a4bc9190231d2001d4bbbc5fbe3de0ee",
+    "cd3495885e8b02efccc66975eb6cb607a2cf54dfd969bbaf6739a16a8c2d813f",
+    "d4ba501837e8f55d84507ee81dbcee7de6829575df9a1aa9dfe816103d267a2e"
+  ],
+  "elapsed_s": 4.149698257446289
+}

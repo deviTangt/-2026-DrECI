@@ -1,0 +1,62 @@
+{
+  "input_hash": "ddb283159f89b1b87924bb0f001ecadd482ad58159557e9f10dd5d1d66e5427d",
+  "sample_id": "ESC-CSV-02415",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man",
+    "accounting firm",
+    "Detroit"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cf66044eb0e96e29ec2f1d58c98d3304e20701e23339fc559ddb8575e99b07d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cf66044eb0e96e29ec2f1d58c98d3304e20701e23339fc559ddb8575e99b07d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "df5b218082349d49c193939d965b0e5214e496650e3a47706d97ff8aef0490c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fdab009705214121160e6cee57df453f7c13d20e2ad19ccf450bfaa5a1d96494",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "96a0c4fc643e5294a8503c9497dd4ec1aa2d938f405f5dbff270ef32220b5189",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"people\",\"accounting firm\",\"Detroit\",\"arrested\",\"attack\"],\"target_related\":[\"man\",\"accounting firm\",\"Detroit\"],\"mediators\":[\"man\",\"accounting firm\",\"Detroit\"]}"
+    },
+    "indirect": {
+      "call_id": "4e4730282ec6dc52ac5ca6fc9e42d083191424fc05f566b24daa932df3747d52",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says he was fired last week and later shot people; firing preceded shooting, so shooting did not cause firing. No causal rule links X to Y.\"}"
+    }
+  },
+  "call_ids": [
+    "cf66044eb0e96e29ec2f1d58c98d3304e20701e23339fc559ddb8575e99b07d1",
+    "cf66044eb0e96e29ec2f1d58c98d3304e20701e23339fc559ddb8575e99b07d1",
+    "df5b218082349d49c193939d965b0e5214e496650e3a47706d97ff8aef0490c1",
+    "fdab009705214121160e6cee57df453f7c13d20e2ad19ccf450bfaa5a1d96494",
+    "96a0c4fc643e5294a8503c9497dd4ec1aa2d938f405f5dbff270ef32220b5189",
+    "4e4730282ec6dc52ac5ca6fc9e42d083191424fc05f566b24daa932df3747d52"
+  ],
+  "elapsed_s": 16.500734567642212
+}

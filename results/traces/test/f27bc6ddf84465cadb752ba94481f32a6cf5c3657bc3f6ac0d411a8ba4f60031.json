@@ -1,0 +1,64 @@
+{
+  "input_hash": "f27bc6ddf84465cadb752ba94481f32a6cf5c3657bc3f6ac0d411a8ba4f60031",
+  "sample_id": "ESC-CSV-09331",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "buildings",
+    "tax",
+    "officials",
+    "fire-bomb",
+    "protests"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "47028cf9db2d3063616ef3630d6ac2848c2e9855af9608e85f661d1e6235039c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "47028cf9db2d3063616ef3630d6ac2848c2e9855af9608e85f661d1e6235039c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cb09e6932e9a5048ea258d3db557828f58d7cd323e267e450eedaa0c57f7034e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fd9c3f4f91235ca852a5c6acb9539577d231117f2b546371df7c6d9493cfb961",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bf5cf4e39db4a2eda337753da59553eb6b2045d2e0adb61aa5ec9f34e83acf7e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire-bomb\",\"bank\",\"Greece\",\"killed\",\"three\",\"people\",\"Wednesday\",\"police\",\"striking\",\"protestors\",\"budget\",\"cuts\",\"national\",\"bankruptcy\",\"buildings\",\"tax\",\"officials\",\"protests\"],\"target_related\":[\"buildings\",\"tax\",\"officials\",\"fire-bomb\",\"attacks\",\"protests\"],\"mediators\":[\"buildings\",\"tax\",\"officials\",\"fire-bomb\",\"protests\"]}"
+    },
+    "indirect": {
+      "call_id": "292cdf4a23589aad178e2515bba649768f1b338d60f16a7ac2d622bf5229e195",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Fire-bomb attacks caused buildings to catch fire; 'in other fire-bomb attacks' explicitly links attack to catching fire.\"}"
+    }
+  },
+  "call_ids": [
+    "47028cf9db2d3063616ef3630d6ac2848c2e9855af9608e85f661d1e6235039c",
+    "47028cf9db2d3063616ef3630d6ac2848c2e9855af9608e85f661d1e6235039c",
+    "cb09e6932e9a5048ea258d3db557828f58d7cd323e267e450eedaa0c57f7034e",
+    "fd9c3f4f91235ca852a5c6acb9539577d231117f2b546371df7c6d9493cfb961",
+    "bf5cf4e39db4a2eda337753da59553eb6b2045d2e0adb61aa5ec9f34e83acf7e",
+    "292cdf4a23589aad178e2515bba649768f1b338d60f16a7ac2d622bf5229e195"
+  ],
+  "elapsed_s": 4.667489290237427
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "670580edfc736fd2402fc566a37902eafb2b5322164ebe1782c07e4bfacb2757",
+  "sample_id": "ESC-CSV-04541",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Four men",
+    "car",
+    "jewellery store",
+    "central Paris",
+    "Monday",
+    "shop window",
+    "€2 million"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8abaf313f8f604d86e7dfa2f3693284a2b86282649a710206ef0f3c2a973c509",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8abaf313f8f604d86e7dfa2f3693284a2b86282649a710206ef0f3c2a973c509",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "95f764d093700421e9e8a11ec96a989bf0f1a513085c9f026d0c83616a99160b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f898f721b4f3e4886caa5011fdb2513fa2043067704b6c594e2069353451bd83",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "32df810de7fc047c7d751c97a017f325026f604639fbe56c034c0463bab39378",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vehicle\",\"jewellery boutique\",\"Place Vendôme\",\"central Paris\",\"Monday\",\"dawn robbery\",\"€2 million\",\"loot\",\"Four men\",\"car\",\"jewellery store\",\"shop window\"],\"target_related\":[\"Four men\",\"car\",\"jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"€2 million\",\"booty\",\"police source\"],\"mediators\":[\"Four men\",\"car\",\"jewellery store\",\"central Paris\",\"Monday\",\"shop window\",\"€2 million\"]}"
+    },
+    "indirect": {
+      "call_id": "270243fedacab200b195e2829d122de664710cb4e26c96a3d3e4f63b6c9bc3df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'rammed their car into...smashing the shop window' — the ramming (ploughing) directly causes the smashing; causal order also holds.\"}"
+    }
+  },
+  "call_ids": [
+    "8abaf313f8f604d86e7dfa2f3693284a2b86282649a710206ef0f3c2a973c509",
+    "8abaf313f8f604d86e7dfa2f3693284a2b86282649a710206ef0f3c2a973c509",
+    "95f764d093700421e9e8a11ec96a989bf0f1a513085c9f026d0c83616a99160b",
+    "f898f721b4f3e4886caa5011fdb2513fa2043067704b6c594e2069353451bd83",
+    "32df810de7fc047c7d751c97a017f325026f604639fbe56c034c0463bab39378",
+    "270243fedacab200b195e2829d122de664710cb4e26c96a3d3e4f63b6c9bc3df"
+  ],
+  "elapsed_s": 4.522305727005005
+}

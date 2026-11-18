@@ -1,0 +1,64 @@
+{
+  "input_hash": "7ee31506a20e32936d7fb013cfa279bb2a21f64ceb65ffada68c3066924d873b",
+  "sample_id": "ESC-CSV-02229",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunshot",
+    "wounds",
+    "men",
+    "management",
+    "employees"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "51683ba014743d554b4a95cc64bfa60f24229047d514d628bd6e1dca0a938ff2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "51683ba014743d554b4a95cc64bfa60f24229047d514d628bd6e1dca0a938ff2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d21a42bfdd5c2cadad586a96068ee0272decfb290b5f01e42ceb772c0ed9d20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6e04fae21ccab6418688ee7285286c8f0a3161167fd2f994b2833c7c24eb2237",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a18dc4173fb6b4502d450317b06cd6d389060eb9bfd9cbbce6bdcd6648954474",
+      "status": "ok",
+      "text": "{\"source_related\":[\"kills\",\"injures\",\"died\",\"gunshot\",\"wounds\",\"female\",\"receptionist\",\"men\",\"management\",\"employees\"],\"target_related\":[\"gunshot\",\"wounds\",\"men\",\"management\",\"employees\",\"Royal Oak Beaumont Hospital\",\"Scherlinck\"],\"mediators\":[\"gunshot\",\"wounds\",\"men\",\"management\",\"employees\"]}"
+    },
+    "indirect": {
+      "call_id": "a1e9b593adf210df00a75bfdb9cd7e5f9287eabc9941d7fad1a2f6090b3e0d1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting caused gunshot wounds, which required the men to undergo surgery; shooting precedes and leads to surgery by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "51683ba014743d554b4a95cc64bfa60f24229047d514d628bd6e1dca0a938ff2",
+    "51683ba014743d554b4a95cc64bfa60f24229047d514d628bd6e1dca0a938ff2",
+    "0d21a42bfdd5c2cadad586a96068ee0272decfb290b5f01e42ceb772c0ed9d20",
+    "6e04fae21ccab6418688ee7285286c8f0a3161167fd2f994b2833c7c24eb2237",
+    "a18dc4173fb6b4502d450317b06cd6d389060eb9bfd9cbbce6bdcd6648954474",
+    "a1e9b593adf210df00a75bfdb9cd7e5f9287eabc9941d7fad1a2f6090b3e0d1a"
+  ],
+  "elapsed_s": 7.019665718078613
+}

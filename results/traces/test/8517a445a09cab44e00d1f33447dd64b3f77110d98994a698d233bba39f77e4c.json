@@ -1,0 +1,62 @@
+{
+  "input_hash": "8517a445a09cab44e00d1f33447dd64b3f77110d98994a698d233bba39f77e4c",
+  "sample_id": "ESC-CSV-06795",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gangland",
+    "territorial",
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6b507a895dc7177b6fb938274e5379539f687f313fc91aa519a62324c3362960",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6b507a895dc7177b6fb938274e5379539f687f313fc91aa519a62324c3362960",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e11474803f7a7e8ccd46a7dd8200f67a2b9f45961a2a7cfaf05a6997e3a057d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bc1f0d6f196a74495db8842c737e543560569516ef807b4073032d74ded88130",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b2aee72ccc5cec51d16bcc8af796e267adfe55cb501389bc3664471224bafccf",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangland\",\"territorial\",\"shooting\",\"sparked\"],\"target_related\":[\"gangland\",\"territorial\",\"beef\",\"shooting\"],\"mediators\":[\"gangland\",\"territorial\",\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "4366103a8a4b8061fab7b173ec6be88fa0daf820472299c52ccbdb82eb9bcc70",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"The shooting was 'allegedly sparked by a gangland territorial beef' — 'sparked' is an implicit causation word linking beef to the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "6b507a895dc7177b6fb938274e5379539f687f313fc91aa519a62324c3362960",
+    "6b507a895dc7177b6fb938274e5379539f687f313fc91aa519a62324c3362960",
+    "e11474803f7a7e8ccd46a7dd8200f67a2b9f45961a2a7cfaf05a6997e3a057d0",
+    "bc1f0d6f196a74495db8842c737e543560569516ef807b4073032d74ded88130",
+    "b2aee72ccc5cec51d16bcc8af796e267adfe55cb501389bc3664471224bafccf",
+    "4366103a8a4b8061fab7b173ec6be88fa0daf820472299c52ccbdb82eb9bcc70"
+  ],
+  "elapsed_s": 5.03244161605835
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "ff299119a58a4c2863cfdbc5e248c368ddb365a4082d9acaa4b6c89955562f8b",
+  "sample_id": "ESC-CSV-09427",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Marfin bank",
+    "branch"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "710ef2cd04b0734114ab3d2e0774b4951578b89e9016a6ceb28e6feff4a3c631",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "710ef2cd04b0734114ab3d2e0774b4951578b89e9016a6ceb28e6feff4a3c631",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "31d88877ac8ce41e44bc3e9e7aafdef1bdfcc22f119118818f47341a7291754a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "12aeb8e06758ecddbb0b91fc715e45727dcd930e4752c9d9cfe238c86815cfd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bbf31abd2a2142de0fc1bc8d5cbb2ba74c0254a67bd4e55e18d2e7522b018719",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Marfin bank\",\"branch\",\"window\",\"petrol bombs\",\"hooded youths\"],\"target_related\":[\"women\",\"man\",\"Marfin bank\",\"branch\"],\"mediators\":[\"Marfin bank\",\"branch\"]}"
+    },
+    "indirect": {
+      "call_id": "16043e3a8dacec5b33e66aea92f5ffe4be447c72eabcf35699d857ff865c4767",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The bank caught fire after petrol bombs were thrown, and the victims died in that fire; common sense links the fire to the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "710ef2cd04b0734114ab3d2e0774b4951578b89e9016a6ceb28e6feff4a3c631",
+    "710ef2cd04b0734114ab3d2e0774b4951578b89e9016a6ceb28e6feff4a3c631",
+    "31d88877ac8ce41e44bc3e9e7aafdef1bdfcc22f119118818f47341a7291754a",
+    "12aeb8e06758ecddbb0b91fc715e45727dcd930e4752c9d9cfe238c86815cfd2",
+    "bbf31abd2a2142de0fc1bc8d5cbb2ba74c0254a67bd4e55e18d2e7522b018719",
+    "16043e3a8dacec5b33e66aea92f5ffe4be447c72eabcf35699d857ff865c4767"
+  ],
+  "elapsed_s": 5.158776521682739
+}

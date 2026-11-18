@@ -1,0 +1,63 @@
+{
+  "input_hash": "b1c273a894187f2a38750309767069f79e809c31efa53d83e40ae281823e145a",
+  "sample_id": "ESC-CSV-06785",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Brooklyn",
+    "struck",
+    "shooting",
+    "moment"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0fc3e6ef970ebcc31a054cc448d13c18360cc0e25fb496db857a78ec6f4ed9d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0fc3e6ef970ebcc31a054cc448d13c18360cc0e25fb496db857a78ec6f4ed9d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e01c0254ad69c167cfa4faa29bae04359383e304295ba996f7b0ce59a0c41d4d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "afa06abe56bd18304ce382ebbb266423a41b273b189fca46adb3de7d325b17bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b85a4d57e09f2f1ddd02bf606b334cd0b3b37cf243dedf7a4f289b41e17897ca",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gangland\",\"territorial\",\"beef\",\"shooting\",\"struck\",\"Armstead\",\"jurors\",\"Brooklyn\",\"Supreme\",\"Court\",\"trial\",\"moment\"],\"target_related\":[\"stray\",\"Brooklyn\",\"mom\",\"fatally\",\"struck\",\"shooting\",\"surveillance\",\"video\",\"chilling\",\"moment\",\"blood\",\"pool\"],\"mediators\":[\"Brooklyn\",\"struck\",\"shooting\",\"moment\"]}"
+    },
+    "indirect": {
+      "call_id": "ee9c64d24c8e572f6e9181b3b80024016eb5a85c6d5b070ba74596c33305138a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2],\"evidence\":\"Text says shooting 'was allegedly sparked by a gangland territorial beef'; 'sparked' explicitly/implicitly links the beef to the shooting/gunfire.\"}"
+    }
+  },
+  "call_ids": [
+    "0fc3e6ef970ebcc31a054cc448d13c18360cc0e25fb496db857a78ec6f4ed9d4",
+    "0fc3e6ef970ebcc31a054cc448d13c18360cc0e25fb496db857a78ec6f4ed9d4",
+    "e01c0254ad69c167cfa4faa29bae04359383e304295ba996f7b0ce59a0c41d4d",
+    "afa06abe56bd18304ce382ebbb266423a41b273b189fca46adb3de7d325b17bf",
+    "b85a4d57e09f2f1ddd02bf606b334cd0b3b37cf243dedf7a4f289b41e17897ca",
+    "ee9c64d24c8e572f6e9181b3b80024016eb5a85c6d5b070ba74596c33305138a"
+  ],
+  "elapsed_s": 4.114264249801636
+}

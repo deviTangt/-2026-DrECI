@@ -1,0 +1,66 @@
+{
+  "input_hash": "9d037707a13602b3cf0aaa5f86a4d0d785dc4091d02fe90f476879a2e99a944b",
+  "sample_id": "ESC-CSV-07276",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "booked",
+    "jail",
+    "Arrested",
+    "CHP",
+    "drunken driving",
+    "county jail",
+    "he"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9f0b352914240b3890f6cf34260c8dd2315813c4327d6d6dc4948111210ea156",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9f0b352914240b3890f6cf34260c8dd2315813c4327d6d6dc4948111210ea156",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "efda9b1ac1f791a564a2d90e04fc1246f2fe6d44e14cba65990c4e39576eaa42",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f4682392cb5540cfdcff7dad196469d41fbcc78f4e5540c24d9f2cd1d4bc7787",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "fafc71aaa316b1c93dbbec430136afd234cac97d917930f2846c4cfff15ec731",
+      "status": "ok",
+      "text": "{\"source_related\":[\"released\",\"booked\",\"jail\",\"Arrested\",\"CHP\",\"drunken driving\",\"county jail\",\"he\"],\"target_related\":[\"on bond\",\"booked\",\"jail\",\"Arrested\",\"CHP\",\"drunken driving\",\"county jail\",\"he\"],\"mediators\":[\"booked\",\"jail\",\"Arrested\",\"CHP\",\"drunken driving\",\"county jail\",\"he\"]}"
+    },
+    "indirect": {
+      "call_id": "2f00d83422378af1efb9713db6e82b378d7ec456b78bef64ec75089eed1a13c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Released on bond' means release occurred by means of bond; bond is the condition of release, not a cause, and no causation word links them.\"}"
+    }
+  },
+  "call_ids": [
+    "9f0b352914240b3890f6cf34260c8dd2315813c4327d6d6dc4948111210ea156",
+    "9f0b352914240b3890f6cf34260c8dd2315813c4327d6d6dc4948111210ea156",
+    "efda9b1ac1f791a564a2d90e04fc1246f2fe6d44e14cba65990c4e39576eaa42",
+    "f4682392cb5540cfdcff7dad196469d41fbcc78f4e5540c24d9f2cd1d4bc7787",
+    "fafc71aaa316b1c93dbbec430136afd234cac97d917930f2846c4cfff15ec731",
+    "2f00d83422378af1efb9713db6e82b378d7ec456b78bef64ec75089eed1a13c8"
+  ],
+  "elapsed_s": 4.79413104057312
+}

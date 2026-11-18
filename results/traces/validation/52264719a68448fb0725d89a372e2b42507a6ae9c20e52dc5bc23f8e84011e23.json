@@ -1,0 +1,61 @@
+{
+  "input_hash": "52264719a68448fb0725d89a372e2b42507a6ae9c20e52dc5bc23f8e84011e23",
+  "sample_id": "ESC-CSV-02225",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d821c5a39fedebfc1e2b5728f17001c0c3accd6845c1a58a9022d45cc86c9d48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d821c5a39fedebfc1e2b5728f17001c0c3accd6845c1a58a9022d45cc86c9d48",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "40d3a00955eb7861c5a6b2600c50868af5612760d626f2abd03d0fa886ea346b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "187139b0a050867372224e44ef17125f146cc9762fe7acb1ee325bc404ea5c75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "8b3e0066447e501fc3c7664a220df22bd121bcc05ab17e5de55291e678b040d5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Monday\",\"last\",\"week\",\"public\",\"places\",\"Atlanta\",\"Georgia\",\"Seattle\",\"Washington\",\"Michigan\",\"office\"],\"target_related\":[\"Sheriff\",\"Michigan\",\"office\",\"shooting\",\"injures\",\"1\",\"2\"],\"mediators\":[\"Michigan\",\"office\"]}"
+    },
+    "indirect": {
+      "call_id": "ad54c6a04830fef511dd7ad0ce23eefcc2e7597aa8797e2d98d199fe1766e142",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting causing a kill follows common sense: the shooting occurs first and results in the death, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "d821c5a39fedebfc1e2b5728f17001c0c3accd6845c1a58a9022d45cc86c9d48",
+    "d821c5a39fedebfc1e2b5728f17001c0c3accd6845c1a58a9022d45cc86c9d48",
+    "40d3a00955eb7861c5a6b2600c50868af5612760d626f2abd03d0fa886ea346b",
+    "187139b0a050867372224e44ef17125f146cc9762fe7acb1ee325bc404ea5c75",
+    "8b3e0066447e501fc3c7664a220df22bd121bcc05ab17e5de55291e678b040d5",
+    "ad54c6a04830fef511dd7ad0ce23eefcc2e7597aa8797e2d98d199fe1766e142"
+  ],
+  "elapsed_s": 8.26884150505066
+}

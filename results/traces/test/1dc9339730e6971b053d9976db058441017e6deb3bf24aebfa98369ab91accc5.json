@@ -1,0 +1,65 @@
+{
+  "input_hash": "1dc9339730e6971b053d9976db058441017e6deb3bf24aebfa98369ab91accc5",
+  "sample_id": "ESC-CSV-09348",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protestors",
+    "striking",
+    "demonstrators",
+    "rioting",
+    "general",
+    "budget"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "940ec68ef67761458eb61d7f0898f1b1f6ea86d83c575fb859e6815101269fdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "940ec68ef67761458eb61d7f0898f1b1f6ea86d83c575fb859e6815101269fdd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c90e5a3f06db5a6a13c2a66d501114910ea321015e2304781f88727e369eb14e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "855868c4edda4965ddf0813fd4aa0d483e7d63be46f98f5087887da683461b14",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3667c85fc793ff22b02016c4237f5689046dc25591b47319dc2592884f175277",
+      "status": "ok",
+      "text": "{\"source_related\":[\"budget\",\"bankruptcy\",\"protestors\",\"striking\",\"general\",\"strike\",\"demonstrators\",\"rioting\"],\"target_related\":[\"protestors\",\"striking\",\"demonstrators\",\"parliament\",\"rioting\",\"general\",\"budget\",\"cuts\"],\"mediators\":[\"protestors\",\"striking\",\"demonstrators\",\"rioting\",\"general\",\"budget\"]}"
+    },
+    "indirect": {
+      "call_id": "87117470608e45f66750900eebb806eeeb3e0407d044985bbdf9e195b536b325",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"Striking protestors were furious at brutal budget cuts; cuts provoked/forced the strike, and cuts preceding strike follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "940ec68ef67761458eb61d7f0898f1b1f6ea86d83c575fb859e6815101269fdd",
+    "940ec68ef67761458eb61d7f0898f1b1f6ea86d83c575fb859e6815101269fdd",
+    "c90e5a3f06db5a6a13c2a66d501114910ea321015e2304781f88727e369eb14e",
+    "855868c4edda4965ddf0813fd4aa0d483e7d63be46f98f5087887da683461b14",
+    "3667c85fc793ff22b02016c4237f5689046dc25591b47319dc2592884f175277",
+    "87117470608e45f66750900eebb806eeeb3e0407d044985bbdf9e195b536b325"
+  ],
+  "elapsed_s": 5.591863393783569
+}

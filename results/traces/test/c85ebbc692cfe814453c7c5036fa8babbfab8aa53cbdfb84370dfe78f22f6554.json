@@ -1,0 +1,64 @@
+{
+  "input_hash": "c85ebbc692cfe814453c7c5036fa8babbfab8aa53cbdfb84370dfe78f22f6554",
+  "sample_id": "ESC-CSV-06612",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Mother",
+    "Footage",
+    "Fatal",
+    "Released"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0d85b6077c25d75bc46b25a5bea6a8b9538a53a009beaebf16729c19a6966c07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0d85b6077c25d75bc46b25a5bea6a8b9538a53a009beaebf16729c19a6966c07",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f3fc9ac20b0492ad51a7ab7b6f7a6bcebccc3dcc8e72ff631fb2e6c0eb7e90a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3521a291e32923b266be53c67d7a432adb7e83e16738caafa70e29b4df72cd96",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "034428c6d02951e98bd1161f28e3bbb177240f6001aac87caa0f5e61bc7228d5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"Mother\",\"13\",\"Zurana Horton\",\"shot\",\"killed\",\"gang\",\"Video\",\"Footage\",\"Fatal\",\"Released\"],\"target_related\":[\"Footage\",\"Released\",\"Brooklyn\",\"Mother\",\"Fatal\",\"Shooting\"],\"mediators\":[\"Brooklyn\",\"Mother\",\"Footage\",\"Fatal\",\"Released\"]}"
+    },
+    "indirect": {
+      "call_id": "da14b03295f1a01b8699e6e49a738150b27ab7727097449e3a21b4ff6f966f2e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting occurred before the trial; the fatal shooting prompted the trial, where footage was released, so shooting causes trial by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0d85b6077c25d75bc46b25a5bea6a8b9538a53a009beaebf16729c19a6966c07",
+    "0d85b6077c25d75bc46b25a5bea6a8b9538a53a009beaebf16729c19a6966c07",
+    "f3fc9ac20b0492ad51a7ab7b6f7a6bcebccc3dcc8e72ff631fb2e6c0eb7e90a5",
+    "3521a291e32923b266be53c67d7a432adb7e83e16738caafa70e29b4df72cd96",
+    "034428c6d02951e98bd1161f28e3bbb177240f6001aac87caa0f5e61bc7228d5",
+    "da14b03295f1a01b8699e6e49a738150b27ab7727097449e3a21b4ff6f966f2e"
+  ],
+  "elapsed_s": 5.306523561477661
+}

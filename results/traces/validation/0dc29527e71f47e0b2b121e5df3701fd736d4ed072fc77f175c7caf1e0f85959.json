@@ -1,0 +1,64 @@
+{
+  "input_hash": "0dc29527e71f47e0b2b121e5df3701fd736d4ed072fc77f175c7caf1e0f85959",
+  "sample_id": "ESC-CSV-01785",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "Ortiz",
+    "death",
+    "Deputy",
+    "killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5504c0f8da20fd64e321481ff7d49d9d054ad05f0ce05ab3664300505c37ac0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5504c0f8da20fd64e321481ff7d49d9d054ad05f0ce05ab3664300505c37ac0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "311b08c552738203c417d92e40a99ed5b6e06f06ebe21fe1fba56f105b33c89b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8456f1400228f287db7f93998dbe3f136b978b3f19a51fee55849b016c742155",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6b3f27b7d5ba401c81944786244201d5c61ce9803e922f5e3594c4beec1a700b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jurors\",\"video\",\"recording\",\"Orozco\",\"jail\",\"inmates\",\"Ortiz\",\"death\",\"Deputy\",\"killer\"],\"target_related\":[\"Orozco\",\"Ortiz\",\"death\",\"Deputy\",\"killer\"],\"mediators\":[\"Orozco\",\"Ortiz\",\"death\",\"Deputy\",\"killer\"]}"
+    },
+    "indirect": {
+      "call_id": "37ea4dbdf0a3919e5c189c16937847f7c58719dcf21d43422dd8cdaebe405789",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting (Ortiz's death) precedes and leads to the deputy's killer receiving a death sentence, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "5504c0f8da20fd64e321481ff7d49d9d054ad05f0ce05ab3664300505c37ac0d",
+    "5504c0f8da20fd64e321481ff7d49d9d054ad05f0ce05ab3664300505c37ac0d",
+    "311b08c552738203c417d92e40a99ed5b6e06f06ebe21fe1fba56f105b33c89b",
+    "8456f1400228f287db7f93998dbe3f136b978b3f19a51fee55849b016c742155",
+    "6b3f27b7d5ba401c81944786244201d5c61ce9803e922f5e3594c4beec1a700b",
+    "37ea4dbdf0a3919e5c189c16937847f7c58719dcf21d43422dd8cdaebe405789"
+  ],
+  "elapsed_s": 5.606235504150391
+}

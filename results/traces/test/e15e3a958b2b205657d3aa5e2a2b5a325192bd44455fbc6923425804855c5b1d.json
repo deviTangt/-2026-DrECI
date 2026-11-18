@@ -1,0 +1,62 @@
+{
+  "input_hash": "e15e3a958b2b205657d3aa5e2a2b5a325192bd44455fbc6923425804855c5b1d",
+  "sample_id": "ESC-CSV-06668",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Horton",
+    "Zurana Horton",
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3b32afdb646248d3bf685a2dcc31c6ebf6cef484e2515bdf824bc3f85c7cb0ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3b32afdb646248d3bf685a2dcc31c6ebf6cef484e2515bdf824bc3f85c7cb0ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0034b1a3f1a1fb84d7f64c0accaf69b32ff78cd4b4e6d545606e53689f7da0e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "524dad64608d33a68018bc0bf83b001d2e64921cff3f76421a1efda2ecb8e63e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "de83e20dd0f5650ab4123adc04a8c2d381e174fe0978a58057ca9d073350ff98",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"victims\",\"killed\",\"crossfire\",\"injury\",\"others\"],\"target_related\":[\"Andrew Lopez\",\"verdict\",\"murder\",\"Zurana Horton\",\"jury\",\"Brooklyn\"],\"mediators\":[\"Horton\",\"Zurana Horton\",\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "48377b960262d1a314e163114bbc515a0f5b814e99f8600ae422bcc7af930a28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Lopez was guilty for the injury of two others; the injury resulted from the gang crossfire, linking injured to guilty via the murder/injury verdict chain.\"}"
+    }
+  },
+  "call_ids": [
+    "3b32afdb646248d3bf685a2dcc31c6ebf6cef484e2515bdf824bc3f85c7cb0ae",
+    "3b32afdb646248d3bf685a2dcc31c6ebf6cef484e2515bdf824bc3f85c7cb0ae",
+    "0034b1a3f1a1fb84d7f64c0accaf69b32ff78cd4b4e6d545606e53689f7da0e5",
+    "524dad64608d33a68018bc0bf83b001d2e64921cff3f76421a1efda2ecb8e63e",
+    "de83e20dd0f5650ab4123adc04a8c2d381e174fe0978a58057ca9d073350ff98",
+    "48377b960262d1a314e163114bbc515a0f5b814e99f8600ae422bcc7af930a28"
+  ],
+  "elapsed_s": 4.42049765586853
+}

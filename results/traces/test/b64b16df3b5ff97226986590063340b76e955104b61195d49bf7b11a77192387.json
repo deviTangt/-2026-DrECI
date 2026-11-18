@@ -1,0 +1,58 @@
+{
+  "input_hash": "b64b16df3b5ff97226986590063340b76e955104b61195d49bf7b11a77192387",
+  "sample_id": "ESC-CSV-04607",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [],
+  "route": "direct",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ce2579f0c1da8cbc1aa2a7dc939f62352bd974ba581309ea769c277bbb604008",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ce2579f0c1da8cbc1aa2a7dc939f62352bd974ba581309ea769c277bbb604008",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9f7084f7f20065bac27f71e1a8383463e8eeb16701b84711be4b6f8f0680269c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8dcf5d8a7357e6b9dca1df525a3206cc721e7fe5f2071881dabd7db6086b03d4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "9e9e8fcbfd5b3bd0b9baef20dfca0f16a8b62bd6154f4ffea8cdcc06697de9d5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"store\",\"jewellery\",\"luxury watches\",\"4×4 car\"],\"target_related\":[\"Place Vendome\",\"France\",\"Cannes\",\"robberies\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "cd3c3d3e3736757eb81ba890d0b97c8d3137349097ac594327f12677887e8ba5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Grabbing jewellery and watches is the act that constitutes the heist; the theft occurs as part of the heist, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "ce2579f0c1da8cbc1aa2a7dc939f62352bd974ba581309ea769c277bbb604008",
+    "ce2579f0c1da8cbc1aa2a7dc939f62352bd974ba581309ea769c277bbb604008",
+    "9f7084f7f20065bac27f71e1a8383463e8eeb16701b84711be4b6f8f0680269c",
+    "8dcf5d8a7357e6b9dca1df525a3206cc721e7fe5f2071881dabd7db6086b03d4",
+    "9e9e8fcbfd5b3bd0b9baef20dfca0f16a8b62bd6154f4ffea8cdcc06697de9d5",
+    "cd3c3d3e3736757eb81ba890d0b97c8d3137349097ac594327f12677887e8ba5"
+  ],
+  "elapsed_s": 3.7177340984344482
+}

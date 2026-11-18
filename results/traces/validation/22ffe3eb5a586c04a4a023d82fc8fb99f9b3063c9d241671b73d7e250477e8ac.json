@@ -1,0 +1,66 @@
+{
+  "input_hash": "22ffe3eb5a586c04a4a023d82fc8fb99f9b3063c9d241671b73d7e250477e8ac",
+  "sample_id": "ESC-CSV-02321",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "three people",
+    "suburban Detroit office building",
+    "Monday morning",
+    "officers",
+    "shooter",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9b1d5b17d5fa1c72dcb988c27bc0b6f6fab8663631c490a140d21b9fe9b50c10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9b1d5b17d5fa1c72dcb988c27bc0b6f6fab8663631c490a140d21b9fe9b50c10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2943f5841d690053951fd1b39585768d970aaf16961829bc144c8ae5eb819f3e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a66ddbac48688ed5190a1fe0c049df690be018c5468944869a65febbb9647fd2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "04ff98b53dc9f4b161975bc8d4b520dea194b43ec00423105bb86216aef7c19e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"three people\",\"suburban Detroit office building\",\"Monday morning\",\"officers\",\"shooter\",\"police\"],\"target_related\":[\"gunman\",\"three people\",\"suburban Detroit office building\",\"Monday morning\",\"officers\",\"shooter\",\"police\"],\"mediators\":[\"gunman\",\"three people\",\"suburban Detroit office building\",\"Monday morning\",\"officers\",\"shooter\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "82c9abbe930167097d99f23ffd1326eae877f7e024ac9bd2d1371c536f3822f5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A gunman shot three people, which constitutes the office shooting; the shooting act precedes and causes the shooting event by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "9b1d5b17d5fa1c72dcb988c27bc0b6f6fab8663631c490a140d21b9fe9b50c10",
+    "9b1d5b17d5fa1c72dcb988c27bc0b6f6fab8663631c490a140d21b9fe9b50c10",
+    "2943f5841d690053951fd1b39585768d970aaf16961829bc144c8ae5eb819f3e",
+    "a66ddbac48688ed5190a1fe0c049df690be018c5468944869a65febbb9647fd2",
+    "04ff98b53dc9f4b161975bc8d4b520dea194b43ec00423105bb86216aef7c19e",
+    "82c9abbe930167097d99f23ffd1326eae877f7e024ac9bd2d1371c536f3822f5"
+  ],
+  "elapsed_s": 8.638338804244995
+}

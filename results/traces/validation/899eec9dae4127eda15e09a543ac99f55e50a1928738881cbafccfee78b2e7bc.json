@@ -1,0 +1,61 @@
+{
+  "input_hash": "899eec9dae4127eda15e09a543ac99f55e50a1928738881cbafccfee78b2e7bc",
+  "sample_id": "ESC-CSV-01753",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Jose Luis Orozco",
+    "convicted cop killer"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78831b1e7d42490103b5b4c6a5b39cfc62e6baab6db914d74629f41d7b356370",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78831b1e7d42490103b5b4c6a5b39cfc62e6baab6db914d74629f41d7b356370",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5e4c668e0c12522c0efb2ffe2fdcf575305c5145675822252e5ed905c992d114",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "288b2d6ebc8756fa86410fc89ba717a9b88c4c7b758a4749f4fc454c54434c59",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "ebd1c63d8251efbea5d1befa384b3293505b7ed52477983e241372c19d5d4275",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"convicted\",\"Los Angeles County Sheriff's Deputy Jerry Ortiz\",\"cop killer\"],\"target_related\":[\"Jose Luis Orozco\",\"jury's ruling\",\"convicted cop killer\",\"laughed\"],\"mediators\":[\"Jose Luis Orozco\",\"convicted cop killer\"]}"
+    },
+    "indirect": {
+      "call_id": "7de23b582dc465f57c1b20128c84feb5a812cdb4b4aae7fff5571de221cd4a52",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: the murder of Deputy Jerry Ortiz caused his death; the killing preceded and produced the death.\"}"
+    }
+  },
+  "call_ids": [
+    "78831b1e7d42490103b5b4c6a5b39cfc62e6baab6db914d74629f41d7b356370",
+    "78831b1e7d42490103b5b4c6a5b39cfc62e6baab6db914d74629f41d7b356370",
+    "5e4c668e0c12522c0efb2ffe2fdcf575305c5145675822252e5ed905c992d114",
+    "288b2d6ebc8756fa86410fc89ba717a9b88c4c7b758a4749f4fc454c54434c59",
+    "ebd1c63d8251efbea5d1befa384b3293505b7ed52477983e241372c19d5d4275",
+    "7de23b582dc465f57c1b20128c84feb5a812cdb4b4aae7fff5571de221cd4a52"
+  ],
+  "elapsed_s": 6.612203598022461
+}

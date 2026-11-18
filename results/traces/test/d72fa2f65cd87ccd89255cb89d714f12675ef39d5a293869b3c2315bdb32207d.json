@@ -1,0 +1,62 @@
+{
+  "input_hash": "d72fa2f65cd87ccd89255cb89d714f12675ef39d5a293869b3c2315bdb32207d",
+  "sample_id": "ESC-CSV-04609",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "jewellery",
+    "luxury watches",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1fa0b0831c413794e8db93b93698297a95f923bf3be321312d61c3eda4c342ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1fa0b0831c413794e8db93b93698297a95f923bf3be321312d61c3eda4c342ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7b36e01a76abb431fd0176c1053e8b458a05f42bc42923d37b7c3a72e24e9d81",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d4b1cb5b6a522802138d34d2b6bfcf11b70bc362a6b505814d8fe31d8b98aafe",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "fdc630c9e25a64e0f2fccb93fd0d16f1a071932676b67568c87742b4df91df06",
+      "status": "ok",
+      "text": "{\"source_related\":[\"men\",\"drove\",\"car\",\"store\",\"jewellery\",\"luxury watches\",\"€2 million\"],\"target_related\":[\"jewellery\",\"luxury watches\",\"France\",\"store\"],\"mediators\":[\"jewellery\",\"luxury watches\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "82aaf3e26a6af7dab5849d5c87450cba7012a304a8c3527e510fc14c2495eeb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Grabbing jewellery and watches is the act that constitutes the heist; the theft occurs through the grabbing, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "1fa0b0831c413794e8db93b93698297a95f923bf3be321312d61c3eda4c342ec",
+    "1fa0b0831c413794e8db93b93698297a95f923bf3be321312d61c3eda4c342ec",
+    "7b36e01a76abb431fd0176c1053e8b458a05f42bc42923d37b7c3a72e24e9d81",
+    "d4b1cb5b6a522802138d34d2b6bfcf11b70bc362a6b505814d8fe31d8b98aafe",
+    "fdc630c9e25a64e0f2fccb93fd0d16f1a071932676b67568c87742b4df91df06",
+    "82aaf3e26a6af7dab5849d5c87450cba7012a304a8c3527e510fc14c2495eeb6"
+  ],
+  "elapsed_s": 4.030396938323975
+}

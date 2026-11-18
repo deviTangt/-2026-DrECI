@@ -1,0 +1,75 @@
+{
+  "input_hash": "9b96ffce786d59ab7fce562cbef05ae40f65d65f86b6f0b768b1372d039efc49",
+  "sample_id": "ESC-CSV-02320",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Three",
+    "People",
+    "Office",
+    "Suburban",
+    "Detroit",
+    "building",
+    "businesses",
+    "law",
+    "offices",
+    "State",
+    "Farm",
+    "insurance",
+    "office",
+    "C&G",
+    "Accounting",
+    "occurred"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a63e144d5cecd4f699f6304c3aacb25a19755343089967ba0dd28bab506e01e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a63e144d5cecd4f699f6304c3aacb25a19755343089967ba0dd28bab506e01e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "51a6e6f921cc5732a8cf2260b1f394fec37ce57ee0746ccf283f078a070b193f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d348cae899e3cb3f8d8f8efce187461dfbc5ae67093a4cd90ed82cf788b207a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "30bced369580652d7af1f03a42088fd1a2ba7f23368739b8e07f0958325fa621",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\",\"building\",\"businesses\",\"law\",\"offices\",\"State\",\"Farm\",\"insurance\",\"office\",\"C&G\",\"Accounting\",\"occurred\"],\"target_related\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\",\"building\",\"businesses\",\"law\",\"offices\",\"State\",\"Farm\",\"insurance\",\"office\",\"C&G\",\"Accounting\",\"occurred\"],\"mediators\":[\"Three\",\"People\",\"Office\",\"Suburban\",\"Detroit\",\"building\",\"businesses\",\"law\",\"offices\",\"State\",\"Farm\",\"insurance\",\"office\",\"C&G\",\"Accounting\",\"occurred\"]}"
+    },
+    "indirect": {
+      "call_id": "27f910e2581515ec4ce42270b370780c175d74db1fec3661be6da4b364cc684c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shooting is the event in which people are shot; the shooting occurring causes people to be shot, following common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "3a63e144d5cecd4f699f6304c3aacb25a19755343089967ba0dd28bab506e01e",
+    "3a63e144d5cecd4f699f6304c3aacb25a19755343089967ba0dd28bab506e01e",
+    "51a6e6f921cc5732a8cf2260b1f394fec37ce57ee0746ccf283f078a070b193f",
+    "d348cae899e3cb3f8d8f8efce187461dfbc5ae67093a4cd90ed82cf788b207a4",
+    "30bced369580652d7af1f03a42088fd1a2ba7f23368739b8e07f0958325fa621",
+    "27f910e2581515ec4ce42270b370780c175d74db1fec3661be6da4b364cc684c"
+  ],
+  "elapsed_s": 7.745937824249268
+}

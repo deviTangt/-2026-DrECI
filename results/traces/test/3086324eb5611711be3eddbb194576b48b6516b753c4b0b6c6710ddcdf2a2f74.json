@@ -1,0 +1,62 @@
+{
+  "input_hash": "3086324eb5611711be3eddbb194576b48b6516b753c4b0b6c6710ddcdf2a2f74",
+  "sample_id": "ESC-CSV-09710",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "Greek"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0348499323c08ee75879930f83af86f72bb25478068fdeb52ad647cfd3799362",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0348499323c08ee75879930f83af86f72bb25478068fdeb52ad647cfd3799362",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e42f7f698bb51887739a1d115d6601d4cf4e0c4b586647573cbff7ec92b58e28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1e066f8c8d412b39a48e07e44df9a08b3f9f5dd60dd6c2d776deee0188ed0d8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a71f0ad9eca46db9471b93afc9b15865d9131d60ffb7a619b02d3c5d8506b7ed",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"Greek\"],\"target_related\":[\"bank\",\"workers\",\"Three\",\"Greek\",\"riots\"],\"mediators\":[\"bank\",\"workers\",\"Greek\"]}"
+    },
+    "indirect": {
+      "call_id": "9ed42f0774b57143b6b1a7c378ea8f344ceda58e699445622a9a08909af91e7e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots occurred and during them three bank workers died; common sense: riots cause deaths, so Riots causes die.\"}"
+    }
+  },
+  "call_ids": [
+    "0348499323c08ee75879930f83af86f72bb25478068fdeb52ad647cfd3799362",
+    "0348499323c08ee75879930f83af86f72bb25478068fdeb52ad647cfd3799362",
+    "e42f7f698bb51887739a1d115d6601d4cf4e0c4b586647573cbff7ec92b58e28",
+    "1e066f8c8d412b39a48e07e44df9a08b3f9f5dd60dd6c2d776deee0188ed0d8c",
+    "a71f0ad9eca46db9471b93afc9b15865d9131d60ffb7a619b02d3c5d8506b7ed",
+    "9ed42f0774b57143b6b1a7c378ea8f344ceda58e699445622a9a08909af91e7e"
+  ],
+  "elapsed_s": 5.2793238162994385
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "e33640e09bade84881b4e9ae7eac6f2f2b537752e5ce1d085ff1335893cc4ada",
+  "sample_id": "ESC-CSV-07129",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "CHARGERS",
+    "WILLIAMS",
+    "SUSPICION"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a0ebb6586cfd25bb02e3714c3c33d4626f00bc1b6171ee0c812ea84f40f0fc28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a0ebb6586cfd25bb02e3714c3c33d4626f00bc1b6171ee0c812ea84f40f0fc28",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f0e85580219e5d8bdd1a79d8656803d5a99c88a212c7d8c84fac7a258f207141",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6cbf4e4ec1b8a543e61e3e846b0ba4f75c3fe5a9de01efbc37ead3f46b9d571e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bc5c2ba20e97971f5542a6c6f4b296ae0882a5836675ec99e74138141303523a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"CHARGERS\",\"WILLIAMS\",\"SUSPICION\"],\"target_related\":[\"CHARGERS\",\"WILLIAMS\",\"SUSPICION\"],\"mediators\":[\"CHARGERS\",\"WILLIAMS\",\"SUSPICION\"]}"
+    },
+    "indirect": {
+      "call_id": "82d60de5793816d7bcda62a9fb9aea09407c05a3b67430cd2fd95310f7279be7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"DUI (driving under influence) commonly precedes and causes an arrest; being arrested on suspicion of DUI follows from the DUI event.\"}"
+    }
+  },
+  "call_ids": [
+    "a0ebb6586cfd25bb02e3714c3c33d4626f00bc1b6171ee0c812ea84f40f0fc28",
+    "a0ebb6586cfd25bb02e3714c3c33d4626f00bc1b6171ee0c812ea84f40f0fc28",
+    "f0e85580219e5d8bdd1a79d8656803d5a99c88a212c7d8c84fac7a258f207141",
+    "6cbf4e4ec1b8a543e61e3e846b0ba4f75c3fe5a9de01efbc37ead3f46b9d571e",
+    "bc5c2ba20e97971f5542a6c6f4b296ae0882a5836675ec99e74138141303523a",
+    "82d60de5793816d7bcda62a9fb9aea09407c05a3b67430cd2fd95310f7279be7"
+  ],
+  "elapsed_s": 4.596199035644531
+}

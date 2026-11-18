@@ -1,0 +1,61 @@
+{
+  "input_hash": "17eaf8fe6cef1e9c589d7c6d4b128c3777925e229ff398bd6a0ff0174b96dadd",
+  "sample_id": "ESC-CSV-02561",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8efaf2d0c82aa4af94a26f912a3e38ab4ea908abc7c843e972436cacdc6c169f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8efaf2d0c82aa4af94a26f912a3e38ab4ea908abc7c843e972436cacdc6c169f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "778129b34f5d03bf515cf744ffad8cc302ddab477e4b9d7e8d77dba6d4223b64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "35be02b14dcf6e7e578520c76424b98cf14bc130861cc536286707195e1c5d02",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "2d2ad9428ae42e4ed13ec2fd7f7e5d15a8036bdc2470eb7845e3e3b771ebc965",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\"],\"target_related\":[\"cops\"],\"mediators\":[\"protesters\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "e8bace73a3ada33cb06492f18e44faaeefce44a123bdafd317fab021c095db68",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being enraged (anger) commonly motivates protesters to battle/confront cops; X precedes and causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "8efaf2d0c82aa4af94a26f912a3e38ab4ea908abc7c843e972436cacdc6c169f",
+    "8efaf2d0c82aa4af94a26f912a3e38ab4ea908abc7c843e972436cacdc6c169f",
+    "778129b34f5d03bf515cf744ffad8cc302ddab477e4b9d7e8d77dba6d4223b64",
+    "35be02b14dcf6e7e578520c76424b98cf14bc130861cc536286707195e1c5d02",
+    "2d2ad9428ae42e4ed13ec2fd7f7e5d15a8036bdc2470eb7845e3e3b771ebc965",
+    "e8bace73a3ada33cb06492f18e44faaeefce44a123bdafd317fab021c095db68"
+  ],
+  "elapsed_s": 6.518151521682739
+}

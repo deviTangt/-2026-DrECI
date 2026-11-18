@@ -1,0 +1,69 @@
+{
+  "input_hash": "7248589398b0d3d24e263b316b756e194aa22f3f99dab46794f796682d5db3e2",
+  "sample_id": "ESC-CSV-02037",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "shootings",
+    "wounding",
+    "bosses",
+    "shotgun",
+    "attack",
+    "killing",
+    "receptionist",
+    "arraigned",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5bb02324713949dc1e623283beae5e9afb58c3af6f78f5a58f3fed05edb506e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5bb02324713949dc1e623283beae5e9afb58c3af6f78f5a58f3fed05edb506e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "07047ad222a7af38f96dec7c815e041dab97c64d7a1e0ab6ecc8b95ec6b1a395",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "01bdd82d30c7b5be4c870035fd099104b04b8f8b57365ef3233e8620d7f41738",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d89c0d3be3d8494e283671170ccac4555f89909e86ede737581162f1afcd4eb9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"shootings\",\"wounding\",\"bosses\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"Wednesday\"],\"target_related\":[\"accountant\",\"charged\",\"shootings\",\"wounding\",\"bosses\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"Wednesday\"],\"mediators\":[\"accountant\",\"shootings\",\"wounding\",\"bosses\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "2c13999cc96d9c3d36fa7ee439716a93d112e17d461b4b0630004eb7c29a1ac5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being charged with murder follows from the murder; the murder is the basis for the charges, so X causes Y by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "5bb02324713949dc1e623283beae5e9afb58c3af6f78f5a58f3fed05edb506e7",
+    "5bb02324713949dc1e623283beae5e9afb58c3af6f78f5a58f3fed05edb506e7",
+    "07047ad222a7af38f96dec7c815e041dab97c64d7a1e0ab6ecc8b95ec6b1a395",
+    "01bdd82d30c7b5be4c870035fd099104b04b8f8b57365ef3233e8620d7f41738",
+    "d89c0d3be3d8494e283671170ccac4555f89909e86ede737581162f1afcd4eb9",
+    "2c13999cc96d9c3d36fa7ee439716a93d112e17d461b4b0630004eb7c29a1ac5"
+  ],
+  "elapsed_s": 4.877677917480469
+}

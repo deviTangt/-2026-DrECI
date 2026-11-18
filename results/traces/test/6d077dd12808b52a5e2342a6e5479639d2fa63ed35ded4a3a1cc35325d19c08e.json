@@ -1,0 +1,62 @@
+{
+  "input_hash": "6d077dd12808b52a5e2342a6e5479639d2fa63ed35ded4a3a1cc35325d19c08e",
+  "sample_id": "ESC-CSV-04232",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "Climber",
+    "Aoraki Mount Cook"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3a6f91112a59e6581c0e9dcc56e73f51c9ab84b54aabd8dced4349d7c27943d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3a6f91112a59e6581c0e9dcc56e73f51c9ab84b54aabd8dced4349d7c27943d1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ea62a33c7aed6dea149aac2255c1a531cc76aa9bdbcbaa23fb1c11b1f0565dbd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e9f8979046aa82f10ad126193b7b985cbdf37aef66ecf7baaa54f0ffd41018a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "544b86e646085d70352efe2263395780348f17537699b11cdd5b003166bc80f2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"Climber\",\"Aoraki Mount Cook\",\"day\"],\"target_related\":[\"man\",\"Climber\",\"Aoraki Mount Cook\",\"fall\"],\"mediators\":[\"man\",\"Climber\",\"Aoraki Mount Cook\"]}"
+    },
+    "indirect": {
+      "call_id": "0c45e5f494e512d4f9644abbea4f117e9b4affbf61335e8486992ac741c1ec92",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Falling from Aoraki Mount Cook is a fatal accident; the fall occurred before and caused the climber's death, consistent with common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "3a6f91112a59e6581c0e9dcc56e73f51c9ab84b54aabd8dced4349d7c27943d1",
+    "3a6f91112a59e6581c0e9dcc56e73f51c9ab84b54aabd8dced4349d7c27943d1",
+    "ea62a33c7aed6dea149aac2255c1a531cc76aa9bdbcbaa23fb1c11b1f0565dbd",
+    "e9f8979046aa82f10ad126193b7b985cbdf37aef66ecf7baaa54f0ffd41018a8",
+    "544b86e646085d70352efe2263395780348f17537699b11cdd5b003166bc80f2",
+    "0c45e5f494e512d4f9644abbea4f117e9b4affbf61335e8486992ac741c1ec92"
+  ],
+  "elapsed_s": 5.528388261795044
+}

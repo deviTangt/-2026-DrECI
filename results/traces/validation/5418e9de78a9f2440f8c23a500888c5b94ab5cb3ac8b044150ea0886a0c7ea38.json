@@ -1,0 +1,60 @@
+{
+  "input_hash": "5418e9de78a9f2440f8c23a500888c5b94ab5cb3ac8b044150ea0886a0c7ea38",
+  "sample_id": "ESC-CSV-02760",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c3b77364a72cc709e6f5e4d689e95bb8c6bcaa6f621eec7fb136df9129796512",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c3b77364a72cc709e6f5e4d689e95bb8c6bcaa6f621eec7fb136df9129796512",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "50e094ba66d3864ed6440df2a65681683bb4d9c978b75dcfbaa23231c69a20a3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ee629f665978d77f1fc91d0ddb012778f2e715e0cab5fb8e8ee40adaa9c062a8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dedc8a5bb9a73da2e444636fdb55c69ab36cec0614b0e775884cf8bcd18ca68a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kimani\",\"Gray\",\"gun\",\"officers\",\"police\",\"killed\",\"pointing\",\"approached\"],\"target_related\":[\"Brooklyn\",\"neighborhood\",\"police\",\"protest\"],\"mediators\":[\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "45d7235e1ddbd21e02bc4c958c0277b25f688018c7ca1a47e6ac10ff4c75aec5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of Kimani Gray preceded and prompted the police lockdown of the Brooklyn neighborhood, consistent with common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "c3b77364a72cc709e6f5e4d689e95bb8c6bcaa6f621eec7fb136df9129796512",
+    "c3b77364a72cc709e6f5e4d689e95bb8c6bcaa6f621eec7fb136df9129796512",
+    "50e094ba66d3864ed6440df2a65681683bb4d9c978b75dcfbaa23231c69a20a3",
+    "ee629f665978d77f1fc91d0ddb012778f2e715e0cab5fb8e8ee40adaa9c062a8",
+    "dedc8a5bb9a73da2e444636fdb55c69ab36cec0614b0e775884cf8bcd18ca68a",
+    "45d7235e1ddbd21e02bc4c958c0277b25f688018c7ca1a47e6ac10ff4c75aec5"
+  ],
+  "elapsed_s": 4.521194219589233
+}

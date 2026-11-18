@@ -1,0 +1,61 @@
+{
+  "input_hash": "a82bf67bd27d4941bf33e6150f04fed81a80d2129055ecc11fac09577e931369",
+  "sample_id": "ESC-CSV-06604",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Horton",
+    "bullet"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c0a74e10091abcb632a604428db3603a950a13198117e556e0ee7806935bd3e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c0a74e10091abcb632a604428db3603a950a13198117e556e0ee7806935bd3e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3a7ef360f1019d7b36a6defc082b99dc04590ba640a698a2a921d8c6269901f7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1a0cba979bf3cdab3d2869aa85e6871d85e85ddd44338c1af653a669842898db",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "d05b846d835c8a15cc20cc247ca6abdba1f453760bf0183e313a2f16af7ee37a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"bullet\",\"Horton\"],\"target_related\":[\"Horton\",\"child\",\"bullet\"],\"mediators\":[\"Horton\",\"bullet\"]}"
+    },
+    "indirect": {
+      "call_id": "3ffa2b2b7c08c8b4d0ebe5db3199ae928027c592be6f8fae9f430b99d44f7197",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The shooting breaks out, and Horton pushes a child out of the way to take a bullet; the pushing is a reaction to the shooting, not caused by it.\"}"
+    }
+  },
+  "call_ids": [
+    "c0a74e10091abcb632a604428db3603a950a13198117e556e0ee7806935bd3e5",
+    "c0a74e10091abcb632a604428db3603a950a13198117e556e0ee7806935bd3e5",
+    "3a7ef360f1019d7b36a6defc082b99dc04590ba640a698a2a921d8c6269901f7",
+    "1a0cba979bf3cdab3d2869aa85e6871d85e85ddd44338c1af653a669842898db",
+    "d05b846d835c8a15cc20cc247ca6abdba1f453760bf0183e313a2f16af7ee37a",
+    "3ffa2b2b7c08c8b4d0ebe5db3199ae928027c592be6f8fae9f430b99d44f7197"
+  ],
+  "elapsed_s": 5.664339780807495
+}

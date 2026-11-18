@@ -1,0 +1,61 @@
+{
+  "input_hash": "84b339fb9c6f03906c12a19f79cfaa4825b560217478d96bc56dee693b53c121",
+  "sample_id": "ESC-CSV-02005",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Shooting",
+    "Accounting Firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a7256e018dbe12e6276facf8628569a5d9125610ef343f853cc8bad702aad2c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a7256e018dbe12e6276facf8628569a5d9125610ef343f853cc8bad702aad2c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8a30532efcd52ab1273420b1c1b358d2903491b4002caf8a946ff7df276482bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cb5d896f3a944a2c12198b85b6c3d000908c483bc88cdd8b81a1034121b79ac4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "213e97c86a4cd7727a884e02a506baf9915be9a41084a094f7385ee3e73f0194",
+      "status": "ok",
+      "text": "{\"source_related\":[\"suspect\",\"Anthony LaCalamita\",\"entered\",\"office\",\"accounting firm\",\"Gordon Advisors\",\"police\",\"Shooting\"],\"target_related\":[\"Shooting\",\"Woman\",\"Hurt\",\"Accounting Firm\"],\"mediators\":[\"Shooting\",\"Accounting Firm\"]}"
+    },
+    "indirect": {
+      "call_id": "c45f432ec482824fca6f7316e7fff4361754d368e46872756f8ac17fc112df22",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"Opening fire (shooting) at the firm caused a woman to be left dead; shooting is the mechanism linking the gunfire to the death.\"}"
+    }
+  },
+  "call_ids": [
+    "a7256e018dbe12e6276facf8628569a5d9125610ef343f853cc8bad702aad2c0",
+    "a7256e018dbe12e6276facf8628569a5d9125610ef343f853cc8bad702aad2c0",
+    "8a30532efcd52ab1273420b1c1b358d2903491b4002caf8a946ff7df276482bd",
+    "cb5d896f3a944a2c12198b85b6c3d000908c483bc88cdd8b81a1034121b79ac4",
+    "213e97c86a4cd7727a884e02a506baf9915be9a41084a094f7385ee3e73f0194",
+    "c45f432ec482824fca6f7316e7fff4361754d368e46872756f8ac17fc112df22"
+  ],
+  "elapsed_s": 6.363707780838013
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "67e37031b1e7f85dee46ad136d6e2d815e3f6169de22946b38930225fdcfa24d",
+  "sample_id": "ESC-CSV-01763",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Orozco",
+    "murder",
+    "Jerry Ortiz"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "95a092a69cf41afac96501b0d4534ffdee14ba563edc2b79993fd63dd5706897",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "95a092a69cf41afac96501b0d4534ffdee14ba563edc2b79993fd63dd5706897",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7776a6c62aeaf637cf04cc66026070c9fb10a3b7213a05208e5cbdf78f81593e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b50a68943ce9ed02554bd8573efd8a19ac2010f5cfb171eb66c89711427d6268",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b7e40e4e73ce9d06f8325353d1f2f30790e4b8d3fce6351c11d65ddae613fa35",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jose Luis Orozco\",\"murder\",\"Jerry Ortiz\",\"trial\"],\"target_related\":[\"Orozco\",\"murder\",\"Jerry Ortiz\"],\"mediators\":[\"Orozco\",\"murder\",\"Jerry Ortiz\"]}"
+    },
+    "indirect": {
+      "call_id": "d75dbab23e5445b54e60373569a953d0ece8071a7129d7b4ccb217814385e5bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says Orozco was convicted of murder; it does not state that conviction caused the deputy's death. No causal word or structure links X and Y.\"}"
+    }
+  },
+  "call_ids": [
+    "95a092a69cf41afac96501b0d4534ffdee14ba563edc2b79993fd63dd5706897",
+    "95a092a69cf41afac96501b0d4534ffdee14ba563edc2b79993fd63dd5706897",
+    "7776a6c62aeaf637cf04cc66026070c9fb10a3b7213a05208e5cbdf78f81593e",
+    "b50a68943ce9ed02554bd8573efd8a19ac2010f5cfb171eb66c89711427d6268",
+    "b7e40e4e73ce9d06f8325353d1f2f30790e4b8d3fce6351c11d65ddae613fa35",
+    "d75dbab23e5445b54e60373569a953d0ece8071a7129d7b4ccb217814385e5bf"
+  ],
+  "elapsed_s": 4.65861964225769
+}

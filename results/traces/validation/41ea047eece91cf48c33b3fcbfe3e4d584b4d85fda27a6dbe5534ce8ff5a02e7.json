@@ -1,0 +1,64 @@
+{
+  "input_hash": "41ea047eece91cf48c33b3fcbfe3e4d584b4d85fda27a6dbe5534ce8ff5a02e7",
+  "sample_id": "ESC-CSV-02562",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Protesters",
+    "cops",
+    "Brooklyn",
+    "streets",
+    "rioting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "442faa82be01b50b3cdc184f8c9cab6a1972d54366e3c62c5d06784be77954f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "442faa82be01b50b3cdc184f8c9cab6a1972d54366e3c62c5d06784be77954f0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d2346dce5ece14223bb654a7af027be9b65972f6e76d0f90e255b4d9a77b7440",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9d89818793005ca23d5ecc4041aa9b9d3a4150ee55b4a0fbc4b56e86bd4088b6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9e670aa0975647d36cd2d24d0a740ffc45a3a305416b6b509fd7c57584dd07de",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Protesters\",\"police\",\"Brooklyn\",\"streets\",\"teenager\",\"Kimani Gray\",\"cops\",\"rioting\",\"bricks\",\"bottles\",\"garbage\"],\"target_related\":[\"Protesters\",\"cops\",\"Brooklyn\",\"streets\",\"rioting\",\"battle\",\"clashes\"],\"mediators\":[\"Protesters\",\"cops\",\"Brooklyn\",\"streets\",\"rioting\"]}"
+    },
+    "indirect": {
+      "call_id": "5bcb5115522e804a5df5b42362d177d49f07148257658521a16b00076207e20a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2,3],\"evidence\":\"'Protesters enraged over the fatal shooting' — 'over' and 'after' link the shooting as cause of the enraged protesters.\"}"
+    }
+  },
+  "call_ids": [
+    "442faa82be01b50b3cdc184f8c9cab6a1972d54366e3c62c5d06784be77954f0",
+    "442faa82be01b50b3cdc184f8c9cab6a1972d54366e3c62c5d06784be77954f0",
+    "d2346dce5ece14223bb654a7af027be9b65972f6e76d0f90e255b4d9a77b7440",
+    "9d89818793005ca23d5ecc4041aa9b9d3a4150ee55b4a0fbc4b56e86bd4088b6",
+    "9e670aa0975647d36cd2d24d0a740ffc45a3a305416b6b509fd7c57584dd07de",
+    "5bcb5115522e804a5df5b42362d177d49f07148257658521a16b00076207e20a"
+  ],
+  "elapsed_s": 9.118602752685547
+}

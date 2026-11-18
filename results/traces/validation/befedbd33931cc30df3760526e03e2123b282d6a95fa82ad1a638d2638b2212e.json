@@ -1,0 +1,67 @@
+{
+  "input_hash": "befedbd33931cc30df3760526e03e2123b282d6a95fa82ad1a638d2638b2212e",
+  "sample_id": "ESC-CSV-02345",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "victim",
+    "died",
+    "Monday",
+    "morning",
+    "shooting",
+    "police",
+    "suspect",
+    "worked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "41074ed0502514020097026bf97c667556d31cf881d4ea6727c688a623bc5d3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "41074ed0502514020097026bf97c667556d31cf881d4ea6727c688a623bc5d3f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "035639fc55e589efe11681efef1e852195849fb728612d2d3572e3ebc281b9b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7f521b98481af3cf39fe54e8be2534d7e0e63a5c2664cdc124b351136162396b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7971aae14e684ae67d657cde3dc50e0aed90fd589dd0594a3a15d82283fa55ce",
+      "status": "ok",
+      "text": "{\"source_related\":[\"victim\",\"died\",\"Monday\",\"morning\",\"shooting\",\"police\",\"suspect\",\"worked\"],\"target_related\":[\"victim\",\"died\",\"Monday\",\"morning\",\"attack\",\"hurt\",\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\"],\"mediators\":[\"victim\",\"died\",\"Monday\",\"morning\",\"shooting\",\"police\",\"suspect\",\"worked\"]}"
+    },
+    "indirect": {
+      "call_id": "724e08de40ed62d6c17e1944db8c5692e25ad743c5ab3f3b702fd849d032f8e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The attack occurred before the victim died; common sense holds that a shooting attack causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "41074ed0502514020097026bf97c667556d31cf881d4ea6727c688a623bc5d3f",
+    "41074ed0502514020097026bf97c667556d31cf881d4ea6727c688a623bc5d3f",
+    "035639fc55e589efe11681efef1e852195849fb728612d2d3572e3ebc281b9b0",
+    "7f521b98481af3cf39fe54e8be2534d7e0e63a5c2664cdc124b351136162396b",
+    "7971aae14e684ae67d657cde3dc50e0aed90fd589dd0594a3a15d82283fa55ce",
+    "724e08de40ed62d6c17e1944db8c5692e25ad743c5ab3f3b702fd849d032f8e5"
+  ],
+  "elapsed_s": 5.517015218734741
+}

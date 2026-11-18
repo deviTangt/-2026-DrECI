@@ -1,0 +1,62 @@
+{
+  "input_hash": "3f9be2809666aaf897db8ec09a271ff0df952017cd885439eac001d64464753c",
+  "sample_id": "ESC-CSV-04010",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British man",
+    "New Zealand",
+    "climbing"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "97189e597ae6db144268439aa4cf4a13498732642d07ed455910464131bd2fb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "97189e597ae6db144268439aa4cf4a13498732642d07ed455910464131bd2fb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2b40ee20fb1bc7aa8453e0c1c36e75aeb0d001889579a8a557f848c61d52108e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fc4c6340bc124805a12986129cff67dffd3a7eb03c82702b2076f6cd73caa521",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bc8eb109611c7bdc8aa26ada5d6aff6b98b7de0317074b3d804f7c7600241eee",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British man\",\"climbing\",\"New Zealand\",\"2,000ft\"],\"target_related\":[\"British man\",\"falling\",\"New Zealand\",\"climbing\"],\"mediators\":[\"British man\",\"New Zealand\",\"climbing\"]}"
+    },
+    "indirect": {
+      "call_id": "b642f20b34a2f383375a94d9586ad2177f3f398f46192009b792bf9251aad875",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed after falling' — 'after' plus 'killed' expresses that the fall caused the death; common sense also supports fall causing death.\"}"
+    }
+  },
+  "call_ids": [
+    "97189e597ae6db144268439aa4cf4a13498732642d07ed455910464131bd2fb9",
+    "97189e597ae6db144268439aa4cf4a13498732642d07ed455910464131bd2fb9",
+    "2b40ee20fb1bc7aa8453e0c1c36e75aeb0d001889579a8a557f848c61d52108e",
+    "fc4c6340bc124805a12986129cff67dffd3a7eb03c82702b2076f6cd73caa521",
+    "bc8eb109611c7bdc8aa26ada5d6aff6b98b7de0317074b3d804f7c7600241eee",
+    "b642f20b34a2f383375a94d9586ad2177f3f398f46192009b792bf9251aad875"
+  ],
+  "elapsed_s": 4.192173480987549
+}

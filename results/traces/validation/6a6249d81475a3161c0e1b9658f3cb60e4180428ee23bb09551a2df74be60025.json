@@ -1,0 +1,61 @@
+{
+  "input_hash": "6a6249d81475a3161c0e1b9658f3cb60e4180428ee23bb09551a2df74be60025",
+  "sample_id": "ESC-CSV-02512",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b0d49c38789f7c07fa3f252dcbf30dfb41f9749529ddcee325b811b121fadda6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b0d49c38789f7c07fa3f252dcbf30dfb41f9749529ddcee325b811b121fadda6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ffcef0357825dc58b82fe53390124047d502db54203183703b3cee695b8c2f9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "afe66b780bfd1503282f3fcea7082216b0ac73423b6a161fa5eacdc8d0645b1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c3a403d02650f1a9c10863d5276ec1aa569f52a26e6695916027a2ea4796c4d8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\",\"Gray\"],\"target_related\":[\"Gray\",\"police\",\"Death\",\"Brooklyn Teen\",\"Riots\"],\"mediators\":[\"Gray\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "557039e10e7f00e72133aecf99d442ea28119405c771044c2e28c1699159a5e0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Police 'opened fire' after Gray pointed a gun; the shooting by police caused Gray to be killed, as stated 'killed...by police who...opened fire.'\"}"
+    }
+  },
+  "call_ids": [
+    "b0d49c38789f7c07fa3f252dcbf30dfb41f9749529ddcee325b811b121fadda6",
+    "b0d49c38789f7c07fa3f252dcbf30dfb41f9749529ddcee325b811b121fadda6",
+    "ffcef0357825dc58b82fe53390124047d502db54203183703b3cee695b8c2f9a",
+    "afe66b780bfd1503282f3fcea7082216b0ac73423b6a161fa5eacdc8d0645b1d",
+    "c3a403d02650f1a9c10863d5276ec1aa569f52a26e6695916027a2ea4796c4d8",
+    "557039e10e7f00e72133aecf99d442ea28119405c771044c2e28c1699159a5e0"
+  ],
+  "elapsed_s": 6.413078546524048
+}

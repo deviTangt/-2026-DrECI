@@ -1,0 +1,61 @@
+{
+  "input_hash": "1eada6b7cb0ced825103572698f595f8797a169ee1790b53aa05e8552165d676",
+  "sample_id": "ESC-CSV-07158",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "jail",
+    "booked"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ed40b32a0916df9792517dd6309218be2a1a730a8c2ceba53f98575fb235f50e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ed40b32a0916df9792517dd6309218be2a1a730a8c2ceba53f98575fb235f50e",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "b31f46bb88e8ee543477f4c4566d8bc66abf128b3d58a6e64537ba77a21a9f7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "090dcd09499968d9572ab5c1dee618b34d6d94b297ce98550a8cdcbbe9256b5b",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "9cb8535d3b35e0da137d23c2022bf5c318862728c8a753347347f63cdc05cc8c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"released\",\"jail\",\"booked\"],\"target_related\":[\"bail\",\"jail\",\"booked\"],\"mediators\":[\"jail\",\"booked\"]}"
+    },
+    "indirect": {
+      "call_id": "ba7384a365b70dbe8c3d4d472394909b6b663b665cb30c478211a446df940581",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The word \\\"by\\\" in \\\"released on bail\\\" explicitly links bail (X) as the means causing release (Y).\"}"
+    }
+  },
+  "call_ids": [
+    "ed40b32a0916df9792517dd6309218be2a1a730a8c2ceba53f98575fb235f50e",
+    "ed40b32a0916df9792517dd6309218be2a1a730a8c2ceba53f98575fb235f50e",
+    "b31f46bb88e8ee543477f4c4566d8bc66abf128b3d58a6e64537ba77a21a9f7a",
+    "090dcd09499968d9572ab5c1dee618b34d6d94b297ce98550a8cdcbbe9256b5b",
+    "9cb8535d3b35e0da137d23c2022bf5c318862728c8a753347347f63cdc05cc8c",
+    "ba7384a365b70dbe8c3d4d472394909b6b663b665cb30c478211a446df940581"
+  ],
+  "elapsed_s": 4.106328964233398
+}

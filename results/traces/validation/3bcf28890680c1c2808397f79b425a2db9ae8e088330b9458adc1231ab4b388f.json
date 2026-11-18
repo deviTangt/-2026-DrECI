@@ -1,0 +1,61 @@
+{
+  "input_hash": "3bcf28890680c1c2808397f79b425a2db9ae8e088330b9458adc1231ab4b388f",
+  "sample_id": "ESC-CSV-01557",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman",
+    "fired"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a592d1ee71a0479f8bfc8b72b75d5a62b153b56aeb7b42af224f937013388ee5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a592d1ee71a0479f8bfc8b72b75d5a62b153b56aeb7b42af224f937013388ee5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ff300eb9aed39985f4a20d92d71cfdb9c76547d2575a7ae8f002bd75e999d349",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4936aff4056be1ddb1ec406e8039f652b5aa3683afd224bf05a5594605fe3357",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3f73c3701cdfdf632b494111a92ab5162db43138c17c18441b0f791168a9f89c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"handgun\",\"officer\",\"face\",\"fired\"],\"target_related\":[\"deputy\",\"fatally\",\"shot\",\"gunman\",\"fired\",\"Hawaiian Gardens\",\"Long Beach\",\"gang violence\"],\"mediators\":[\"gunman\",\"fired\"]}"
+    },
+    "indirect": {
+      "call_id": "cea5c7d4ae3b570d51a4ccb949d43908ad74d9ee681641cb3baf069d82977618",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,6],\"evidence\":\"The gunman put a handgun to the officer's face and fired, causing the fatal shooting; the gunman's action of putting the gun led to firing and the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "a592d1ee71a0479f8bfc8b72b75d5a62b153b56aeb7b42af224f937013388ee5",
+    "a592d1ee71a0479f8bfc8b72b75d5a62b153b56aeb7b42af224f937013388ee5",
+    "ff300eb9aed39985f4a20d92d71cfdb9c76547d2575a7ae8f002bd75e999d349",
+    "4936aff4056be1ddb1ec406e8039f652b5aa3683afd224bf05a5594605fe3357",
+    "3f73c3701cdfdf632b494111a92ab5162db43138c17c18441b0f791168a9f89c",
+    "cea5c7d4ae3b570d51a4ccb949d43908ad74d9ee681641cb3baf069d82977618"
+  ],
+  "elapsed_s": 5.193467378616333
+}

@@ -1,0 +1,61 @@
+{
+  "input_hash": "3b83dfe5bce76274c785a5cfb02234b3f1ed4f1424b930ac00d9e6c4f1278e24",
+  "sample_id": "ESC-CSV-09465",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "BLAZE",
+    "bank employees"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "207a891df4731631e333a73cde0c0f4f8be28cfff98dbe7dc394a1b309126378",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "207a891df4731631e333a73cde0c0f4f8be28cfff98dbe7dc394a1b309126378",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "82a675d887edef96f2f933ef2e2bc2f6efe5fe922790d736a440641418483fed",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7d3a4516c6c6b0096d3e8ee46390b532d0108202e8bb05e879d4067ad61f8e75",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e1e0a5d070915d22fa9228ecd079354dc699bc60b669c689e74bd1df37f1f91c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"BLAZE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"],\"target_related\":[\"bank employees\",\"death\"],\"mediators\":[\"BLAZE\",\"bank employees\"]}"
+    },
+    "indirect": {
+      "call_id": "f8b8780b0e405f609eebe21edf49f67432813a7f1c03517df9b38501ebce182c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A blaze breaking out causes people to be burnt; the fire's outbreak precedes and leads to the burning deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "207a891df4731631e333a73cde0c0f4f8be28cfff98dbe7dc394a1b309126378",
+    "207a891df4731631e333a73cde0c0f4f8be28cfff98dbe7dc394a1b309126378",
+    "82a675d887edef96f2f933ef2e2bc2f6efe5fe922790d736a440641418483fed",
+    "7d3a4516c6c6b0096d3e8ee46390b532d0108202e8bb05e879d4067ad61f8e75",
+    "e1e0a5d070915d22fa9228ecd079354dc699bc60b669c689e74bd1df37f1f91c",
+    "f8b8780b0e405f609eebe21edf49f67432813a7f1c03517df9b38501ebce182c"
+  ],
+  "elapsed_s": 4.543745756149292
+}

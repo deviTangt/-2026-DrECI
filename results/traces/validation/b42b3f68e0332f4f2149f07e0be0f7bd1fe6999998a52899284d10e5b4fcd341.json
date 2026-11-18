@@ -1,0 +1,69 @@
+{
+  "input_hash": "b42b3f68e0332f4f2149f07e0be0f7bd1fe6999998a52899284d10e5b4fcd341",
+  "sample_id": "ESC-CSV-02408",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "people",
+    "Detroit",
+    "accounting",
+    "firm",
+    "fired",
+    "arrested",
+    "chase",
+    "attack",
+    "authorities"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "333b617b336a26fe3d85426bff647aa8ad675dd3b2e8b6ac86fa2392606f6749",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "333b617b336a26fe3d85426bff647aa8ad675dd3b2e8b6ac86fa2392606f6749",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "81633528348e82c7f3f12e751c45aecc0a1317fe48b4fde60998a0034a4decfc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "15a144034ccb1f78de1b03787850a577854c8dcd7ae1387b217510e3e54e2acb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "bbfd912b9134fc7818b8119d823e8f5455eea3c8a05be2f963628421f37a6a75",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"people\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"arrested\",\"chase\",\"attack\",\"authorities\"],\"target_related\":[\"man\",\"people\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"arrested\",\"chase\",\"attack\",\"authorities\"],\"mediators\":[\"man\",\"people\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"arrested\",\"chase\",\"attack\",\"authorities\"]}"
+    },
+    "indirect": {
+      "call_id": "2869e6cc203622db0005b216716b4a53bc2c88ba92956929c314b340d0619857",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people occurred before and directly caused the killing of one; common sense: shooting causes killing.\"}"
+    }
+  },
+  "call_ids": [
+    "333b617b336a26fe3d85426bff647aa8ad675dd3b2e8b6ac86fa2392606f6749",
+    "333b617b336a26fe3d85426bff647aa8ad675dd3b2e8b6ac86fa2392606f6749",
+    "81633528348e82c7f3f12e751c45aecc0a1317fe48b4fde60998a0034a4decfc",
+    "15a144034ccb1f78de1b03787850a577854c8dcd7ae1387b217510e3e54e2acb",
+    "bbfd912b9134fc7818b8119d823e8f5455eea3c8a05be2f963628421f37a6a75",
+    "2869e6cc203622db0005b216716b4a53bc2c88ba92956929c314b340d0619857"
+  ],
+  "elapsed_s": 17.342294454574585
+}

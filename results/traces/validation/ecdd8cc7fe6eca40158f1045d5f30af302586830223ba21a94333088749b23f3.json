@@ -1,0 +1,65 @@
+{
+  "input_hash": "ecdd8cc7fe6eca40158f1045d5f30af302586830223ba21a94333088749b23f3",
+  "sample_id": "ESC-CSV-07262",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sunday",
+    "Chargers",
+    "player",
+    "pulled over",
+    "early-morning",
+    "hours"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "67a6042e65eb01bcae697f3297df86b504cda356203ec0b75c71633985eec197",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "67a6042e65eb01bcae697f3297df86b504cda356203ec0b75c71633985eec197",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6416833be211e0249b6816b6af96e820c5d737c3728106187efef681261ea41f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4634e9b8e794977931adc69cf50bcb5b564f7852d6c6a524e8f187dabe08efe5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "32bde1753976ca3a7b48c0025df8d35e74726c70a9f9b25be9125244e4132d04",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Sunday\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\",\"hours\"],\"target_related\":[\"Sunday\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\",\"hours\",\"suspicion\"],\"mediators\":[\"Sunday\",\"Chargers\",\"player\",\"pulled over\",\"early-morning\",\"hours\"]}"
+    },
+    "indirect": {
+      "call_id": "2f26ade12592ec1abb1fdc4e647fa38b622e1379c8ff1277430b33c10704f87a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of DUI' — 'by' links DUI as cause of arrest; common sense: DUI leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "67a6042e65eb01bcae697f3297df86b504cda356203ec0b75c71633985eec197",
+    "67a6042e65eb01bcae697f3297df86b504cda356203ec0b75c71633985eec197",
+    "6416833be211e0249b6816b6af96e820c5d737c3728106187efef681261ea41f",
+    "4634e9b8e794977931adc69cf50bcb5b564f7852d6c6a524e8f187dabe08efe5",
+    "32bde1753976ca3a7b48c0025df8d35e74726c70a9f9b25be9125244e4132d04",
+    "2f26ade12592ec1abb1fdc4e647fa38b622e1379c8ff1277430b33c10704f87a"
+  ],
+  "elapsed_s": 4.742763519287109
+}

@@ -1,0 +1,62 @@
+{
+  "input_hash": "817687d6797833702a07bd62a02f096f257d6ab98ca51b4ffa8d30b785f4fbb3",
+  "sample_id": "ESC-CSV-02110",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Anthony LaCalamita III",
+    "first-degree",
+    "assault with intent to murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "27c8114477d5832c40c7b3038bb46f3d0e142717cab439b436780586e318b7ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "27c8114477d5832c40c7b3038bb46f3d0e142717cab439b436780586e318b7ba",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c2575dcc7cab1784880a6a5e4b52a4e93259fc9d2fb36ac91006c0020722d877",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9a663853569fafe7057f32d539068e4fa1e6591ba180a94ea58f9f8ced08d961",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "18520ecd08b9656e03df8339af9ef2303da3112ab8bc139d7a99874da06a1918",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Anthony LaCalamita III\",\"Madeline Kafoury\",\"shotgun slaying\",\"assault with intent to murder\",\"first-degree\"],\"target_related\":[\"Anthony LaCalamita III\",\"found\",\"first-degree murder\",\"assault with intent to murder\"],\"mediators\":[\"Anthony LaCalamita III\",\"first-degree\",\"assault with intent to murder\"]}"
+    },
+    "indirect": {
+      "call_id": "0c682880b494737009cf6d6f688de80c44632fce9148271cc258acd39737ad1a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being found guilty of first-degree murder follows from the murder; the murder precedes and causes the guilty verdict by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "27c8114477d5832c40c7b3038bb46f3d0e142717cab439b436780586e318b7ba",
+    "27c8114477d5832c40c7b3038bb46f3d0e142717cab439b436780586e318b7ba",
+    "c2575dcc7cab1784880a6a5e4b52a4e93259fc9d2fb36ac91006c0020722d877",
+    "9a663853569fafe7057f32d539068e4fa1e6591ba180a94ea58f9f8ced08d961",
+    "18520ecd08b9656e03df8339af9ef2303da3112ab8bc139d7a99874da06a1918",
+    "0c682880b494737009cf6d6f688de80c44632fce9148271cc258acd39737ad1a"
+  ],
+  "elapsed_s": 6.336612224578857
+}

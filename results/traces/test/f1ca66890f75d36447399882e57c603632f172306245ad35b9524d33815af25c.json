@@ -1,0 +1,68 @@
+{
+  "input_hash": "f1ca66890f75d36447399882e57c603632f172306245ad35b9524d33815af25c",
+  "sample_id": "ESC-CSV-09692",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "injured",
+    "people",
+    "austerity",
+    "measures",
+    "protesters",
+    "police",
+    "buildings",
+    "Athens",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e047f1bb20afdc325655cd4eaa2f4e8c22cbdf3e8841249cff7880556a424e69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e047f1bb20afdc325655cd4eaa2f4e8c22cbdf3e8841249cff7880556a424e69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7616560f68f547f725161924790d8c840f4119c062b116930fdcb16f94b455da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "257abc728856bdce9c80660620b43b17ddbd54205d4949acc1ec44c115fb2b2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6b208a68ebe0e8cfdb2e09c641072b4a85b3a4816fdae5d12488c102bdf3d8bb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"injured\",\"people\",\"austerity\",\"measures\",\"protesters\",\"parliament\",\"police\",\"buildings\",\"Athens\",\"Wednesday\"],\"target_related\":[\"bank\",\"workers\",\"three\",\"injured\",\"people\",\"riots\",\"austerity\",\"measures\",\"protesters\",\"police\",\"buildings\",\"Athens\",\"Wednesday\"],\"mediators\":[\"injured\",\"people\",\"austerity\",\"measures\",\"protesters\",\"police\",\"buildings\",\"Athens\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "d4a63f8007120fc3cc80d12a5142aa6e123e51f95a87ba0c8ba5a3bf0bc6795c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots over austerity measures left three bank workers dead; common sense: riots occurring caused deaths, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "e047f1bb20afdc325655cd4eaa2f4e8c22cbdf3e8841249cff7880556a424e69",
+    "e047f1bb20afdc325655cd4eaa2f4e8c22cbdf3e8841249cff7880556a424e69",
+    "7616560f68f547f725161924790d8c840f4119c062b116930fdcb16f94b455da",
+    "257abc728856bdce9c80660620b43b17ddbd54205d4949acc1ec44c115fb2b2f",
+    "6b208a68ebe0e8cfdb2e09c641072b4a85b3a4816fdae5d12488c102bdf3d8bb",
+    "d4a63f8007120fc3cc80d12a5142aa6e123e51f95a87ba0c8ba5a3bf0bc6795c"
+  ],
+  "elapsed_s": 5.549845933914185
+}

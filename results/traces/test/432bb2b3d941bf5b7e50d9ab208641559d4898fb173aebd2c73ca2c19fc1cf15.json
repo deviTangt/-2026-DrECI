@@ -1,0 +1,62 @@
+{
+  "input_hash": "432bb2b3d941bf5b7e50d9ab208641559d4898fb173aebd2c73ca2c19fc1cf15",
+  "sample_id": "ESC-CSV-06615",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "youths",
+    "trial",
+    "Horton"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "77095e4aae670108445b18719e160623c91983364850fc5b92d000574cd255bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "77095e4aae670108445b18719e160623c91983364850fc5b92d000574cd255bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "48c73accf7d94ddef721e811afefc08805e9bbd94ad29d927b60b671e977778a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7efc868e551c847be4d7046e6f2cd3b4bafa299635b39f0c9cb4e0c30860107a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "f60825c843777915290c6459684fc8f49cd971d66513c92ca8cbb6df91dc3553",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"youths\",\"trial\",\"footage\"],\"target_related\":[\"youths\",\"trial\",\"murdering\",\"Horton\"],\"mediators\":[\"youths\",\"trial\",\"Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "d7645cce41c0bb6fe86ad3c1551386cc43960411af93304b65d4507ac0777b25",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'charged with murdering' describes the accusation, not a causal relation; no explicit/implicit causal words or causal chain between murdering and charged.\"}"
+    }
+  },
+  "call_ids": [
+    "77095e4aae670108445b18719e160623c91983364850fc5b92d000574cd255bd",
+    "77095e4aae670108445b18719e160623c91983364850fc5b92d000574cd255bd",
+    "48c73accf7d94ddef721e811afefc08805e9bbd94ad29d927b60b671e977778a",
+    "7efc868e551c847be4d7046e6f2cd3b4bafa299635b39f0c9cb4e0c30860107a",
+    "f60825c843777915290c6459684fc8f49cd971d66513c92ca8cbb6df91dc3553",
+    "d7645cce41c0bb6fe86ad3c1551386cc43960411af93304b65d4507ac0777b25"
+  ],
+  "elapsed_s": 4.298357725143433
+}

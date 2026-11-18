@@ -1,0 +1,67 @@
+{
+  "input_hash": "1674a51e96f1f53a0a4140d802a18bb372f3db83da46c03d8b91afcc1036af3f",
+  "sample_id": "ESC-CSV-09924",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Athens",
+    "Greek",
+    "capital",
+    "bank",
+    "city",
+    "police",
+    "anarchist",
+    "Exarcheia"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b032553bcb0c6a1d0112f830f08ee82d3475cdd2134d568e3e585bf40c3d0aa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b032553bcb0c6a1d0112f830f08ee82d3475cdd2134d568e3e585bf40c3d0aa2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cf6131fcd654d6467873333fd95260e9e61b368268bd5e4f8787343e72119e25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "95743298babeb29b58e8b9c8a940a22ecae8b6275fe7b86f714fedc2ce9ee0c5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "82a8128ca23b5eba5f63c96d366b8d227774213f0a01c2352fad9d63d67d3b9a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"workers\",\"Athens\",\"Marfin\",\"boss\",\"site\"],\"target_related\":[\"clashes\",\"Greek\",\"capital\",\"crowd\",\"bank\",\"inner\",\"city\",\"police\",\"forces\",\"anarchist\",\"squat\",\"Exarcheia\"],\"mediators\":[\"Athens\",\"Greek\",\"capital\",\"bank\",\"city\",\"police\",\"anarchist\",\"Exarcheia\"]}"
+    },
+    "indirect": {
+      "call_id": "e3008096efb90f0c846a8d9a7d69a6a5b9d12a91e9e17ab897f854803c5631b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The death of three workers 'made the round' and new clashes started to spread, implying the deaths provoked/fueled the battles; deaths precede and plausibly cause unrest.\"}"
+    }
+  },
+  "call_ids": [
+    "b032553bcb0c6a1d0112f830f08ee82d3475cdd2134d568e3e585bf40c3d0aa2",
+    "b032553bcb0c6a1d0112f830f08ee82d3475cdd2134d568e3e585bf40c3d0aa2",
+    "cf6131fcd654d6467873333fd95260e9e61b368268bd5e4f8787343e72119e25",
+    "95743298babeb29b58e8b9c8a940a22ecae8b6275fe7b86f714fedc2ce9ee0c5",
+    "82a8128ca23b5eba5f63c96d366b8d227774213f0a01c2352fad9d63d67d3b9a",
+    "e3008096efb90f0c846a8d9a7d69a6a5b9d12a91e9e17ab897f854803c5631b9"
+  ],
+  "elapsed_s": 6.14933705329895
+}

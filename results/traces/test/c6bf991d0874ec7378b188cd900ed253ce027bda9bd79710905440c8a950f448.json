@@ -1,0 +1,66 @@
+{
+  "input_hash": "c6bf991d0874ec7378b188cd900ed253ce027bda9bd79710905440c8a950f448",
+  "sample_id": "ESC-CSV-09740",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "demonstrators",
+    "riot",
+    "police",
+    "cordon",
+    "Parliament",
+    "Athens",
+    "protesters"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ca5e821cbddf1e6609f00b296a54071385660da4aa46f28727c50fe83fb8887f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ca5e821cbddf1e6609f00b296a54071385660da4aa46f28727c50fe83fb8887f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2b4bceca2d8bd387d39f96a6d25a8d1948b37259206bbd749ee3b702e5987a44",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "26377475706db04c2607a0c645b5e99a0682312b0d55d5441d780af967a8b366",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "29f012d1bf7107aaa657544c81dc1145f95a323015b96c92f438d50a101f7f19",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"measures\",\"bank\",\"workers\",\"streets\",\"Athens\",\"Wednesday\",\"protesters\",\"parliament\",\"Molotov\",\"cocktails\",\"police\",\"buildings\",\"demonstrators\",\"Thieves\",\"riot\",\"cordon\",\"guards\",\"Tomb\",\"Unknown\",\"Soldier\"],\"target_related\":[\"demonstrators\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"Athens\",\"protesters\"],\"mediators\":[\"demonstrators\",\"riot\",\"police\",\"cordon\",\"Parliament\",\"Athens\",\"protesters\"]}"
+    },
+    "indirect": {
+      "call_id": "fce756df1c1f11953a5eca72aef637679520a1cbbb457b5e93242432b8862c18",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Demonstrators (riots/protesters) attempted to break through the riot police cordon; rioting/protesting naturally leads to attempts to break through police lines.\"}"
+    }
+  },
+  "call_ids": [
+    "ca5e821cbddf1e6609f00b296a54071385660da4aa46f28727c50fe83fb8887f",
+    "ca5e821cbddf1e6609f00b296a54071385660da4aa46f28727c50fe83fb8887f",
+    "2b4bceca2d8bd387d39f96a6d25a8d1948b37259206bbd749ee3b702e5987a44",
+    "26377475706db04c2607a0c645b5e99a0682312b0d55d5441d780af967a8b366",
+    "29f012d1bf7107aaa657544c81dc1145f95a323015b96c92f438d50a101f7f19",
+    "fce756df1c1f11953a5eca72aef637679520a1cbbb457b5e93242432b8862c18"
+  ],
+  "elapsed_s": 5.019089460372925
+}

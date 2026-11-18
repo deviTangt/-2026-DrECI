@@ -1,0 +1,62 @@
+{
+  "input_hash": "9c80ca2b4140196d9a90a900042e3a722fb2807d9830fc2ad4d18c61ac3e91c1",
+  "sample_id": "ESC-CSV-04122",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "climber",
+    "Mt Cook",
+    "died"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e2d70289cbe524f8369e6d9fc58b891f92d2d65b28f291d6e51ed92e54c6d7b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e2d70289cbe524f8369e6d9fc58b891f92d2d65b28f291d6e51ed92e54c6d7b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9cd783be4d819cf39240cc7ef2713215caa30cd2c381d924ca97175b1f660f4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "308536a7fa7ed6f63580926342365b9da7c49bcccedcd24e31e26ea41135e626",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1abf0dea0193a1efb61494f9eed7843ad12a1e47a3bc5ca68e63b29fb6a56278",
+      "status": "ok",
+      "text": "{\"source_related\":[\"climber\",\"died\",\"Mt Cook\",\"metres\"],\"target_related\":[\"climbers\",\"Mt Cook\",\"falls\",\"died\"],\"mediators\":[\"climber\",\"Mt Cook\",\"died\"]}"
+    },
+    "indirect": {
+      "call_id": "60b70012eb4c4b21d79474a871bc584a480fa6e16624ba4f7ea44d000955fa26",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'died after falling' uses 'after' to link falling to death; common sense: a 150-metre fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "e2d70289cbe524f8369e6d9fc58b891f92d2d65b28f291d6e51ed92e54c6d7b0",
+    "e2d70289cbe524f8369e6d9fc58b891f92d2d65b28f291d6e51ed92e54c6d7b0",
+    "9cd783be4d819cf39240cc7ef2713215caa30cd2c381d924ca97175b1f660f4f",
+    "308536a7fa7ed6f63580926342365b9da7c49bcccedcd24e31e26ea41135e626",
+    "1abf0dea0193a1efb61494f9eed7843ad12a1e47a3bc5ca68e63b29fb6a56278",
+    "60b70012eb4c4b21d79474a871bc584a480fa6e16624ba4f7ea44d000955fa26"
+  ],
+  "elapsed_s": 3.8562920093536377
+}

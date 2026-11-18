@@ -1,0 +1,63 @@
+{
+  "input_hash": "fbf2f28c00a857f692dccf3a27849a7a02dc381a3f9400fc816defd267d1f4ac",
+  "sample_id": "ESC-CSV-09410",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Greece",
+    "rioters",
+    "bomb"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ae064336b84470f2dd49f981f2efd4ae232055fe3b9f6f198c37e466788989a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ae064336b84470f2dd49f981f2efd4ae232055fe3b9f6f198c37e466788989a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9cd780676fc281d9ecf89b22700bf279c656b6283f9ed62e8e43996fe01135c8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7d41b86cea54b359e16132ad1810242f2893abd020ecf9bf44cbd9e8212b4604",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7e8f1355de02c77daecdb029be25a8ff5b83f0fcdd652e0feff556dfb90d4975",
+      "status": "ok",
+      "text": "{\"source_related\":[\"firebomb\",\"bank\",\"Greece\",\"rioters\",\"bomb\"],\"target_related\":[\"people\",\"rioters\",\"bomb\",\"bank\",\"Greece\"],\"mediators\":[\"bank\",\"Greece\",\"rioters\",\"bomb\"]}"
+    },
+    "indirect": {
+      "call_id": "f2b043e61ee717dff0e1efbe21d4a0c3a7fe02226823a5722cddd238559f699f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'A firebomb attack ... killed at least three people' — the verb 'killed' explicitly links the attack to the deaths, and an attack causing deaths follows common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "ae064336b84470f2dd49f981f2efd4ae232055fe3b9f6f198c37e466788989a2",
+    "ae064336b84470f2dd49f981f2efd4ae232055fe3b9f6f198c37e466788989a2",
+    "9cd780676fc281d9ecf89b22700bf279c656b6283f9ed62e8e43996fe01135c8",
+    "7d41b86cea54b359e16132ad1810242f2893abd020ecf9bf44cbd9e8212b4604",
+    "7e8f1355de02c77daecdb029be25a8ff5b83f0fcdd652e0feff556dfb90d4975",
+    "f2b043e61ee717dff0e1efbe21d4a0c3a7fe02226823a5722cddd238559f699f"
+  ],
+  "elapsed_s": 4.954380512237549
+}

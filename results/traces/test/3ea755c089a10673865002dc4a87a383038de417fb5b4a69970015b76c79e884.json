@@ -1,0 +1,60 @@
+{
+  "input_hash": "3ea755c089a10673865002dc4a87a383038de417fb5b4a69970015b76c79e884",
+  "sample_id": "ESC-CSV-09383",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "window"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3da1937303eb4b86e90b894654b5847c36a1e4c0932dd9b09104ee81d6199097",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3da1937303eb4b86e90b894654b5847c36a1e4c0932dd9b09104ee81d6199097",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d79dc9e6faedf612c0556c8d9ee1c9f4085c8d4d6eeac48c7947bb33fb5e219",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2230a9fc4d6e1cad9e8e3265c8bb6541198891cee8045d3a1fbdaf51717a6000",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "789d8d84a70cec5b2a98ea427094ff63797a3f2fa27b764a4a2ac0c36fbb9467",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"window\",\"Molotov cocktails\"],\"target_related\":[\"Marfin bank\",\"buildings\"],\"mediators\":[\"window\"]}"
+    },
+    "indirect": {
+      "call_id": "5f5d75cb67e451b9c81c8c14f6a397214b7251145e8df60ab21f9973cfdb8a85",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"\\\"caught fire after rioters broke a window and threw Molotov cocktails inside\\\" — \\\"after\\\" marks temporal/causal order; breaking window enabled firebombs, causing fire.\"}"
+    }
+  },
+  "call_ids": [
+    "3da1937303eb4b86e90b894654b5847c36a1e4c0932dd9b09104ee81d6199097",
+    "3da1937303eb4b86e90b894654b5847c36a1e4c0932dd9b09104ee81d6199097",
+    "0d79dc9e6faedf612c0556c8d9ee1c9f4085c8d4d6eeac48c7947bb33fb5e219",
+    "2230a9fc4d6e1cad9e8e3265c8bb6541198891cee8045d3a1fbdaf51717a6000",
+    "789d8d84a70cec5b2a98ea427094ff63797a3f2fa27b764a4a2ac0c36fbb9467",
+    "5f5d75cb67e451b9c81c8c14f6a397214b7251145e8df60ab21f9973cfdb8a85"
+  ],
+  "elapsed_s": 5.402947187423706
+}

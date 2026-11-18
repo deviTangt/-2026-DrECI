@@ -1,0 +1,62 @@
+{
+  "input_hash": "3227c94d2e42f103beabccef666397708bdc5d6c9bd9c1fd6ddcf4beb09128b0",
+  "sample_id": "ESC-CSV-09256",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "three",
+    "bank",
+    "workers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "90cb89825f73124c82c769a0fee696862c27c059bcf0662f4ce632827f763789",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "90cb89825f73124c82c769a0fee696862c27c059bcf0662f4ce632827f763789",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fd2dff491a3d5fc19d738f1bb2098a6dedc046a7789b90021c89d9fa680814da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "98368caaa768cf5deae54cc690aad65950849909202c3de927a6fd26ff6a47e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "d81a3324b5ebe5783662ab4d1d3b8685448d62c4310d1ef5edde7352e36fb861",
+      "status": "ok",
+      "text": "{\"source_related\":[\"three\",\"bank\",\"workers\",\"building\",\"torched\",\"protests\",\"Athens\"],\"target_related\":[\"three\",\"bank\",\"workers\",\"Greek\",\"prime\",\"minister\"],\"mediators\":[\"three\",\"bank\",\"workers\"]}"
+    },
+    "indirect": {
+      "call_id": "ec94676173a72e152d2db7074e116a4c6c0b245b7a874868fb3d542ad6454799",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed when the building...was torched' — 'when' links the killing to the arson; the killing is what the PM calls 'murder', so killing causes the murder characterization.\"}"
+    }
+  },
+  "call_ids": [
+    "90cb89825f73124c82c769a0fee696862c27c059bcf0662f4ce632827f763789",
+    "90cb89825f73124c82c769a0fee696862c27c059bcf0662f4ce632827f763789",
+    "fd2dff491a3d5fc19d738f1bb2098a6dedc046a7789b90021c89d9fa680814da",
+    "98368caaa768cf5deae54cc690aad65950849909202c3de927a6fd26ff6a47e4",
+    "d81a3324b5ebe5783662ab4d1d3b8685448d62c4310d1ef5edde7352e36fb861",
+    "ec94676173a72e152d2db7074e116a4c6c0b245b7a874868fb3d542ad6454799"
+  ],
+  "elapsed_s": 4.728066682815552
+}

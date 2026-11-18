@@ -1,0 +1,79 @@
+{
+  "input_hash": "07421f85122febc8cb5b440a514a662d7f79fcbdc7657f53fa1f37eb4e1b3ae1",
+  "sample_id": "ESC-CSV-09397",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Deadly",
+    "fire",
+    "bomb",
+    "hits",
+    "bank",
+    "Greek",
+    "police",
+    "fought",
+    "pitched",
+    "battles",
+    "striking",
+    "protestors",
+    "furious",
+    "brutal",
+    "budget",
+    "cuts",
+    "designed",
+    "avert",
+    "national",
+    "bankruptcy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d703deab189d7c09136cbb546eab8bf9f85d0320ed364755fd7ea433b57587e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d703deab189d7c09136cbb546eab8bf9f85d0320ed364755fd7ea433b57587e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "eb76f8a26c05550fde666e1fb0871642b8a469c57e0b9b218dc5411670231a93",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ee904d2ed8d8a91ae34b3ca958a7316db82987955c61a9fc290292c21867cf5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3495039cddceee0e3f0ffd96d05dd2333fe37948f3fce872723bd3575d8768df",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Deadly\",\"fire\",\"bomb\",\"hits\",\"bank\",\"Greek\",\"police\",\"fought\",\"pitched\",\"battles\",\"striking\",\"protestors\",\"furious\",\"brutal\",\"budget\",\"cuts\",\"designed\",\"avert\",\"national\",\"bankruptcy\"],\"target_related\":[\"Deadly\",\"fire\",\"bomb\",\"hits\",\"bank\",\"Greek\",\"police\",\"fought\",\"pitched\",\"battles\",\"striking\",\"protestors\",\"furious\",\"brutal\",\"budget\",\"cuts\",\"designed\",\"avert\",\"national\",\"bankruptcy\"],\"mediators\":[\"Deadly\",\"fire\",\"bomb\",\"hits\",\"bank\",\"Greek\",\"police\",\"fought\",\"pitched\",\"battles\",\"striking\",\"protestors\",\"furious\",\"brutal\",\"budget\",\"cuts\",\"designed\",\"avert\",\"national\",\"bankruptcy\"]}"
+    },
+    "indirect": {
+      "call_id": "36fb9d7f89d14482e86bfc6fea87d986176d98a1cabe1c36952d1a5afbb8ef26",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Riots/protests precede the bomb attack on a bank that killed three people; common sense links riot unrest to the deadly attack.\"}"
+    }
+  },
+  "call_ids": [
+    "d703deab189d7c09136cbb546eab8bf9f85d0320ed364755fd7ea433b57587e4",
+    "d703deab189d7c09136cbb546eab8bf9f85d0320ed364755fd7ea433b57587e4",
+    "eb76f8a26c05550fde666e1fb0871642b8a469c57e0b9b218dc5411670231a93",
+    "ee904d2ed8d8a91ae34b3ca958a7316db82987955c61a9fc290292c21867cf5a",
+    "3495039cddceee0e3f0ffd96d05dd2333fe37948f3fce872723bd3575d8768df",
+    "36fb9d7f89d14482e86bfc6fea87d986176d98a1cabe1c36952d1a5afbb8ef26"
+  ],
+  "elapsed_s": 6.350659132003784
+}

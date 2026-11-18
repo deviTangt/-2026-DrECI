@@ -1,0 +1,62 @@
+{
+  "input_hash": "dc2421d09fc5e579f8703df233ba55276a38f92a175d0b6ee8841b880346b221",
+  "sample_id": "ESC-CSV-07004",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "freeway",
+    "downtown"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3fe61ef6234ba404450e6a57724138e4896accfe10023bba36b7beb7bf2f5d34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3fe61ef6234ba404450e6a57724138e4896accfe10023bba36b7beb7bf2f5d34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c47685f915eab7c2ef38187c268ff6332fb2235e63da4758615fc4095ca2499c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "124a91ffebfeda001dc859e0b1d63345413877a349be46170b0f2725452c9420",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "94ea4ec968f4e597752743aa3f24b4269a5750ceee47e0fcf2d950038679345d",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"pulled over\",\"freeway\",\"downtown\"],\"target_related\":[\"Williams\",\"speeding\",\"freeway\",\"downtown\"],\"mediators\":[\"Williams\",\"freeway\",\"downtown\"]}"
+    },
+    "indirect": {
+      "call_id": "565bf8f97b565bb308098223205d149020898cba970cddb862605b4d4a98d0bd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'pulled over for speeding' uses 'for' to express that speeding was the reason for being pulled over, indicating explicit causation.\"}"
+    }
+  },
+  "call_ids": [
+    "3fe61ef6234ba404450e6a57724138e4896accfe10023bba36b7beb7bf2f5d34",
+    "3fe61ef6234ba404450e6a57724138e4896accfe10023bba36b7beb7bf2f5d34",
+    "c47685f915eab7c2ef38187c268ff6332fb2235e63da4758615fc4095ca2499c",
+    "124a91ffebfeda001dc859e0b1d63345413877a349be46170b0f2725452c9420",
+    "94ea4ec968f4e597752743aa3f24b4269a5750ceee47e0fcf2d950038679345d",
+    "565bf8f97b565bb308098223205d149020898cba970cddb862605b4d4a98d0bd"
+  ],
+  "elapsed_s": 4.941051244735718
+}

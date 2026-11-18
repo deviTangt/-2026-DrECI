@@ -1,0 +1,64 @@
+{
+  "input_hash": "099284d2fc83225b09437b13206ff7617c49103fe9abac87cee5ac2a833b0391",
+  "sample_id": "ESC-CSV-04494",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "robbers",
+    "jewelry",
+    "watches",
+    "Paris",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f262dcd5ca1fb88abdaf65a8ff13f68785478a33085e530ead8e4ea894389f04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f262dcd5ca1fb88abdaf65a8ff13f68785478a33085e530ead8e4ea894389f04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a99cf0d4127ba923f1f6b40707687c696d7c489087f1b5e4ec1e89a3698b660e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dec97f07cd9c49ce07e192addb576c9e68a278ff4491c765629dde486b2a6ff0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f0c08ee1ff3b8c852ee058b377d9a3e837f8bbdf53f44d502714d521f511c39e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\",\"Crooks\"],\"mediators\":[\"robbers\",\"jewelry\",\"watches\",\"Paris\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "4a4daf067d56a7c5404c2439c4aa394cdc9665b94eb8450b7e47eab161d09676",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A smash-and-grab (breaking in and grabbing goods) naturally precedes and enables the robbers' heist of jewelry and watches; common sense supports smash causing the heist.\"}"
+    }
+  },
+  "call_ids": [
+    "f262dcd5ca1fb88abdaf65a8ff13f68785478a33085e530ead8e4ea894389f04",
+    "f262dcd5ca1fb88abdaf65a8ff13f68785478a33085e530ead8e4ea894389f04",
+    "a99cf0d4127ba923f1f6b40707687c696d7c489087f1b5e4ec1e89a3698b660e",
+    "dec97f07cd9c49ce07e192addb576c9e68a278ff4491c765629dde486b2a6ff0",
+    "f0c08ee1ff3b8c852ee058b377d9a3e837f8bbdf53f44d502714d521f511c39e",
+    "4a4daf067d56a7c5404c2439c4aa394cdc9665b94eb8450b7e47eab161d09676"
+  ],
+  "elapsed_s": 4.902692079544067
+}

@@ -1,0 +1,65 @@
+{
+  "input_hash": "5edd8880f63309f62cb694e00c36a0574cdf7ba48f9c359bf6cb659a73ba7816",
+  "sample_id": "ESC-CSV-01520",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jerry Ortiz",
+    "Los Angeles County Sheriff's Deputy",
+    "ambush",
+    "June 2005",
+    "case",
+    "warrants"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "debd453687078fb4cc2e938d1125ab6180b1ceeeb6ded9a07b0be9f1e64a3ea8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "debd453687078fb4cc2e938d1125ab6180b1ceeeb6ded9a07b0be9f1e64a3ea8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d6a323486da520a9cafe34f19ea2ba9f7e6c379377a66a1719dc1d98d2aa975c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7e94b467caf027a62df15f13d4f4beec79a2ca3cfae6ed2796383d96fbb6849f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a12c916149ce4fc61932627943e44ee64399f08bbcc6886468ba233b481567f6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jerry Ortiz\",\"Los Angeles County Sheriff's Deputy\",\"ambush\",\"June 2005\"],\"target_related\":[\"life without parole\",\"case\",\"warrants\"],\"mediators\":[\"Jerry Ortiz\",\"Los Angeles County Sheriff's Deputy\",\"ambush\",\"June 2005\",\"case\",\"warrants\"]}"
+    },
+    "indirect": {
+      "call_id": "d9cb8494d7e16e19e8cddcfdeea8ceae60095207f9bf6ca592097b5a7fbe6ce9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The ambush slaying of Deputy Ortiz is the crime for which the judge concluded the case warrants death, so the slaying causes the death sentence by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "debd453687078fb4cc2e938d1125ab6180b1ceeeb6ded9a07b0be9f1e64a3ea8",
+    "debd453687078fb4cc2e938d1125ab6180b1ceeeb6ded9a07b0be9f1e64a3ea8",
+    "d6a323486da520a9cafe34f19ea2ba9f7e6c379377a66a1719dc1d98d2aa975c",
+    "7e94b467caf027a62df15f13d4f4beec79a2ca3cfae6ed2796383d96fbb6849f",
+    "a12c916149ce4fc61932627943e44ee64399f08bbcc6886468ba233b481567f6",
+    "d9cb8494d7e16e19e8cddcfdeea8ceae60095207f9bf6ca592097b5a7fbe6ce9"
+  ],
+  "elapsed_s": 6.823641061782837
+}

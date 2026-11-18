@@ -1,0 +1,63 @@
+{
+  "input_hash": "4632c706355e553e5bb8472ee18f358b4d4339ee88def8b5f19d09d9389178e4",
+  "sample_id": "ESC-CSV-02785",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "Vigil",
+    "Teen",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "489c099eec605d9495052f024fbaf77802538bdd2491279f4aaef036004493c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "489c099eec605d9495052f024fbaf77802538bdd2491279f4aaef036004493c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "442910166b6bcfd6464c065c94be121a327902e2436df7e750327d9334da8f65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f3c6c5d7ed7897301e46e59ad5aa19fcf8563f9055866b406fa294940e629e17",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9f1f6cb86f264e929c4c3e6f9cff3adb093aadd8595e0b170434aeff1ddcc055",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Teen\",\"Police\",\"Vigil\",\"Brooklyn\"],\"target_related\":[\"Brooklyn\",\"Vigil\",\"Teen\",\"Police\"],\"mediators\":[\"Brooklyn\",\"Vigil\",\"Teen\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "0fae84f1b5899d659b69660284e995acd7d06144e0cb06ea87b0693e959fe887",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The teen being shot by police precedes and prompts the vigil, during which the riot breaks out; common sense links the shooting to the ensuing riot.\"}"
+    }
+  },
+  "call_ids": [
+    "489c099eec605d9495052f024fbaf77802538bdd2491279f4aaef036004493c1",
+    "489c099eec605d9495052f024fbaf77802538bdd2491279f4aaef036004493c1",
+    "442910166b6bcfd6464c065c94be121a327902e2436df7e750327d9334da8f65",
+    "f3c6c5d7ed7897301e46e59ad5aa19fcf8563f9055866b406fa294940e629e17",
+    "9f1f6cb86f264e929c4c3e6f9cff3adb093aadd8595e0b170434aeff1ddcc055",
+    "0fae84f1b5899d659b69660284e995acd7d06144e0cb06ea87b0693e959fe887"
+  ],
+  "elapsed_s": 3.8465473651885986
+}

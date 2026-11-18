@@ -1,0 +1,67 @@
+{
+  "input_hash": "c68ee235c4824047bdca15f5d4018f60ca9a1c0c12126a9383e69c9c7669bcbf",
+  "sample_id": "ESC-CSV-02230",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "man",
+    "Monday",
+    "Detroit",
+    "accounting",
+    "firm",
+    "fired",
+    "police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c40d5042b82f5c67a113087e6384248c14c22b73e953e7e5d7bab0eeee0426ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c40d5042b82f5c67a113087e6384248c14c22b73e953e7e5d7bab0eeee0426ee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a6da7e7cafff809a2139df54f5c0625d11daa799b9442c89ff27c5b8ac9c49ea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "bbd979591c74f1acffff6395d6caa049546b2fe64f086ec7ab916e44baf27cbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a1e3d11a03c739b8569ee65b3e5a211315a0dcd03240277375416bed59588295",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"man\",\"person\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"],\"target_related\":[\"Michigan\",\"man\",\"others\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"],\"mediators\":[\"Michigan\",\"man\",\"Monday\",\"Detroit\",\"accounting\",\"firm\",\"fired\",\"police\"]}"
+    },
+    "indirect": {
+      "call_id": "dd07c103d8d04ba8d8dd5572fc43e6da08d76a500a49a2ac3a629a39fc9404e2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting someone is the physical action that causes injury; shot precedes and directly produces the injured state.\"}"
+    }
+  },
+  "call_ids": [
+    "c40d5042b82f5c67a113087e6384248c14c22b73e953e7e5d7bab0eeee0426ee",
+    "c40d5042b82f5c67a113087e6384248c14c22b73e953e7e5d7bab0eeee0426ee",
+    "a6da7e7cafff809a2139df54f5c0625d11daa799b9442c89ff27c5b8ac9c49ea",
+    "bbd979591c74f1acffff6395d6caa049546b2fe64f086ec7ab916e44baf27cbf",
+    "a1e3d11a03c739b8569ee65b3e5a211315a0dcd03240277375416bed59588295",
+    "dd07c103d8d04ba8d8dd5572fc43e6da08d76a500a49a2ac3a629a39fc9404e2"
+  ],
+  "elapsed_s": 8.464236497879028
+}

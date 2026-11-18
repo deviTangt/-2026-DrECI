@@ -1,0 +1,66 @@
+{
+  "input_hash": "fed3740e183d90275dfa5e273343337ff21c6329c29e8c79366f08ef02cb8029",
+  "sample_id": "ESC-CSV-02045",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "bosses",
+    "shotgun",
+    "receptionist",
+    "killing",
+    "murder",
+    "charges"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "55829cc8adcbe973e5db13978d52137aae8f6df0fb2b48879347799d0ad885fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "55829cc8adcbe973e5db13978d52137aae8f6df0fb2b48879347799d0ad885fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "12e8204dcb20cb8dc6ec17b0144da7a8075947cf44929a60347f35d517eefbef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "7790574c194b5c82390597659807edfba3b0c564408ccb1a5514dcf57393f8ef",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9a988642e92dc9fe0d0b299bae3aa37be7a86a668bc6121bfbec8759e2d540a2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"bosses\",\"shotgun\",\"receptionist\",\"killing\",\"murder\",\"charges\"],\"target_related\":[\"accountant\",\"bosses\",\"shotgun\",\"receptionist\",\"killing\",\"murder\",\"charges\"],\"mediators\":[\"accountant\",\"bosses\",\"shotgun\",\"receptionist\",\"killing\",\"murder\",\"charges\"]}"
+    },
+    "indirect": {
+      "call_id": "2ee2a9bbfd4264eb9d24a2eb206d5fb78ab89fba72dd6162476c1a7901660f80",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A shotgun attack logically precedes and causes the wounding of the two former bosses; the attack is the means by which they were wounded.\"}"
+    }
+  },
+  "call_ids": [
+    "55829cc8adcbe973e5db13978d52137aae8f6df0fb2b48879347799d0ad885fc",
+    "55829cc8adcbe973e5db13978d52137aae8f6df0fb2b48879347799d0ad885fc",
+    "12e8204dcb20cb8dc6ec17b0144da7a8075947cf44929a60347f35d517eefbef",
+    "7790574c194b5c82390597659807edfba3b0c564408ccb1a5514dcf57393f8ef",
+    "9a988642e92dc9fe0d0b299bae3aa37be7a86a668bc6121bfbec8759e2d540a2",
+    "2ee2a9bbfd4264eb9d24a2eb206d5fb78ab89fba72dd6162476c1a7901660f80"
+  ],
+  "elapsed_s": 4.3142476081848145
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "3ae4cc11f94c004968eb8b926c71b0c24ca1c86fd781ae484fc964ef5318d3e3",
+  "sample_id": "ESC-CSV-04582",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "jewelry"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a1360f5a0d82a1a2343a81d0a4ce5bd35818472e3b4d4b046e2da2e5cffe19ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a1360f5a0d82a1a2343a81d0a4ce5bd35818472e3b4d4b046e2da2e5cffe19ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "680485294260985e962ba68f68be288c22d17be4f8a5faf5c482c1374d5263f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ff1bc31e116b7c0d854f703c5cf35eb779ed7c31d9928842e34692d9bf2c9406",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "62ec1c8cbe64e44934155da670507a31a4867abecfe2c9cd09792cb4c2d8a526",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Four\",\"men\",\"car\",\"jewelry\",\"store\",\"Paris\",\"Monday\",\"window\",\"jewelry\"],\"target_related\":[\"Place Vendome\",\"France\",\"robberies\",\"Cannes\"],\"mediators\":[\"jewelry\"]}"
+    },
+    "indirect": {
+      "call_id": "a7ccd10aa1590e0a92de2e09a24f70bec234f1f7de01377635f3ee9d31d17b0b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the car into the store smashed the window and enabled the jewelry theft, so the ramming caused the heist by common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "a1360f5a0d82a1a2343a81d0a4ce5bd35818472e3b4d4b046e2da2e5cffe19ec",
+    "a1360f5a0d82a1a2343a81d0a4ce5bd35818472e3b4d4b046e2da2e5cffe19ec",
+    "680485294260985e962ba68f68be288c22d17be4f8a5faf5c482c1374d5263f1",
+    "ff1bc31e116b7c0d854f703c5cf35eb779ed7c31d9928842e34692d9bf2c9406",
+    "62ec1c8cbe64e44934155da670507a31a4867abecfe2c9cd09792cb4c2d8a526",
+    "a7ccd10aa1590e0a92de2e09a24f70bec234f1f7de01377635f3ee9d31d17b0b"
+  ],
+  "elapsed_s": 4.034024000167847
+}

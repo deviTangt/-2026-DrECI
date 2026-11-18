@@ -1,0 +1,63 @@
+{
+  "input_hash": "bfd4f0c42afd8980ed85131bd69d41b93501cf9db586b2c6510a238de37a2987",
+  "sample_id": "ESC-CSV-09513",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "rioters",
+    "Greece",
+    "Athens",
+    "bank"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0bbdb533f0db84a34a14c4404e5573868a72aa63ca521f867bb83348dbff430c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0bbdb533f0db84a34a14c4404e5573868a72aa63ca521f867bb83348dbff430c",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6323d4cff6a91ebc25bd8b2a86f8618c8a3c9c0e164426dfb15213f004cb0796",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "14864d3c10d3c1e70afd3b405d32eb23f9f1587fa37e272c7b75d6b9e7f375bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "23e745fd26a467e425ed55a9b32679fa8a9249b56d34b1ceec77a9a288d3a921",
+      "status": "ok",
+      "text": "{\"source_related\":[\"rioters\",\"Greece\",\"Athens\",\"bank\",\"spending cuts\",\"economy\"],\"target_related\":[\"rioters\",\"Greece\",\"Athens\",\"bank\",\"strike\"],\"mediators\":[\"rioters\",\"Greece\",\"Athens\",\"bank\"]}"
+    },
+    "indirect": {
+      "call_id": "a2e0dc25013eb887b57f2b25dc74ed9ca7c7212452258aa9ed3def4fb8efb76a",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The strike is the context in which rioters set fire to a bank; no explicit or implicit causal word links strike to the arson, and common sense does not make the strike cause the fire.\"}"
+    }
+  },
+  "call_ids": [
+    "0bbdb533f0db84a34a14c4404e5573868a72aa63ca521f867bb83348dbff430c",
+    "0bbdb533f0db84a34a14c4404e5573868a72aa63ca521f867bb83348dbff430c",
+    "6323d4cff6a91ebc25bd8b2a86f8618c8a3c9c0e164426dfb15213f004cb0796",
+    "14864d3c10d3c1e70afd3b405d32eb23f9f1587fa37e272c7b75d6b9e7f375bf",
+    "23e745fd26a467e425ed55a9b32679fa8a9249b56d34b1ceec77a9a288d3a921",
+    "a2e0dc25013eb887b57f2b25dc74ed9ca7c7212452258aa9ed3def4fb8efb76a"
+  ],
+  "elapsed_s": 4.529921770095825
+}

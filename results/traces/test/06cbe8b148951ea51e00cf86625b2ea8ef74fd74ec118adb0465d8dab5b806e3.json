@@ -1,0 +1,65 @@
+{
+  "input_hash": "06cbe8b148951ea51e00cf86625b2ea8ef74fd74ec118adb0465d8dab5b806e3",
+  "sample_id": "ESC-CSV-06566",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "shot",
+    "October",
+    "2011",
+    "erupted",
+    "outside"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "799c54a5b2cd55314e21d6593c4f087c7459f53fc54d0f7e6d8c18bfb2fa8020",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "799c54a5b2cd55314e21d6593c4f087c7459f53fc54d0f7e6d8c18bfb2fa8020",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2e2bddeac0f15e457a87a63f80a4d8b80347e40816c4db6378c8b8f52c60a700",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "83ba11800d5fc2f3bab8406c5a991a3d5110f33676ace7731581e8659fc865db",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "5c680c92557dd92721fc15db5fc7f37309643135adf52c74fa4de84d8606ae67",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"shot\",\"October\",\"2011\",\"erupted\",\"outside\"],\"target_related\":[\"Horton\",\"shot\",\"October\",\"2011\",\"gunfire\",\"erupted\",\"outside\"],\"mediators\":[\"Horton\",\"shot\",\"October\",\"2011\",\"erupted\",\"outside\"]}"
+    },
+    "indirect": {
+      "call_id": "1c56f15bf1e6b55bb17cd9cb5220527cb4c1cb67756e23e5233c7b8b80bf50b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot and killed ... when gunfire erupted' — 'when' links gunfire to the killing; common sense: gunfire causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "799c54a5b2cd55314e21d6593c4f087c7459f53fc54d0f7e6d8c18bfb2fa8020",
+    "799c54a5b2cd55314e21d6593c4f087c7459f53fc54d0f7e6d8c18bfb2fa8020",
+    "2e2bddeac0f15e457a87a63f80a4d8b80347e40816c4db6378c8b8f52c60a700",
+    "83ba11800d5fc2f3bab8406c5a991a3d5110f33676ace7731581e8659fc865db",
+    "5c680c92557dd92721fc15db5fc7f37309643135adf52c74fa4de84d8606ae67",
+    "1c56f15bf1e6b55bb17cd9cb5220527cb4c1cb67756e23e5233c7b8b80bf50b3"
+  ],
+  "elapsed_s": 5.25127649307251
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "82bb061858292b90913e352bf2e42e094f485791a846c1fa1e67c28201dc4c7f",
+  "sample_id": "ESC-CSV-02626",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "pharmacy customer",
+    "bottle",
+    "head",
+    "cops",
+    "car windows"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fa91f510aaf3c52a8bb56a884c985cd2a1abfa4215e522de78e33676982a6bd7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fa91f510aaf3c52a8bb56a884c985cd2a1abfa4215e522de78e33676982a6bd7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dbf9e9011f0f7cc5b6f8b1afc512214a1a46a59ca87e00a432ce78c6a7105ab2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "448a2c0849c16e3d29aaf42e5dcd831a758452aba0b4d8b6c92b0feb1efd640d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "d5be84423ae5c9216f3f76dea00d8a4bbebc93881194f8af57b34aabe77d377b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"East Flatbush\",\"Monday\",\"cops\",\"car windows\",\"pharmacy customer\",\"bottle\",\"head\",\"anger\",\"death\",\"teenager\",\"police\"],\"target_related\":[\"pharmacy customer\",\"bottle\",\"head\",\"cops\",\"car windows\",\"riot\",\"East Flatbush\",\"Monday\"],\"mediators\":[\"pharmacy customer\",\"bottle\",\"head\",\"cops\",\"car windows\"]}"
+    },
+    "indirect": {
+      "call_id": "4631d5c7451d05ec80d01833ac864f5752b280bac26533f0e71ec98963e06235",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The riot and the pharmacy customer being bashed are separate events; no causal word or structure links them, and a riot does not cause a bottle to be bashed over a head.\"}"
+    }
+  },
+  "call_ids": [
+    "fa91f510aaf3c52a8bb56a884c985cd2a1abfa4215e522de78e33676982a6bd7",
+    "fa91f510aaf3c52a8bb56a884c985cd2a1abfa4215e522de78e33676982a6bd7",
+    "dbf9e9011f0f7cc5b6f8b1afc512214a1a46a59ca87e00a432ce78c6a7105ab2",
+    "448a2c0849c16e3d29aaf42e5dcd831a758452aba0b4d8b6c92b0feb1efd640d",
+    "d5be84423ae5c9216f3f76dea00d8a4bbebc93881194f8af57b34aabe77d377b",
+    "4631d5c7451d05ec80d01833ac864f5752b280bac26533f0e71ec98963e06235"
+  ],
+  "elapsed_s": 4.708948612213135
+}

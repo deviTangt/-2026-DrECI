@@ -1,0 +1,65 @@
+{
+  "input_hash": "bdd8cc904e3e29b40c41cdca233af3c159dac5a0991ffb2a5f5dabc12e21dc18",
+  "sample_id": "ESC-CSV-09957",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Greece",
+    "parliament",
+    "vote",
+    "cuts",
+    "government",
+    "financial"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "22092b0af663117115154abfd5e63a7fdd954eef34cd3d80098234f78f9fb582",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "22092b0af663117115154abfd5e63a7fdd954eef34cd3d80098234f78f9fb582",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d6b197a8411ab349706e08f9cf60e40000e1e0cb4ce89705bb3719a61df65423",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fbc7885eff8fc0d979365144cb1abbee0d4642eb12ad12da8f5402ca3e6a6e98",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "83eb3573f44fa2ea2d7a6e626ad064103490ae77e1543ef0900db3982b351966",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greece\",\"parliament\",\"vote\",\"cuts\",\"government\",\"financial\"],\"target_related\":[\"Greece\",\"parliament\",\"vote\",\"cuts\",\"government\",\"financial\"],\"mediators\":[\"Greece\",\"parliament\",\"vote\",\"cuts\",\"government\",\"financial\"]}"
+    },
+    "indirect": {
+      "call_id": "5063e5adcdf9ebb5c9270cd7b57f17872672e19511e8c8ddc9bde38279444a34",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"Reforms are proposed 'to address the country's financial crisis,' where 'to address' explicitly links reforms as a response to the crisis.\"}"
+    }
+  },
+  "call_ids": [
+    "22092b0af663117115154abfd5e63a7fdd954eef34cd3d80098234f78f9fb582",
+    "22092b0af663117115154abfd5e63a7fdd954eef34cd3d80098234f78f9fb582",
+    "d6b197a8411ab349706e08f9cf60e40000e1e0cb4ce89705bb3719a61df65423",
+    "fbc7885eff8fc0d979365144cb1abbee0d4642eb12ad12da8f5402ca3e6a6e98",
+    "83eb3573f44fa2ea2d7a6e626ad064103490ae77e1543ef0900db3982b351966",
+    "5063e5adcdf9ebb5c9270cd7b57f17872672e19511e8c8ddc9bde38279444a34"
+  ],
+  "elapsed_s": 4.956329345703125
+}

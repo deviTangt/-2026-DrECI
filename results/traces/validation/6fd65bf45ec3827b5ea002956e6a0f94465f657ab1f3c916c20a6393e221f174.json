@@ -1,0 +1,61 @@
+{
+  "input_hash": "6fd65bf45ec3827b5ea002956e6a0f94465f657ab1f3c916c20a6393e221f174",
+  "sample_id": "ESC-CSV-02585",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "615d5e023767ca77bec474d164d0a38d85ffb24cd6720290d18f8eccb9d6ed3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "615d5e023767ca77bec474d164d0a38d85ffb24cd6720290d18f8eccb9d6ed3d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c279b254ba563ae43af62f143ed4deb2172144d074abe02b447e3e574d578b94",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "13f7990ae98d598f281959c18a3516a48fee2a2ddc23d101e67ac8faabff8b74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f77fc399c2e486a7c9857356502eee1c1d0a161395adfb9f7bd33d5129b4574f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"crowd\",\"protesters\",\"cops\"],\"target_related\":[\"protesters\",\"cops\",\"Brooklyn\",\"streets\"],\"mediators\":[\"protesters\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "5759b26aa5c389a8ca50d3e5df9697bfa0ae62636d2b720b43ffb22f87b7828a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Hostile crowd/protesters (X) battle cops (Y); Z=protesters links hostile crowd to battling cops, forming chain X->Z->Y.\"}"
+    }
+  },
+  "call_ids": [
+    "615d5e023767ca77bec474d164d0a38d85ffb24cd6720290d18f8eccb9d6ed3d",
+    "615d5e023767ca77bec474d164d0a38d85ffb24cd6720290d18f8eccb9d6ed3d",
+    "c279b254ba563ae43af62f143ed4deb2172144d074abe02b447e3e574d578b94",
+    "13f7990ae98d598f281959c18a3516a48fee2a2ddc23d101e67ac8faabff8b74",
+    "f77fc399c2e486a7c9857356502eee1c1d0a161395adfb9f7bd33d5129b4574f",
+    "5759b26aa5c389a8ca50d3e5df9697bfa0ae62636d2b720b43ffb22f87b7828a"
+  ],
+  "elapsed_s": 11.588210344314575
+}

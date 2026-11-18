@@ -1,0 +1,63 @@
+{
+  "input_hash": "5c1a9958645aa237a81fe79e304cb24675a595f440c574c5441242d01332b9db",
+  "sample_id": "ESC-CSV-07185",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Williams",
+    "Chargers",
+    "Jamal Williams",
+    "Arrested"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "293bcc1d482c220777ca9a9ecc68e7583da758a219d68f517595fa22f72e49e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "293bcc1d482c220777ca9a9ecc68e7583da758a219d68f517595fa22f72e49e9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "88d9360f74249daf5278bba86669c781dead469a12b595748482f770c79df8e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2628ac38da94cbfaeabf568861e1900d7088d951bfc50599592f084ef95b10bc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "88fb27816d57b46895f7a29fe704c05efbc46572b50aebf7f0b021a919dfc121",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"California Highway Patrol\",\"speeding\",\"San Diego freeway\",\"Chargers\",\"Jamal Williams\",\"Arrested\"],\"target_related\":[\"Williams\",\"Chargers\",\"Jamal Williams\",\"Arrested\"],\"mediators\":[\"Williams\",\"Chargers\",\"Jamal Williams\",\"Arrested\"]}"
+    },
+    "indirect": {
+      "call_id": "bce397427aa00dc12e1c8ccd337c7bfca31ff49b299c98d7f5aa428de6eb613c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'pulled over ... for speeding' then 'Arrested For DUI'; 'for' links the stop to the DUI suspicion, and the stop precedes the DUI arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "293bcc1d482c220777ca9a9ecc68e7583da758a219d68f517595fa22f72e49e9",
+    "293bcc1d482c220777ca9a9ecc68e7583da758a219d68f517595fa22f72e49e9",
+    "88d9360f74249daf5278bba86669c781dead469a12b595748482f770c79df8e5",
+    "2628ac38da94cbfaeabf568861e1900d7088d951bfc50599592f084ef95b10bc",
+    "88fb27816d57b46895f7a29fe704c05efbc46572b50aebf7f0b021a919dfc121",
+    "bce397427aa00dc12e1c8ccd337c7bfca31ff49b299c98d7f5aa428de6eb613c"
+  ],
+  "elapsed_s": 4.701483488082886
+}

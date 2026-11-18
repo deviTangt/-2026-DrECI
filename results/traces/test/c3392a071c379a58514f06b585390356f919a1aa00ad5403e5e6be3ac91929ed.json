@@ -1,0 +1,63 @@
+{
+  "input_hash": "c3392a071c379a58514f06b585390356f919a1aa00ad5403e5e6be3ac91929ed",
+  "sample_id": "ESC-CSV-09471",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "stairwell",
+    "3rd floors",
+    "fire",
+    "bank employees"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "78b3c6b2414409e3ce5888e6f9c25b68756e3f1ae80e14f88c3deca7756799fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "78b3c6b2414409e3ce5888e6f9c25b68756e3f1ae80e14f88c3deca7756799fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "43bd0e1988da904e4f786673f8c1f043022200a174ac362a232a744c66a0cc45",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c6d82b80ebb8d7212ecb6f79af5d3ea17124b9bb81ade8cef5c44a17b59e0240",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "486d033661580f6f990546c9d202e6b407e0b3220cac3b022846d31f0992f675",
+      "status": "ok",
+      "text": "{\"source_related\":[\"stairwell\",\"3rd floors\",\"flee\",\"fire\",\"two floors below\",\"bank employees\"],\"target_related\":[\"3 bank employees\",\"death\",\"fire\",\"stairwell\",\"3rd floors\"],\"mediators\":[\"stairwell\",\"3rd floors\",\"fire\",\"bank employees\"]}"
+    },
+    "indirect": {
+      "call_id": "a9476aebce6f785f430077bbcfce4913b7274073697769707982325c03eb383a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being trapped in the stairwell while fleeing the fire led to the bank employees being burnt to death; trapping precedes burning by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "78b3c6b2414409e3ce5888e6f9c25b68756e3f1ae80e14f88c3deca7756799fc",
+    "78b3c6b2414409e3ce5888e6f9c25b68756e3f1ae80e14f88c3deca7756799fc",
+    "43bd0e1988da904e4f786673f8c1f043022200a174ac362a232a744c66a0cc45",
+    "c6d82b80ebb8d7212ecb6f79af5d3ea17124b9bb81ade8cef5c44a17b59e0240",
+    "486d033661580f6f990546c9d202e6b407e0b3220cac3b022846d31f0992f675",
+    "a9476aebce6f785f430077bbcfce4913b7274073697769707982325c03eb383a"
+  ],
+  "elapsed_s": 4.832942247390747
+}

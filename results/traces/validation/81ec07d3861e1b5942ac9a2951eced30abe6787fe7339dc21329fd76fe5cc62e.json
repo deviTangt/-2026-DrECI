@@ -1,0 +1,67 @@
+{
+  "input_hash": "81ec07d3861e1b5942ac9a2951eced30abe6787fe7339dc21329fd76fe5cc62e",
+  "sample_id": "ESC-CSV-02987",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "NYPD",
+    "officers",
+    "16-year-old",
+    "Brooklyn",
+    "gun",
+    "police",
+    "armed",
+    "death"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "38288b70e534ccdc803e0a1d0c7e76d21b6de133fda14e75bcc1a1d14468282b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "38288b70e534ccdc803e0a1d0c7e76d21b6de133fda14e75bcc1a1d14468282b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fbc69d414c23410acaa0124c26a547ded796750768bd622cc02f6c0f1e2d5d74",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "933fe002767f3d7c565f2224579651e83ff4975d3665d1a7678cbd25b3fffc1d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f2fc206a2360b7b87fc1b1370f0f8b1e468f5ac5926bedbf15a3f25e2359cc5e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"16-year-old\",\"Brooklyn\",\"resident\",\"gun\",\"police\",\"Saturday\",\"armed\",\"death\"],\"target_related\":[\"protest\",\"Brooklyn\",\"tonight\",\"young\",\"people\",\"NYPD\",\"officers\",\"death\",\"16-year-old\",\"armed\"],\"mediators\":[\"NYPD\",\"officers\",\"16-year-old\",\"Brooklyn\",\"gun\",\"police\",\"armed\",\"death\"]}"
+    },
+    "indirect": {
+      "call_id": "5898d2dcf656cf3fc8adef17f95830c1ca3bd5fe6779bd0a5b043a7108682ba5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The shooting death provoked the riot: 'An orderly protest over the death... turned into a riot... after young people started lashing out.'\"}"
+    }
+  },
+  "call_ids": [
+    "38288b70e534ccdc803e0a1d0c7e76d21b6de133fda14e75bcc1a1d14468282b",
+    "38288b70e534ccdc803e0a1d0c7e76d21b6de133fda14e75bcc1a1d14468282b",
+    "fbc69d414c23410acaa0124c26a547ded796750768bd622cc02f6c0f1e2d5d74",
+    "933fe002767f3d7c565f2224579651e83ff4975d3665d1a7678cbd25b3fffc1d",
+    "f2fc206a2360b7b87fc1b1370f0f8b1e468f5ac5926bedbf15a3f25e2359cc5e",
+    "5898d2dcf656cf3fc8adef17f95830c1ca3bd5fe6779bd0a5b043a7108682ba5"
+  ],
+  "elapsed_s": 5.225456953048706
+}

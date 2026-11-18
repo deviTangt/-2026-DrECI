@@ -1,0 +1,67 @@
+{
+  "input_hash": "4fad702f341b84162d7672e98155fad4a682f1bf8305c6b1e3243d482e650dc0",
+  "sample_id": "ESC-CSV-01754",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "convicted",
+    "cop",
+    "killer",
+    "laughed",
+    "Tuesday",
+    "hearing",
+    "jury",
+    "put"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2f2789c9019ebfa765192fb68fb4b2209851b7f10a3442a04e3bdfba9b7e2325",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2f2789c9019ebfa765192fb68fb4b2209851b7f10a3442a04e3bdfba9b7e2325",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f0136d651cf545d88289f72e27f22b4b57350c0416fb0d2c06c796c2317b7ad0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d8deb07b2a568d6dcc4fbca96ceb521c56dacc2c369083cb1f71b6db96b49b8b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "28064f8bc2f3365b40d6f3593cde2baf6dac1a355559caebf2749db03efa1afb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jury\",\"convicted\",\"cop\",\"killer\",\"laughed\",\"Tuesday\",\"hearing\",\"put\",\"death\"],\"target_related\":[\"convicted\",\"cop\",\"killer\",\"laughed\",\"Tuesday\",\"hearing\",\"jury\",\"ruling\",\"put\",\"Orozco\"],\"mediators\":[\"convicted\",\"cop\",\"killer\",\"laughed\",\"Tuesday\",\"hearing\",\"jury\",\"put\"]}"
+    },
+    "indirect": {
+      "call_id": "35d96018834c43f1a842a9769570eedf31f63abc64ade79369a894c47c5cd38e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A jury's ruling that he be put to death directly causes the death sentence; ruling precedes and produces Death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "2f2789c9019ebfa765192fb68fb4b2209851b7f10a3442a04e3bdfba9b7e2325",
+    "2f2789c9019ebfa765192fb68fb4b2209851b7f10a3442a04e3bdfba9b7e2325",
+    "f0136d651cf545d88289f72e27f22b4b57350c0416fb0d2c06c796c2317b7ad0",
+    "d8deb07b2a568d6dcc4fbca96ceb521c56dacc2c369083cb1f71b6db96b49b8b",
+    "28064f8bc2f3365b40d6f3593cde2baf6dac1a355559caebf2749db03efa1afb",
+    "35d96018834c43f1a842a9769570eedf31f63abc64ade79369a894c47c5cd38e"
+  ],
+  "elapsed_s": 5.694296598434448
+}

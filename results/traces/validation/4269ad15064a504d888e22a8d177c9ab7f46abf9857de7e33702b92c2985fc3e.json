@@ -1,0 +1,78 @@
+{
+  "input_hash": "4269ad15064a504d888e22a8d177c9ab7f46abf9857de7e33702b92c2985fc3e",
+  "sample_id": "ESC-CSV-02349",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "suspected",
+    "three",
+    "people",
+    "accounting",
+    "firm",
+    "worked",
+    "arrested",
+    "hours",
+    "later",
+    "high-speed",
+    "chase",
+    "authorities",
+    "said",
+    "dead",
+    "Mich",
+    "office",
+    "police",
+    "suspect"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "2153596bda9bf99087aafd639002c13c7fe83247f5a305f249e939da57a22205",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "2153596bda9bf99087aafd639002c13c7fe83247f5a305f249e939da57a22205",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "009aac539f60debd42b5f31ab5ae935b5713545d500d92419f8a433dbdc0c3a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "980fd61f551aab1caed1e6c47adbfb0e6b37eee4d0537a496db08124b17dd5f9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b8414315f2cb530cabe2b667df4853e27bed453823112b38318c5afbb5f0d76a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"suspected\",\"three\",\"people\",\"accounting\",\"firm\",\"worked\",\"arrested\",\"hours\",\"later\",\"high-speed\",\"chase\",\"authorities\",\"said\",\"dead\",\"Mich\",\"office\",\"police\",\"suspect\"],\"target_related\":[\"1\",\"dead\",\"2\",\"Mich\",\"office\",\"shooting\",\"police\",\"suspect\",\"worked\",\"people\",\"three\",\"accounting\",\"firm\",\"man\",\"suspected\",\"arrested\",\"hours\",\"later\",\"high-speed\",\"chase\",\"authorities\",\"said\"],\"mediators\":[\"man\",\"suspected\",\"three\",\"people\",\"accounting\",\"firm\",\"worked\",\"arrested\",\"hours\",\"later\",\"high-speed\",\"chase\",\"authorities\",\"said\",\"dead\",\"Mich\",\"office\",\"police\",\"suspect\"]}"
+    },
+    "indirect": {
+      "call_id": "be300e8643a57eceeed7b5dfe5ec5d55e47044c16929e7968aa9743d47d985a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a shooting causes people to be hurt; the text reports 1 dead, 2 hurt in the office shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "2153596bda9bf99087aafd639002c13c7fe83247f5a305f249e939da57a22205",
+    "2153596bda9bf99087aafd639002c13c7fe83247f5a305f249e939da57a22205",
+    "009aac539f60debd42b5f31ab5ae935b5713545d500d92419f8a433dbdc0c3a4",
+    "980fd61f551aab1caed1e6c47adbfb0e6b37eee4d0537a496db08124b17dd5f9",
+    "b8414315f2cb530cabe2b667df4853e27bed453823112b38318c5afbb5f0d76a",
+    "be300e8643a57eceeed7b5dfe5ec5d55e47044c16929e7968aa9743d47d985a4"
+  ],
+  "elapsed_s": 7.124986171722412
+}

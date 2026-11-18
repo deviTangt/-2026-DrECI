@@ -1,0 +1,61 @@
+{
+  "input_hash": "7424287dda0e568bc6b958a82b735006775bae4f8e71dbe42b9bb520911b9183",
+  "sample_id": "ESC-CSV-02493",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "cops",
+    "Brooklyn neighborhood"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "09c782c20d968a12a2bda7f8ae66521fb29ad97bd7ebcd522b04f1bb116b0135",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "09c782c20d968a12a2bda7f8ae66521fb29ad97bd7ebcd522b04f1bb116b0135",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7722dca33dc669b7e6814fe8d5bde2e9fa8ca37ce99ffda1b825892c01ae09f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f182160fb6da93458ff4c42f0add1a38a94904ffa5b874261fca7c9f28a9088c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "dedb007d67fadbe4e39ad7793a31965e6e38ddd023c5f5122cbdbda612afcfac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"cops\",\"civil rights violations\",\"previous reported\"],\"target_related\":[\"riots\",\"Brooklyn neighborhood\",\"teen\"],\"mediators\":[\"cops\",\"Brooklyn neighborhood\"]}"
+    },
+    "indirect": {
+      "call_id": "8af5d3df42cb9879cdbc150411a848f640827cb7130e69e45b5111ebdfe9efba",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says protests erupted as cops came under scrutiny; no causal word or structure links scrutiny to protests.\"}"
+    }
+  },
+  "call_ids": [
+    "09c782c20d968a12a2bda7f8ae66521fb29ad97bd7ebcd522b04f1bb116b0135",
+    "09c782c20d968a12a2bda7f8ae66521fb29ad97bd7ebcd522b04f1bb116b0135",
+    "7722dca33dc669b7e6814fe8d5bde2e9fa8ca37ce99ffda1b825892c01ae09f3",
+    "f182160fb6da93458ff4c42f0add1a38a94904ffa5b874261fca7c9f28a9088c",
+    "dedb007d67fadbe4e39ad7793a31965e6e38ddd023c5f5122cbdbda612afcfac",
+    "8af5d3df42cb9879cdbc150411a848f640827cb7130e69e45b5111ebdfe9efba"
+  ],
+  "elapsed_s": 11.199219942092896
+}

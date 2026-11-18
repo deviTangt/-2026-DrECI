@@ -1,0 +1,60 @@
+{
+  "input_hash": "73bb8eeab73b86ff13669b75833178d6165100b0bb821d0097d637f1d68d6249",
+  "sample_id": "ESC-CSV-09353",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ad98480b3124e786da191b656dd1c48a2671dbef29aef2158ec24b52d614c0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ad98480b3124e786da191b656dd1c48a2671dbef29aef2158ec24b52d614c0f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d37e42f5c619a18efadc932c9d2eb693ed042638d79417fcc65e4839661e267",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3f50554e29f8e22a8418904b050919f30125bc68859443f83a7b7621a1be6e30",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "03ea17ef6f5021228f8c5f0bb2a8b69ea181762efbec583da366c7f149e64cd5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire\",\"bomb\",\"protests\",\"margins\"],\"target_related\":[\"buildings\",\"tax\",\"officials\",\"fire\"],\"mediators\":[\"fire\"]}"
+    },
+    "indirect": {
+      "call_id": "cf9d85aeb724be3a090bc7cf3253b42531eb37f8e54fba484ef938662f548344",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'caught fire in other fire-bomb attacks' uses 'in' to link the attacks as the cause of the buildings catching fire.\"}"
+    }
+  },
+  "call_ids": [
+    "4ad98480b3124e786da191b656dd1c48a2671dbef29aef2158ec24b52d614c0f",
+    "4ad98480b3124e786da191b656dd1c48a2671dbef29aef2158ec24b52d614c0f",
+    "0d37e42f5c619a18efadc932c9d2eb693ed042638d79417fcc65e4839661e267",
+    "3f50554e29f8e22a8418904b050919f30125bc68859443f83a7b7621a1be6e30",
+    "03ea17ef6f5021228f8c5f0bb2a8b69ea181762efbec583da366c7f149e64cd5",
+    "cf9d85aeb724be3a090bc7cf3253b42531eb37f8e54fba484ef938662f548344"
+  ],
+  "elapsed_s": 3.9517312049865723
+}

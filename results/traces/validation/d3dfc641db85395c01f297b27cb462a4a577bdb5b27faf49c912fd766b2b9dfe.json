@@ -1,0 +1,62 @@
+{
+  "input_hash": "d3dfc641db85395c01f297b27cb462a4a577bdb5b27faf49c912fd766b2b9dfe",
+  "sample_id": "ESC-CSV-07217",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "drunk",
+    "driving",
+    "Williams"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e13dc44f56dcfde1bf0f9bfad704bac52e939861f475dc46de56744c85eb8740",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e13dc44f56dcfde1bf0f9bfad704bac52e939861f475dc46de56744c85eb8740",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8fa54a4b1a5c5a8d1bd90947686f71baf7fcc17f962b59ac77419d1420b32416",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b92ebe8cf041a1ee928810e4fded6620a8627ef8c0ef8cd375938596eaa3b046",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "70dcb1fa766ee589db160f365135c9b92d0360ed9d1d71034f8f2fcfddcd0cc0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"arrest\",\"officers\",\"pulled\",\"over\",\"drunk\",\"driving\"],\"target_related\":[\"City Attorney's Office\",\"file\",\"misdemeanor\",\"drunk\",\"driving\",\"Chargers\",\"defensive\",\"lineman\",\"Jamal Williams\"],\"mediators\":[\"drunk\",\"driving\",\"Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "9e894447f78ac9701f9e23739bdd2aa184419ce56cd9f2d306cc7c1e91d50877",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being intoxicated when pulled over is the basis for considering misdemeanor drunk-driving charges; intoxication precedes and causes charges.\"}"
+    }
+  },
+  "call_ids": [
+    "e13dc44f56dcfde1bf0f9bfad704bac52e939861f475dc46de56744c85eb8740",
+    "e13dc44f56dcfde1bf0f9bfad704bac52e939861f475dc46de56744c85eb8740",
+    "8fa54a4b1a5c5a8d1bd90947686f71baf7fcc17f962b59ac77419d1420b32416",
+    "b92ebe8cf041a1ee928810e4fded6620a8627ef8c0ef8cd375938596eaa3b046",
+    "70dcb1fa766ee589db160f365135c9b92d0360ed9d1d71034f8f2fcfddcd0cc0",
+    "9e894447f78ac9701f9e23739bdd2aa184419ce56cd9f2d306cc7c1e91d50877"
+  ],
+  "elapsed_s": 4.546451807022095
+}

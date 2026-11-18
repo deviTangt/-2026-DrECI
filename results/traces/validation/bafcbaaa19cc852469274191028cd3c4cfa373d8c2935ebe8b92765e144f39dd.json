@@ -1,0 +1,69 @@
+{
+  "input_hash": "bafcbaaa19cc852469274191028cd3c4cfa373d8c2935ebe8b92765e144f39dd",
+  "sample_id": "ESC-CSV-02780",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "candlelit",
+    "East Flatbush",
+    "Brooklyn",
+    "New York",
+    "Kimani Gray",
+    "police",
+    "shot",
+    "Saturday",
+    "RussiaToday"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "33ee98f509deff0d3f1db1f1435d23f66ba5f9dca73a520e0be4d2001e0e31b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "33ee98f509deff0d3f1db1f1435d23f66ba5f9dca73a520e0be4d2001e0e31b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "753314146de58d7ad343d7562a04e5ff763eea2aa37f19b86245739cb3013f64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d6b6b3c35e2de9db93f80853671b329b6e2defe2fa1f5385f61d6437eb55e650",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f276da458feb85dc11edef6d837b51c3aaa42fe7976492ae24ee23088a79a245",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"police\",\"shot\",\"Saturday\",\"RussiaToday\"],\"target_related\":[\"Police\",\"people\",\"candlelit\",\"vigil\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"shot\",\"police\",\"Saturday\",\"RussiaToday\"],\"mediators\":[\"people\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"police\",\"shot\",\"Saturday\",\"RussiaToday\"]}"
+    },
+    "indirect": {
+      "call_id": "30d808498f0dbc7b06bc3d2039f2d8f423b22e123073d3e3da2249ef58856a53",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text says police intervened when people joined the vigil; no causal wording or structure links the vigil to the intervention.\"}"
+    }
+  },
+  "call_ids": [
+    "33ee98f509deff0d3f1db1f1435d23f66ba5f9dca73a520e0be4d2001e0e31b0",
+    "33ee98f509deff0d3f1db1f1435d23f66ba5f9dca73a520e0be4d2001e0e31b0",
+    "753314146de58d7ad343d7562a04e5ff763eea2aa37f19b86245739cb3013f64",
+    "d6b6b3c35e2de9db93f80853671b329b6e2defe2fa1f5385f61d6437eb55e650",
+    "f276da458feb85dc11edef6d837b51c3aaa42fe7976492ae24ee23088a79a245",
+    "30d808498f0dbc7b06bc3d2039f2d8f423b22e123073d3e3da2249ef58856a53"
+  ],
+  "elapsed_s": 4.247820854187012
+}

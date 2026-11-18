@@ -1,0 +1,64 @@
+{
+  "input_hash": "fa49110bc83452e9a83afa878f210fb7fc8e660aa8c35088103b657d3e1c570f",
+  "sample_id": "ESC-CSV-07200",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Williams",
+    "Bentley",
+    "speeding",
+    "pulled over",
+    "suspicion"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "72d44c2864f28ad527b4f415bd2bb6ab067773b4f49ce7b4b120679446a4ebfc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "72d44c2864f28ad527b4f415bd2bb6ab067773b4f49ce7b4b120679446a4ebfc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "eb4e565208e27ae5e76aa44c46e4054b0a9b96f3e32ab5ce543c8fcbf6bbf6cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0596f799ce9e50f5c93bae3e43396c1801f03d3085d3096a2e011a9fdf162696",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1d32abe5eb66f96af18149b57261f850fcf893c20d92f8378d0eca99724d65fa",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Williams\",\"Bentley\",\"speeding\",\"pulled over\",\"suspicion\"],\"target_related\":[\"Williams\",\"Bentley\",\"speeding\",\"pulled over\",\"suspicion\"],\"mediators\":[\"Williams\",\"Bentley\",\"speeding\",\"pulled over\",\"suspicion\"]}"
+    },
+    "indirect": {
+      "call_id": "0d924c2c387a839e800c2685e7c384fe81954cbd9d311c3c38ec746f5cae32f1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'arrested on suspicion of drunk driving' — 'on suspicion of' links drunk driving as the reason for the arrest; common sense: drunk driving leads to arrest.\"}"
+    }
+  },
+  "call_ids": [
+    "72d44c2864f28ad527b4f415bd2bb6ab067773b4f49ce7b4b120679446a4ebfc",
+    "72d44c2864f28ad527b4f415bd2bb6ab067773b4f49ce7b4b120679446a4ebfc",
+    "eb4e565208e27ae5e76aa44c46e4054b0a9b96f3e32ab5ce543c8fcbf6bbf6cd",
+    "0596f799ce9e50f5c93bae3e43396c1801f03d3085d3096a2e011a9fdf162696",
+    "1d32abe5eb66f96af18149b57261f850fcf893c20d92f8378d0eca99724d65fa",
+    "0d924c2c387a839e800c2685e7c384fe81954cbd9d311c3c38ec746f5cae32f1"
+  ],
+  "elapsed_s": 5.3464436531066895
+}

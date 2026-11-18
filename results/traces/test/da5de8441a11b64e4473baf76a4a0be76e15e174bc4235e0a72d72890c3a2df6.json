@@ -1,0 +1,65 @@
+{
+  "input_hash": "da5de8441a11b64e4473baf76a4a0be76e15e174bc4235e0a72d72890c3a2df6",
+  "sample_id": "ESC-CSV-04535",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "raiders",
+    "jewellery boutique",
+    "Place Vendôme",
+    "Paris",
+    "Monday",
+    "dawn"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ddd5ef3f2c263ddeff0d8684d114bdc9068f45969ff83267f27492e93f870c66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ddd5ef3f2c263ddeff0d8684d114bdc9068f45969ff83267f27492e93f870c66",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "60ba6ab3486ffdc9797417f857fb42ec6b50c3d3246d16fd4752e4e1c6d0ce9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b8e6c1fc35dd50822b916a352963eafc77118cc1cdac5fe0bb17e4a53f8cf282",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "70679a32c538c7d7857f00336a853cbc376649aa44af9a4a4fcd6bcdc04062ac",
+      "status": "ok",
+      "text": "{\"source_related\":[\"raiders\",\"vehicle\",\"jewellery boutique\",\"Place Vendôme\",\"Paris\",\"Monday\",\"dawn\"],\"target_related\":[\"raiders\",\"jewellery boutique\",\"Place Vendôme\",\"Paris\",\"Monday\",\"dawn\",\"loot\"],\"mediators\":[\"raiders\",\"jewellery boutique\",\"Place Vendôme\",\"Paris\",\"Monday\",\"dawn\"]}"
+    },
+    "indirect": {
+      "call_id": "5532c89697f970170f1647655af36dd1c9b638ff046127495d5b6a1757f67877",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ploughing the vehicle into the boutique is the means by which the raiders commit the robbery; the act precedes and causes the robbery.\"}"
+    }
+  },
+  "call_ids": [
+    "ddd5ef3f2c263ddeff0d8684d114bdc9068f45969ff83267f27492e93f870c66",
+    "ddd5ef3f2c263ddeff0d8684d114bdc9068f45969ff83267f27492e93f870c66",
+    "60ba6ab3486ffdc9797417f857fb42ec6b50c3d3246d16fd4752e4e1c6d0ce9f",
+    "b8e6c1fc35dd50822b916a352963eafc77118cc1cdac5fe0bb17e4a53f8cf282",
+    "70679a32c538c7d7857f00336a853cbc376649aa44af9a4a4fcd6bcdc04062ac",
+    "5532c89697f970170f1647655af36dd1c9b638ff046127495d5b6a1757f67877"
+  ],
+  "elapsed_s": 5.343308687210083
+}

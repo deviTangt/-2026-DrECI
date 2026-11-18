@@ -1,0 +1,68 @@
+{
+  "input_hash": "f8776058011597c5bf2110715a18eb7d56f883be8abd17252f9fd7af8c824528",
+  "sample_id": "ESC-CSV-06898",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gang",
+    "member",
+    "slay",
+    "Brooklyn",
+    "mom",
+    "12",
+    "sentenced",
+    "May",
+    "7"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6569f29a95a3e0b75ba13d38b329f0574457ddd28c2c40a4ed2c9df42ed2f15c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6569f29a95a3e0b75ba13d38b329f0574457ddd28c2c40a4ed2c9df42ed2f15c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f575ce64a58267fd74487842b8111109b9a9cc6723e544ba49295518880d5a8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "5b5dc93997221fb7009ceed6c58a5fcc2d299e295141a316ce0771e27b1aba52",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "636447ae47ae2e843f46b1a9e033579e1df6a248f71c660a06b178fa71308c1a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gang\",\"member\",\"slay\",\"Brooklyn\",\"mom\",\"12\",\"sentenced\",\"May\",\"7\"],\"target_related\":[\"Gang\",\"member\",\"slay\",\"Brooklyn\",\"mom\",\"12\",\"prison\",\"sentenced\",\"May\",\"7\"],\"mediators\":[\"Gang\",\"member\",\"slay\",\"Brooklyn\",\"mom\",\"12\",\"sentenced\",\"May\",\"7\"]}"
+    },
+    "indirect": {
+      "call_id": "fc3db98b881d96c31c4ae6ca4bdb2f838921fddfba3bb9efd256474e2324cf4f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Being guilty does not cause facing a sentence; both are separate facts about the defendant, with no explicit or implicit causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "6569f29a95a3e0b75ba13d38b329f0574457ddd28c2c40a4ed2c9df42ed2f15c",
+    "6569f29a95a3e0b75ba13d38b329f0574457ddd28c2c40a4ed2c9df42ed2f15c",
+    "f575ce64a58267fd74487842b8111109b9a9cc6723e544ba49295518880d5a8c",
+    "5b5dc93997221fb7009ceed6c58a5fcc2d299e295141a316ce0771e27b1aba52",
+    "636447ae47ae2e843f46b1a9e033579e1df6a248f71c660a06b178fa71308c1a",
+    "fc3db98b881d96c31c4ae6ca4bdb2f838921fddfba3bb9efd256474e2324cf4f"
+  ],
+  "elapsed_s": 5.787932872772217
+}

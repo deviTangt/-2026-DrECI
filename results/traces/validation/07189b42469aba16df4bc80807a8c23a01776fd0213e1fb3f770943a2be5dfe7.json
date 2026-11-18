@@ -1,0 +1,61 @@
+{
+  "input_hash": "07189b42469aba16df4bc80807a8c23a01776fd0213e1fb3f770943a2be5dfe7",
+  "sample_id": "ESC-CSV-02784",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Teen",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fc238dde599542632fe35fa4a0896e9f772174fa3e359d206103b81743623043",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fc238dde599542632fe35fa4a0896e9f772174fa3e359d206103b81743623043",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dad22abbbb08efbd6e76665dbea9e55b4efd717bff6fdfb5639e9ad622929895",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2c29fc7f709f82d6b59afeafa7648e731884ec76aac9501a60dceca74fd01a49",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4d8b9d296cedd412f2deccbf3dd0923ce7fe50fe2aa76e98524567739090c7ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"hospital\",\"dead\",\"arrival\",\"Teen\",\"Shot\",\"Police\"],\"target_related\":[\"Brooklyn\",\"Riot\",\"Teen\",\"Police\"],\"mediators\":[\"Teen\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "eb3350b26eecce25ed80a4498dce56c12841999493421bd8654d085a57d6916e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting of the teen preceded and prompted the vigil held for him, so the shooting caused the vigil by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "fc238dde599542632fe35fa4a0896e9f772174fa3e359d206103b81743623043",
+    "fc238dde599542632fe35fa4a0896e9f772174fa3e359d206103b81743623043",
+    "dad22abbbb08efbd6e76665dbea9e55b4efd717bff6fdfb5639e9ad622929895",
+    "2c29fc7f709f82d6b59afeafa7648e731884ec76aac9501a60dceca74fd01a49",
+    "4d8b9d296cedd412f2deccbf3dd0923ce7fe50fe2aa76e98524567739090c7ae",
+    "eb3350b26eecce25ed80a4498dce56c12841999493421bd8654d085a57d6916e"
+  ],
+  "elapsed_s": 4.6580705642700195
+}

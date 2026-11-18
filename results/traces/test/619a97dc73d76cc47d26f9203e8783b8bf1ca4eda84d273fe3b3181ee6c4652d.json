@@ -1,0 +1,65 @@
+{
+  "input_hash": "619a97dc73d76cc47d26f9203e8783b8bf1ca4eda84d273fe3b3181ee6c4652d",
+  "sample_id": "ESC-CSV-09379",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bomb",
+    "bank",
+    "rioters",
+    "window",
+    "Molotov",
+    "cocktails"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d852bfe156b3e7199a68b2a56be749e3641efea3e1fa4e8b1022ada0734c0caa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d852bfe156b3e7199a68b2a56be749e3641efea3e1fa4e8b1022ada0734c0caa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0d951bd2a08d91bc03af977e9e1d440c1d95d5972aadbfc120d95bfc687fcc64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "499b9e27fcc8120f2de595ef577d6145184bfa589a1e5a1143ad1f4a23cc3eee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d9f7b1fd08b98404b914c3499984191c41b711ead1252214b14cfcda4e1dcc0e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"bomb\",\"bank\",\"riots\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"target_related\":[\"bomb\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"],\"mediators\":[\"bomb\",\"bank\",\"rioters\",\"window\",\"Molotov\",\"cocktails\"]}"
+    },
+    "indirect": {
+      "call_id": "4be567ad3391b30d94ce6fb39ce9c2871221ad0d55774fcb191ece81f08aa686",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'caught fire after rioters broke a window and threw Molotov cocktails inside' — 'after' plus common sense: Molotov hits caused the bank fire.\"}"
+    }
+  },
+  "call_ids": [
+    "d852bfe156b3e7199a68b2a56be749e3641efea3e1fa4e8b1022ada0734c0caa",
+    "d852bfe156b3e7199a68b2a56be749e3641efea3e1fa4e8b1022ada0734c0caa",
+    "0d951bd2a08d91bc03af977e9e1d440c1d95d5972aadbfc120d95bfc687fcc64",
+    "499b9e27fcc8120f2de595ef577d6145184bfa589a1e5a1143ad1f4a23cc3eee",
+    "d9f7b1fd08b98404b914c3499984191c41b711ead1252214b14cfcda4e1dcc0e",
+    "4be567ad3391b30d94ce6fb39ce9c2871221ad0d55774fcb191ece81f08aa686"
+  ],
+  "elapsed_s": 6.096661567687988
+}

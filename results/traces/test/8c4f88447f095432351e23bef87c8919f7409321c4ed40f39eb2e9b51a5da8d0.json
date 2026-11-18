@@ -1,0 +1,63 @@
+{
+  "input_hash": "8c4f88447f095432351e23bef87c8919f7409321c4ed40f39eb2e9b51a5da8d0",
+  "sample_id": "ESC-CSV-04399",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "thieves",
+    "robbers",
+    "Paris",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1b3c84b1f87dd1b169ba40236ac3f573a914fc5717339f4a801cf3af03d1ca2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1b3c84b1f87dd1b169ba40236ac3f573a914fc5717339f4a801cf3af03d1ca2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5c40d74de4c07e76d1dc130fc87fe8f86755c5a38873620ad3ebb113f47d7faa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d9c6d8349fafaf201e050f1682c6537747cf4c04c0d554ce3cb580b22515fcbb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "873d7de2893409784462871d898f766e540f7c964b087b8822641de67666ef80",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"SUV\",\"Casty store\",\"Place Vendome\",\"Paris\",\"French capital\"],\"target_related\":[\"robbers\",\"jewelry\",\"watches\",\"Paris store\",\"high end\"],\"mediators\":[\"thieves\",\"robbers\",\"Paris\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "0959d87cebad88aa61c8805b7c1379435831cce27f74315ecb5dd56c94fcc683",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Ramming the SUV into the store front physically caused the smash-and-grab; the ramming precedes and enables the smash.\"}"
+    }
+  },
+  "call_ids": [
+    "b1b3c84b1f87dd1b169ba40236ac3f573a914fc5717339f4a801cf3af03d1ca2",
+    "b1b3c84b1f87dd1b169ba40236ac3f573a914fc5717339f4a801cf3af03d1ca2",
+    "5c40d74de4c07e76d1dc130fc87fe8f86755c5a38873620ad3ebb113f47d7faa",
+    "d9c6d8349fafaf201e050f1682c6537747cf4c04c0d554ce3cb580b22515fcbb",
+    "873d7de2893409784462871d898f766e540f7c964b087b8822641de67666ef80",
+    "0959d87cebad88aa61c8805b7c1379435831cce27f74315ecb5dd56c94fcc683"
+  ],
+  "elapsed_s": 4.709927320480347
+}

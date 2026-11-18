@@ -1,0 +1,65 @@
+{
+  "input_hash": "29021ecc50404565ff544a007c758f60e30f592ca1182f9ef84c8796cb4e0fe8",
+  "sample_id": "ESC-CSV-02429",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "armed",
+    "teenager",
+    "police",
+    "officers",
+    "Brooklyn",
+    "street"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ddbb2780be7b6542a043483e3cad1c12d1ab06f7a430e76a020894f85ff81302",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ddbb2780be7b6542a043483e3cad1c12d1ab06f7a430e76a020894f85ff81302",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c904bfeab2ed79cf8d40aca601de737afb765701d77c9ac9807de398e37ed88a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "81534e91595a4e23a8fbcbbd49665970b809ee41f8c8f8816c06755dc082f732",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3209ccac28e2100b210b4db2f4799bd846c8f746e07b4115a5df5caa23c46005",
+      "status": "ok",
+      "text": "{\"source_related\":[\"armed\",\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\"],\"target_related\":[\"armed\",\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\"],\"mediators\":[\"armed\",\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\"]}"
+    },
+    "indirect": {
+      "call_id": "baa3d56e20bd8d6d42ec873e8960981e00a1f8e35ab7979c5c3a52809d76509b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed by police officers' uses 'by' as explicit causation linking shooting to the killing; common sense also supports shooting causing death.\"}"
+    }
+  },
+  "call_ids": [
+    "ddbb2780be7b6542a043483e3cad1c12d1ab06f7a430e76a020894f85ff81302",
+    "ddbb2780be7b6542a043483e3cad1c12d1ab06f7a430e76a020894f85ff81302",
+    "c904bfeab2ed79cf8d40aca601de737afb765701d77c9ac9807de398e37ed88a",
+    "81534e91595a4e23a8fbcbbd49665970b809ee41f8c8f8816c06755dc082f732",
+    "3209ccac28e2100b210b4db2f4799bd846c8f746e07b4115a5df5caa23c46005",
+    "baa3d56e20bd8d6d42ec873e8960981e00a1f8e35ab7979c5c3a52809d76509b"
+  ],
+  "elapsed_s": 22.173497438430786
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "2cdb5fda90817c3b42450ab1edda08ee3632c9ba6b7ec68d9835202254b647af",
+  "sample_id": "ESC-CSV-04012",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "British",
+    "man",
+    "New Zealand",
+    "mountain"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4549e3bfcb1b89f31205040c5dbe58915c20d07c78e7d5800f46a46beb531eb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4549e3bfcb1b89f31205040c5dbe58915c20d07c78e7d5800f46a46beb531eb3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1167f3f063eff776b5591108bea73adc044a4d00f1ddd658ba2f3212da5c5b5a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "00e3aaf1a86add8c0145456f1e30c3412eb29a39d7928dd5a3f76d38fc3d8e7d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "98a239f93a40696914bd7ec0e6b34cf52701611396979eca0b7ed0e9efbff1a6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"British\",\"man\",\"climber\",\"New Zealand\",\"mountain\"],\"target_related\":[\"British\",\"man\",\"killed\",\"dies\",\"New Zealand\",\"mountain\",\"2,000ft\"],\"mediators\":[\"British\",\"man\",\"New Zealand\",\"mountain\"]}"
+    },
+    "indirect": {
+      "call_id": "dfe9ee39d0f6b3f80728aa4e3abe2f2f3021df920230976d814b32f1cb1448f6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Climbing precedes falling; falling from a mountain while climbing is a common-sense consequence of climbing, so climbing causes falling.\"}"
+    }
+  },
+  "call_ids": [
+    "4549e3bfcb1b89f31205040c5dbe58915c20d07c78e7d5800f46a46beb531eb3",
+    "4549e3bfcb1b89f31205040c5dbe58915c20d07c78e7d5800f46a46beb531eb3",
+    "1167f3f063eff776b5591108bea73adc044a4d00f1ddd658ba2f3212da5c5b5a",
+    "00e3aaf1a86add8c0145456f1e30c3412eb29a39d7928dd5a3f76d38fc3d8e7d",
+    "98a239f93a40696914bd7ec0e6b34cf52701611396979eca0b7ed0e9efbff1a6",
+    "dfe9ee39d0f6b3f80728aa4e3abe2f2f3021df920230976d814b32f1cb1448f6"
+  ],
+  "elapsed_s": 3.630460023880005
+}

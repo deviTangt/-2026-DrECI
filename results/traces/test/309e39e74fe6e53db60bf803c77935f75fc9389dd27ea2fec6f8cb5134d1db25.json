@@ -1,0 +1,66 @@
+{
+  "input_hash": "309e39e74fe6e53db60bf803c77935f75fc9389dd27ea2fec6f8cb5134d1db25",
+  "sample_id": "ESC-CSV-09542",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "petrol",
+    "bomb",
+    "Athens",
+    "branch",
+    "Marfin",
+    "Investment",
+    "Bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1bca16a43af5fd2b6b5c03d4b6e21f70c69bc65a881eeb52dd7cb9c09e7fc09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1bca16a43af5fd2b6b5c03d4b6e21f70c69bc65a881eeb52dd7cb9c09e7fc09",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8dcc66ed08b0d6b1a105f1ccdf7f232f97957cc061184c45587d736d20c17668",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "72b71657da237df3b4feb9e4fe29ec08564005ff24b81b7a284ae0f7544c4418",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9e3fa6232cea9cd61b6c0903211d7efaeda55763784d1440e62dfb87c41e5a9b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"petrol\",\"bomb\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\"],\"target_related\":[\"two\",\"women\",\"man\",\"caught\",\"inferno\"],\"mediators\":[\"petrol\",\"bomb\",\"Athens\",\"branch\",\"Marfin\",\"Investment\",\"Bank\"]}"
+    },
+    "indirect": {
+      "call_id": "8337b74053f15aa2860a614f2147ec87dfd52d34056a07bb0069471a496fa23e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'hurled ... killed' — the bomb being hurled directly caused the deaths; explicit causal verb 'killed' links X to Y, and hurling precedes killing by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "b1bca16a43af5fd2b6b5c03d4b6e21f70c69bc65a881eeb52dd7cb9c09e7fc09",
+    "b1bca16a43af5fd2b6b5c03d4b6e21f70c69bc65a881eeb52dd7cb9c09e7fc09",
+    "8dcc66ed08b0d6b1a105f1ccdf7f232f97957cc061184c45587d736d20c17668",
+    "72b71657da237df3b4feb9e4fe29ec08564005ff24b81b7a284ae0f7544c4418",
+    "9e3fa6232cea9cd61b6c0903211d7efaeda55763784d1440e62dfb87c41e5a9b",
+    "8337b74053f15aa2860a614f2147ec87dfd52d34056a07bb0069471a496fa23e"
+  ],
+  "elapsed_s": 4.1337409019470215
+}

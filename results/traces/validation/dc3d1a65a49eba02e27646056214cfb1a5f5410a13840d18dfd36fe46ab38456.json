@@ -1,0 +1,61 @@
+{
+  "input_hash": "dc3d1a65a49eba02e27646056214cfb1a5f5410a13840d18dfd36fe46ab38456",
+  "sample_id": "ESC-CSV-02789",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "children"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c46e28040bb4fd5603d0eb9c06b55d577492f41e17cd031a03e745c2a18ec135",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c46e28040bb4fd5603d0eb9c06b55d577492f41e17cd031a03e745c2a18ec135",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7c2ab9f240a991e14904beb57deb243c3f41b5c14f66f41a443601657ae5f057",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0bb3e3043e40b431d31feec1428ddbf1455c63775f0d1977fa1336d712f6f165",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b94b8bb4c3f40ade969abea084c98db52438be43550422cce4577649da1dc24f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"children\",\"bottles\",\"police\",\"rooftops\"],\"target_related\":[\"police\",\"apartment buildings\",\"neighborhood\",\"warrants\",\"children\"],\"mediators\":[\"police\",\"children\"]}"
+    },
+    "indirect": {
+      "call_id": "44aae9b9be9f10041832a3b8bba3c80ad4bdd77f80f23bd90c20c9e01e689c69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Children throwing bottles at police prompted police to search apartment buildings for those children; throwing precedes and motivates the search.\"}"
+    }
+  },
+  "call_ids": [
+    "c46e28040bb4fd5603d0eb9c06b55d577492f41e17cd031a03e745c2a18ec135",
+    "c46e28040bb4fd5603d0eb9c06b55d577492f41e17cd031a03e745c2a18ec135",
+    "7c2ab9f240a991e14904beb57deb243c3f41b5c14f66f41a443601657ae5f057",
+    "0bb3e3043e40b431d31feec1428ddbf1455c63775f0d1977fa1336d712f6f165",
+    "b94b8bb4c3f40ade969abea084c98db52438be43550422cce4577649da1dc24f",
+    "44aae9b9be9f10041832a3b8bba3c80ad4bdd77f80f23bd90c20c9e01e689c69"
+  ],
+  "elapsed_s": 4.329751014709473
+}

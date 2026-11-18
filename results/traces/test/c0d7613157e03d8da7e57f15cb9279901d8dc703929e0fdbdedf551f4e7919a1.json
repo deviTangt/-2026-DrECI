@@ -1,0 +1,66 @@
+{
+  "input_hash": "c0d7613157e03d8da7e57f15cb9279901d8dc703929e0fdbdedf551f4e7919a1",
+  "sample_id": "ESC-CSV-09862",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Police",
+    "said",
+    "people",
+    "man",
+    "women",
+    "fire",
+    "bomb"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a65ea610367419736e820317bc68bd5a08c932e58ee9d633f54b73b92c3b207c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a65ea610367419736e820317bc68bd5a08c932e58ee9d633f54b73b92c3b207c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f5c9939bf03ba96cf0f711e6024b61d2a473a68ce00939721c34c1792f10ed95",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "436dfeb93ccd1ae7d60fdaa3eb9bf91c932c1b6b599cbfb4c1999582772a84d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "34a6d940d524838b2f5be20b700c161d92c495150a8ef86fc2c5b16bb14eaade",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"fire\",\"bomb\"],\"target_related\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"fire\",\"bomb\"],\"mediators\":[\"Police\",\"said\",\"people\",\"man\",\"women\",\"fire\",\"bomb\"]}"
+    },
+    "indirect": {
+      "call_id": "1b62ee14a6151c0333c02f1dcdb3295ee71c3eb85310182c7771c2a3c9e6f6e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'killed in the fire-bomb attack' — 'in' links the attack as cause of the killings; attack precedes and causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "a65ea610367419736e820317bc68bd5a08c932e58ee9d633f54b73b92c3b207c",
+    "a65ea610367419736e820317bc68bd5a08c932e58ee9d633f54b73b92c3b207c",
+    "f5c9939bf03ba96cf0f711e6024b61d2a473a68ce00939721c34c1792f10ed95",
+    "436dfeb93ccd1ae7d60fdaa3eb9bf91c932c1b6b599cbfb4c1999582772a84d9",
+    "34a6d940d524838b2f5be20b700c161d92c495150a8ef86fc2c5b16bb14eaade",
+    "1b62ee14a6151c0333c02f1dcdb3295ee71c3eb85310182c7771c2a3c9e6f6e6"
+  ],
+  "elapsed_s": 5.040831565856934
+}

@@ -1,0 +1,67 @@
+{
+  "input_hash": "c72c2f90c616cdc8f8e5c1c68ede039576484b7cd7569d9fcdd04b782e7198e8",
+  "sample_id": "ESC-CSV-09264",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "Athens",
+    "flames",
+    "Wednesday",
+    "protests",
+    "Greeks",
+    "austerity",
+    "spending cuts"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "84e39c0c22afd3cb94b4d838c1a2d24a0e178c893293d82cb69183ec8a06cc9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "84e39c0c22afd3cb94b4d838c1a2d24a0e178c893293d82cb69183ec8a06cc9e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "43da5540405e4421ccafff3a83e60caf5c91db1b3811311cbce459d1c46cdd1e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eba0e0944c0275a0be66ff7f880ddfd55a4b44199fa129c0350a7183f0d00b0d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b1777e6cd9fb10eb37454065f7846a503d3c300e2762ad9ccf33a14aa494c966",
+      "status": "ok",
+      "text": "{\"source_related\":[\"building\",\"bank\",\"Athens\",\"flames\",\"Wednesday\",\"protests\",\"Greeks\",\"austerity\",\"spending cuts\"],\"target_related\":[\"people\",\"bank\",\"Athens\",\"flames\",\"Wednesday\",\"protests\",\"Greeks\",\"austerity\",\"spending cuts\"],\"mediators\":[\"bank\",\"Athens\",\"flames\",\"Wednesday\",\"protests\",\"Greeks\",\"austerity\",\"spending cuts\"]}"
+    },
+    "indirect": {
+      "call_id": "1d23097c434a560e11c4f904aed5dce221a69923f8d418c561a8612aef64abb9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Three people died when an Athens bank went up in flames' — 'when' links the torching to the deaths; torching precedes dying by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "84e39c0c22afd3cb94b4d838c1a2d24a0e178c893293d82cb69183ec8a06cc9e",
+    "84e39c0c22afd3cb94b4d838c1a2d24a0e178c893293d82cb69183ec8a06cc9e",
+    "43da5540405e4421ccafff3a83e60caf5c91db1b3811311cbce459d1c46cdd1e",
+    "eba0e0944c0275a0be66ff7f880ddfd55a4b44199fa129c0350a7183f0d00b0d",
+    "b1777e6cd9fb10eb37454065f7846a503d3c300e2762ad9ccf33a14aa494c966",
+    "1d23097c434a560e11c4f904aed5dce221a69923f8d418c561a8612aef64abb9"
+  ],
+  "elapsed_s": 5.077423810958862
+}

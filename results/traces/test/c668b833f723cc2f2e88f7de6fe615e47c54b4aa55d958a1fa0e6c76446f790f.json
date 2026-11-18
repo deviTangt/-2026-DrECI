@@ -1,0 +1,63 @@
+{
+  "input_hash": "c668b833f723cc2f2e88f7de6fe615e47c54b4aa55d958a1fa0e6c76446f790f",
+  "sample_id": "ESC-CSV-06620",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "Lopez",
+    "murder",
+    "murdering"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1e79ab4ee18912fd03e94cc3f19574c3ab25d2b80865c747834ac5f2b8ff0a11",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1e79ab4ee18912fd03e94cc3f19574c3ab25d2b80865c747834ac5f2b8ff0a11",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "4d40c404f9ec23ecc13f83516b45d5d8bc979d7c969edff60dade6c4436063ac",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1bfc592f6877498c315b92502358dead2afaccee15a773b8c9c9da06ce524b6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a2010501205ee1a9bb2c59b0b81b2b65d0c3e5bf2a7fc456d80f7498f6fddcc4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"shots\",\"murdering\",\"Lopez\",\"murder\"],\"target_related\":[\"murder\",\"Lopez\",\"youths\",\"trial\",\"murdering\",\"Horton\"],\"mediators\":[\"Horton\",\"Lopez\",\"murder\",\"murdering\"]}"
+    },
+    "indirect": {
+      "call_id": "8aa7f746f0f63966226e1aba1eae84f9306c69c15583c1c822cae5857e014279",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Horton's death occurred before the youths were charged with murdering him; the death is the basis for the murder charges.\"}"
+    }
+  },
+  "call_ids": [
+    "1e79ab4ee18912fd03e94cc3f19574c3ab25d2b80865c747834ac5f2b8ff0a11",
+    "1e79ab4ee18912fd03e94cc3f19574c3ab25d2b80865c747834ac5f2b8ff0a11",
+    "4d40c404f9ec23ecc13f83516b45d5d8bc979d7c969edff60dade6c4436063ac",
+    "1bfc592f6877498c315b92502358dead2afaccee15a773b8c9c9da06ce524b6b",
+    "a2010501205ee1a9bb2c59b0b81b2b65d0c3e5bf2a7fc456d80f7498f6fddcc4",
+    "8aa7f746f0f63966226e1aba1eae84f9306c69c15583c1c822cae5857e014279"
+  ],
+  "elapsed_s": 5.3996641635894775
+}

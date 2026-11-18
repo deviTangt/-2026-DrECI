@@ -1,0 +1,69 @@
+{
+  "input_hash": "6bdfc8351454808e94977658056f31ff092388a2257d3aa87bfbc5ea32c2862f",
+  "sample_id": "ESC-CSV-02445",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "mob",
+    "businesses",
+    "vigil",
+    "protest",
+    "police",
+    "officer",
+    "brick",
+    "van",
+    "arrests",
+    "conduct"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "af49533cdbcd6ba0885750b039709545a1b7d350915303fe7e54b9756379abd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "af49533cdbcd6ba0885750b039709545a1b7d350915303fe7e54b9756379abd0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "a849466677e001975aca20608fecefae7c4d0a13fd4addf2cc07857fddaf0e23",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a2d736a546d9e20515083f506204ae7d8943ed18ba772205b313a18c399fdab2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "948a3e1ba7d9a9eae965c28e4ac8fd96d53264431fb61c9225ecdbfb5a143fcb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"mob\",\"businesses\",\"vigil\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"conduct\"],\"target_related\":[\"vigil\",\"mob\",\"businesses\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"conduct\"],\"mediators\":[\"mob\",\"businesses\",\"vigil\",\"protest\",\"police\",\"officer\",\"brick\",\"van\",\"arrests\",\"conduct\"]}"
+    },
+    "indirect": {
+      "call_id": "ad392d21d8e29c5f5cc8794e08400082d013de1347c447dd6772029547253ab1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The unruly mob thrashing through businesses is what marred the vigil; the violent thrashing directly caused the vigil to be spoiled.\"}"
+    }
+  },
+  "call_ids": [
+    "af49533cdbcd6ba0885750b039709545a1b7d350915303fe7e54b9756379abd0",
+    "af49533cdbcd6ba0885750b039709545a1b7d350915303fe7e54b9756379abd0",
+    "a849466677e001975aca20608fecefae7c4d0a13fd4addf2cc07857fddaf0e23",
+    "a2d736a546d9e20515083f506204ae7d8943ed18ba772205b313a18c399fdab2",
+    "948a3e1ba7d9a9eae965c28e4ac8fd96d53264431fb61c9225ecdbfb5a143fcb",
+    "ad392d21d8e29c5f5cc8794e08400082d013de1347c447dd6772029547253ab1"
+  ],
+  "elapsed_s": 21.678054809570312
+}

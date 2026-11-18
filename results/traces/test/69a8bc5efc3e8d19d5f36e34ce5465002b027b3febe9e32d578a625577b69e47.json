@@ -1,0 +1,68 @@
+{
+  "input_hash": "69a8bc5efc3e8d19d5f36e34ce5465002b027b3febe9e32d578a625577b69e47",
+  "sample_id": "ESC-CSV-04633",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Jewellery",
+    "watches",
+    "£1",
+    "7m",
+    "upmarket",
+    "central",
+    "Paris",
+    "shop",
+    "Raid"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "47c103d8f367efdd4c5c9f871aa4366c48355291efcb311e0d0f52030f5c2b10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "47c103d8f367efdd4c5c9f871aa4366c48355291efcb311e0d0f52030f5c2b10",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "54a391b6ac130b436ee52ef1a5e4a43b7ac2beab70b7f9c4c4b0fa063c66f3c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a6616f43658b2511f0f18d52304c0a88db899c69b7f3462dbeba923f37092a2f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ae9269777270b7e73b3385a07210c2fb09b889d6e38b15725b1b9c31ceaf43cb",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"stolen\",\"upmarket\",\"central\",\"Paris\",\"shop\",\"Raid\"],\"target_related\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"heist\",\"upmarket\",\"central\",\"Paris\",\"shop\",\"Raid\"],\"mediators\":[\"Jewellery\",\"watches\",\"£1\",\"7m\",\"upmarket\",\"central\",\"Paris\",\"shop\",\"Raid\"]}"
+    },
+    "indirect": {
+      "call_id": "2520a1d432d2d07f8c71e1a5b928c3d51de64e2d10bcc71b8ba830bd5620385a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'have been stolen during a heist' — 'during' links the heist to the theft, indicating the heist caused the jewellery and watches to be stolen.\"}"
+    }
+  },
+  "call_ids": [
+    "47c103d8f367efdd4c5c9f871aa4366c48355291efcb311e0d0f52030f5c2b10",
+    "47c103d8f367efdd4c5c9f871aa4366c48355291efcb311e0d0f52030f5c2b10",
+    "54a391b6ac130b436ee52ef1a5e4a43b7ac2beab70b7f9c4c4b0fa063c66f3c9",
+    "a6616f43658b2511f0f18d52304c0a88db899c69b7f3462dbeba923f37092a2f",
+    "ae9269777270b7e73b3385a07210c2fb09b889d6e38b15725b1b9c31ceaf43cb",
+    "2520a1d432d2d07f8c71e1a5b928c3d51de64e2d10bcc71b8ba830bd5620385a"
+  ],
+  "elapsed_s": 4.586237907409668
+}

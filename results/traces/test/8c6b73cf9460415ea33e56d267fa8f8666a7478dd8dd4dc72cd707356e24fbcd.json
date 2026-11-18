@@ -1,0 +1,64 @@
+{
+  "input_hash": "8c6b73cf9460415ea33e56d267fa8f8666a7478dd8dd4dc72cd707356e24fbcd",
+  "sample_id": "ESC-CSV-04298",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Australian",
+    "Ski",
+    "Mountaineer",
+    "New",
+    "Zealand"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "a383b3084e018e343b72e09ef39d6c225cd1d4040e2a40d0aadade1e933470c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "a383b3084e018e343b72e09ef39d6c225cd1d4040e2a40d0aadade1e933470c1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "6f4f2c87237dc11846427ee66452c57d100889bcfeee78212d1e08e45b5cabd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "9ebc065f05a24d854aec333952f1fb687bac6f8ad42f38424588eb107ed9aefe",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4001ecc86cd7c395d35e8f795902c8fef125e5b1f9501a26e164d4efdf1ecbfd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Australian\",\"Ski\",\"Mountaineer\",\"New\",\"Zealand\"],\"target_related\":[\"Australian\",\"Ski\",\"Mountaineer\",\"New\",\"Zealand\"],\"mediators\":[\"Australian\",\"Ski\",\"Mountaineer\",\"New\",\"Zealand\"]}"
+    },
+    "indirect": {
+      "call_id": "266e0e1596bf99ef7f391dbe22b4870aab4910f58eb839ae37906e6471d09d64",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Headline 'Dies in Fall' uses 'in' as explicit causal link; common sense: a fatal fall causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "a383b3084e018e343b72e09ef39d6c225cd1d4040e2a40d0aadade1e933470c1",
+    "a383b3084e018e343b72e09ef39d6c225cd1d4040e2a40d0aadade1e933470c1",
+    "6f4f2c87237dc11846427ee66452c57d100889bcfeee78212d1e08e45b5cabd9",
+    "9ebc065f05a24d854aec333952f1fb687bac6f8ad42f38424588eb107ed9aefe",
+    "4001ecc86cd7c395d35e8f795902c8fef125e5b1f9501a26e164d4efdf1ecbfd",
+    "266e0e1596bf99ef7f391dbe22b4870aab4910f58eb839ae37906e6471d09d64"
+  ],
+  "elapsed_s": 4.093590259552002
+}

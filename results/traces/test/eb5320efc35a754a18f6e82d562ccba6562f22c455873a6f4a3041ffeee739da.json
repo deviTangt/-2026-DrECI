@@ -1,0 +1,58 @@
+{
+  "input_hash": "eb5320efc35a754a18f6e82d562ccba6562f22c455873a6f4a3041ffeee739da",
+  "sample_id": "ESC-CSV-09263",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [],
+  "route": "direct",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f178e24a93948a6eb44a46504873cceec57189a936c0471927758eff608f4fd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f178e24a93948a6eb44a46504873cceec57189a936c0471927758eff608f4fd9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "81d894c2855ac58d5acf3ea04461876d5dd0fb86688abd388fb0566340e81b3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "46365a20a6ff7d0fe4e2de84ece5e0f108a81ee418f16fb9770a456e6546e831",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f5b5e6f070402e9082f08246c34955f27877ebe803c8f0a2ffcdad97aa928bd6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"spending\",\"bankruptcy\",\"saving\",\"country\"],\"target_related\":[\"Greeks\",\"streets\",\"tens\",\"thousands\"],\"mediators\":[]}"
+    },
+    "direct": {
+      "call_id": "d3286ae7b938b155c13c5629417bb54e073e7aa0a7662f2441a9a53633813030",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"The phrase 'to protest harsh spending cuts' uses 'to' expressing purpose/causation, linking the cuts to the protest.\"}"
+    }
+  },
+  "call_ids": [
+    "f178e24a93948a6eb44a46504873cceec57189a936c0471927758eff608f4fd9",
+    "f178e24a93948a6eb44a46504873cceec57189a936c0471927758eff608f4fd9",
+    "81d894c2855ac58d5acf3ea04461876d5dd0fb86688abd388fb0566340e81b3b",
+    "46365a20a6ff7d0fe4e2de84ece5e0f108a81ee418f16fb9770a456e6546e831",
+    "f5b5e6f070402e9082f08246c34955f27877ebe803c8f0a2ffcdad97aa928bd6",
+    "d3286ae7b938b155c13c5629417bb54e073e7aa0a7662f2441a9a53633813030"
+  ],
+  "elapsed_s": 4.01671576499939
+}

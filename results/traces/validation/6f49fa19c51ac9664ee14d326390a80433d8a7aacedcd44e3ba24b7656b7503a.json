@@ -1,0 +1,63 @@
+{
+  "input_hash": "6f49fa19c51ac9664ee14d326390a80433d8a7aacedcd44e3ba24b7656b7503a",
+  "sample_id": "ESC-CSV-02726",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "Brooklyn",
+    "neighborhood",
+    "protest"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e2e8686123f3f8ece1f5ede798a20d8d1289de710666e034bd3a0739dc6c74a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e2e8686123f3f8ece1f5ede798a20d8d1289de710666e034bd3a0739dc6c74a6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "120ef52fe423b1a9c8b12876f9d45460efa0583a789270d6f8c63528844304d7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a67f4fd8d6278eae4325fe97081ddba8a08b6574804db3573514dbee224778d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4f05ea03b1e883bc492ea5ab086611ae729438ddc00ff74e88c2c93e1d39fd09",
+      "status": "ok",
+      "text": "{\"source_related\":[\"vigil\",\"protest\",\"Brooklyn\",\"neighborhood\",\"police\"],\"target_related\":[\"police\",\"Brooklyn\",\"neighborhood\",\"protest\"],\"mediators\":[\"police\",\"Brooklyn\",\"neighborhood\",\"protest\"]}"
+    },
+    "indirect": {
+      "call_id": "d6d66dfa8b20bd1313f1a0547423d1e802c1c50bf9674c59f9569eb47d5c58b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a riot prompts authorities to impose a police lockdown on the neighborhood, so the riot causes the lockdown.\"}"
+    }
+  },
+  "call_ids": [
+    "e2e8686123f3f8ece1f5ede798a20d8d1289de710666e034bd3a0739dc6c74a6",
+    "e2e8686123f3f8ece1f5ede798a20d8d1289de710666e034bd3a0739dc6c74a6",
+    "120ef52fe423b1a9c8b12876f9d45460efa0583a789270d6f8c63528844304d7",
+    "0a67f4fd8d6278eae4325fe97081ddba8a08b6574804db3573514dbee224778d",
+    "4f05ea03b1e883bc492ea5ab086611ae729438ddc00ff74e88c2c93e1d39fd09",
+    "d6d66dfa8b20bd1313f1a0547423d1e802c1c50bf9674c59f9569eb47d5c58b7"
+  ],
+  "elapsed_s": 4.382061004638672
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "a548c49d69c8d8f9fe68eac0c9ebc8f65ed2a032d92b7d13899ade171635854c",
+  "sample_id": "ESC-CSV-02121",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Madeline Kafoury",
+    "receptionist",
+    "63 - year - old",
+    "slaying",
+    "shotgun"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7cea4d541884e98181a0a4001df46fc1d1d3bde427c56a18b6880254cb3734b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7cea4d541884e98181a0a4001df46fc1d1d3bde427c56a18b6880254cb3734b4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "808f2ac49ac9be42aa7047bec828be12888d69a823d6b9bfac77bfd9fc101fdc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e6b806920ec54d01fd01d80f26ea34d9c9c84f315944fa59092f33b8078ed8e5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "aea50b5065b53b5db56ab55780389e71cafff596c08aa0910e9a7b05c1166f35",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Madeline Kafoury\",\"receptionist\",\"63 - year - old\",\"slaying\",\"shotgun\"],\"target_related\":[\"Madeline Kafoury\",\"receptionist\",\"63 - year - old\",\"slaying\",\"shotgun\",\"murder\",\"assault\"],\"mediators\":[\"Madeline Kafoury\",\"receptionist\",\"63 - year - old\",\"slaying\",\"shotgun\"]}"
+    },
+    "indirect": {
+      "call_id": "df82887400f26220d5b7f57aed22641bd952659285f06e80083e57eedc84ae25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shooting ... that left a receptionist dead' — 'left' explicitly links the killing to the death; killing causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "7cea4d541884e98181a0a4001df46fc1d1d3bde427c56a18b6880254cb3734b4",
+    "7cea4d541884e98181a0a4001df46fc1d1d3bde427c56a18b6880254cb3734b4",
+    "808f2ac49ac9be42aa7047bec828be12888d69a823d6b9bfac77bfd9fc101fdc",
+    "e6b806920ec54d01fd01d80f26ea34d9c9c84f315944fa59092f33b8078ed8e5",
+    "aea50b5065b53b5db56ab55780389e71cafff596c08aa0910e9a7b05c1166f35",
+    "df82887400f26220d5b7f57aed22641bd952659285f06e80083e57eedc84ae25"
+  ],
+  "elapsed_s": 5.619941234588623
+}

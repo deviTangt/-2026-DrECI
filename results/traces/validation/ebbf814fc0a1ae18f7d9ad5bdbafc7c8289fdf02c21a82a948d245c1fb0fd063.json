@@ -1,0 +1,62 @@
+{
+  "input_hash": "ebbf814fc0a1ae18f7d9ad5bdbafc7c8289fdf02c21a82a948d245c1fb0fd063",
+  "sample_id": "ESC-CSV-02173",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Kafoury",
+    "Madeline Kafoury",
+    "shot dead"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "6b12afe1f3a04dc17b3bac2fc0135c3093d5a626be69a82bceec7a6c4ccfbe37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "6b12afe1f3a04dc17b3bac2fc0135c3093d5a626be69a82bceec7a6c4ccfbe37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "88cbf1429321c268084056cc2852dcf29d41080dbf663839fa9d579bdf2d171a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6e372c0c16d8b702f34519fc88b2f713414264b57b9d90dcfd2b2440a259aadf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "4077fee4bdbc3fef194d2bef33aeb08b076eb27f1d90300cb5cb5b93bf1adce6",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Kafoury\",\"Madeline Kafoury\",\"shot dead\",\"murder\",\"LaCalamita\"],\"target_related\":[\"Monday\",\"shot dead\",\"wounded\",\"Kafoury\",\"Madeline Kafoury\",\"Paul Riva\",\"Alan Steinberg\"],\"mediators\":[\"Kafoury\",\"Madeline Kafoury\",\"shot dead\"]}"
+    },
+    "indirect": {
+      "call_id": "10bdf28a0a038ddbf77e350f1d50313893055034d7c2cf33fdc26bd5bcb82cb0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Violence (Y) led to Kafoury being shot dead (Z), which is the death (X); chain: violence -> Kafoury shot dead -> death.\"}"
+    }
+  },
+  "call_ids": [
+    "6b12afe1f3a04dc17b3bac2fc0135c3093d5a626be69a82bceec7a6c4ccfbe37",
+    "6b12afe1f3a04dc17b3bac2fc0135c3093d5a626be69a82bceec7a6c4ccfbe37",
+    "88cbf1429321c268084056cc2852dcf29d41080dbf663839fa9d579bdf2d171a",
+    "6e372c0c16d8b702f34519fc88b2f713414264b57b9d90dcfd2b2440a259aadf",
+    "4077fee4bdbc3fef194d2bef33aeb08b076eb27f1d90300cb5cb5b93bf1adce6",
+    "10bdf28a0a038ddbf77e350f1d50313893055034d7c2cf33fdc26bd5bcb82cb0"
+  ],
+  "elapsed_s": 6.802823305130005
+}

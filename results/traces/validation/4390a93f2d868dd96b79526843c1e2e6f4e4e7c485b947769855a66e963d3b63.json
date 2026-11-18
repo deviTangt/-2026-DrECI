@@ -1,0 +1,60 @@
+{
+  "input_hash": "4390a93f2d868dd96b79526843c1e2e6f4e4e7c485b947769855a66e963d3b63",
+  "sample_id": "ESC-CSV-01567",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gunman"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "35880df093e432564f250102dd74e569aad3911e445467957c4bf425512f78c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "35880df093e432564f250102dd74e569aad3911e445467957c4bf425512f78c0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2fc3f4d872f595dc5ebff3c72ecce4aae6ab0a37847bf864da5bae75ba12c099",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "cc609d2130a2cf57f94ce5868ae19f5edb4b4c054b5e3f141414ed8a3400319a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c641f8d71077bf1fe88d082d6972555a4a0a92ee7b78a7303fdd552cc1520ce2",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gunman\",\"residence\"],\"target_related\":[\"gunman\",\"handgun\",\"officer\"],\"mediators\":[\"gunman\"]}"
+    },
+    "indirect": {
+      "call_id": "342c7839631d9842566035b4e8842d10ec298453355dfbf34400894554778de8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The gunman burst out of the residence, then put a handgun to the officer's face and fired; bursting out precedes and enables the firing.\"}"
+    }
+  },
+  "call_ids": [
+    "35880df093e432564f250102dd74e569aad3911e445467957c4bf425512f78c0",
+    "35880df093e432564f250102dd74e569aad3911e445467957c4bf425512f78c0",
+    "2fc3f4d872f595dc5ebff3c72ecce4aae6ab0a37847bf864da5bae75ba12c099",
+    "cc609d2130a2cf57f94ce5868ae19f5edb4b4c054b5e3f141414ed8a3400319a",
+    "c641f8d71077bf1fe88d082d6972555a4a0a92ee7b78a7303fdd552cc1520ce2",
+    "342c7839631d9842566035b4e8842d10ec298453355dfbf34400894554778de8"
+  ],
+  "elapsed_s": 5.279712200164795
+}

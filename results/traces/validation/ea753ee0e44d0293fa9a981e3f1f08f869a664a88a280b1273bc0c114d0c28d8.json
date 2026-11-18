@@ -1,0 +1,62 @@
+{
+  "input_hash": "ea753ee0e44d0293fa9a981e3f1f08f869a664a88a280b1273bc0c114d0c28d8",
+  "sample_id": "ESC-CSV-02461",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "teenager",
+    "Killing",
+    "Police"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "def7f7a9411cb447fcdec39176f9146d9731a56b1ac0ad58e5ca5cc1afec48aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "def7f7a9411cb447fcdec39176f9146d9731a56b1ac0ad58e5ca5cc1afec48aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "61527c375dfff87cfd3f9161ce83ca3b3fa57421076be6260abfa471385ae253",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "72ef305364299a6b0900f8ed8176202d74bdb1949480da8819c9bd4caf393dea",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e0fa83b5d22fbf1c2cba0f2b7ba66fddb6bb4c51e97b1fd65572f6c104fc5cc3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"shooting\",\"armed\",\"teenager\",\"police\",\"officers\",\"Brooklyn\",\"street\",\"Killing\",\"Police\"],\"target_related\":[\"East\",\"Flatbush\",\"Persists\",\"Teenager\",\"Killing\",\"Police\"],\"mediators\":[\"teenager\",\"Killing\",\"Police\"]}"
+    },
+    "indirect": {
+      "call_id": "2f27100a570f3fc7b39d93c3e1068fd5457123b79ed70314013bdc2b3e1dc465",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: a teenager being killed by police causes anger, as the headline states anger persists over the killing.\"}"
+    }
+  },
+  "call_ids": [
+    "def7f7a9411cb447fcdec39176f9146d9731a56b1ac0ad58e5ca5cc1afec48aa",
+    "def7f7a9411cb447fcdec39176f9146d9731a56b1ac0ad58e5ca5cc1afec48aa",
+    "61527c375dfff87cfd3f9161ce83ca3b3fa57421076be6260abfa471385ae253",
+    "72ef305364299a6b0900f8ed8176202d74bdb1949480da8819c9bd4caf393dea",
+    "e0fa83b5d22fbf1c2cba0f2b7ba66fddb6bb4c51e97b1fd65572f6c104fc5cc3",
+    "2f27100a570f3fc7b39d93c3e1068fd5457123b79ed70314013bdc2b3e1dc465"
+  ],
+  "elapsed_s": 8.033159255981445
+}

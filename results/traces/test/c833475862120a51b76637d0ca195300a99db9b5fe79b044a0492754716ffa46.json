@@ -1,0 +1,63 @@
+{
+  "input_hash": "c833475862120a51b76637d0ca195300a99db9b5fe79b044a0492754716ffa46",
+  "sample_id": "ESC-CSV-06611",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Lopez",
+    "brother",
+    "threatened",
+    "kill"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ff38ef650ec9e74a641886505b9da387cea5cf5aa21970aea7eb2dd68177f710",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ff38ef650ec9e74a641886505b9da387cea5cf5aa21970aea7eb2dd68177f710",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2952ec3a1d1dc2095a5850f737c9ba3f21f6c0620363342903fef84ca761f397",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b76070fd2a0a660ced0a6a1bfd7ba75835d734e948bf8e225820c74516be008e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "458487128fd720b8151394d9dc3752ea88510ffb372acf83f53137d550f16bef",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"Lopez\",\"Horton\",\"death\",\"brother\",\"threatened\",\"kill\"],\"target_related\":[\"Monday\",\"testimony\",\"man\",\"Lopez\",\"brother\",\"threatened\",\"kill\",\"scared\",\"stand\"],\"mediators\":[\"Lopez\",\"brother\",\"threatened\",\"kill\"]}"
+    },
+    "indirect": {
+      "call_id": "5f2253bf6c2ac0aab47ce73c0b3ec157305690b2d36578ffebcc2c8ea3f6bb22",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Text states charges and a scheduled trial but gives no causal link between being charged and the trial; no explicit, implicit, or structural causation found.\"}"
+    }
+  },
+  "call_ids": [
+    "ff38ef650ec9e74a641886505b9da387cea5cf5aa21970aea7eb2dd68177f710",
+    "ff38ef650ec9e74a641886505b9da387cea5cf5aa21970aea7eb2dd68177f710",
+    "2952ec3a1d1dc2095a5850f737c9ba3f21f6c0620363342903fef84ca761f397",
+    "b76070fd2a0a660ced0a6a1bfd7ba75835d734e948bf8e225820c74516be008e",
+    "458487128fd720b8151394d9dc3752ea88510ffb372acf83f53137d550f16bef",
+    "5f2253bf6c2ac0aab47ce73c0b3ec157305690b2d36578ffebcc2c8ea3f6bb22"
+  ],
+  "elapsed_s": 6.0443315505981445
+}

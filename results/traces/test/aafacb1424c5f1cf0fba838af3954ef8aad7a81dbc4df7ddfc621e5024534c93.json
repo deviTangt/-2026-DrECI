@@ -1,0 +1,66 @@
+{
+  "input_hash": "aafacb1424c5f1cf0fba838af3954ef8aad7a81dbc4df7ddfc621e5024534c93",
+  "sample_id": "ESC-CSV-06437",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "gang",
+    "member",
+    "Teen",
+    "Shooting",
+    "Hero",
+    "Brooklyn",
+    "Mom"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e7d6f73521bddce6be68d77e42782c891ad6fa83d18a4cb03327a695886969ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e7d6f73521bddce6be68d77e42782c891ad6fa83d18a4cb03327a695886969ae",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "92ef9ad7adf64531b1fc98365fc9841d4ca90eeba8b77f0b6e2799974b00c6d3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "05634aa2bb3e2c62b4233296fb067d9bfc14d00cfa761e0f41707380644618a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "9c5f2202125be43235dac763b15c7e9670c025e416471fcf9dcec221e571d7ea",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gang\",\"member\",\"confessed\",\"killing\",\"pregnant\",\"mom\",\"died\",\"Friday\",\"shielded\",\"children\",\"bullets\",\"ladies\",\"Teen\",\"Shooting\",\"Hero\",\"Brooklyn\",\"Mom\"],\"target_related\":[\"18-year-old\",\"gang\",\"member\",\"Teen\",\"Shooting\",\"Hero\",\"Brooklyn\",\"Mom\"],\"mediators\":[\"gang\",\"member\",\"Teen\",\"Shooting\",\"Hero\",\"Brooklyn\",\"Mom\"]}"
+    },
+    "indirect": {
+      "call_id": "449f6dd3cbd777490aef58013bb461f03871bb635549d9f030165b5ea044fdf4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting precedes and causes the teen's arrest; common sense: a confessed shooter is arrested for the shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "e7d6f73521bddce6be68d77e42782c891ad6fa83d18a4cb03327a695886969ae",
+    "e7d6f73521bddce6be68d77e42782c891ad6fa83d18a4cb03327a695886969ae",
+    "92ef9ad7adf64531b1fc98365fc9841d4ca90eeba8b77f0b6e2799974b00c6d3",
+    "05634aa2bb3e2c62b4233296fb067d9bfc14d00cfa761e0f41707380644618a9",
+    "9c5f2202125be43235dac763b15c7e9670c025e416471fcf9dcec221e571d7ea",
+    "449f6dd3cbd777490aef58013bb461f03871bb635549d9f030165b5ea044fdf4"
+  ],
+  "elapsed_s": 4.852914333343506
+}

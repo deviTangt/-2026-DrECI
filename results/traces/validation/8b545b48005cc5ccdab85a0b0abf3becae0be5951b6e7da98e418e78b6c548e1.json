@@ -1,0 +1,63 @@
+{
+  "input_hash": "8b545b48005cc5ccdab85a0b0abf3becae0be5951b6e7da98e418e78b6c548e1",
+  "sample_id": "ESC-CSV-02946",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Brooklyn",
+    "16-year-old",
+    "NYPD",
+    "cops"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "40ac567a8d462c3d265372b6cb2f3ac98a0a77bc36b71739a22e07d4470974e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "40ac567a8d462c3d265372b6cb2f3ac98a0a77bc36b71739a22e07d4470974e8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "237c364c429f40eecb2f985d46436653b94fd9f8c624d5df190a0b94c37c65c2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "a53058ed935e0d132af965817fc2ea813e9fef854777b4a8aa3e4ad969064f13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "78d9fb9efe702dbb2b9777b46efa1d17ea5779299a04b762cea89bf6f4a28d20",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"officers\",\"16-year-old\",\"Brooklyn\",\"resident\",\"gun\",\"police\",\"Saturday\",\"cops\"],\"target_related\":[\"Chaos\",\"Brooklyn\",\"100\",\"teenagers\",\"streets\",\"vigil\",\"16-year-old\",\"NYPD\",\"cops\"],\"mediators\":[\"Brooklyn\",\"16-year-old\",\"NYPD\",\"cops\"]}"
+    },
+    "indirect": {
+      "call_id": "62f3063ea10b60df3b807e0ae2685b407f51f6c55b5c590f01814e9d5f29544e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"The vigil for the 16-year-old shot dead by NYPD cops preceded and provoked the teenagers' riot; 'following vigil' implies the shooting fueled the riot.\"}"
+    }
+  },
+  "call_ids": [
+    "40ac567a8d462c3d265372b6cb2f3ac98a0a77bc36b71739a22e07d4470974e8",
+    "40ac567a8d462c3d265372b6cb2f3ac98a0a77bc36b71739a22e07d4470974e8",
+    "237c364c429f40eecb2f985d46436653b94fd9f8c624d5df190a0b94c37c65c2",
+    "a53058ed935e0d132af965817fc2ea813e9fef854777b4a8aa3e4ad969064f13",
+    "78d9fb9efe702dbb2b9777b46efa1d17ea5779299a04b762cea89bf6f4a28d20",
+    "62f3063ea10b60df3b807e0ae2685b407f51f6c55b5c590f01814e9d5f29544e"
+  ],
+  "elapsed_s": 4.616710424423218
+}

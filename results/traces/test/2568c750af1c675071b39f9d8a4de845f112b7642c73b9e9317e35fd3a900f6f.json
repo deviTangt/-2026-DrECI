@@ -1,0 +1,61 @@
+{
+  "input_hash": "2568c750af1c675071b39f9d8a4de845f112b7642c73b9e9317e35fd3a900f6f",
+  "sample_id": "ESC-CSV-09451",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fire",
+    "Bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "46246281d258df9ebce7b2795b6cf2b498d37b138f68c5ef4d002ca1e2780be4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "46246281d258df9ebce7b2795b6cf2b498d37b138f68c5ef4d002ca1e2780be4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "36b3d8399e601453464e67c89f68723d5eb84f20c4fde298dcddfac7fc4333a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "64f940a21a98f27bc8afb608c7789853641e9885e8d840cb4290f9b7b2b7767f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3c62dc5d745fc0da0a3169235a6a2a20dfc5dbd662dd2ac80028c4a3ec8bf426",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"Molotov cocktail fire bombs\",\"Bank\",\"fire\"],\"target_related\":[\"fire\",\"THREE PEOPLE\",\"MARFIN EGNATIA BANK\",\"Stadiou Street\",\"downtown Athens\"],\"mediators\":[\"fire\",\"Bank\"]}"
+    },
+    "indirect": {
+      "call_id": "7c17f1fe9ad579ef7fcfae158ab5145f5269ad5a642e4270c46dd99a47db6845",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'The fire started when demonstrators hurled Molotov cocktail fire bombs' — hurling bombs started the fire that became the blaze; explicit 'started when' plus causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "46246281d258df9ebce7b2795b6cf2b498d37b138f68c5ef4d002ca1e2780be4",
+    "46246281d258df9ebce7b2795b6cf2b498d37b138f68c5ef4d002ca1e2780be4",
+    "36b3d8399e601453464e67c89f68723d5eb84f20c4fde298dcddfac7fc4333a1",
+    "64f940a21a98f27bc8afb608c7789853641e9885e8d840cb4290f9b7b2b7767f",
+    "3c62dc5d745fc0da0a3169235a6a2a20dfc5dbd662dd2ac80028c4a3ec8bf426",
+    "7c17f1fe9ad579ef7fcfae158ab5145f5269ad5a642e4270c46dd99a47db6845"
+  ],
+  "elapsed_s": 4.790561199188232
+}

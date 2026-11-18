@@ -1,0 +1,60 @@
+{
+  "input_hash": "fadbd0e80f3de2086820824fca31179dfe412ee76c7a741ce3d98527a418c785",
+  "sample_id": "ESC-CSV-02141",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "man"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5d09e81357426830d98141ddee704c3f7c01f8526dd890412e50977e176bee87",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5d09e81357426830d98141ddee704c3f7c01f8526dd890412e50977e176bee87",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fac450fb5cdc5aa4c860e838a8495e2754379ce340f30bb3d67b998e26e12b86",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "350661fd776c4b5a9323e8df79ad9715844a284a4c34dc51ba422cff4569fda1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "aa8e6353afdb963d9ce99908a59c3a1343c8336014ec4f6ccfe022d213a7237f",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"shotgun\",\"manager\",\"office\",\"killing\"],\"target_related\":[\"man\",\"co-workers\",\"Anthony LaCalamita III\",\"shooting\"],\"mediators\":[\"man\"]}"
+    },
+    "indirect": {
+      "call_id": "c2c8f165285a7b33974be1c5469a94405a2ae651cf9a140de5f0a98b92af1417",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: shooting (firing a shotgun) is the act that causes killing; the man shot with purpose of killing, so shooting causes killing.\"}"
+    }
+  },
+  "call_ids": [
+    "5d09e81357426830d98141ddee704c3f7c01f8526dd890412e50977e176bee87",
+    "5d09e81357426830d98141ddee704c3f7c01f8526dd890412e50977e176bee87",
+    "fac450fb5cdc5aa4c860e838a8495e2754379ce340f30bb3d67b998e26e12b86",
+    "350661fd776c4b5a9323e8df79ad9715844a284a4c34dc51ba422cff4569fda1",
+    "aa8e6353afdb963d9ce99908a59c3a1343c8336014ec4f6ccfe022d213a7237f",
+    "c2c8f165285a7b33974be1c5469a94405a2ae651cf9a140de5f0a98b92af1417"
+  ],
+  "elapsed_s": 6.286459445953369
+}

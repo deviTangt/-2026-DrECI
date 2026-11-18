@@ -1,0 +1,68 @@
+{
+  "input_hash": "1be7c737f1a7ce84e438eab3ec15ec9b1ab16d880950bb4870494156cae2f145",
+  "sample_id": "ESC-CSV-01575",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Sheriff's deputies",
+    "Hawaiian Gardens",
+    "Friday",
+    "gunman",
+    "Deputy Jerry Ortiz",
+    "35",
+    "woman",
+    "doorway",
+    "apartment"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1bfd07e40e437bffe9956a81b8e0d8b9e47fae8f2f1f02f71e6f80fc92ea27bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1bfd07e40e437bffe9956a81b8e0d8b9e47fae8f2f1f02f71e6f80fc92ea27bf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e2abf7f7dab75d0ab625242c32b9723650462c86d0c220da28b58542b9d5968d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "79af8eb2c51709b238ba33aa8c91f2ab6cc166ca0ca9d6b83775eb750312d7d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ed77eb7781b4f10a69154d2ecae33453bdd878fd63beea46980e75d108cd1a27",
+      "status": "ok",
+      "text": "{\"source_related\":[\"3 : 10 p . m .\",\"12200 block\",\"223rd Street\",\"Hawaiian Gardens\",\"Long Beach\",\"gang violence\",\"Sheriff's deputies\",\"Friday\",\"gunman\",\"Deputy Jerry Ortiz\",\"35\",\"woman\",\"doorway\",\"apartment\"],\"target_related\":[\"Sheriff's deputies\",\"Hawaiian Gardens\",\"Friday\",\"gunman\",\"Deputy Jerry Ortiz\",\"35\",\"woman\",\"doorway\",\"apartment\"],\"mediators\":[\"Sheriff's deputies\",\"Hawaiian Gardens\",\"Friday\",\"gunman\",\"Deputy Jerry Ortiz\",\"35\",\"woman\",\"doorway\",\"apartment\"]}"
+    },
+    "indirect": {
+      "call_id": "c0951e6203c91307d137058f729a6222f12767ce40f2ccfbc9c2d466509159a5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"The shooting (gunman surprised Deputy Ortiz) prompted deputies to fan out in search of the gunman; the shooting precedes and causes the search.\"}"
+    }
+  },
+  "call_ids": [
+    "1bfd07e40e437bffe9956a81b8e0d8b9e47fae8f2f1f02f71e6f80fc92ea27bf",
+    "1bfd07e40e437bffe9956a81b8e0d8b9e47fae8f2f1f02f71e6f80fc92ea27bf",
+    "e2abf7f7dab75d0ab625242c32b9723650462c86d0c220da28b58542b9d5968d",
+    "79af8eb2c51709b238ba33aa8c91f2ab6cc166ca0ca9d6b83775eb750312d7d0",
+    "ed77eb7781b4f10a69154d2ecae33453bdd878fd63beea46980e75d108cd1a27",
+    "c0951e6203c91307d137058f729a6222f12767ce40f2ccfbc9c2d466509159a5"
+  ],
+  "elapsed_s": 7.647172212600708
+}

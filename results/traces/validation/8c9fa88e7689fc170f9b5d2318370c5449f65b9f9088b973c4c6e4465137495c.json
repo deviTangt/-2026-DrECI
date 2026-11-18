@@ -1,0 +1,62 @@
+{
+  "input_hash": "8c9fa88e7689fc170f9b5d2318370c5449f65b9f9088b973c4c6e4465137495c",
+  "sample_id": "ESC-CSV-02281",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "accountant",
+    "bosses",
+    "receptionist"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1f10b56ff1aa352822209ab4c45a7bb11bdc080ec91df1929f8adb7d88f0ee9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1f10b56ff1aa352822209ab4c45a7bb11bdc080ec91df1929f8adb7d88f0ee9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "fabb2c86012f6285202077232a80d3ad137d5a76a5be37e986e0d63babdc78e3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4140f1eafa651e15fe26fe9383620a61f6d0165cc9d66e981b8027286a406d55",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "10558deb5e8c90c2ad0ca68717c5ba9190a33461777c4b7892137aff352366ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"job\",\"fired\"],\"target_related\":[\"Riva\",\"LaCalamita\",\"receptionist\",\"bosses\"],\"mediators\":[\"accountant\",\"bosses\",\"receptionist\"]}"
+    },
+    "indirect": {
+      "call_id": "29ce2ba34b21cfc0f3653b699a81ea81afa72766df2dc13edd8cab6605e9f5b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Losing his job prompted the accountant to buy a shotgun and later shoot people; job loss before shooting fits common-sense causation.\"}"
+    }
+  },
+  "call_ids": [
+    "b1f10b56ff1aa352822209ab4c45a7bb11bdc080ec91df1929f8adb7d88f0ee9",
+    "b1f10b56ff1aa352822209ab4c45a7bb11bdc080ec91df1929f8adb7d88f0ee9",
+    "fabb2c86012f6285202077232a80d3ad137d5a76a5be37e986e0d63babdc78e3",
+    "4140f1eafa651e15fe26fe9383620a61f6d0165cc9d66e981b8027286a406d55",
+    "10558deb5e8c90c2ad0ca68717c5ba9190a33461777c4b7892137aff352366ba",
+    "29ce2ba34b21cfc0f3653b699a81ea81afa72766df2dc13edd8cab6605e9f5b2"
+  ],
+  "elapsed_s": 8.15592908859253
+}

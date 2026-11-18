@@ -1,0 +1,64 @@
+{
+  "input_hash": "dc1e05dbb5a65c1ed6adc37cd11ade7afdec558589bbf4be0e3a963140e3f9d9",
+  "sample_id": "ESC-CSV-09927",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "dead",
+    "buildings",
+    "burning",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "92b9e3660eae8801eefc1e7452e8a9a64460465d3a6b13bf4435b405e46353a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "92b9e3660eae8801eefc1e7452e8a9a64460465d3a6b13bf4435b405e46353a4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "f5f7d92a5c2183643b1a8dcd2694a5a2aefa0d2d04495a3842265a0a49172048",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "18f7ba53bad2d56ef3f76f86d734e6d3b7935fd9572950ae1199ac63162a7b25",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "07c04a07a7f0cff6809583f2a7186c71ffa1fd0b47fbaae4e32fe7fe2c71133e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"general\",\"strike\",\"Athens\",\"people\",\"dead\",\"buildings\",\"burning\"],\"target_related\":[\"people\",\"dead\",\"buildings\",\"burning\",\"Athens\",\"War\",\"Zone\"],\"mediators\":[\"people\",\"dead\",\"buildings\",\"burning\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "82b3c3c9830e70b7a851f2362c508803c8570d011bdba9358960644ae9b1e54d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"'march turns into a battle' — 'turns into' implicitly indicates the march provoked/led to the battle; temporally march precedes battle.\"}"
+    }
+  },
+  "call_ids": [
+    "92b9e3660eae8801eefc1e7452e8a9a64460465d3a6b13bf4435b405e46353a4",
+    "92b9e3660eae8801eefc1e7452e8a9a64460465d3a6b13bf4435b405e46353a4",
+    "f5f7d92a5c2183643b1a8dcd2694a5a2aefa0d2d04495a3842265a0a49172048",
+    "18f7ba53bad2d56ef3f76f86d734e6d3b7935fd9572950ae1199ac63162a7b25",
+    "07c04a07a7f0cff6809583f2a7186c71ffa1fd0b47fbaae4e32fe7fe2c71133e",
+    "82b3c3c9830e70b7a851f2362c508803c8570d011bdba9358960644ae9b1e54d"
+  ],
+  "elapsed_s": 6.168271541595459
+}

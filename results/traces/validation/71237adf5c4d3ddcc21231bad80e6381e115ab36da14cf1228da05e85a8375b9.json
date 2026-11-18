@@ -1,0 +1,63 @@
+{
+  "input_hash": "71237adf5c4d3ddcc21231bad80e6381e115ab36da14cf1228da05e85a8375b9",
+  "sample_id": "ESC-CSV-02104",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    0
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "murder",
+    "assault",
+    "slaying",
+    "shootings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9e5af375232fa440df69d4196af6297818579d17eb27b05f687e96692cf14e7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9e5af375232fa440df69d4196af6297818579d17eb27b05f687e96692cf14e7f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "68d348ff7a5c10927b427766296b8db0f15597c9fe4a3474a8f6ba1495f769d0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "c3c3bb0127d91176baec00255c8ec7d26d49877d20cabcf93d4694ed9fe153ce",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "dbec811f6a99edb33d478fc8a977f69a688e65087f9fc4f9d1da61fe9debc532",
+      "status": "ok",
+      "text": "{\"source_related\":[\"murder\",\"assault\",\"slaying\",\"shootings\"],\"target_related\":[\"murder\",\"assault\",\"slaying\",\"shootings\"],\"mediators\":[\"murder\",\"assault\",\"slaying\",\"shootings\"]}"
+    },
+    "indirect": {
+      "call_id": "bc294de32cd310f8d58cd9a7adf5173f455f1bdbc8bda0c2624dc62506b6d86d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3,4],\"evidence\":\"Intent to kill/murder is the mental state that causes the killing; 'assault with intent to kill' and 'intent to murder' show intent leading to kill.\"}"
+    }
+  },
+  "call_ids": [
+    "9e5af375232fa440df69d4196af6297818579d17eb27b05f687e96692cf14e7f",
+    "9e5af375232fa440df69d4196af6297818579d17eb27b05f687e96692cf14e7f",
+    "68d348ff7a5c10927b427766296b8db0f15597c9fe4a3474a8f6ba1495f769d0",
+    "c3c3bb0127d91176baec00255c8ec7d26d49877d20cabcf93d4694ed9fe153ce",
+    "dbec811f6a99edb33d478fc8a977f69a688e65087f9fc4f9d1da61fe9debc532",
+    "bc294de32cd310f8d58cd9a7adf5173f455f1bdbc8bda0c2624dc62506b6d86d"
+  ],
+  "elapsed_s": 4.8214616775512695
+}

@@ -1,0 +1,64 @@
+{
+  "input_hash": "626ef69670c9f16a4227f8c2ba96b0facb30996edb5709d44c423234c48fa292",
+  "sample_id": "ESC-CSV-09390",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "protestors",
+    "striking",
+    "demonstrators",
+    "parliament"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0f2d4a38fa6b36702ca64a35d1841ecabd3389080645041227b57c5be8c21f6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0f2d4a38fa6b36702ca64a35d1841ecabd3389080645041227b57c5be8c21f6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8e877eac1ba4a720b854ab25a9ee70e9fe8f11724ebfefcf7c339ec50690b1b2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d867e34d4578f0f0f96d71d4a067b45f5ca1ff80d8c8ebba465585805fb69591",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "cee7f306b34166f169a37d34b33169e4f0ebe498f39abe9bb66d46dfb8302b8e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"demonstrators\",\"parliament\",\"general\",\"striking\",\"protestors\",\"police\"],\"target_related\":[\"police\",\"protestors\",\"striking\",\"demonstrators\",\"parliament\"],\"mediators\":[\"police\",\"protestors\",\"striking\",\"demonstrators\",\"parliament\"]}"
+    },
+    "indirect": {
+      "call_id": "6c737332d2c4ebe935adfc372fb17611075109f978b935406a6f4d8294fdaef7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Striking protestors fought pitched battles with police; the strike (X) mobilized protestors (Z) who engaged in battles (Y), forming a causal chain.\"}"
+    }
+  },
+  "call_ids": [
+    "0f2d4a38fa6b36702ca64a35d1841ecabd3389080645041227b57c5be8c21f6b",
+    "0f2d4a38fa6b36702ca64a35d1841ecabd3389080645041227b57c5be8c21f6b",
+    "8e877eac1ba4a720b854ab25a9ee70e9fe8f11724ebfefcf7c339ec50690b1b2",
+    "d867e34d4578f0f0f96d71d4a067b45f5ca1ff80d8c8ebba465585805fb69591",
+    "cee7f306b34166f169a37d34b33169e4f0ebe498f39abe9bb66d46dfb8302b8e",
+    "6c737332d2c4ebe935adfc372fb17611075109f978b935406a6f4d8294fdaef7"
+  ],
+  "elapsed_s": 5.236027240753174
+}

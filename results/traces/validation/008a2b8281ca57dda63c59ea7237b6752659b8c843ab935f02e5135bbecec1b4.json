@@ -1,0 +1,61 @@
+{
+  "input_hash": "008a2b8281ca57dda63c59ea7237b6752659b8c843ab935f02e5135bbecec1b4",
+  "sample_id": "ESC-CSV-07263",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "drunken driving",
+    "DUI"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "73035f2309fd19b0e35e0a72a9f04de5ee077838943f664b7d50b8c71e8a6bdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "73035f2309fd19b0e35e0a72a9f04de5ee077838943f664b7d50b8c71e8a6bdf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8902dfc5967b5f44931879167cdf212446ed863b0240f1b418e7731192977ec8",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d44299d964c793f192f2d1b0edc615c834b6ebbaca4654e7a23b1fbd9a20b512",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "ca5585b6ecc231fffd36e9e91411398d31fa2b2cedaa1410d88577d5bf339d53",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chargers player\",\"CHP\",\"drunken driving\",\"DUI\",\"pulled over\"],\"target_related\":[\"county jail\",\"bond\",\"released\",\"drunken driving\",\"DUI\"],\"mediators\":[\"drunken driving\",\"DUI\"]}"
+    },
+    "indirect": {
+      "call_id": "e83a5dae041450b24f8d01fc3526f3564b79e1fb8d1af425bffd1378075f57a2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'Arrested by the CHP ... he was booked into county jail' — 'by' explicitly links arrest to booking; arrest precedes booking per common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "73035f2309fd19b0e35e0a72a9f04de5ee077838943f664b7d50b8c71e8a6bdf",
+    "73035f2309fd19b0e35e0a72a9f04de5ee077838943f664b7d50b8c71e8a6bdf",
+    "8902dfc5967b5f44931879167cdf212446ed863b0240f1b418e7731192977ec8",
+    "d44299d964c793f192f2d1b0edc615c834b6ebbaca4654e7a23b1fbd9a20b512",
+    "ca5585b6ecc231fffd36e9e91411398d31fa2b2cedaa1410d88577d5bf339d53",
+    "e83a5dae041450b24f8d01fc3526f3564b79e1fb8d1af425bffd1378075f57a2"
+  ],
+  "elapsed_s": 4.62726092338562
+}

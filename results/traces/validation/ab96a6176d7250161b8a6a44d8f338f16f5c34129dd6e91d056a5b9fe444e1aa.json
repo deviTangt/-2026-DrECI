@@ -1,0 +1,63 @@
+{
+  "input_hash": "ab96a6176d7250161b8a6a44d8f338f16f5c34129dd6e91d056a5b9fe444e1aa",
+  "sample_id": "ESC-CSV-02507",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Gray",
+    "police",
+    "Death",
+    "Brooklyn Teen"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4d2b964ae6c0de8fcd62b25db619732924bbb74ed69140f822d53104df7bb6da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4d2b964ae6c0de8fcd62b25db619732924bbb74ed69140f822d53104df7bb6da",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "c94f03ce6c33676433e786bda59c03a362b61f40b7fc3a4a77750806d0e0c7bb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "ea86a6190843eb51b72512b0f9b46e83180cfaa5760079d5bd30a3c1816f9251",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "01a4c62f6d4c40579cb3473f0afade93fb21ddeea5c065028e59875bcdd177dd",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Gray\",\"police\",\"gun\",\"Sgt . Mourad Mourad\",\"Officer Jovaniel Cordova\",\"fire\",\"Death\",\"Brooklyn Teen\"],\"target_related\":[\"Death\",\"Brooklyn Teen\",\"Gray\",\"police\"],\"mediators\":[\"Gray\",\"police\",\"Death\",\"Brooklyn Teen\"]}"
+    },
+    "indirect": {
+      "call_id": "4d8252554b2c7ccc89db5925ce0a2d1eb328993983dba29ba9c80b651c7b680b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,3],\"evidence\":\"'Riots Erupt Following Death' — 'Following' implies the killing led to riots; common sense: a police killing precedes and provokes riots.\"}"
+    }
+  },
+  "call_ids": [
+    "4d2b964ae6c0de8fcd62b25db619732924bbb74ed69140f822d53104df7bb6da",
+    "4d2b964ae6c0de8fcd62b25db619732924bbb74ed69140f822d53104df7bb6da",
+    "c94f03ce6c33676433e786bda59c03a362b61f40b7fc3a4a77750806d0e0c7bb",
+    "ea86a6190843eb51b72512b0f9b46e83180cfaa5760079d5bd30a3c1816f9251",
+    "01a4c62f6d4c40579cb3473f0afade93fb21ddeea5c065028e59875bcdd177dd",
+    "4d8252554b2c7ccc89db5925ce0a2d1eb328993983dba29ba9c80b651c7b680b"
+  ],
+  "elapsed_s": 6.867067813873291
+}

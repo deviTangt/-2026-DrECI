@@ -1,0 +1,61 @@
+{
+  "input_hash": "c9536dabdb888af9fc29834589f6e9104db79fecadaeb5ba4539caa2db5c0eb8",
+  "sample_id": "ESC-CSV-06899",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "surveillance",
+    "tape"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "3b9fe82fff27c3af4a5559f97afeb4dab955bf7f626eebfd4ec9cde093f9f5e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "3b9fe82fff27c3af4a5559f97afeb4dab955bf7f626eebfd4ec9cde093f9f5e7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3a38d2bf30b18b80b71cf8452cf8d214dd75139a875e7c4a4c8fcee114235df4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "080fa6f07aa7c2944b85d2363d5943e98435866d515e302b834f631ad43ef722",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "efa559ee3d2b907403783fa806fd5ad63cfdca769de522ededbc26b8160f07a5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"gruesome\",\"Brownsville\",\"street\",\"captured\",\"surveillance\",\"tape\"],\"target_related\":[\"played\",\"surveillance\",\"tape\",\"chilling\"],\"mediators\":[\"surveillance\",\"tape\"]}"
+    },
+    "indirect": {
+      "call_id": "5e746ab7b73db201246d8546eac66a79ea834575bd2c753056c8497f7c5d8362",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"The tape was played at trial; the death was captured on surveillance, but neither the death causes the trial nor the trial causes the death.\"}"
+    }
+  },
+  "call_ids": [
+    "3b9fe82fff27c3af4a5559f97afeb4dab955bf7f626eebfd4ec9cde093f9f5e7",
+    "3b9fe82fff27c3af4a5559f97afeb4dab955bf7f626eebfd4ec9cde093f9f5e7",
+    "3a38d2bf30b18b80b71cf8452cf8d214dd75139a875e7c4a4c8fcee114235df4",
+    "080fa6f07aa7c2944b85d2363d5943e98435866d515e302b834f631ad43ef722",
+    "efa559ee3d2b907403783fa806fd5ad63cfdca769de522ededbc26b8160f07a5",
+    "5e746ab7b73db201246d8546eac66a79ea834575bd2c753056c8497f7c5d8362"
+  ],
+  "elapsed_s": 4.81329870223999
+}

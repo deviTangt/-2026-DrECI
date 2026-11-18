@@ -1,0 +1,61 @@
+{
+  "input_hash": "498aae885d2632331e5e4894bcff74d1ac12ccb686ee85f89c83287a3d3173fc",
+  "sample_id": "ESC-CSV-09842",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "petrol bombs",
+    "fire - bomb attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "1089c1d68aca8fce6d65c47b68cc91e2cfbdec08b3bd6385271824322a2628b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "1089c1d68aca8fce6d65c47b68cc91e2cfbdec08b3bd6385271824322a2628b7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "031d751ed79599cc7360e2c176492679fb276be6c534ae1f7ea02b238ac4a4b3",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "90752815352d2f21464c8df5ca90f596b95de84d527e20db4b4f384bb5e90bfb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e822e2a3c0ea621c5dbf5ec48ca45a58184dccbe167712558afa806fb3c524e3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Hooded youths\",\"petrol bombs\",\"stores\",\"businesses\",\"bank\",\"government buildings\"],\"target_related\":[\"people\",\"man\",\"women\",\"fire - bomb attack\"],\"mediators\":[\"petrol bombs\",\"fire - bomb attack\"]}"
+    },
+    "indirect": {
+      "call_id": "4bf79a8b1b047f8710e685a7d22d7c87aaf8c595db2d893aa324f1b90266122f",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'setting ... ablaze' directly caused people to be 'killed in the fire-bomb attack'; explicit causal link and common-sense order (fire before deaths).\"}"
+    }
+  },
+  "call_ids": [
+    "1089c1d68aca8fce6d65c47b68cc91e2cfbdec08b3bd6385271824322a2628b7",
+    "1089c1d68aca8fce6d65c47b68cc91e2cfbdec08b3bd6385271824322a2628b7",
+    "031d751ed79599cc7360e2c176492679fb276be6c534ae1f7ea02b238ac4a4b3",
+    "90752815352d2f21464c8df5ca90f596b95de84d527e20db4b4f384bb5e90bfb",
+    "e822e2a3c0ea621c5dbf5ec48ca45a58184dccbe167712558afa806fb3c524e3",
+    "4bf79a8b1b047f8710e685a7d22d7c87aaf8c595db2d893aa324f1b90266122f"
+  ],
+  "elapsed_s": 5.319168567657471
+}

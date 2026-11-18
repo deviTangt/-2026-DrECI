@@ -1,0 +1,61 @@
+{
+  "input_hash": "30e5bcaeaace5bee0f1e160c93ee9cbf822eb2cf6b879a2a5502d725f8499747",
+  "sample_id": "ESC-CSV-04664",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Paris",
+    "France"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d5ade25a2483b8b4937c0e8d265f9273222c8186be47fa256a396e0497ba4cbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d5ade25a2483b8b4937c0e8d265f9273222c8186be47fa256a396e0497ba4cbf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "d96650714b25fc5dc4d48be0ab4c076e609c5e32f74ec5782007f582c57302fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d22ede2148f844ea35c8d7aeee68698a23eebe936cb370baecb96b49b524baf7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "33e5b34f0eeef2b6996264eb92e1ef828c2c9acc2f5235b1e1a7869f6685233b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"jewellery\",\"Paris\",\"thefts\",\"France\"],\"target_related\":[\"police\",\"Paris\",\"France\"],\"mediators\":[\"Paris\",\"France\"]}"
+    },
+    "indirect": {
+      "call_id": "c60b9bb46b80cb25eb055066f7e46df091c3cfc5be75b56958af251bea62b381",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"A robbery occurs before police investigate it; common sense holds that the robbery prompts the investigation, so X causes Y.\"}"
+    }
+  },
+  "call_ids": [
+    "d5ade25a2483b8b4937c0e8d265f9273222c8186be47fa256a396e0497ba4cbf",
+    "d5ade25a2483b8b4937c0e8d265f9273222c8186be47fa256a396e0497ba4cbf",
+    "d96650714b25fc5dc4d48be0ab4c076e609c5e32f74ec5782007f582c57302fa",
+    "d22ede2148f844ea35c8d7aeee68698a23eebe936cb370baecb96b49b524baf7",
+    "33e5b34f0eeef2b6996264eb92e1ef828c2c9acc2f5235b1e1a7869f6685233b",
+    "c60b9bb46b80cb25eb055066f7e46df091c3cfc5be75b56958af251bea62b381"
+  ],
+  "elapsed_s": 5.2989466190338135
+}

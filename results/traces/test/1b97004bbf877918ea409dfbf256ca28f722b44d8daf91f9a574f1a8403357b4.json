@@ -1,0 +1,61 @@
+{
+  "input_hash": "1b97004bbf877918ea409dfbf256ca28f722b44d8daf91f9a574f1a8403357b4",
+  "sample_id": "ESC-CSV-09308",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protests",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "07ded083b756391f6c90d3844c914b4766c803f9a0163736bcedef518185b9c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "07ded083b756391f6c90d3844c914b4766c803f9a0163736bcedef518185b9c6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "dc84d520d32e4ea98cf5592e52d4942410452f404a63dd6b15913edb04980a69",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2116d75b217df451c27397dbf6a449dbf02cd8e3ebd313ffbe8f1aa2e412b16b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "54abc759ea2d4379564afce153a6c9641e47ea7c11f5eecb7cc39c9aeeb0f00b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"austerity\",\"protests\",\"Athens\",\"Greek\",\"prime minister\"],\"target_related\":[\"protests\",\"Athens\",\"marched\",\"tens of thousands\",\"killed\"],\"mediators\":[\"protests\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "a8f42cee16b34c9f1933cce02f797ba666d3a061fbd2e31c1b5790afa4b364cd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,2],\"evidence\":\"Protests/demonstrations were 'against harsh new austerity measures,' showing measures caused the demonstrations; 'against' and 'during' link them.\"}"
+    }
+  },
+  "call_ids": [
+    "07ded083b756391f6c90d3844c914b4766c803f9a0163736bcedef518185b9c6",
+    "07ded083b756391f6c90d3844c914b4766c803f9a0163736bcedef518185b9c6",
+    "dc84d520d32e4ea98cf5592e52d4942410452f404a63dd6b15913edb04980a69",
+    "2116d75b217df451c27397dbf6a449dbf02cd8e3ebd313ffbe8f1aa2e412b16b",
+    "54abc759ea2d4379564afce153a6c9641e47ea7c11f5eecb7cc39c9aeeb0f00b",
+    "a8f42cee16b34c9f1933cce02f797ba666d3a061fbd2e31c1b5790afa4b364cd"
+  ],
+  "elapsed_s": 4.548833608627319
+}

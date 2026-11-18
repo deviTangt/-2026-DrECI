@@ -1,0 +1,65 @@
+{
+  "input_hash": "76ad906f9c4d34e61bee931c8ab4fa1f6d36c5eaba53856f157bb092ceb60be2",
+  "sample_id": "ESC-CSV-01605",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "deputy",
+    "home",
+    "door",
+    "head",
+    "someone",
+    "anti-gang unit"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "0acbca06f201e41c4699cade2e6a99988296ca1b5d7dfd481521c1f8871e06fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "0acbca06f201e41c4699cade2e6a99988296ca1b5d7dfd481521c1f8871e06fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e78ff9dfa98fdceb5b05be380101a75bdf28571de9dec3af2a20b0ce0f5d2492",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "85d24574fabb6d79a475529fb39931677b8aa0cc9054704321176bbe1adf74ab",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "aad0cad9bc3f05c35b26ef25602a6564e5eb12574d4f748c117b9c6f64f65c0e",
+      "status": "ok",
+      "text": "{\"source_related\":[\"deputy\",\"home\",\"door\",\"head\",\"someone\",\"anti-gang unit\"],\"target_related\":[\"deputy\",\"Friday\",\"home\",\"door\",\"head\",\"someone\",\"anti-gang unit\"],\"mediators\":[\"deputy\",\"home\",\"door\",\"head\",\"someone\",\"anti-gang unit\"]}"
+    },
+    "indirect": {
+      "call_id": "19f82688638a3a6fe8a8700c86b9fe449347838e7da98d72f46b88c7dab9790a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'was killed Friday when he knocked on the door and someone shot him in the head' — 'when' links the shooting to the killing; shooting causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "0acbca06f201e41c4699cade2e6a99988296ca1b5d7dfd481521c1f8871e06fa",
+    "0acbca06f201e41c4699cade2e6a99988296ca1b5d7dfd481521c1f8871e06fa",
+    "e78ff9dfa98fdceb5b05be380101a75bdf28571de9dec3af2a20b0ce0f5d2492",
+    "85d24574fabb6d79a475529fb39931677b8aa0cc9054704321176bbe1adf74ab",
+    "aad0cad9bc3f05c35b26ef25602a6564e5eb12574d4f748c117b9c6f64f65c0e",
+    "19f82688638a3a6fe8a8700c86b9fe449347838e7da98d72f46b88c7dab9790a"
+  ],
+  "elapsed_s": 5.5605902671813965
+}

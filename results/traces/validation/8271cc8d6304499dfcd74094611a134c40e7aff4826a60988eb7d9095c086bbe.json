@@ -1,0 +1,63 @@
+{
+  "input_hash": "8271cc8d6304499dfcd74094611a134c40e7aff4826a60988eb7d9095c086bbe",
+  "sample_id": "ESC-CSV-02007",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "three people",
+    "killing",
+    "Shooting",
+    "Accounting Firm"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c4688b4b8d2a1d8e397300fd074f6b9a48a8b52d56e84e9781d1e4ca09c6527b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c4688b4b8d2a1d8e397300fd074f6b9a48a8b52d56e84e9781d1e4ca09c6527b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "371c174cfca2c43809158ef19b00080f12ee1b81c782e484d1b4eebd23434f61",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "3c4426f09c9a86f23f8a02b2dcab6171520b4e4822a52bee8392493e3e104ff5",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "06834a5bad79ab1fc2cd5cc2ec6bd706d0b4e44743078b03d2defd5802fe60ae",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"three people\",\"killing\",\"fleeing\",\"police officers\",\"high-speed chase\",\"authorities\",\"Shooting\",\"Accounting Firm\"],\"target_related\":[\"shot\",\"killing\",\"three people\",\"Woman\",\"Shooting\",\"Accounting Firm\",\"2 Hurt\"],\"mediators\":[\"three people\",\"killing\",\"Shooting\",\"Accounting Firm\"]}"
+    },
+    "indirect": {
+      "call_id": "f7bafdb8c5a7dc442cfcb573bd9623f11a118d7c2dc37f8b74fbd77b9e7bddde",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot three people, killing one' — 'killing' explicitly links the shooting to the death; shooting precedes and causes death by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c4688b4b8d2a1d8e397300fd074f6b9a48a8b52d56e84e9781d1e4ca09c6527b",
+    "c4688b4b8d2a1d8e397300fd074f6b9a48a8b52d56e84e9781d1e4ca09c6527b",
+    "371c174cfca2c43809158ef19b00080f12ee1b81c782e484d1b4eebd23434f61",
+    "3c4426f09c9a86f23f8a02b2dcab6171520b4e4822a52bee8392493e3e104ff5",
+    "06834a5bad79ab1fc2cd5cc2ec6bd706d0b4e44743078b03d2defd5802fe60ae",
+    "f7bafdb8c5a7dc442cfcb573bd9623f11a118d7c2dc37f8b74fbd77b9e7bddde"
+  ],
+  "elapsed_s": 6.913398027420044
+}

@@ -1,0 +1,60 @@
+{
+  "input_hash": "06bfbc09326925355fcdf7b5ead4e13f9a65d69fad026bb4322d35f3564820fe",
+  "sample_id": "ESC-CSV-06794",
+  "scope": "intra",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "shooting"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "96db4ce68bff8b547835bca3e60849c91b151d318007575d550fca9c2b77acff",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "96db4ce68bff8b547835bca3e60849c91b151d318007575d550fca9c2b77acff",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "70911125a96066b868eac3ae3b671ddc246dcc45c1138fb888470e9c90c60c96",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0a7bdd19840c22396ec933069fdd070d3e4a516d4015c4585c524e437c2a076a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e6a1802f8e6e96c12dba2922e300483df20b8c011b9a8686abff7a08962be724",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Armstead\",\"jurors\",\"Brooklyn Supreme Court\",\"trial\",\"shooting\"],\"target_related\":[\"gangland\",\"territorial\",\"shooting\"],\"mediators\":[\"shooting\"]}"
+    },
+    "indirect": {
+      "call_id": "3c20ffa6caa338072469045b4ad88aec33f0234a49b247429d2e70048280d931",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2,6],\"evidence\":\"The shooting was 'allegedly sparked by a gangland territorial beef'; 'sparked' implicitly links beef to shooting, and struck occurred in that shooting (chain).\"}"
+    }
+  },
+  "call_ids": [
+    "96db4ce68bff8b547835bca3e60849c91b151d318007575d550fca9c2b77acff",
+    "96db4ce68bff8b547835bca3e60849c91b151d318007575d550fca9c2b77acff",
+    "70911125a96066b868eac3ae3b671ddc246dcc45c1138fb888470e9c90c60c96",
+    "0a7bdd19840c22396ec933069fdd070d3e4a516d4015c4585c524e437c2a076a",
+    "e6a1802f8e6e96c12dba2922e300483df20b8c011b9a8686abff7a08962be724",
+    "3c20ffa6caa338072469045b4ad88aec33f0234a49b247429d2e70048280d931"
+  ],
+  "elapsed_s": 4.716315269470215
+}

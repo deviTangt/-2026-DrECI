@@ -1,0 +1,62 @@
+{
+  "input_hash": "67d83ae37e6f5550c75427e167a329ca6a6e0d69d280d6a82b0f8f9f2049ca9e",
+  "sample_id": "ESC-CSV-04083",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "died",
+    "Friday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "d677673f1f839a2ed0996fe976a4592fa1b2939052ae6d7cc8f5b9b58255e50d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "d677673f1f839a2ed0996fe976a4592fa1b2939052ae6d7cc8f5b9b58255e50d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ea888f91967b58086c147a5ac81aa4e06c05af4c37b6a7b5ae9618df67d99916",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "429b72b9183d9c07a70a274a84e98a91e5a5ebb03f22beab0e1bc4b88d4d07dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c414676c372354492f9d3d5b327b574d63a7dfccf1e9e81d742c1aee37b6ad01",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"died\",\"Friday\",\"slipped\"],\"target_related\":[\"man\",\"died\",\"Friday\",\"gully\"],\"mediators\":[\"man\",\"died\",\"Friday\"]}"
+    },
+    "indirect": {
+      "call_id": "04d045caae1f368311749810cd25cc7a99d34e1511f90575198b045b34f8cdd4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Slipping precedes and naturally causes the subsequent fall down the icy gully, consistent with common-sense causal order.\"}"
+    }
+  },
+  "call_ids": [
+    "d677673f1f839a2ed0996fe976a4592fa1b2939052ae6d7cc8f5b9b58255e50d",
+    "d677673f1f839a2ed0996fe976a4592fa1b2939052ae6d7cc8f5b9b58255e50d",
+    "ea888f91967b58086c147a5ac81aa4e06c05af4c37b6a7b5ae9618df67d99916",
+    "429b72b9183d9c07a70a274a84e98a91e5a5ebb03f22beab0e1bc4b88d4d07dd",
+    "c414676c372354492f9d3d5b327b574d63a7dfccf1e9e81d742c1aee37b6ad01",
+    "04d045caae1f368311749810cd25cc7a99d34e1511f90575198b045b34f8cdd4"
+  ],
+  "elapsed_s": 4.816343069076538
+}

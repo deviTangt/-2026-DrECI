@@ -1,0 +1,61 @@
+{
+  "input_hash": "e9b52512cfa99d9d5e7baa4c9de19aee14229746ff180ffc1e296bfcc121537d",
+  "sample_id": "ESC-CSV-02069",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "employee",
+    "officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4e78122534fb75ad9825c2ba877b185291f536e5e4f7b21a789e81c5c17f68d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4e78122534fb75ad9825c2ba877b185291f536e5e4f7b21a789e81c5c17f68d2",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "3af781ddaf584c60db75a504a0bb0d478a5ad2061413279a3e7838017806941a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4bab968b81ac40020ef2a2f5d1b04e84ef72c20e6cbfb070d9d97df96a9d11d9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "3cdcf5618690b25cdc25724aa70c8c4b1421ca50dac82a151b0cffc47d9bbe33",
+      "status": "ok",
+      "text": "{\"source_related\":[\"employee\",\"fired\",\"killed\",\"woman\",\"wounded\",\"men\",\"building\",\"worked\"],\"target_related\":[\"officers\",\"led\",\"high-speed\",\"police\"],\"mediators\":[\"employee\",\"officers\"]}"
+    },
+    "indirect": {
+      "call_id": "536ba09660506490f7c44c90f2cf301e927d0d5de54ea5a92d996b2b9065d282",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting and killing prompted the perpetrator to flee, leading officers on a high-speed chase; the shooting precedes and causes the chase by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "4e78122534fb75ad9825c2ba877b185291f536e5e4f7b21a789e81c5c17f68d2",
+    "4e78122534fb75ad9825c2ba877b185291f536e5e4f7b21a789e81c5c17f68d2",
+    "3af781ddaf584c60db75a504a0bb0d478a5ad2061413279a3e7838017806941a",
+    "4bab968b81ac40020ef2a2f5d1b04e84ef72c20e6cbfb070d9d97df96a9d11d9",
+    "3cdcf5618690b25cdc25724aa70c8c4b1421ca50dac82a151b0cffc47d9bbe33",
+    "536ba09660506490f7c44c90f2cf301e927d0d5de54ea5a92d996b2b9065d282"
+  ],
+  "elapsed_s": 4.858386278152466
+}

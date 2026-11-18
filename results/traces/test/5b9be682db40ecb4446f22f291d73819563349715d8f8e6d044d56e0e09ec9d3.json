@@ -1,0 +1,65 @@
+{
+  "input_hash": "5b9be682db40ecb4446f22f291d73819563349715d8f8e6d044d56e0e09ec9d3",
+  "sample_id": "ESC-CSV-09255",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "building",
+    "torched",
+    "Athens",
+    "Greeks"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "bc50bf03755e5af6e74195d78bf22b78ce8a902c358e674b8f4efbe23fba3b3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "bc50bf03755e5af6e74195d78bf22b78ce8a902c358e674b8f4efbe23fba3b3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2fe84eac4757a9134892507507e5a83ac091bc18be2e4bfe919191414e8f26df",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "124f8e2083e0a741c9e9a1162c5efa540d04faacbbb9870d893278dd81018ff0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "0030de91ab4d47cd5fcb2bbc7a855ee7a8f78eb8823fe21baa512e180a22cb80",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"streets\",\"Athens\",\"bank\",\"building\",\"torched\",\"austerity\",\"measures\",\"spending\",\"cuts\"],\"target_related\":[\"bank\",\"workers\",\"building\",\"torched\",\"Athens\",\"prime minister\",\"Greeks\"],\"mediators\":[\"bank\",\"workers\",\"building\",\"torched\",\"Athens\",\"Greeks\"]}"
+    },
+    "indirect": {
+      "call_id": "c9940b900811e35c3228826f373136540395b3159ae2c0d7dd88ab9c21c6a306",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3,6],\"evidence\":\"Protesters torched the bank building, killing three workers; text calls it 'murder' during protests, showing protest caused the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "bc50bf03755e5af6e74195d78bf22b78ce8a902c358e674b8f4efbe23fba3b3b",
+    "bc50bf03755e5af6e74195d78bf22b78ce8a902c358e674b8f4efbe23fba3b3b",
+    "2fe84eac4757a9134892507507e5a83ac091bc18be2e4bfe919191414e8f26df",
+    "124f8e2083e0a741c9e9a1162c5efa540d04faacbbb9870d893278dd81018ff0",
+    "0030de91ab4d47cd5fcb2bbc7a855ee7a8f78eb8823fe21baa512e180a22cb80",
+    "c9940b900811e35c3228826f373136540395b3159ae2c0d7dd88ab9c21c6a306"
+  ],
+  "elapsed_s": 5.377138376235962
+}

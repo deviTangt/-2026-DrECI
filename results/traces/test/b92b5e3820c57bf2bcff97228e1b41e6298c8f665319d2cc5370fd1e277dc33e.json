@@ -1,0 +1,64 @@
+{
+  "input_hash": "b92b5e3820c57bf2bcff97228e1b41e6298c8f665319d2cc5370fd1e277dc33e",
+  "sample_id": "ESC-CSV-09552",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "buildings",
+    "petrol bombs",
+    "police",
+    "Greek bank"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "c1b2ff3a635bb10c2b90f3b586712709e51c7ad4ceb4f6f967dcd423dfa01e7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "c1b2ff3a635bb10c2b90f3b586712709e51c7ad4ceb4f6f967dcd423dfa01e7a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "184eb32a34d98a6eb4a3ff09bf6d332e9a0d7e69b00a1b6e9c6d9ec43425d9b1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "d61a64827af7199df4a376470d4ac29de38292c21a5376f9f2f92bd2fa4a2c99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a56ae16e2139f599514e6d92291da66d6c83ab1d1f9ec1d14709db4ecc7b9506",
+      "status": "ok",
+      "text": "{\"source_related\":[\"protesters\",\"storm\",\"parliament\",\"threw\",\"petrol bombs\",\"police\",\"buildings\",\"austerity measures\",\"raise taxes\",\"bailout\",\"dead\",\"Greek bank\"],\"target_related\":[\"protesters\",\"buildings\",\"petrol bombs\",\"police\",\"Greek bank\",\"dead\"],\"mediators\":[\"protesters\",\"buildings\",\"petrol bombs\",\"police\",\"Greek bank\"]}"
+    },
+    "indirect": {
+      "call_id": "f93deacc4885af45afa0fcd92d86c6400a76860b4a57c60df092df09113e8a65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protesters' protest against austerity measures led them to torch buildings; protest precedes torching by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "c1b2ff3a635bb10c2b90f3b586712709e51c7ad4ceb4f6f967dcd423dfa01e7a",
+    "c1b2ff3a635bb10c2b90f3b586712709e51c7ad4ceb4f6f967dcd423dfa01e7a",
+    "184eb32a34d98a6eb4a3ff09bf6d332e9a0d7e69b00a1b6e9c6d9ec43425d9b1",
+    "d61a64827af7199df4a376470d4ac29de38292c21a5376f9f2f92bd2fa4a2c99",
+    "a56ae16e2139f599514e6d92291da66d6c83ab1d1f9ec1d14709db4ecc7b9506",
+    "f93deacc4885af45afa0fcd92d86c6400a76860b4a57c60df092df09113e8a65"
+  ],
+  "elapsed_s": 4.86583137512207
+}

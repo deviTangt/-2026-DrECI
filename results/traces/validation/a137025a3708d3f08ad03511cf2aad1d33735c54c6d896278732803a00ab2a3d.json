@@ -1,0 +1,60 @@
+{
+  "input_hash": "a137025a3708d3f08ad03511cf2aad1d33735c54c6d896278732803a00ab2a3d",
+  "sample_id": "ESC-CSV-07171",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Jamal Williams"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f1b3907806f5cb98d399949644bf4ec838d9cfa4481ccf11d5179f439108c0e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f1b3907806f5cb98d399949644bf4ec838d9cfa4481ccf11d5179f439108c0e4",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "280ca9517bba5fcfcb9f4996e98a5d1d3e184afee23cb4fa407d55728de3dc51",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "e3d2e9dcefffd129adf46a712904f8841c772976eebdada74c87514a25519f68",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "1d13b609ed3b2044e170039cc40be3c6ae1e2bb27dd96b26838fd2f86e8dd0a3",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Chargers\",\"Jamal Williams\",\"DUI\"],\"target_related\":[\"blood alcohol test\",\"results\"],\"mediators\":[\"Jamal Williams\"]}"
+    },
+    "indirect": {
+      "call_id": "146df6c73cab486d81b6f67cf2ab43681845e16a5dcc51737effe3eb57ec757d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Williams was arrested for DUI and then given a blood alcohol test; the arrest does not cause the test, and no explicit or implicit causal words link them.\"}"
+    }
+  },
+  "call_ids": [
+    "f1b3907806f5cb98d399949644bf4ec838d9cfa4481ccf11d5179f439108c0e4",
+    "f1b3907806f5cb98d399949644bf4ec838d9cfa4481ccf11d5179f439108c0e4",
+    "280ca9517bba5fcfcb9f4996e98a5d1d3e184afee23cb4fa407d55728de3dc51",
+    "e3d2e9dcefffd129adf46a712904f8841c772976eebdada74c87514a25519f68",
+    "1d13b609ed3b2044e170039cc40be3c6ae1e2bb27dd96b26838fd2f86e8dd0a3",
+    "146df6c73cab486d81b6f67cf2ab43681845e16a5dcc51737effe3eb57ec757d"
+  ],
+  "elapsed_s": 3.7335500717163086
+}

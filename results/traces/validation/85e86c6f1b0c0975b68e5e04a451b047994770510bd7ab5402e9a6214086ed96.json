@@ -1,0 +1,62 @@
+{
+  "input_hash": "85e86c6f1b0c0975b68e5e04a451b047994770510bd7ab5402e9a6214086ed96",
+  "sample_id": "ESC-CSV-02044",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 0,
+  "votes": [
+    0,
+    0,
+    1
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "accountant",
+    "arraigned",
+    "shootings"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "cac211643906dd1fe0895db97b38a5cd89784ff5af1cf1bee4f3be74ec972c61",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "cac211643906dd1fe0895db97b38a5cd89784ff5af1cf1bee4f3be74ec972c61",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "0532e42e6c3c064417c83fb1640575619fd89c3fa358d98bd510bf4152253f8d",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "2277589122746da7233ad59a3bf91c9277a35957c25e03b99afcb315034d698a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "75941456650785182cb28ed13bea961fe80b1e3b94c81e16f765e83e65d4e349",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"wounding\",\"bosses\",\"shotgun\",\"attack\",\"killing\",\"receptionist\",\"arraigned\",\"shootings\"],\"target_related\":[\"accountant\",\"arraigned\",\"murder\",\"shootings\"],\"mediators\":[\"accountant\",\"arraigned\",\"shootings\"]}"
+    },
+    "indirect": {
+      "call_id": "f6b5fe7f6c8882d37c411b60b90f2e83add45c537d7066840e53584a8e3a4e3a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being charged with murder follows from the murder having occurred; common sense: murder causes/leads to being charged.\"}"
+    }
+  },
+  "call_ids": [
+    "cac211643906dd1fe0895db97b38a5cd89784ff5af1cf1bee4f3be74ec972c61",
+    "cac211643906dd1fe0895db97b38a5cd89784ff5af1cf1bee4f3be74ec972c61",
+    "0532e42e6c3c064417c83fb1640575619fd89c3fa358d98bd510bf4152253f8d",
+    "2277589122746da7233ad59a3bf91c9277a35957c25e03b99afcb315034d698a",
+    "75941456650785182cb28ed13bea961fe80b1e3b94c81e16f765e83e65d4e349",
+    "f6b5fe7f6c8882d37c411b60b90f2e83add45c537d7066840e53584a8e3a4e3a"
+  ],
+  "elapsed_s": 5.180213451385498
+}

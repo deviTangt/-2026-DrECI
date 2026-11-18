@@ -1,0 +1,61 @@
+{
+  "input_hash": "cddf2218cd3fb1cc31fc7b01c0a927958df6f30bf627e3ff5f1ff3554f1c6c2d",
+  "sample_id": "ESC-CSV-04489",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "thieves",
+    "store"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "db1ed71d44771bb7a82c467330aa2c5aae9b6d0d6197c33fead6006df38127a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "db1ed71d44771bb7a82c467330aa2c5aae9b6d0d6197c33fead6006df38127a9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "8ce7baf2ae5915cc07e606de508e62171c73996412aef5b7cc5171ea70662b48",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "b13059a498eae03b560c3a67644fba781bf3d0e15434f4d2d7947cf63c0c93dd",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "5135be33c91c2694ae8c5207885eaad2ef1742a7f4d3608e8b2a3bcc2c891485",
+      "status": "ok",
+      "text": "{\"source_related\":[\"thieves\",\"car\",\"store\"],\"target_related\":[\"thieves\",\"robbers\",\"vehicle\",\"store\"],\"mediators\":[\"thieves\",\"store\"]}"
+    },
+    "indirect": {
+      "call_id": "4070f78c8ef6d2061ee06a48f7a0094beac45dbf766102a18b3cfb56ac84209b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Setting fire to the getaway car before making off is a deliberate act that enables the thieves to flee; X occurs before Y and causes it by common sense.\"}"
+    }
+  },
+  "call_ids": [
+    "db1ed71d44771bb7a82c467330aa2c5aae9b6d0d6197c33fead6006df38127a9",
+    "db1ed71d44771bb7a82c467330aa2c5aae9b6d0d6197c33fead6006df38127a9",
+    "8ce7baf2ae5915cc07e606de508e62171c73996412aef5b7cc5171ea70662b48",
+    "b13059a498eae03b560c3a67644fba781bf3d0e15434f4d2d7947cf63c0c93dd",
+    "5135be33c91c2694ae8c5207885eaad2ef1742a7f4d3608e8b2a3bcc2c891485",
+    "4070f78c8ef6d2061ee06a48f7a0094beac45dbf766102a18b3cfb56ac84209b"
+  ],
+  "elapsed_s": 4.1507415771484375
+}

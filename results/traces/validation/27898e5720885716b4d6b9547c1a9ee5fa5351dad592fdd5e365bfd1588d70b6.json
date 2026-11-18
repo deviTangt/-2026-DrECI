@@ -1,0 +1,61 @@
+{
+  "input_hash": "27898e5720885716b4d6b9547c1a9ee5fa5351dad592fdd5e365bfd1588d70b6",
+  "sample_id": "ESC-CSV-02216",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Michigan",
+    "office"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4e1c9d2dd9d652e885eb5845fd904be4ac9cc3c0cf46cf129a08bef149385960",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4e1c9d2dd9d652e885eb5845fd904be4ac9cc3c0cf46cf129a08bef149385960",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "97fcaef229e35b6c3d1dd6eef6f71029b5cda8d2e7c46b2f0ce790573c0df433",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "da3a855975384517fea4a32e24bb0bf2424ac12f10c02c57a47d8962e97af44b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b8a5c3bb9c92a1e641bb5f5fc5e068a5eae7fb0d995f731eb7679b798d967565",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Michigan\",\"office\",\"Sheriff\"],\"target_related\":[\"1\",\"injures\",\"2\"],\"mediators\":[\"Michigan\",\"office\"]}"
+    },
+    "indirect": {
+      "call_id": "7e989aa0084ca8cb4ff0f40d16fbcfdbd9bdee8b8f34e6d59e79cab6bd7ebc20",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shooting kills 1' uses 'kills' as an explicit causal verb linking shooting to death; common sense also supports shooting causing kills.\"}"
+    }
+  },
+  "call_ids": [
+    "4e1c9d2dd9d652e885eb5845fd904be4ac9cc3c0cf46cf129a08bef149385960",
+    "4e1c9d2dd9d652e885eb5845fd904be4ac9cc3c0cf46cf129a08bef149385960",
+    "97fcaef229e35b6c3d1dd6eef6f71029b5cda8d2e7c46b2f0ce790573c0df433",
+    "da3a855975384517fea4a32e24bb0bf2424ac12f10c02c57a47d8962e97af44b",
+    "b8a5c3bb9c92a1e641bb5f5fc5e068a5eae7fb0d995f731eb7679b798d967565",
+    "7e989aa0084ca8cb4ff0f40d16fbcfdbd9bdee8b8f34e6d59e79cab6bd7ebc20"
+  ],
+  "elapsed_s": 7.2431323528289795
+}

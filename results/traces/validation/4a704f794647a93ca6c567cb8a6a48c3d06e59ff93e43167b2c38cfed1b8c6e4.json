@@ -1,0 +1,61 @@
+{
+  "input_hash": "4a704f794647a93ca6c567cb8a6a48c3d06e59ff93e43167b2c38cfed1b8c6e4",
+  "sample_id": "ESC-CSV-02974",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "16-year-old",
+    "armed"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "15730f4f2422b54d0c602eec25fc74df82b333fa1fdbef12017b132d51d5c0e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "15730f4f2422b54d0c602eec25fc74df82b333fa1fdbef12017b132d51d5c0e6",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "99b06b767a4e54c626b3ba899c4f543fb69c066f97977def0acd7364aa6da770",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1e9d50be4d63b07680146574c0eae6e3ee016a4c9121aa991c2fb3ad49581bff",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "136a06955feec8fbd0d3a0886c8cc99f2ae9bf5734f478c74d8dac7f82f92584",
+      "status": "ok",
+      "text": "{\"source_related\":[\"NYPD\",\"plainclothes\",\"cops\",\"16-year-old\",\"armed\",\"dead\"],\"target_related\":[\"16-year-old\",\"armed\",\"protest\",\"vigil\",\"Brooklyn\"],\"mediators\":[\"16-year-old\",\"armed\"]}"
+    },
+    "indirect": {
+      "call_id": "917f1137fed1c08c7276d912f8baf966f07e716b25b621c122f1ba1fa699b3cc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"'shot dead by NYPD plainclothes cops' — 'by' explicitly links shot to death; common sense: being shot causes death.\"}"
+    }
+  },
+  "call_ids": [
+    "15730f4f2422b54d0c602eec25fc74df82b333fa1fdbef12017b132d51d5c0e6",
+    "15730f4f2422b54d0c602eec25fc74df82b333fa1fdbef12017b132d51d5c0e6",
+    "99b06b767a4e54c626b3ba899c4f543fb69c066f97977def0acd7364aa6da770",
+    "1e9d50be4d63b07680146574c0eae6e3ee016a4c9121aa991c2fb3ad49581bff",
+    "136a06955feec8fbd0d3a0886c8cc99f2ae9bf5734f478c74d8dac7f82f92584",
+    "917f1137fed1c08c7276d912f8baf966f07e716b25b621c122f1ba1fa699b3cc"
+  ],
+  "elapsed_s": 5.941577196121216
+}

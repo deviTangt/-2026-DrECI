@@ -1,0 +1,63 @@
+{
+  "input_hash": "26ba852823567a7dd42a51a6d6aee2b56139f6532ce9caa86537892f8063ef6f",
+  "sample_id": "ESC-CSV-09811",
+  "scope": "intra",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "striking",
+    "brutal",
+    "spending"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ee472fafed0640d1cb7d0baa8209c90a7a5f2e10963a44a4dcf74f6966176b65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ee472fafed0640d1cb7d0baa8209c90a7a5f2e10963a44a4dcf74f6966176b65",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "79ba689de72e3249e7fcd96f8f90a2fa1575cced902644266be201ec6c50f4fc",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "95b08a7cd9dabdc9afcd30ab7e78571d10cbeaa372958b795b48cf1de75097a0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "693ece5cda7b169c8b16b9b4880d756969cf03479c7edecdb545023ff995e119",
+      "status": "ok",
+      "text": "{\"source_related\":[\"brutal\",\"spending\",\"protesters\",\"striking\",\"bankruptcy\",\"national\"],\"target_related\":[\"protesters\",\"striking\",\"battles\",\"police\",\"brutal\",\"spending\",\"cuts\"],\"mediators\":[\"protesters\",\"striking\",\"brutal\",\"spending\"]}"
+    },
+    "indirect": {
+      "call_id": "5cc5ae78723be773ceb323718d20af48f69d63fb1072460061347b784d5515aa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Protesters are 'furious at brutal spending cuts'—'at' implies the cuts provoked/aroused their fury, an implicit causal link.\"}"
+    }
+  },
+  "call_ids": [
+    "ee472fafed0640d1cb7d0baa8209c90a7a5f2e10963a44a4dcf74f6966176b65",
+    "ee472fafed0640d1cb7d0baa8209c90a7a5f2e10963a44a4dcf74f6966176b65",
+    "79ba689de72e3249e7fcd96f8f90a2fa1575cced902644266be201ec6c50f4fc",
+    "95b08a7cd9dabdc9afcd30ab7e78571d10cbeaa372958b795b48cf1de75097a0",
+    "693ece5cda7b169c8b16b9b4880d756969cf03479c7edecdb545023ff995e119",
+    "5cc5ae78723be773ceb323718d20af48f69d63fb1072460061347b784d5515aa"
+  ],
+  "elapsed_s": 5.038711309432983
+}

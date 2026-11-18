@@ -1,0 +1,62 @@
+{
+  "input_hash": "58868485e1dfa571fb84edd97f6c2538928885f5a4f0f63f69e70b88ed4864ee",
+  "sample_id": "ESC-CSV-09231",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "Greeks",
+    "Protesters",
+    "austerity"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ba1c1c637bf9b2f0d7f3dcb5967d720cb76acc6dda215c50947906844eb4e956",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ba1c1c637bf9b2f0d7f3dcb5967d720cb76acc6dda215c50947906844eb4e956",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "cd31cd454670764f83be24f100785f89f0f5cdc443dfa67f6fbe191a05b90f03",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0005b232b14150ffcac6ed5901895ebd7c068cd2f3e004bf1ebba63c9f250e9f",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "931749aff3eafe084a5454064936a0881b37ecde9de1e28cd91d4f25c33db8d8",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Greeks\",\"protesting\",\"government\",\"austerity\",\"bill\",\"debate\"],\"target_related\":[\"Protesters\",\"parliament\",\"riot\",\"police\",\"pushed\",\"back\"],\"mediators\":[\"Greeks\",\"Protesters\",\"austerity\"]}"
+    },
+    "indirect": {
+      "call_id": "811a246beb2f1277fdd9101224892744f0d6248531aa96487e0c1e4bd9c13fc7",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links 'measures' to 'storm'; protesters tried to storm parliament, but austerity measures did not cause the storming.\"}"
+    }
+  },
+  "call_ids": [
+    "ba1c1c637bf9b2f0d7f3dcb5967d720cb76acc6dda215c50947906844eb4e956",
+    "ba1c1c637bf9b2f0d7f3dcb5967d720cb76acc6dda215c50947906844eb4e956",
+    "cd31cd454670764f83be24f100785f89f0f5cdc443dfa67f6fbe191a05b90f03",
+    "0005b232b14150ffcac6ed5901895ebd7c068cd2f3e004bf1ebba63c9f250e9f",
+    "931749aff3eafe084a5454064936a0881b37ecde9de1e28cd91d4f25c33db8d8",
+    "811a246beb2f1277fdd9101224892744f0d6248531aa96487e0c1e4bd9c13fc7"
+  ],
+  "elapsed_s": 4.699683904647827
+}

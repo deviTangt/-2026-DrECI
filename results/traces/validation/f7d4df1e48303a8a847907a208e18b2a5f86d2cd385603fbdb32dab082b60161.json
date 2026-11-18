@@ -1,0 +1,60 @@
+{
+  "input_hash": "f7d4df1e48303a8a847907a208e18b2a5f86d2cd385603fbdb32dab082b60161",
+  "sample_id": "ESC-CSV-01902",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "murder"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "731f4e978a77888d3f2467f48db2b8ffc85f109772b8379ca7dcfb32f3e20a63",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "731f4e978a77888d3f2467f48db2b8ffc85f109772b8379ca7dcfb32f3e20a63",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "88a672b2d06d7a0357cf3c17e72d2da7655d417222aeede1d3c4f902948a9c13",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "dd5059de7fac2302f6d8c3ad41ee40b1917bc233342e1148194197ccf96da8ec",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "7bc8b19a2801763b56433e972d0a9420938cb742c58f507e15e0a0725184d7ba",
+      "status": "ok",
+      "text": "{\"source_related\":[\"police officer\",\"murder\",\"arrest\",\"street gang\",\"handgun\",\"attempted murder\",\"Orozco\"],\"target_related\":[\"D.A.\",\"penalty\",\"murder\",\"charges\"],\"mediators\":[\"murder\"]}"
+    },
+    "indirect": {
+      "call_id": "52b0e044485d123467d98cec0fa6752b47fa789a76d89f9689189b82a7cb411b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Orozco used a handgun to commit the murder; the murder (Z) leads to the D.A. seeking the Death penalty (Y), so killed->murder->Death.\"}"
+    }
+  },
+  "call_ids": [
+    "731f4e978a77888d3f2467f48db2b8ffc85f109772b8379ca7dcfb32f3e20a63",
+    "731f4e978a77888d3f2467f48db2b8ffc85f109772b8379ca7dcfb32f3e20a63",
+    "88a672b2d06d7a0357cf3c17e72d2da7655d417222aeede1d3c4f902948a9c13",
+    "dd5059de7fac2302f6d8c3ad41ee40b1917bc233342e1148194197ccf96da8ec",
+    "7bc8b19a2801763b56433e972d0a9420938cb742c58f507e15e0a0725184d7ba",
+    "52b0e044485d123467d98cec0fa6752b47fa789a76d89f9689189b82a7cb411b"
+  ],
+  "elapsed_s": 6.744537353515625
+}

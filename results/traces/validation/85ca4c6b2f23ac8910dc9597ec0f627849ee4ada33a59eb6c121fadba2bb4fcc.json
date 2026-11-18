@@ -1,0 +1,62 @@
+{
+  "input_hash": "85ca4c6b2f23ac8910dc9597ec0f627849ee4ada33a59eb6c121fadba2bb4fcc",
+  "sample_id": "ESC-CSV-02568",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "fights",
+    "cops",
+    "teens"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "9b135d222176d04e8528f7749266d0849986fd90f3f3d99ad265fb9b628c8064",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "9b135d222176d04e8528f7749266d0849986fd90f3f3d99ad265fb9b628c8064",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5b1b48dc9a748942bee774e2e29851fc02ac9fe1ea5fc238f033db36389b1917",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "6f84dbc1ae0934c16e66b4a4173cd50c396043a1617ec53863282e659c8b7e6b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "b786d7437beb2e2992311c59eab67e4863184735b2bfcc049cd58f22948cc8e0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fights\",\"cops\",\"teens\",\"erupted\",\"East Flatbush\"],\"target_related\":[\"cops\",\"teens\",\"fights\",\"46\",\"Wednesday night\"],\"mediators\":[\"fights\",\"cops\",\"teens\"]}"
+    },
+    "indirect": {
+      "call_id": "d56ca0f983706b7a1698375acbe2e061a0070f64ae1f9d0328661ce1aecaf892",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"No explicit or implicit causal word links 'angry' to 'arrested'; fights erupted and 46 were arrested, but anger is not shown to cause arrests.\"}"
+    }
+  },
+  "call_ids": [
+    "9b135d222176d04e8528f7749266d0849986fd90f3f3d99ad265fb9b628c8064",
+    "9b135d222176d04e8528f7749266d0849986fd90f3f3d99ad265fb9b628c8064",
+    "5b1b48dc9a748942bee774e2e29851fc02ac9fe1ea5fc238f033db36389b1917",
+    "6f84dbc1ae0934c16e66b4a4173cd50c396043a1617ec53863282e659c8b7e6b",
+    "b786d7437beb2e2992311c59eab67e4863184735b2bfcc049cd58f22948cc8e0",
+    "d56ca0f983706b7a1698375acbe2e061a0070f64ae1f9d0328661ce1aecaf892"
+  ],
+  "elapsed_s": 8.147112607955933
+}

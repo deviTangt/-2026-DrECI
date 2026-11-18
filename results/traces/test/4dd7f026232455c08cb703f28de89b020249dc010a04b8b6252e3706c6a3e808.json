@@ -1,0 +1,63 @@
+{
+  "input_hash": "4dd7f026232455c08cb703f28de89b020249dc010a04b8b6252e3706c6a3e808",
+  "sample_id": "ESC-CSV-06567",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "Andrew Lopez",
+    "Zurana Horton",
+    "men",
+    "accused"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "5d28cd35c39d2f24558be200694ea5db125c65cd1353afada03a14b183ec43f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "5d28cd35c39d2f24558be200694ea5db125c65cd1353afada03a14b183ec43f3",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "418f2c6c0fb303e2b1aaf322a57e963bf78f0177fbede95b15e5e0193346fe41",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "089d23b05dd0372b81a69914d32a662738a14ec205dd44bc3f1ea4d6c49cd3fa",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "81402899d490a3a005e334b83e9df1a6ee508a0d9fc20e38f79b4420f1699ba9",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brownsville\",\"mother\",\"12\",\"Zurana Horton\",\"Andrew Lopez\",\"men\",\"accused\"],\"target_related\":[\"jury\",\"verdict\",\"Andrew Lopez\",\"murder\",\"Zurana Horton\",\"men\",\"accused\"],\"mediators\":[\"Andrew Lopez\",\"Zurana Horton\",\"men\",\"accused\"]}"
+    },
+    "indirect": {
+      "call_id": "4351d46910c4cf59bd00c4ba503d95915b54338e07663366f152067d7da7a815",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Common sense: murdering (the act) leads to being found guilty; the verdict follows the murder accusation.\"}"
+    }
+  },
+  "call_ids": [
+    "5d28cd35c39d2f24558be200694ea5db125c65cd1353afada03a14b183ec43f3",
+    "5d28cd35c39d2f24558be200694ea5db125c65cd1353afada03a14b183ec43f3",
+    "418f2c6c0fb303e2b1aaf322a57e963bf78f0177fbede95b15e5e0193346fe41",
+    "089d23b05dd0372b81a69914d32a662738a14ec205dd44bc3f1ea4d6c49cd3fa",
+    "81402899d490a3a005e334b83e9df1a6ee508a0d9fc20e38f79b4420f1699ba9",
+    "4351d46910c4cf59bd00c4ba503d95915b54338e07663366f152067d7da7a815"
+  ],
+  "elapsed_s": 5.075919151306152
+}

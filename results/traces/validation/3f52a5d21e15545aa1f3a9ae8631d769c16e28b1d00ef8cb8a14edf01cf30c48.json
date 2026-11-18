@@ -1,0 +1,69 @@
+{
+  "input_hash": "3f52a5d21e15545aa1f3a9ae8631d769c16e28b1d00ef8cb8a14edf01cf30c48",
+  "sample_id": "ESC-CSV-02787",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "people",
+    "joined",
+    "candlelit",
+    "East Flatbush",
+    "Brooklyn",
+    "New York",
+    "Kimani Gray",
+    "shot",
+    "Saturday",
+    "RussiaToday"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "fccb8502605a2e5563046ecd7db7a254d1ac656d876e044e935316e63452794b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "fccb8502605a2e5563046ecd7db7a254d1ac656d876e044e935316e63452794b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "7d74f459aefa4a05355c2d4b1c7e5db9b09ecd60190d75aeb552276abb48761c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "88e206a179760af1ea4f2f8d89f93bb8d367cc1681bca728d37be57bee4e2291",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6359c15a100d96e5ae1cce0aaf1343799c2921f477d640ee6c29dc3ef9eec698",
+      "status": "ok",
+      "text": "{\"source_related\":[\"people\",\"joined\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"shot\",\"police\",\"Saturday\",\"RussiaToday\"],\"target_related\":[\"Police\",\"people\",\"joined\",\"candlelit\",\"vigil\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\",\"RussiaToday\"],\"mediators\":[\"people\",\"joined\",\"candlelit\",\"East Flatbush\",\"Brooklyn\",\"New York\",\"Kimani Gray\",\"shot\",\"Saturday\",\"RussiaToday\"]}"
+    },
+    "indirect": {
+      "call_id": "c17291c17b7e1d4169aa4761fe1512803b224932dd6c958ab45bb30e7e810aee",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1],\"evidence\":\"'Police intervened when more than a hundred people joined in a candlelit vigil' — 'when' links the vigil to the intervention, indicating causation.\"}"
+    }
+  },
+  "call_ids": [
+    "fccb8502605a2e5563046ecd7db7a254d1ac656d876e044e935316e63452794b",
+    "fccb8502605a2e5563046ecd7db7a254d1ac656d876e044e935316e63452794b",
+    "7d74f459aefa4a05355c2d4b1c7e5db9b09ecd60190d75aeb552276abb48761c",
+    "88e206a179760af1ea4f2f8d89f93bb8d367cc1681bca728d37be57bee4e2291",
+    "6359c15a100d96e5ae1cce0aaf1343799c2921f477d640ee6c29dc3ef9eec698",
+    "c17291c17b7e1d4169aa4761fe1512803b224932dd6c958ab45bb30e7e810aee"
+  ],
+  "elapsed_s": 4.946158409118652
+}

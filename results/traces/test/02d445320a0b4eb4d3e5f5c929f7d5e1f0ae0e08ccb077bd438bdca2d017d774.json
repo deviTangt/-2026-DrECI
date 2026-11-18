@@ -1,0 +1,71 @@
+{
+  "input_hash": "02d445320a0b4eb4d3e5f5c929f7d5e1f0ae0e08ccb077bd438bdca2d017d774",
+  "sample_id": "ESC-CSV-09320",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "bank",
+    "workers",
+    "killed",
+    "building",
+    "torched",
+    "Greek",
+    "prime",
+    "minister",
+    "denounced",
+    "Athens",
+    "austerity",
+    "measures"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "482ad3867f7203aa2a32a7ef5aeedfbce2cbcebd003393f7381973e7ce5f4459",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "482ad3867f7203aa2a32a7ef5aeedfbce2cbcebd003393f7381973e7ce5f4459",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "04cc82e0fcb0a2db4f37220a0bc220d91274e7d67c99268c1819132d9c666172",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "fd759555983b687605fcb1d8e309d39f4fbdc6f9628cee24feea20173c6759b0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "6610e48382c1be466bb3862e34043e34607255eee3fd280fa8dacd6957ca9a26",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Athens\",\"austerity\",\"measures\",\"building\",\"torched\",\"bank\",\"workers\",\"killed\",\"Greek\",\"prime\",\"minister\",\"denounced\"],\"target_related\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"Greek\",\"prime\",\"minister\",\"denounced\",\"Athens\",\"austerity\",\"measures\"],\"mediators\":[\"bank\",\"workers\",\"killed\",\"building\",\"torched\",\"Greek\",\"prime\",\"minister\",\"denounced\",\"Athens\",\"austerity\",\"measures\"]}"
+    },
+    "indirect": {
+      "call_id": "06a177096130515e25ead5cc689a92d7ef24171efeac16763067da7850a27f99",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Protests led to the building being torched, killing three bank workers, which the prime minister called 'murder'; common sense links protests to the deaths.\"}"
+    }
+  },
+  "call_ids": [
+    "482ad3867f7203aa2a32a7ef5aeedfbce2cbcebd003393f7381973e7ce5f4459",
+    "482ad3867f7203aa2a32a7ef5aeedfbce2cbcebd003393f7381973e7ce5f4459",
+    "04cc82e0fcb0a2db4f37220a0bc220d91274e7d67c99268c1819132d9c666172",
+    "fd759555983b687605fcb1d8e309d39f4fbdc6f9628cee24feea20173c6759b0",
+    "6610e48382c1be466bb3862e34043e34607255eee3fd280fa8dacd6957ca9a26",
+    "06a177096130515e25ead5cc689a92d7ef24171efeac16763067da7850a27f99"
+  ],
+  "elapsed_s": 4.691926956176758
+}

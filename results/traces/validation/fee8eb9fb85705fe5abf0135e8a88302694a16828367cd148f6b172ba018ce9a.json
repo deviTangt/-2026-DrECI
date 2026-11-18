@@ -1,0 +1,68 @@
+{
+  "input_hash": "fee8eb9fb85705fe5abf0135e8a88302694a16828367cd148f6b172ba018ce9a",
+  "sample_id": "ESC-CSV-02385",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "three",
+    "people",
+    "accounting",
+    "firm",
+    "fired",
+    "Monday",
+    "morning",
+    "attack"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "f14d60390c7b30f55bb5954fc57f6c17cadfd894112ba89a17a04d6d190e2a3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "f14d60390c7b30f55bb5954fc57f6c17cadfd894112ba89a17a04d6d190e2a3b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "2d6ada162d60c3b209f9e6b35367267b3e91ee2034d1251d3c015036c5d4612d",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1368aff53e95b921aa3f230254fae0e87260b15323fcf825cae347dff557e760",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a85b03900609e673aaa353c16cb9394cd96409e699dd64d28ca687e9fd8919a7",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"three\",\"people\",\"accounting\",\"firm\",\"fired\",\"Monday\",\"morning\",\"attack\"],\"target_related\":[\"man\",\"three\",\"people\",\"accounting\",\"firm\",\"fired\",\"Monday\",\"morning\",\"attack\"],\"mediators\":[\"man\",\"three\",\"people\",\"accounting\",\"firm\",\"fired\",\"Monday\",\"morning\",\"attack\"]}"
+    },
+    "indirect": {
+      "call_id": "95325b0e07eb386c12918c8ba92557a847cb20628b795bca9bca240a45ae8494",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Shooting three people caused one death; shooting precedes and commonly results in killing.\"}"
+    }
+  },
+  "call_ids": [
+    "f14d60390c7b30f55bb5954fc57f6c17cadfd894112ba89a17a04d6d190e2a3b",
+    "f14d60390c7b30f55bb5954fc57f6c17cadfd894112ba89a17a04d6d190e2a3b",
+    "2d6ada162d60c3b209f9e6b35367267b3e91ee2034d1251d3c015036c5d4612d",
+    "1368aff53e95b921aa3f230254fae0e87260b15323fcf825cae347dff557e760",
+    "a85b03900609e673aaa353c16cb9394cd96409e699dd64d28ca687e9fd8919a7",
+    "95325b0e07eb386c12918c8ba92557a847cb20628b795bca9bca240a45ae8494"
+  ],
+  "elapsed_s": 9.179737329483032
+}

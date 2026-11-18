@@ -1,0 +1,62 @@
+{
+  "input_hash": "f84d8e47e5eda2ce7480ff5018071c05da1e913b08c90e5014864e5fc8eeaefe",
+  "sample_id": "ESC-CSV-09668",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "Riots",
+    "Athens"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "b1972c8cb72936d757144e02eb08fc72b11c8ef53868028e550720b5e1ed70c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "b1972c8cb72936d757144e02eb08fc72b11c8ef53868028e550720b5e1ed70c9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5a1472114570d020cae5858aaa911d7b30294c520b953336a2362d25c4e71f4b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8f9a5f380f3b00f0c0fab126f8021e448a3e592ed386d576663a807b0f0abf12",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "772dc4070d5bbe7e87f04fb20a55c3b9a4822b86175f8698dd1041b1afa4e0e4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"buildings\",\"protesters\",\"police\",\"Riots\",\"Athens\"],\"target_related\":[\"strike\",\"protesters\",\"Riots\",\"Athens\",\"austerity measures\",\"taxes\",\"spending cuts\"],\"mediators\":[\"protesters\",\"Riots\",\"Athens\"]}"
+    },
+    "indirect": {
+      "call_id": "614af1cd3c0e7818933fc7ca76f60866ec19bf68197bbea2821afe6858d1c9fb",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters torched buildings; the nationwide strike was to protest austerity, linking torching by protesters to the protest via the protesters/riots chain.\"}"
+    }
+  },
+  "call_ids": [
+    "b1972c8cb72936d757144e02eb08fc72b11c8ef53868028e550720b5e1ed70c9",
+    "b1972c8cb72936d757144e02eb08fc72b11c8ef53868028e550720b5e1ed70c9",
+    "5a1472114570d020cae5858aaa911d7b30294c520b953336a2362d25c4e71f4b",
+    "8f9a5f380f3b00f0c0fab126f8021e448a3e592ed386d576663a807b0f0abf12",
+    "772dc4070d5bbe7e87f04fb20a55c3b9a4822b86175f8698dd1041b1afa4e0e4",
+    "614af1cd3c0e7818933fc7ca76f60866ec19bf68197bbea2821afe6858d1c9fb"
+  ],
+  "elapsed_s": 4.77775502204895
+}

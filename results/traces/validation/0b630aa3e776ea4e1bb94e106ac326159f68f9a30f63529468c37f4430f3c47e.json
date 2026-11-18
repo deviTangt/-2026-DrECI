@@ -1,0 +1,63 @@
+{
+  "input_hash": "0b630aa3e776ea4e1bb94e106ac326159f68f9a30f63529468c37f4430f3c47e",
+  "sample_id": "ESC-CSV-02065",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    0,
+    0
+  ],
+  "yes_count": 1,
+  "mediators": [
+    "accountant",
+    "murder",
+    "arraigned",
+    "Wednesday"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "af06a21228c9b7dcde2eca909fea91132d8a81fe3ed7bc85a9c60a40e0bbdf37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "af06a21228c9b7dcde2eca909fea91132d8a81fe3ed7bc85a9c60a40e0bbdf37",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "65286d6ee681fe2afbe0d775fd7b16d421c69e4456118d6c1be01ee4b55d3793",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causality": {
+      "call_id": "983ff09b92aea5f129ce0bc8790b4b0daf50296333ab1dac3562b519ce13bdb6",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "mediator": {
+      "call_id": "4344eacf3736f69efce1e7a83c705612745fa971cb72e5c8510f0c2f6febe7f4",
+      "status": "ok",
+      "text": "{\"source_related\":[\"accountant\",\"murder\",\"shootings\",\"arraigned\",\"Wednesday\"],\"target_related\":[\"murder\",\"arraigned\",\"Wednesday\",\"accountant\"],\"mediators\":[\"accountant\",\"murder\",\"arraigned\",\"Wednesday\"]}"
+    },
+    "indirect": {
+      "call_id": "2e6118cceee3ab68294b44e02bb744eb62f600dd2bddf6cb772f19eec80df305",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"'Charged' and 'charges' are the same event (being accused), not cause and effect; no causal word or structure links them.\"}"
+    }
+  },
+  "call_ids": [
+    "af06a21228c9b7dcde2eca909fea91132d8a81fe3ed7bc85a9c60a40e0bbdf37",
+    "af06a21228c9b7dcde2eca909fea91132d8a81fe3ed7bc85a9c60a40e0bbdf37",
+    "65286d6ee681fe2afbe0d775fd7b16d421c69e4456118d6c1be01ee4b55d3793",
+    "983ff09b92aea5f129ce0bc8790b4b0daf50296333ab1dac3562b519ce13bdb6",
+    "4344eacf3736f69efce1e7a83c705612745fa971cb72e5c8510f0c2f6febe7f4",
+    "2e6118cceee3ab68294b44e02bb744eb62f600dd2bddf6cb772f19eec80df305"
+  ],
+  "elapsed_s": 4.53188419342041
+}

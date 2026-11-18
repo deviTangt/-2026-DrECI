@@ -1,0 +1,66 @@
+{
+  "input_hash": "bd5696d2ecbc25c69ebf694a2318ae7c92cfa4b54bf0dc2d7d83f7da0a642497",
+  "sample_id": "ESC-CSV-02663",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "police",
+    "cops",
+    "mourners",
+    "Brooklyn",
+    "Kimani 'Kiki' Gray",
+    "gun",
+    "bottles"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "8631daba6357b11dd9745d9f9f7db6535f368913d656ff373ec2e3fb76716ada",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "8631daba6357b11dd9745d9f9f7db6535f368913d656ff373ec2e3fb76716ada",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "e6073d6fb63ba9aa34859345f8fc338247acbc8b4c1b07d0e7ad2e74fc140f9a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "eae3add02ee6984275c86332c8f103c33626a339ae7f426f85efe6e89cdf382e",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "802663ff5ac3c8760598668622ecc216c042502fab9758507ca37e62ac813b8a",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Brooklyn\",\"teenager\",\"police\",\"Kimani 'Kiki' Gray\",\"fatally wounded\",\"gun\",\"mourners\"],\"target_related\":[\"mourners\",\"cops\",\"bottles\",\"clashed\",\"riot\",\"East Flatbush\"],\"mediators\":[\"police\",\"cops\",\"mourners\",\"Brooklyn\",\"Kimani 'Kiki' Gray\",\"gun\",\"bottles\"]}"
+    },
+    "indirect": {
+      "call_id": "6a275a3ff1b6c07af020d16c9bfabddc4470e5e27ad03654aad5d9e9656dfcaf",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[2],\"evidence\":\"Anger over the death ... fueled a riot ... creating a melee; 'fueled' implicitly links the death to the melee.\"}"
+    }
+  },
+  "call_ids": [
+    "8631daba6357b11dd9745d9f9f7db6535f368913d656ff373ec2e3fb76716ada",
+    "8631daba6357b11dd9745d9f9f7db6535f368913d656ff373ec2e3fb76716ada",
+    "e6073d6fb63ba9aa34859345f8fc338247acbc8b4c1b07d0e7ad2e74fc140f9a",
+    "eae3add02ee6984275c86332c8f103c33626a339ae7f426f85efe6e89cdf382e",
+    "802663ff5ac3c8760598668622ecc216c042502fab9758507ca37e62ac813b8a",
+    "6a275a3ff1b6c07af020d16c9bfabddc4470e5e27ad03654aad5d9e9656dfcaf"
+  ],
+  "elapsed_s": 4.638767719268799
+}

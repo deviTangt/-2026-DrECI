@@ -1,0 +1,63 @@
+{
+  "input_hash": "e4f619ee60546821104a67c40df41578d6ca18253ac2537fbf6a9a4300b27e3c",
+  "sample_id": "ESC-CSV-06892",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Andrew Lopez",
+    "prison",
+    "sentenced",
+    "May 7"
+  ],
+  "route": "indirect",
+  "e1": 0,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "668a9f5e285b9e492f3203130e8082943247f1092c11617288a00a05226cf0a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "668a9f5e285b9e492f3203130e8082943247f1092c11617288a00a05226cf0a1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "5d7d1bf9d4375409962ac7c32d3eabed01a315c09a98bdd8e0fcbab5ab228637",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "0f2561ee33fed2321b53c5fcf9b932aa2cf1ac5db0cb26e9409904fc25ef2835",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "1741cad85d591c669953826deeffbb190b01b8232ef279302c22f1568ecbf54b",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Andrew Lopez\",\"murder\",\"Zurana Horton\",\"sentenced\",\"May 7\",\"prison\"],\"target_related\":[\"Andrew Lopez\",\"75 years to life\",\"prison\",\"sentenced\",\"May 7\"],\"mediators\":[\"Andrew Lopez\",\"prison\",\"sentenced\",\"May 7\"]}"
+    },
+    "indirect": {
+      "call_id": "82956a47ef3edac630631308c41bacddc75f3a78327ed4a2c1c1a21b7dd9b6b9",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\",\"matched_rules\":[],\"evidence\":\"Being found guilty does not cause him to face a sentence; the conviction and potential sentence are separate facts, with no explicit or implicit causal link between 'guilty' and 'faces'.\"}"
+    }
+  },
+  "call_ids": [
+    "668a9f5e285b9e492f3203130e8082943247f1092c11617288a00a05226cf0a1",
+    "668a9f5e285b9e492f3203130e8082943247f1092c11617288a00a05226cf0a1",
+    "5d7d1bf9d4375409962ac7c32d3eabed01a315c09a98bdd8e0fcbab5ab228637",
+    "0f2561ee33fed2321b53c5fcf9b932aa2cf1ac5db0cb26e9409904fc25ef2835",
+    "1741cad85d591c669953826deeffbb190b01b8232ef279302c22f1568ecbf54b",
+    "82956a47ef3edac630631308c41bacddc75f3a78327ed4a2c1c1a21b7dd9b6b9"
+  ],
+  "elapsed_s": 5.269702672958374
+}

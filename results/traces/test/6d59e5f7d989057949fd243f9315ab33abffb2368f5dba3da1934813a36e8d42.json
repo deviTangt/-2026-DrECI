@@ -1,0 +1,73 @@
+{
+  "input_hash": "6d59e5f7d989057949fd243f9315ab33abffb2368f5dba3da1934813a36e8d42",
+  "sample_id": "ESC-CSV-09405",
+  "scope": "inter",
+  "split": "test",
+  "e0": 0,
+  "votes": [
+    0,
+    1,
+    1
+  ],
+  "yes_count": 2,
+  "mediators": [
+    "rioting",
+    "Athens",
+    "strike",
+    "demonstrators",
+    "parliament",
+    "youths",
+    "petrol bombs",
+    "stores",
+    "businesses",
+    "protestors",
+    "police",
+    "battles",
+    "budget cuts",
+    "bankruptcy"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "e40139a07a494cbcdc180dbc7c9115525a626df194a713fdd0a473c3100382f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causal": {
+      "call_id": "e40139a07a494cbcdc180dbc7c9115525a626df194a713fdd0a473c3100382f8",
+      "status": "ok",
+      "text": "{\"Answer\":\"No\"}"
+    },
+    "explorer_causation": {
+      "call_id": "ecef19017a9c8c1a46f63c6fc6698523003f4c124a3ebfc8274187503faa1bc9",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "4d0cda16de2a0a3ea1181527d3a1ba18a25f0b199f622ea64f82e6145ed76ab0",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "d355955f20e74ab88622e31703f5f2375d8822068e678f249ea5d7d5b75b36b5",
+      "status": "ok",
+      "text": "{\"source_related\":[\"fire-bomb\",\"bank\",\"Greece\",\"killed\",\"people\",\"police\",\"battles\",\"protestors\",\"budget cuts\",\"bankruptcy\",\"youths\",\"petrol bombs\",\"stores\",\"businesses\",\"Athens\",\"demonstrators\",\"parliament\",\"strike\",\"rioting\"],\"target_related\":[\"rioting\",\"Thessaloniki\",\"Athens\",\"strike\",\"demonstrators\",\"parliament\",\"youths\",\"petrol bombs\",\"stores\",\"businesses\",\"protestors\",\"police\",\"battles\",\"budget cuts\",\"bankruptcy\"],\"mediators\":[\"rioting\",\"Athens\",\"strike\",\"demonstrators\",\"parliament\",\"youths\",\"petrol bombs\",\"stores\",\"businesses\",\"protestors\",\"police\",\"battles\",\"budget cuts\",\"bankruptcy\"]}"
+    },
+    "indirect": {
+      "call_id": "61295192884c8acddb47d6c41eae4d6da1eab96c53dba05850ef28444ac5ee4c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"The attack (petrol bombs) provoked rioting, and the rioting spread to Thessaloniki, forming a chain: attack -> rioting -> spread.\"}"
+    }
+  },
+  "call_ids": [
+    "e40139a07a494cbcdc180dbc7c9115525a626df194a713fdd0a473c3100382f8",
+    "e40139a07a494cbcdc180dbc7c9115525a626df194a713fdd0a473c3100382f8",
+    "ecef19017a9c8c1a46f63c6fc6698523003f4c124a3ebfc8274187503faa1bc9",
+    "4d0cda16de2a0a3ea1181527d3a1ba18a25f0b199f622ea64f82e6145ed76ab0",
+    "d355955f20e74ab88622e31703f5f2375d8822068e678f249ea5d7d5b75b36b5",
+    "61295192884c8acddb47d6c41eae4d6da1eab96c53dba05850ef28444ac5ee4c"
+  ],
+  "elapsed_s": 4.927564859390259
+}

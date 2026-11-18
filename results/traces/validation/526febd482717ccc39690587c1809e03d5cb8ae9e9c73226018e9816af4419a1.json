@@ -1,0 +1,65 @@
+{
+  "input_hash": "526febd482717ccc39690587c1809e03d5cb8ae9e9c73226018e9816af4419a1",
+  "sample_id": "ESC-CSV-01982",
+  "scope": "inter",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Los Angeles County Sheriff's Department",
+    "deputy",
+    "shooting",
+    "Friday afternoon",
+    "Hawaiian Gardens",
+    "sheriff's department"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "38b7c6e253e5fe94f10aa65d0741a7f8f9a1ba4fa6666d7cfa26361d9915ac72",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "38b7c6e253e5fe94f10aa65d0741a7f8f9a1ba4fa6666d7cfa26361d9915ac72",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9afc70f8cedd6427a016207cd9ba74efee4dfce9dd7fa17cc5b88deae1aae92a",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "f71f8491a190b716ab19fa55ce5ffe12b9f3f8bcf5265fd022c7b7786714ecb1",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "f8dead5c8d5f4d20c3eb680cf869ea25987bca21ba938087270d60fce6986346",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Ortiz\",\"head\",\"Larry Waldie\",\"sheriff's department\",\"Los Angeles County Sheriff's Department\",\"deputy\",\"shooting\",\"Friday afternoon\",\"Hawaiian Gardens\"],\"target_related\":[\"Los Angeles County Sheriff's Department\",\"deputy\",\"recently married\",\"father of two sons\",\"shooting\",\"Friday afternoon\",\"Hawaiian Gardens\",\"sheriff's department\"],\"mediators\":[\"Los Angeles County Sheriff's Department\",\"deputy\",\"shooting\",\"Friday afternoon\",\"Hawaiian Gardens\",\"sheriff's department\"]}"
+    },
+    "indirect": {
+      "call_id": "d6a54dd69f63b6e42e83885f5d5e6132ed3ecb057037ebbf44e5502d7562ed04",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[3],\"evidence\":\"Being shot in the head precedes and causes death by common sense; text says deputy died after a shooting.\"}"
+    }
+  },
+  "call_ids": [
+    "38b7c6e253e5fe94f10aa65d0741a7f8f9a1ba4fa6666d7cfa26361d9915ac72",
+    "38b7c6e253e5fe94f10aa65d0741a7f8f9a1ba4fa6666d7cfa26361d9915ac72",
+    "9afc70f8cedd6427a016207cd9ba74efee4dfce9dd7fa17cc5b88deae1aae92a",
+    "f71f8491a190b716ab19fa55ce5ffe12b9f3f8bcf5265fd022c7b7786714ecb1",
+    "f8dead5c8d5f4d20c3eb680cf869ea25987bca21ba938087270d60fce6986346",
+    "d6a54dd69f63b6e42e83885f5d5e6132ed3ecb057037ebbf44e5502d7562ed04"
+  ],
+  "elapsed_s": 6.007785081863403
+}

@@ -1,0 +1,63 @@
+{
+  "input_hash": "347d9ca6cf2a2d8a9b33493d608896e5756517baffef3998f34f0f491a732e38",
+  "sample_id": "ESC-CSV-09718",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "protesters",
+    "torched",
+    "cars",
+    "fire truck"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "4ae517362b0ae4e7540d630b6e1b0d909b9a507a93f2a1ee4d36ee7317e0faa7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "4ae517362b0ae4e7540d630b6e1b0d909b9a507a93f2a1ee4d36ee7317e0faa7",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "405c5c13edf4ded46c8eb1e77cb08edd0652a5973c1d096590788c57d4335a29",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "38d92a73d88e72cb11063dfb12e89225788c7e9b73b17114c09f79007f70275b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "c98277df0afa2df1a4a7f0a925220bdf38c243c47419292408ca0c16d899d25c",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Police\",\"injured\",\"people\",\"protesters\",\"torched\",\"cars\",\"fire truck\"],\"target_related\":[\"Firefighters\",\"blazes\",\"buildings\",\"bank\",\"branch\",\"Finance Ministry\",\"protesters\",\"barricades\",\"torched\",\"cars\",\"fire truck\"],\"mediators\":[\"protesters\",\"torched\",\"cars\",\"fire truck\"]}"
+    },
+    "indirect": {
+      "call_id": "450f80263c9c9de2f0106955c7769de33d9ef7b6d6c059afaeadb4786a9a6e8c",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[6],\"evidence\":\"Protesters (Z) linked to riots and to burning barricades/cars; riots involve protesters who set burning objects, forming chain riots->protesters->burning.\"}"
+    }
+  },
+  "call_ids": [
+    "4ae517362b0ae4e7540d630b6e1b0d909b9a507a93f2a1ee4d36ee7317e0faa7",
+    "4ae517362b0ae4e7540d630b6e1b0d909b9a507a93f2a1ee4d36ee7317e0faa7",
+    "405c5c13edf4ded46c8eb1e77cb08edd0652a5973c1d096590788c57d4335a29",
+    "38d92a73d88e72cb11063dfb12e89225788c7e9b73b17114c09f79007f70275b",
+    "c98277df0afa2df1a4a7f0a925220bdf38c243c47419292408ca0c16d899d25c",
+    "450f80263c9c9de2f0106955c7769de33d9ef7b6d6c059afaeadb4786a9a6e8c"
+  ],
+  "elapsed_s": 4.549663305282593
+}

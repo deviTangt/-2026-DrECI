@@ -1,0 +1,62 @@
+{
+  "input_hash": "561804ef1eba96c8f4131a3e2206067e151e1a1b5ebc131d4a0936f5f3381148",
+  "sample_id": "ESC-CSV-02030",
+  "scope": "intra",
+  "split": "validation",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "man",
+    "fleeing",
+    "police officers"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "7d1baa4ef69839b27d579040ec7e1132eeeb75c99ac6c9d1a416e1f8633e2d84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "7d1baa4ef69839b27d579040ec7e1132eeeb75c99ac6c9d1a416e1f8633e2d84",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "1bc3f9b1366a5f9ce32d3ba87f795e19a2a37fdc5cbc28547893d8d2ff796068",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "1bc9e7d7f005202dd31b27d19cd1711a14eb09ac5581774dd0fb81054eb2dc01",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "a6a6e1a1b07117ca35a897171d85d6d6d33a07e5ac23a17b6015dfec38b039f0",
+      "status": "ok",
+      "text": "{\"source_related\":[\"man\",\"fired\",\"job\",\"accounting firm\",\"suburban Detroit\",\"former office\",\"shotgun\",\"Monday\",\"three people\",\"killing\",\"one\",\"fleeing\",\"police officers\"],\"target_related\":[\"man\",\"fleeing\",\"police officers\",\"high-speed\",\"authorities\"],\"mediators\":[\"man\",\"fleeing\",\"police officers\"]}"
+    },
+    "indirect": {
+      "call_id": "84f92464e3244e98dad1bdd00e1ee7ec2fd3cb635b6783852abeb9bebd6f0499",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"Text says he shot three people 'before fleeing and leading police officers on a high-speed chase'; 'leading' explicitly links the shooting/fleeing to the chase.\"}"
+    }
+  },
+  "call_ids": [
+    "7d1baa4ef69839b27d579040ec7e1132eeeb75c99ac6c9d1a416e1f8633e2d84",
+    "7d1baa4ef69839b27d579040ec7e1132eeeb75c99ac6c9d1a416e1f8633e2d84",
+    "1bc3f9b1366a5f9ce32d3ba87f795e19a2a37fdc5cbc28547893d8d2ff796068",
+    "1bc9e7d7f005202dd31b27d19cd1711a14eb09ac5581774dd0fb81054eb2dc01",
+    "a6a6e1a1b07117ca35a897171d85d6d6d33a07e5ac23a17b6015dfec38b039f0",
+    "84f92464e3244e98dad1bdd00e1ee7ec2fd3cb635b6783852abeb9bebd6f0499"
+  ],
+  "elapsed_s": 4.594882249832153
+}

@@ -1,0 +1,66 @@
+{
+  "input_hash": "7fef9344a47e391f59feddee844519793001f70ea94b659f6ff0b8cbd488e27f",
+  "sample_id": "ESC-CSV-06809",
+  "scope": "inter",
+  "split": "test",
+  "e0": 1,
+  "votes": [
+    1,
+    1,
+    1
+  ],
+  "yes_count": 3,
+  "mediators": [
+    "Horton",
+    "died",
+    "shooting",
+    "Brownsville",
+    "school",
+    "Friday",
+    "Zurana Horton"
+  ],
+  "route": "indirect",
+  "e1": 1,
+  "pipeline_status": "ok",
+  "stages": {
+    "E0": {
+      "call_id": "ebb15fa95dbaf4cd98535af7b8f5ca2c5be00a5a4a54810f01bb3373a5f12820",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causal": {
+      "call_id": "ebb15fa95dbaf4cd98535af7b8f5ca2c5be00a5a4a54810f01bb3373a5f12820",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causation": {
+      "call_id": "9a92e4a37753a035e607df55ff0b17b6034c5c692526b7648d3817e110dbe20b",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "explorer_causality": {
+      "call_id": "8229df3f16e1530259361e7e9eec9a91c5ba30665f12dbae43501da1504e1d56",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\"}"
+    },
+    "mediator": {
+      "call_id": "e09b370e235eba539ae636fb1cd914a76e87aaff00ce3bc9bdadc8a8d679efcc",
+      "status": "ok",
+      "text": "{\"source_related\":[\"Horton\",\"died\",\"face\",\"chest\",\"students\",\"gunfire\",\"Andrew Lopez\",\"teens\",\"arrested\",\"Tuesday\",\"shooting\",\"Friday\",\"Brownsville\",\"school\",\"Zurana Horton\"],\"target_related\":[\"Horton\",\"died\",\"34 - year old\",\"Zurana Horton\",\"shooting\",\"Brownsville\",\"school\",\"Friday\"],\"mediators\":[\"Horton\",\"died\",\"shooting\",\"Brownsville\",\"school\",\"Friday\",\"Zurana Horton\"]}"
+    },
+    "indirect": {
+      "call_id": "322f1c9dda244907e1d9c6443a2fbd2557c89b489276086dc2a1e80dcdf69875",
+      "status": "ok",
+      "text": "{\"Answer\":\"Yes\",\"matched_rules\":[1,3],\"evidence\":\"The shooting 'claimed the life' of Horton, who 'died instantly from a shot'; the shot caused her death, so the shot claimed her life.\"}"
+    }
+  },
+  "call_ids": [
+    "ebb15fa95dbaf4cd98535af7b8f5ca2c5be00a5a4a54810f01bb3373a5f12820",
+    "ebb15fa95dbaf4cd98535af7b8f5ca2c5be00a5a4a54810f01bb3373a5f12820",
+    "9a92e4a37753a035e607df55ff0b17b6034c5c692526b7648d3817e110dbe20b",
+    "8229df3f16e1530259361e7e9eec9a91c5ba30665f12dbae43501da1504e1d56",
+    "e09b370e235eba539ae636fb1cd914a76e87aaff00ce3bc9bdadc8a8d679efcc",
+    "322f1c9dda244907e1d9c6443a2fbd2557c89b489276086dc2a1e80dcdf69875"
+  ],
+  "elapsed_s": 4.502225875854492
+}
